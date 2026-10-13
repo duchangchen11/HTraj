@@ -1,0 +1,31 @@
+# Design specification only. No training entry point consumes this file yet.
+stage: 1
+status: unimplemented
+training_authorized: false
+task:
+  observation_frames: 8
+  prediction_frames: 12
+  input_coordinates: 2
+prototype:
+  hidden_dimension: 64
+  maximum_social_order: 3
+  incoming_neighbors: 8
+  first_frame_social_edges: false
+  time_order: strictly_increasing
+  ego_encoder: prefix_gru
+  prediction_head: shared_deterministic_mlp
+design_a:
+  update: previous_frame_snapshot
+  order_parameters_shared: false
+  waiting_increments_social_order: false
+design_b:
+  event: directed_person_person_timestamp
+  maximum_predecessor_gap_frames: 2
+  predecessor_condition: previous_destination_equals_current_source
+  empty_order_state: zero_and_invalid
+  immediate_backtracking_allowed: true
+evaluation_plan:
+  dataset: ETH_UCY
+  split: five_scene_leave_one_out_with_training_only_validation
+  seeds: [17, 42, 2026]
+  probabilistic_samples_if_enabled: 20

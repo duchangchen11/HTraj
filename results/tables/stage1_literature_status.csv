@@ -1,0 +1,8 @@
+method,year,verification_scope,training_reproduced,status
+HighGraph,2024,main_and_supplement,false,verified
+UniEdge,2025,full_accepted_paper_and_static_code,false,verified_with_code_caveat
+HoGAT,2025,metadata_and_licensed_author_abstract,false,full_text_pending
+GroupNet,2022,main_paper_structure,false,verified
+TGN,2020,original_methods,false,verified
+DBGNN,2022,original_background_and_methods,false,verified
+MixHop,2019,original_abstract_and_metadata,false,partial

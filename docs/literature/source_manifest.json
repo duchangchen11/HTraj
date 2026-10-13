@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "highgraph",
+      "title": "HighGraph",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf",
+      "access_date": "2026-10-14",
+      "sha256": "9593940f1813e32723708179c5478e444a5656e1db66f8469a80423c1f73b7d4",
+      "bytes": 2006835,
+      "verification_scope": "full main paper, 10 pages"
+    },
+    {
+      "id": "highgraph_supp",
+      "title": "HighGraph supplementary",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/supplemental/Kim_Higher-order_Relational_Reasoning_CVPR_2024_supplemental.pdf",
+      "access_date": "2026-10-14",
+      "sha256": "abef58474f3941fd3c577d2ffc8653725829bdca1a0731734a8187c497d72c80",
+      "bytes": 648662,
+      "verification_scope": "full supplementary material"
+    },
+    {
+      "id": "uniedge",
+      "title": "UniEdge",
+      "url": "https://www.hubertshum.com/publications/tcsvt2025trajectory/files/tcsvt2025trajectory.pdf",
+      "access_date": "2026-10-14",
+      "sha256": "1eee06c872c021ae1ecf0fc916469b5bfe46797bc2e06d0a2d307c034402c036",
+      "bytes": 8297890,
+      "verification_scope": "full accepted manuscript, 14 pages; official code static inspection"
+    },
+    {
+      "id": "groupnet",
+      "title": "GroupNet",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_GroupNet_Multiscale_Hypergraph_Neural_Networks_for_Trajectory_Prediction_With_Relational_CVPR_2022_paper.pdf",
+      "access_date": "2026-10-14",
+      "sha256": "f5a74d5540c479f0e826453c276cad66587727a22dc2360ab631d6ddcc16beab",
+      "bytes": 2909991,
+      "verification_scope": "main paper read; architecture and relational modules"
+    },
+    {
+      "id": "tgn",
+      "title": "TGN",
+      "url": "https://arxiv.org/pdf/2006.10637",
+      "access_date": "2026-10-14",
+      "sha256": "580113858f363b80388bbf7c1b2a42482cfb9b6debdb3db2cdde8cb6db8166c0",
+      "bytes": 770389,
+      "verification_scope": "original methods section: messages, aggregation, memory, embedding"
+    },
+    {
+      "id": "dbgnn",
+      "title": "DBGNN",
+      "url": "https://proceedings.mlr.press/v198/qarkaxhija22a/qarkaxhija22a.pdf",
+      "access_date": "2026-10-14",
+      "sha256": "bc034fa19ddedaca1f762150f83dbd3b4c28da4740c7a82370cb8ee13843e33a",
+      "bytes": 1154681,
+      "verification_scope": "original background and architecture: time-respecting walks and higher-order graphs"
+    },
+    {
+      "id": "hogat",
+      "title": "HoGAT",
+      "url": "https://doi.org/10.1080/21680566.2025.2532650",
+      "access_date": "2026-10-14",
+      "verification_scope": "Crossref metadata and licensed author-abstract reprint only; full text pending",
+      "abstract_url": "https://trid.trb.org/View/2643271",
+      "full_text_status": "publisher HTTP 403"
+    },
+    {
+      "id": "mixhop",
+      "title": "MixHop",
+      "url": "https://proceedings.mlr.press/v97/abu-el-haija19a.html",
+      "access_date": "2026-10-14",
+      "verification_scope": "publisher metadata and original abstract only"
+    }
+  ],
+  "code_audit": {
+    "repository": "https://github.com/Carrotsniper/UniEdge",
+    "commit": "b8ebe58134d3124e6b4a505af23cd80c76aba543",
+    "mode": "static inspection only",
+    "files": [
+      "model.py",
+      "utils/tools.py",
+      "layers/gcn_family.py",
+      "layers/SelfAttention_Family.py"
+    ]
+  }
+}

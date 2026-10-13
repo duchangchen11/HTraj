@@ -1,0 +1,67 @@
+# Datasets and preprocessing artifacts: keep directory placeholders only.
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/data/external/
+# Weights, checkpoints and binary training caches, wherever produced.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+checkpoints/
+weights/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+events.out.tfevents.*
+*.log
+*.jsonl
+/experiments/**/logs/
+/experiments/**/cache/
+/experiments/**/runs/
+/results/predictions/
+# Environments and Python/tool caches.
+.venv/
+venv/
+env/
+envs/
+.conda/
+conda-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.cache/
+tmp/
+*.tmp
+# Accounts, keys and local configuration.
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+credentials*
+*credentials*.json
+*token*.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.netrc
+.pypirc
+# Licensed source PDFs stay local; publish analysis and references instead.
+/docs/literature/sources/
+.DS_Store
