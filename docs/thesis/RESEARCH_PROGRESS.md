@@ -10,7 +10,7 @@
 - 阅读 GroupNet 正文、TGN/DBGNN 方法，核查 HoGAT 书目信息和获授权转载摘要。
 - 完成高阶传播比较、A/B 数学结构、共享数据接口、复杂度及实验计划。
 - 建立六章大论文框架与 Stage 1 总报告。没有模型实现、数据下载、训练、benchmark 或论文图片结果。
-- Git 提交和远程同步结果以 [仓库审计](../../reports/stage1/REPOSITORY_AUDIT.md) 的交付流程及最终远程核验为准；不把未完成 push 写成成功。
+- 本地 main 已提交阶段研究材料（初始提交 `2f09367`）；Git HTTPS push 因无法读取用户名失败。远程尚未同步，完整成果和追加失败记录均保留本地；详见 [仓库审计](../../reports/stage1/REPOSITORY_AUDIT.md)。
 
 ## 当前问题
 

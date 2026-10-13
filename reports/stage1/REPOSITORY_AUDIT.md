@@ -29,3 +29,17 @@ README、AGENTS、忽略规则、目录占位、设计 YAML、文献及方法分
 阶段提交使用 `docs: establish HTraj research framework and stage1 study`。push 前再次查询远程并 fetch；若有新远程历史则停止、报告，不自动合并不相干历史。空远程时正常 `git push -u origin main`，不 force。push 后查询远程 main SHA 并与本地 HEAD 比较，检查工作树干净。
 
 该文件是首次阶段提交的一部分，不能在提交内记录其自己的最终 SHA。**最终 SHA、push 实际结果和远程核验在用户最终反馈中记录**，也可由本地 `git log -1` 与 `git ls-remote origin refs/heads/main` 重现。若认证失败，保留本地提交；不得把流程描述当作成功证据。
+
+## 实际发布结果：认证阻塞
+
+初始研究提交 `2f09367` 已在本地 main 创建，消息为 `docs: establish HTraj research framework and stage1 study`，共 32 文件、1274 行新增。staged diff 首次检查发现 CSV 的 CRLF 被判为尾随空白，改为 LF 后重新检查全部通过再提交。
+
+执行 `git push -u origin main` 失败，退出码 128，具体错误：
+
+```text
+fatal: could not read Username for 'https://github.com': No such device or address
+```
+
+已连接 GitHub 应用可核查账户身份，但本机 Git HTTPS 未获得认证用户名/凭据，不能据应用连接状态声称 shell push 已授权认证成功。本次不再次尝试推送、不修改凭据、不强推。初始提交完整保留；追加本失败记录和进度更新为独立本地提交，不重写初始历史。远程 main 尚未发布，无法核验远程包含本次提交。
+
+后续须先配置可用的本机 GitHub HTTPS 或 SSH 认证，再查询远程历史。若远程仍为空正常推送 main；若已有他人提交先检查差异，冲突停止。当前无需重新生成研究材料。
