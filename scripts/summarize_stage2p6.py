@@ -52,7 +52,9 @@ def main():
            ('TOHI-H2','Dynamic-GNN-RN'),('TOHI-H3','Dynamic-GNN-RN'),('TOHI-NoOrder','Dynamic-GNN-RN'),
            ('TOHI-H1','PedBase'),('TOHI-H2','PedBase'),('TOHI-H3','PedBase'),('TOHI-NoOrder','PedBase'),
            ('TOHI-H1-Cap','TOHI-H1'),('TOHI-H2-Cap','TOHI-H2'),
-           ('TOHI-H2','TOHI-H1-Cap'),('TOHI-H3','TOHI-H2-Cap')]
+           ('TOHI-H2','TOHI-H1-Cap'),('TOHI-H3','TOHI-H2-Cap'),
+           ('TOHI-H2-Cap','TOHI-H1-Cap'),('TOHI-H1-Cap','PedBase'),('TOHI-H2-Cap','PedBase'),
+           ('TOHI-H1-Cap','Dynamic-GNN-RN'),('TOHI-H2-Cap','Dynamic-GNN-RN')]
     pair_rows=[]; pair_summary=[]
     for a,b in pairs:
         record=dict(model=a,reference=b,n=3,interpretation='model minus reference; negative better; paired seeds, development only')
