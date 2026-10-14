@@ -71,7 +71,7 @@ def main():
         origin_manifest_sha256=sha256(oldpath),pilot_recording=rec,old_development_exact_window_overlap=sum(w['sample_id'] in olddev for w in newval),
         pilot_validation_windows=len(newval),no_old_validation_in_new_training=True,no_recording_overlap=True,ETH_evaluated=False,
         temporal_support='20 calibrated frames span190 frame-ID ticks; source-recording isolation is stronger than temporal embargo within these new folds',
-        historical_exposure='all five recordings used by previous experiments; fresh models exclude held recording but this is not previously untouched confirmation data')))
+        historical_exposure='all five recordings used by previous experiments; fresh models exclude held recording but this is not previously untouched confirmation data'))
     print('prepared',len(summaries),'split rows and',len(group_rows),'group counts')
 
 
