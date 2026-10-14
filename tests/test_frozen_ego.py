@@ -144,3 +144,18 @@ def test_history_groups_invariant_to_future_ground_truth():
     b, _ = history_groups(dict(batch, future=batch['future']*100))
     assert all(torch.equal(a[g], b[g]) for g in a)
     assert a['history_CV_like'].all() and not a['history_velocity_changing'].any()
+
+
+def test_cv_output_anchor_does_not_fall_back_to_neural_decoder_predictions():
+    from src.models.relation_routing import HistoricalCV
+    observed, valid = scene(); observed[:, :, 2] += 50
+    anchor = PedBase()
+    with torch.no_grad():
+        anchor.decoder.head[-1].bias.fill_(100)
+    model = FrozenEgoResidual(anchor, 'Social-Current', cv_output=True)
+    nonzero_branch(model)
+    prediction, debug = model(observed, valid, return_debug=True)
+    cv = HistoricalCV()(observed, valid)
+    assert torch.equal(debug['base_prediction'], cv)
+    assert torch.equal(prediction[:, :, 2], cv[:, :, 2])
+    assert not torch.equal(anchor(observed, valid), cv)
