@@ -1,0 +1,72 @@
+{
+  "additional_loss": false,
+  "augmentation": false,
+  "base_commit": "2d786785813ee298af1cb148999e13a21ffab0c6",
+  "batch_size": 8,
+  "best_epoch_rule": "minimum validation ADE, earliest epoch on exact tie; report paired FDE of that epoch",
+  "capacity_rule": "Historic vs NoUpdate exactly same parameters; current MLP and uniform independently trained; dead scoring modules counted separately",
+  "confirmation_guard_ticks": 200,
+  "confirmation_minimum_nonoverlapping_windows": 30,
+  "convergence_rule": "relative train loss decrease in final five epochs < 2%; diagnostic only, not proof of optimum",
+  "cpu_threads": 1,
+  "data_manifest": "configs/data_manifests/stage2_v1/fold_ETH.json",
+  "decoder_changes": false,
+  "epochs": 30,
+  "first_round_models": [
+    "CV",
+    "PedBase",
+    "Dynamic-GNN-RN",
+    "Receiver-Fix",
+    "Relation-Routing"
+  ],
+  "frozen_models": [
+    "PedBase",
+    "Dynamic-GNN-RN"
+  ],
+  "gradient_clip": 1.0,
+  "groups": "original Stage2p5 groups plus all history bins and entrant neighbor groups",
+  "held_out_scene": "ETH",
+  "hidden_dim": 64,
+  "initial_residual_gate": 0.05,
+  "initialization": "unchanged full random H3 template truncated to H1; shared encoder/projection/carry/fusion/decoder identical per seed; new route modules initialized afterwards",
+  "interpretation": "paired three seed development differences, no significance/generalization claim; independent training vs inference separated",
+  "learning_rate": 0.001,
+  "loss": "masked_per_track_mean_L2",
+  "max_neighbors": 8,
+  "max_order": 1,
+  "metrics": "K1 ADE/FDE meters; fixed final-horizon FDE mask",
+  "negative_controls": "Routing-Random independently trained: same receiver indegree, same scene, reliable source, no self/no duplicates; explicitly relax radius4; fixed hash of history positions for reproducible random ranking",
+  "negative_seed": 1726,
+  "new_models": [
+    "Receiver-Fix",
+    "Relation-Routing",
+    "Routing-Current",
+    "Routing-NoUpdate",
+    "Routing-Uniform",
+    "Routing-Random"
+  ],
+  "path_statistics": "direct pair persistence only",
+  "prediction_steps": 12,
+  "radius": 4.0,
+  "raw_root": "data/raw/eth_ucy",
+  "relation_dim": 24,
+  "relation_input_dim": 12,
+  "relation_intervention_legality": "all: continuous same-scene no-self no-duplicate history endpoints; nonlocal controls explicitly relax4m radius",
+  "scale_control_trained": false,
+  "schema_version": 1,
+  "seeds": [
+    17
+  ],
+  "selection_rule": {
+    "max_social_models": 2,
+    "memory_evidence": "Routing must beat equal-parameter NoUpdate best ADE by >=0.5%; otherwise receiver policy only candidate",
+    "primary": "best ADE <= 0.99 * both PedBase and DynamicRN; paired FDE <= 1.01 * both; full8 ADE <= 1.01 * PedBase",
+    "ranking": "qualified by overall ADE then paired FDE; maximum2; seeds17/42/2026 fixed; no seed retries",
+    "targeted": "one-frame+neighbors ADE <= 0.90 * PedBase (>=10 evaluable targets), overall ADE/FDE <= 1.01 * both refs, full8 ADE <= 1.01 * PedBase"
+  },
+  "stage": "3",
+  "stop_rule": "if no candidate passes first-round criteria, do not run round2; stop adding modules; analyze failure",
+  "subset_manifest": "configs/stage2p5/subset_1024.json",
+  "test_evaluation": false,
+  "time_control": "one-hop only; edge GRU causal prefixes; no added social orders"
+}

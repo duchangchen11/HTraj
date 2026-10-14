@@ -1,0 +1,2755 @@
+{
+  "data_manifest": "configs/data_manifests/stage2_v1/fold_ETH.json",
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "development_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1",
+  "isolation_guard_ticks": 200,
+  "isolation_guard_seconds": 8.0,
+  "whole_window_support": "observed8+future12",
+  "eligible_indices": [],
+  "eligible_windows": 0,
+  "enough": false,
+  "status": "unavailable",
+  "test_evaluated": false,
+  "audit": [
+    {
+      "index": 0,
+      "sample_id": "biwi_hotel:14800",
+      "conflicts": 7
+    },
+    {
+      "index": 1,
+      "sample_id": "biwi_hotel:14810",
+      "conflicts": 7
+    },
+    {
+      "index": 2,
+      "sample_id": "biwi_hotel:14820",
+      "conflicts": 7
+    },
+    {
+      "index": 3,
+      "sample_id": "biwi_hotel:14830",
+      "conflicts": 7
+    },
+    {
+      "index": 4,
+      "sample_id": "biwi_hotel:14840",
+      "conflicts": 7
+    },
+    {
+      "index": 5,
+      "sample_id": "biwi_hotel:14850",
+      "conflicts": 7
+    },
+    {
+      "index": 6,
+      "sample_id": "biwi_hotel:14860",
+      "conflicts": 7
+    },
+    {
+      "index": 7,
+      "sample_id": "biwi_hotel:14870",
+      "conflicts": 7
+    },
+    {
+      "index": 8,
+      "sample_id": "biwi_hotel:14880",
+      "conflicts": 7
+    },
+    {
+      "index": 9,
+      "sample_id": "biwi_hotel:14890",
+      "conflicts": 7
+    },
+    {
+      "index": 10,
+      "sample_id": "biwi_hotel:14900",
+      "conflicts": 7
+    },
+    {
+      "index": 11,
+      "sample_id": "biwi_hotel:14910",
+      "conflicts": 7
+    },
+    {
+      "index": 12,
+      "sample_id": "biwi_hotel:14920",
+      "conflicts": 7
+    },
+    {
+      "index": 13,
+      "sample_id": "biwi_hotel:14930",
+      "conflicts": 7
+    },
+    {
+      "index": 14,
+      "sample_id": "biwi_hotel:14940",
+      "conflicts": 7
+    },
+    {
+      "index": 15,
+      "sample_id": "biwi_hotel:14950",
+      "conflicts": 7
+    },
+    {
+      "index": 16,
+      "sample_id": "biwi_hotel:14960",
+      "conflicts": 7
+    },
+    {
+      "index": 17,
+      "sample_id": "biwi_hotel:14970",
+      "conflicts": 7
+    },
+    {
+      "index": 18,
+      "sample_id": "biwi_hotel:14980",
+      "conflicts": 7
+    },
+    {
+      "index": 19,
+      "sample_id": "biwi_hotel:14990",
+      "conflicts": 7
+    },
+    {
+      "index": 20,
+      "sample_id": "biwi_hotel:15000",
+      "conflicts": 7
+    },
+    {
+      "index": 21,
+      "sample_id": "biwi_hotel:15010",
+      "conflicts": 7
+    },
+    {
+      "index": 22,
+      "sample_id": "biwi_hotel:15020",
+      "conflicts": 7
+    },
+    {
+      "index": 23,
+      "sample_id": "biwi_hotel:15030",
+      "conflicts": 7
+    },
+    {
+      "index": 24,
+      "sample_id": "biwi_hotel:15040",
+      "conflicts": 7
+    },
+    {
+      "index": 25,
+      "sample_id": "biwi_hotel:15050",
+      "conflicts": 7
+    },
+    {
+      "index": 26,
+      "sample_id": "biwi_hotel:15060",
+      "conflicts": 7
+    },
+    {
+      "index": 27,
+      "sample_id": "biwi_hotel:15810",
+      "conflicts": 7
+    },
+    {
+      "index": 28,
+      "sample_id": "biwi_hotel:15820",
+      "conflicts": 7
+    },
+    {
+      "index": 29,
+      "sample_id": "biwi_hotel:15830",
+      "conflicts": 7
+    },
+    {
+      "index": 30,
+      "sample_id": "biwi_hotel:15840",
+      "conflicts": 7
+    },
+    {
+      "index": 31,
+      "sample_id": "biwi_hotel:15850",
+      "conflicts": 7
+    },
+    {
+      "index": 32,
+      "sample_id": "biwi_hotel:15860",
+      "conflicts": 7
+    },
+    {
+      "index": 33,
+      "sample_id": "biwi_hotel:15870",
+      "conflicts": 8
+    },
+    {
+      "index": 34,
+      "sample_id": "biwi_hotel:15880",
+      "conflicts": 8
+    },
+    {
+      "index": 35,
+      "sample_id": "biwi_hotel:15890",
+      "conflicts": 8
+    },
+    {
+      "index": 36,
+      "sample_id": "biwi_hotel:15900",
+      "conflicts": 8
+    },
+    {
+      "index": 37,
+      "sample_id": "biwi_hotel:15910",
+      "conflicts": 8
+    },
+    {
+      "index": 38,
+      "sample_id": "biwi_hotel:15920",
+      "conflicts": 8
+    },
+    {
+      "index": 39,
+      "sample_id": "biwi_hotel:15930",
+      "conflicts": 8
+    },
+    {
+      "index": 40,
+      "sample_id": "biwi_hotel:15940",
+      "conflicts": 8
+    },
+    {
+      "index": 41,
+      "sample_id": "biwi_hotel:15950",
+      "conflicts": 8
+    },
+    {
+      "index": 42,
+      "sample_id": "biwi_hotel:15960",
+      "conflicts": 8
+    },
+    {
+      "index": 43,
+      "sample_id": "biwi_hotel:15970",
+      "conflicts": 9
+    },
+    {
+      "index": 44,
+      "sample_id": "biwi_hotel:15980",
+      "conflicts": 9
+    },
+    {
+      "index": 45,
+      "sample_id": "biwi_hotel:15990",
+      "conflicts": 9
+    },
+    {
+      "index": 46,
+      "sample_id": "biwi_hotel:16000",
+      "conflicts": 9
+    },
+    {
+      "index": 47,
+      "sample_id": "biwi_hotel:16010",
+      "conflicts": 9
+    },
+    {
+      "index": 48,
+      "sample_id": "biwi_hotel:16020",
+      "conflicts": 9
+    },
+    {
+      "index": 49,
+      "sample_id": "biwi_hotel:16030",
+      "conflicts": 9
+    },
+    {
+      "index": 50,
+      "sample_id": "biwi_hotel:16040",
+      "conflicts": 9
+    },
+    {
+      "index": 51,
+      "sample_id": "biwi_hotel:16050",
+      "conflicts": 9
+    },
+    {
+      "index": 52,
+      "sample_id": "biwi_hotel:16060",
+      "conflicts": 9
+    },
+    {
+      "index": 53,
+      "sample_id": "biwi_hotel:16070",
+      "conflicts": 9
+    },
+    {
+      "index": 54,
+      "sample_id": "biwi_hotel:16080",
+      "conflicts": 9
+    },
+    {
+      "index": 55,
+      "sample_id": "biwi_hotel:16090",
+      "conflicts": 9
+    },
+    {
+      "index": 56,
+      "sample_id": "biwi_hotel:16100",
+      "conflicts": 9
+    },
+    {
+      "index": 57,
+      "sample_id": "biwi_hotel:16110",
+      "conflicts": 10
+    },
+    {
+      "index": 58,
+      "sample_id": "biwi_hotel:16120",
+      "conflicts": 10
+    },
+    {
+      "index": 59,
+      "sample_id": "biwi_hotel:16130",
+      "conflicts": 10
+    },
+    {
+      "index": 60,
+      "sample_id": "biwi_hotel:16140",
+      "conflicts": 11
+    },
+    {
+      "index": 61,
+      "sample_id": "biwi_hotel:16150",
+      "conflicts": 11
+    },
+    {
+      "index": 62,
+      "sample_id": "biwi_hotel:16160",
+      "conflicts": 12
+    },
+    {
+      "index": 63,
+      "sample_id": "biwi_hotel:16170",
+      "conflicts": 13
+    },
+    {
+      "index": 64,
+      "sample_id": "biwi_hotel:16180",
+      "conflicts": 13
+    },
+    {
+      "index": 65,
+      "sample_id": "biwi_hotel:16190",
+      "conflicts": 13
+    },
+    {
+      "index": 66,
+      "sample_id": "biwi_hotel:16200",
+      "conflicts": 13
+    },
+    {
+      "index": 67,
+      "sample_id": "biwi_hotel:16210",
+      "conflicts": 13
+    },
+    {
+      "index": 68,
+      "sample_id": "biwi_hotel:16220",
+      "conflicts": 13
+    },
+    {
+      "index": 69,
+      "sample_id": "biwi_hotel:16230",
+      "conflicts": 13
+    },
+    {
+      "index": 70,
+      "sample_id": "biwi_hotel:16240",
+      "conflicts": 13
+    },
+    {
+      "index": 71,
+      "sample_id": "biwi_hotel:16250",
+      "conflicts": 14
+    },
+    {
+      "index": 72,
+      "sample_id": "biwi_hotel:16260",
+      "conflicts": 14
+    },
+    {
+      "index": 73,
+      "sample_id": "biwi_hotel:16270",
+      "conflicts": 14
+    },
+    {
+      "index": 74,
+      "sample_id": "biwi_hotel:16280",
+      "conflicts": 13
+    },
+    {
+      "index": 75,
+      "sample_id": "biwi_hotel:16290",
+      "conflicts": 13
+    },
+    {
+      "index": 76,
+      "sample_id": "biwi_hotel:16300",
+      "conflicts": 12
+    },
+    {
+      "index": 77,
+      "sample_id": "biwi_hotel:16310",
+      "conflicts": 11
+    },
+    {
+      "index": 78,
+      "sample_id": "biwi_hotel:16320",
+      "conflicts": 11
+    },
+    {
+      "index": 79,
+      "sample_id": "biwi_hotel:16330",
+      "conflicts": 11
+    },
+    {
+      "index": 80,
+      "sample_id": "biwi_hotel:16340",
+      "conflicts": 11
+    },
+    {
+      "index": 81,
+      "sample_id": "biwi_hotel:16350",
+      "conflicts": 10
+    },
+    {
+      "index": 82,
+      "sample_id": "biwi_hotel:16360",
+      "conflicts": 10
+    },
+    {
+      "index": 83,
+      "sample_id": "biwi_hotel:16370",
+      "conflicts": 10
+    },
+    {
+      "index": 84,
+      "sample_id": "biwi_hotel:16380",
+      "conflicts": 10
+    },
+    {
+      "index": 85,
+      "sample_id": "biwi_hotel:16390",
+      "conflicts": 10
+    },
+    {
+      "index": 86,
+      "sample_id": "biwi_hotel:16400",
+      "conflicts": 10
+    },
+    {
+      "index": 87,
+      "sample_id": "biwi_hotel:16410",
+      "conflicts": 10
+    },
+    {
+      "index": 88,
+      "sample_id": "biwi_hotel:16420",
+      "conflicts": 10
+    },
+    {
+      "index": 89,
+      "sample_id": "biwi_hotel:16430",
+      "conflicts": 10
+    },
+    {
+      "index": 90,
+      "sample_id": "biwi_hotel:16440",
+      "conflicts": 10
+    },
+    {
+      "index": 91,
+      "sample_id": "biwi_hotel:16450",
+      "conflicts": 10
+    },
+    {
+      "index": 92,
+      "sample_id": "biwi_hotel:16460",
+      "conflicts": 10
+    },
+    {
+      "index": 93,
+      "sample_id": "biwi_hotel:16470",
+      "conflicts": 10
+    },
+    {
+      "index": 94,
+      "sample_id": "biwi_hotel:16480",
+      "conflicts": 10
+    },
+    {
+      "index": 95,
+      "sample_id": "biwi_hotel:16490",
+      "conflicts": 10
+    },
+    {
+      "index": 96,
+      "sample_id": "biwi_hotel:16500",
+      "conflicts": 10
+    },
+    {
+      "index": 97,
+      "sample_id": "biwi_hotel:16510",
+      "conflicts": 10
+    },
+    {
+      "index": 98,
+      "sample_id": "biwi_hotel:16520",
+      "conflicts": 10
+    },
+    {
+      "index": 99,
+      "sample_id": "biwi_hotel:16530",
+      "conflicts": 9
+    },
+    {
+      "index": 100,
+      "sample_id": "biwi_hotel:16540",
+      "conflicts": 9
+    },
+    {
+      "index": 101,
+      "sample_id": "biwi_hotel:16550",
+      "conflicts": 9
+    },
+    {
+      "index": 102,
+      "sample_id": "biwi_hotel:16560",
+      "conflicts": 8
+    },
+    {
+      "index": 103,
+      "sample_id": "biwi_hotel:16570",
+      "conflicts": 8
+    },
+    {
+      "index": 104,
+      "sample_id": "biwi_hotel:16580",
+      "conflicts": 8
+    },
+    {
+      "index": 105,
+      "sample_id": "biwi_hotel:16590",
+      "conflicts": 8
+    },
+    {
+      "index": 106,
+      "sample_id": "biwi_hotel:16600",
+      "conflicts": 8
+    },
+    {
+      "index": 107,
+      "sample_id": "biwi_hotel:16610",
+      "conflicts": 8
+    },
+    {
+      "index": 108,
+      "sample_id": "biwi_hotel:16620",
+      "conflicts": 8
+    },
+    {
+      "index": 109,
+      "sample_id": "biwi_hotel:16630",
+      "conflicts": 8
+    },
+    {
+      "index": 110,
+      "sample_id": "biwi_hotel:16640",
+      "conflicts": 8
+    },
+    {
+      "index": 111,
+      "sample_id": "biwi_hotel:16650",
+      "conflicts": 8
+    },
+    {
+      "index": 112,
+      "sample_id": "biwi_hotel:16660",
+      "conflicts": 7
+    },
+    {
+      "index": 113,
+      "sample_id": "biwi_hotel:16670",
+      "conflicts": 7
+    },
+    {
+      "index": 114,
+      "sample_id": "biwi_hotel:16680",
+      "conflicts": 7
+    },
+    {
+      "index": 115,
+      "sample_id": "biwi_hotel:16690",
+      "conflicts": 7
+    },
+    {
+      "index": 116,
+      "sample_id": "biwi_hotel:17550",
+      "conflicts": 5
+    },
+    {
+      "index": 117,
+      "sample_id": "biwi_hotel:17560",
+      "conflicts": 5
+    },
+    {
+      "index": 118,
+      "sample_id": "biwi_hotel:17570",
+      "conflicts": 5
+    },
+    {
+      "index": 119,
+      "sample_id": "biwi_hotel:17580",
+      "conflicts": 5
+    },
+    {
+      "index": 120,
+      "sample_id": "biwi_hotel:17590",
+      "conflicts": 5
+    },
+    {
+      "index": 121,
+      "sample_id": "biwi_hotel:17600",
+      "conflicts": 5
+    },
+    {
+      "index": 122,
+      "sample_id": "biwi_hotel:17610",
+      "conflicts": 5
+    },
+    {
+      "index": 123,
+      "sample_id": "biwi_hotel:17620",
+      "conflicts": 5
+    },
+    {
+      "index": 124,
+      "sample_id": "biwi_hotel:17630",
+      "conflicts": 5
+    },
+    {
+      "index": 125,
+      "sample_id": "biwi_hotel:17640",
+      "conflicts": 5
+    },
+    {
+      "index": 126,
+      "sample_id": "biwi_hotel:17650",
+      "conflicts": 5
+    },
+    {
+      "index": 127,
+      "sample_id": "biwi_hotel:17660",
+      "conflicts": 5
+    },
+    {
+      "index": 128,
+      "sample_id": "biwi_hotel:17670",
+      "conflicts": 5
+    },
+    {
+      "index": 129,
+      "sample_id": "biwi_hotel:17680",
+      "conflicts": 5
+    },
+    {
+      "index": 130,
+      "sample_id": "biwi_hotel:17690",
+      "conflicts": 5
+    },
+    {
+      "index": 131,
+      "sample_id": "biwi_hotel:17700",
+      "conflicts": 5
+    },
+    {
+      "index": 132,
+      "sample_id": "biwi_hotel:17710",
+      "conflicts": 5
+    },
+    {
+      "index": 133,
+      "sample_id": "biwi_hotel:17720",
+      "conflicts": 5
+    },
+    {
+      "index": 134,
+      "sample_id": "biwi_hotel:17730",
+      "conflicts": 5
+    },
+    {
+      "index": 135,
+      "sample_id": "biwi_hotel:17740",
+      "conflicts": 5
+    },
+    {
+      "index": 136,
+      "sample_id": "biwi_hotel:17750",
+      "conflicts": 5
+    },
+    {
+      "index": 137,
+      "sample_id": "biwi_hotel:17760",
+      "conflicts": 5
+    },
+    {
+      "index": 138,
+      "sample_id": "biwi_hotel:17770",
+      "conflicts": 5
+    },
+    {
+      "index": 139,
+      "sample_id": "biwi_hotel:17780",
+      "conflicts": 5
+    },
+    {
+      "index": 140,
+      "sample_id": "biwi_hotel:17790",
+      "conflicts": 5
+    },
+    {
+      "index": 141,
+      "sample_id": "biwi_hotel:17800",
+      "conflicts": 5
+    },
+    {
+      "index": 142,
+      "sample_id": "biwi_hotel:17810",
+      "conflicts": 5
+    },
+    {
+      "index": 143,
+      "sample_id": "biwi_hotel:17820",
+      "conflicts": 5
+    },
+    {
+      "index": 144,
+      "sample_id": "biwi_hotel:17830",
+      "conflicts": 5
+    },
+    {
+      "index": 145,
+      "sample_id": "biwi_hotel:17840",
+      "conflicts": 5
+    },
+    {
+      "index": 146,
+      "sample_id": "biwi_hotel:17850",
+      "conflicts": 5
+    },
+    {
+      "index": 147,
+      "sample_id": "biwi_hotel:17860",
+      "conflicts": 5
+    },
+    {
+      "index": 148,
+      "sample_id": "biwi_hotel:17870",
+      "conflicts": 5
+    },
+    {
+      "index": 149,
+      "sample_id": "students001:3750",
+      "conflicts": 10
+    },
+    {
+      "index": 150,
+      "sample_id": "students001:3760",
+      "conflicts": 10
+    },
+    {
+      "index": 151,
+      "sample_id": "students001:3770",
+      "conflicts": 10
+    },
+    {
+      "index": 152,
+      "sample_id": "students001:3780",
+      "conflicts": 11
+    },
+    {
+      "index": 153,
+      "sample_id": "students001:3790",
+      "conflicts": 11
+    },
+    {
+      "index": 154,
+      "sample_id": "students001:3800",
+      "conflicts": 11
+    },
+    {
+      "index": 155,
+      "sample_id": "students001:3810",
+      "conflicts": 11
+    },
+    {
+      "index": 156,
+      "sample_id": "students001:3820",
+      "conflicts": 11
+    },
+    {
+      "index": 157,
+      "sample_id": "students001:3830",
+      "conflicts": 11
+    },
+    {
+      "index": 158,
+      "sample_id": "students001:3840",
+      "conflicts": 11
+    },
+    {
+      "index": 159,
+      "sample_id": "students001:3850",
+      "conflicts": 11
+    },
+    {
+      "index": 160,
+      "sample_id": "students001:3860",
+      "conflicts": 11
+    },
+    {
+      "index": 161,
+      "sample_id": "students001:3870",
+      "conflicts": 11
+    },
+    {
+      "index": 162,
+      "sample_id": "students001:3880",
+      "conflicts": 11
+    },
+    {
+      "index": 163,
+      "sample_id": "students001:3890",
+      "conflicts": 11
+    },
+    {
+      "index": 164,
+      "sample_id": "students001:3900",
+      "conflicts": 11
+    },
+    {
+      "index": 165,
+      "sample_id": "students001:3910",
+      "conflicts": 11
+    },
+    {
+      "index": 166,
+      "sample_id": "students001:3920",
+      "conflicts": 11
+    },
+    {
+      "index": 167,
+      "sample_id": "students001:3930",
+      "conflicts": 11
+    },
+    {
+      "index": 168,
+      "sample_id": "students001:3940",
+      "conflicts": 11
+    },
+    {
+      "index": 169,
+      "sample_id": "students001:3950",
+      "conflicts": 11
+    },
+    {
+      "index": 170,
+      "sample_id": "students001:3960",
+      "conflicts": 11
+    },
+    {
+      "index": 171,
+      "sample_id": "students001:3970",
+      "conflicts": 11
+    },
+    {
+      "index": 172,
+      "sample_id": "students001:3980",
+      "conflicts": 11
+    },
+    {
+      "index": 173,
+      "sample_id": "students001:3990",
+      "conflicts": 11
+    },
+    {
+      "index": 174,
+      "sample_id": "students001:4000",
+      "conflicts": 11
+    },
+    {
+      "index": 175,
+      "sample_id": "students001:4010",
+      "conflicts": 11
+    },
+    {
+      "index": 176,
+      "sample_id": "students001:4020",
+      "conflicts": 11
+    },
+    {
+      "index": 177,
+      "sample_id": "students001:4030",
+      "conflicts": 11
+    },
+    {
+      "index": 178,
+      "sample_id": "students001:4040",
+      "conflicts": 11
+    },
+    {
+      "index": 179,
+      "sample_id": "students001:4050",
+      "conflicts": 11
+    },
+    {
+      "index": 180,
+      "sample_id": "students001:4060",
+      "conflicts": 11
+    },
+    {
+      "index": 181,
+      "sample_id": "students001:4070",
+      "conflicts": 11
+    },
+    {
+      "index": 182,
+      "sample_id": "students001:4080",
+      "conflicts": 11
+    },
+    {
+      "index": 183,
+      "sample_id": "students001:4090",
+      "conflicts": 11
+    },
+    {
+      "index": 184,
+      "sample_id": "students001:4100",
+      "conflicts": 11
+    },
+    {
+      "index": 185,
+      "sample_id": "students001:4110",
+      "conflicts": 11
+    },
+    {
+      "index": 186,
+      "sample_id": "students001:4120",
+      "conflicts": 11
+    },
+    {
+      "index": 187,
+      "sample_id": "students001:4130",
+      "conflicts": 11
+    },
+    {
+      "index": 188,
+      "sample_id": "students001:4140",
+      "conflicts": 11
+    },
+    {
+      "index": 189,
+      "sample_id": "students001:4150",
+      "conflicts": 11
+    },
+    {
+      "index": 190,
+      "sample_id": "students001:4160",
+      "conflicts": 11
+    },
+    {
+      "index": 191,
+      "sample_id": "students001:4170",
+      "conflicts": 10
+    },
+    {
+      "index": 192,
+      "sample_id": "students001:4180",
+      "conflicts": 10
+    },
+    {
+      "index": 193,
+      "sample_id": "students001:4190",
+      "conflicts": 10
+    },
+    {
+      "index": 194,
+      "sample_id": "students001:4200",
+      "conflicts": 10
+    },
+    {
+      "index": 195,
+      "sample_id": "students001:4210",
+      "conflicts": 9
+    },
+    {
+      "index": 196,
+      "sample_id": "students001:4220",
+      "conflicts": 9
+    },
+    {
+      "index": 197,
+      "sample_id": "students001:4230",
+      "conflicts": 9
+    },
+    {
+      "index": 198,
+      "sample_id": "students001:4240",
+      "conflicts": 9
+    },
+    {
+      "index": 199,
+      "sample_id": "students003:4520",
+      "conflicts": 5
+    },
+    {
+      "index": 200,
+      "sample_id": "students003:4530",
+      "conflicts": 5
+    },
+    {
+      "index": 201,
+      "sample_id": "students003:4540",
+      "conflicts": 6
+    },
+    {
+      "index": 202,
+      "sample_id": "students003:4550",
+      "conflicts": 6
+    },
+    {
+      "index": 203,
+      "sample_id": "students003:4560",
+      "conflicts": 6
+    },
+    {
+      "index": 204,
+      "sample_id": "students003:4570",
+      "conflicts": 7
+    },
+    {
+      "index": 205,
+      "sample_id": "students003:4580",
+      "conflicts": 7
+    },
+    {
+      "index": 206,
+      "sample_id": "students003:4590",
+      "conflicts": 7
+    },
+    {
+      "index": 207,
+      "sample_id": "students003:4600",
+      "conflicts": 7
+    },
+    {
+      "index": 208,
+      "sample_id": "students003:4610",
+      "conflicts": 7
+    },
+    {
+      "index": 209,
+      "sample_id": "students003:4620",
+      "conflicts": 7
+    },
+    {
+      "index": 210,
+      "sample_id": "students003:4630",
+      "conflicts": 7
+    },
+    {
+      "index": 211,
+      "sample_id": "students003:4640",
+      "conflicts": 7
+    },
+    {
+      "index": 212,
+      "sample_id": "students003:4650",
+      "conflicts": 8
+    },
+    {
+      "index": 213,
+      "sample_id": "students003:4660",
+      "conflicts": 9
+    },
+    {
+      "index": 214,
+      "sample_id": "students003:4670",
+      "conflicts": 9
+    },
+    {
+      "index": 215,
+      "sample_id": "students003:4680",
+      "conflicts": 9
+    },
+    {
+      "index": 216,
+      "sample_id": "students003:4690",
+      "conflicts": 9
+    },
+    {
+      "index": 217,
+      "sample_id": "students003:4700",
+      "conflicts": 9
+    },
+    {
+      "index": 218,
+      "sample_id": "students003:4710",
+      "conflicts": 9
+    },
+    {
+      "index": 219,
+      "sample_id": "students003:4720",
+      "conflicts": 9
+    },
+    {
+      "index": 220,
+      "sample_id": "students003:4730",
+      "conflicts": 9
+    },
+    {
+      "index": 221,
+      "sample_id": "students003:4740",
+      "conflicts": 9
+    },
+    {
+      "index": 222,
+      "sample_id": "students003:4750",
+      "conflicts": 9
+    },
+    {
+      "index": 223,
+      "sample_id": "students003:4760",
+      "conflicts": 9
+    },
+    {
+      "index": 224,
+      "sample_id": "students003:4770",
+      "conflicts": 10
+    },
+    {
+      "index": 225,
+      "sample_id": "students003:4780",
+      "conflicts": 11
+    },
+    {
+      "index": 226,
+      "sample_id": "students003:4790",
+      "conflicts": 11
+    },
+    {
+      "index": 227,
+      "sample_id": "students003:4800",
+      "conflicts": 11
+    },
+    {
+      "index": 228,
+      "sample_id": "students003:4810",
+      "conflicts": 11
+    },
+    {
+      "index": 229,
+      "sample_id": "students003:4820",
+      "conflicts": 11
+    },
+    {
+      "index": 230,
+      "sample_id": "students003:4830",
+      "conflicts": 11
+    },
+    {
+      "index": 231,
+      "sample_id": "students003:4840",
+      "conflicts": 11
+    },
+    {
+      "index": 232,
+      "sample_id": "students003:4850",
+      "conflicts": 11
+    },
+    {
+      "index": 233,
+      "sample_id": "students003:4860",
+      "conflicts": 11
+    },
+    {
+      "index": 234,
+      "sample_id": "students003:4870",
+      "conflicts": 11
+    },
+    {
+      "index": 235,
+      "sample_id": "students003:4880",
+      "conflicts": 11
+    },
+    {
+      "index": 236,
+      "sample_id": "students003:4890",
+      "conflicts": 11
+    },
+    {
+      "index": 237,
+      "sample_id": "students003:4900",
+      "conflicts": 11
+    },
+    {
+      "index": 238,
+      "sample_id": "students003:4910",
+      "conflicts": 11
+    },
+    {
+      "index": 239,
+      "sample_id": "students003:4920",
+      "conflicts": 11
+    },
+    {
+      "index": 240,
+      "sample_id": "students003:4930",
+      "conflicts": 10
+    },
+    {
+      "index": 241,
+      "sample_id": "students003:4940",
+      "conflicts": 10
+    },
+    {
+      "index": 242,
+      "sample_id": "students003:4950",
+      "conflicts": 10
+    },
+    {
+      "index": 243,
+      "sample_id": "students003:4960",
+      "conflicts": 10
+    },
+    {
+      "index": 244,
+      "sample_id": "students003:4970",
+      "conflicts": 10
+    },
+    {
+      "index": 245,
+      "sample_id": "students003:4980",
+      "conflicts": 10
+    },
+    {
+      "index": 246,
+      "sample_id": "students003:4990",
+      "conflicts": 9
+    },
+    {
+      "index": 247,
+      "sample_id": "students003:5000",
+      "conflicts": 9
+    },
+    {
+      "index": 248,
+      "sample_id": "students003:5010",
+      "conflicts": 9
+    },
+    {
+      "index": 249,
+      "sample_id": "students003:5020",
+      "conflicts": 8
+    },
+    {
+      "index": 250,
+      "sample_id": "students003:5030",
+      "conflicts": 8
+    },
+    {
+      "index": 251,
+      "sample_id": "students003:5040",
+      "conflicts": 8
+    },
+    {
+      "index": 252,
+      "sample_id": "students003:5050",
+      "conflicts": 8
+    },
+    {
+      "index": 253,
+      "sample_id": "students003:5060",
+      "conflicts": 8
+    },
+    {
+      "index": 254,
+      "sample_id": "students003:5070",
+      "conflicts": 8
+    },
+    {
+      "index": 255,
+      "sample_id": "students003:5080",
+      "conflicts": 8
+    },
+    {
+      "index": 256,
+      "sample_id": "students003:5090",
+      "conflicts": 8
+    },
+    {
+      "index": 257,
+      "sample_id": "students003:5100",
+      "conflicts": 7
+    },
+    {
+      "index": 258,
+      "sample_id": "students003:5110",
+      "conflicts": 7
+    },
+    {
+      "index": 259,
+      "sample_id": "students003:5120",
+      "conflicts": 7
+    },
+    {
+      "index": 260,
+      "sample_id": "students003:5130",
+      "conflicts": 7
+    },
+    {
+      "index": 261,
+      "sample_id": "students003:5140",
+      "conflicts": 7
+    },
+    {
+      "index": 262,
+      "sample_id": "students003:5150",
+      "conflicts": 7
+    },
+    {
+      "index": 263,
+      "sample_id": "students003:5160",
+      "conflicts": 7
+    },
+    {
+      "index": 264,
+      "sample_id": "students003:5170",
+      "conflicts": 7
+    },
+    {
+      "index": 265,
+      "sample_id": "students003:5180",
+      "conflicts": 7
+    },
+    {
+      "index": 266,
+      "sample_id": "students003:5190",
+      "conflicts": 7
+    },
+    {
+      "index": 267,
+      "sample_id": "students003:5200",
+      "conflicts": 7
+    },
+    {
+      "index": 268,
+      "sample_id": "students003:5210",
+      "conflicts": 7
+    },
+    {
+      "index": 269,
+      "sample_id": "crowds_zara01:7410",
+      "conflicts": 11
+    },
+    {
+      "index": 270,
+      "sample_id": "crowds_zara01:7420",
+      "conflicts": 11
+    },
+    {
+      "index": 271,
+      "sample_id": "crowds_zara01:7430",
+      "conflicts": 11
+    },
+    {
+      "index": 272,
+      "sample_id": "crowds_zara01:7440",
+      "conflicts": 11
+    },
+    {
+      "index": 273,
+      "sample_id": "crowds_zara01:7450",
+      "conflicts": 11
+    },
+    {
+      "index": 274,
+      "sample_id": "crowds_zara01:7460",
+      "conflicts": 12
+    },
+    {
+      "index": 275,
+      "sample_id": "crowds_zara01:7470",
+      "conflicts": 12
+    },
+    {
+      "index": 276,
+      "sample_id": "crowds_zara01:7480",
+      "conflicts": 12
+    },
+    {
+      "index": 277,
+      "sample_id": "crowds_zara01:7490",
+      "conflicts": 12
+    },
+    {
+      "index": 278,
+      "sample_id": "crowds_zara01:7500",
+      "conflicts": 12
+    },
+    {
+      "index": 279,
+      "sample_id": "crowds_zara01:7510",
+      "conflicts": 12
+    },
+    {
+      "index": 280,
+      "sample_id": "crowds_zara01:7520",
+      "conflicts": 12
+    },
+    {
+      "index": 281,
+      "sample_id": "crowds_zara01:7530",
+      "conflicts": 12
+    },
+    {
+      "index": 282,
+      "sample_id": "crowds_zara01:7540",
+      "conflicts": 12
+    },
+    {
+      "index": 283,
+      "sample_id": "crowds_zara01:7550",
+      "conflicts": 12
+    },
+    {
+      "index": 284,
+      "sample_id": "crowds_zara01:7560",
+      "conflicts": 12
+    },
+    {
+      "index": 285,
+      "sample_id": "crowds_zara01:7570",
+      "conflicts": 13
+    },
+    {
+      "index": 286,
+      "sample_id": "crowds_zara01:7580",
+      "conflicts": 13
+    },
+    {
+      "index": 287,
+      "sample_id": "crowds_zara01:7590",
+      "conflicts": 13
+    },
+    {
+      "index": 288,
+      "sample_id": "crowds_zara01:7600",
+      "conflicts": 13
+    },
+    {
+      "index": 289,
+      "sample_id": "crowds_zara01:7610",
+      "conflicts": 14
+    },
+    {
+      "index": 290,
+      "sample_id": "crowds_zara01:7620",
+      "conflicts": 14
+    },
+    {
+      "index": 291,
+      "sample_id": "crowds_zara01:7630",
+      "conflicts": 14
+    },
+    {
+      "index": 292,
+      "sample_id": "crowds_zara01:7640",
+      "conflicts": 14
+    },
+    {
+      "index": 293,
+      "sample_id": "crowds_zara01:7650",
+      "conflicts": 14
+    },
+    {
+      "index": 294,
+      "sample_id": "crowds_zara01:7660",
+      "conflicts": 14
+    },
+    {
+      "index": 295,
+      "sample_id": "crowds_zara01:7670",
+      "conflicts": 14
+    },
+    {
+      "index": 296,
+      "sample_id": "crowds_zara01:7680",
+      "conflicts": 14
+    },
+    {
+      "index": 297,
+      "sample_id": "crowds_zara01:7690",
+      "conflicts": 14
+    },
+    {
+      "index": 298,
+      "sample_id": "crowds_zara01:7700",
+      "conflicts": 14
+    },
+    {
+      "index": 299,
+      "sample_id": "crowds_zara01:7710",
+      "conflicts": 14
+    },
+    {
+      "index": 300,
+      "sample_id": "crowds_zara01:7720",
+      "conflicts": 14
+    },
+    {
+      "index": 301,
+      "sample_id": "crowds_zara01:7730",
+      "conflicts": 14
+    },
+    {
+      "index": 302,
+      "sample_id": "crowds_zara01:7740",
+      "conflicts": 14
+    },
+    {
+      "index": 303,
+      "sample_id": "crowds_zara01:7750",
+      "conflicts": 14
+    },
+    {
+      "index": 304,
+      "sample_id": "crowds_zara01:7760",
+      "conflicts": 14
+    },
+    {
+      "index": 305,
+      "sample_id": "crowds_zara01:7770",
+      "conflicts": 14
+    },
+    {
+      "index": 306,
+      "sample_id": "crowds_zara01:7780",
+      "conflicts": 14
+    },
+    {
+      "index": 307,
+      "sample_id": "crowds_zara01:7790",
+      "conflicts": 14
+    },
+    {
+      "index": 308,
+      "sample_id": "crowds_zara01:7800",
+      "conflicts": 14
+    },
+    {
+      "index": 309,
+      "sample_id": "crowds_zara01:7810",
+      "conflicts": 14
+    },
+    {
+      "index": 310,
+      "sample_id": "crowds_zara01:7820",
+      "conflicts": 14
+    },
+    {
+      "index": 311,
+      "sample_id": "crowds_zara01:7830",
+      "conflicts": 14
+    },
+    {
+      "index": 312,
+      "sample_id": "crowds_zara01:7840",
+      "conflicts": 14
+    },
+    {
+      "index": 313,
+      "sample_id": "crowds_zara01:7850",
+      "conflicts": 14
+    },
+    {
+      "index": 314,
+      "sample_id": "crowds_zara01:7860",
+      "conflicts": 14
+    },
+    {
+      "index": 315,
+      "sample_id": "crowds_zara01:7870",
+      "conflicts": 13
+    },
+    {
+      "index": 316,
+      "sample_id": "crowds_zara01:7880",
+      "conflicts": 12
+    },
+    {
+      "index": 317,
+      "sample_id": "crowds_zara01:7890",
+      "conflicts": 12
+    },
+    {
+      "index": 318,
+      "sample_id": "crowds_zara01:7900",
+      "conflicts": 12
+    },
+    {
+      "index": 319,
+      "sample_id": "crowds_zara01:7910",
+      "conflicts": 11
+    },
+    {
+      "index": 320,
+      "sample_id": "crowds_zara01:7920",
+      "conflicts": 11
+    },
+    {
+      "index": 321,
+      "sample_id": "crowds_zara01:7930",
+      "conflicts": 10
+    },
+    {
+      "index": 322,
+      "sample_id": "crowds_zara01:7940",
+      "conflicts": 10
+    },
+    {
+      "index": 323,
+      "sample_id": "crowds_zara01:7950",
+      "conflicts": 10
+    },
+    {
+      "index": 324,
+      "sample_id": "crowds_zara01:7960",
+      "conflicts": 10
+    },
+    {
+      "index": 325,
+      "sample_id": "crowds_zara01:7970",
+      "conflicts": 11
+    },
+    {
+      "index": 326,
+      "sample_id": "crowds_zara01:7980",
+      "conflicts": 11
+    },
+    {
+      "index": 327,
+      "sample_id": "crowds_zara01:7990",
+      "conflicts": 11
+    },
+    {
+      "index": 328,
+      "sample_id": "crowds_zara01:8000",
+      "conflicts": 11
+    },
+    {
+      "index": 329,
+      "sample_id": "crowds_zara01:8360",
+      "conflicts": 8
+    },
+    {
+      "index": 330,
+      "sample_id": "crowds_zara01:8370",
+      "conflicts": 8
+    },
+    {
+      "index": 331,
+      "sample_id": "crowds_zara01:8380",
+      "conflicts": 8
+    },
+    {
+      "index": 332,
+      "sample_id": "crowds_zara01:8390",
+      "conflicts": 8
+    },
+    {
+      "index": 333,
+      "sample_id": "crowds_zara01:8400",
+      "conflicts": 7
+    },
+    {
+      "index": 334,
+      "sample_id": "crowds_zara01:8410",
+      "conflicts": 8
+    },
+    {
+      "index": 335,
+      "sample_id": "crowds_zara01:8420",
+      "conflicts": 8
+    },
+    {
+      "index": 336,
+      "sample_id": "crowds_zara01:8430",
+      "conflicts": 8
+    },
+    {
+      "index": 337,
+      "sample_id": "crowds_zara01:8440",
+      "conflicts": 8
+    },
+    {
+      "index": 338,
+      "sample_id": "crowds_zara01:8450",
+      "conflicts": 8
+    },
+    {
+      "index": 339,
+      "sample_id": "crowds_zara01:8460",
+      "conflicts": 8
+    },
+    {
+      "index": 340,
+      "sample_id": "crowds_zara01:8470",
+      "conflicts": 8
+    },
+    {
+      "index": 341,
+      "sample_id": "crowds_zara01:8480",
+      "conflicts": 8
+    },
+    {
+      "index": 342,
+      "sample_id": "crowds_zara01:8490",
+      "conflicts": 8
+    },
+    {
+      "index": 343,
+      "sample_id": "crowds_zara01:8500",
+      "conflicts": 8
+    },
+    {
+      "index": 344,
+      "sample_id": "crowds_zara01:8510",
+      "conflicts": 8
+    },
+    {
+      "index": 345,
+      "sample_id": "crowds_zara01:8520",
+      "conflicts": 8
+    },
+    {
+      "index": 346,
+      "sample_id": "crowds_zara01:8530",
+      "conflicts": 8
+    },
+    {
+      "index": 347,
+      "sample_id": "crowds_zara01:8540",
+      "conflicts": 8
+    },
+    {
+      "index": 348,
+      "sample_id": "crowds_zara01:8550",
+      "conflicts": 8
+    },
+    {
+      "index": 349,
+      "sample_id": "crowds_zara01:8560",
+      "conflicts": 8
+    },
+    {
+      "index": 350,
+      "sample_id": "crowds_zara01:8570",
+      "conflicts": 8
+    },
+    {
+      "index": 351,
+      "sample_id": "crowds_zara01:8580",
+      "conflicts": 8
+    },
+    {
+      "index": 352,
+      "sample_id": "crowds_zara01:8590",
+      "conflicts": 8
+    },
+    {
+      "index": 353,
+      "sample_id": "crowds_zara01:8600",
+      "conflicts": 8
+    },
+    {
+      "index": 354,
+      "sample_id": "crowds_zara01:8610",
+      "conflicts": 8
+    },
+    {
+      "index": 355,
+      "sample_id": "crowds_zara01:8620",
+      "conflicts": 8
+    },
+    {
+      "index": 356,
+      "sample_id": "crowds_zara01:8630",
+      "conflicts": 8
+    },
+    {
+      "index": 357,
+      "sample_id": "crowds_zara01:8640",
+      "conflicts": 8
+    },
+    {
+      "index": 358,
+      "sample_id": "crowds_zara01:8650",
+      "conflicts": 8
+    },
+    {
+      "index": 359,
+      "sample_id": "crowds_zara01:8660",
+      "conflicts": 8
+    },
+    {
+      "index": 360,
+      "sample_id": "crowds_zara01:8670",
+      "conflicts": 8
+    },
+    {
+      "index": 361,
+      "sample_id": "crowds_zara01:8680",
+      "conflicts": 8
+    },
+    {
+      "index": 362,
+      "sample_id": "crowds_zara01:8690",
+      "conflicts": 8
+    },
+    {
+      "index": 363,
+      "sample_id": "crowds_zara01:8700",
+      "conflicts": 8
+    },
+    {
+      "index": 364,
+      "sample_id": "crowds_zara01:8710",
+      "conflicts": 8
+    },
+    {
+      "index": 365,
+      "sample_id": "crowds_zara01:8720",
+      "conflicts": 8
+    },
+    {
+      "index": 366,
+      "sample_id": "crowds_zara01:8730",
+      "conflicts": 8
+    },
+    {
+      "index": 367,
+      "sample_id": "crowds_zara01:8740",
+      "conflicts": 8
+    },
+    {
+      "index": 368,
+      "sample_id": "crowds_zara01:8750",
+      "conflicts": 8
+    },
+    {
+      "index": 369,
+      "sample_id": "crowds_zara01:8760",
+      "conflicts": 7
+    },
+    {
+      "index": 370,
+      "sample_id": "crowds_zara01:8770",
+      "conflicts": 7
+    },
+    {
+      "index": 371,
+      "sample_id": "crowds_zara01:8780",
+      "conflicts": 7
+    },
+    {
+      "index": 372,
+      "sample_id": "crowds_zara01:8790",
+      "conflicts": 7
+    },
+    {
+      "index": 373,
+      "sample_id": "crowds_zara01:8800",
+      "conflicts": 7
+    },
+    {
+      "index": 374,
+      "sample_id": "crowds_zara01:8810",
+      "conflicts": 7
+    },
+    {
+      "index": 375,
+      "sample_id": "crowds_zara01:8820",
+      "conflicts": 7
+    },
+    {
+      "index": 376,
+      "sample_id": "crowds_zara02:8620",
+      "conflicts": 5
+    },
+    {
+      "index": 377,
+      "sample_id": "crowds_zara02:8630",
+      "conflicts": 6
+    },
+    {
+      "index": 378,
+      "sample_id": "crowds_zara02:8640",
+      "conflicts": 6
+    },
+    {
+      "index": 379,
+      "sample_id": "crowds_zara02:8650",
+      "conflicts": 6
+    },
+    {
+      "index": 380,
+      "sample_id": "crowds_zara02:8660",
+      "conflicts": 6
+    },
+    {
+      "index": 381,
+      "sample_id": "crowds_zara02:8670",
+      "conflicts": 7
+    },
+    {
+      "index": 382,
+      "sample_id": "crowds_zara02:8680",
+      "conflicts": 7
+    },
+    {
+      "index": 383,
+      "sample_id": "crowds_zara02:8690",
+      "conflicts": 7
+    },
+    {
+      "index": 384,
+      "sample_id": "crowds_zara02:8700",
+      "conflicts": 7
+    },
+    {
+      "index": 385,
+      "sample_id": "crowds_zara02:8710",
+      "conflicts": 8
+    },
+    {
+      "index": 386,
+      "sample_id": "crowds_zara02:8720",
+      "conflicts": 8
+    },
+    {
+      "index": 387,
+      "sample_id": "crowds_zara02:8730",
+      "conflicts": 8
+    },
+    {
+      "index": 388,
+      "sample_id": "crowds_zara02:8740",
+      "conflicts": 8
+    },
+    {
+      "index": 389,
+      "sample_id": "crowds_zara02:8750",
+      "conflicts": 8
+    },
+    {
+      "index": 390,
+      "sample_id": "crowds_zara02:8760",
+      "conflicts": 8
+    },
+    {
+      "index": 391,
+      "sample_id": "crowds_zara02:8770",
+      "conflicts": 8
+    },
+    {
+      "index": 392,
+      "sample_id": "crowds_zara02:8780",
+      "conflicts": 8
+    },
+    {
+      "index": 393,
+      "sample_id": "crowds_zara02:8790",
+      "conflicts": 9
+    },
+    {
+      "index": 394,
+      "sample_id": "crowds_zara02:8800",
+      "conflicts": 9
+    },
+    {
+      "index": 395,
+      "sample_id": "crowds_zara02:8810",
+      "conflicts": 9
+    },
+    {
+      "index": 396,
+      "sample_id": "crowds_zara02:8820",
+      "conflicts": 9
+    },
+    {
+      "index": 397,
+      "sample_id": "crowds_zara02:8830",
+      "conflicts": 9
+    },
+    {
+      "index": 398,
+      "sample_id": "crowds_zara02:8840",
+      "conflicts": 9
+    },
+    {
+      "index": 399,
+      "sample_id": "crowds_zara02:8850",
+      "conflicts": 9
+    },
+    {
+      "index": 400,
+      "sample_id": "crowds_zara02:8860",
+      "conflicts": 9
+    },
+    {
+      "index": 401,
+      "sample_id": "crowds_zara02:8870",
+      "conflicts": 9
+    },
+    {
+      "index": 402,
+      "sample_id": "crowds_zara02:8880",
+      "conflicts": 9
+    },
+    {
+      "index": 403,
+      "sample_id": "crowds_zara02:8890",
+      "conflicts": 9
+    },
+    {
+      "index": 404,
+      "sample_id": "crowds_zara02:8900",
+      "conflicts": 9
+    },
+    {
+      "index": 405,
+      "sample_id": "crowds_zara02:8910",
+      "conflicts": 9
+    },
+    {
+      "index": 406,
+      "sample_id": "crowds_zara02:8920",
+      "conflicts": 9
+    },
+    {
+      "index": 407,
+      "sample_id": "crowds_zara02:8930",
+      "conflicts": 9
+    },
+    {
+      "index": 408,
+      "sample_id": "crowds_zara02:8940",
+      "conflicts": 9
+    },
+    {
+      "index": 409,
+      "sample_id": "crowds_zara02:8950",
+      "conflicts": 10
+    },
+    {
+      "index": 410,
+      "sample_id": "crowds_zara02:8960",
+      "conflicts": 10
+    },
+    {
+      "index": 411,
+      "sample_id": "crowds_zara02:8970",
+      "conflicts": 10
+    },
+    {
+      "index": 412,
+      "sample_id": "crowds_zara02:8980",
+      "conflicts": 10
+    },
+    {
+      "index": 413,
+      "sample_id": "crowds_zara02:8990",
+      "conflicts": 11
+    },
+    {
+      "index": 414,
+      "sample_id": "crowds_zara02:9000",
+      "conflicts": 12
+    },
+    {
+      "index": 415,
+      "sample_id": "crowds_zara02:9010",
+      "conflicts": 12
+    },
+    {
+      "index": 416,
+      "sample_id": "crowds_zara02:9020",
+      "conflicts": 12
+    },
+    {
+      "index": 417,
+      "sample_id": "crowds_zara02:9030",
+      "conflicts": 12
+    },
+    {
+      "index": 418,
+      "sample_id": "crowds_zara02:9040",
+      "conflicts": 11
+    },
+    {
+      "index": 419,
+      "sample_id": "crowds_zara02:9050",
+      "conflicts": 11
+    },
+    {
+      "index": 420,
+      "sample_id": "crowds_zara02:9060",
+      "conflicts": 11
+    },
+    {
+      "index": 421,
+      "sample_id": "crowds_zara02:9070",
+      "conflicts": 11
+    },
+    {
+      "index": 422,
+      "sample_id": "crowds_zara02:9080",
+      "conflicts": 12
+    },
+    {
+      "index": 423,
+      "sample_id": "crowds_zara02:9090",
+      "conflicts": 12
+    },
+    {
+      "index": 424,
+      "sample_id": "crowds_zara02:9100",
+      "conflicts": 12
+    },
+    {
+      "index": 425,
+      "sample_id": "crowds_zara02:9110",
+      "conflicts": 12
+    },
+    {
+      "index": 426,
+      "sample_id": "crowds_zara02:9120",
+      "conflicts": 12
+    },
+    {
+      "index": 427,
+      "sample_id": "crowds_zara02:9130",
+      "conflicts": 12
+    },
+    {
+      "index": 428,
+      "sample_id": "crowds_zara02:9140",
+      "conflicts": 12
+    },
+    {
+      "index": 429,
+      "sample_id": "crowds_zara02:9150",
+      "conflicts": 12
+    },
+    {
+      "index": 430,
+      "sample_id": "crowds_zara02:9160",
+      "conflicts": 11
+    },
+    {
+      "index": 431,
+      "sample_id": "crowds_zara02:9170",
+      "conflicts": 11
+    },
+    {
+      "index": 432,
+      "sample_id": "crowds_zara02:9180",
+      "conflicts": 11
+    },
+    {
+      "index": 433,
+      "sample_id": "crowds_zara02:9190",
+      "conflicts": 11
+    },
+    {
+      "index": 434,
+      "sample_id": "crowds_zara02:9200",
+      "conflicts": 11
+    },
+    {
+      "index": 435,
+      "sample_id": "crowds_zara02:9210",
+      "conflicts": 12
+    },
+    {
+      "index": 436,
+      "sample_id": "crowds_zara02:9220",
+      "conflicts": 12
+    },
+    {
+      "index": 437,
+      "sample_id": "crowds_zara02:9230",
+      "conflicts": 12
+    },
+    {
+      "index": 438,
+      "sample_id": "crowds_zara02:9240",
+      "conflicts": 12
+    },
+    {
+      "index": 439,
+      "sample_id": "crowds_zara02:9250",
+      "conflicts": 11
+    },
+    {
+      "index": 440,
+      "sample_id": "crowds_zara02:9260",
+      "conflicts": 11
+    },
+    {
+      "index": 441,
+      "sample_id": "crowds_zara02:9270",
+      "conflicts": 11
+    },
+    {
+      "index": 442,
+      "sample_id": "crowds_zara02:9280",
+      "conflicts": 11
+    },
+    {
+      "index": 443,
+      "sample_id": "crowds_zara02:9290",
+      "conflicts": 12
+    },
+    {
+      "index": 444,
+      "sample_id": "crowds_zara02:9300",
+      "conflicts": 12
+    },
+    {
+      "index": 445,
+      "sample_id": "crowds_zara02:9310",
+      "conflicts": 12
+    },
+    {
+      "index": 446,
+      "sample_id": "crowds_zara02:9320",
+      "conflicts": 12
+    },
+    {
+      "index": 447,
+      "sample_id": "crowds_zara02:9330",
+      "conflicts": 12
+    },
+    {
+      "index": 448,
+      "sample_id": "crowds_zara02:9340",
+      "conflicts": 12
+    },
+    {
+      "index": 449,
+      "sample_id": "crowds_zara02:9350",
+      "conflicts": 12
+    },
+    {
+      "index": 450,
+      "sample_id": "crowds_zara02:9360",
+      "conflicts": 11
+    },
+    {
+      "index": 451,
+      "sample_id": "crowds_zara02:9370",
+      "conflicts": 11
+    },
+    {
+      "index": 452,
+      "sample_id": "crowds_zara02:9380",
+      "conflicts": 11
+    },
+    {
+      "index": 453,
+      "sample_id": "crowds_zara02:9390",
+      "conflicts": 11
+    },
+    {
+      "index": 454,
+      "sample_id": "crowds_zara02:9400",
+      "conflicts": 11
+    },
+    {
+      "index": 455,
+      "sample_id": "crowds_zara02:9410",
+      "conflicts": 11
+    },
+    {
+      "index": 456,
+      "sample_id": "crowds_zara02:9420",
+      "conflicts": 10
+    },
+    {
+      "index": 457,
+      "sample_id": "crowds_zara02:9430",
+      "conflicts": 10
+    },
+    {
+      "index": 458,
+      "sample_id": "crowds_zara02:9440",
+      "conflicts": 11
+    },
+    {
+      "index": 459,
+      "sample_id": "crowds_zara02:9450",
+      "conflicts": 11
+    },
+    {
+      "index": 460,
+      "sample_id": "crowds_zara02:9460",
+      "conflicts": 11
+    },
+    {
+      "index": 461,
+      "sample_id": "crowds_zara02:9470",
+      "conflicts": 11
+    },
+    {
+      "index": 462,
+      "sample_id": "crowds_zara02:9480",
+      "conflicts": 11
+    },
+    {
+      "index": 463,
+      "sample_id": "crowds_zara02:9490",
+      "conflicts": 11
+    },
+    {
+      "index": 464,
+      "sample_id": "crowds_zara02:9500",
+      "conflicts": 10
+    },
+    {
+      "index": 465,
+      "sample_id": "crowds_zara02:9510",
+      "conflicts": 10
+    },
+    {
+      "index": 466,
+      "sample_id": "crowds_zara02:9520",
+      "conflicts": 10
+    },
+    {
+      "index": 467,
+      "sample_id": "crowds_zara02:9530",
+      "conflicts": 10
+    },
+    {
+      "index": 468,
+      "sample_id": "crowds_zara02:9540",
+      "conflicts": 10
+    },
+    {
+      "index": 469,
+      "sample_id": "crowds_zara02:9550",
+      "conflicts": 11
+    },
+    {
+      "index": 470,
+      "sample_id": "crowds_zara02:9560",
+      "conflicts": 11
+    },
+    {
+      "index": 471,
+      "sample_id": "crowds_zara02:9570",
+      "conflicts": 11
+    },
+    {
+      "index": 472,
+      "sample_id": "crowds_zara02:9580",
+      "conflicts": 10
+    },
+    {
+      "index": 473,
+      "sample_id": "crowds_zara02:9590",
+      "conflicts": 10
+    },
+    {
+      "index": 474,
+      "sample_id": "crowds_zara02:9600",
+      "conflicts": 11
+    },
+    {
+      "index": 475,
+      "sample_id": "crowds_zara02:9610",
+      "conflicts": 11
+    },
+    {
+      "index": 476,
+      "sample_id": "crowds_zara02:9620",
+      "conflicts": 11
+    },
+    {
+      "index": 477,
+      "sample_id": "crowds_zara02:9630",
+      "conflicts": 12
+    },
+    {
+      "index": 478,
+      "sample_id": "crowds_zara02:9640",
+      "conflicts": 13
+    },
+    {
+      "index": 479,
+      "sample_id": "crowds_zara02:9650",
+      "conflicts": 13
+    },
+    {
+      "index": 480,
+      "sample_id": "crowds_zara02:9660",
+      "conflicts": 13
+    },
+    {
+      "index": 481,
+      "sample_id": "crowds_zara02:9670",
+      "conflicts": 13
+    },
+    {
+      "index": 482,
+      "sample_id": "crowds_zara02:9680",
+      "conflicts": 13
+    },
+    {
+      "index": 483,
+      "sample_id": "crowds_zara02:9690",
+      "conflicts": 14
+    },
+    {
+      "index": 484,
+      "sample_id": "crowds_zara02:9700",
+      "conflicts": 14
+    },
+    {
+      "index": 485,
+      "sample_id": "crowds_zara02:9710",
+      "conflicts": 14
+    },
+    {
+      "index": 486,
+      "sample_id": "crowds_zara02:9720",
+      "conflicts": 14
+    },
+    {
+      "index": 487,
+      "sample_id": "crowds_zara02:9730",
+      "conflicts": 14
+    },
+    {
+      "index": 488,
+      "sample_id": "crowds_zara02:9740",
+      "conflicts": 14
+    },
+    {
+      "index": 489,
+      "sample_id": "crowds_zara02:9750",
+      "conflicts": 14
+    },
+    {
+      "index": 490,
+      "sample_id": "crowds_zara02:9760",
+      "conflicts": 14
+    },
+    {
+      "index": 491,
+      "sample_id": "crowds_zara02:9770",
+      "conflicts": 14
+    },
+    {
+      "index": 492,
+      "sample_id": "crowds_zara02:9780",
+      "conflicts": 13
+    },
+    {
+      "index": 493,
+      "sample_id": "crowds_zara02:9790",
+      "conflicts": 12
+    },
+    {
+      "index": 494,
+      "sample_id": "crowds_zara02:9800",
+      "conflicts": 12
+    },
+    {
+      "index": 495,
+      "sample_id": "crowds_zara02:9810",
+      "conflicts": 12
+    },
+    {
+      "index": 496,
+      "sample_id": "crowds_zara02:9820",
+      "conflicts": 12
+    },
+    {
+      "index": 497,
+      "sample_id": "crowds_zara02:9830",
+      "conflicts": 12
+    },
+    {
+      "index": 498,
+      "sample_id": "crowds_zara02:9840",
+      "conflicts": 12
+    },
+    {
+      "index": 499,
+      "sample_id": "crowds_zara02:9850",
+      "conflicts": 12
+    },
+    {
+      "index": 500,
+      "sample_id": "crowds_zara02:9860",
+      "conflicts": 12
+    },
+    {
+      "index": 501,
+      "sample_id": "crowds_zara02:9870",
+      "conflicts": 12
+    },
+    {
+      "index": 502,
+      "sample_id": "crowds_zara02:9880",
+      "conflicts": 12
+    },
+    {
+      "index": 503,
+      "sample_id": "crowds_zara02:9890",
+      "conflicts": 12
+    },
+    {
+      "index": 504,
+      "sample_id": "crowds_zara02:9900",
+      "conflicts": 12
+    },
+    {
+      "index": 505,
+      "sample_id": "crowds_zara02:9910",
+      "conflicts": 12
+    },
+    {
+      "index": 506,
+      "sample_id": "crowds_zara02:9920",
+      "conflicts": 12
+    },
+    {
+      "index": 507,
+      "sample_id": "crowds_zara02:9930",
+      "conflicts": 12
+    },
+    {
+      "index": 508,
+      "sample_id": "crowds_zara02:9940",
+      "conflicts": 12
+    },
+    {
+      "index": 509,
+      "sample_id": "crowds_zara02:9950",
+      "conflicts": 12
+    },
+    {
+      "index": 510,
+      "sample_id": "crowds_zara02:9960",
+      "conflicts": 12
+    },
+    {
+      "index": 511,
+      "sample_id": "crowds_zara02:9970",
+      "conflicts": 12
+    },
+    {
+      "index": 512,
+      "sample_id": "crowds_zara02:9980",
+      "conflicts": 12
+    },
+    {
+      "index": 513,
+      "sample_id": "crowds_zara02:9990",
+      "conflicts": 12
+    },
+    {
+      "index": 514,
+      "sample_id": "crowds_zara02:10000",
+      "conflicts": 11
+    },
+    {
+      "index": 515,
+      "sample_id": "crowds_zara02:10010",
+      "conflicts": 11
+    },
+    {
+      "index": 516,
+      "sample_id": "crowds_zara02:10020",
+      "conflicts": 11
+    },
+    {
+      "index": 517,
+      "sample_id": "crowds_zara02:10030",
+      "conflicts": 11
+    },
+    {
+      "index": 518,
+      "sample_id": "crowds_zara02:10040",
+      "conflicts": 11
+    },
+    {
+      "index": 519,
+      "sample_id": "crowds_zara02:10050",
+      "conflicts": 11
+    },
+    {
+      "index": 520,
+      "sample_id": "crowds_zara02:10060",
+      "conflicts": 11
+    },
+    {
+      "index": 521,
+      "sample_id": "crowds_zara02:10070",
+      "conflicts": 11
+    },
+    {
+      "index": 522,
+      "sample_id": "crowds_zara02:10080",
+      "conflicts": 10
+    },
+    {
+      "index": 523,
+      "sample_id": "crowds_zara02:10090",
+      "conflicts": 10
+    },
+    {
+      "index": 524,
+      "sample_id": "crowds_zara02:10100",
+      "conflicts": 9
+    },
+    {
+      "index": 525,
+      "sample_id": "crowds_zara02:10110",
+      "conflicts": 9
+    },
+    {
+      "index": 526,
+      "sample_id": "crowds_zara02:10120",
+      "conflicts": 9
+    },
+    {
+      "index": 527,
+      "sample_id": "crowds_zara02:10130",
+      "conflicts": 9
+    },
+    {
+      "index": 528,
+      "sample_id": "crowds_zara02:10140",
+      "conflicts": 9
+    },
+    {
+      "index": 529,
+      "sample_id": "crowds_zara02:10150",
+      "conflicts": 9
+    },
+    {
+      "index": 530,
+      "sample_id": "crowds_zara02:10160",
+      "conflicts": 9
+    },
+    {
+      "index": 531,
+      "sample_id": "crowds_zara02:10170",
+      "conflicts": 9
+    },
+    {
+      "index": 532,
+      "sample_id": "crowds_zara02:10180",
+      "conflicts": 9
+    },
+    {
+      "index": 533,
+      "sample_id": "crowds_zara02:10190",
+      "conflicts": 9
+    },
+    {
+      "index": 534,
+      "sample_id": "crowds_zara02:10200",
+      "conflicts": 9
+    },
+    {
+      "index": 535,
+      "sample_id": "crowds_zara02:10210",
+      "conflicts": 9
+    },
+    {
+      "index": 536,
+      "sample_id": "crowds_zara02:10220",
+      "conflicts": 9
+    },
+    {
+      "index": 537,
+      "sample_id": "crowds_zara02:10230",
+      "conflicts": 8
+    },
+    {
+      "index": 538,
+      "sample_id": "crowds_zara02:10240",
+      "conflicts": 8
+    },
+    {
+      "index": 539,
+      "sample_id": "crowds_zara02:10250",
+      "conflicts": 7
+    },
+    {
+      "index": 540,
+      "sample_id": "crowds_zara02:10260",
+      "conflicts": 7
+    },
+    {
+      "index": 541,
+      "sample_id": "crowds_zara02:10270",
+      "conflicts": 7
+    },
+    {
+      "index": 542,
+      "sample_id": "crowds_zara02:10280",
+      "conflicts": 7
+    },
+    {
+      "index": 543,
+      "sample_id": "crowds_zara02:10290",
+      "conflicts": 7
+    },
+    {
+      "index": 544,
+      "sample_id": "crowds_zara02:10300",
+      "conflicts": 7
+    },
+    {
+      "index": 545,
+      "sample_id": "crowds_zara02:10310",
+      "conflicts": 7
+    },
+    {
+      "index": 546,
+      "sample_id": "crowds_zara02:10320",
+      "conflicts": 7
+    },
+    {
+      "index": 547,
+      "sample_id": "crowds_zara02:10330",
+      "conflicts": 7
+    }
+  ]
+}
