@@ -38,6 +38,12 @@ def main():
             trained_in_stage2p6=rows[0]['trained_in_stage2p6'],best_epochs=';'.join(str(r['best_epoch']) for r in rows),
             source_commit=rows[0]['source_commit'],data_manifest_sha256=rows[0]['data_manifest_sha256'],
             subset_manifest_sha256=rows[0]['subset_manifest_sha256'],test_evaluated=False)
+        # A one-channel softmax is exactly constant. Report this obvious inert
+        # scorer separately; do not pretend the subtraction measures capacity.
+        inactive=8321 if model in ['TOHI-H1','TOHI-H1-Cap','Dynamic-GNN-RN'] else 0
+        record['known_inactive_single_channel_scorer_parameters']=inactive
+        record['nominal_minus_known_inactive_parameters']=int(rows[0]['parameter_count'])-inactive
+        record['capacity_caveat']='not identifiable effective capacity; parameter allocation differs'
         for metric in ['best_ADE_m','best_FDE_m','last_ADE_m','last_FDE_m','actual_training_seconds']:
             record[metric+'_mean'],record[metric+'_std']=stats([r[metric] for r in rows])
         summary.append(record)
