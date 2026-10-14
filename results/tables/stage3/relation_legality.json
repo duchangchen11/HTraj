@@ -1,0 +1,34 @@
+{
+  "backends": {
+    "cpu": {
+      "incoming_L1_difference": 166,
+      "outside_radius_edges": 26082,
+      "outside_radius_fraction": 0.5990078544853246,
+      "random_edges": 43542,
+      "real_edges": 43708,
+      "receivers_degree_changed": 163,
+      "replaced_edges": 28555,
+      "replacement_fraction": 0.6558035919342244
+    },
+    "cuda": {
+      "incoming_L1_difference": 179,
+      "outside_radius_edges": 26074,
+      "outside_radius_fraction": 0.599002963541547,
+      "random_edges": 43529,
+      "real_edges": 43708,
+      "receivers_degree_changed": 175,
+      "replaced_edges": 28546,
+      "replacement_fraction": 0.6557926899308507
+    }
+  },
+  "cpu_cuda_difference": {
+    "random_symmetric_difference_edges": 249,
+    "real_symmetric_difference_edges": 0
+  },
+  "hash": "float32 position/time sinusoid; deterministic within backend but no cross-device bitwise guarantee; ties may reduce budget",
+  "history_only": true,
+  "script_sha256": "10e2665dc55aaeb9dba318ae9027bf81f9051fe4933b5883f9659736cccd0e07",
+  "source_commit": "8d22c54f5f6d64c868e2070b218aeb5fbbd05bcb",
+  "test_evaluated": false,
+  "training_and_main_evaluation_device": "cuda"
+}
