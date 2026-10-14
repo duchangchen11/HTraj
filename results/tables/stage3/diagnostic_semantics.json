@@ -1,0 +1,9 @@
+{
+  "social_messages": "number of selected directed edge-time events, not count of nonzero vector payloads",
+  "unknown_receiver_messages": "feature7 marker2; explicit missing receiver velocity",
+  "relation_before_and_memory_inherited": "unified wrapper cache/continuity eligibility; only History and Random actually feed inherited before to edge GRU; Current/legacy/Uniform do not read it for scoring; NoUpdate explicitly resets it",
+  "raw_structurally_dead_parameters": "original config/summary counter counted scorers only; authoritative full known-dead audit is parameter_capacity_audit.csv, adding1728 NoUpdate edge_gru.weight_hh",
+  "norm_units": "learned latent feature units; not meters or speed",
+  "cohort_latent_backend": "CPU auxiliary; main new model best/last metrics CUDA, Random graph has recorded cross-backend hash differences",
+  "initial_same_checkpoint_bitwise_assertion": "failed due4.768e-7m float32 difference; retried read-only with explicit1e-5m tolerance, no retraining or model change"
+}

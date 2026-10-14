@@ -19,6 +19,8 @@ Stage 2.5 已保留A0并实现R/N/RN、普通社会RN与ego扩宽诊断。19次�
 
 Stage2.6完成H1/H2/H3/非严格同帧NoOrder及两个容量控制的18次独立训练，另6次完全核实的冻结参照；118项测试通过。三种子best ADE均值：H1 0.441364、H2 0.441229、H3 0.444220、NoOrder 0.445767m。H2收益不稳定；H3主ADE三个seed都弱于H2，对近参数H2-Cap两指标三个seed均更差。严格时间规则均值略好但seed方向混合。暂不以高阶优势作为第四章已验证贡献。见 [Stage2.6总报告](reports/stage2p6/STAGE2P6_REPORT.md)。
 
+Stage3完成Receiver-Fix与Relation-Routing及四个独立训练消融，共六次seed17/30epoch，142项测试通过，旧440项SHA保护不变。主best ADE/FDE：Receiver-Fix 0.443099/1.074098、History-Routing 0.442996/1.073757m，均未超过Dynamic-RN 0.437891/1.050755m；NoUpdate优于History主指标。没有候选达到预设门槛，第二轮未启动，不宣称新模型跨seed稳定或独立确认。见[Stage3总报告](reports/stage3/STAGE3_REPORT.md)。
+
 ## 数据集
 
 ETH/UCY 的六个公开轨迹 TXT 已核查 SHA256 并在本地复制，独立重建五场景留一 manifest、观察 8 帧预测 12 帧；历史行人集合与未来监督 mask 分开。没有复用旧项目预处理缓存。原始数据置于 `data/raw/`，缓存置于 `data/processed/`，均不上传。详情见 [数据协议](reports/stage2/01_DATA_PROTOCOL.md)。SDD 尚未开展，米制与像素不能混算。数据分发与许可不因上游代码 MIT 许可自动覆盖。
@@ -38,7 +40,7 @@ docs/method_design/      数学设计、架构比较与实验协议
 docs/thesis/             大论文框架与研究进度
 experiments/             轻量实验配置；运行缓存不上传
 results/{tables,figures}/ 轻量汇总表和完成图片
-reports/{stage1,stage2,stage2p5,stage2p6}/ 阶段报告与诊断
+reports/{stage1,stage2,stage2p5,stage2p6,stage3}/ 阶段报告与诊断
 tests/                   人工时间图、数据、mask与评价正确性检查
 ```
 
@@ -56,6 +58,7 @@ python3 scripts/check_stage1.py
 python3 scripts/check_stage2.py
 python3 scripts/check_stage2p5.py
 python3 scripts/check_stage2p6.py
+python3 scripts/check_stage3.py
 git diff --check
 ```
 
@@ -72,5 +75,7 @@ Stage2.6入口：`"$htraj_python" -m src.training.order_verification`，协议`c
 ## 后续计划
 
 独立阶数/时间规则、历史长度×密度和强关系干预已完成开发核查，缺少稳定高阶收益。下一阶段优先固定H1+R单独验证新进入目标接收、不同身份二阶路径/新鲜度选择、独立尺度变体，再决定是否保留二阶。三阶暂停作为核心性能贡献；补齐HoGAT/创新近邻文献。第五章只保留方向。
+
+Stage3已核查接收阻断并修复，但与匹配H1比较没有明确新进入者ADE收益，完整历史训练后稍差；新增边记忆也未胜过无更新对照。目前停止增加模块，不启动第二轮或完整训练。未来如获授权，单独研究可靠源当前运动先验/消息新鲜度与不确定性，并先准备时间隔离的验证数据；原剩余非ETH验证没有不重叠支持。源入口为`"$htraj_python" -m src.training.relation_routing`，既有run目录拒绝覆盖，已运行六次不再次启动；结果在results/tables/stage3，权重仅本地experiments/stage3/new。
 
 每个阶段完成本地提交；用户已在Stage2.5改为自行从终端上传，后续不自动push。冲突停止。旧项目保留。本仓库不包含凭据、数据集、权重或作者论文全文副本。

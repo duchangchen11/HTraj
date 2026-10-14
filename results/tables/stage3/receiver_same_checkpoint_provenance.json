@@ -1,0 +1,18 @@
+{
+  "after_ADE_m": 0.44216299771072465,
+  "after_FDE_m": 1.072332866427725,
+  "all_prediction_change_L2_m": 0.006734778917211757,
+  "before_ADE_m": 0.44233430840211385,
+  "before_FDE_m": 1.0740955748347758,
+  "checkpoint": "experiments/stage2p6/new/TOHI-H1/seed_17/checkpoints/best.pt",
+  "checkpoint_sha256": "bc541bc0d5d79baa89d14ea74b0664dfc27ea40c80f0e6b5e4125ac0e7cbf2ad",
+  "full8_numerical_tolerance_m": 1e-05,
+  "full8_prediction_max_abs_change_m": 4.76837158203125e-07,
+  "independent_training": false,
+  "initial_bitwise_probe_assertion_passed": false,
+  "interpretation": "Receiver-policy frozen old-model intervention; new-entry inputs OOD; full8 prediction unchanged within reported float32 tolerance, trained full8 degradation reflects shared optimization/checkpoint selection rather than material direct receiver inference effect",
+  "new_weights_trained": false,
+  "script_sha256": "111cb41eb10bfb799182082c2917de1aaa6075205bf1dde3f2453438c2161110",
+  "source_commit": "146c8c951c36cdfc4393f8eaee5e55ae787ecf88",
+  "test_evaluated": false
+}

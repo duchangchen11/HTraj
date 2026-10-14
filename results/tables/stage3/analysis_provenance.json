@@ -1,0 +1,12 @@
+{
+  "confirmation_evaluated": false,
+  "confirmation_unavailable": true,
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "first_round_epochs": 180,
+  "first_round_optimizer_steps": 23040,
+  "first_round_training_runs": 6,
+  "script_sha256": "0211cef356b8a5190b87473e6f54d8fe825000ea7a2e07adf81be8b7813888c7",
+  "source_commit": "78566609610921a509c9098b49035a59e4a201f7",
+  "subset_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1",
+  "test_evaluated": false
+}

@@ -1,0 +1,9 @@
+{
+  "backend": "CPU auxiliary latent diagnostics; main selected metrics CUDA",
+  "future_gt_used": false,
+  "history_only_masks": true,
+  "rows": 252,
+  "script_sha256": "57b5d19b743cad976ba9cd7c9156a6fbba5bb8ccaccbd787810b74a9be027229",
+  "source_commit": "78566609610921a509c9098b49035a59e4a201f7",
+  "test_evaluated": false
+}

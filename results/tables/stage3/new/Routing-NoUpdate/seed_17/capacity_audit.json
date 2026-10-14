@@ -1,0 +1,9 @@
+{
+  "nominal_parameters": 73355,
+  "known_structurally_dead_parameters": 10049,
+  "remaining_parameters": 63306,
+  "dead_parameter_names": "graph.edge_gru.weight_hh;fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias",
+  "original_capture_counter": 8321,
+  "original_capture_counter_scope": "scorers only; no weight updates or checkpoint metadata modified",
+  "authoritative": true
+}

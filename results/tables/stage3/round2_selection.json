@@ -1,0 +1,39 @@
+{
+  "analysis_commit": "78566609610921a509c9098b49035a59e4a201f7",
+  "candidate_universe": [
+    "Receiver-Fix",
+    "Relation-Routing"
+  ],
+  "confirmation_evaluation": "not possible: zero time-disjoint validation windows",
+  "decisions": [
+    {
+      "full8_safe": true,
+      "memory_vs_NoUpdate_0p5pct": true,
+      "model": "Receiver-Fix",
+      "overall_safe": false,
+      "primary_ADE_1pct": false,
+      "qualified": false,
+      "targeted_ADE_10pct": false
+    },
+    {
+      "full8_safe": true,
+      "memory_vs_NoUpdate_0p5pct": false,
+      "model": "Relation-Routing",
+      "overall_safe": false,
+      "primary_ADE_1pct": false,
+      "qualified": false,
+      "targeted_ADE_10pct": false
+    }
+  ],
+  "first_round_complete": true,
+  "rationale": "Primary candidate models only; other models are attribution controls, not additional searched architectures",
+  "rule_from_frozen_protocol_sha256": "8d84a0c8ad96574f95e2a03db8ca5c315bb91d29218be4e4fbaec4d286fcee10",
+  "seed17_reused_identical_first_run": true,
+  "seeds_if_selected": [
+    17,
+    42,
+    2026
+  ],
+  "selected_models": [],
+  "test_evaluated": false
+}
