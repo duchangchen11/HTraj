@@ -83,6 +83,10 @@ def main():
     motion = read(ROOT/'historical_motion_distribution.csv')
     text += table(['留出录像', 'split', '历史量', 'mean', 'median', 'P95'], [[r['recording'], r['split'], r['history_measure'], number(r['mean']), number(r['median']), number(r['p95'])] for r in motion])
     text += '\n速度/方向/变化量及密度全部来自历史。训练与验证的中位速度、方向轴与密度不一致，可能解释泛化/偏差（待验证），不是凭这些相关量认定因果。逐目标同样本CV/PedBase/CVR比较在paired_target_errors.csv，两个ego参数均35352/同初始化，排除了总参数增加这一因素；CV主路径同时改变优化残差分布，不能说仅靠参数量得益。\n\n## 冻结选择\n\n'
+    generalization = read(ROOT/'endpoint_train_validation_generalization.csv')
+    text += '补充训练结束后的同checkpoint全训练/验证推理，排除在线minibatch loss与epoch末模型不一致的比较方式；仅诊断、没有优化或模型选择，CPU验证与主GPU指标差异<1e-6。\n\n'
+    text += table(['录像/模型/策略/endpoint', 'split', '目标', 'ADE/FDE(m)', 'ADE−同split CV'], [[r['recording']+'/'+r['model']+'/'+r['schedule']+'/'+r['endpoint'], r['split'], r['targets'], number(r['ADE_m'])+'/'+number(r['FDE_m']), number(r.get('delta_ADE_vs_same_split_CV_m'))] for r in generalization])
+    text += '\n训练与验证改善方向相反只能支持分布/泛化风险，不能确定某一个速度轴、LR或数据问题为唯一原因。\n\n'
     text += table(['录像', '输出/编码器', '神经schedule', 'anchor ADE/FDE', '源checkpoint SHA256'], selected)
     text += '\n若选择CV输出，最佳神经encoder/head仍原样冻结，decoder不参与最终基础CV输出；总冻结参数35352、有效输出非学习CV。所有分支共享同一源文件/数值权重/输出规则。多候选anchor使用开发集选择，非独立验证，未评价ETH。\n'
     write('02_EGO_BASELINE_RESULTS.md', text)
@@ -94,7 +98,7 @@ def main():
     rows += [[r['recording'], r['seed'], r['model'], r['best_epoch'], metric(r), number(r['last_ADE_m'])+'/'+number(r['last_FDE_m']), r['trainable_parameters'], number(r['training_seconds'], 2)] for r in residual]
     text = '# 冻结主路径的社会payload与容量对照\n\n同一录像/seed五模型完全相同anchor文件SHA和数值参数；社会实验不更新encoder/decoder。参数前后SHA与每轮anchor_unchanged为自动断言。四个新增分支均14425参数，总49777，Ego-Only新增0/冻结35352；只改变自身/邻居来源与source编码年龄/合法关系。\n\n'
     text += table(['录像', 'seed', '模型', 'best轮', 'best ADE/FDE', 'last30 ADE/FDE', '新增可训练参数', '训练秒'], rows)
-    text += '\n## 同样本总体差值\n\n'
+    text += '\nPrevious与Current均使用当前时刻的相对位置/速度几何；此对照验证的是ego嵌入的新鲜度，并非删除全部当前运动信息。\n\n## 同样本总体差值\n\n'
     overall = [r for r in groups if r['group'] == 'all' and r['endpoint'] == 'best' and r['model'] in p['residual_models']]
     text += table(['录像/seed/模型', 'N', 'ΔADE/FDE vs anchor', 'ΔADE/FDE vs同容量Ego-Residual', 'ADE配对受益比例vs anchor'], [[r['recording']+'/'+r['seed']+'/'+r['model'], r['target_count'], number(r.get('delta_minus_Ego-Only_ADE_m'))+'/'+number(r.get('delta_minus_Ego-Only_FDE_m')), number(r.get('delta_minus_Ego-Residual_ADE_m'))+'/'+number(r.get('delta_minus_Ego-Residual_FDE_m')), number(r.get('paired_improved_vs_Ego-Only_ADE_fraction'))] for r in overall])
     text += '\n## 状态、门控、图负对照\n\n'
