@@ -79,7 +79,7 @@ def main():
                     mean_delta_Dynamic_minus_PedBase_ADE_m=np.mean([r['delta_Dynamic_minus_PedBase_ADE_m'] for r in rows]),
                     ADE_direction_better_seeds=sum(r['delta_Dynamic_minus_PedBase_ADE_m']<0 for r in rows),
                     FDE_direction_better_seeds=sum(r['delta_Dynamic_minus_PedBase_FDE_m']<0 for r in rows) if rows[0]['FDE_count'] else 0,
-                    scope='three optimizer seeds on reused development data; no independent/generalization/causal claim')))
+                    scope='three optimizer seeds on reused development data; no independent/generalization/causal claim'))
         csv_new(ROOT/'legacy_seed_direction_consistency.csv',consistency)
     elif mode=='pilot':
         support=temporal_sensitivity();protocols=json.loads(Path('configs/stage3p5/protocol.json').read_text())['protocols']
