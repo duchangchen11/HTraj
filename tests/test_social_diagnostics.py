@@ -22,6 +22,24 @@ def test_a0_is_numerically_identical_to_preserved_original():
     torch.testing.assert_close(original(x), alias(x), rtol=0, atol=0)
 
 
+def test_a0_backward_matches_preserved_original_on_cpu():
+    torch.manual_seed(17)
+    original = TOHIA(hidden_dim=16)
+    alias = DIAGNOSTIC_MODELS['TOHI-A0'](hidden_dim=16)
+    alias.load_state_dict(original.state_dict(), strict=True)
+    x = tracks().requires_grad_()
+    other = x.detach().clone().requires_grad_()
+    original(x).square().mean().backward()
+    alias(other).square().mean().backward()
+    torch.testing.assert_close(x.grad, other.grad, rtol=0, atol=0)
+    for (name, parameter), (other_name, other_parameter) in zip(
+            original.named_parameters(), alias.named_parameters()):
+        assert name == other_name
+        assert (parameter.grad is None) == (other_parameter.grad is None)
+        if parameter.grad is not None:
+            torch.testing.assert_close(parameter.grad, other_parameter.grad, rtol=0, atol=0)
+
+
 @pytest.mark.parametrize('name', NEW)
 def test_variant_padding_permutation_and_backward(name):
     model = DIAGNOSTIC_MODELS[name](hidden_dim=16).eval()

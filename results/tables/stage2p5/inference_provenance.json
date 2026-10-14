@@ -1,0 +1,13 @@
+{
+  "model_training_commit": "90d987799d06bef4e213952342da231e93792a41",
+  "inference_parent_commit": "90d987799d06bef4e213952342da231e93792a41",
+  "inference_runner": "scripts/stage2p5_attributions_cpu.py",
+  "inference_runner_sha256": "3b1c97998b97da02109dd42f076220911205ef780f315bdd47171a8d1c97b3c7",
+  "runner_was_new_untracked_file_at_execution": true,
+  "inference_engine": "src/training/social_diagnostics.py:evaluate",
+  "inference_engine_sha256": "ecd13bbfeedd3ec08e34930f591a91dddd28b910e3bbe54b4f517b39a8adf9a9",
+  "result_sha256": "606898757ce2cf0d48391e76eb64bdacf21e52a88d8a6849626e5aef3283af56",
+  "device": "cpu",
+  "note": "Model and evaluator were committed before training; CPU harness was new, archived by exact hash and included in final delivery.",
+  "test_evaluated": false
+}

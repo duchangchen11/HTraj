@@ -1,0 +1,53 @@
+{
+  "PedBase_best_ADE_m": 0.44946159181896345,
+  "criterion": "lowest best-ADE social; add lowest TOHI if different and within 5% of best social, else second social",
+  "pause_criterion": "all social models best ADE > 1.05*PedBase best ADE and no FDE improvement",
+  "ranked_social": [
+    {
+      "best_ADE_m": 0.45886687074048743,
+      "best_FDE_m": 1.1025620257044577,
+      "model": "Dynamic-GNN-RN"
+    },
+    {
+      "best_ADE_m": 0.4592305689603834,
+      "best_FDE_m": 1.1034729676820667,
+      "model": "FirstOrder-GNN-RN"
+    },
+    {
+      "best_ADE_m": 0.4594896002339444,
+      "best_FDE_m": 1.1097274730259528,
+      "model": "TOHI-A-R"
+    },
+    {
+      "best_ADE_m": 0.4604551740573369,
+      "best_FDE_m": 1.109382804443214,
+      "model": "TOHI-A-RN"
+    },
+    {
+      "best_ADE_m": 0.46271241326102003,
+      "best_FDE_m": 1.1090777423299396,
+      "model": "TOHI-A0"
+    },
+    {
+      "best_ADE_m": 0.4633479610259045,
+      "best_FDE_m": 1.0943522265755945,
+      "model": "Dynamic-GNN"
+    },
+    {
+      "best_ADE_m": 0.46804608759189803,
+      "best_FDE_m": 1.1250672959883534,
+      "model": "TOHI-A-N"
+    },
+    {
+      "best_ADE_m": 0.47253123297667543,
+      "best_FDE_m": 1.1107806431948783,
+      "model": "FirstOrder-GNN"
+    }
+  ],
+  "round2_status": "authorized_by_fixed_rule",
+  "selected_social_models": [
+    "Dynamic-GNN-RN",
+    "TOHI-A-R"
+  ],
+  "test_evaluated": false
+}

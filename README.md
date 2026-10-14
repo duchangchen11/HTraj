@@ -15,6 +15,8 @@ Stage 1 已完成 HighGraph、UniEdge 原文分析和候选结构设计。HighGr
 
 Stage 2 同时实现 PedBase、FirstOrder-GNN 和 Dynamic-GNN。59 项测试通过；四模型完成同一开发划分的 5 epoch smoke。当前 TOHI-A 尚未显示优于基础网络，不能以这次短训练宣称性能优势。见 [Stage 1](reports/stage1/STAGE1_REPORT.md) 和 [Stage 2 报告](reports/stage2/STAGE2_REPORT.md)。
 
+Stage 2.5 已保留A0并实现R/N/RN、普通社会RN与ego扩宽诊断。19次固定预算训练完成，全部87项测试通过。1024窗口三种子best开发ADE均值：PedBase 0.439398m、Dynamic-GNN-RN 0.440075m、TOHI-A-R 0.442214m；尚无稳定整体ADE优势。98条固定checkpoint控制记录包含full和明确的no-op；二阶有条件增益，三阶较小，独立高阶/时间约束贡献未证明。详见 [Stage 2.5 总报告](reports/stage2p5/STAGE2P5_REPORT.md)。ETH测试集没有评价。
+
 ## 数据集
 
 ETH/UCY 的六个公开轨迹 TXT 已核查 SHA256 并在本地复制，独立重建五场景留一 manifest、观察 8 帧预测 12 帧；历史行人集合与未来监督 mask 分开。没有复用旧项目预处理缓存。原始数据置于 `data/raw/`，缓存置于 `data/processed/`，均不上传。详情见 [数据协议](reports/stage2/01_DATA_PROTOCOL.md)。SDD 尚未开展，米制与像素不能混算。数据分发与许可不因上游代码 MIT 许可自动覆盖。
@@ -34,13 +36,13 @@ docs/method_design/      数学设计、架构比较与实验协议
 docs/thesis/             大论文框架与研究进度
 experiments/             轻量实验配置；运行缓存不上传
 results/{tables,figures}/ 轻量汇总表和完成图片
-reports/{stage1,stage2}/ 阶段总报告、数据/模型/测试/训练说明
+reports/{stage1,stage2,stage2p5}/ 阶段报告与诊断
 tests/                   人工时间图、数据、mask与评价正确性检查
 ```
 
 ## 研究阶段
 
-Stage 1：证据核查与结构设计；Stage 2：数据、基础/对照网络与 A 原型及最小训练（2026-10-14 完成）；后续先诊断状态尺度、融合和容量公平性，再决定规范评估。B 与多模态方向暂不开发。后续阶段需用户指令启动。
+Stage 1：证据核查与结构设计；Stage 2：数据、对照与A原型；Stage 2.5：融合诊断与固定开发集三种子验证（2026-10-14完成）。目前先补独立高阶归因，暂不进入五场景正式评估。B与多模态方向暂不开发。后续阶段需用户指令启动。
 
 ## 当前运行方式
 
@@ -50,6 +52,7 @@ htraj_python=/home/lrj/anaconda3/envs/ped_intent/bin/python
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 "$htraj_python" -m pytest -q
 python3 scripts/check_stage1.py
 python3 scripts/check_stage2.py
+python3 scripts/check_stage2p5.py
 git diff --check
 ```
 
@@ -59,8 +62,10 @@ git diff --check
 
 最小训练入口：`"$htraj_python" -m src.training.smoke --run-id NEW_UNIQUE_RUN_ID`，只运行固定开发子集，不会自动五折训练；开始前需提交 tracked 源码/配置。已运行结果在 [summary.csv](results/tables/stage2_smoke_v1/summary.csv)，checkpoint 保留本地且忽略。重跑不是当前阶段必须执行的动作。
 
+Stage2.5训练入口：`"$htraj_python" -m src.training.social_diagnostics --phase round1`，第二轮为`--phase round2`，使用预提交的`configs/stage2p5/protocol.json`和selection.json；既有结果目录存在时拒绝覆盖。本阶段已经运行完毕，不再次启动。表在`results/tables/stage2p5/`，best/last权重在本地`experiments/stage2p5/`，检查脚本需这些本地数据/权重以核实hash；GitHub不包含权重或数据。
+
 ## 后续计划
 
-时间前缀与正逆序已验证；下一阶段先查按阶状态尺度、融合保留运动特征和同容量对照，暂不直接扩大训练。补齐 HoGAT 全文与近期时间图文献，完成公平实验后再决定贡献表述。第五章只保留方向，不预设最终模型。
+时间前缀与正逆序已验证；下一阶段优先同融合/近容量的H=1/2/3独立训练、时间约束单因素、历史长度×密度和更有力合法负对照，避免将条件敏感性当成独立贡献。补齐HoGAT全文与近期时间图文献。第五章只保留方向，不预设最终模型。
 
-每个阶段提交并推送；冲突停止，认证失败保留本地提交。旧项目保留。本仓库不包含凭据、数据集、权重或作者论文全文副本。
+每个阶段完成本地提交；用户已在Stage2.5改为自行从终端上传，后续不自动push。冲突停止。旧项目保留。本仓库不包含凭据、数据集、权重或作者论文全文副本。
