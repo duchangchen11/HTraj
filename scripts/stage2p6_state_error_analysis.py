@@ -1,7 +1,8 @@
 """Descriptive state/error associations on every fixed best checkpoint.
 
-No scales are changed. No norms/GT are used to select models or data. Quartiles
-are exploratory summaries; correlations are not causal evidence of instability.
+No scales are changed. GT coordinates are used only for errors; GT availability
+determines evaluability. Quartiles are exploratory, never used for selection;
+correlations are not causal evidence of instability.
 """
 from pathlib import Path
 import argparse
@@ -110,7 +111,8 @@ def main():
                         FDE_count=int(fde_mask.sum()),state_norm_mean=float(x[use].mean()) if use.any() else None,
                         ADE_m=float(arrays['ADE_m'][use].mean()) if use.any() else None,
                         FDE_m=float(arrays['FDE_m'][fde_mask].mean()) if fde_mask.any() else None,
-                        bins_use_GT=False,bins_used_for_selection=False))
+                        bins_use_GT_coordinates=False,bins_conditioned_on_metric_availability=True,
+                        bins_used_for_selection=False))
         torch.manual_seed(seed); initial=build_order_model(args.model)
         for q,(module,initial_module) in enumerate(zip(model.order_state.projections,initial.order_state.projections)):
             singular=np.linalg.svd(module.weight.detach().numpy(),compute_uv=False)
