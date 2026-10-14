@@ -30,10 +30,15 @@ def main():
         assert {w['sample_id'] for w in train} <= oldtrain and not {w['sample_id'] for w in train} & oldval
         assert {w['sample_id'] for w in val} <= oldval
         assert all(w['scene'] != 'ETH' and w['end_frame']-w['start_frame'] == 190 for w in train+val)
+    test_counts = {}
     for file in ('pretraining_tests.xml', 'unit_tests.xml'):
         suites = ET.parse(root/file).getroot()
-        assert sum(int(s.get('tests', 0)) for s in suites) >= 165
+        test_counts[file] = sum(int(s.get('tests', 0)) for s in suites)
+        assert test_counts[file] >= (166 if file == 'unit_tests.xml' else 165)
         assert all(int(s.get(k, 0)) == 0 for s in suites for k in ('errors', 'failures'))
+    additional = ET.parse(root/'additional_pre_social_tests.xml').getroot()
+    assert sum(int(s.get('tests', 0)) for s in additional) == 1
+    assert all(int(s.get(k, 0)) == 0 for s in additional for k in ('errors', 'failures'))
     decision = json.loads((root/'round3_decision.json').read_text())
     selection = json.loads((root/'anchor_selection.json').read_text())
     neural, epochs, steps = 0, 0, 0
@@ -80,7 +85,7 @@ def main():
     assert analysis['paired_target_rows'] == 2820*(3 if decision['run_extra_seeds'] else 1)
     for file in ('01_EXPERIMENT_PROTOCOL.md', '02_EGO_BASELINE_RESULTS.md', '03_FROZEN_EGO_DESIGN.md', '04_SOCIAL_PAYLOAD_COMPARISON.md', '05_INTERACTION_GROUP_ANALYSIS.md', '06_RESEARCH_DECISION.md', 'STAGE3P6_REPORT.md'):
         assert (Path('reports/stage3p6')/file).stat().st_size > 500
-    print(json.dumps(dict(status='passed', protected_artifacts=len(protected['files']), old_checkpoints=98, neural_runs=neural, executed_epochs=epochs, optimizer_updates=steps, unit_tests=165,
+    print(json.dumps(dict(status='passed', protected_artifacts=len(protected['files']), old_checkpoints=98, neural_runs=neural, executed_epochs=epochs, optimizer_updates=steps, unit_tests=test_counts['unit_tests.xml'],
         frozen_parameters_unchanged=True, no_message_exact_checks=True, ETH_evaluated=False, auto_push=False)))
 
 
