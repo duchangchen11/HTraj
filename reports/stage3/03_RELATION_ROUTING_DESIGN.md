@@ -72,7 +72,7 @@ Random用仅当前历史位置+时间的无身份索引hash排名，无未来、
 - **UniEdge** (Li等，2025，[作者稿](https://arxiv.org/html/2502.02504v1)，§III-B–D)：patch内统一行人时间图、共享端点边图的Hodge-Laguerre传播、边增强节点以及Transformer未来占位预测器。此处只用逐帧直接候选和本对GRU选择，没有patch、E2E传播或Transformer。计算结构不同，但“边信息影响节点”已经是已有思想。
 - **Structural-RNN** (Jain等，CVPR2016，[正式论文](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Jain_Structural-RNN_Deep_Learning_CVPR_2016_paper.pdf)，§3)：节点与边因素RNN及因子共享。边递归记忆/共享本身不能作为新贡献。
 - **Social Attention** (Vemula、Muelling、Oh，ICRA2018，[作者正式稿](https://publications.ri.cmu.edu/storage/publications/2018/08/main.pdf)，§IV)：尤其接近，沿用S-RNN的空间/时间边RNN，并学习社会注意力。历史关系RNN加receiver选择在行人预测中已有先例，不能把换成GRU当创新。
-- **Temporal Graph Networks** (Rossi等，2020，[arXiv](https://arxiv.org/abs/2006.10637))：通用事件图的记忆与图操作框架，其主要记忆对象与任务和本对窗口记忆不同；因果时序记忆也不是新概念。本次只核查摘要范围，不伪称完整复现。
+- **Temporal Graph Networks** (Rossi等，2020，[arXiv](https://arxiv.org/abs/2006.10637))：通用事件图的记忆与图操作框架，研究范围不同于此次行人预测窗口；记忆与动态图算子的结合也不是新概念。本次只核查摘要范围，不作具体记忆对象或完整实现比较。
 
 来自已有：GRU/attention、关系运动特征、残差、自身运动编码、按场景共享。HTraj此次重新设计并测试：可见接收者与carry连续性分离、显式未知速度安全候选、同候选预算下等参数零记忆对照、原直接延迟payload保持不变的关系选择模块、部分历史分组与停止规则。它们是可审计的工程结构与假设；是否具有论文方法贡献仍待稳定收益和与最近边记忆方法更全面比较，当前原型不能自动升级为第四章正式网络。
 

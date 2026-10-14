@@ -1,0 +1,26 @@
+{
+  "current_source_velocity_always_observable": true,
+  "history_only": true,
+  "message_timing": "legacy previous ego retained; missing-velocity flags are not fabricated speeds",
+  "script_sha256": "a5666b5d3a62d5e3e558ea5ccd04edb60392947df5945ca2ff0d242444319e3e",
+  "source_commit": "188c08129281ef575b32af3e12b640180c6fdb0c",
+  "splits": {
+    "development": {
+      "all_messages": 43708,
+      "one_frame_edges_prior_motion_known": 58,
+      "one_frame_neighbor_targets": 22,
+      "one_frame_relation_edges": 65,
+      "one_frame_targets_any_prior_motion_payload": 22,
+      "payload_prior_motion_missing": 6918
+    },
+    "train": {
+      "all_messages": 751940,
+      "one_frame_edges_prior_motion_known": 1400,
+      "one_frame_neighbor_targets": 314,
+      "one_frame_relation_edges": 1485,
+      "one_frame_targets_any_prior_motion_payload": 302,
+      "payload_prior_motion_missing": 117585
+    }
+  },
+  "test_evaluated": false
+}
