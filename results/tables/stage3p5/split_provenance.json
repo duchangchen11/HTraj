@@ -1,0 +1,13 @@
+{
+  "ETH_evaluated": false,
+  "historical_exposure": "all five recordings used by previous experiments; fresh models exclude held recording but this is not previously untouched confirmation data",
+  "no_old_validation_in_new_training": true,
+  "no_recording_overlap": true,
+  "old_development_exact_window_overlap": 11,
+  "origin_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "pilot_recording": "students003",
+  "pilot_validation_windows": 70,
+  "script_sha256": "6c9ec99dec4dcc60cd3c7aafec8bda5bde2096ae63a535d91aca949fbf292973",
+  "source_commit": "c80e6caf31d71393a419f2df4d12e570b0a6b3c3",
+  "temporal_support": "20 calibrated frames span190 frame-ID ticks; source-recording isolation is stronger than temporal embargo within these new folds"
+}

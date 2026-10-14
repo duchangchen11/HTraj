@@ -1,0 +1,39 @@
+{
+  "ETH_evaluated": false,
+  "batch_size": 8,
+  "best_rule": "minimum own-protocol validation ADE; earliest exact tie; paired FDE, last30 separate",
+  "cpu_threads": 1,
+  "data_policy": "only original train on four recordings, original validation on held recording; discard held recording originaltrain and retain other old validation",
+  "epochs": 30,
+  "gradient_clip": 1.0,
+  "groups": {
+    "cosine_threshold": 0.7,
+    "density": "mean degree over valid continuous history steps;0/(0,1]/(1,3]/>3",
+    "moving_speed_min_mps": 0.2,
+    "relationship_change": "mean adjacent relative velocity difference of persistent candidate pairs>=0.5m/s; missing opportunities separate"
+  },
+  "hidden_dim": 64,
+  "independent_confirmation": false,
+  "inference_controls": "fixed Dynamic best no_messages and same-scene radius-constrained relation randomization; auxiliary only",
+  "interpretation": "one recording one seed pilot; overlapping windows and prior researcher exposure; no stable/causal/five-scene claim",
+  "learning_rate": 0.001,
+  "loss": "original masked per-track mean L2",
+  "models": [
+    "CV",
+    "PedBase",
+    "Dynamic-GNN-RN"
+  ],
+  "optimizer": "Adam default betas/eps; weight_decay0",
+  "original_manifest": "configs/data_manifests/stage2_v1/fold_ETH.json",
+  "original_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "pilot_indices": "configs/stage3p5/pilot_indices.json",
+  "pilot_recording": "students003",
+  "protocols": [
+    "A_complete8x12_history_context",
+    "B_partial_mask_v1"
+  ],
+  "raw_root": "data/raw/eth_ucy",
+  "seed": 17,
+  "stage": "3.5",
+  "training_from_scratch": true
+}

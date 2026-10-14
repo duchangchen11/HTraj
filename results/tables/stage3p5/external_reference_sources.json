@@ -1,0 +1,147 @@
+{
+  "model": "Social-STGCNN",
+  "official_repository": "https://github.com/abduallahmohamed/Social-STGCNN",
+  "replicated": false,
+  "files": [
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.md",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/LICENSE",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/LICENSE",
+      "sha256": "364f9d362d639560c45bcc7450e4f39ec80474923f116911c8745c28f4d56985",
+      "bytes": 1074,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "utils.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/utils.py",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/utils.py",
+      "sha256": "d8b9cbf06e621eddd68fc6994320f7f4d90006d7491e0337d1542b2e4c8186bf",
+      "bytes": 8883,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "test.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/test.py",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/test.py",
+      "sha256": "e4b63bb38e81027685efece6ef0e14fd5f807e9e79e36c999a27c26b7d415b22",
+      "bytes": 6049,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "train.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/train.py",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/train.py",
+      "sha256": "d566f1cfb7b8d16847d3d06b3aa1cfdc36fde12180ff6f044de272fcb0697aec",
+      "bytes": 7603,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "model.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/model.py",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/model.py",
+      "sha256": "178e623334a3d91ec5caf5a302de0045e18e959142d07a5bad8a2c05cfbbb968",
+      "bytes": 7003,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "metrics.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/metrics.py",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/metrics.py",
+      "sha256": "7ce16f805a207e5b80c9aa61d5c1241f54d9a04c743ab01f90ff169ee0373730",
+      "bytes": 3006,
+      "status": "fetched"
+    },
+    {
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "file": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/requirements.txt",
+      "local": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/requirements.txt",
+      "sha256": "42aa8b4869f7570ac3d82fba9f99091dd89fba921ea7efee027257f65b02c7c5",
+      "bytes": 3619,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/README.md",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/LICENSE",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/LICENSE",
+      "sha256": "364f9d362d639560c45bcc7450e4f39ec80474923f116911c8745c28f4d56985",
+      "bytes": 1074,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "utils.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/utils.py",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/utils.py",
+      "sha256": "d8b9cbf06e621eddd68fc6994320f7f4d90006d7491e0337d1542b2e4c8186bf",
+      "bytes": 8883,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "test.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/test.py",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/test.py",
+      "sha256": "e4b63bb38e81027685efece6ef0e14fd5f807e9e79e36c999a27c26b7d415b22",
+      "bytes": 6049,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "train.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/train.py",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/train.py",
+      "sha256": "d566f1cfb7b8d16847d3d06b3aa1cfdc36fde12180ff6f044de272fcb0697aec",
+      "bytes": 7603,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "model.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/model.py",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/model.py",
+      "sha256": "78a2e005c6f8ae8b89af5d59319f08a3a98e127c296ea9f585c2b2661c1f3f05",
+      "bytes": 7121,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "metrics.py",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/metrics.py",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/metrics.py",
+      "sha256": "0d815f5a46f17daf052fa101c9aa83b8615ae6ab7828a4640af38654a817064d",
+      "bytes": 2955,
+      "status": "fetched"
+    },
+    {
+      "commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+      "file": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/requirements.txt",
+      "local": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/requirements.txt",
+      "sha256": "42aa8b4869f7570ac3d82fba9f99091dd89fba921ea7efee027257f65b02c7c5",
+      "bytes": 3619,
+      "status": "fetched"
+    }
+  ]
+}
