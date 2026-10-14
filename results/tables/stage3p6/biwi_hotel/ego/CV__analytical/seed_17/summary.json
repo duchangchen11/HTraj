@@ -1,0 +1,14 @@
+{
+  "ADE_m": 0.32951589650328056,
+  "ETH_evaluated": false,
+  "FDE_m": 0.6110384269330487,
+  "evaluation_seconds": 0.16882211598567665,
+  "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+  "model": "CV",
+  "parameter_count": 0,
+  "phase": "ego",
+  "recording": "biwi_hotel",
+  "seed": null,
+  "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+  "training_seconds": null
+}

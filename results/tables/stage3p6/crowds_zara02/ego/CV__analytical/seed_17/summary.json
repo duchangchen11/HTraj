@@ -1,0 +1,14 @@
+{
+  "ADE_m": 0.2963058108211437,
+  "ETH_evaluated": false,
+  "FDE_m": 0.6675226459136376,
+  "evaluation_seconds": 0.840330389997689,
+  "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+  "model": "CV",
+  "parameter_count": 0,
+  "phase": "ego",
+  "recording": "crowds_zara02",
+  "seed": null,
+  "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+  "training_seconds": null
+}

@@ -1,0 +1,63 @@
+{
+  "ETH_evaluated": false,
+  "qualified_models": [],
+  "rows": [
+    {
+      "EgoOnly_ADE_m": 0.27669601431696406,
+      "EgoResidual_ADE_m": 0.2763560379381145,
+      "model": "Social-Current",
+      "pass_fixed_rule": false,
+      "recording": "crowds_zara02",
+      "social_ADE_m": 0.2775147625487366,
+      "social_FDE_m": 0.6208928203408098
+    },
+    {
+      "EgoOnly_ADE_m": 0.32951589650328056,
+      "EgoResidual_ADE_m": 0.4011782737647962,
+      "model": "Social-Current",
+      "pass_fixed_rule": false,
+      "recording": "biwi_hotel",
+      "social_ADE_m": 0.390292873922384,
+      "social_FDE_m": 0.771402378502132
+    },
+    {
+      "EgoOnly_ADE_m": 0.27669601431696406,
+      "EgoResidual_ADE_m": 0.2763560379381145,
+      "model": "Social-Previous",
+      "pass_fixed_rule": false,
+      "recording": "crowds_zara02",
+      "social_ADE_m": 0.27709722180506247,
+      "social_FDE_m": 0.6202276109994113
+    },
+    {
+      "EgoOnly_ADE_m": 0.32951589650328056,
+      "EgoResidual_ADE_m": 0.4011782737647962,
+      "model": "Social-Previous",
+      "pass_fixed_rule": false,
+      "recording": "biwi_hotel",
+      "social_ADE_m": 0.3893735446270157,
+      "social_FDE_m": 0.7687005681811638
+    },
+    {
+      "EgoOnly_ADE_m": 0.27669601431696406,
+      "EgoResidual_ADE_m": 0.2763560379381145,
+      "model": "Social-Random",
+      "pass_fixed_rule": false,
+      "recording": "crowds_zara02",
+      "social_ADE_m": 0.2773394810083585,
+      "social_FDE_m": 0.6205219898250077
+    },
+    {
+      "EgoOnly_ADE_m": 0.32951589650328056,
+      "EgoResidual_ADE_m": 0.4011782737647962,
+      "model": "Social-Random",
+      "pass_fixed_rule": false,
+      "recording": "biwi_hotel",
+      "social_ADE_m": 0.390285609653161,
+      "social_FDE_m": 0.7704487386739479
+    }
+  ],
+  "rule": "a true social variant must beat both its own frozen Ego-Only and matched Ego-Residual by at least max(.005m,.005*reference_ADE) in BOTH recordings and not worsen pairedFDE against either; only then run42/2026, freeze per-recording anchor model/schedule/output family selected at17 and train it from scratch for each seed, then all4 residual controls with same seed-specific anchor; no seed replacement",
+  "run_extra_seeds": false,
+  "selected_candidate": null
+}

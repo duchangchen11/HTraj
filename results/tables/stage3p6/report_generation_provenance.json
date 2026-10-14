@@ -1,0 +1,15 @@
+{
+  "ETH_evaluated": false,
+  "actual_training_seconds": 3212.022749857686,
+  "reports": {
+    "reports/stage3p6/01_EXPERIMENT_PROTOCOL.md": "306a56c235006374f9ed18ae5bdde630c09ca16a2fadf14559e4a856afeea0c9",
+    "reports/stage3p6/02_EGO_BASELINE_RESULTS.md": "44b43dcffcf6e674e66b03205f6193bee0b8aa30d9b210ad79c4c3d378c29535",
+    "reports/stage3p6/03_FROZEN_EGO_DESIGN.md": "24dfa03fce3f99b53916ddee44ace1d5ca8071478d0da3988630d7f35e7c2c5b",
+    "reports/stage3p6/04_SOCIAL_PAYLOAD_COMPARISON.md": "9c23665619db1adcdd318caceb7b40de2cf36e088cf94bff94b05e215db8ab2b",
+    "reports/stage3p6/05_INTERACTION_GROUP_ANALYSIS.md": "ce668fd1d2a67fc988622ce5379c39ed8e3cfa6b6b55392983bcb9003d984aea",
+    "reports/stage3p6/06_RESEARCH_DECISION.md": "87b1f6a57578471b9ee07b497a156f4ef91ba424ed845c282224f90bed8b806f",
+    "reports/stage3p6/STAGE3P6_REPORT.md": "b91bf7bd5095ed9c098e26d8743709608998f53b166882429aab0c204bce7afc"
+  },
+  "script_sha256": "94ab846f4f7f36b2a9e6b55b636de7adf7ee7fd7ff47a35dfdabe9ef99a643e2",
+  "source_commit": "fc691fdcfc33358d0ec9b20b7fa6612886c64d72"
+}

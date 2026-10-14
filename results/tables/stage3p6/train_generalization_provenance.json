@@ -1,0 +1,9 @@
+{
+  "ETH_evaluated": false,
+  "new_training": false,
+  "purpose": "post-training same endpoint train/val inference; different from online minibatch training loss",
+  "rows": 36,
+  "script_sha256": "9b78a3cb6371343d1bc78d4036dbabd964a1988c6a08ba590207a69a203c78a4",
+  "source_commit": "fc691fdcfc33358d0ec9b20b7fa6612886c64d72",
+  "used_for_selection": false
+}

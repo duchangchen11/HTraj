@@ -1,0 +1,13 @@
+recording,seed,endpoint,model,targets,exact_per_target_error_and_zero_correction
+crowds_zara02,17,best,Social-Previous,33,True
+crowds_zara02,17,best,Social-Current,33,True
+crowds_zara02,17,best,Social-Random,33,True
+crowds_zara02,17,last,Social-Previous,33,True
+crowds_zara02,17,last,Social-Current,33,True
+crowds_zara02,17,last,Social-Random,33,True
+biwi_hotel,17,best,Social-Previous,14,True
+biwi_hotel,17,best,Social-Current,14,True
+biwi_hotel,17,best,Social-Random,14,True
+biwi_hotel,17,last,Social-Previous,14,True
+biwi_hotel,17,last,Social-Current,14,True
+biwi_hotel,17,last,Social-Random,14,True

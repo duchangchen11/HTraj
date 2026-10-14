@@ -1,0 +1,1220 @@
+{
+  "status": "passed",
+  "UTC": "2026-10-14T21:24:05.153843+00:00",
+  "branch": "feat/stage3p6-frozen-ego",
+  "base_commit": "2abca51dd42489a06668e6430531b984dff14641",
+  "core_training_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+  "receipt_before_final_commit": "fc691fdcfc33358d0ec9b20b7fa6612886c64d72",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/check_stage1.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 20 deliverables, 16 directories, 32 ignore probes; relative links and delimiters valid.\nPASS: 842 nonignored files, 41109407 bytes; largest results/tables/stage3p6/paired_target_errors.csv (2155204 bytes); no matched secret patterns.\nScope: document/repository checks only; no model tests or training executed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_stage2.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: five actual manifests isolated; raw hashes valid; four finite equal-budget smoke runs; no tracked data/weights.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/lrj/anaconda3/envs/ped_intent/bin/python",
+        "scripts/check_stage2p5.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 19 complete runs, 30 epochs each, 98 executed control rows (noops labelled); Stage2 bytes preserved; no ETH test/weights tracked.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/lrj/anaconda3/envs/ped_intent/bin/python",
+        "scripts/check_stage2p6.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 222 protected artifacts unchanged; 18 new x30ep +6 frozen runs; 59 fixed groups; 96 inference controls; no ETH test/data/weights tracked.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/lrj/anaconda3/envs/ped_intent/bin/python",
+        "scripts/check_stage3.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"auxiliary_inference_cases\": 10, \"confirmation_windows\": 0, \"epochs\": 180, \"frozen_reference_runs\": 6, \"new_runs\": 6, \"protected_artifacts\": 440, \"status\": \"passed\", \"test_evaluated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_stage3p5.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"protected_artifacts\": 606, \"fresh_pilot_runs\": 4, \"epochs\": 120, \"new_training_recordings_disjoint\": true, \"ETH_evaluated\": false, \"external_model_replicated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/check_stage3p6.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"protected_artifacts\": 740, \"old_checkpoints\": 98, \"neural_runs\": 16, \"executed_epochs\": 480, \"optimizer_updates\": 114480, \"unit_tests\": 166, \"frozen_parameters_unchanged\": true, \"no_message_exact_checks\": true, \"ETH_evaluated\": false, \"auto_push\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "unit_tests": 166,
+  "unit_test_sha256": "0b1cf78baa35850ff27dd52ccd99651efd1de7efcc800b72f63548b82caaf9a6",
+  "protected_artifacts": 740,
+  "old_checkpoints_unchanged": 98,
+  "new_neural_runs": 16,
+  "epochs": 480,
+  "optimizer_updates": 114480,
+  "training_seconds": 3212.022749857686,
+  "actual_seeds": [
+    17
+  ],
+  "additional_seeds_not_run": true,
+  "anchor_frozen": true,
+  "no_message_exact": true,
+  "ETH_evaluated": false,
+  "B_evaluated": false,
+  "auto_push": false,
+  "new_checkpoint_metadata": [
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/checkpoints/best.pt",
+      "sha256": "8a7ad9bf6986191b8c96846f4b99153a2b83c34c3772d14abe9cc07cf2c2d74e",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/checkpoints/last.pt",
+      "sha256": "98c6b9b7fc616c46f8dd15b3c4d1a7c80142d23cb02f170063bba2215819b9ad",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/checkpoints/best.pt",
+      "sha256": "63f8db6d071acec4467c37c146e7cc190539124266b8cd38fabe975242a08bfd",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/checkpoints/last.pt",
+      "sha256": "e1b984843f280ab994cbe5b59ed3c5227cb6a62458a2bee8da44280f61b1cc78",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/checkpoints/best.pt",
+      "sha256": "e88ef56ce69f8a70e2c90a50d1aed78b21ce2ce4f34de9d23f64d4b0f1e5b71b",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/checkpoints/last.pt",
+      "sha256": "6aace6faf832c558532f201a5d4004d44404b54560337dfdaccf6c5f93447d8f",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/checkpoints/best.pt",
+      "sha256": "715dfac96f7194b133d4abcbbd31e81decb22d26359d54cc776c62728c0e4a8f",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/checkpoints/last.pt",
+      "sha256": "3dfc52115ce2982780ac3b2164acb20fbeb21bbcc668592dd8be6b697b210aae",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/checkpoints/best.pt",
+      "sha256": "bd3a8d4ca7ed82f9d976cfcefa029013d0cf6b53c663e0649c05e9f0f32b78e9",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/checkpoints/last.pt",
+      "sha256": "ffdf3da02219af832fa59168431db8a72cea8c5ad7125e9141282886a063c21f",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Current/seed_17/checkpoints/best.pt",
+      "sha256": "bf5d36f861b4684f14c1ae9d7161dd83b866d6dcc73a82cbe092a2d90ea027bf",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Current/seed_17/checkpoints/last.pt",
+      "sha256": "f9e2b7171befb65a385bb5e137171b5fe1394b7fbd65accf7b828ba0c1bf7ec3",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/checkpoints/best.pt",
+      "sha256": "42c94ac772d95f22dc550a7c30081199fb3a20f8c9c245dd654f388a17c8f659",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/checkpoints/last.pt",
+      "sha256": "a27be73b3c53881b5c4d193e5a12b15a62d24804e0476ce80858b525dc43da1b",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Random/seed_17/checkpoints/best.pt",
+      "sha256": "bad75049c8e4f5678aff7d06787c5056bbba5357129702411d030a090050c4f2",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/biwi_hotel/residual/Social-Random/seed_17/checkpoints/last.pt",
+      "sha256": "22825b049ee14702ea3dda7b9dcad06e8ff477992809afdf241ec6dc8f8eba46",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/checkpoints/best.pt",
+      "sha256": "0112baa5141f5c84b24b09ecf9ae66695bda733dca8478358111d39173f4cb14",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/checkpoints/last.pt",
+      "sha256": "e18feecf2d0764b2f07eb30fd3fef433826739fc614f7ea84f6a87ace43cdfa2",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/checkpoints/best.pt",
+      "sha256": "9eff700d693907c17b5a00777d20b6200108397bf87ae0fcf50a3bb630f69e4d",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/checkpoints/last.pt",
+      "sha256": "98360fedfc17004883704aa3fa3cf846fb626d843e3e14231358a8a0b5051f8f",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/checkpoints/best.pt",
+      "sha256": "dd8ddc86a0d2f839f7e490ece09566e1b3c445f107b7e2f7b90383b0f4e7032e",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/checkpoints/last.pt",
+      "sha256": "9cf8188a9120350dba4155cbcdfea3ec4a80dffa406c54cc2e1c1bf39b6065f1",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/checkpoints/best.pt",
+      "sha256": "e7f936cac808e4d69559fd63473fc8752a7fcd443c74f0b9f3ad3d1b05221258",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/checkpoints/last.pt",
+      "sha256": "eecbc24c1d4b31a433f551d8793f60ec8e559e2ecce97b78e9d24b5d01a427f4",
+      "bytes": 166594
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/checkpoints/best.pt",
+      "sha256": "4fad507ac49aae1fb38a911eac62dbdf13e421aeb182825f7e939330d1e27088",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/checkpoints/last.pt",
+      "sha256": "3ad6209f19b6280d4d0775bc60008c2700ebc68f9674a7e960a883e8e5950686",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Current/seed_17/checkpoints/best.pt",
+      "sha256": "0a3fd5ae5c42755b1c8e39581e926e1eaa2b2d76f90c7a65dddae1f5d606ceff",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Current/seed_17/checkpoints/last.pt",
+      "sha256": "fd514019b59a7c6c84369c7443aec6204362fbba5271bd2b0c3f8398960b65c6",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/checkpoints/best.pt",
+      "sha256": "c712219cf4f9c7e6a8c88809cba545c1a169403da66251b2abb740dc05a31702",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/checkpoints/last.pt",
+      "sha256": "a4f17a1d9b9c89848cba9b1edc45f358eb32a992bceace034e8dd937ec0e4822",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Random/seed_17/checkpoints/best.pt",
+      "sha256": "19734adea1470f56ad5f999bf774b2f509ac261de145547bae6f94350c5d5fbc",
+      "bytes": 232920
+    },
+    {
+      "path": "experiments/stage3p6/crowds_zara02/residual/Social-Random/seed_17/checkpoints/last.pt",
+      "sha256": "28bcb84e8ab94a0074ea2d88a074ef9b268c842fc94453ff5c6b8d5e21ef810c",
+      "bytes": 232920
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "configs/stage3p6/protected_artifacts.json",
+      "sha256": "a4291ab0329b3d9ae4c80382951a8a286e2b621df21c57779679d0abf8a3a1df",
+      "bytes": 141374
+    },
+    {
+      "path": "configs/stage3p6/protocol.json",
+      "sha256": "09081b292f7c6d815ccf58bcc28099dd574b570490617a0eeee0a5307acd0ab8",
+      "bytes": 68292
+    },
+    {
+      "path": "reports/stage3p6/01_EXPERIMENT_PROTOCOL.md",
+      "sha256": "306a56c235006374f9ed18ae5bdde630c09ca16a2fadf14559e4a856afeea0c9",
+      "bytes": 6303
+    },
+    {
+      "path": "reports/stage3p6/02_EGO_BASELINE_RESULTS.md",
+      "sha256": "83bf5f39e00d5014cd6dd6eb1568513f464049d8c4b8a4ac586e60638c045e16",
+      "bytes": 10436
+    },
+    {
+      "path": "reports/stage3p6/03_FROZEN_EGO_DESIGN.md",
+      "sha256": "24dfa03fce3f99b53916ddee44ace1d5ca8071478d0da3988630d7f35e7c2c5b",
+      "bytes": 4570
+    },
+    {
+      "path": "reports/stage3p6/04_SOCIAL_PAYLOAD_COMPARISON.md",
+      "sha256": "9c23665619db1adcdd318caceb7b40de2cf36e088cf94bff94b05e215db8ab2b",
+      "bytes": 6386
+    },
+    {
+      "path": "reports/stage3p6/05_INTERACTION_GROUP_ANALYSIS.md",
+      "sha256": "6c8268b8329a4c3d899fc6dee8216815bc1a644a7df793718cd7f8069428ebe4",
+      "bytes": 9220
+    },
+    {
+      "path": "reports/stage3p6/06_RESEARCH_DECISION.md",
+      "sha256": "033da3ba94150696cfb6c766d367ac1571eac2a531895f92f151ab21ec543277",
+      "bytes": 4105
+    },
+    {
+      "path": "reports/stage3p6/STAGE3P6_REPORT.md",
+      "sha256": "ced07f8fb031ac26d60c044c988c0fdf13a28b9d038da4d6fc87b497838f490a",
+      "bytes": 4908
+    },
+    {
+      "path": "results/tables/stage3p6/additional_pre_social_tests.xml",
+      "sha256": "0bb57564016317958b0f1b6434c736d24bb2bbdba15f451a147ff7f850ae3234",
+      "bytes": 376
+    },
+    {
+      "path": "results/tables/stage3p6/all_epoch_curves.csv",
+      "sha256": "ddec69f5b7f767de05f2516e2bcc58b6acbac594ef3dcfd02af20c75d0aba2bd",
+      "bytes": 288930
+    },
+    {
+      "path": "results/tables/stage3p6/all_state_diagnostics.csv",
+      "sha256": "3b620ad8240d5dd3864afe1a838f91c799a23969304308d472109a478c53a717",
+      "bytes": 12847
+    },
+    {
+      "path": "results/tables/stage3p6/analysis_provenance.json",
+      "sha256": "7d7832e88c7095f5c1e7883421a5fb0582f15a973576d8ed2f793e9f8be1508c",
+      "bytes": 7658
+    },
+    {
+      "path": "results/tables/stage3p6/analytic_reference_configs.json",
+      "sha256": "1bfc30a4997453ba1756ba2b3ae0717a88d7c5ad3f68ce457aeb7a132236e3fb",
+      "bytes": 24905
+    },
+    {
+      "path": "results/tables/stage3p6/anchor_selection.json",
+      "sha256": "832683cbe484ee0ae5769d17e373623d3593bd527c21d3afce286117b70fc41b",
+      "bytes": 16486
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/config.json",
+      "sha256": "39daf56b21c7e23668fbf7a2b51514f00d049b4f3cbddd52d2b2b6358642c2c4",
+      "bytes": 82834
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/diagnostics_best.json",
+      "sha256": "6a0bad809b89d581be63e01f3241d1048736bd4c22f58df0f5cc7fd7a30524a5",
+      "bytes": 978
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/diagnostics_last.json",
+      "sha256": "325aaa958512c3da284925f4560851c04c8df71e7735330be12ed5f0dee071e0",
+      "bytes": 975
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/epochs.csv",
+      "sha256": "6903001d045b656294ec1ee0ac730898a1c3aaca613ebe5ee6a05dbcae2ae517",
+      "bytes": 13264
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/groups_best.csv",
+      "sha256": "a3ca085131df8f24fe7a6850720a0b7e65799a3716c9efceea4dd9ece9786909",
+      "bytes": 1180
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/groups_last.csv",
+      "sha256": "ed9b7b9951b7f59349aff9bd4cd37e0d010f249022915a17b18b1cf0db23c5a1",
+      "bytes": 1173
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/summary.json",
+      "sha256": "120ec03917f713ca41f2a48ddb5ad71dfcdaa32194632faf5c0692a9d653e6b9",
+      "bytes": 1549
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/targets_best.csv",
+      "sha256": "b768d1171e06a4e0600108f80f2c9879354eff08153a21aa7732aa16cfbba039",
+      "bytes": 113728
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/targets_last.csv",
+      "sha256": "bb5b358b8dfa8d26c0d92648ed7955333a419983fb4408c973226c5909d8c59f",
+      "bytes": 113350
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/config.json",
+      "sha256": "f76f77cdcaec401093e9342017641982b1d436dc46cda2980906b81b4d6b1384",
+      "bytes": 82835
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/diagnostics_best.json",
+      "sha256": "6a0bad809b89d581be63e01f3241d1048736bd4c22f58df0f5cc7fd7a30524a5",
+      "bytes": 978
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/diagnostics_last.json",
+      "sha256": "f44f6bfff3792df7cd9279304e221370c44a1af47232bce890d7e958bd2d8651",
+      "bytes": 973
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/epochs.csv",
+      "sha256": "1d391e2f053b1c7a7248ae69b8d2dd62cbe5a85ae2e53e01f67ca13bff53efb2",
+      "bytes": 13449
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/groups_best.csv",
+      "sha256": "a3ca085131df8f24fe7a6850720a0b7e65799a3716c9efceea4dd9ece9786909",
+      "bytes": 1180
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/groups_last.csv",
+      "sha256": "970b4cf468a14cb3dc47772e6627c0048c90356a77172b2126449bcb810b4aa2",
+      "bytes": 1176
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/summary.json",
+      "sha256": "54ac53bc797a76c9e61f544f47bc2fc8c9607189f41cb9f11402c7fdbe275391",
+      "bytes": 1554
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/targets_best.csv",
+      "sha256": "b768d1171e06a4e0600108f80f2c9879354eff08153a21aa7732aa16cfbba039",
+      "bytes": 113728
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/targets_last.csv",
+      "sha256": "309a442a8b81fc4a6918fc5b553ae678ccc7ec65d7a5352cdf660e0e7c116276",
+      "bytes": 113516
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV__analytical/seed_17/diagnostics_analytical.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8",
+      "bytes": 855
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV__analytical/seed_17/groups_analytical.csv",
+      "sha256": "ea68466792dddb4f8d2691d5f58e5694a3259ddd33ae60d85beba4f606461fe8",
+      "bytes": 1189
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV__analytical/seed_17/summary.json",
+      "sha256": "d971ec2136d5f5efc62b6e38d36162729f8ff578af8033c4a75adb049d4af44d",
+      "bytes": 421
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV__analytical/seed_17/targets_analytical.csv",
+      "sha256": "445cae251796df9c7a7d3ae9c993c657b6ee43ea2bb68fe00cfca74aeb7001b2",
+      "bytes": 102977
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/config.json",
+      "sha256": "f2bda78add20b10a445a632f46254ed4a5dd206bd007e262aa4f36006a0b881c",
+      "bytes": 82830
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/diagnostics_best.json",
+      "sha256": "d10090687043b6896ab8641720de93704422fc5e9e8343929bfb74ef2c14f12c",
+      "bytes": 913
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/diagnostics_last.json",
+      "sha256": "531c0fd8589fb8a86237c10b9ea91272f7cebabdfc0d625ebaffc1cc654344dd",
+      "bytes": 913
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/epochs.csv",
+      "sha256": "17f7990e38dd8087468ded78940f49be2244aa13685dc3f8c7d4c32bb4552ad2",
+      "bytes": 11204
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/groups_best.csv",
+      "sha256": "d7a90a1997ff39039c3335a7c6826cc01bafc0250275513e46fa0cfbe367f259",
+      "bytes": 1179
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/groups_last.csv",
+      "sha256": "086db3983aac31c19b58bef60ce4fc84517925270cbbb0e3a75cb0ca3ab6821f",
+      "bytes": 1179
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/summary.json",
+      "sha256": "644ab612f3a87c583d08d2a0aed4abc7c120f7f037455817b7147481371f9211",
+      "bytes": 1540
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/targets_best.csv",
+      "sha256": "d572ebafcad3fc634925a7b2dff0089abfdbf808e6306fb84cde527495e2d609",
+      "bytes": 108501
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/targets_last.csv",
+      "sha256": "c986f1855788657ee8aa628dde8687f081389b9d3481c3d9ec85999d245c15a1",
+      "bytes": 108384
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/config.json",
+      "sha256": "fc880624ba9788adf8c8c5c65b880e393720ac009e82c5f64135bd6a7476fc76",
+      "bytes": 82831
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/diagnostics_best.json",
+      "sha256": "d6c45a0797c332ca7c4cf47a1703d274a5d13250cd75f42202d1e4d84246f778",
+      "bytes": 912
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/diagnostics_last.json",
+      "sha256": "a9808d477e4eb210ec80d2c365fe5cdcf87602c316463d10cbbc1fb123bc85bb",
+      "bytes": 913
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/epochs.csv",
+      "sha256": "ae4d5ad03873b4a9cae91783dd6ffcf9589916dd3e1cd5e2e7eb5f282bc0fc78",
+      "bytes": 11389
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/groups_best.csv",
+      "sha256": "114e443e2ca5c9dda26972226ee8637db461f96aabbe26e52d0377d265a9ee49",
+      "bytes": 1178
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/groups_last.csv",
+      "sha256": "a83188d311e500579cae645cfc7765e203d727fe6045175d34f55d7874c8c51b",
+      "bytes": 1177
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/summary.json",
+      "sha256": "c3c07f5f2d54ca26c7ddf050738af46ebefc1af1cad7601e4e5026d8af2686a6",
+      "bytes": 1544
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/targets_best.csv",
+      "sha256": "d7531c05d8f1a3dc4f09a66979477566dbd4810d3a01c442d5598d9e5cd8ee18",
+      "bytes": 108467
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/targets_last.csv",
+      "sha256": "b0f945a17f584582856c3e68738a953b7262afc1009e4454130d1977e8c65330",
+      "bytes": 108348
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Only/seed_17/diagnostics_analytical.json",
+      "sha256": "ed4783d46c87f1bb389d36ca2746a69abe373c7c2cf632db9768884ed55b4721",
+      "bytes": 971
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Only/seed_17/groups_analytical.csv",
+      "sha256": "ea68466792dddb4f8d2691d5f58e5694a3259ddd33ae60d85beba4f606461fe8",
+      "bytes": 1189
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Only/seed_17/summary.json",
+      "sha256": "713c8524cbb6753eaa1c0adff9ac5664cd2f553caa58241729255443fedec3a7",
+      "bytes": 8100
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Only/seed_17/targets_analytical.csv",
+      "sha256": "cd6a120883f5b6c5630cf4fbb38aee5c9d3201dcb281f0e9ac96676459a54d45",
+      "bytes": 118486
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/config.json",
+      "sha256": "25a1a2904815d92a0c8f2c36409c0cf5edf8cb02c5bf225ea7c40703c1193534",
+      "bytes": 90652
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/diagnostics_best.json",
+      "sha256": "4f714c486a2bd61ee3709570f9cb3bbbee27cc667aca4181bb3cf4346f632bbe",
+      "bytes": 1152
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/diagnostics_last.json",
+      "sha256": "da6c62132d1bfc962a3feb5b27e3426f4666527ae05a3bffd6f5faa62c2a716b",
+      "bytes": 1157
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/epochs.csv",
+      "sha256": "241e723dfc6579f543900bc2341cdb7138d247347c40ccc0abdbbffd133bb1f6",
+      "bytes": 20635
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/groups_best.csv",
+      "sha256": "722a8b02019ef21a379d94ecbba5b4b2f787d441893faa3c237aebd691124f90",
+      "bytes": 1185
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/groups_last.csv",
+      "sha256": "06a2116b172ab9a6bf97c0d99d17fd52e67feaf3f284903bbd7773a275c7cb14",
+      "bytes": 1178
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/summary.json",
+      "sha256": "9dca51499b565ecae0406012bbace93497ba507c426d81b03773abb593a41497",
+      "bytes": 9338
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/targets_best.csv",
+      "sha256": "404a418dafe875caaba305f6f718bd6dae77515b7148644f9e015bfb18727e63",
+      "bytes": 134016
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/targets_last.csv",
+      "sha256": "e173b6e25b8297760f084faa39d61f2d4431e4e2f2f5bb4106c51902b7965aad",
+      "bytes": 134227
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/config.json",
+      "sha256": "45b013bfa7c53edbe5b7b4711a36ba672f8b5fc1c8c0f1fd43488ddb03b87f66",
+      "bytes": 90654
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/diagnostics_best.json",
+      "sha256": "3b4e42103d6b366a5004cd9e6a2ba7a9d379664029236dfaa3d355f0a9130d1b",
+      "bytes": 1215
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/diagnostics_last.json",
+      "sha256": "f8f9b96c6d7eb717f0ee60c8c500a5c6c83a0c561e473eeb7303c9ded1b0b122",
+      "bytes": 1214
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/epochs.csv",
+      "sha256": "6dee974e5d8d80c5f4ae3dc5dfb37c0e42258d85e6e797a515700c1397f65b0c",
+      "bytes": 22774
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/groups_best.csv",
+      "sha256": "5b8d1f8e1b64ea41bebf7ddf276a3fd130708c308253e3130cc034aef2d66168",
+      "bytes": 1186
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/groups_last.csv",
+      "sha256": "11f8ce0db2a57d8cf9b24feffb1835bfcdd6e941e05dc48a2823e9b5048b8c9f",
+      "bytes": 1177
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/summary.json",
+      "sha256": "2c69637e875d804ae0489decd31608ef372df3e92218a516cb1606c6cfa2306f",
+      "bytes": 9343
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/targets_best.csv",
+      "sha256": "c3265741cc60840b99fb8ae2fde57790f896c03654c8eb33b193b7cda8995e2f",
+      "bytes": 133269
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/targets_last.csv",
+      "sha256": "cef1c1c3b366fcc9067d48caca36a184b5f716f993fb6a5adb09922df7e49524",
+      "bytes": 132922
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/config.json",
+      "sha256": "5941d39b2030e3049cd8d05643d7b2b9dbea4c5cc31085e5821c206f1ddcb317",
+      "bytes": 90655
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/diagnostics_best.json",
+      "sha256": "d6f1a0a7a0dbb1d38ad40a6b3b76ac9ed984f8ce41896fb03719ede35abb1bec",
+      "bytes": 1216
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/diagnostics_last.json",
+      "sha256": "356cf0634d55b448dac310ad8c3ec475e5661ed941449ba1d55113fd22374b35",
+      "bytes": 1208
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/epochs.csv",
+      "sha256": "7952effb5fe9a0c3b013a688fce1d1d33ea23fb248debc8973871dd8345ab0cc",
+      "bytes": 22785
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/groups_best.csv",
+      "sha256": "332cd8ea4cdab8c553a25698b5adff9a2947416d0f6465de5da0990c6f0309e5",
+      "bytes": 1189
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/groups_last.csv",
+      "sha256": "ba7a51a96dcbdffd704daf13f2d93493c098c19fef4b16b592c6c211bd4a6d78",
+      "bytes": 1173
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/summary.json",
+      "sha256": "c903506e2fc0ba4fe74bdfafbf48b13620e59c322ac747bc90a5696b8aead558",
+      "bytes": 9347
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/targets_best.csv",
+      "sha256": "47c729169463728d3da326449a90c1da9e1901f2386f4e15617d84e520fac0b6",
+      "bytes": 133273
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/targets_last.csv",
+      "sha256": "0711c59d84629a0f676daf4c98abdab9e69e2b06264728edba79e10a19e29b83",
+      "bytes": 132950
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/config.json",
+      "sha256": "d11d117888ec2441a4126688e1ea9b44dc4091f04c0d0fc4e9d43603c26e12c1",
+      "bytes": 90653
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/diagnostics_best.json",
+      "sha256": "a061e18e80ac429ec74cc9c650c951023b9cff59c0de87734dfc3d8bb937d79d",
+      "bytes": 1228
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/diagnostics_last.json",
+      "sha256": "8b22598a1580d26618229bc5fbc22dff093e22eb5748ff11a9c0a8ee2b657bbc",
+      "bytes": 1228
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/epochs.csv",
+      "sha256": "dafc67e81c988abe680d1aa6f5561b21cc0e307a1fd3ffe12762553beaa23436",
+      "bytes": 23269
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/groups_best.csv",
+      "sha256": "ab9489c20c5cf24485e5c4e50b2edbfc95404cc50d8f37969c43cc45929264fa",
+      "bytes": 1182
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/groups_last.csv",
+      "sha256": "c1030504f19392c1defe35aeeb73e28b0acf0decc26acc609df82216e67725cf",
+      "bytes": 1178
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/summary.json",
+      "sha256": "a512560021eb370554b4efc0cf36f287f325ca443bbdaffff99e5e81b87e1e7d",
+      "bytes": 9334
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/targets_best.csv",
+      "sha256": "375b806b567ac58cc2f7ecfd8c6a79bd0764c4b718292cfc046fe56d9264d3fe",
+      "bytes": 132984
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/targets_last.csv",
+      "sha256": "cc5f7a07d8328cf381ae441adaf6a045faa0495e97f76d343d060d17e01589fe",
+      "bytes": 132928
+    },
+    {
+      "path": "results/tables/stage3p6/completed_run_summary.csv",
+      "sha256": "a719a373ebb588d346fdaf683b7c5f82348c4a6a893fd6ea40477eda8b8644c7",
+      "bytes": 16391
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/config.json",
+      "sha256": "aa397b9a0d40c8edcebfffede019f252d70943d6dda9c94079ab4f22b05d76dc",
+      "bytes": 82841
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/diagnostics_best.json",
+      "sha256": "2d98b226fb68334a3584935a5b61806394507a8156a5cf158fd4b9091d1c6dc5",
+      "bytes": 977
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/diagnostics_last.json",
+      "sha256": "5be7b940e4003e165740f27998742c031287a54b0a80a09a1900741c0ed89bc3",
+      "bytes": 980
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/epochs.csv",
+      "sha256": "1d6e9ef6a2bab702b60fb4a598c7191f8e64dd5a82057f0df2f1467c10415fd7",
+      "bytes": 13361
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/groups_best.csv",
+      "sha256": "b5a3f47b52a4cbf0f1f52bc06678ed573b2f329656e620250fb6397160799aeb",
+      "bytes": 1133
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/groups_last.csv",
+      "sha256": "92f2a4030d6052f2d9f0070a17273403ae0da172f51c27ed87f971ab4b2fe730",
+      "bytes": 1129
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/summary.json",
+      "sha256": "1c320ccaed8b46c7540602bd41ee45bbb4c875551fec03ef342a17dec6e6ae23",
+      "bytes": 1560
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/targets_best.csv",
+      "sha256": "cb5a3af7d2a82dfffd64a31cda31870a6cf426a6b912299d100cad61ca3bca9b",
+      "bytes": 416534
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/targets_last.csv",
+      "sha256": "438ab975b0cbd2155ed351bbf2bbf3cb0301a2c36c841aecd27a1cb607b9fa20",
+      "bytes": 415973
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/config.json",
+      "sha256": "571700e68a2c85b446034d05289c2d5f044cd42c5e2ea84e0af277a34538464b",
+      "bytes": 82842
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/diagnostics_best.json",
+      "sha256": "f5d85a9d5739955c60b6641b8860533851c5ca3188bbeddc6b4fd1986b3c0ea2",
+      "bytes": 980
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/diagnostics_last.json",
+      "sha256": "4949fb87a7a2eea7f9cccb6e15397524c9344ac06fde9b54dc1e28eca0b4f95c",
+      "bytes": 978
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/epochs.csv",
+      "sha256": "3b8d21cf7acbb8beec7b22079af450dd2e30abee6e388d9ec0b6ae3ea4b9668c",
+      "bytes": 13560
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/groups_best.csv",
+      "sha256": "f76ec03f9a89f635905021538117400d38e9c5cea9c1df436fa7c847bd62b778",
+      "bytes": 1126
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/groups_last.csv",
+      "sha256": "47a3b18a6226261387d82d37a5c4f85a5606e3567d68f6b07803077375f0feab",
+      "bytes": 1129
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/summary.json",
+      "sha256": "caeb7ef06e889a3868f0a8e26815e8cd2c96e858937bdb625fd405853d456bfe",
+      "bytes": 1562
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/targets_best.csv",
+      "sha256": "82074cc051f24e0817a9ee989f05f8dceb95b752501dd16f2153ea3c43f3dd11",
+      "bytes": 416703
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/targets_last.csv",
+      "sha256": "6bb40221a138b1df25d37ff045c6a52bda848c8aebbb4e85e6e2d36b2efd3ad1",
+      "bytes": 416934
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV__analytical/seed_17/diagnostics_analytical.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8",
+      "bytes": 855
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV__analytical/seed_17/groups_analytical.csv",
+      "sha256": "4efed6f3fbedc8d49db8f65f4a10f1905366adcbf93d83418b6fd00530e55cb6",
+      "bytes": 1126
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV__analytical/seed_17/summary.json",
+      "sha256": "38a8dcf2a7d0a35e571567a168ac9544a3aee823da8f3a67a1e48a2dbd15e42b",
+      "bytes": 421
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV__analytical/seed_17/targets_analytical.csv",
+      "sha256": "4ef71adebf6769990a0ca807dfc71f44638a6ca306491e32d79025eac177a2f1",
+      "bytes": 382782
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/config.json",
+      "sha256": "03a69f790329af52a6dfd9e07a6e71757c8dba22c4dc09e9addaef806c473ab6",
+      "bytes": 82837
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/diagnostics_best.json",
+      "sha256": "ffea5c103b97f06ac7b56bc34f55b21d83eb8d0cf29ea1d7448a58a9a775422e",
+      "bytes": 914
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/diagnostics_last.json",
+      "sha256": "744c380cc557f6733b660174228ddbfa65309e8b0540992e74e3f0f64c555b37",
+      "bytes": 913
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/epochs.csv",
+      "sha256": "7eff7335fe84f096ad87a2bfdf922109a68e47d5fea0711e26de9ddc47d7ff0a",
+      "bytes": 11223
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/groups_best.csv",
+      "sha256": "634d7b73f1ee9dc459d3cb00a9fb3b1e1b3a90ba64504f3959e1e9d7426112e2",
+      "bytes": 1130
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/groups_last.csv",
+      "sha256": "05a8c8f6c821851ebf2189609714d707f4a54b01419903570a1d8cba05c2d7df",
+      "bytes": 1132
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/summary.json",
+      "sha256": "0f214e441487d14b47f1c6c4ddc7dfc3dd049c3e42e8fdd46a89218a70c38030",
+      "bytes": 1549
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/targets_best.csv",
+      "sha256": "a2db86de6c85a6ee2dbffbe510c54c78685bdef37b224a227a993611f8ea0df5",
+      "bytes": 397451
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/targets_last.csv",
+      "sha256": "c5c7d96e53b7a2a62a23cd3055b82c0f2501fc2f83f1c483ade87faa05a4d486",
+      "bytes": 396861
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/config.json",
+      "sha256": "3c63f5158270bf21eb207cb17d24dcb4292e017aaa755caf0299d686b4bfcbaf",
+      "bytes": 82838
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/diagnostics_best.json",
+      "sha256": "8ed162eeb707a59e92143b8c47385c1d5ad8c0b44291b407748d684e3aecf00b",
+      "bytes": 909
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/diagnostics_last.json",
+      "sha256": "d847b308412738f7ba90b9c7342afd9e6d533083109d5fa613d2eae14a548e12",
+      "bytes": 914
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/epochs.csv",
+      "sha256": "0a06c8fd98ee55d23e27027b5e48505616451d7054c1604bd2e156b8239df097",
+      "bytes": 11396
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/groups_best.csv",
+      "sha256": "5b6a4ab753b0c20f6e14afe21d2044775b11b946769eef8b1544d36ae2134d66",
+      "bytes": 1134
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/groups_last.csv",
+      "sha256": "7dbd6f41d86a87c6bb7cd0f8ca8e2083cc742b5d6a261d12af086508f615372b",
+      "bytes": 1127
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/summary.json",
+      "sha256": "494b0354d57a3b839a91207a63593db505dc26dacf02e79608065a8fe20cd85c",
+      "bytes": 1553
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/targets_best.csv",
+      "sha256": "414009f49ac9986d358819e7c50dbac549f7c7dc719052d7b3be55ad9da1ca73",
+      "bytes": 398046
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/targets_last.csv",
+      "sha256": "5fd05032d72f4223fa24fa8760a8b9f39489b2da6938308b5a1c051ac299cb4d",
+      "bytes": 397278
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Only/seed_17/diagnostics_analytical.json",
+      "sha256": "eba3fa1099a9f9745d168e5f1d88ca8da95a8317e4e0065b1d4f1d1afb8c7eca",
+      "bytes": 971
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Only/seed_17/groups_analytical.csv",
+      "sha256": "480d806a1b36a7cbc90c5715e057ff48bd07e9949c4cc3710d9b1f26592c85aa",
+      "bytes": 1134
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Only/seed_17/summary.json",
+      "sha256": "60f2a905afb2342ee91bc85b09572298bad13e3ca96596755645378d009bc916",
+      "bytes": 8143
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Only/seed_17/targets_analytical.csv",
+      "sha256": "0db0ed063b30c7e5dcbe6131f4a25721b1e05433b6f2f86858ae61460ab63f2e",
+      "bytes": 439938
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/config.json",
+      "sha256": "ceb6ecacfc1809e64bfb99e9e405d52a63501036c35945cd42f5921065e28b59",
+      "bytes": 90698
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/diagnostics_best.json",
+      "sha256": "088f5e423fe0628286aef159cebeb2c5787c3a79e296f8362f23765b1f20ad6e",
+      "bytes": 1162
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/diagnostics_last.json",
+      "sha256": "31193fbaa5a4be0cd4141e82e46c878fe455841db8ceea4b080a84d6fcf658bf",
+      "bytes": 1160
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/epochs.csv",
+      "sha256": "c20f65ea24811e93d7203cb344b169b8fb12bfe8baadb5f7ef454c53a2397504",
+      "bytes": 20981
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/groups_best.csv",
+      "sha256": "5be637d202d570ddb7f6bca79ff90562fee2b9076005e2df566337c5ccbf5514",
+      "bytes": 1129
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/groups_last.csv",
+      "sha256": "661baee6bd3ff7d77fe8573326505e76aef8e600a929ad10efcdca65bcd4341c",
+      "bytes": 1132
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/summary.json",
+      "sha256": "934967cfc7846cfe0d9edef4ebdeb5d9f82a685587fe4b9d5cc95f45d2d83d2f",
+      "bytes": 9387
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/targets_best.csv",
+      "sha256": "299d761591a22d68589b27a1972adf4f51a5b084fd37295119e92675fe2441e0",
+      "bytes": 492582
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/targets_last.csv",
+      "sha256": "c80bf22f3ae39488df88dff6a1dffd62e8c60c0a3c7f9bf4aa5e222f7b76d3d0",
+      "bytes": 491891
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/config.json",
+      "sha256": "14e86c7adbbcc42c563edbb30acb71abaaf94f15a7844d96d858cddd75d10b0f",
+      "bytes": 90700
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/diagnostics_best.json",
+      "sha256": "71d20cfa8bce4ee22447c6840cd5071305b69e8754baf2ac556ee5934e629f11",
+      "bytes": 1220
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/diagnostics_last.json",
+      "sha256": "273c0615a3660fb9e3094cb02cd878c666bdb693394345d23084e3e9a9de4331",
+      "bytes": 1215
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/epochs.csv",
+      "sha256": "19a9e3c5b433f5f7bde8701a91924ac7c05be4a8388d31c128fd9b3512b34e81",
+      "bytes": 22897
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/groups_best.csv",
+      "sha256": "1c69ae600a220e4b955e8c8e9bff2d925a8e05e20d95534079e1eb9a5409629d",
+      "bytes": 1130
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/groups_last.csv",
+      "sha256": "66d2e60b0cbee6e5cd40f7f9ca5399ae660b617eee19ce0005eba3371c47bbe2",
+      "bytes": 1130
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/summary.json",
+      "sha256": "610b14e077fb593d15d97e9946b0ef576aeb42fc9e38e62e252ef1847e35aa68",
+      "bytes": 9395
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/targets_best.csv",
+      "sha256": "90338e2445d27a051ead5605207381bae6c398acdaa5ca3d981aad54aebb74c7",
+      "bytes": 489885
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/targets_last.csv",
+      "sha256": "1a7787d332a1f4dd4afd241de8f71efa081aaaf05a698084d206c4be566e87fc",
+      "bytes": 488031
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/config.json",
+      "sha256": "7eb3f798a3be34555390dffc54a0ca3726a0a6b3290c3cd9ee2db9788a57a805",
+      "bytes": 90701
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/diagnostics_best.json",
+      "sha256": "38a19a886f73fbd3702ad5a7685df90b1d2e73c91c6c44626981b46da063e951",
+      "bytes": 1219
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/diagnostics_last.json",
+      "sha256": "b4a7a0004dd67017feb8fac966f2a29c30673f3e0e8cc852b7dee12cfdce51e0",
+      "bytes": 1213
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/epochs.csv",
+      "sha256": "65dd1232c3bf81c427b5e6ca0951a246ff14fbac187872146a329a47deb69fab",
+      "bytes": 22912
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/groups_best.csv",
+      "sha256": "eda2ca5bd31723090d5c9fac19a52b9cd5002cf313e5bced1b3678347fea252a",
+      "bytes": 1129
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/groups_last.csv",
+      "sha256": "5f28a7e14cd13f987f1924aaa549def95dec36b1fc31206dce9dc7ba820ccc33",
+      "bytes": 1127
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/summary.json",
+      "sha256": "5a535ab59af89d3045e0631de207623d571c7ff093384d5037b88f3267e3b2bf",
+      "bytes": 9400
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/targets_best.csv",
+      "sha256": "a762ee57c35733ba500b054c690f852b9e801d9a0d950d4e0eeb237711a78f86",
+      "bytes": 489972
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/targets_last.csv",
+      "sha256": "e08104e82cc8065096b84f1b81317d5884b588f23c07a358b9470e0681782128",
+      "bytes": 487681
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/config.json",
+      "sha256": "962626f88b5387a771cce4d79aaa040fde0346e357e2b6381be17cc8d4ece527",
+      "bytes": 90699
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/diagnostics_best.json",
+      "sha256": "88a0b131ca3388d0c5fc88ea38bae3cead40a7c60912b5e308c1a569cce5c547",
+      "bytes": 1238
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/diagnostics_last.json",
+      "sha256": "8bdbe6ff4f37b63f072d4bc8cf0a3026a90d0ad828def0ce280530026c3dd534",
+      "bytes": 1231
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/epochs.csv",
+      "sha256": "a02045da3247112c7e0b89e70b8a3602716ee56a8ceacbd6a1ba5c95dbf1bcfd",
+      "bytes": 23445
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/groups_best.csv",
+      "sha256": "eaf815651376fa577a7ed135fadefd9b98a88f81c4fdc899f3e1d31b0112b06f",
+      "bytes": 1131
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/groups_last.csv",
+      "sha256": "f46a4e299106c7fd4b64a94c51f8268bc32a5ccb4977e4bc25ee1707ed0933fb",
+      "bytes": 1130
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/summary.json",
+      "sha256": "454c223a695d4e955e50be09bf7f22f68a5ac09c8d7ff2521ea943ebf957db57",
+      "bytes": 9389
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/targets_best.csv",
+      "sha256": "004b575ff3454c1fcdab1dd490ba5e5b90a9a54d224ad244a5aaf40235208ef9",
+      "bytes": 489781
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/targets_last.csv",
+      "sha256": "1ad0034a6499216305de4c3164624548cd2cc79ebe8db53b817bfd27d46a750a",
+      "bytes": 486825
+    },
+    {
+      "path": "results/tables/stage3p6/ego_training_stability.csv",
+      "sha256": "0dfdce7e9b5c06ef39a6d37986cf2cc5fc669df7b499376a9d6ac3a43445011b",
+      "bytes": 1484
+    },
+    {
+      "path": "results/tables/stage3p6/endpoint_train_validation_generalization.csv",
+      "sha256": "9589e045dcefa3f5f4055fa29741a5348c29c424ff6fb29aaa15234407a8e517",
+      "bytes": 6216
+    },
+    {
+      "path": "results/tables/stage3p6/fixed_schedule_comparison.csv",
+      "sha256": "9ea59ddb16a93b2637dea05b607067136e3e3385f75e02bb3c71afeeb3b314bb",
+      "bytes": 442
+    },
+    {
+      "path": "results/tables/stage3p6/group_comparison.csv",
+      "sha256": "ea6aba897ea88b290098c954f3154c1c28fba84b33c5c5e747d715c2a4f0c7fb",
+      "bytes": 381974
+    },
+    {
+      "path": "results/tables/stage3p6/historical_motion_distribution.csv",
+      "sha256": "5493ddf7f01b50bc7413768f3eeaaf47b5b335dfda49a888ce03e51d96ac4439",
+      "bytes": 2979
+    },
+    {
+      "path": "results/tables/stage3p6/manual_review_provenance.json",
+      "sha256": "142cee3392e11f12ea2fde4b7bd5cacef9c5d00f31b36a726008dab4dbae38be",
+      "bytes": 1088
+    },
+    {
+      "path": "results/tables/stage3p6/no_message_exact_checks.csv",
+      "sha256": "3bc59d0b67bea5382b0c3e3dcf5cbb40d754eb11d994b00b6e0b1611263cb3dc",
+      "bytes": 603
+    },
+    {
+      "path": "results/tables/stage3p6/paired_target_errors.csv",
+      "sha256": "88552a56f29318f22e26068260dce176f74a58f8dd67d14833bd4fcc361972f0",
+      "bytes": 2155204
+    },
+    {
+      "path": "results/tables/stage3p6/payload_freshness_comparison.csv",
+      "sha256": "6d1afa0618031d728b2932c2e3e498fef10460dc48cc336634e9266ed204960f",
+      "bytes": 180
+    },
+    {
+      "path": "results/tables/stage3p6/pretraining_tests.xml",
+      "sha256": "f1e8eadc88f8aecd7d73d2f7d53f3864ce85c78b2fdefbe18c142635a1ef63ef",
+      "bytes": 21438
+    },
+    {
+      "path": "results/tables/stage3p6/report_generation_provenance.json",
+      "sha256": "3756585b5afaea0417e57ad9551f887c2de2060a1a9f62fb93b07d6d02eaa497",
+      "bytes": 1075
+    },
+    {
+      "path": "results/tables/stage3p6/round3_decision.json",
+      "sha256": "fb3d70cc9e613c665fa40b53bec128316b32fcee1b6846ac9083b17fb10505f1",
+      "bytes": 2261
+    },
+    {
+      "path": "results/tables/stage3p6/split_counts.csv",
+      "sha256": "c24d00585930b82c94684a1c4f9c142fded506cbda9547abb870c7238cb38af4",
+      "bytes": 1191
+    },
+    {
+      "path": "results/tables/stage3p6/train_generalization_provenance.json",
+      "sha256": "c79dddb23cea11ff98870377ed5beba35f6d58efad05cb7d4f19e65dc9e54c1c",
+      "bytes": 360
+    },
+    {
+      "path": "results/tables/stage3p6/unit_tests.xml",
+      "sha256": "0b1cf78baa35850ff27dd52ccd99651efd1de7efcc800b72f63548b82caaf9a6",
+      "bytes": 21575
+    }
+  ],
+  "note": "Receipt excludes itself; final SHA obtained from git rev-parse HEAD; all archived tracked files retained byte-identical. New source/data/weights never reference old Mamba-T/PedNegoNet custom caches."
+}

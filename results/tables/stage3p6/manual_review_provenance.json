@@ -1,0 +1,14 @@
+{
+  "source_commit": "fc691fdcfc33358d0ec9b20b7fa6612886c64d72",
+  "review": "Added actual endpoint generalization facts, all-group counterexamples and causal limits; model/data/protocol unchanged",
+  "reviewed_report_sha256": {
+    "reports/stage3p6/01_EXPERIMENT_PROTOCOL.md": "306a56c235006374f9ed18ae5bdde630c09ca16a2fadf14559e4a856afeea0c9",
+    "reports/stage3p6/02_EGO_BASELINE_RESULTS.md": "83bf5f39e00d5014cd6dd6eb1568513f464049d8c4b8a4ac586e60638c045e16",
+    "reports/stage3p6/03_FROZEN_EGO_DESIGN.md": "24dfa03fce3f99b53916ddee44ace1d5ca8071478d0da3988630d7f35e7c2c5b",
+    "reports/stage3p6/04_SOCIAL_PAYLOAD_COMPARISON.md": "9c23665619db1adcdd318caceb7b40de2cf36e088cf94bff94b05e215db8ab2b",
+    "reports/stage3p6/05_INTERACTION_GROUP_ANALYSIS.md": "6c8268b8329a4c3d899fc6dee8216815bc1a644a7df793718cd7f8069428ebe4",
+    "reports/stage3p6/06_RESEARCH_DECISION.md": "033da3ba94150696cfb6c766d367ac1571eac2a531895f92f151ab21ec543277",
+    "reports/stage3p6/STAGE3P6_REPORT.md": "ced07f8fb031ac26d60c044c988c0fdf13a28b9d038da4d6fc87b497838f490a"
+  },
+  "ETH_evaluated": false
+}

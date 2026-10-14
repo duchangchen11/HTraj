@@ -1,0 +1,161 @@
+{
+  "ETH_evaluated": false,
+  "actual_seeds": [
+    17
+  ],
+  "completed_neural_runs": 16,
+  "executed_epochs": 480,
+  "group_rows": 960,
+  "grouping_future_input": false,
+  "inputs": [
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/targets_best.csv",
+      "sha256": "b768d1171e06a4e0600108f80f2c9879354eff08153a21aa7732aa16cfbba039"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/targets_last.csv",
+      "sha256": "bb5b358b8dfa8d26c0d92648ed7955333a419983fb4408c973226c5909d8c59f"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/targets_best.csv",
+      "sha256": "b768d1171e06a4e0600108f80f2c9879354eff08153a21aa7732aa16cfbba039"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/targets_last.csv",
+      "sha256": "309a442a8b81fc4a6918fc5b553ae678ccc7ec65d7a5352cdf660e0e7c116276"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/CV__analytical/seed_17/targets_analytical.csv",
+      "sha256": "445cae251796df9c7a7d3ae9c993c657b6ee43ea2bb68fe00cfca74aeb7001b2"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/targets_best.csv",
+      "sha256": "d572ebafcad3fc634925a7b2dff0089abfdbf808e6306fb84cde527495e2d609"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/targets_last.csv",
+      "sha256": "c986f1855788657ee8aa628dde8687f081389b9d3481c3d9ec85999d245c15a1"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/targets_best.csv",
+      "sha256": "d7531c05d8f1a3dc4f09a66979477566dbd4810d3a01c442d5598d9e5cd8ee18"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/targets_last.csv",
+      "sha256": "b0f945a17f584582856c3e68738a953b7262afc1009e4454130d1977e8c65330"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Only/seed_17/targets_analytical.csv",
+      "sha256": "cd6a120883f5b6c5630cf4fbb38aee5c9d3201dcb281f0e9ac96676459a54d45"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/targets_best.csv",
+      "sha256": "404a418dafe875caaba305f6f718bd6dae77515b7148644f9e015bfb18727e63"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Ego-Residual/seed_17/targets_last.csv",
+      "sha256": "e173b6e25b8297760f084faa39d61f2d4431e4e2f2f5bb4106c51902b7965aad"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/targets_best.csv",
+      "sha256": "c3265741cc60840b99fb8ae2fde57790f896c03654c8eb33b193b7cda8995e2f"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Current/seed_17/targets_last.csv",
+      "sha256": "cef1c1c3b366fcc9067d48caca36a184b5f716f993fb6a5adb09922df7e49524"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/targets_best.csv",
+      "sha256": "47c729169463728d3da326449a90c1da9e1901f2386f4e15617d84e520fac0b6"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Previous/seed_17/targets_last.csv",
+      "sha256": "0711c59d84629a0f676daf4c98abdab9e69e2b06264728edba79e10a19e29b83"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/targets_best.csv",
+      "sha256": "375b806b567ac58cc2f7ecfd8c6a79bd0764c4b718292cfc046fe56d9264d3fe"
+    },
+    {
+      "path": "results/tables/stage3p6/biwi_hotel/residual/Social-Random/seed_17/targets_last.csv",
+      "sha256": "cc5f7a07d8328cf381ae441adaf6a045faa0495e97f76d343d060d17e01589fe"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/targets_best.csv",
+      "sha256": "cb5a3af7d2a82dfffd64a31cda31870a6cf426a6b912299d100cad61ca3bca9b"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/targets_last.csv",
+      "sha256": "438ab975b0cbd2155ed351bbf2bbf3cb0301a2c36c841aecd27a1cb607b9fa20"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/targets_best.csv",
+      "sha256": "82074cc051f24e0817a9ee989f05f8dceb95b752501dd16f2153ea3c43f3dd11"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/targets_last.csv",
+      "sha256": "6bb40221a138b1df25d37ff045c6a52bda848c8aebbb4e85e6e2d36b2efd3ad1"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/CV__analytical/seed_17/targets_analytical.csv",
+      "sha256": "4ef71adebf6769990a0ca807dfc71f44638a6ca306491e32d79025eac177a2f1"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/targets_best.csv",
+      "sha256": "a2db86de6c85a6ee2dbffbe510c54c78685bdef37b224a227a993611f8ea0df5"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/targets_last.csv",
+      "sha256": "c5c7d96e53b7a2a62a23cd3055b82c0f2501fc2f83f1c483ade87faa05a4d486"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/targets_best.csv",
+      "sha256": "414009f49ac9986d358819e7c50dbac549f7c7dc719052d7b3be55ad9da1ca73"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/targets_last.csv",
+      "sha256": "5fd05032d72f4223fa24fa8760a8b9f39489b2da6938308b5a1c051ac299cb4d"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Only/seed_17/targets_analytical.csv",
+      "sha256": "0db0ed063b30c7e5dcbe6131f4a25721b1e05433b6f2f86858ae61460ab63f2e"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/targets_best.csv",
+      "sha256": "299d761591a22d68589b27a1972adf4f51a5b084fd37295119e92675fe2441e0"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Ego-Residual/seed_17/targets_last.csv",
+      "sha256": "c80bf22f3ae39488df88dff6a1dffd62e8c60c0a3c7f9bf4aa5e222f7b76d3d0"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/targets_best.csv",
+      "sha256": "90338e2445d27a051ead5605207381bae6c398acdaa5ca3d981aad54aebb74c7"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Current/seed_17/targets_last.csv",
+      "sha256": "1a7787d332a1f4dd4afd241de8f71efa081aaaf05a698084d206c4be566e87fc"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/targets_best.csv",
+      "sha256": "a762ee57c35733ba500b054c690f852b9e801d9a0d950d4e0eeb237711a78f86"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Previous/seed_17/targets_last.csv",
+      "sha256": "e08104e82cc8065096b84f1b81317d5884b588f23c07a358b9470e0681782128"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/targets_best.csv",
+      "sha256": "004b575ff3454c1fcdab1dd490ba5e5b90a9a54d224ad244a5aaf40235208ef9"
+    },
+    {
+      "path": "results/tables/stage3p6/crowds_zara02/residual/Social-Random/seed_17/targets_last.csv",
+      "sha256": "1ad0034a6499216305de4c3164624548cd2cc79ebe8db53b817bfd27d46a750a"
+    }
+  ],
+  "outcome_group_posthoc_only": true,
+  "paired_target_rows": 2820,
+  "predeclared_protocol_sha256": "09081b292f7c6d815ccf58bcc28099dd574b570490617a0eeee0a5307acd0ab8",
+  "script_sha256": "6570697b0a4fadbb44bc7e3d537bfb55a5e8939189c3c446f1b9fb13c33f9355",
+  "source_commit": "fc691fdcfc33358d0ec9b20b7fa6612886c64d72"
+}
