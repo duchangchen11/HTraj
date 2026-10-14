@@ -1,0 +1,9 @@
+model,nominal_parameters,known_structurally_dead_parameters,remaining_parameters,dead_parameter_names,interpretation
+Receiver-Fix,73627,8321,65306,fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+Relation-Routing,73355,8321,65034,fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+Routing-Current,70931,8321,62610,fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+Routing-NoUpdate,73355,10049,63306,graph.edge_gru.weight_hh;fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+Routing-Uniform,73627,17090,56537,graph.relation_score.0.weight;graph.relation_score.0.bias;graph.relation_score.2.weight;graph.relation_score.2.bias;fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+Routing-Random,73355,8321,65034,fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension
+PedBase,35352,0,35352,,known output-invariant parameters; remaining count is not function-space dimension
+Dynamic-GNN-RN,102235,8321,93914,fusion.scores.0.0.weight;fusion.scores.0.0.bias;fusion.scores.0.2.weight;fusion.scores.0.2.bias,known output-invariant parameters; remaining count is not function-space dimension

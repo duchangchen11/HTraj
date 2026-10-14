@@ -1,0 +1,22 @@
+{
+  "optimizer": {
+    "name": "Adam",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "amsgrad": false
+  },
+  "batch_size": 8,
+  "epochs": 30,
+  "gradient_clip": 1,
+  "hidden_dim": 64,
+  "prediction_steps": 12,
+  "loss": "masked per-track mean L2",
+  "model_selection": "minimum96-window development ADE, paired FDE same epoch, earliest exact tie",
+  "source_commit": "c8d151c8c53367ef361d23d30569c9ea5ff8cf52",
+  "test_evaluated": false
+}

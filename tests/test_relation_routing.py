@@ -143,3 +143,14 @@ def test_pair_history_affects_routing_with_current_motion_and_ego_fixed():
     assert torch.equal(ha[-1].features,hb[-1].features)
     assert not torch.equal(ha[-1].weight,hb[-1].weight)
     assert torch.equal(ca[-1].weight,cb[-1].weight)
+
+
+def test_no_update_recurrent_weights_are_structurally_dead():
+    x=torch.randn(1,8,4,2)*.1
+    for name in ('Relation-Routing','Routing-NoUpdate'):
+        torch.manual_seed(7);model=build_routing_model(name,16);model(x).square().sum().backward()
+        g=model.graph.edge_gru.weight_hh.grad
+        assert g is not None
+        if name=='Routing-NoUpdate':assert g.eq(0).all()
+        else:assert g.abs().sum()>0
+        assert sum(p.numel() for p in model.graph.edge_gru.parameters() if p is model.graph.edge_gru.weight_hh)==1728

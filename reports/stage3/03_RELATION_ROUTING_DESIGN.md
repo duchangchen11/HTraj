@@ -45,6 +45,8 @@ flowchart LR
 
 History名义73355参数、8321个单阶融合死参数，有效65034；NoUpdate与Random也完全73355。相对Receiver-Fix少272个名义参数，不是简单增加总容量。Current70931，Uniform73627但含17090死参数（单阶scorer+被均匀权重绕过的关系scorer），比较同时给名义和有效容量。
 
+进一步容量审计：NoUpdate先前隐状态恒0，使edge_gru.weight_hh的3×24×24=1728参数也不影响输出、梯度恒0；其已知活跃参数应为63306，而History/Random为65034。训练时config/summary的structurally_dead_parameters原始计数只统计scorer，不包含这一循环权重；保留原记录，并以parameter_capacity_audit.csv列全已核实死参数。不能称History/NoUpdate严格相同有效容量；总参数匹配以及循环权重失效都是删除记忆机制的结构后果。
+
 边GRU算量O(ΣE_t d_e(12+d_e))；alpha O(ΣE_t d( d+d_e))；继承Receiver-Fix节点计算和稠密几何排序。虽然仅更新实际稀疏边，当前缓存实现[B,N,N,24]，内存O(BN²d_e)、每帧清零写入O(BN²d_e)，训练需保留时间反传；不能声称全实现严格O(E)内存。T=8、d_e=24、d=64、k≤8。本原型没有边图M×M谱传播成本。
 
 ## 必需机制对照
