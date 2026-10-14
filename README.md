@@ -17,6 +17,8 @@ Stage 2 同时实现 PedBase、FirstOrder-GNN 和 Dynamic-GNN。59 项测试通�
 
 Stage 2.5 已保留A0并实现R/N/RN、普通社会RN与ego扩宽诊断。19次固定预算训练完成，全部87项测试通过。1024窗口三种子best开发ADE均值：PedBase 0.439398m、Dynamic-GNN-RN 0.440075m、TOHI-A-R 0.442214m；尚无稳定整体ADE优势。98条固定checkpoint控制记录包含full和明确的no-op；二阶有条件增益，三阶较小，独立高阶/时间约束贡献未证明。详见 [Stage 2.5 总报告](reports/stage2p5/STAGE2P5_REPORT.md)。ETH测试集没有评价。
 
+Stage2.6完成H1/H2/H3/非严格同帧NoOrder及两个容量控制的18次独立训练，另6次完全核实的冻结参照；118项测试通过。三种子best ADE均值：H1 0.441364、H2 0.441229、H3 0.444220、NoOrder 0.445767m。H2收益不稳定；H3主ADE三个seed都弱于H2，对近参数H2-Cap两指标三个seed均更差。严格时间规则均值略好但seed方向混合。暂不以高阶优势作为第四章已验证贡献。见 [Stage2.6总报告](reports/stage2p6/STAGE2P6_REPORT.md)。
+
 ## 数据集
 
 ETH/UCY 的六个公开轨迹 TXT 已核查 SHA256 并在本地复制，独立重建五场景留一 manifest、观察 8 帧预测 12 帧；历史行人集合与未来监督 mask 分开。没有复用旧项目预处理缓存。原始数据置于 `data/raw/`，缓存置于 `data/processed/`，均不上传。详情见 [数据协议](reports/stage2/01_DATA_PROTOCOL.md)。SDD 尚未开展，米制与像素不能混算。数据分发与许可不因上游代码 MIT 许可自动覆盖。
@@ -36,13 +38,13 @@ docs/method_design/      数学设计、架构比较与实验协议
 docs/thesis/             大论文框架与研究进度
 experiments/             轻量实验配置；运行缓存不上传
 results/{tables,figures}/ 轻量汇总表和完成图片
-reports/{stage1,stage2,stage2p5}/ 阶段报告与诊断
+reports/{stage1,stage2,stage2p5,stage2p6}/ 阶段报告与诊断
 tests/                   人工时间图、数据、mask与评价正确性检查
 ```
 
 ## 研究阶段
 
-Stage 1：证据核查与结构设计；Stage 2：数据、对照与A原型；Stage 2.5：融合诊断与固定开发集三种子验证（2026-10-14完成）。目前先补独立高阶归因，暂不进入五场景正式评估。B与多模态方向暂不开发。后续阶段需用户指令启动。
+Stage1文献、Stage2原型、Stage2.5融合、Stage2.6独立阶数/时间与关系归因均已完成（开发范围）。当前高阶独立收益不足，后续先解决可靠消息接收和有效路径/尺度，再决定正式评估。B与多模态暂不开发，后续需用户指令启动。
 
 ## 当前运行方式
 
@@ -53,6 +55,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 "$htraj_python" -m pytest -q
 python3 scripts/check_stage1.py
 python3 scripts/check_stage2.py
 python3 scripts/check_stage2p5.py
+python3 scripts/check_stage2p6.py
 git diff --check
 ```
 
@@ -64,8 +67,10 @@ git diff --check
 
 Stage2.5训练入口：`"$htraj_python" -m src.training.social_diagnostics --phase round1`，第二轮为`--phase round2`，使用预提交的`configs/stage2p5/protocol.json`和selection.json；既有结果目录存在时拒绝覆盖。本阶段已经运行完毕，不再次启动。表在`results/tables/stage2p5/`，best/last权重在本地`experiments/stage2p5/`，检查脚本需这些本地数据/权重以核实hash；GitHub不包含权重或数据。
 
+Stage2.6入口：`"$htraj_python" -m src.training.order_verification`，协议`configs/stage2p6/protocol.json`；18次新训练已完成，既有run目录存在则拒绝覆盖。新表在`results/tables/stage2p6/`，best/last权重在本地`experiments/stage2p6/new/`。冻结参照的旧曲线路径和checkpoint/hash保留，不能把引用的六次旧run说成本阶段新训。
+
 ## 后续计划
 
-时间前缀与正逆序已验证；下一阶段优先同融合/近容量的H=1/2/3独立训练、时间约束单因素、历史长度×密度和更有力合法负对照，避免将条件敏感性当成独立贡献。补齐HoGAT全文与近期时间图文献。第五章只保留方向，不预设最终模型。
+独立阶数/时间规则、历史长度×密度和强关系干预已完成开发核查，缺少稳定高阶收益。下一阶段优先固定H1+R单独验证新进入目标接收、不同身份二阶路径/新鲜度选择、独立尺度变体，再决定是否保留二阶。三阶暂停作为核心性能贡献；补齐HoGAT/创新近邻文献。第五章只保留方向。
 
 每个阶段完成本地提交；用户已在Stage2.5改为自行从终端上传，后续不自动push。冲突停止。旧项目保留。本仓库不包含凭据、数据集、权重或作者论文全文副本。

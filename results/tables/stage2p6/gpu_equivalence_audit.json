@@ -1,0 +1,26 @@
+{
+  "actual_training_runs_untouched": true,
+  "cases": [
+    {
+      "case": "initial",
+      "max_parameter_gradient_absolute_difference": 4.656612873077393e-10,
+      "max_prediction_absolute_difference_m": 1.1920928955078125e-07,
+      "worst_gradient_parameter": "encoder.gru.bias_ih"
+    },
+    {
+      "case": "stage2p5_best_weights_readonly",
+      "max_parameter_gradient_absolute_difference": 3.5390257835388184e-08,
+      "max_prediction_absolute_difference_m": 9.5367431640625e-07,
+      "worst_gradient_parameter": "decoder.head.2.weight"
+    }
+  ],
+  "code_commit": "094ae1d0f7069d401975c3912c0fb19c7a294400",
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "old_checkpoint_loaded_only_for_equivalence": true,
+  "old_checkpoint_sha256": "59f0b9f6e4e52a6f9c981e3b94ecb7b0c660e64a63ee628280212498eb425c24",
+  "optimizer_steps": 0,
+  "runner_sha256": "87d32cf4a1343c118fc47f7ff772d1e2f0c3d382a1ba688b125136a53a7d3951",
+  "status": "passed",
+  "subset_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1",
+  "test_evaluated": false
+}

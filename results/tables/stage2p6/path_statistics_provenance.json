@@ -1,0 +1,14 @@
+{
+  "GT_used_for_statistics": false,
+  "analysis_commit": "c97acc5f83b6b5a4b74e77ea7a4ac23e00cdd9b3",
+  "analysis_runner_sha256": "25433c85efff182ae4ebc4de8dc0101ca386962ca49e529520391dbc152ac448",
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "definition": "timed edge walks surviving at cutoff; waiting does not multiply events; micro pooled over visible targets/window",
+  "identity_counter_sha256": "625dae84d41ba8d3be3db67ddefa459892e825bbc275882495513ea2d8284459",
+  "not_independent_people": true,
+  "not_observed_social_causality": true,
+  "subset_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1",
+  "test_evaluated": false,
+  "train_windows": 1024,
+  "validation_windows": 96
+}
