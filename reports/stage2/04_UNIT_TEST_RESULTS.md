@@ -33,3 +33,5 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/lrj/anaconda3/envs/ped_intent/bin/python 
 | 统计 oracle | 合成正逆序、carry 不重复计数、返回原人和中介失效 |
 
 测试使用人工图的显式 support 与固定正投影，不依赖自然轨迹可视化。GPU 的真实训练/反向传播验证单独记录在 smoke 报告。本测试并不能证明物理因果、预测有效性或全部数据质量。
+
+最终交付再次执行相同测试并保存机器可读结果：**59 passed in 1.74s**，无失败/跳过。JUnit 文件：[stage2_unit_tests.xml](../../results/tables/stage2_unit_tests.xml)。

@@ -1,0 +1,30 @@
+{
+  "batch_size": 8,
+  "cpu_threads": 1,
+  "data_manifest": "configs/data_manifests/stage2_v1/fold_ETH.json",
+  "device": "cuda",
+  "epochs": 5,
+  "gradient_clip": 1.0,
+  "held_out_scene": "ETH",
+  "hidden_dim": 64,
+  "learning_rate": 0.001,
+  "loss": "masked_per_track_mean_L2",
+  "max_neighbors": 8,
+  "max_order": 3,
+  "metrics": "deterministic_K1_ADE_FDE_in_meters",
+  "models": [
+    "PedBase",
+    "FirstOrder-GNN",
+    "TOHI-Net-A",
+    "Dynamic-GNN"
+  ],
+  "prediction_steps": 12,
+  "radius": 4.0,
+  "raw_root": "data/raw/eth_ucy",
+  "seed": 17,
+  "stage": "2 smoke only; not formal cross-validation",
+  "subset_manifest": "configs/smoke_subsets/stage2_smoke_v1.json",
+  "test_evaluation": false,
+  "train_windows": 256,
+  "validation_windows": 96
+}
