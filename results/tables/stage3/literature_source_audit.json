@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-15",
+  "workflow": "nature-academic-search multi-source-search",
+  "failures": [
+    "academic-search MCP not mounted",
+    "OpenAlex fallback incompatible systemPython; rerun ped_intent then HTTP429"
+  ],
+  "fallback": "official arXiv/CVF/author publications via web and author PDF; no exhaustive novelty guarantee",
+  "sources": [
+    {
+      "title": "Unified Spatial-Temporal Edge-Enhanced Graph Networks for Pedestrian Trajectory Prediction",
+      "authors": "Ruochen Li; Tanqiu Qiao; Stamos Katsigiannis; Zhanxing Zhu; Hubert P. H. Shum",
+      "year": 2025,
+      "doi": "10.1109/TCSVT.2025.3539522",
+      "url": "https://arxiv.org/html/2502.02504v1",
+      "inspected": "methodology III-B-D; previous local author accepted manuscript and code analysis"
+    },
+    {
+      "title": "Structural-RNN: Deep Learning on Spatio-Temporal Graphs",
+      "authors": "Ashesh Jain; Amir R. Zamir; Silvio Savarese; Ashutosh Saxena",
+      "year": 2016,
+      "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Jain_Structural-RNN_Deep_Learning_CVPR_2016_paper.pdf",
+      "inspected": "section3 node/edge factor RNN and factor sharing"
+    },
+    {
+      "title": "Social Attention: Modeling Attention in Human Crowds",
+      "authors": "Anirudh Vemula; Katharina Muelling; Jean Oh",
+      "year": 2018,
+      "url": "https://publications.ri.cmu.edu/storage/publications/2018/08/main.pdf",
+      "inspected": "full7-page author PDF extracted; detailed sectionIV edgeRNN equations1-4 and attention",
+      "local_pdf_sha256": "86f17fe5e0d40f41d9b157bbb58b310af87933baad5e11a466b1a0d0fb6118b7"
+    },
+    {
+      "title": "Temporal Graph Networks for Deep Learning on Dynamic Graphs",
+      "authors": "Emanuele Rossi; Ben Chamberlain; Fabrizio Frasca; Davide Eynard; Federico Monti; Michael Bronstein",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2006.10637",
+      "inspected": "abstract only; not full-paper novelty audit"
+    }
+  ]
+}

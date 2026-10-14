@@ -1,0 +1,8 @@
+{
+  "original_path": "results/tables/stage3/problem_analysis/train_relations.csv",
+  "local_ignored_archive": "experiments/stage3/cache/train_relations.csv",
+  "bytes": 9301564,
+  "sha256": "342df2af637aaa1714d2da2e1b9b5c86c85beaa3480887229940d52b72816722",
+  "rows": 165519,
+  "reason": "8.9MiB pair-level audit retained locally; lightweight exact persistence aggregation committed"
+}

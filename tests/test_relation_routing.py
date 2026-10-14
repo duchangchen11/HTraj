@@ -127,3 +127,19 @@ def test_random_control_legality_and_incoming_budget():
         assert not random.diagonal(dim1=-2,dim2=-1).any()
         b,i,j=random.nonzero(as_tuple=True)
         assert e['continuity'][b,t,j].all() and e['valid'][b,t,i].all()
+
+
+def test_pair_history_affects_routing_with_current_motion_and_ego_fixed():
+    x=torch.zeros(1,8,3,2);x[:,:,1,0]=1.;x[:,:,2,0]=-1.
+    z=x.clone();z[:,2,1,1]=.3
+    ea=motion_inputs(x);eb=motion_inputs(z)
+    # Freeze ego representations explicitly, isolating relation-state memory.
+    ea['hidden']=torch.zeros(1,8,3,16);eb['hidden']=ea['hidden'].clone()
+    torch.manual_seed(4);history=build_routing_model('Relation-Routing',16)
+    torch.manual_seed(4);current=build_routing_model('Routing-NoUpdate',16)
+    ha,_=history.graph.sequence(ea);hb,_=history.graph.sequence(eb)
+    ca,_=current.graph.sequence(ea);cb,_=current.graph.sequence(eb)
+    assert torch.equal(ha[-1].source,hb[-1].source)
+    assert torch.equal(ha[-1].features,hb[-1].features)
+    assert not torch.equal(ha[-1].weight,hb[-1].weight)
+    assert torch.equal(ca[-1].weight,cb[-1].weight)

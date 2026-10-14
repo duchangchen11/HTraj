@@ -1,0 +1,87 @@
+{
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "development": {
+    "blocked_receives_all_history": 577,
+    "edge_streak_counts": {
+      "1": 1235,
+      "2": 1085,
+      "3": 1034,
+      "4": 861,
+      "5": 736,
+      "6": 702,
+      "7": 3695
+    },
+    "mean_contiguous_edge_streak": 4.675652545999144,
+    "mean_pair_active_frames": 4.777874945343244,
+    "new_edges_all_history": 43708,
+    "old_edges_all_history": 43131,
+    "one_history_blocked_cutoff_edges": 65,
+    "one_history_full8_neighbor_edges": 36,
+    "one_history_full8_neighbor_fraction": 0.5538461538461539,
+    "one_history_neighbor_edges": 65,
+    "one_history_targets": 27,
+    "one_history_with_neighbors": 22,
+    "one_history_without_neighbors": 5,
+    "relation_pairs": 9148,
+    "visible_targets": 1226
+  },
+  "frozen_history_probes": {
+    "alpha_by_historical_motion": {
+      "co_moving": {
+        "edges": 14887,
+        "mean": 0.20622541269755412,
+        "p95": 0.7200069844722746
+      },
+      "crossing": {
+        "edges": 5868,
+        "mean": 0.1622092869957201,
+        "p95": 0.5268888533115385
+      },
+      "opposing": {
+        "edges": 6796,
+        "mean": 0.220982175988676,
+        "p95": 0.8816509246826172
+      },
+      "stationary_or_slow": {
+        "edges": 15580,
+        "mean": 0.16965874932079264,
+        "p95": 0.5482658386230468
+      }
+    },
+    "checkpoint": "experiments/stage2p6/new/TOHI-H1/seed_17/checkpoints/best.pt",
+    "checkpoint_sha256": "bc541bc0d5d79baa89d14ea74b0664dfc27ea40c80f0e6b5e4125ac0e7cbf2ad",
+    "future_gt_used": false,
+    "interpretation": "History-only frozen inference perturbation; movement bins confounded by geometry/degree; input intervention OOD and chosen sources can also alter candidate ranking. Not causal efficacy or independent training evidence.",
+    "neighbor_stationary_probe_prediction_change_L2_m": 0.027632860964671668
+  },
+  "history_only": true,
+  "script_sha256": "65a0fe62a79a4151d34b5469a8bb873f1d6dca0576eb299d1718a90c470f0650",
+  "source_commit": "c8d151c8c53367ef361d23d30569c9ea5ff8cf52",
+  "subset_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1",
+  "test_evaluated": false,
+  "train": {
+    "blocked_receives_all_history": 10147,
+    "edge_streak_counts": {
+      "1": 28110,
+      "2": 22181,
+      "3": 19267,
+      "4": 16796,
+      "5": 14590,
+      "6": 12639,
+      "7": 57957
+    },
+    "mean_contiguous_edge_streak": 4.383467412848315,
+    "mean_pair_active_frames": 4.542922564781082,
+    "new_edges_all_history": 751940,
+    "old_edges_all_history": 741793,
+    "one_history_blocked_cutoff_edges": 1485,
+    "one_history_full8_neighbor_edges": 1098,
+    "one_history_full8_neighbor_fraction": 0.7393939393939394,
+    "one_history_neighbor_edges": 1485,
+    "one_history_targets": 384,
+    "one_history_with_neighbors": 314,
+    "one_history_without_neighbors": 70,
+    "relation_pairs": 165519,
+    "visible_targets": 17457
+  }
+}

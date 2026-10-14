@@ -1,0 +1,8 @@
+{
+  "ADE_m": 0.46266892428406065,
+  "FDE_m": 1.146167118586289,
+  "model": "CV",
+  "parameter_count": 0,
+  "test_evaluated": false,
+  "velocity": "last consecutive two observed positions; unknown -> stationary explicitly marked fallback"
+}

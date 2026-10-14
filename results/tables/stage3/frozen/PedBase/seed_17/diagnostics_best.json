@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "991ce5cf508fdb331c23ced24860be80837870d45acc771d2d2c9ff79cb3d786",
+  "decoder_context_change_L2_mean": 0.0,
+  "decoder_context_change_L2_p95": 0.0,
+  "ego_L2_mean": 3.7677116635184107,
+  "ego_L2_p95": 5.587176442146301,
+  "reevaluated_ADE_m": 0.4417652369735642,
+  "reevaluated_FDE_m": 1.0755477036850103,
+  "social_messages": 0,
+  "source_commit": "90d987799d06bef4e213952342da231e93792a41",
+  "unknown_receiver_messages": 0
+}
