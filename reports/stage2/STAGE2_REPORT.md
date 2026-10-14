@@ -52,3 +52,7 @@ PedBase、FirstOrder-GNN、Dynamic-GNN、TOHI-Net-A均已实现且可运行；en
 工作分支 `feat/stage2-tohi-a`，基于与origin/main一致的Stage1提交 `4b36e16`，没有修改main或旧历史。训练来源commit：`c2a04752ac2a5d3e713c060ccdcde49dab9f69c2`。最终代码/配置/报告/轻量结果整理后正常推送该分支；最终SHA和远程核验结果在交付反馈记录，避免在同一提交内递归填写自身SHA。数据、checkpoint、缓存和环境不上传。
 
 本阶段完成后停止，等待下一阶段指令。
+
+## 实际发布结果
+
+本地材料已提交，正常push因本机Git HTTPS无法读取用户名失败。远程目前只有Stage1 main，Stage2研究分支尚未创建，发布验证未完成。本地所有历史与真实实验保留，无强推。具体提交、检查及错误见 [GITHUB_DELIVERY.md](GITHUB_DELIVERY.md)。
