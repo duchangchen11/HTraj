@@ -1,0 +1,287 @@
+{
+  "files": [
+    {
+      "bytes": 116970,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        14.420000076293945,
+        13.210000038146973
+      ],
+      "coordinate_min": [
+        -7.690000057220459,
+        -3.1700000762939453
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "biwi_eth.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 860,
+        "110": 1,
+        "120": 1,
+        "140": 2,
+        "190": 1,
+        "390": 1,
+        "400": 1,
+        "470": 1,
+        "60": 2,
+        "600": 1,
+        "70": 2,
+        "90": 2
+      },
+      "frame_max": 12380,
+      "frame_min": 780,
+      "frame_step": 10,
+      "pedestrians": 360,
+      "recording": "biwi_eth",
+      "rows": 5492,
+      "scene": "ETH",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "cf8d3fd342a15f409ebc2a1fc76b91a0f06390bd21f1e11410f3859331ab082b",
+      "speed_m_per_s_quantiles": [
+        2.45153047144413,
+        3.227682590484619,
+        6.4773643016815186
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    },
+    {
+      "bytes": 143799,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        4.349999904632568,
+        4.309999942779541
+      ],
+      "coordinate_min": [
+        -3.25,
+        -10.3100004196167
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "biwi_hotel.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 1141,
+        "110": 2,
+        "1110": 1,
+        "120": 1,
+        "140": 1,
+        "170": 1,
+        "200": 1,
+        "230": 2,
+        "240": 1,
+        "280": 1,
+        "30": 1,
+        "310": 1,
+        "380": 2,
+        "40": 1,
+        "420": 3,
+        "450": 1,
+        "50": 1,
+        "560": 1,
+        "60": 3,
+        "70": 1
+      },
+      "frame_max": 18060,
+      "frame_min": 0,
+      "frame_step": 10,
+      "pedestrians": 389,
+      "recording": "biwi_hotel",
+      "rows": 6543,
+      "scene": "HOTEL",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf",
+      "speed_m_per_s_quantiles": [
+        1.2747552245855331,
+        1.9290541112422943,
+        2.481178641319275
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    },
+    {
+      "bytes": 879714,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        15.469185829162598,
+        13.8919095993042
+      ],
+      "coordinate_min": [
+        -0.4619709253311157,
+        -0.3183721601963043
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "students001.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 443
+      },
+      "frame_max": 4430,
+      "frame_min": 0,
+      "frame_step": 10,
+      "pedestrians": 415,
+      "recording": "students001",
+      "rows": 21813,
+      "scene": "UNIV",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b",
+      "speed_m_per_s_quantiles": [
+        0.516221784055233,
+        1.3117133677005763,
+        2.373177856206894
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    },
+    {
+      "bytes": 724279,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        15.436984062194824,
+        13.854201316833496
+      ],
+      "coordinate_min": [
+        -0.17468604445457458,
+        -0.22219227254390717
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "students003.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 540
+      },
+      "frame_max": 5400,
+      "frame_min": 0,
+      "frame_step": 10,
+      "pedestrians": 434,
+      "recording": "students003",
+      "rows": 17953,
+      "scene": "UNIV",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c",
+      "speed_m_per_s_quantiles": [
+        0.7226254045963287,
+        1.3941944390535355,
+        2.498137503862381
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    },
+    {
+      "bytes": 205711,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        15.480550765991211,
+        12.386443138122559
+      ],
+      "coordinate_min": [
+        -0.13953836262226105,
+        -0.37469589710235596
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "crowds_zara01.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 868,
+        "100": 1,
+        "170": 1,
+        "60": 1
+      },
+      "frame_max": 9010,
+      "frame_min": 0,
+      "frame_step": 10,
+      "pedestrians": 148,
+      "recording": "crowds_zara01",
+      "rows": 5153,
+      "scene": "ZARA1",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85",
+      "speed_m_per_s_quantiles": [
+        1.1535079777240753,
+        1.5420184135437012,
+        2.487322986125946
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    },
+    {
+      "bytes": 392227,
+      "columns": [
+        "frame_id",
+        "pedestrian_id",
+        "world_x",
+        "world_y"
+      ],
+      "coordinate_max": [
+        15.558423042297363,
+        13.942744255065918
+      ],
+      "coordinate_min": [
+        -0.35779067873954773,
+        -0.27374279499053955
+      ],
+      "coordinate_unit": "m",
+      "duplicate_pairs": 0,
+      "file": "crowds_zara02.txt",
+      "finite_coordinates": true,
+      "frame_gap_counts": {
+        "10": 1051
+      },
+      "frame_max": 10520,
+      "frame_min": 10,
+      "frame_step": 10,
+      "pedestrians": 204,
+      "recording": "crowds_zara02",
+      "rows": 9722,
+      "scene": "ZARA2",
+      "seconds_per_frame_id": 0.04,
+      "seconds_per_sample": 0.4,
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff",
+      "speed_m_per_s_quantiles": [
+        1.0119162127375603,
+        1.5741899609565733,
+        2.8432881832122803
+      ],
+      "time_basis": "observed 10-frame grid + documented 2.5Hz convention, not recoverable from numbers alone",
+      "unit_basis": "upstream distribution + publication; no new camera calibration"
+    }
+  ],
+  "format": "frame_id pedestrian_id x y",
+  "interpolation": false,
+  "raw_directory": "/home/lrj/HTraj/data/raw/eth_ucy",
+  "schema_version": 1
+}

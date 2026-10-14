@@ -1,0 +1,10 @@
+[project]
+name = "htraj"
+version = "0.2.0"
+description = "Independent time-ordered pedestrian trajectory prediction prototypes"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "torch>=2.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
