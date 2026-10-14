@@ -1,0 +1,9 @@
+{
+  "ADE_m": 0.4417652369735642,
+  "ETH_evaluated": false,
+  "FDE_m": 1.0755477036850103,
+  "model": "PedBase",
+  "new_training": false,
+  "seed": 17,
+  "setting": "B_legacy1024/96_frozen"
+}

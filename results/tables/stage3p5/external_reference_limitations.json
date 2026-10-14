@@ -1,0 +1,15 @@
+{
+  "official_repository": "https://github.com/abduallahmohamed/Social-STGCNN",
+  "paper_version_commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+  "raw_source_commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+  "license": "MIT code; does not establish dataset redistribution rights",
+  "replicated": false,
+  "metrics_ours": null,
+  "official_split_file_inventory_status": "GitHub API403 rate limit; exact published per-file split composition unverified",
+  "paper_split_prose": "Social-STGCNN text describes portion of a dataset train/test and other four validation; Social-GAN explicitly leave-one-set-out; cannot assume identical split definitions",
+  "loader": "full20-frame tracks; num_peds_considered > min_ped1; round4 decimals; sorted observed global frame list",
+  "forward": "observed V and A only; future V/A loaded labels not passed to model",
+  "output": "bivariate Gaussian displacement mean/log std/correlation,12xNx5",
+  "evaluation": "K20 per-person ADE-min and FDE-min separately in fixed test.py; K1 deterministic mean/one sample differ",
+  "training": "SGD0.01,250 epochs default; current HTrajAdam0.00130epoch is not a faithful reproduction budget"
+}

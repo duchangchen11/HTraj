@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.MD",
+      "path": "data/external/stage3p5/social_stgcnn/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.MD",
+      "sha256": "caf1ec3f3b5c48d1c261d4ab60fc8776289d341e18408a4bb123d5822a9f9a2e",
+      "status": "fetched"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/README.MD",
+      "path": "data/external/stage3p5/social_stgcnn/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/README.MD",
+      "sha256": "111ae0b7751cd0986bad2d5330c346ab3345a9330b1f30fb06202ee5b3e1b6b0",
+      "status": "fetched"
+    },
+    {
+      "path": "docs/literature/sources/stage3p5/social_stgcnn.pdf",
+      "sha256": "5b8cf9c0e5d8153ee165c736bd75486faa34944996d20502995c1f806e50416b",
+      "status": "fetched",
+      "source": "https://arxiv.org/pdf/2002.11927"
+    },
+    {
+      "path": "docs/literature/sources/stage3p5/social_gan.pdf",
+      "sha256": "f2d80201b3b00c801ecf43ae89f2e19605a20a29b59f928e9c6394053a0e595e",
+      "status": "fetched",
+      "source": "https://arxiv.org/pdf/1803.10892"
+    }
+  ],
+  "initial_readme_md_case_404_resolved": true,
+  "CVF_fetch_status": "403; used author arXiv PDF and official locked code",
+  "model_replication": false
+}

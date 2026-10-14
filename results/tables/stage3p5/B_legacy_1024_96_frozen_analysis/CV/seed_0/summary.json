@@ -1,0 +1,9 @@
+{
+  "ADE_m": 0.46266892428406065,
+  "ETH_evaluated": false,
+  "FDE_m": 1.146167118586289,
+  "model": "CV",
+  "new_training": false,
+  "seed": 0,
+  "setting": "B_legacy1024/96_frozen"
+}

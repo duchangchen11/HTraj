@@ -1,0 +1,60 @@
+{
+  "ETH_evaluated": false,
+  "data_manifest_sha256": "c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced",
+  "metrics_tolerance_m": 1e-06,
+  "new_training_runs": 0,
+  "runs": [
+    {
+      "checkpoint_sha256": "991ce5cf508fdb331c23ced24860be80837870d45acc771d2d2c9ff79cb3d786",
+      "model": "PedBase",
+      "original_config": "results/tables/stage2p5/round2/PedBase/seed_17/config.json",
+      "original_summary": "results/tables/stage2p5/round2/PedBase/seed_17/summary.json",
+      "seed": 17,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    },
+    {
+      "checkpoint_sha256": "6c6d0b7fddabb784fea095dabb10a8a18f9c5aa855dabb5894f4a5e21fa7bb16",
+      "model": "PedBase",
+      "original_config": "results/tables/stage2p5/round2/PedBase/seed_42/config.json",
+      "original_summary": "results/tables/stage2p5/round2/PedBase/seed_42/summary.json",
+      "seed": 42,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    },
+    {
+      "checkpoint_sha256": "b2e8ae2d3aabe150c7a6003d176d8c9ee07a7cb264af8736420ebc2d9a93cbed",
+      "model": "PedBase",
+      "original_config": "results/tables/stage2p5/round2/PedBase/seed_2026/config.json",
+      "original_summary": "results/tables/stage2p5/round2/PedBase/seed_2026/summary.json",
+      "seed": 2026,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    },
+    {
+      "checkpoint_sha256": "5969a19ee28afd3dbf1d71c19f248e9facfbee3852532cbd867a31f64f810678",
+      "model": "Dynamic-GNN-RN",
+      "original_config": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_17/config.json",
+      "original_summary": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_17/summary.json",
+      "seed": 17,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    },
+    {
+      "checkpoint_sha256": "6cf1b4a6eddebd53ea9a61283fcb4cb4681897f6d40e8b86bec030792fd03ef4",
+      "model": "Dynamic-GNN-RN",
+      "original_config": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_42/config.json",
+      "original_summary": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_42/summary.json",
+      "seed": 42,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    },
+    {
+      "checkpoint_sha256": "99f938ee53eb7c8e667d2d4cf8e93133f2eb1236ca3b950fd862245a1a93f951",
+      "model": "Dynamic-GNN-RN",
+      "original_config": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_2026/config.json",
+      "original_summary": "results/tables/stage2p5/round2/Dynamic-GNN-RN/seed_2026/summary.json",
+      "seed": 2026,
+      "source_commit": "90d987799d06bef4e213952342da231e93792a41"
+    }
+  ],
+  "script_sha256": "b755dbbcf7946624b02a02369d9925735ed9355d63a129a6e6442098f16edce8",
+  "source_commit": "3918231b74f7e209a65459e4f1eab04ede3b58c5",
+  "status": "passed",
+  "subset_manifest_sha256": "4b4a50ce47b8d8a2fc574a814f80982b602fed237939f7d7f019492be6dc4be1"
+}

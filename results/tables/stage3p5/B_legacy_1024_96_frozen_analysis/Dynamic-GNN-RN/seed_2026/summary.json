@@ -1,0 +1,9 @@
+{
+  "ADE_m": 0.44201704190297053,
+  "ETH_evaluated": false,
+  "FDE_m": 1.0711851222296296,
+  "model": "Dynamic-GNN-RN",
+  "new_training": false,
+  "seed": 2026,
+  "setting": "B_legacy1024/96_frozen"
+}
