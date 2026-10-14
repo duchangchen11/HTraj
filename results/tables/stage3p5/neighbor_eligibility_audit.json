@@ -1,0 +1,24 @@
+{
+  "ETH_evaluated": false,
+  "GT_availability_only_defines_evaluable_target_population": true,
+  "future_GT_used_for_groups": false,
+  "history_only_geometry": true,
+  "protocols": {
+    "A_complete8x12_history_context": {
+      "empty_graph_one_history_targets": 0,
+      "empty_graph_with_physical_neighbors": 5,
+      "empty_graph_with_reliable_protocol_source": 0,
+      "empty_legacy_graph_targets": 7,
+      "targets": 706
+    },
+    "B_partial_mask_v1": {
+      "empty_graph_one_history_targets": 48,
+      "empty_graph_with_physical_neighbors": 47,
+      "empty_graph_with_reliable_protocol_source": 46,
+      "empty_legacy_graph_targets": 51,
+      "targets": 1464
+    }
+  },
+  "script_sha256": "c134637720aa97241b6a34f8ddbd5413f1b0df4201d0dcafce7d727cfcd81061",
+  "source_commit": "41e105cd1e085032d6c604ed8c1a2fbb7c8d97b3"
+}

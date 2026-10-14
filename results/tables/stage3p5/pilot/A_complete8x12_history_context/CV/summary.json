@@ -1,0 +1,11 @@
+{
+  "ADE_m": 0.7278842790944042,
+  "ETH_evaluated": false,
+  "FDE_m": 1.6277876629707833,
+  "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+  "model": "CV",
+  "parameters": 0,
+  "protocol_name": "A_complete8x12_history_context",
+  "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+  "velocity": "last two consecutive observed points, unknown -> explicitly stationary"
+}

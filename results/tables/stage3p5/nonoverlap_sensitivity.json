@@ -1,0 +1,23 @@
+{
+  "ETH_evaluated": false,
+  "eligible_by": "metadata only, no GT/metrics",
+  "guard_seconds": 8,
+  "guard_ticks": 200,
+  "interpretation": "same development region thinning, not independent confirmation data",
+  "selected_windows": [
+    {
+      "end_frame": 4710,
+      "recording": "students003",
+      "sample_id": "students003:4520",
+      "scene": "UNIV",
+      "start_frame": 4520
+    },
+    {
+      "end_frame": 5110,
+      "recording": "students003",
+      "sample_id": "students003:4920",
+      "scene": "UNIV",
+      "start_frame": 4920
+    }
+  ]
+}

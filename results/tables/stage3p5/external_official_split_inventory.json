@@ -1,0 +1,728 @@
+{
+  "official_repository": "https://github.com/abduallahmohamed/Social-STGCNN",
+  "source_commit": "ebd57aaf34d84763825d05cf9d4eff738d8c96bb",
+  "inventory_tree_sha256": "dbc5ffbc7b5c77308a7526c996975d72ff8f641a001e119f71fd5fe85243ed50",
+  "entries": [
+    {
+      "path": "datasets/eth/test/biwi_eth.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "7a8cad3b6c5bc60a8f675e6e9dbe5d47b79683b8"
+    },
+    {
+      "path": "datasets/eth/train/biwi_hotel_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "18ccee8604a7d61b39ee8cd9c9f750759e577314"
+    },
+    {
+      "path": "datasets/eth/train/crowds_zara01_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "7c5613ca30790061b0895f35b82f999af6a4135a"
+    },
+    {
+      "path": "datasets/eth/train/crowds_zara02_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "06a757329eb6f5454fe4bf3451d2ed541c5256bb"
+    },
+    {
+      "path": "datasets/eth/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/eth/train/students001_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c2a3577903c9dc0109206dd01b34908013255fd"
+    },
+    {
+      "path": "datasets/eth/train/students003_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "ef4b2a98bb0b88eb7ca21f79e4c9866f1950288f"
+    },
+    {
+      "path": "datasets/eth/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/eth/val/biwi_hotel_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "fe6353e697dac4acc9d97883d7ebb78ea633aff9"
+    },
+    {
+      "path": "datasets/eth/val/crowds_zara01_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c8789b3520fbd1fe9aa84e03ccedb2915fb9ff1"
+    },
+    {
+      "path": "datasets/eth/val/crowds_zara02_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "103a7b6a01b3c6e61441f0533175050b332b623e"
+    },
+    {
+      "path": "datasets/eth/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/eth/val/students001_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "63ceb06f88a9380569d700a727ab972ec5753530"
+    },
+    {
+      "path": "datasets/eth/val/students003_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "57aa188f0738287877c222bd38588dd65e8ea23b"
+    },
+    {
+      "path": "datasets/eth/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    },
+    {
+      "path": "datasets/hotel/test/biwi_hotel.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "0a62f3a487aa1da25cc9204b85d8213379d4220e"
+    },
+    {
+      "path": "datasets/hotel/train/biwi_eth_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "641165d3102e5e2560bd852d8a0584c94ff4ceab"
+    },
+    {
+      "path": "datasets/hotel/train/crowds_zara01_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "7c5613ca30790061b0895f35b82f999af6a4135a"
+    },
+    {
+      "path": "datasets/hotel/train/crowds_zara02_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "06a757329eb6f5454fe4bf3451d2ed541c5256bb"
+    },
+    {
+      "path": "datasets/hotel/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/hotel/train/students001_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c2a3577903c9dc0109206dd01b34908013255fd"
+    },
+    {
+      "path": "datasets/hotel/train/students003_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "ef4b2a98bb0b88eb7ca21f79e4c9866f1950288f"
+    },
+    {
+      "path": "datasets/hotel/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/hotel/val/biwi_eth_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "cc88433510c00d1b4f8a430b2caecf2644561b9b"
+    },
+    {
+      "path": "datasets/hotel/val/crowds_zara01_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c8789b3520fbd1fe9aa84e03ccedb2915fb9ff1"
+    },
+    {
+      "path": "datasets/hotel/val/crowds_zara02_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "103a7b6a01b3c6e61441f0533175050b332b623e"
+    },
+    {
+      "path": "datasets/hotel/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/hotel/val/students001_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "63ceb06f88a9380569d700a727ab972ec5753530"
+    },
+    {
+      "path": "datasets/hotel/val/students003_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "57aa188f0738287877c222bd38588dd65e8ea23b"
+    },
+    {
+      "path": "datasets/hotel/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    },
+    {
+      "path": "datasets/raw/all_data/biwi_eth.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "7a8cad3b6c5bc60a8f675e6e9dbe5d47b79683b8"
+    },
+    {
+      "path": "datasets/raw/all_data/biwi_hotel.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "0a62f3a487aa1da25cc9204b85d8213379d4220e"
+    },
+    {
+      "path": "datasets/raw/all_data/crowds_zara01.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "246112d77bf42592be416381ea752babb8b2bf83"
+    },
+    {
+      "path": "datasets/raw/all_data/crowds_zara02.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "73f4f3090f3ac0ac18cf3b9d590346e15f222432"
+    },
+    {
+      "path": "datasets/raw/all_data/crowds_zara03.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "4a6c2b1111ac2cefff7fef9be84adcac8c86cad5"
+    },
+    {
+      "path": "datasets/raw/all_data/students001.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "b3b453e372e23851e6c90cc64e95e72b682ae414"
+    },
+    {
+      "path": "datasets/raw/all_data/students003.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "344af829e81dc3fcec953d6ee6b76eafc6701a01"
+    },
+    {
+      "path": "datasets/raw/all_data/uni_examples.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "b1b1311aa7a0df1e223409fce7ef33b51631472b"
+    },
+    {
+      "path": "datasets/raw/train/biwi_eth_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "641165d3102e5e2560bd852d8a0584c94ff4ceab"
+    },
+    {
+      "path": "datasets/raw/train/biwi_hotel_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "18ccee8604a7d61b39ee8cd9c9f750759e577314"
+    },
+    {
+      "path": "datasets/raw/train/crowds_zara01_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "7c5613ca30790061b0895f35b82f999af6a4135a"
+    },
+    {
+      "path": "datasets/raw/train/crowds_zara02_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "06a757329eb6f5454fe4bf3451d2ed541c5256bb"
+    },
+    {
+      "path": "datasets/raw/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/raw/train/students001_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c2a3577903c9dc0109206dd01b34908013255fd"
+    },
+    {
+      "path": "datasets/raw/train/students003_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "ef4b2a98bb0b88eb7ca21f79e4c9866f1950288f"
+    },
+    {
+      "path": "datasets/raw/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/raw/val/biwi_eth_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "cc88433510c00d1b4f8a430b2caecf2644561b9b"
+    },
+    {
+      "path": "datasets/raw/val/biwi_hotel_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "fe6353e697dac4acc9d97883d7ebb78ea633aff9"
+    },
+    {
+      "path": "datasets/raw/val/crowds_zara01_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c8789b3520fbd1fe9aa84e03ccedb2915fb9ff1"
+    },
+    {
+      "path": "datasets/raw/val/crowds_zara02_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "103a7b6a01b3c6e61441f0533175050b332b623e"
+    },
+    {
+      "path": "datasets/raw/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/raw/val/students001_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "63ceb06f88a9380569d700a727ab972ec5753530"
+    },
+    {
+      "path": "datasets/raw/val/students003_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "57aa188f0738287877c222bd38588dd65e8ea23b"
+    },
+    {
+      "path": "datasets/raw/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    },
+    {
+      "path": "datasets/univ/test/students001.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "b3b453e372e23851e6c90cc64e95e72b682ae414"
+    },
+    {
+      "path": "datasets/univ/test/students003.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "344af829e81dc3fcec953d6ee6b76eafc6701a01"
+    },
+    {
+      "path": "datasets/univ/train/biwi_eth_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "641165d3102e5e2560bd852d8a0584c94ff4ceab"
+    },
+    {
+      "path": "datasets/univ/train/biwi_hotel_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "18ccee8604a7d61b39ee8cd9c9f750759e577314"
+    },
+    {
+      "path": "datasets/univ/train/crowds_zara01_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "7c5613ca30790061b0895f35b82f999af6a4135a"
+    },
+    {
+      "path": "datasets/univ/train/crowds_zara02_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "06a757329eb6f5454fe4bf3451d2ed541c5256bb"
+    },
+    {
+      "path": "datasets/univ/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/univ/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/univ/val/biwi_eth_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "cc88433510c00d1b4f8a430b2caecf2644561b9b"
+    },
+    {
+      "path": "datasets/univ/val/biwi_hotel_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "fe6353e697dac4acc9d97883d7ebb78ea633aff9"
+    },
+    {
+      "path": "datasets/univ/val/crowds_zara01_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c8789b3520fbd1fe9aa84e03ccedb2915fb9ff1"
+    },
+    {
+      "path": "datasets/univ/val/crowds_zara02_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "103a7b6a01b3c6e61441f0533175050b332b623e"
+    },
+    {
+      "path": "datasets/univ/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/univ/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    },
+    {
+      "path": "datasets/zara1/test/crowds_zara01.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "246112d77bf42592be416381ea752babb8b2bf83"
+    },
+    {
+      "path": "datasets/zara1/train/biwi_eth_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "641165d3102e5e2560bd852d8a0584c94ff4ceab"
+    },
+    {
+      "path": "datasets/zara1/train/biwi_hotel_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "18ccee8604a7d61b39ee8cd9c9f750759e577314"
+    },
+    {
+      "path": "datasets/zara1/train/crowds_zara02_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "06a757329eb6f5454fe4bf3451d2ed541c5256bb"
+    },
+    {
+      "path": "datasets/zara1/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/zara1/train/students001_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c2a3577903c9dc0109206dd01b34908013255fd"
+    },
+    {
+      "path": "datasets/zara1/train/students003_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "ef4b2a98bb0b88eb7ca21f79e4c9866f1950288f"
+    },
+    {
+      "path": "datasets/zara1/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/zara1/val/biwi_eth_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "cc88433510c00d1b4f8a430b2caecf2644561b9b"
+    },
+    {
+      "path": "datasets/zara1/val/biwi_hotel_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "fe6353e697dac4acc9d97883d7ebb78ea633aff9"
+    },
+    {
+      "path": "datasets/zara1/val/crowds_zara02_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "103a7b6a01b3c6e61441f0533175050b332b623e"
+    },
+    {
+      "path": "datasets/zara1/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/zara1/val/students001_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "63ceb06f88a9380569d700a727ab972ec5753530"
+    },
+    {
+      "path": "datasets/zara1/val/students003_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "57aa188f0738287877c222bd38588dd65e8ea23b"
+    },
+    {
+      "path": "datasets/zara1/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    },
+    {
+      "path": "datasets/zara2/test/crowds_zara02.txt",
+      "mode": "100755",
+      "type": "blob",
+      "git_blob_oid": "73f4f3090f3ac0ac18cf3b9d590346e15f222432"
+    },
+    {
+      "path": "datasets/zara2/train/biwi_eth_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "641165d3102e5e2560bd852d8a0584c94ff4ceab"
+    },
+    {
+      "path": "datasets/zara2/train/biwi_hotel_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "18ccee8604a7d61b39ee8cd9c9f750759e577314"
+    },
+    {
+      "path": "datasets/zara2/train/crowds_zara01_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "7c5613ca30790061b0895f35b82f999af6a4135a"
+    },
+    {
+      "path": "datasets/zara2/train/crowds_zara03_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "09047fa415c143ea5867ea3574a1f0fde440c2d6"
+    },
+    {
+      "path": "datasets/zara2/train/students001_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c2a3577903c9dc0109206dd01b34908013255fd"
+    },
+    {
+      "path": "datasets/zara2/train/students003_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "ef4b2a98bb0b88eb7ca21f79e4c9866f1950288f"
+    },
+    {
+      "path": "datasets/zara2/train/uni_examples_train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "74a02a2553a36740852a032c7f6813b4ed849011"
+    },
+    {
+      "path": "datasets/zara2/val/biwi_eth_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "cc88433510c00d1b4f8a430b2caecf2644561b9b"
+    },
+    {
+      "path": "datasets/zara2/val/biwi_hotel_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "fe6353e697dac4acc9d97883d7ebb78ea633aff9"
+    },
+    {
+      "path": "datasets/zara2/val/crowds_zara01_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "5c8789b3520fbd1fe9aa84e03ccedb2915fb9ff1"
+    },
+    {
+      "path": "datasets/zara2/val/crowds_zara03_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "36d094d379158acfe9e574e5268e0666fd7ae466"
+    },
+    {
+      "path": "datasets/zara2/val/students001_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "63ceb06f88a9380569d700a727ab972ec5753530"
+    },
+    {
+      "path": "datasets/zara2/val/students003_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "57aa188f0738287877c222bd38588dd65e8ea23b"
+    },
+    {
+      "path": "datasets/zara2/val/uni_examples_val.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_oid": "533cc6ae60949dbfd0937a8b87abd80b5f465434"
+    }
+  ],
+  "folds": {
+    "eth": {
+      "train": [
+        "datasets/eth/train/biwi_hotel_train.txt",
+        "datasets/eth/train/crowds_zara01_train.txt",
+        "datasets/eth/train/crowds_zara02_train.txt",
+        "datasets/eth/train/crowds_zara03_train.txt",
+        "datasets/eth/train/students001_train.txt",
+        "datasets/eth/train/students003_train.txt",
+        "datasets/eth/train/uni_examples_train.txt"
+      ],
+      "val": [
+        "datasets/eth/val/biwi_hotel_val.txt",
+        "datasets/eth/val/crowds_zara01_val.txt",
+        "datasets/eth/val/crowds_zara02_val.txt",
+        "datasets/eth/val/crowds_zara03_val.txt",
+        "datasets/eth/val/students001_val.txt",
+        "datasets/eth/val/students003_val.txt",
+        "datasets/eth/val/uni_examples_val.txt"
+      ],
+      "test": [
+        "datasets/eth/test/biwi_eth.txt"
+      ]
+    },
+    "hotel": {
+      "train": [
+        "datasets/hotel/train/biwi_eth_train.txt",
+        "datasets/hotel/train/crowds_zara01_train.txt",
+        "datasets/hotel/train/crowds_zara02_train.txt",
+        "datasets/hotel/train/crowds_zara03_train.txt",
+        "datasets/hotel/train/students001_train.txt",
+        "datasets/hotel/train/students003_train.txt",
+        "datasets/hotel/train/uni_examples_train.txt"
+      ],
+      "val": [
+        "datasets/hotel/val/biwi_eth_val.txt",
+        "datasets/hotel/val/crowds_zara01_val.txt",
+        "datasets/hotel/val/crowds_zara02_val.txt",
+        "datasets/hotel/val/crowds_zara03_val.txt",
+        "datasets/hotel/val/students001_val.txt",
+        "datasets/hotel/val/students003_val.txt",
+        "datasets/hotel/val/uni_examples_val.txt"
+      ],
+      "test": [
+        "datasets/hotel/test/biwi_hotel.txt"
+      ]
+    },
+    "univ": {
+      "train": [
+        "datasets/univ/train/biwi_eth_train.txt",
+        "datasets/univ/train/biwi_hotel_train.txt",
+        "datasets/univ/train/crowds_zara01_train.txt",
+        "datasets/univ/train/crowds_zara02_train.txt",
+        "datasets/univ/train/crowds_zara03_train.txt",
+        "datasets/univ/train/uni_examples_train.txt"
+      ],
+      "val": [
+        "datasets/univ/val/biwi_eth_val.txt",
+        "datasets/univ/val/biwi_hotel_val.txt",
+        "datasets/univ/val/crowds_zara01_val.txt",
+        "datasets/univ/val/crowds_zara02_val.txt",
+        "datasets/univ/val/crowds_zara03_val.txt",
+        "datasets/univ/val/uni_examples_val.txt"
+      ],
+      "test": [
+        "datasets/univ/test/students001.txt",
+        "datasets/univ/test/students003.txt"
+      ]
+    },
+    "zara1": {
+      "train": [
+        "datasets/zara1/train/biwi_eth_train.txt",
+        "datasets/zara1/train/biwi_hotel_train.txt",
+        "datasets/zara1/train/crowds_zara02_train.txt",
+        "datasets/zara1/train/crowds_zara03_train.txt",
+        "datasets/zara1/train/students001_train.txt",
+        "datasets/zara1/train/students003_train.txt",
+        "datasets/zara1/train/uni_examples_train.txt"
+      ],
+      "val": [
+        "datasets/zara1/val/biwi_eth_val.txt",
+        "datasets/zara1/val/biwi_hotel_val.txt",
+        "datasets/zara1/val/crowds_zara02_val.txt",
+        "datasets/zara1/val/crowds_zara03_val.txt",
+        "datasets/zara1/val/students001_val.txt",
+        "datasets/zara1/val/students003_val.txt",
+        "datasets/zara1/val/uni_examples_val.txt"
+      ],
+      "test": [
+        "datasets/zara1/test/crowds_zara01.txt"
+      ]
+    },
+    "zara2": {
+      "train": [
+        "datasets/zara2/train/biwi_eth_train.txt",
+        "datasets/zara2/train/biwi_hotel_train.txt",
+        "datasets/zara2/train/crowds_zara01_train.txt",
+        "datasets/zara2/train/crowds_zara03_train.txt",
+        "datasets/zara2/train/students001_train.txt",
+        "datasets/zara2/train/students003_train.txt",
+        "datasets/zara2/train/uni_examples_train.txt"
+      ],
+      "val": [
+        "datasets/zara2/val/biwi_eth_val.txt",
+        "datasets/zara2/val/biwi_hotel_val.txt",
+        "datasets/zara2/val/crowds_zara01_val.txt",
+        "datasets/zara2/val/crowds_zara03_val.txt",
+        "datasets/zara2/val/students001_val.txt",
+        "datasets/zara2/val/students003_val.txt",
+        "datasets/zara2/val/uni_examples_val.txt"
+      ],
+      "test": [
+        "datasets/zara2/test/crowds_zara02.txt"
+      ]
+    }
+  },
+  "status": "official pinned file inventory verified; content and split boundaries not evaluated",
+  "initial_api_attempt": "HTTP403 rate limit; subsequently read public filtered bare Git tree",
+  "trajectory_blobs_read": false,
+  "ETH_trajectory_or_metrics_read": false,
+  "external_model_replicated": false,
+  "HTraj_nonETH_pool": [
+    "biwi_hotel",
+    "crowds_zara01",
+    "crowds_zara02",
+    "students001",
+    "students003"
+  ],
+  "additional_official_ETH_fold_train_val_recordings": [
+    "crowds_zara03",
+    "uni_examples"
+  ],
+  "implication": "Official training population is larger than HTraj; not an official protocol reproduction or fair paper metric comparison."
+}

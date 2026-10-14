@@ -1,0 +1,7 @@
+{
+  "ETH_evaluated": false,
+  "epochs": 120,
+  "fresh_neural_runs": 4,
+  "script_sha256": "59ae4a1480a1a3e8d2bcfd2515ad7edf86d5aa26f42bd17a0c61cd202389d958",
+  "source_commit": "c1f16e5592b2683ef9a5588b039b0ffff5ba2d97"
+}

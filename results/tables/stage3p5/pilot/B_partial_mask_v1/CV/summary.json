@@ -1,0 +1,11 @@
+{
+  "ADE_m": 0.6354787779636071,
+  "ETH_evaluated": false,
+  "FDE_m": 1.6929584526386996,
+  "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+  "model": "CV",
+  "parameters": 0,
+  "protocol_name": "B_partial_mask_v1",
+  "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+  "velocity": "last two consecutive observed points, unknown -> explicitly stationary"
+}

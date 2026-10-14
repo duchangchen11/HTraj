@@ -34,6 +34,17 @@ def main():
         assert all(int(s.get(k,0))==0 for s in suites for k in ('failures','errors'))
     assert json.loads((root/'B_legacy_1024_96_frozen_analysis/compatibility_audit.json').read_text())['status']=='passed'
     assert not json.loads((root/'external_reference_sources.json').read_text())['replicated']
+    official=json.loads((root/'external_official_split_inventory.json').read_text())
+    assert not official['trajectory_blobs_read'] and not official['ETH_trajectory_or_metrics_read']
+    assert official['additional_official_ETH_fold_train_val_recordings']==['crowds_zara03','uni_examples']
+    physical=list(csv.DictReader((root/'physical_density_group_comparison.csv').open()))
+    assert len(physical)==16
+    for setting in {r['setting'] for r in physical}:
+        for endpoint in ('best','last'):
+            rows=[r for r in physical if r['setting']==setting and r['endpoint']==endpoint]
+            assert sum(int(r['ADE_count']) for r in rows)==(706 if setting.startswith('A_') else 1464)
+            assert sum(int(r['FDE_count']) for r in rows)==(706 if setting.startswith('A_') else 986)
+    assert len(list(csv.DictReader((root/'physical_density_paired_targets.csv').open())))==4340
     for file in ('01_PROTOCOL_AUDIT.md','02_BASELINE_COMPARISON.md','03_INTERACTION_VALUE_ANALYSIS.md','04_TRAINING_FEASIBILITY.md','05_CHAPTER4_RESEARCH_DECISION.md','STAGE3P5_REPORT.md'):assert (Path('reports/stage3p5')/file).stat().st_size>500
     for name in ('legacy','pilot'):
         rows=list(csv.DictReader((root/(name+'_paired_target_differences.csv')).open()));assert len(rows)==(3606 if name=='legacy' else 4340)

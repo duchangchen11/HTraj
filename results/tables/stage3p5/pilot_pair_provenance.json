@@ -1,0 +1,10 @@
+{
+  "ETH_evaluated": false,
+  "GT_used_for_errors_only": true,
+  "group_rows": 76,
+  "grouping_future_GT": false,
+  "mode": "pilot",
+  "paired_rows": 4340,
+  "script_sha256": "9f04503ab9347074ff35271ad6986290fed0def2ac24a40aa7e02be9a1672578",
+  "source_commit": "c1f16e5592b2683ef9a5588b039b0ffff5ba2d97"
+}

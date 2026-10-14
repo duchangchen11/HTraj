@@ -1,0 +1,11 @@
+{
+  "ETH_evaluated": false,
+  "analysis_status": "exploratory after training, no model or checkpoint selection; frozen primary groups unchanged",
+  "cutoff_distance_m": 4,
+  "future_GT_used_for_grouping": false,
+  "input_pairs_sha256": "76ecb7de8f7f963577978d199ebf89c97016b03b1c120cd30449de989fb091fd",
+  "mean_over": "raw observed-valid receiver frames, all simultaneously visible sources; no speed/cap/CPA condition",
+  "population": "protocol-specific evaluable targets; historical physical context identical for common targets",
+  "script_sha256": "882836ef0f70eab2abcdc17df79ddbe8b03b006d7d99250b810a3dc2fcc9995d",
+  "source_commit": "41e105cd1e085032d6c604ed8c1a2fbb7c8d97b3"
+}

@@ -1,0 +1,13 @@
+protocol,model,training_windows,epochs,estimated_training_seconds,estimate_not_execution,basis
+A_complete8x12_history_context,PedBase,2471,30,259.97028317840443,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+A_complete8x12_history_context,PedBase,2471,60,519.9405663568089,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+A_complete8x12_history_context,PedBase,2471,100,866.5676105946815,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+A_complete8x12_history_context,Dynamic-GNN-RN,2471,30,576.4661017502029,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+A_complete8x12_history_context,Dynamic-GNN-RN,2471,60,1152.9322035004059,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+A_complete8x12_history_context,Dynamic-GNN-RN,2471,100,1921.553672500677,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,PedBase,2778,30,283.45495071549107,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,PedBase,2778,60,566.9099014309821,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,PedBase,2778,100,944.8498357183036,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,Dynamic-GNN-RN,2778,30,647.7222462985867,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,Dynamic-GNN-RN,2778,60,1295.4444925971734,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"
+B_partial_mask_v1,Dynamic-GNN-RN,2778,100,2159.074154328622,True,"measured pilot per-window rate, same d64/Adam; no validation/IO, composition/epoch changes unmeasured"

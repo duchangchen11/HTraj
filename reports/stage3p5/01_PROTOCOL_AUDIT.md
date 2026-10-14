@@ -6,7 +6,9 @@
 
 核心外部参考正式名称：**Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction**，Abduallah Mohamed、Kun Qian、Mohamed Elhoseiny、Christian Claudel，CVPR2020，14424–14432。[作者稿§5–6](https://arxiv.org/abs/2002.11927)、[官方仓库](https://github.com/abduallahmohamed/Social-STGCNN)。CVF页面/PDF此次403，使用作者arXiv全文；下载PDF只存ignored目录，SHA在external_source_supplement.json。
 
-论文说明0.4s采样、8观察/12预测、ADE/FDE和20样本选优。关于划分，其§5文字描述同数据集部分训练/剩余测试、其它四集验证；[Social GAN作者论文§4](https://arxiv.org/abs/1803.10892)明确四集训练、第五集测试。**不能把所有文章都统一说成完全相同预处理和划分**。官方processed每文件划分清单此次GitHub API403限流，尚未逐文件核实；不据此写完成官方协议复现。
+论文说明0.4s采样、8观察/12预测、ADE/FDE和20样本选优。关于划分，其§5文字描述同数据集部分训练/剩余测试、其它四集验证；[Social GAN作者论文§4](https://arxiv.org/abs/1803.10892)明确四集训练、第五集测试。**不能把所有文章都统一说成完全相同预处理和划分**。GitHub API最初403限流，后通过公开Git过滤bare clone读取锁定版本文件树，完成五个fold的文件名/对象OID核查；未读取轨迹blob或ETH指标。记录在external_official_split_inventory.json。
+
+[官方锁定datasets目录](https://github.com/abduallahmohamed/Social-STGCNN/tree/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/datasets)显示ETH/HOTEL/ZARA1/ZARA2各7个train、7个val、1个test文件，UNIV各6个train/val及2个test文件。各fold train/val录像名一致、与test录像名隔离，符合代码中的留场景测试；论文文字与代码文件清单应分别记录。特别是ETH fold除HTraj五段非ETH录像，还使用crowds_zara03与uni_examples训练/验证。HTraj并未采用这两个recording，训练人口不同。该清单只证实文件组成，尚未逐文件核查processed内容、时间边界或加载样本一致性，**不是官方协议完整复现**。
 
 官方README指定CVPR版本`ebd57aaf34d84763825d05cf9d4eff738d8c96bb`，另锁定原HTraj raw来源`333d3a57b4d2705e129b21aefefa09c79b2b9ae1`，各utils/test/model/train/metrics/LICENSE SHA在external_reference_sources.json。README.MD大小写初始404后已修复下载；软件为[MIT许可](https://github.com/abduallahmohamed/Social-STGCNN/blob/ebd57aaf34d84763825d05cf9d4eff738d8c96bb/LICENSE)，不代表数据再分发也获MIT授权。
 
@@ -40,6 +42,8 @@ A满足用户完整历史/未来的标准任务属性，但**不是官方loader/
 
 K1多模态模型须额外定义分布均值还是一次随机样本；K20 oracle可参考GT选最小评价误差，却不能用GT选择模型输入或真实部署轨迹。HTraj现有确定性模型不因重复同轨迹20次而成为多模态模型。
 
+8个历史点首末相隔2.8s，文献“3.2s观察”是8个采样步的长度约定；未来点距cutoff为0.4–4.8s，完整20点支持跨度7.6s。隔离按真实起止frame-ID支持计算，不用只比较窗口起点。
+
 ## 原数据身份、有效样本与新开发划分
 
 原fold_ETH SHA `c52c85999b1fb401e1f862de06f9086290a0b4acdaa34bab8214731630914ced`。五个非ETHsource的raw SHA每个新manifest保留，loader逐次核实。原2781训练窗口：A2471有监督窗口/28022完整目标/336264标签点；B2778有监督窗口/46287 ADE目标/34575 FDE目标/484422标签点。其余窗口没有该协议合法标签，仅跳过训练loss，不将其伪称有效目标。
@@ -55,3 +59,7 @@ K1多模态模型须额外定义分布均值还是一次随机样本；K20 oracl
 source src/evaluation/benchmark_audit.py：4m/k8/CPA图，密度沿用平均连续帧入度；相向cos<−0.7、同向cos>0.7、交叉abs cos≤0.7且双方速度>0.2m/s、cutoff候选真实关系。一人可同时有不同类型邻居，运动类别不是互斥总和。关系变化是持续候选pair的相对速度变化≥0.5m/s；稳定仅指该速度指标低于阈值，不证明邻居成员/距离不变；无有效变化观测单列。
 
 所有分类只用历史/mask/timestamps。GT只计算误差与标签可用性，不用于构图或上述类别。各模型在同一tuple(recording,sample_id,agent_id)上严格对齐；额外非重叠支持敏感性按metadata预先greedy选20点支持并加8秒隔离，仍是同开发集的抽稀，不叫独立确认。
+
+补充neighbor_eligibility_audit.json明确“no_neighbors”是原双端连续合法图为空，不是物理周围无人。新B该组51目标中48仅一帧历史、47有当前4m物理邻居、46有可计算运动的protocol源；接收条件阻断不能解释为不需要社会信息。新A空图7目标中5有原始历史可见物理邻居，但它们不满足A完整历史上下文资格。此补充只用历史位置/可见性/连续性，不修改冻结的主分组或训练数据。
+
+physical_density_group_comparison.csv另提供不要求连续运动的原始历史4m物理密度组，四组覆盖同一评价人口且逐目标配对。训练后补充探索，不用于选择模型；完整已观察历史无可见4m邻居仅A0/B2，不能据原合法空图组声称真实孤立目标普遍不需要社会信息。全部数值及定义见03_INTERACTION_VALUE_ANALYSIS.md。

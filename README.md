@@ -59,6 +59,7 @@ python3 scripts/check_stage2.py
 python3 scripts/check_stage2p5.py
 python3 scripts/check_stage2p6.py
 python3 scripts/check_stage3.py
+python3 scripts/check_stage3p5.py
 git diff --check
 ```
 
@@ -79,3 +80,7 @@ Stage2.6入口：`"$htraj_python" -m src.training.order_verification`，协议`c
 Stage3已核查接收阻断并修复，但与匹配H1比较没有明确新进入者ADE收益，完整历史训练后稍差；新增边记忆也未胜过无更新对照。目前停止增加模块，不启动第二轮或完整训练。未来如获授权，单独研究可靠源当前运动先验/消息新鲜度与不确定性，并先准备时间隔离的验证数据；原剩余非ETH验证没有不重叠支持。源入口为`"$htraj_python" -m src.training.relation_routing`，既有run目录拒绝覆盖，已运行六次不再次启动；结果在results/tables/stage3，权重仅本地experiments/stage3/new。
 
 每个阶段完成本地提交；用户已在Stage2.5改为自行从终端上传，后续不自动push。冲突停止。旧项目保留。本仓库不包含凭据、数据集、权重或作者论文全文副本。
+
+Stage3.5完成完整8/12协议A与原partial-mask协议B核查，五个非ETH录像隔离候选已统计，只students003原val70区域做四次seed17/30epoch基线。A PedBase/GNN ADE0.707297/0.721141m；B0.617815/0.615008m，分母不同不能横比。148测试通过，旧606项SHA保护；公开Social-STGCNN未复现、ETH封存，录像隔离不是独立确认。详见[Stage3.5总报告](reports/stage3p5/STAGE3P5_REPORT.md)。
+
+当前建议先加强运动先验、在其它预定recording复核，再考虑冻结主路径的可撤回社会修正。入口`python -m src.training.benchmark_audit`已完成四个run，既有输出拒绝覆盖，不再次启动。真实表在results/tables/stage3p5，权重仅本地experiments/stage3p5/pilot；本阶段结束，等待新指令。
