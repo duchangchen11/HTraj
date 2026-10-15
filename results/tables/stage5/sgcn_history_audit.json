@@ -1,0 +1,8 @@
+{
+  "current_head": "0d4ac44f44a0688a839f25070be1a4faeed5ade1",
+  "archived_code_commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+  "current_model_exists": false,
+  "historical_files": "100644 blob 67237370506c7440b0d1f0c78132eb360968eabe   12170\tmodel.py\n100644 blob a5ddfd233507016576d007cbe19f3c36a143dcc4    5922\ttest.py\n100644 blob 6ba639305f428332b9146c75ce8d657df86e158c    9097\ttrain.py\n",
+  "source_history": "d2691871478c0184726f71d40fc6fb8c705d8588 2021-12-22 Delete train.py\n4f6a1d1f8148ae2e1a55ab5163b5dc54c6466711 2021-12-22 Delete test.py\n81d22a84f4f2b549ad34d6c35e56b84ab3f41a75 2021-12-22 Delete model.py\nec2ac7353ccba7c9691b00c0e978a0631667fa94 2021-06-07 Add files via upload\n",
+  "status": "Static analysis only; no model instantiation, checkpoint load or forward"
+}

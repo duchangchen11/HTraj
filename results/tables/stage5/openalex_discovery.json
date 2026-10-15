@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "provider": "OpenAlex",
+  "HTTP_status": 429,
+  "results": null,
+  "retried": false,
+  "reason": "Rate limit; primary author/publisher/repository discovery used instead"
+}

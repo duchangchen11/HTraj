@@ -1,0 +1,47 @@
+{
+  "scope": "Stage5 bounded official code/checkpoint/protocol feasibility audit, not paper-score reproduction",
+  "functional_candidates": ["EqMotion", "SocialVAE"],
+  "EqMotion": {
+    "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+    "folds": ["hotel", "zara1"],
+    "strict_load_only": true,
+    "channels": {"hotel": 64, "zara1": 128},
+    "category_num": "official hardcoded 4; no editing",
+    "stop_if_unmatched": true
+  },
+  "SocialVAE": {
+    "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+    "folds": ["hotel", "zara02"],
+    "sample_selection": "first 128 target-window samples in each unmodified official loader, before any error inspection",
+    "samples_per_fold": 128,
+    "batch_size": 16,
+    "history_frames": 8,
+    "prediction_frames": 12,
+    "hidden_dim": 256,
+    "ob_radius": 2,
+    "seed": 17,
+    "sampling_seed_base": 1017,
+    "stochastic_samples": 20,
+    "metrics": ["K1 deterministic latent-prior-mean trajectory", "K1 first stochastic sample", "K20 independent minADE and minFDE"],
+    "FPC": false,
+    "data_protocol": "official offline loader diagnostic; audit derivative support and future-boundary dependence separately; no HTraj protocol compatibility claim",
+    "training_smoke": {
+      "recording": "crowds_zara01",
+      "source": "data/zara02/train/crowds_zara01.txt",
+      "first_samples": 16,
+      "optimizer": "Adam",
+      "learning_rate": 0.0005,
+      "steps": 1,
+      "initialization": "fresh seed17, no pretrained initialization",
+      "loss": "unchanged official reconstruction plus latent KL estimator",
+      "purpose": "finite forward/backward/update/save/strict-restore functionality only; no convergence or training-score claim"
+    },
+    "structure_checks": ["strict weights", "finite outputs", "repeat with fixed seed", "neighbor-order permutation", "target batching permutation", "translation", "empty and padded neighbors", "future tensor truncation", "raw loader boundary dependence", "one training step and strict checkpoint roundtrip"],
+    "stop": "strict loading failure or nonfinite forward: record failure and stop candidate, no architecture surgery"
+  },
+  "no_ETH_assets_or_metrics": true,
+  "no_formal_training": true,
+  "no_new_architecture": true,
+  "no_FPC_search": true,
+  "no_push": true
+}

@@ -1,0 +1,17 @@
+{
+  "EqMotion_stop_rule": "inspect all official history touchingETH/UCY network; bounded official-configuration grid, strict keys+shapes only; never synthesize missing layers or strictFalse",
+  "base_commit": "e6e9700eba015140d00e989a2aaaf7d7a88bd00d",
+  "branch": "feat/stage5-baseline-selection",
+  "functional_policy": "fixed nonETH official-loader diagnostic subset; audit history/future feature boundary explicitly; at most 2 candidates; no official test-selection training entrypoint",
+  "max_functional_candidates": 2,
+  "no_ETH_metrics": true,
+  "no_formal_training": true,
+  "no_new_model": true,
+  "no_push": true,
+  "static_candidates": [
+    "EqMotion",
+    "HighGraph",
+    "SGCN",
+    "SocialVAE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "device": "NVIDIA GeForce RTX 3080",
+  "base_commit": "e6e9700eba015140d00e989a2aaaf7d7a88bd00d",
+  "audit_script_sha256": "43ce31c3878f3e80111b262154166b6acfa16d7a1850dbab080a0f1ebc6a5f58",
+  "sources": {
+    "eqmotion": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+    "socialvae": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+    "sgcn": "ec2ac7353ccba7c9691b00c0e978a0631667fa94"
+  },
+  "git_head": "e6e9700eba015140d00e989a2aaaf7d7a88bd00d"
+}
