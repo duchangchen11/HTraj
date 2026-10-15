@@ -70,9 +70,12 @@ def main():
                       '没有模型通过预设双录像候选规则：不提出立即进行三seed训练的结论，停止新增训练。单个录像或分组的改善仍保留，但不能宣称稳定通用优势。\n\n')
     decision_text += '规则：同一归一化版本在两个固定录像上均比M0减少ADE至少max(0.005m,0.5% M0 ADE)，且各自配对FDE不恶化。录像没有因结果重新选择。规则不等同优于CV，是否仍输给CV必须另报。\n\n'+differences
     decision_text += '\n## 回答六个研究问题\n\n'
-    decision_text += '1. **跨录像泛化与坐标是否有关？** 原模型已平移等变，因此“没有去除绝对位置”不成立。方向表示存在明确结构依赖、也存在历史方向分布偏移；上表M2−M0给出本轮净效应。只有两个曝光录像、单seed和混合运动分布，不能归结为唯一原因。\n'
-    decision_text += '2. **是否值得显式建模历史方向？** 可靠历史方向可消去全局轴依赖；是否有预测价值需同时看两录像、CV和低/高速组。低速恒等回退仍有轴依赖，因此不能把该实现称无条件旋转等变模型。它本身属于常规表示对照。\n'
-    decision_text += '3. **CV残差是否更可靠？** 分别比较原坐标CV残差−M0以及M3−M2；不能混合归一化与CV先验后把全部收益归给CV。best与last、训练/验证误差均已给出；即便某一录像提升也不构成跨seed可靠性证据。\n'
+    decision_text += '1. **跨录像泛化与坐标是否有关？** 原模型已平移等变，因此“没有去除绝对位置”不成立。'
+    decision_text += '；'.join(f'{rec}的M2−M0最佳ADE差为{float(get(rec,"M2")["best_validation_ADE_m"])-float(get(rec,"M0")["best_validation_ADE_m"]):+.6f}m' for rec in recs)+'。方向表示具有录像条件性影响，不能认定为统一修复或唯一原因。相同参数/配置的配对实验识别的是整个表示策略（含其优化影响）的净效应。\n'
+    decision_text += '2. **是否值得显式建模历史方向？** HOTEL改善支持其作为基础表示对照继续研究；ZARA2未改善，不能提升为通用主干定论。可靠历史方向可消去全局轴依赖，但低速恒等回退仍有轴依赖，不能称无条件旋转等变模型；上述方法本身不是创新。\n'
+    decision_text += '3. **CV残差是否更可靠？** '
+    decision_text += '；'.join(f'{rec}原坐标CV残差−M0的best/last ADE差分别为{float(get(rec,"CVR-Unnormalized-reference")["best_validation_ADE_m"])-float(get(rec,"M0")["best_validation_ADE_m"]):+.6f}/{float(get(rec,"CVR-Unnormalized-reference")["last_validation_ADE_m"])-float(get(rec,"M0")["last_validation_ADE_m"]):+.6f}m' for rec in recs)+'。'
+    decision_text += '；'.join(f'{rec}归一化后M3−M2的best ADE差为{float(get(rec,"M3")["best_validation_ADE_m"])-float(get(rec,"M2")["best_validation_ADE_m"]):+.6f}m' for rec in recs)+'。CV先验具有条件作用，但不足以证明更稳定可靠；best改善不能覆盖last退化，也不能把坐标和CV的影响混为一谈。\n'
     for rec in recs:
         for name in ('M2','M3'):
             harmed = []
@@ -81,7 +84,7 @@ def main():
                 if r['ADE_count'] != '0' and float(r['delta_ADE_m_vs_M0']) > 0:
                     harmed.append(f'{g}(N={r["ADE_count"]},ΔADE={float(r["delta_ADE_m_vs_M0"]):+.6f}m)')
             decision_text += f'4. **{rec}/{name}仍退化的历史组（相对M0）：** '+('；'.join(harmed) if harmed else '上述七个预设重点组未出现ADE退化；仍需检查CV及FDE')+'。完整全部组保留在04报告，不排除失败样本。\n'
-    decision_text += '5. **是否值得立即重评社会GNN？** 本轮没有社会网络实验，不能声称社会收益已恢复。先确认个体主路径在两个录像上稳定、与CV及容量控制比较成立，再单独授权冻结ego条件下评估；不得直接复用归一化编码中的非prefix因果中间状态。当前不自动启动GNN。\n'
+    decision_text += '5. **是否值得立即重评社会GNN？** 暂不建议。尚无通过双录像规则的统一新主干，本轮也没有社会实验，不能声称社会收益已恢复。先确认个体主路径在两个录像上稳定、与CV比较成立，再单独授权冻结ego及容量控制评估；不得直接复用归一化编码中的非prefix因果中间状态。当前不自动启动GNN。\n'
     decision_text += '6. **是否已有第四章创新路线？** 没有足够证据。坐标归一化、CV残差、GRU都不是本项目新创新。当前证据最多用于定位运动表示/录像分布问题与定义下一项可证伪实验，不能作为正式创新网络的性能主张。\n\n'
     decision_text += 'HOTEL的CV无需拟合其他录像的运动方向、静止比例和未来修正，神经模型则可能把训练域修正迁移到不匹配录像。即使训练loss下降仍可能验证退化。方向、速度变化、低速噪声与优化等假说并存，本实验没有唯一因果识别。若归一化仍不能同时击败CV，不继续堆社会模块；可提议明确区分可靠运动估计与残差适用条件的下一轮基础对照，需新指令。\n\n'
     decision_text += '停止点：六次有限训练、预设固定权重诊断与完整测试交付；不评价ETH，不启动第五章、多模态、高阶或关系GRU，不自动push。\n'
