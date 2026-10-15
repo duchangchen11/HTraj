@@ -1,0 +1,11 @@
+protocol,split,recording,windows,target_windows,context_windows
+A_offline_complete20,train,biwi_hotel,231,758,758
+B_history_context_complete_targets,train,biwi_hotel,302,829,1597
+A_offline_complete20,train,students001,336,11691,11691
+B_history_context_complete_targets,train,students001,336,11691,15216
+A_offline_complete20,train,students003,413,8988,8988
+B_history_context_complete_targets,train,students003,413,8988,12907
+A_offline_complete20,train,crowds_zara01,508,1912,1912
+B_history_context_complete_targets,train,crowds_zara01,577,1981,3144
+A_offline_complete20,validation,crowds_zara02,921,5833,5833
+B_history_context_complete_targets,validation,crowds_zara02,981,5893,8161

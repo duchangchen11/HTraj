@@ -1,0 +1,33 @@
+{
+  "cache_sha256": "4f5a72f7ca08f9021d199f401da9f1136ccb89150c1814990e4bbf998a0104a1",
+  "script_sha256": "642aaa932043c5f7bcce8bef587f77ca4cf0078c7ba31a263055e61bcbe0695c",
+  "seconds": 4.594496331992559,
+  "source_commit": "c0494e8aaba4bcd350d2efa75ba9a6f675d9146f",
+  "source_files": {
+    "biwi_hotel": {
+      "path": "data/raw/eth_ucy/biwi_hotel.txt",
+      "rows": 6543,
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    "crowds_zara01": {
+      "path": "data/raw/eth_ucy/crowds_zara01.txt",
+      "rows": 5153,
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    },
+    "crowds_zara02": {
+      "path": "data/raw/eth_ucy/crowds_zara02.txt",
+      "rows": 9722,
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    "students001": {
+      "path": "data/raw/eth_ucy/students001.txt",
+      "rows": 21813,
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+    },
+    "students003": {
+      "path": "data/raw/eth_ucy/students003.txt",
+      "rows": 17953,
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+    }
+  }
+}

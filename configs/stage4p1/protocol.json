@@ -1,0 +1,77 @@
+{
+  "B_training": false,
+  "ETH_evaluated": false,
+  "accumulation_windows": 64,
+  "auto_push": false,
+  "base_commit": "c0494e8aaba4bcd350d2efa75ba9a6f675d9146f",
+  "best_checkpoint": "minimum validation target-weighted official NLL; earliest exact tie; never K20/test selection",
+  "cache": "data/processed/stage4p1/A_windows.pt",
+  "cache_sha256": "4f5a72f7ca08f9021d199f401da9f1136ccb89150c1814990e4bbf998a0104a1",
+  "coordinate_unit": "m",
+  "cpu_threads": 1,
+  "device": "cuda",
+  "dt_seconds": 0.4,
+  "endpoint": "one recording, seed17, Full+NoSocial<=30 total epochs incl first5; official checkpoint permutation only; no LR/seed/fold search, no B training",
+  "evaluation_every_epoch": true,
+  "evaluation_modes": [
+    "K1_distribution_mean",
+    "K1_first_sample",
+    "K20_independent_min"
+  ],
+  "evaluation_sampling": "common fixed standard-normal bank across models/checkpoints;20 independent displacement draws; separate per-target minADE/minFDE",
+  "evaluation_seed": 314159,
+  "gradient_clip": 1.0,
+  "learning_rate": 0.01,
+  "manifests": {
+    "A_offline_complete20": {
+      "path": "configs/stage4p1/A_offline_complete20_manifest.json",
+      "sha256": "191cab0e257a56af4238557da95bd3d5a2bd9d593346c29f7cbe2708399abfaa"
+    },
+    "B_history_context_complete_targets": {
+      "path": "configs/stage4p1/B_history_context_complete_targets_manifest.json",
+      "sha256": "711295f121aad002dc675a24ec61db6c0f310d5ef750049c1cd197db1501e390"
+    }
+  },
+  "max_epochs": 30,
+  "models": [
+    "Full",
+    "NoSocial"
+  ],
+  "momentum": 0.0,
+  "no_social": "identity graph; all TXP-CNN spatial3x3 kernels reshaped9x1 to same allocated parameter count; nodewise training BN; original self ST-GCN/affine/view/Gaussian/NLL retained",
+  "no_social_confound": "removes graph+node conv+cross-node normalization jointly; kernel geometry and normalization change; cannot isolate graph benefit from Full-vs-NoSocial alone",
+  "observation_steps": 8,
+  "optimizer": "SGD",
+  "parameters": {
+    "Full": 7563,
+    "NoSocial": 7563
+  },
+  "permutation": {
+    "checkpoint": "official zara2 val_best frozen Stage4",
+    "mode": "K1 Gaussian mean only; graph and tracks permuted consistently; probe raw Gaussian outputs after each main module",
+    "seed": 271828,
+    "selection": "first64 chronological eligible validation windows; no error-based choice",
+    "windows": 64
+  },
+  "prediction_steps": 12,
+  "pretrained_initialization": false,
+  "scheduler": null,
+  "seed": 17,
+  "smoke_epochs": 5,
+  "smoke_gate": "all finite loss/metrics/gradients, nonzero gradient, checkpoint optimizer+RNG reload gives exactly same output; no validation improvement threshold; continue exact run from epoch5 to30 only",
+  "stage": "4.1",
+  "train_policy": "all eligible original-train-region complete20 windows in four nonETH recordings; retain old val+embargo unused; no1024 subsample",
+  "train_source_recordings": [
+    "biwi_hotel",
+    "students001",
+    "students003",
+    "crowds_zara01"
+  ],
+  "training_loss": "unchanged official clamped bivariate Gaussian NLL; equal-window average, last partial accumulation normalized by actual count",
+  "training_metrics": "train-mode NLL/grad; validation metrics all modes/NLL each epoch; full train eval at epoch5,best,last only",
+  "training_protocol": "A_offline_complete20",
+  "upstream_commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+  "validation_policy": "all eligible complete20 windows of the whole held recording; prior researcher exposure, not independent",
+  "validation_recording": "crowds_zara02",
+  "weight_decay": 0.0
+}
