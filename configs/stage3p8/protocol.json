@@ -1,0 +1,562 @@
+{
+  "B_run": false,
+  "ETH_evaluated": false,
+  "analysis": "all groups; per-recording metrics; equal-recording macro vs target-window weighted separate; per-person mean paired differences and person-macro metrics; Pearson/Spearman without iid-window p-values",
+  "analytic_dtype": "float64 from unchanged float32 loader coordinates",
+  "auto_push": false,
+  "base_commit": "b574a587b54159a0b42e69b3d73125006853ea47",
+  "batch_size": 8,
+  "candidate_rule": "ADE reduction>=max(.005m, .5%Last2ADE) in >=3/5 recordings with pairedFDE no worse than +max(.005m,.01*Last2FDE) in those; five-recording macro ADE improves and macroFDE does not worsen; remaining recording failures always reported; recommend prior only, not learning or submission claim",
+  "cpu_threads": 1,
+  "endpoint": "evaluate four fixed analytic models on all five validation recordings; frozen compatible neural inference only; no estimator/hyperparameter search, clipping, extra training or ETH",
+  "extra_estimators_allowed": false,
+  "folds": [
+    {
+      "manifest": "configs/stage3p5/folds/val_biwi_hotel.json",
+      "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+      "recording": "biwi_hotel",
+      "validation_windows": 149
+    },
+    {
+      "manifest": "configs/stage3p5/folds/val_students001.json",
+      "manifest_sha256": "cda95feb8c7b4bfbb5917139a7f2c58cea3e22e770656f158cd706e42cb64de4",
+      "recording": "students001",
+      "validation_windows": 50
+    },
+    {
+      "manifest": "configs/stage3p5/folds/val_students003.json",
+      "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+      "recording": "students003",
+      "validation_windows": 70
+    },
+    {
+      "manifest": "configs/stage3p5/folds/val_crowds_zara01.json",
+      "manifest_sha256": "b44671177421d0f239028528238f30416d633d015722c9877a927d3656d3b82b",
+      "recording": "crowds_zara01",
+      "validation_windows": 107
+    },
+    {
+      "manifest": "configs/stage3p5/folds/val_crowds_zara02.json",
+      "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+      "recording": "crowds_zara02",
+      "validation_windows": 172
+    }
+  ],
+  "formulas": {
+    "Last2": "(x7-x6)/(t7-t6)",
+    "Median": "componentwise median of seven observed adjacent velocities; average two central values for even count; axis-dependent, not generally rotation-equivariant",
+    "OLS": "sum((t-tbar)*(x-xbar))/sum((t-tbar)^2), last4 or all8; time centered at t7 and space at x7"
+  },
+  "groups": {
+    "angle_known": "both last and vector-mean speeds>=.2m/s",
+    "direction_changing": "angular span among any two historical velocities with speed>=.2m/s >=60deg OR known last-mean angle>=60deg",
+    "direction_consistent": "net/path>=.9 and known last-mean angle<30deg",
+    "linear_fit_RMS_bins_m": [
+      0.02,
+      0.1
+    ],
+    "observable_length": "all supervised A targets must have8 observations; partial/unknown groups retained at N0",
+    "out_and_back": "path>=.5m AND net/path<=.5",
+    "quasi_stationary": "max speed<=.1m/s AND path<=.2m AND net<=.15m, history proxy only",
+    "speed_vector_mean_high_ge": 1.0,
+    "speed_vector_mean_low_lt": 0.2,
+    "stationary_ratio": "zero-length path ratio numerical1 with defined=False; out/back requires path>=.5m",
+    "terminal_unstable": "norm(last_velocity - time_weighted_mean_velocity)>=.5m/s",
+    "variance_bins_m2ps2": [
+      0.01,
+      0.25
+    ]
+  },
+  "history_frames": 8,
+  "independent_confirmation": false,
+  "learned_gate": false,
+  "missing_history": "current contiguous suffix only; reset at absent frame or interval>0.6s; OLS up toK available points, min2; median available observed velocities; <2 -> explicit stationary fallback",
+  "models": [
+    "CV-Last2",
+    "CV-OLS4",
+    "CV-OLS8",
+    "CV-Median"
+  ],
+  "neural_dtype": "float32 frozen historical weights",
+  "new_neural_training": false,
+  "noise_diagnostic": "historical OLS8 in-sample RMS vs one-step historical last2 backtest RMS over targets t2..t7; diagnostic only, not future evidence of true velocity noise",
+  "prediction": "last observed position + estimated velocity * (1..12)*0.4; OLS never replaces last position with fitted intercept",
+  "prediction_frames": 12,
+  "protocol_name": "A_complete8x12_history_context",
+  "raw_root": "data/raw/eth_ucy",
+  "reference_coverage": [
+    {
+      "model": "PedBase-M0",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "biwi_hotel",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "PedBase-BestCompatible",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "biwi_hotel",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "CVResidual-BestCompatible",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "biwi_hotel",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "PedBase-M0",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "students001",
+      "status": "not_available"
+    },
+    {
+      "model": "PedBase-BestCompatible",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "students001",
+      "status": "not_available"
+    },
+    {
+      "model": "CVResidual-BestCompatible",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "students001",
+      "status": "not_available"
+    },
+    {
+      "model": "PedBase-M0",
+      "reason": "Stage3.5 all effective A train2058 / val70; original architecture and protocol",
+      "recording": "students003",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "PedBase-BestCompatible",
+      "reason": "Stage3.5 all effective A train2058 / val70; original architecture and protocol",
+      "recording": "students003",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "CVResidual-BestCompatible",
+      "reason": "no same-recording-isolated CVResidual checkpoint; no training authorized",
+      "recording": "students003",
+      "status": "not_available"
+    },
+    {
+      "model": "PedBase-M0",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "crowds_zara01",
+      "status": "not_available"
+    },
+    {
+      "model": "PedBase-BestCompatible",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "crowds_zara01",
+      "status": "not_available"
+    },
+    {
+      "model": "CVResidual-BestCompatible",
+      "reason": "no corresponding LORO checkpoint; other-fold models may have trained on this recording and cannot replace it",
+      "recording": "crowds_zara01",
+      "status": "not_available"
+    },
+    {
+      "model": "PedBase-M0",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "crowds_zara02",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "PedBase-BestCompatible",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "crowds_zara02",
+      "status": "existing_compatible_checkpoint"
+    },
+    {
+      "model": "CVResidual-BestCompatible",
+      "reason": "same LORO manifest/protocol, train recording exclusion and old source hashes verified at evaluation",
+      "recording": "crowds_zara02",
+      "status": "existing_compatible_checkpoint"
+    }
+  ],
+  "references": [
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "525f5ee7c706a34047bc02999afaef42621ff6909c04483fb6832ff567f4e517",
+          "historical_best_ADE_m": 0.5033190520304553,
+          "historical_paired_FDE_m": 1.0055114698110137,
+          "kind": "PedBase",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+          "summary_sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+        }
+      ],
+      "label": "PedBase-M0",
+      "recording": "biwi_hotel",
+      "selected": {
+        "checkpoint": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "525f5ee7c706a34047bc02999afaef42621ff6909c04483fb6832ff567f4e517",
+        "historical_best_ADE_m": 0.5033190520304553,
+        "historical_paired_FDE_m": 1.0055114698110137,
+        "kind": "PedBase",
+        "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+        "seed": 17,
+        "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+        "summary": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+        "summary_sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "525f5ee7c706a34047bc02999afaef42621ff6909c04483fb6832ff567f4e517",
+          "historical_best_ADE_m": 0.5033190520304553,
+          "historical_paired_FDE_m": 1.0055114698110137,
+          "kind": "PedBase",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+          "summary_sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "e88ef56ce69f8a70e2c90a50d1aed78b21ce2ce4f34de9d23f64d4b0f1e5b71b",
+          "historical_best_ADE_m": 0.5033190520304553,
+          "historical_paired_FDE_m": 1.0055114698110137,
+          "kind": "PedBase",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/biwi_hotel/ego/PedBase__constant/seed_17/summary.json",
+          "summary_sha256": "644ab612f3a87c583d08d2a0aed4abc7c120f7f037455817b7147481371f9211"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "715dfac96f7194b133d4abcbbd31e81decb22d26359d54cc776c62728c0e4a8f",
+          "historical_best_ADE_m": 0.5166705914263455,
+          "historical_paired_FDE_m": 1.0178716092739466,
+          "kind": "PedBase",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/biwi_hotel/ego/PedBase__step10_20/seed_17/summary.json",
+          "summary_sha256": "c3c07f5f2d54ca26c7ddf050738af46ebefc1af1cad7601e4e5026d8af2686a6"
+        }
+      ],
+      "label": "PedBase-BestCompatible",
+      "recording": "biwi_hotel",
+      "selected": {
+        "checkpoint": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "525f5ee7c706a34047bc02999afaef42621ff6909c04483fb6832ff567f4e517",
+        "historical_best_ADE_m": 0.5033190520304553,
+        "historical_paired_FDE_m": 1.0055114698110137,
+        "kind": "PedBase",
+        "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+        "seed": 17,
+        "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+        "summary": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+        "summary_sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "8a7ad9bf6986191b8c96846f4b99153a2b83c34c3772d14abe9cc07cf2c2d74e",
+          "historical_best_ADE_m": 0.4013174187462285,
+          "historical_paired_FDE_m": 0.792782170217742,
+          "kind": "CVResidual",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/summary.json",
+          "summary_sha256": "120ec03917f713ca41f2a48ddb5ad71dfcdaa32194632faf5c0692a9d653e6b9"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "63f8db6d071acec4467c37c146e7cc190539124266b8cd38fabe975242a08bfd",
+          "historical_best_ADE_m": 0.4013174187462285,
+          "historical_paired_FDE_m": 0.792782170217742,
+          "kind": "CVResidual",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__step10_20/seed_17/summary.json",
+          "summary_sha256": "54ac53bc797a76c9e61f544f47bc2fc8c9607189f41cb9f11402c7fdbe275391"
+        },
+        {
+          "checkpoint": "experiments/stage3p7/biwi_hotel/M3/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "31aa2b9b98861f471dab2a614acc8a9eb464d5d292afa5d8ac2799a72e9e77bf",
+          "historical_best_ADE_m": 0.3381013877736697,
+          "historical_paired_FDE_m": 0.6238505585388567,
+          "kind": "HeadingCVResidual",
+          "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/biwi_hotel/M3/seed_17/summary.json",
+          "summary_sha256": "5dbefebebe2c56af15efb636e8f83ac6959eeb6b91eb6862ee4893a2b70b511c"
+        }
+      ],
+      "label": "CVResidual-BestCompatible",
+      "recording": "biwi_hotel",
+      "selected": {
+        "checkpoint": "experiments/stage3p7/biwi_hotel/M3/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "31aa2b9b98861f471dab2a614acc8a9eb464d5d292afa5d8ac2799a72e9e77bf",
+        "historical_best_ADE_m": 0.3381013877736697,
+        "historical_paired_FDE_m": 0.6238505585388567,
+        "kind": "HeadingCVResidual",
+        "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+        "seed": 17,
+        "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+        "summary": "results/tables/stage3p7/biwi_hotel/M3/seed_17/summary.json",
+        "summary_sha256": "5dbefebebe2c56af15efb636e8f83ac6959eeb6b91eb6862ee4893a2b70b511c"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p5/pilot/A_complete8x12_history_context/PedBase/checkpoints/best.pt",
+          "checkpoint_sha256": "30b254c7af76d4d03b209fb96c6d65e00723d2ae2d277392c9eb7459e6b0497f",
+          "historical_best_ADE_m": 0.7072967064617038,
+          "historical_paired_FDE_m": 1.524885480194524,
+          "kind": "PedBase",
+          "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+          "seed": 17,
+          "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+          "summary": "results/tables/stage3p5/pilot/A_complete8x12_history_context/PedBase/summary.json",
+          "summary_sha256": "dba4f561e88892f896b229fd15a19bec0cad2d1e8abca842c666b914eb317149"
+        }
+      ],
+      "label": "PedBase-M0",
+      "recording": "students003",
+      "selected": {
+        "checkpoint": "experiments/stage3p5/pilot/A_complete8x12_history_context/PedBase/checkpoints/best.pt",
+        "checkpoint_sha256": "30b254c7af76d4d03b209fb96c6d65e00723d2ae2d277392c9eb7459e6b0497f",
+        "historical_best_ADE_m": 0.7072967064617038,
+        "historical_paired_FDE_m": 1.524885480194524,
+        "kind": "PedBase",
+        "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+        "seed": 17,
+        "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+        "summary": "results/tables/stage3p5/pilot/A_complete8x12_history_context/PedBase/summary.json",
+        "summary_sha256": "dba4f561e88892f896b229fd15a19bec0cad2d1e8abca842c666b914eb317149"
+      },
+      "selection": "only compatible historical PedBase run; no new training"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p5/pilot/A_complete8x12_history_context/PedBase/checkpoints/best.pt",
+          "checkpoint_sha256": "30b254c7af76d4d03b209fb96c6d65e00723d2ae2d277392c9eb7459e6b0497f",
+          "historical_best_ADE_m": 0.7072967064617038,
+          "historical_paired_FDE_m": 1.524885480194524,
+          "kind": "PedBase",
+          "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+          "seed": 17,
+          "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+          "summary": "results/tables/stage3p5/pilot/A_complete8x12_history_context/PedBase/summary.json",
+          "summary_sha256": "dba4f561e88892f896b229fd15a19bec0cad2d1e8abca842c666b914eb317149"
+        }
+      ],
+      "label": "PedBase-BestCompatible",
+      "recording": "students003",
+      "selected": {
+        "checkpoint": "experiments/stage3p5/pilot/A_complete8x12_history_context/PedBase/checkpoints/best.pt",
+        "checkpoint_sha256": "30b254c7af76d4d03b209fb96c6d65e00723d2ae2d277392c9eb7459e6b0497f",
+        "historical_best_ADE_m": 0.7072967064617038,
+        "historical_paired_FDE_m": 1.524885480194524,
+        "kind": "PedBase",
+        "manifest_sha256": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5",
+        "seed": 17,
+        "source_commit": "5771f31df0ae863daf70307a9f9b6c73f232ee68",
+        "summary": "results/tables/stage3p5/pilot/A_complete8x12_history_context/PedBase/summary.json",
+        "summary_sha256": "dba4f561e88892f896b229fd15a19bec0cad2d1e8abca842c666b914eb317149"
+      },
+      "selection": "only compatible historical PedBase run; no new training"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p7/crowds_zara02/M0/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "c5ea77a164d20c6ffa8d622d7994925ba28337dd59f63a50984f12b99f3629ee",
+          "historical_best_ADE_m": 0.2829047342141469,
+          "historical_paired_FDE_m": 0.6305610262430631,
+          "kind": "PedBase",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/crowds_zara02/M0/seed_17/summary.json",
+          "summary_sha256": "f140798e79eda849e72a3597737d7fdb55744dac3933f141295e7c91e15d8144"
+        }
+      ],
+      "label": "PedBase-M0",
+      "recording": "crowds_zara02",
+      "selected": {
+        "checkpoint": "experiments/stage3p7/crowds_zara02/M0/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "c5ea77a164d20c6ffa8d622d7994925ba28337dd59f63a50984f12b99f3629ee",
+        "historical_best_ADE_m": 0.2829047342141469,
+        "historical_paired_FDE_m": 0.6305610262430631,
+        "kind": "PedBase",
+        "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+        "seed": 17,
+        "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+        "summary": "results/tables/stage3p7/crowds_zara02/M0/seed_17/summary.json",
+        "summary_sha256": "f140798e79eda849e72a3597737d7fdb55744dac3933f141295e7c91e15d8144"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p7/crowds_zara02/M0/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "c5ea77a164d20c6ffa8d622d7994925ba28337dd59f63a50984f12b99f3629ee",
+          "historical_best_ADE_m": 0.2829047342141469,
+          "historical_paired_FDE_m": 0.6305610262430631,
+          "kind": "PedBase",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/crowds_zara02/M0/seed_17/summary.json",
+          "summary_sha256": "f140798e79eda849e72a3597737d7fdb55744dac3933f141295e7c91e15d8144"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "dd8ddc86a0d2f839f7e490ece09566e1b3c445f107b7e2f7b90383b0f4e7032e",
+          "historical_best_ADE_m": 0.2829047342141469,
+          "historical_paired_FDE_m": 0.6305610262430631,
+          "kind": "PedBase",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/crowds_zara02/ego/PedBase__constant/seed_17/summary.json",
+          "summary_sha256": "0f214e441487d14b47f1c6c4ddc7dfc3dd049c3e42e8fdd46a89218a70c38030"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "e7f936cac808e4d69559fd63473fc8752a7fcd443c74f0b9f3ad3d1b05221258",
+          "historical_best_ADE_m": 0.27669600929532734,
+          "historical_paired_FDE_m": 0.6196056988649753,
+          "kind": "PedBase",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/summary.json",
+          "summary_sha256": "494b0354d57a3b839a91207a63593db505dc26dacf02e79608065a8fe20cd85c"
+        }
+      ],
+      "label": "PedBase-BestCompatible",
+      "recording": "crowds_zara02",
+      "selected": {
+        "checkpoint": "experiments/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "e7f936cac808e4d69559fd63473fc8752a7fcd443c74f0b9f3ad3d1b05221258",
+        "historical_best_ADE_m": 0.27669600929532734,
+        "historical_paired_FDE_m": 0.6196056988649753,
+        "kind": "PedBase",
+        "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+        "seed": 17,
+        "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+        "summary": "results/tables/stage3p6/crowds_zara02/ego/PedBase__step10_20/seed_17/summary.json",
+        "summary_sha256": "494b0354d57a3b839a91207a63593db505dc26dacf02e79608065a8fe20cd85c"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    },
+    {
+      "candidates": [
+        {
+          "checkpoint": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "0112baa5141f5c84b24b09ecf9ae66695bda733dca8478358111d39173f4cb14",
+          "historical_best_ADE_m": 0.27690165028685615,
+          "historical_paired_FDE_m": 0.617161166536939,
+          "kind": "CVResidual",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/summary.json",
+          "summary_sha256": "1c320ccaed8b46c7540602bd41ee45bbb4c875551fec03ef342a17dec6e6ae23"
+        },
+        {
+          "checkpoint": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "9eff700d693907c17b5a00777d20b6200108397bf87ae0fcf50a3bb630f69e4d",
+          "historical_best_ADE_m": 0.2775239245795505,
+          "historical_paired_FDE_m": 0.6220865236533867,
+          "kind": "CVResidual",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+          "summary": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__step10_20/seed_17/summary.json",
+          "summary_sha256": "caeb7ef06e889a3868f0a8e26815e8cd2c96e858937bdb625fd405853d456bfe"
+        },
+        {
+          "checkpoint": "experiments/stage3p7/crowds_zara02/M3/seed_17/checkpoints/best.pt",
+          "checkpoint_sha256": "9c2fbe9c8c362244d346de4558945f43f906124e97c5b848228668f3f5cbd6a9",
+          "historical_best_ADE_m": 0.28304307337427315,
+          "historical_paired_FDE_m": 0.6360804270475339,
+          "kind": "HeadingCVResidual",
+          "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+          "seed": 17,
+          "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+          "summary": "results/tables/stage3p7/crowds_zara02/M3/seed_17/summary.json",
+          "summary_sha256": "9802a9b66f22c9f0e1e782e4dc9ae868cbe800fe638d4490f4e52bd96f0086a9"
+        }
+      ],
+      "label": "CVResidual-BestCompatible",
+      "recording": "crowds_zara02",
+      "selected": {
+        "checkpoint": "experiments/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/checkpoints/best.pt",
+        "checkpoint_sha256": "0112baa5141f5c84b24b09ecf9ae66695bda733dca8478358111d39173f4cb14",
+        "historical_best_ADE_m": 0.27690165028685615,
+        "historical_paired_FDE_m": 0.617161166536939,
+        "kind": "CVResidual",
+        "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+        "seed": 17,
+        "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+        "summary": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/summary.json",
+        "summary_sha256": "1c320ccaed8b46c7540602bd41ee45bbb4c875551fec03ef342a17dec6e6ae23"
+      },
+      "selection": "minimum previously published validation ADE, fixed before Stage3.8; historical exposure, no fresh checkpoint selection"
+    }
+  ],
+  "sampling_seconds": 0.4,
+  "source_files": {
+    "biwi_hotel": {
+      "file": "biwi_hotel.txt",
+      "scene": "HOTEL",
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    "crowds_zara01": {
+      "file": "crowds_zara01.txt",
+      "scene": "ZARA1",
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    },
+    "crowds_zara02": {
+      "file": "crowds_zara02.txt",
+      "scene": "ZARA2",
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    "students001": {
+      "file": "students001.txt",
+      "scene": "UNIV",
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+    },
+    "students003": {
+      "file": "students003.txt",
+      "scene": "UNIV",
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+    }
+  },
+  "stage": "3.8",
+  "stronger_reference_rule": "compare candidates with M0, best-compatible PedBase and historical best compatible CVResidual on exact same targets where present; no five-recording neural-superiority claim with missing coverage; matched coverage aggregates only",
+  "timing": {
+    "device": "CPU",
+    "measure": "time perf_counter for each full forward incl motion preprocessing, excluding I/O/groups/GT/error computation; same cached observation batches, single thread",
+    "repeat_passes": 20,
+    "warmup_passes": 3
+  },
+  "trainable_parameters": 0
+}
