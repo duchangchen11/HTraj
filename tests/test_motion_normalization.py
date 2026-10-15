@@ -122,3 +122,19 @@ def test_heading_unit_length_threshold_boundary():
     assert a['reliable'].all() and not b['reliable'].any()
     assert torch.equal(a['unit'], b['unit'])  # +x direction equals identity.
     with pytest.raises(ValueError): heading_frame(x, threshold=0)
+
+
+def test_evaluation_rows_feature_group_names_do_not_collide():
+    from src.training.motion_generalization import attach_groups, evaluate
+    from src.models.relation_routing import HistoricalCV
+    x, v, ts = example()
+    b = dict(observed=x, observed_valid=v, timestamps=ts,
+             future=x[:, -1:].expand(-1, 12, -1, -1).clone(),
+             future_valid=torch.ones(2, 12, 3, dtype=torch.bool),
+             recording=['toy', 'toy'], sample_id=['a', 'b'],
+             agent_ids=torch.arange(3)[None].expand(2, -1))
+    attach_groups(b)
+    assert not set(b['history_features']) & set(b['groups'])
+    result = evaluate(HistoricalCV(), [b], torch.device('cpu'), rows=True)
+    assert len(result['targets']) == 6
+    assert all('heading_reliable_flag' in r and 'heading_reliable' in r for r in result['targets'])

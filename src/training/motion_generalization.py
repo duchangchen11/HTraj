@@ -36,7 +36,7 @@ def attach_groups(batch):
     batch['groups'].update(heading_reliable=valid & f['reliable'], heading_fallback=valid & ~f['reliable'],
         history_speed_low=valid & known & (speed < .2), history_speed_medium=valid & known & (speed >= .2) & (speed < 1),
         history_speed_high=valid & known & (speed >= 1), history_speed_unknown=valid & ~known)
-    batch['history_features'].update(heading_speed_mps=speed, heading_reliable=f['reliable'],
+    batch['history_features'].update(heading_speed_mps=speed, heading_reliable_flag=f['reliable'],
         heading_unit_x=f['unit'][..., 0], heading_unit_y=f['unit'][..., 1])
     return batch
 
@@ -122,7 +122,7 @@ def train_one(name, p, fold, train, val, train_eval, source, device):
 def main():
     if subprocess.check_output(['git', 'status', '--porcelain', '--untracked-files=no'], text=True).strip():
         raise RuntimeError('Commit all source/config/tests before training')
-    suites = ET.parse(ROOT/'pretraining_tests.xml').getroot()
+    suites = ET.parse(ROOT/'pretraining_tests_final.xml').getroot()
     assert all(int(s.get(k, 0)) == 0 for s in suites for k in ('errors', 'failures'))
     p = json.loads(CONF.read_text()); assert not p['ETH_evaluated'] and p['epochs'] == 30 and p['seed'] == 17
     source = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()

@@ -32,3 +32,5 @@ Stage3.6已保存历史分布显示：HOTEL训练/验证末帧速度中位数约
 - 训练后只做固定checkpoint的0.1/0.4m/s阈值敏感性、±90/180度旋转检查和同endpoint训练/验证误差，不增加训练或用这些补充结果选择结构。优化与归纳偏置的影响无法仅靠单seed误差完全分离，应保留限制。
 
 结构测试通过后提交本报告、固定协议、代码及测试，再启动六次训练。后续只提出多seed建议，不自动启动。
+
+首次启动在解析CV评价逐目标记录时发现group/feature同名，尚未执行神经训练或optimizer更新、未产生checkpoint。失败记录保存在`results/tables/stage3p7/setup_failures/attempt_01/failure.json`，修复仅将特征字段改名并补充评价集成测试；修复后的完整训练前测试183项通过，见`pretraining_tests_final.xml`。原182项测试记录保留，不覆盖。实验因子及训练配置不变。

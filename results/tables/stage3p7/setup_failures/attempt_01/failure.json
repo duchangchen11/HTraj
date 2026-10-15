@@ -1,0 +1,7 @@
+{
+  "error": "duplicate heading_reliable keyword in evaluation record",
+  "phase": "analytical CV evaluation before neural training",
+  "optimizer_steps": 0,
+  "checkpoints_created": 0,
+  "fix": "rename history feature to heading_reliable_flag; add integration test; no training/protocol/model-factor change"
+}
