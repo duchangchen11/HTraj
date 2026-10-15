@@ -1,0 +1,40 @@
+{
+  "ETH_evaluated": false,
+  "data_license": "both source repos MIT code; no separate dataset redistribution grant established by that code license; raw/checkpoints/caches stay ignored/local",
+  "environment": "independent offline-cloned conda prefix; no packages or source files in the old environment modified",
+  "literature_skill": "nature-academic-search verification and targeted search; scholarly MCP unavailable, OpenAlex fallback failed SSL; official CVF/arXiv/author repositories used instead",
+  "logs": [
+    {
+      "bytes": 508,
+      "path": "experiments/stage4/environment_setup.log",
+      "sha256": "a17ba95aa8ebf44a49e60f25a5a0be4250d283337868957d7c626359527c0d88"
+    },
+    {
+      "bytes": 1283,
+      "path": "experiments/stage4/source_fetch.log",
+      "sha256": "2936de46eff51c5fdcf27db7813af08680538c1e379646917842bc050dc29fd9"
+    },
+    {
+      "bytes": 1366,
+      "path": "experiments/stage4/source_fetch_attempt2.log",
+      "sha256": "994f54e750c7cdd7196fff9ddab28378176d8fa0c936665626fcc398f68a26f3"
+    },
+    {
+      "bytes": 305,
+      "path": "experiments/stage4/source_fetch_attempt3.log",
+      "sha256": "7690a68eba2ac6b4ab8480ae7c865ec7297c07bfe7a2cb4f95f74e78e723b956"
+    },
+    {
+      "bytes": 328,
+      "path": "experiments/stage4/eq_asset_fetch.log",
+      "sha256": "43be32d19aee0e6b8a4ff2f834ec2bb7bad26497a9d7f168bece45cbebdb0a83"
+    },
+    {
+      "bytes": 156,
+      "path": "experiments/stage4/literature_discovery.log",
+      "sha256": "1959d19ec4aab5dc782d1f5de25b2440d91ed49276b636a58e0f4e9ba031fa9d"
+    }
+  ],
+  "metadata_inventory": "partial clone ls-tree --long size lookup stopped when it triggered lazy object retrieval; all final inventory uses names only; no ETH trajectory/metrics checked out, parsed or evaluated",
+  "source_fetch": "initial Git TLS errors; bounded retry/raw HTTPS fallback verified against frozen Git blob SHA1; already retrieved identical snapshots reused, no old source modified"
+}

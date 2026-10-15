@@ -57,7 +57,23 @@ def geometry(model,loc,num):
         delta=(yy-expected).norm(dim=-1)[mask]
         category_difference=max(float((a-b).abs().max()) for a,b in zip(cc,categories))
         checks.append(dict(transform=name,valid_agent_prediction_mean_error_m=float(delta.mean()),valid_agent_prediction_max_error_m=float(delta.max()),
-            category_max_difference=category_difference,finite=bool(torch.isfinite(yy).all()),only_prefix_input=True))
+            category_max_difference=category_difference,finite=bool(torch.isfinite(yy).all()),only_prefix_input=True,
+            changed_samples=int(loc.shape[0])))
+    # Reverse real agents within each example, leaving the padded suffix fixed.
+    order=torch.arange(loc.shape[1],device=loc.device).expand(loc.shape[0],-1).clone()
+    for b,count in enumerate(num.tolist()):order[b,:count]=order[b,:count].flip(0)
+    xx=loc.gather(1,order[:,:,None,None].expand_as(loc))
+    yy,cc=forward(model,xx,num)
+    expected=y.gather(1,order[:,:,None,None,None].expand_as(y))
+    category_difference=0.
+    for actual,original in zip(cc,categories):
+        wanted=original.gather(1,order[:,:,None,None].expand_as(original))
+        wanted=wanted.gather(2,order[:,None,:,None].expand_as(wanted))
+        category_difference=max(category_difference,float((actual-wanted).abs().max()))
+    delta=(yy-expected).norm(dim=-1)[mask]
+    checks.append(dict(transform='agent_permutation',valid_agent_prediction_mean_error_m=float(delta.mean()),
+        valid_agent_prediction_max_error_m=float(delta.max()),category_max_difference=category_difference,
+        finite=bool(torch.isfinite(yy).all()),only_prefix_input=True,changed_samples=int((num>1).sum())))
     return checks
 
 
