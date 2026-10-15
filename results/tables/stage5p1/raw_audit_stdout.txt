@@ -1,0 +1,1 @@
+{"cases": 36, "passed": true, "stage5_A_mean": 0.4874526560306549, "stage5_B_mean": 0.0, "padding_error": 1.1920928955078125e-07}

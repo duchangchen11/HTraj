@@ -1,0 +1,9 @@
+fold,protocol,split,manifest_windows,supervised_windows,target_windows,unique_recording_person_units,history_neighbor_entities,new_entering_neighbor_entities,mean_history_neighbors,new_entering_neighbor_targets,near_motion_opportunities,unknown_velocity_near_opportunities,all_history_context_blocked_targets,build_seconds
+biwi_hotel,HTraj-SocialVAE-Causal8x12-v1,train,2221,2121,27145,892,1126757,127237,41.50882298765887,24684,784813,4798,10,8.529804033983964
+biwi_hotel,HTraj-SocialVAE-Causal8x12-v1,validation,149,94,318,28,4465,922,14.040880503144654,315,2344,46,0,0.15651801400235854
+crowds_zara02,HTraj-SocialVAE-Causal8x12-v1,train,1959,1684,23545,833,1083089,122506,46.00080696538543,22213,714314,4715,9,7.5002602209860925
+crowds_zara02,HTraj-SocialVAE-Causal8x12-v1,validation,172,172,1092,35,11468,1151,10.501831501831502,688,18922,73,2,0.4463116120023187
+biwi_hotel,SocialVAE-Official-Offline,train,2221,2121,27145,892,1126757,127237,41.50882298765887,24684,784813,4798,10,7.5110883220040705
+biwi_hotel,SocialVAE-Official-Offline,validation,149,94,318,28,4465,922,14.040880503144654,315,2344,46,0,0.9020437099970877
+crowds_zara02,SocialVAE-Official-Offline,train,1959,1684,23545,833,1083089,122506,46.00080696538543,22213,714314,4715,9,6.669999011995969
+crowds_zara02,SocialVAE-Official-Offline,validation,172,172,1092,35,11468,1151,10.501831501831502,688,18922,73,2,1.7431330200051889

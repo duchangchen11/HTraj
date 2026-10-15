@@ -1,0 +1,9 @@
+B biwi_hotel train: 27145 target windows
+B biwi_hotel validation: 318 target windows
+B crowds_zara02 train: 23545 target windows
+B crowds_zara02 validation: 1092 target windows
+A official biwi_hotel: 1197 target windows scanned
+A official students001: 14295 target windows scanned
+A official students003: 10039 target windows scanned
+A official crowds_zara01: 2356 target windows scanned
+A official crowds_zara02: 5910 target windows scanned

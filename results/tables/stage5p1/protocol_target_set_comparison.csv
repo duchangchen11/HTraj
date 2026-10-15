@@ -1,0 +1,5 @@
+fold,split,A_targets,B_targets,common,only_A,only_B
+biwi_hotel,train,27145,27145,27145,0,0
+biwi_hotel,validation,318,318,318,0,0
+crowds_zara02,train,23545,23545,23545,0,0
+crowds_zara02,validation,1092,1092,1092,0,0

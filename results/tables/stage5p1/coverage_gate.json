@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "all_history_social_context_lost_target_fraction_gt": 0.25,
+    "blocked_near_motion_fraction_gt": 0.25
+  },
+  "passed": true,
+  "rows": [
+    {
+      "all_context_lost_target_fraction": 0.0003683919690550746,
+      "blocked_near_motion_fraction": 0.006113558261649591,
+      "fold": "biwi_hotel",
+      "passed": true,
+      "split": "train"
+    },
+    {
+      "all_context_lost_target_fraction": 0.0,
+      "blocked_near_motion_fraction": 0.01962457337883959,
+      "fold": "biwi_hotel",
+      "passed": true,
+      "split": "validation"
+    },
+    {
+      "all_context_lost_target_fraction": 0.0003822467615204927,
+      "blocked_near_motion_fraction": 0.006600738610751014,
+      "fold": "crowds_zara02",
+      "passed": true,
+      "split": "train"
+    },
+    {
+      "all_context_lost_target_fraction": 0.0018315018315018315,
+      "blocked_near_motion_fraction": 0.0038579431349751612,
+      "fold": "crowds_zara02",
+      "passed": true,
+      "split": "validation"
+    }
+  ]
+}

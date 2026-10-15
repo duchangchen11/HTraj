@@ -1,0 +1,33 @@
+{
+  "B_max_prediction_difference_m": 0.0,
+  "ETH_evaluated": false,
+  "cases": 36,
+  "fixed_checkpoint_sha256": "e2424388d9b2e55a3816b865af8df1811b72703c962e2baa93e1d13adf728854",
+  "git_commit": "7ebe5f6fe66877f834922404004da173040a34cf",
+  "official_source_sha256": {
+    "data.py": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+    "social_vae.py": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+  },
+  "padding_atol": 2e-05,
+  "padding_max_abs_error": 1.1920928955078125e-07,
+  "padding_rtol": 2e-05,
+  "passed": true,
+  "scenarios": [
+    "stage5_entrant",
+    "complete_neighbor",
+    "partial_neighbor",
+    "reappearing_neighbor",
+    "single_person",
+    "multi_person",
+    "boundary_time",
+    "stationary",
+    "low_speed"
+  ],
+  "script_sha256": "4b45e47d84080e37fd9c342554f036296cce7072f3cfe3a903447988ba8388f8",
+  "stage5_new_B_mean_difference_m": 0.0,
+  "stage5_original_A_mean_difference_m": 0.4874526560306549,
+  "strict_loading": true,
+  "synthetic_not_performance": true,
+  "training_steps": 0,
+  "weights_unchanged": true
+}

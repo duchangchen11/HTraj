@@ -20,7 +20,10 @@ def official_examples(path):
         if frame.f_code != cls.load.__code__:return None
         if event=='line' and frame.f_lineno==append_line:
             v=frame.f_locals
-            keys.append(dict(start_frame=int(v['time'][v['tid0']]),target_id=int(v['idx'][v['i']])))
+            actors=[int(a) for a in v['idx']]+[int(a) for a in v['neighbor_idx']]
+            if len(actors)<v['agents'].shape[1]:actors.append(None)
+            keys.append(dict(start_frame=int(v['time'][v['tid0']]),target_id=int(v['idx'][v['i']]),
+                neighbor_ids=[a for j,a in enumerate(actors) if j!=v['i']]))
         return trace
     sys.settrace(trace)
     try:items=cls.load(d,str(path),[])

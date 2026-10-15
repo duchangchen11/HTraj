@@ -1,0 +1,99 @@
+{
+  "ETH_loaded": false,
+  "git_commit": "7ebe5f6fe66877f834922404004da173040a34cf",
+  "manifests": [
+    {
+      "path": "configs/stage5p1/manifests/biwi_hotel/A.json",
+      "sha256": "a23a94e80967cd7aae11b67ba10b4fcaa981d9ce1ae07d7aecab591e57423282"
+    },
+    {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    {
+      "path": "configs/stage5p1/manifests/crowds_zara02/A.json",
+      "sha256": "c95834073016b6620cb2bcbcd88281709085f15c5a888f160deb7dbcfbd25b43"
+    },
+    {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  ],
+  "models_evaluated": [
+    "CV-Last2",
+    "CV-OLS4",
+    "CV-OLS8"
+  ],
+  "neural_metrics": false,
+  "official_loader_seconds": {
+    "biwi_hotel": 0.9020437099970877,
+    "crowds_zara01": 1.0850643209996633,
+    "crowds_zara02": 1.7431330200051889,
+    "students001": 2.6658356199914124,
+    "students003": 2.017055361007806
+  },
+  "old_validation_promoted_to_train": false,
+  "protocol_sha256": "73657761b0ddc5aad6cb82126ee9304e00023b77e3295b7f982466c9d382bcdf",
+  "raw_sources": {
+    "biwi_hotel": {
+      "file": "biwi_hotel.txt",
+      "scene": "HOTEL",
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    "crowds_zara01": {
+      "file": "crowds_zara01.txt",
+      "scene": "ZARA1",
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    },
+    "crowds_zara02": {
+      "file": "crowds_zara02.txt",
+      "scene": "ZARA2",
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    "students001": {
+      "file": "students001.txt",
+      "scene": "UNIV",
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+    },
+    "students003": {
+      "file": "students003.txt",
+      "scene": "UNIV",
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+    }
+  },
+  "script_sha256": "e60a61686958d5c6157afec04a750d2982d5ad06b2ddaa23aa6de911405c4c65",
+  "target_manifests": [
+    {
+      "path": "results/tables/stage5p1/manifests/biwi_hotel/B_train_targets.csv.gz",
+      "sha256": "4d9646fc745430fcd9e82328179e8a09503ee9200e0aea6f2c14f34f144df06c"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/biwi_hotel/B_validation_targets.csv.gz",
+      "sha256": "1268f9bc51012926c7aee321ae214df905c18322ace8006de1ceee3c5a153798"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/crowds_zara02/B_train_targets.csv.gz",
+      "sha256": "b6f35174804b04125ec5f9691a29d08a84227423a6b288d0063f9d872901b4e7"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/crowds_zara02/B_validation_targets.csv.gz",
+      "sha256": "c84941b0b108dfaa79c579e6dcf3d54f204f7be8cf1f4e0ebb67b9b034e69b7f"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/biwi_hotel/A_train_targets.csv.gz",
+      "sha256": "58085d3fc63266b42252ee54172ae2f1aaf44da9b543d384b3fca896d98f28ee"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/biwi_hotel/A_validation_targets.csv.gz",
+      "sha256": "9a5636262ed7bf84968c5cd4709eedfe5cf623b67c532a5554bd4f2a2b4bd478"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/crowds_zara02/A_train_targets.csv.gz",
+      "sha256": "43d209e74537c724b472bd375287e9760e789650c9e54c1a42ab589b62c20d2e"
+    },
+    {
+      "path": "results/tables/stage5p1/manifests/crowds_zara02/A_validation_targets.csv.gz",
+      "sha256": "f7f880fb77ff56ba0566547ac768e4729a48fd2c7cd95d7c35094529966f6aa5"
+    }
+  ]
+}
