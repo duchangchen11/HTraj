@@ -1,0 +1,11 @@
+{
+  "ETH_evaluated": false,
+  "GT_identity_sha256": "08b9f555f39a20c82dc4e8a7a7291a4d218ded7369b3059a3891f101b2cfd5a1",
+  "all_models_same_targets": true,
+  "cache_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "cv_table_sha256": "b27f754626f01ea0bb3cbf242f4bdb4ca95dba6fac72ea05400bc3a874c2c8d9",
+  "neural_metrics_match_frozen_within_1e_minus6": true,
+  "overlap": "window targets dependent; per-person and recording means descriptive; no iid p-values",
+  "script_sha256": "6e075c2533f58d6ccb6889a76e485e871a0d9f28d1185cdccbf5ef312ef89559",
+  "source_commit": "930f92d7e69dd2158c7b038808228cee2657791e"
+}

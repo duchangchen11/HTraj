@@ -1,0 +1,112 @@
+{
+  "ETH_evaluated": false,
+  "G0_fixed_vs_recomputed_matched_rows": 82632,
+  "PTN_epsilon_modified": false,
+  "PTN_invalid_gaussian_rows": 0,
+  "PTN_raw_rows": 330528,
+  "base_commit": "55515d0ef5d50c36f4f148206d07f062644f92ff",
+  "branch": "feat/stage4p2-final-audit",
+  "checkpoint_count": 280,
+  "data_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "errors": 0,
+  "failures": 0,
+  "largest_new_files": [
+    [
+      1472301,
+      "results/tables/stage4p2_final/budget100_best_paired_targets.csv.gz"
+    ],
+    [
+      1472019,
+      "results/tables/stage4p2_final/budget100_last_paired_targets.csv.gz"
+    ],
+    [
+      1471237,
+      "results/tables/stage4p2_final/budget30_best_paired_targets.csv.gz"
+    ],
+    [
+      1196920,
+      "results/tables/stage4p2_final/fresh_cv_targets.csv.gz"
+    ],
+    [
+      1188301,
+      "results/tables/stage4p2_final/ptn/budget100_best/crowds_zara02/G1_recomputed_history_graph_eps0.0001.csv.gz"
+    ],
+    [
+      1187391,
+      "results/tables/stage4p2_final/ptn/budget100_best/crowds_zara02/G0_recomputed_history_graph_eps0.0001.csv.gz"
+    ],
+    [
+      1186969,
+      "results/tables/stage4p2_final/ptn/budget100_best/crowds_zara02/G1_fixed_history_graph_eps0.0001.csv.gz"
+    ],
+    [
+      1186087,
+      "results/tables/stage4p2_final/ptn/budget100_best/crowds_zara02/G0_fixed_history_graph_eps0.0001.csv.gz"
+    ],
+    [
+      1182762,
+      "results/tables/stage4p2_final/ptn/budget30_best/crowds_zara02/G0_recomputed_history_graph_eps0.0001.csv.gz"
+    ],
+    [
+      1181936,
+      "results/tables/stage4p2_final/ptn/budget30_best/crowds_zara02/G1_recomputed_history_graph_eps0.0001.csv.gz"
+    ]
+  ],
+  "logs": [
+    {
+      "path": "experiments/stage4p2_final/cv.log",
+      "sha256": "04c208edc837eb77afbd320d44f449d8750044a5d15ed581c02d886b7e13299b"
+    },
+    {
+      "path": "experiments/stage4p2_final/compare.log",
+      "sha256": "436e320f4bdb6b1c39b046249a90a6b2b66c8f18cf8ba8716ede5394e5ca552e"
+    },
+    {
+      "path": "experiments/stage4p2_final/ptn.log",
+      "sha256": "c968d8ee1333e4320b873a0fac7b23cb272c4633a95abae234f55327c4400780"
+    },
+    {
+      "path": "experiments/stage4p2_final/final_tests.log",
+      "sha256": "0e1dd95f9108bf04743d7accc8af2849d32ed08ccd45653cb644a84711aeef63"
+    },
+    {
+      "path": "experiments/stage4p2_final/extension_crowds_zara02_G0.log",
+      "sha256": "3a43cae2a48e927f7447f0fb8ee2a403e950f366076a8a9c1d70a46bd5d70c08"
+    },
+    {
+      "path": "experiments/stage4p2_final/extension_crowds_zara02_G1.log",
+      "sha256": "953fd07f8f195281689486c04126c75f64a7155ae17426051a7b4880c8cdf27d"
+    },
+    {
+      "path": "experiments/stage4p2_final/extension_biwi_hotel_G0.log",
+      "sha256": "5717a0e1bc8c46f7ac08235541c8064ec4887a24877ce412a9e6f5f9df5b57b0"
+    },
+    {
+      "path": "experiments/stage4p2_final/extension_biwi_hotel_G1.log",
+      "sha256": "3de6bd3d36698b7e84e4d03f15595336c2f616b40119867218e31e2bb6ce9b5e"
+    }
+  ],
+  "loss_modified": false,
+  "network_modified": false,
+  "no_data_weights_secrets": true,
+  "old_hashes_unchanged": true,
+  "paired_roles": 3,
+  "passed": true,
+  "protected_files": 1710,
+  "protocol_unchanged": true,
+  "push_executed": false,
+  "script_hashes": {
+    "scripts/stage4p2_final/check.py": "5bed5d8e15bab89885de407facaac071598ac9ff3a6f303c9a8c5a900c4c2aa6",
+    "scripts/stage4p2_final/compare.py": "6e075c2533f58d6ccb6889a76e485e871a0d9f28d1185cdccbf5ef312ef89559",
+    "scripts/stage4p2_final/cv.py": "f608169164ecc7105a4bb4dbfc0b494bacfeabf132d03cfa718c7e51386574dd",
+    "scripts/stage4p2_final/extend.py": "ada64796ae404cc7050dd50b6e461dfebb2a74eb18125e18f5cb6007da78533f",
+    "scripts/stage4p2_final/prepare.py": "d0d9c1bb575b04534f334f6f8ffa961447f2dcb3e9f9c7a42acdca3ab18b9826",
+    "scripts/stage4p2_final/ptn.py": "7911b3bf30f1644b5c63add7defb6b464a65a515e91e10c714e5b6c03380b079",
+    "scripts/stage4p2_final/reports.py": "4c4918cbcbded2aaab46a5def63a932426ef6fc99137127da465ce24d4cad1c6"
+  },
+  "source_commit": "930f92d7e69dd2158c7b038808228cee2657791e",
+  "target_identity_sha256": "08b9f555f39a20c82dc4e8a7a7291a4d218ded7369b3059a3891f101b2cfd5a1",
+  "tests": 244,
+  "training_source_commit": "930f92d",
+  "validation_target_windows": 6886
+}

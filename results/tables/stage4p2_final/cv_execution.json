@@ -1,0 +1,10 @@
+{
+  "ETH_evaluated": false,
+  "cache_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "helper_sha256": "ea9c35fcfd9eedbcf3b92e5e16542121213896c03d97492cbbe2e84758835645",
+  "no_stage3p8_metrics_used": true,
+  "rows": 6886,
+  "script_sha256": "f608169164ecc7105a4bb4dbfc0b494bacfeabf132d03cfa718c7e51386574dd",
+  "source_commit": "930f92d7e69dd2158c7b038808228cee2657791e",
+  "target_identity_table_sha256": "08b9f555f39a20c82dc4e8a7a7291a4d218ded7369b3059a3891f101b2cfd5a1"
+}

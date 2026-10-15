@@ -1,0 +1,13 @@
+role,fold,model,evaluation_wall_seconds
+budget30_best,crowds_zara02,G0,0.6275111660070252
+budget30_best,crowds_zara02,G1,0.33090137399267405
+budget30_best,biwi_hotel,G0,0.09220496800844558
+budget30_best,biwi_hotel,G1,0.08553074198425747
+budget100_best,crowds_zara02,G0,0.3418221409956459
+budget100_best,crowds_zara02,G1,0.33560387598117813
+budget100_best,biwi_hotel,G0,0.08874643698800355
+budget100_best,biwi_hotel,G1,0.08655824200832285
+budget100_last,crowds_zara02,G0,0.3419937019934878
+budget100_last,crowds_zara02,G1,0.34112530399579555
+budget100_last,biwi_hotel,G0,0.0889495039882604
+budget100_last,biwi_hotel,G1,0.0847315669816453

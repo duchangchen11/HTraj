@@ -1,0 +1,28 @@
+{
+  "stop_current_GNN_route": true,
+  "CV_dominates_all_neural_ADE_FDE": true,
+  "both_recordings_social_gate": false,
+  "improved_recordings": [
+    "biwi_hotel"
+  ],
+  "gates": [
+    {
+      "fold": "crowds_zara02",
+      "G1_minus_G0_ADE": 0.09125228977240496,
+      "G1_minus_G0_FDE": 0.17141240387392576,
+      "worthwhile": false,
+      "FDE_safe": false
+    },
+    {
+      "fold": "biwi_hotel",
+      "G1_minus_G0_ADE": -0.04645225452468826,
+      "G1_minus_G0_FDE": -0.08304594740245741,
+      "worthwhile": true,
+      "FDE_safe": true
+    }
+  ],
+  "PTN_repeated_risk_entries": 12,
+  "next_candidate": "EqMotion version/protocol audit only",
+  "ETH_evaluated": false,
+  "more_training_planned": false
+}

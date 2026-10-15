@@ -1,0 +1,28 @@
+{
+  "epoch": 30,
+  "metrics": {
+    "K1_distribution_mean_ADE": 1.1806361241883476,
+    "K1_distribution_mean_FDE": 2.1364767430474005,
+    "K1_first_sample_ADE": 1.2697046710441822,
+    "K1_first_sample_FDE": 2.2652650766190963,
+    "K20_independent_min_ADE": 0.9069342579115943,
+    "K20_independent_min_FDE": 1.5816441847257765,
+    "NLL": 0.4149261883973849,
+    "NLL_window_mean": 0.49102079115832764,
+    "correction_norm_mean": 0.5566364669427629,
+    "correction_norm_p95": 1.191161298751831,
+    "ego_norm_mean": 2.7984852330637113,
+    "ego_norm_p95": 5.10993137359619,
+    "evaluation_seconds": 0.4679964559909422,
+    "mixed_norm_mean": 3.2334159082129017,
+    "mixed_norm_p95": 5.938627552986144,
+    "neighbor_norm_mean": 2.2265458677710517,
+    "neighbor_norm_p95": 4.764645195007324,
+    "relative_correction_mean": 0.21729005064509263,
+    "relative_correction_p95": 0.4594231605529784,
+    "target_windows": 1053,
+    "windows": 301
+  },
+  "parent_sha256": "ca060d93e15ab713df3a00e55950cccc1163257998d54d9410cdce5cf19d073a",
+  "passed": true
+}

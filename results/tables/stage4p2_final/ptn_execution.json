@@ -1,0 +1,12 @@
+{
+  "ETH_evaluated": false,
+  "cache_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "epsilon_modified": false,
+  "future_GT_used": false,
+  "raw_rows": 330528,
+  "scope": "full fixed-network response and local PTN amplification; not PTN-removal causal comparison; no iid-window inference",
+  "script_sha256": "7911b3bf30f1644b5c63add7defb6b464a65a515e91e10c714e5b6c03380b079",
+  "seconds": 72.04755124999792,
+  "source_commit": "930f92d7e69dd2158c7b038808228cee2657791e",
+  "target_cases": 165264
+}
