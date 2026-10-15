@@ -1,0 +1,199 @@
+{
+  "base_commit": "b574a587b54159a0b42e69b3d73125006853ea47",
+  "files": [
+    {
+      "bytes": 197995,
+      "path": "configs/stage3p8/protected_artifacts.json",
+      "sha256": "4bdd5ac61030b6e4a1a944daa11c8236da99089cf46f65f1429c9769312ed577"
+    },
+    {
+      "bytes": 29333,
+      "path": "configs/stage3p8/protocol.json",
+      "sha256": "4377ca2459ad1d59d636c9f05e2e3660de75d4368f1ba207299029f9b726f755"
+    },
+    {
+      "bytes": 6208,
+      "path": "reports/stage3p8/01_MOTION_RELIABILITY_AUDIT.md",
+      "sha256": "dba7894990b6db0bcbdfc0e5b3111eef73b7ad2aa851da03cb52601d82b50917"
+    },
+    {
+      "bytes": 6494,
+      "path": "reports/stage3p8/02_KINEMATIC_BASELINE_RESULTS.md",
+      "sha256": "813a26f9adca9bae6e0891b6b5844b9315462ce13a8eb3673eb740e4feec7952"
+    },
+    {
+      "bytes": 9044,
+      "path": "reports/stage3p8/03_CROSS_RECORDING_ANALYSIS.md",
+      "sha256": "f1e56098a22239639a8771be9a8ab72931c4ec5d4dd9afa2ca889cc2761cf17d"
+    },
+    {
+      "bytes": 16314,
+      "path": "reports/stage3p8/04_FAILURE_CASE_ANALYSIS.md",
+      "sha256": "e406007b453afde6209fc50624c0e1cac5a100db9787c491c4779dc9106f196e"
+    },
+    {
+      "bytes": 4588,
+      "path": "reports/stage3p8/05_RESEARCH_DIRECTION_DECISION.md",
+      "sha256": "30002fa45a2cba59d2f5d6b3039793731b116341591378ecb5caef7c06fddcf2"
+    },
+    {
+      "bytes": 4589,
+      "path": "reports/stage3p8/STAGE3P8_REPORT.md",
+      "sha256": "fc5a8a2dc71aae746bcff91dd89c9a74479f0c657cca78eaa81a8a880fafd700"
+    },
+    {
+      "bytes": 440,
+      "path": "results/tables/stage3p8/DELIVERY_AUDIT.json",
+      "sha256": "ab85a7fbe93804b528bc4786e75f6ae90b723e09e777787c332e9dd6621d9450"
+    },
+    {
+      "bytes": 2221,
+      "path": "results/tables/stage3p8/aggregate_metrics.csv",
+      "sha256": "7fff1fa6ea46f5591c0643afac33091cf7b243a909a3babf74e49b35d1e30aca"
+    },
+    {
+      "bytes": 1012,
+      "path": "results/tables/stage3p8/analysis_provenance.json",
+      "sha256": "31d69d9443c9364ceba46c97437d4adebd983063b09bf6bb892f2007186e13a8"
+    },
+    {
+      "bytes": 6088,
+      "path": "results/tables/stage3p8/evaluation_provenance.json",
+      "sha256": "0e8f3061cf46d4c050ae2d380e4c021c3bc69ddddc52243ee422def22fe440f6"
+    },
+    {
+      "bytes": 354871,
+      "path": "results/tables/stage3p8/feature_error_associations.csv",
+      "sha256": "67ecb2f87ce4a42376f1ac6b5d48e5471b8a364ddea8b1da511f77b8bee3ae96"
+    },
+    {
+      "bytes": 49390,
+      "path": "results/tables/stage3p8/fixed_history_case_examples.csv",
+      "sha256": "a6430de0d7f9e8ff3617f95df800d16ce08883899c5971c5e3613ccbcbbc4576"
+    },
+    {
+      "bytes": 109291,
+      "path": "results/tables/stage3p8/group_paired_comparison.csv",
+      "sha256": "41736e7b980bb93db1197a8f0a943ad26a3545512fadcce8da79fa495a73aa0e"
+    },
+    {
+      "bytes": 43974,
+      "path": "results/tables/stage3p8/group_results.csv",
+      "sha256": "df4cd7f632d475190e3fbbf9a3dde22b181e640b1c5736eff3f9a8f738998615"
+    },
+    {
+      "bytes": 609949,
+      "path": "results/tables/stage3p8/historical_smoothing_diagnostic.csv",
+      "sha256": "301a34fe8436e2c927b17432697f313a470980b6b08d3b0347c34704164dcad1"
+    },
+    {
+      "bytes": 1822166,
+      "path": "results/tables/stage3p8/history_features.csv",
+      "sha256": "298eb8b3cf5b5fa0a5b7e7dec3d6bb1ad8b731880a6d599444dc4ff5e2ebf1de"
+    },
+    {
+      "bytes": 2574,
+      "path": "results/tables/stage3p8/manual_review_provenance.json",
+      "sha256": "8b9105f0d3e32d1eff4261ce10534482bf8d0f0020494b88604bebbc6542b2c8"
+    },
+    {
+      "bytes": 3312108,
+      "path": "results/tables/stage3p8/paired_target_results.csv",
+      "sha256": "12c84d06b1958ac34652d013d7894e317e97bcb836fd65d570f5a05127d872dc"
+    },
+    {
+      "bytes": 102832,
+      "path": "results/tables/stage3p8/per_person_paired_results.csv",
+      "sha256": "8b08702eaf4e9e224df50aff44e277b8aa20c06d3f7e9f8b44ffbe32af790ad0"
+    },
+    {
+      "bytes": 25900,
+      "path": "results/tables/stage3p8/pre_evaluation_tests.xml",
+      "sha256": "1c07482dd9a2e68c5d1787aa4d268e26db9e84e08802087921c24d62abc62b88"
+    },
+    {
+      "bytes": 6938,
+      "path": "results/tables/stage3p8/recording_metrics.csv",
+      "sha256": "4a90fb63a83b7c6090cc9dde3b12c5cbb8a4420e426facb2e20b98af5ff8b5ef"
+    },
+    {
+      "bytes": 2207,
+      "path": "results/tables/stage3p8/reference_coverage.csv",
+      "sha256": "a57ff63e424b98f6a7c0eab8064305e4040b7a1d8ba03fdaec99a810b83b9f26"
+    },
+    {
+      "bytes": 6445,
+      "path": "results/tables/stage3p8/reference_matched_aggregates.csv",
+      "sha256": "df53adb06e71f4eafe99d0520e76d8da73202afbecc68529f19355a18a32d424"
+    },
+    {
+      "bytes": 2006,
+      "path": "results/tables/stage3p8/report_provenance.json",
+      "sha256": "bcf56a51cf027056c2c2b6def143e36078e4a5df7960819d986a20d17b73484d"
+    },
+    {
+      "bytes": 9386,
+      "path": "results/tables/stage3p8/research_decision.json",
+      "sha256": "78d69e9454670b343dcea0c29183b689bd00e702fd6d6217c7d063f903375171"
+    },
+    {
+      "bytes": 2866,
+      "path": "results/tables/stage3p8/runtime.csv",
+      "sha256": "3c726276eef48ce0407aca71cd746d14134215ccc06ddf52d7939157af34d422"
+    },
+    {
+      "bytes": 634,
+      "path": "results/tables/stage3p8/split_counts.csv",
+      "sha256": "c47e794107bc17d529e6c685938ef4528c0ee5e0312658ef65dac686dd82bdb7"
+    },
+    {
+      "bytes": 1706254,
+      "path": "results/tables/stage3p8/target_errors_long.csv",
+      "sha256": "339f5e055e4e3fea291dcf37da13d4b6713011ae530efd55680c27d3b918a204"
+    },
+    {
+      "bytes": 25900,
+      "path": "results/tables/stage3p8/unit_tests.xml",
+      "sha256": "3e12b523d4ab38817579a1e3b9169a9f01383ac09225c3126508efbdac5ea5fc"
+    },
+    {
+      "bytes": 10601,
+      "path": "scripts/analyze_stage3p8.py",
+      "sha256": "0d3eb6918d146d37abfde7a92e925e633e6c2d90fac722b729b8fea499861952"
+    },
+    {
+      "bytes": 5648,
+      "path": "scripts/check_stage3p8.py",
+      "sha256": "a1cbcacd7a7abdf55e41fc11471fb10964561818fd909b1d36b8eefefc4833ec"
+    },
+    {
+      "bytes": 10291,
+      "path": "scripts/evaluate_stage3p8.py",
+      "sha256": "dbdfdcb6368f32d137a22ed802d91e33de491453a41d7ddcbb28c739452fc974"
+    },
+    {
+      "bytes": 8467,
+      "path": "scripts/prepare_stage3p8.py",
+      "sha256": "130f6852f743c7fbc2f3a51385292d7693e02fd027a309a5fd2542b9d99cb44c"
+    },
+    {
+      "bytes": 20599,
+      "path": "scripts/write_stage3p8_reports.py",
+      "sha256": "5a302977bfc189d465b9f856bc36147b98e4643a46affa6cf29e9f075437fb26"
+    },
+    {
+      "bytes": 8691,
+      "path": "src/models/kinematic_reliability.py",
+      "sha256": "876a8111eb0ae6cbaa76c498aadb15b83313896d68987a4c081f7e956ec9311d"
+    },
+    {
+      "bytes": 5720,
+      "path": "tests/test_kinematic_reliability.py",
+      "sha256": "65090e550c697ce5396e26c384b8d25cd753d0bd82d36dc9d9d5d77517d2b407"
+    }
+  ],
+  "large_data_weights_or_cache_included": false,
+  "old_tracked_files_modified": false,
+  "secret_scan": "passed",
+  "self_excluded": true
+}

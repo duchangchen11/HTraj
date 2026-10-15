@@ -1,0 +1,276 @@
+{
+  "ETH_evaluated": false,
+  "analytic_prior_candidates": [],
+  "five_recording_neural_superiority_established": false,
+  "learned_gate_supported_by_direct_experiment": false,
+  "models": [
+    {
+      "candidate_analytic_prior": false,
+      "macro_delta_ADE_m": 0.021782190603209406,
+      "macro_delta_FDE_m": 0.01725034877270437,
+      "model": "CV-OLS4",
+      "raw_ADE_improved_recordings": 1,
+      "recording_passes": 1,
+      "recordings": [
+        {
+          "delta_ADE_vs_Last2_m": -0.09170226831666103,
+          "delta_FDE_vs_Last2_m": -0.17217207707881643,
+          "pass_fixed_rule": true,
+          "recording": "biwi_hotel",
+          "stronger_references": [
+            {
+              "delta_ADE_m": -0.26550543114125924,
+              "delta_FDE_m": -0.566645114215233,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": -0.26550543114125924,
+              "delta_FDE_m": -0.566645114215233,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": -0.10028775938703396,
+              "delta_FDE_m": -0.1849842310584745,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.04646743236585188,
+          "delta_FDE_vs_Last2_m": 0.05869686744735603,
+          "pass_fixed_rule": false,
+          "recording": "students001",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.08320174694470694,
+          "delta_FDE_vs_Last2_m": 0.11020716952464937,
+          "pass_fixed_rule": false,
+          "recording": "students003",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.1037893102161398,
+              "delta_FDE_m": 0.2131093249307925,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.1037893102161398,
+              "delta_FDE_m": 0.2131093249307925,
+              "reference": "PedBase-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.035374714856222844,
+          "delta_FDE_vs_Last2_m": 0.04135977406612057,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara01",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.03556932716592626,
+          "delta_FDE_vs_Last2_m": 0.04816000990421232,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara02",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.048970403157877485,
+              "delta_FDE_m": 0.08512161406624186,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.055179110555551525,
+              "delta_FDE_m": 0.09607691884696434,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": 0.05497348894099052,
+              "delta_FDE_m": 0.09852146165493814,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_analytic_prior": false,
+      "macro_delta_ADE_m": 0.07964568833782881,
+      "macro_delta_FDE_m": 0.09766569829642813,
+      "model": "CV-OLS8",
+      "raw_ADE_improved_recordings": 1,
+      "recording_passes": 1,
+      "recordings": [
+        {
+          "delta_ADE_vs_Last2_m": -0.10937211958630963,
+          "delta_FDE_vs_Last2_m": -0.20227863946549912,
+          "pass_fixed_rule": true,
+          "recording": "biwi_hotel",
+          "stronger_references": [
+            {
+              "delta_ADE_m": -0.28317528241090784,
+              "delta_FDE_m": -0.5967516766019156,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": -0.28317528241090784,
+              "delta_FDE_m": -0.5967516766019156,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": -0.11795761065668256,
+              "delta_FDE_m": -0.2150907934451572,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.1263530670119083,
+          "delta_FDE_vs_Last2_m": 0.17290616087842803,
+          "pass_fixed_rule": false,
+          "recording": "students001",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.20405782479010537,
+          "delta_FDE_vs_Last2_m": 0.2740365530163351,
+          "pass_fixed_rule": false,
+          "recording": "students003",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.22464538806153822,
+              "delta_FDE_m": 0.37693870842247823,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.22464538806153822,
+              "delta_FDE_m": 0.37693870842247823,
+              "reference": "PedBase-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.09032054198667083,
+          "delta_FDE_vs_Last2_m": 0.12396476277700974,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara01",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.08686912748676956,
+          "delta_FDE_vs_Last2_m": 0.11969965427586637,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara02",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.10027020347872079,
+              "delta_FDE_m": 0.1566612584378959,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.10647891087639483,
+              "delta_FDE_m": 0.1676165632186184,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": 0.10627328926183383,
+              "delta_FDE_m": 0.1700611060265922,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_analytic_prior": false,
+      "macro_delta_ADE_m": 0.08766082249653484,
+      "macro_delta_FDE_m": 0.11163657041824937,
+      "model": "CV-Median",
+      "raw_ADE_improved_recordings": 1,
+      "recording_passes": 1,
+      "recordings": [
+        {
+          "delta_ADE_vs_Last2_m": -0.11126894502840062,
+          "delta_FDE_vs_Last2_m": -0.20830035821416448,
+          "pass_fixed_rule": true,
+          "recording": "biwi_hotel",
+          "stronger_references": [
+            {
+              "delta_ADE_m": -0.2850721078529988,
+              "delta_FDE_m": -0.602773395350581,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": -0.2850721078529988,
+              "delta_FDE_m": -0.602773395350581,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": -0.11985443609877355,
+              "delta_FDE_m": -0.22111251219382255,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.13422837998253567,
+          "delta_FDE_vs_Last2_m": 0.18725246497162795,
+          "pass_fixed_rule": false,
+          "recording": "students001",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.22196356127062566,
+          "delta_FDE_vs_Last2_m": 0.30941812033192395,
+          "pass_fixed_rule": false,
+          "recording": "students003",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.24255112454205852,
+              "delta_FDE_m": 0.41232027573806707,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.24255112454205852,
+              "delta_FDE_m": 0.41232027573806707,
+              "reference": "PedBase-BestCompatible"
+            }
+          ]
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.10233404216964981,
+          "delta_FDE_vs_Last2_m": 0.14104390647433407,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara01",
+          "stronger_references": []
+        },
+        {
+          "delta_ADE_vs_Last2_m": 0.09104707408826396,
+          "delta_FDE_vs_Last2_m": 0.12876871852752536,
+          "pass_fixed_rule": false,
+          "recording": "crowds_zara02",
+          "stronger_references": [
+            {
+              "delta_ADE_m": 0.10444815008021519,
+              "delta_FDE_m": 0.1657303226895549,
+              "reference": "PedBase-M0"
+            },
+            {
+              "delta_ADE_m": 0.11065685747788923,
+              "delta_FDE_m": 0.17668562747027738,
+              "reference": "PedBase-BestCompatible"
+            },
+            {
+              "delta_ADE_m": 0.11045123586332822,
+              "delta_FDE_m": 0.17913017027825118,
+              "reference": "CVResidual-BestCompatible"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "neural_coverage_complete": false,
+  "new_training": false,
+  "rule": "ADE reduction>=max(.005m, .5%Last2ADE) in >=3/5 recordings with pairedFDE no worse than +max(.005m,.01*Last2FDE) in those; five-recording macro ADE improves and macroFDE does not worsen; remaining recording failures always reported; recommend prior only, not learning or submission claim",
+  "stop_adding_estimators": true
+}

@@ -1,0 +1,13 @@
+coverage,recordings,recording_count,model,weighting,target_windows,recording_person_units,ADE_m,FDE_m
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Last2,recording_macro,3582,177,0.4329114609795811,0.9384810336099667
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Last2,target_window_weighted,3582,177,0.42297041204054403,0.9294659118992509
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Last2,person_macro_within_recording_then_recording_macro,3582,177,0.5294619855200483,1.1179839681507349
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS4,recording_macro,3582,177,0.4546936515827905,0.9557313823826711
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS4,target_window_weighted,3582,177,0.4601696124959978,0.9731696424777923
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS4,person_macro_within_recording_then_recording_macro,3582,177,0.5537027521165518,1.1410193279697831
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS8,recording_macro,3582,177,0.5125571493174099,1.0361467319063948
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS8,target_window_weighted,3582,177,0.5286871942281159,1.0687183011120942
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-OLS8,person_macro_within_recording_then_recording_macro,3582,177,0.6330067342490597,1.2641803950018946
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Median,recording_macro,3582,177,0.520572283476116,1.050117604028216
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Median,target_window_weighted,3582,177,0.536887871941824,1.0840201529514568
+all_five_fixed_recordings,biwi_hotel|students001|students003|crowds_zara01|crowds_zara02,5,CV-Median,person_macro_within_recording_then_recording_macro,3582,177,0.6432573408370217,1.2831861878468707

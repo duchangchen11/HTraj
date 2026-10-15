@@ -1,0 +1,19 @@
+{
+  "ETH_evaluated": false,
+  "analytic_evaluations": 20,
+  "auto_push": false,
+  "frozen_neural_evaluations": 8,
+  "neural_coverage_incomplete": true,
+  "new_checkpoints": 0,
+  "new_training": false,
+  "old_checkpoints": 142,
+  "protected_artifacts": 1130,
+  "recording_person_units": 177,
+  "recordings": 5,
+  "status": "passed",
+  "target_windows": 3582,
+  "tests": {
+    "pre_evaluation_tests.xml": 201,
+    "unit_tests.xml": 201
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "checked": [
+    "fixed thresholds before outcomes",
+    "all five recordings and failures reported",
+    "same-target pairs and person aggregation",
+    "macro and window-weighted denominators separate",
+    "best compatible CVResidual and missing neural folds",
+    "no neural training or ETH",
+    "no causal claim from error correlations or analytic estimator substitution"
+  ],
+  "final_reports": [
+    {
+      "path": "reports/stage3p8/01_MOTION_RELIABILITY_AUDIT.md",
+      "sha256": "dba7894990b6db0bcbdfc0e5b3111eef73b7ad2aa851da03cb52601d82b50917"
+    },
+    {
+      "path": "reports/stage3p8/02_KINEMATIC_BASELINE_RESULTS.md",
+      "sha256": "813a26f9adca9bae6e0891b6b5844b9315462ce13a8eb3673eb740e4feec7952"
+    },
+    {
+      "path": "reports/stage3p8/03_CROSS_RECORDING_ANALYSIS.md",
+      "sha256": "f1e56098a22239639a8771be9a8ab72931c4ec5d4dd9afa2ca889cc2761cf17d"
+    },
+    {
+      "path": "reports/stage3p8/04_FAILURE_CASE_ANALYSIS.md",
+      "sha256": "e406007b453afde6209fc50624c0e1cac5a100db9787c491c4779dc9106f196e"
+    },
+    {
+      "path": "reports/stage3p8/05_RESEARCH_DIRECTION_DECISION.md",
+      "sha256": "30002fa45a2cba59d2f5d6b3039793731b116341591378ecb5caef7c06fddcf2"
+    },
+    {
+      "path": "reports/stage3p8/STAGE3P8_REPORT.md",
+      "sha256": "fc5a8a2dc71aae746bcff91dd89c9a74479f0c657cca78eaa81a8a880fafd700"
+    }
+  ],
+  "generated_report_hashes": [
+    {
+      "path": "reports/stage3p8/01_MOTION_RELIABILITY_AUDIT.md",
+      "sha256": "dba7894990b6db0bcbdfc0e5b3111eef73b7ad2aa851da03cb52601d82b50917"
+    },
+    {
+      "path": "reports/stage3p8/02_KINEMATIC_BASELINE_RESULTS.md",
+      "sha256": "813a26f9adca9bae6e0891b6b5844b9315462ce13a8eb3673eb740e4feec7952"
+    },
+    {
+      "path": "reports/stage3p8/03_CROSS_RECORDING_ANALYSIS.md",
+      "sha256": "f1e56098a22239639a8771be9a8ab72931c4ec5d4dd9afa2ca889cc2761cf17d"
+    },
+    {
+      "path": "reports/stage3p8/04_FAILURE_CASE_ANALYSIS.md",
+      "sha256": "e406007b453afde6209fc50624c0e1cac5a100db9787c491c4779dc9106f196e"
+    },
+    {
+      "path": "reports/stage3p8/05_RESEARCH_DIRECTION_DECISION.md",
+      "sha256": "a979b87f7580103cad4fa05be6d13736aa99a0d5227e873a9dcd2ff31fd550cd"
+    },
+    {
+      "path": "reports/stage3p8/STAGE3P8_REPORT.md",
+      "sha256": "39d57401ffcb40259ed3c8d8d9c850ce15a7d44788995ad5fdc6535c4f794000"
+    }
+  ],
+  "new_training": false,
+  "report_generator_sha256": "5a302977bfc189d465b9f856bc36147b98e4643a46affa6cf29e9f075437fb26",
+  "results_modified": false,
+  "source_commit": "6e58d056b4688c7dd3aebbb69fb3da02998761d2"
+}

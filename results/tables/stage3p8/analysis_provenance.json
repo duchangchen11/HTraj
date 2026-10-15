@@ -1,0 +1,30 @@
+{
+  "ETH_evaluated": false,
+  "association_rows": 1560,
+  "group_rows": 560,
+  "inputs": [
+    {
+      "path": "results/tables/stage3p8/history_features.csv",
+      "sha256": "298eb8b3cf5b5fa0a5b7e7dec3d6bb1ad8b731880a6d599444dc4ff5e2ebf1de"
+    },
+    {
+      "path": "results/tables/stage3p8/target_errors_long.csv",
+      "sha256": "339f5e055e4e3fea291dcf37da13d4b6713011ae530efd55680c27d3b918a204"
+    },
+    {
+      "path": "results/tables/stage3p8/recording_metrics.csv",
+      "sha256": "4a90fb63a83b7c6090cc9dde3b12c5cbb8a4420e426facb2e20b98af5ff8b5ef"
+    },
+    {
+      "path": "results/tables/stage3p8/group_results.csv",
+      "sha256": "df4cd7f632d475190e3fbbf9a3dde22b181e640b1c5736eff3f9a8f738998615"
+    }
+  ],
+  "learned_gate": false,
+  "new_neural_training": false,
+  "paired_targets": 3582,
+  "person_rows": 993,
+  "script_sha256": "0d3eb6918d146d37abfde7a92e925e633e6c2d90fac722b729b8fea499861952",
+  "source_commit": "2f3693daf789bcc00c2df06f56c88d455899e1bf",
+  "threshold_tuning": false
+}

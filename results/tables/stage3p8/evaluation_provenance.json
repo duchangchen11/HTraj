@@ -1,0 +1,90 @@
+{
+  "ETH_evaluated": false,
+  "analytic_runs": 20,
+  "dtype_note": "float64 from unchanged float32 loader coordinates",
+  "frozen_neural_runs": 8,
+  "group_future_input": false,
+  "independent_confirmation": false,
+  "manifest_hashes": {
+    "biwi_hotel": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+    "crowds_zara01": "b44671177421d0f239028528238f30416d633d015722c9877a927d3656d3b82b",
+    "crowds_zara02": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+    "students001": "cda95feb8c7b4bfbb5917139a7f2c58cea3e22e770656f158cd706e42cb64de4",
+    "students003": "a7698e867ac7b7163dee035382eab0ebccb94a733e51955c4e3461d3ea5a3cf5"
+  },
+  "model_future_input": false,
+  "new_neural_training": false,
+  "protocol_sha256": "4377ca2459ad1d59d636c9f05e2e3660de75d4368f1ba207299029f9b726f755",
+  "script_sha256": "dbdfdcb6368f32d137a22ed802d91e33de491453a41d7ddcbb28c739452fc974",
+  "source_commit": "893979c7f1df74bf6eae8e0e85a8c324ee68e013",
+  "source_files": {
+    "biwi_hotel": {
+      "file": "biwi_hotel.txt",
+      "scene": "HOTEL",
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    "crowds_zara01": {
+      "file": "crowds_zara01.txt",
+      "scene": "ZARA1",
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    },
+    "crowds_zara02": {
+      "file": "crowds_zara02.txt",
+      "scene": "ZARA2",
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    "students001": {
+      "file": "students001.txt",
+      "scene": "UNIV",
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+    },
+    "students003": {
+      "file": "students003.txt",
+      "scene": "UNIV",
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+    }
+  },
+  "source_sha256": {
+    "src/__init__.py": "6bd228b624ed399a07ab9db809d8f07b73e5a979ee528659d064b0d66d2838f4",
+    "src/data/__init__.py": "d3f17c628db6d0ca54e21d45c410be07c73f6858ec42f0bf66f18d6b70a33570",
+    "src/data/benchmark_audit.py": "e8b69eb20787f3da4f8e9abb55d2ae8e84808eebd499615309ad3b94f48bc225",
+    "src/data/collate.py": "6c77954bb1af2127deee80cb4e21f86d7f4774c44972975daaab3a0102bb6336",
+    "src/data/dataset.py": "ca70d03dbdad0cd381849b75f9580615c1edcd73b0aedfefde68686920bf2d77",
+    "src/data/preprocessing.py": "074cf77cc3a9cdf2c9bba44989cbd29e1397d5877d4a1cce777b53f41b12923c",
+    "src/evaluation/__init__.py": "c193d52d1328e5fa08bbb9149cf76488c979e9d915828ed06997d549c37bedb9",
+    "src/evaluation/benchmark_audit.py": "7b3c232e4ed18b624d190ccabe763d66349ce9ffce14c941d8d95cbc2fe3e5c4",
+    "src/evaluation/frozen_ego.py": "b160d58e3192652562173136e70b154b8f6831d9f21a85c2ca62db21d0557be2",
+    "src/evaluation/interaction_coverage.py": "29c097e04ea3ac8158c4507e2f6c34bd8296e577e5c471bec48d31677f838ed5",
+    "src/evaluation/metrics.py": "e9a93530b72e25561d3a1d178d8945042002775ff08364949c72100a692c00d5",
+    "src/evaluation/order_verification.py": "e71fdc15eb38266e15cd70393370ca10be8ae563278b81ca3b4d0ff395442cea",
+    "src/evaluation/path_identity.py": "625dae84d41ba8d3be3db67ddefa459892e825bbc275882495513ea2d8284459",
+    "src/evaluation/relation_controls.py": "1794d5b692b2fb8d55bedef8a7da6130839cbe104c3615d9028b1ff666ca1454",
+    "src/evaluation/relation_routing.py": "4656f787006c04087b5f2175b99bd132402f0193e25e2bacac677229f18f1313",
+    "src/evaluation/social_diagnostics.py": "18053a795e9e2b9644543443db066c6850bc0c0c81320b0639013d5f0c050ec0",
+    "src/models/__init__.py": "d100dbf94438144addcd4d23ff8742a254c6aa102bef8381956fc32e64f0e1dc",
+    "src/models/ego_encoder.py": "d711945f44d51ed9e6cb690e1359b58f75b23726fecf9f41953576657722283c",
+    "src/models/frozen_ego.py": "f58c5986afbea46503ee8f99d6c231085d4082edcfe304a0d663af2efb62dd94",
+    "src/models/kinematic_reliability.py": "876a8111eb0ae6cbaa76c498aadb15b83313896d68987a4c081f7e956ec9311d",
+    "src/models/motion_normalization.py": "4a084ef2c7f582125fc861af10cdd3a2d9db6208c3082a3cc8dcd437646b7453",
+    "src/models/order_fusion.py": "00ed7c8f129e1e9a7281abc657cab426eb4d5a401f810c1ded95b1778b0e221d",
+    "src/models/order_state.py": "b0fbe42cdfde2d620c0df5dfd9fa738bda175c81684f33837973b9187c96199b",
+    "src/models/order_verification.py": "bed627f69023c38cddada6780598a89890c5317e07ff156d4090c373b4774901",
+    "src/models/ped_base.py": "d16e197fa6a21f5b2c578319537215f22dc1a0a1bf2db63ab19ae2758c8592de",
+    "src/models/relation_routing.py": "3231cc75003c26ced3e208dbe914a068ed5399ce91d0e9c2a7579747fd5ae08e",
+    "src/models/social_baselines.py": "897afdf894b54711fefb647ffff5ec9af774a61753be4532e35043a0ae47064a",
+    "src/models/social_diagnostics_models.py": "8df15d8880017365194c3477392f215a167ed504e61ef91f70173938f33beecf",
+    "src/models/social_fusion_variants.py": "1a8b4f27f070b05f9797c7d630f39b2fc55b0bfc8744431f8fe39f13fb634395",
+    "src/models/temporal_graph.py": "d5f7df2e13ea7246180c6de9c1a801b14864f9a9a6712fe5bf2bfe2bd2dfa9a4",
+    "src/models/tohi_a.py": "b13aa7f2408e4672ab47f7289dbb3a3e6349d16dcaf6ba26ced261d4f7383f48",
+    "src/models/trajectory_decoder.py": "70f0188452252fe44f01b284d2dc389ee2fb63af25e173fa7b14a47eac2f999b",
+    "src/training/__init__.py": "1ce6a47bf59631252076e79ae7952f8e870ae8727c6a1c2cb59d6ca68e84ddd6",
+    "src/training/benchmark_audit.py": "cf3830cd8b7462c9cad0adadd1ff4c497dfdc29186f91be5fda34aa86bb55ffc",
+    "src/training/frozen_ego.py": "47989e81202b5e9741f379d5733fcdcbdc68eaab13d5e128afdd65196b84abb7",
+    "src/training/motion_generalization.py": "c9f38ae95af2e2332cf7c40cee3b16d9d7565d5d2282cd6566dbecad60e9950a",
+    "src/training/order_verification.py": "f6aa124124a603bb77f2b6ca7bfc6207df4011b2ab0f37068d10de62836971bd",
+    "src/training/relation_routing.py": "ec9f812ab947b32d830f9b2ff68d85459f0a64da23d27700f74f497dd537d609",
+    "src/training/smoke.py": "46f5627ecc5cb81c0b0f64817d8f69f4e4281b568c4c68a37596b51aa141ff46",
+    "src/training/social_diagnostics.py": "ecd13bbfeedd3ec08e34930f591a91dddd28b910e3bbe54b4f517b39a8adf9a9"
+  },
+  "target_windows": 3582
+}
