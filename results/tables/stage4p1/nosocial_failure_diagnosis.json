@@ -1,0 +1,25 @@
+{
+  "ETH_evaluated": false,
+  "checkpoint": "experiments/stage4p1/NoSocial/epoch004.pt",
+  "checkpoint_sha256": "4bcd2804b02bf19297f5ddfb160e37fd2caf2c71b9cfba7e048d03cf1723ac70",
+  "checkpoint_unchanged": true,
+  "max_gaussian_parameter_shift": 0.0,
+  "policies": [
+    {
+      "finite_NLL_windows": 64,
+      "max_absolute_correlation_logit": 8.399216651916504,
+      "max_absolute_log_sigma": 19.260074615478516,
+      "policy": "stored_running_statistics",
+      "windows": 64
+    },
+    {
+      "finite_NLL_windows": 64,
+      "max_absolute_correlation_logit": 1.4406805038452148,
+      "max_absolute_log_sigma": 2.3974721431732178,
+      "policy": "same_per_node_statistics_as_training",
+      "windows": 64
+    }
+  ],
+  "scope": "posthoc source normalization diagnosis, no performance model selection",
+  "weights_updated": false
+}

@@ -1,0 +1,496 @@
+{
+  "ETH_evaluated": false,
+  "actual_epochs": 5,
+  "best_epoch": 5,
+  "checkpoint_restore_output_exact": true,
+  "checkpoint_sha256": "565cb625cfc61eb24fde3ac5de19f6731ca7f00993c8734bfe39f0a602bffd43",
+  "engine_sha256": "b2a78ae8c490bc589c088ad42d02fd1f4ba41b1ab0a9327797c2f56a1c52116d",
+  "gate_pass": true,
+  "initial_state_sha256": "cbda8c156a6f09ac255fe048b43ef91dbfb6c735c4d7260c25fa16cd9bbebea3",
+  "layer_shapes": [
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.residual.0",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.residual.1",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.residual",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.gcn.conv",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.gcn",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn.0",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn.1",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn.2",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn.3",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn.4",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.tcn",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ],
+      "module": "st_gcns.0.prelu",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ],
+      "module": "st_gcns.0",
+      "output_shapes": [
+        [
+          1,
+          5,
+          8,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          8,
+          5,
+          28
+        ]
+      ],
+      "module": "tpcnns.0",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "prelus.0",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "tpcnns.1",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "prelus.1",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "tpcnns.2",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "prelus.2",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "tpcnns.3",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "prelus.3",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ],
+      "module": "tpcnn_ouput",
+      "output_shapes": [
+        [
+          1,
+          12,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "input_shapes": [
+        [
+          1,
+          2,
+          8,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ],
+      "module": "",
+      "output_shapes": [
+        [
+          1,
+          5,
+          12,
+          28
+        ],
+        [
+          8,
+          28,
+          28
+        ]
+      ]
+    }
+  ],
+  "learning_rate": 0.01,
+  "manifest_sha256": "191cab0e257a56af4238557da95bd3d5a2bd9d593346c29f7cbe2708399abfaa",
+  "model": "Full",
+  "model_code_sha256": "9aa90bb00f68b61be1469247de893064719e6023de59eb3db908bdcff4d768c9",
+  "optimizer": "SGD",
+  "optimizer_restore_exact": true,
+  "parameters": 7563,
+  "pretrained_initialization": false,
+  "protocol_sha256": "02879bae14d0906d61042b5be32bf9c3eeb6cbaabe975ac15d5a621f9500f9fb",
+  "script_sha256": "250ee3e5a0e960eb2e0c22d3580f21ddfac7f5eed92e18585789cd8d408063a3",
+  "seed": 17,
+  "source_commit": "04254e46bb1473fdc691d17e5ca325956acb400b",
+  "unused_parameter_names": [
+    "tpcnns.4.weight",
+    "tpcnns.4.bias",
+    "prelus.4.weight"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ETH_evaluated": false,
+  "checkpoint": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-zara2/val_best.pth",
+  "checkpoint_sha256": "ad1ab6c1cc22aed38fac7c912209e21c81754fd5b2192988e08362d6e107112b",
+  "independent_samples": false,
+  "mode": "K1 Gaussian mean, fixed official checkpoint inference only",
+  "protocol_sha256": "02879bae14d0906d61042b5be32bf9c3eeb6cbaabe975ac15d5a621f9500f9fb",
+  "script_sha256": "76533e37ec1045d6c82e536fa6b58140cb4b8d243184afc4120ed45d2027faab",
+  "seconds": 0.6331351140106563,
+  "seed": 271828,
+  "source_commit": "04254e46bb1473fdc691d17e5ca325956acb400b",
+  "targets": 235,
+  "training": false,
+  "windows": 64
+}

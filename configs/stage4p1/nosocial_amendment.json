@@ -1,0 +1,20 @@
+{
+  "Full_changed": false,
+  "data_changed": false,
+  "decision": "single correction: use exactly same per-node temporal normalization in train/eval; no running buffers; retain initial failed control and checkpoints",
+  "from_scratch": true,
+  "immutable_protocol_sha256": "02879bae14d0906d61042b5be32bf9c3eeb6cbaabe975ac15d5a621f9500f9fb",
+  "learning_rate_changed": false,
+  "limitation": "remains a joint no-social control with changed normalization/kernel geometry, not pure graph ablation",
+  "loss_changed": false,
+  "max_epochs_including_smoke": 30,
+  "new_code_sha256": "3b4ce75a51946b21ead951db4fb3fbc7bcb133c95bd74e9d0e9c1fd28b25c6de",
+  "no_more_architecture_or_hyperparameter_retries": true,
+  "original_control": "NoSocial",
+  "preregistration_status": "amendment after initial failed smoke, before corrected-model training, no corrected validation results available",
+  "reason": "initial NoSocial stopped at epoch5 evaluation with nonfinite NLL; per-node train normalization vs global-running eval normalization inconsistent",
+  "replacement_control": "NoSocial-ConsistentNorm",
+  "run_script_sha256": "d96b55d58e7c1920a98469d87cd7e2a988d87ec0d3203a28b0e23a99c63c43d2",
+  "same_parameters": 7563,
+  "seed": 17
+}
