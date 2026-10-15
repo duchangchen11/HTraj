@@ -1,0 +1,59 @@
+{
+  "checked": [
+    "all ADE/FDE values from actual tables",
+    "M1 alias not fictitious run",
+    "HOTEL conditional direction benefit and ZARA2 failures both retained",
+    "CV and best/last differences",
+    "identity fallback rotation limitation",
+    "frozen threshold interventions not selection or retraining",
+    "no ETH evaluation or extra seeds",
+    "training curves reproducible against Stage3.6"
+  ],
+  "final_reports": [
+    {
+      "path": "reports/stage3p7/01_MOTION_REPRESENTATION_AUDIT.md",
+      "sha256": "28bad06356da480f8dabf99645a99e33c62046f2acf8fe64661f7e9479c9aaa8"
+    },
+    {
+      "path": "reports/stage3p7/02_COORDINATE_NORMALIZATION.md",
+      "sha256": "473a751bc33b1fc83b8b79b70434610caae282627aa687167c41f714dee641b9"
+    },
+    {
+      "path": "reports/stage3p7/03_BASELINE_RESULTS.md",
+      "sha256": "158a50a94b08ea6836e9b19e8e53eec8338ed8dc9094e76b999efee80b91ebfb"
+    },
+    {
+      "path": "reports/stage3p7/04_GENERALIZATION_ANALYSIS.md",
+      "sha256": "a7fa24a828bd50acb728dc1a5dfb3fb1ee524071c73dc5a875c3ebd59a747b5b"
+    },
+    {
+      "path": "reports/stage3p7/05_RESEARCH_DECISION.md",
+      "sha256": "ecbe81b3244b8956215a2a96059db440505cd182dd068babd79b356666683d27"
+    },
+    {
+      "path": "reports/stage3p7/STAGE3P7_REPORT.md",
+      "sha256": "bcc4d491e36c3a324ebb0d17e9704b372d25dfcd68756148743c824aaee5138d"
+    }
+  ],
+  "generated_report_hashes_before_review": [
+    {
+      "path": "reports/stage3p7/03_BASELINE_RESULTS.md",
+      "sha256": "158a50a94b08ea6836e9b19e8e53eec8338ed8dc9094e76b999efee80b91ebfb"
+    },
+    {
+      "path": "reports/stage3p7/04_GENERALIZATION_ANALYSIS.md",
+      "sha256": "8377b7d6f2d853e94f20b7e5a8a06db966db635ddabe366c70c71846935e9ff1"
+    },
+    {
+      "path": "reports/stage3p7/05_RESEARCH_DECISION.md",
+      "sha256": "50f7f6e98b40f4285e2a373b4991d04be70731326a23e92ff10d9c5058272a99"
+    },
+    {
+      "path": "reports/stage3p7/STAGE3P7_REPORT.md",
+      "sha256": "3e03cf3336f25ffbad2cf3f255b1fcff70ffb64974dc0eb8d6e9223b951b5168"
+    }
+  ],
+  "new_training_after_review": false,
+  "review": "manual source-table cross-check after generation; no result/checkpoint/model selection changes",
+  "source_commit": "20e34348d5dea5a86bd02a7b6bd021ba109e05c2"
+}

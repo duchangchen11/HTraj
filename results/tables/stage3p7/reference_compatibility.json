@@ -1,0 +1,26 @@
+{
+  "code_data_evaluator_compatible": true,
+  "new_training": false,
+  "references": [
+    {
+      "best_checkpoint_sha256": "0112baa5141f5c84b24b09ecf9ae66695bda733dca8478358111d39173f4cb14",
+      "compatibility_checked": true,
+      "last_checkpoint_sha256": "e18feecf2d0764b2f07eb30fd3fef433826739fc614f7ea84f6a87ace43cdfa2",
+      "newly_trained": false,
+      "original_summary": "results/tables/stage3p6/crowds_zara02/ego/CV-Residual__constant/seed_17/summary.json",
+      "recording": "crowds_zara02",
+      "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+      "summary_sha256": "1c320ccaed8b46c7540602bd41ee45bbb4c875551fec03ef342a17dec6e6ae23"
+    },
+    {
+      "best_checkpoint_sha256": "8a7ad9bf6986191b8c96846f4b99153a2b83c34c3772d14abe9cc07cf2c2d74e",
+      "compatibility_checked": true,
+      "last_checkpoint_sha256": "98c6b9b7fc616c46f8dd15b3c4d1a7c80142d23cb02f170063bba2215819b9ad",
+      "newly_trained": false,
+      "original_summary": "results/tables/stage3p6/biwi_hotel/ego/CV-Residual__constant/seed_17/summary.json",
+      "recording": "biwi_hotel",
+      "source_commit": "db2ea1c2eedcecbb08c192037bbe7a0985755edf",
+      "summary_sha256": "120ec03917f713ca41f2a48ddb5ad71dfcdaa32194632faf5c0692a9d653e6b9"
+    }
+  ]
+}

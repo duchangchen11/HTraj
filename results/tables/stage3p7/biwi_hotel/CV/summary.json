@@ -1,0 +1,13 @@
+{
+  "ETH_evaluated": false,
+  "manifest_sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea",
+  "model": "CV",
+  "parameter_count": 0,
+  "recording": "biwi_hotel",
+  "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+  "train_ADE_m": 0.4857456027147415,
+  "train_FDE_m": 1.0804697395661058,
+  "training_seconds": null,
+  "validation_ADE_m": 0.32951589650328056,
+  "validation_FDE_m": 0.6110384269330487
+}

@@ -1,0 +1,13 @@
+{
+  "ETH_evaluated": false,
+  "manifest_sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa",
+  "model": "CV",
+  "parameter_count": 0,
+  "recording": "crowds_zara02",
+  "source_commit": "0edcba40620b0598347f4893f2b910528dcae71f",
+  "train_ADE_m": 0.5089752642610671,
+  "train_FDE_m": 1.1283263646384212,
+  "training_seconds": null,
+  "validation_ADE_m": 0.2963058108211437,
+  "validation_FDE_m": 0.6675226459136376
+}

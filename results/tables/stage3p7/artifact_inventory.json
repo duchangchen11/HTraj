@@ -1,0 +1,728 @@
+{
+  "base_commit": "e64c0aac49386a94075099fd1fc7ab5f545a533e",
+  "files": [
+    {
+      "bytes": 169916,
+      "path": "configs/stage3p7/protected_artifacts.json",
+      "sha256": "e64b0ad2cfe58a14ca6f3700aedda288327e6eec14a0ab6bb8636f24afa7af32"
+    },
+    {
+      "bytes": 68194,
+      "path": "configs/stage3p7/protocol.json",
+      "sha256": "a0dddc9f453a826439398e571e72a6970829d0e475e89a1d55a9509bdec6262b"
+    },
+    {
+      "bytes": 5088,
+      "path": "reports/stage3p7/01_MOTION_REPRESENTATION_AUDIT.md",
+      "sha256": "28bad06356da480f8dabf99645a99e33c62046f2acf8fe64661f7e9479c9aaa8"
+    },
+    {
+      "bytes": 3083,
+      "path": "reports/stage3p7/02_COORDINATE_NORMALIZATION.md",
+      "sha256": "473a751bc33b1fc83b8b79b70434610caae282627aa687167c41f714dee641b9"
+    },
+    {
+      "bytes": 4174,
+      "path": "reports/stage3p7/03_BASELINE_RESULTS.md",
+      "sha256": "158a50a94b08ea6836e9b19e8e53eec8338ed8dc9094e76b999efee80b91ebfb"
+    },
+    {
+      "bytes": 33656,
+      "path": "reports/stage3p7/04_GENERALIZATION_ANALYSIS.md",
+      "sha256": "a7fa24a828bd50acb728dc1a5dfb3fb1ee524071c73dc5a875c3ebd59a747b5b"
+    },
+    {
+      "bytes": 4630,
+      "path": "reports/stage3p7/05_RESEARCH_DECISION.md",
+      "sha256": "ecbe81b3244b8956215a2a96059db440505cd182dd068babd79b356666683d27"
+    },
+    {
+      "bytes": 3822,
+      "path": "reports/stage3p7/STAGE3P7_REPORT.md",
+      "sha256": "bcc4d491e36c3a324ebb0d17e9704b372d25dfcd68756148743c824aaee5138d"
+    },
+    {
+      "bytes": 2571,
+      "path": "results/tables/stage3p7/DELIVERY_AUDIT.json",
+      "sha256": "8674b96b497db055aa6d867e20f749b95ea50889180561938f4d23881b708996"
+    },
+    {
+      "bytes": 279,
+      "path": "results/tables/stage3p7/M0_reproducibility.csv",
+      "sha256": "1f42a3a607f2bd84cd29c826ac3f1bdc070e32e4c1629bb4a65c4111212df7bf"
+    },
+    {
+      "bytes": 30153,
+      "path": "results/tables/stage3p7/all_epoch_curves.csv",
+      "sha256": "d444729a80b7d20f088ef2d121e47b98da7aa642f9282109efccd52de5976eb8"
+    },
+    {
+      "bytes": 1977,
+      "path": "results/tables/stage3p7/analysis_provenance.json",
+      "sha256": "48c53bbbe4bc2780639f92f0014725c273e5e67f07e9f56d86d9c2f484da8039"
+    },
+    {
+      "bytes": 855,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/diagnostics_analytical_train.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8"
+    },
+    {
+      "bytes": 855,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/diagnostics_analytical_validation.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8"
+    },
+    {
+      "bytes": 1594,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/groups_analytical_train.csv",
+      "sha256": "5ed0e5fc3448397ab9c0fd0e0143dc5cc511d290d74d1a8b55ebe34c00b9d0fe"
+    },
+    {
+      "bytes": 1531,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/groups_analytical_validation.csv",
+      "sha256": "7a915fe32df7a28e13f130aa52346194578bebe8583a999e1ad56644b886b1da"
+    },
+    {
+      "bytes": 438,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/summary.json",
+      "sha256": "e07c2710ad354250351105e2710cca41bc0d74f4ec6cdea2cc789864de6a94af"
+    },
+    {
+      "bytes": 125778,
+      "path": "results/tables/stage3p7/biwi_hotel/CV/targets_analytical_validation.csv",
+      "sha256": "803601ea649089ab18f1bf9c6b4377b4f8cea3bce916fc2f1f7450bb5ec99ac3"
+    },
+    {
+      "bytes": 978,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/diagnostics_best_validation.json",
+      "sha256": "6a0bad809b89d581be63e01f3241d1048736bd4c22f58df0f5cc7fd7a30524a5"
+    },
+    {
+      "bytes": 975,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/diagnostics_last_validation.json",
+      "sha256": "325aaa958512c3da284925f4560851c04c8df71e7735330be12ed5f0dee071e0"
+    },
+    {
+      "bytes": 1520,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/groups_best_validation.csv",
+      "sha256": "7e5f7f0fc007f5bef10756c9f910aa8ed8a59165235c9d5ce1dcbd4372ecd5ff"
+    },
+    {
+      "bytes": 1515,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/groups_last_validation.csv",
+      "sha256": "260753745b083ccedadff1ac218efd73711db29b67bd90b65497e0f22c9e7145"
+    },
+    {
+      "bytes": 1682,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/summary.json",
+      "sha256": "a5bd3c11b5654b36923888bead75b5c62b4c3eed043a41cfbada3c570a4de79c"
+    },
+    {
+      "bytes": 136529,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/targets_best_validation.csv",
+      "sha256": "4a0c43a7c17fc0e2409abfb7be7559aed7d2d273ef1f27c172411821a333eb10"
+    },
+    {
+      "bytes": 136151,
+      "path": "results/tables/stage3p7/biwi_hotel/CVR-Unnormalized-reference/targets_last_validation.csv",
+      "sha256": "29f30e716586fb89d8ab7d4271773de16b521da78840d15e398bb3e98df4465c"
+    },
+    {
+      "bytes": 81364,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/config.json",
+      "sha256": "73073f2b574f58a8df7863de77c9addc2076c187759733a5d5befac1518a373f"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/diagnostics_best_train.json",
+      "sha256": "dee027628e088f96acd2a87d8b03bf9e87ae7a1aa31c8a8f94ab6cbb8a7677bd"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/diagnostics_best_validation.json",
+      "sha256": "d10090687043b6896ab8641720de93704422fc5e9e8343929bfb74ef2c14f12c"
+    },
+    {
+      "bytes": 912,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/diagnostics_last_train.json",
+      "sha256": "77f966db20cc3eba0d9b1193aadae3dfadbe68a8747c1de16e4f14120ffa769b"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/diagnostics_last_validation.json",
+      "sha256": "531c0fd8589fb8a86237c10b9ea91272f7cebabdfc0d625ebaffc1cc654344dd"
+    },
+    {
+      "bytes": 4582,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/epochs.csv",
+      "sha256": "33d739862da04756195c25adfe6a042006361bba28f80c6c8c257cad6fd4d4a9"
+    },
+    {
+      "bytes": 1593,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/groups_best_train.csv",
+      "sha256": "0928dea99520a1f6e3eb558b26a1de43c44c46f7cb818ea9fe139500710cab03"
+    },
+    {
+      "bytes": 1526,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/groups_best_validation.csv",
+      "sha256": "a474f9755248719e07a74d316e575d191bf75c679cddf6ed7d23bd9d73a1dff5"
+    },
+    {
+      "bytes": 1598,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/groups_last_train.csv",
+      "sha256": "e5cd6eec0b79dcb5ce36517240f99d2e71f2924e9ccc8153484e4bd90d24ff37"
+    },
+    {
+      "bytes": 1522,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/groups_last_validation.csv",
+      "sha256": "59a91c3c0cd641fbafb52f0b3514a9135b22aeb96984fb928e2c1174fbcc7f13"
+    },
+    {
+      "bytes": 1605,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+      "sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+    },
+    {
+      "bytes": 131302,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/targets_best_validation.csv",
+      "sha256": "6b0c540be04e051933b690a92280a08e1cc55eccd6f567e32864f84c5ace64d9"
+    },
+    {
+      "bytes": 131185,
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/targets_last_validation.csv",
+      "sha256": "e426337fa9b21b371e3fa670fd18bd7a540eb52801374ae530cb3f2e58f988a3"
+    },
+    {
+      "bytes": 81364,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/config.json",
+      "sha256": "da89caa37d04bce444afacfbf77e0e5dad272d1a17bfd6708fbaebba34ed2523"
+    },
+    {
+      "bytes": 975,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/diagnostics_best_train.json",
+      "sha256": "aed1f0d493734597f71c5c6d7c7ce50614e9cd044922a5b6c7eda9d411a92588"
+    },
+    {
+      "bytes": 976,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/diagnostics_best_validation.json",
+      "sha256": "478843e8089712796f1dab8f623ea9715602bcb70368db6b4f570ffcc77b5770"
+    },
+    {
+      "bytes": 974,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/diagnostics_last_train.json",
+      "sha256": "68cbba8558584b6abdde307591fc2dd69f0815c824b06972fbdbc9d23b9f9a9c"
+    },
+    {
+      "bytes": 974,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/diagnostics_last_validation.json",
+      "sha256": "d241dd315b28d7f0f93e9b2769c403739f5da87b8a7c9f3e53eb229a4610afbc"
+    },
+    {
+      "bytes": 4601,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/epochs.csv",
+      "sha256": "ceb1b307cb79903fed66c7d2c43255a30cb3f8055b28773541c06101347a25dc"
+    },
+    {
+      "bytes": 1592,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/groups_best_train.csv",
+      "sha256": "effc02eadf570bf36da7e130562be452c04d18dfd73b8d0bdf2cb4db3be38212"
+    },
+    {
+      "bytes": 1528,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/groups_best_validation.csv",
+      "sha256": "dcbba158b4875d4da9c0638b0b8985bebe03594526d5d00110352419afdb799e"
+    },
+    {
+      "bytes": 1601,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/groups_last_train.csv",
+      "sha256": "23a278e8f45c302cc6ff3d563a4dd5ee985123b80dc56a8e9d39ac3a3bef98e9"
+    },
+    {
+      "bytes": 1530,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/groups_last_validation.csv",
+      "sha256": "c0237c43f5cb719685556f643a6037cf7aa553d428a3a0da4e99311719ea6cc6"
+    },
+    {
+      "bytes": 1602,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/summary.json",
+      "sha256": "e98075eb61a9ca8312c3eb091ca04fe7af70560a5b11bff9741c82f53f1517d6"
+    },
+    {
+      "bytes": 147060,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/targets_best_validation.csv",
+      "sha256": "8fa1d1d7fe0dd0743f2ee720ded7657183b0ab88603de825c03ccff39b9bc564"
+    },
+    {
+      "bytes": 147079,
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/targets_last_validation.csv",
+      "sha256": "819d6cb98e4b1f93b63e1b7bcf066ef0f1874d902d203196c5294dc9b135bfc5"
+    },
+    {
+      "bytes": 81364,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/config.json",
+      "sha256": "e7e2a8779def484eaa7cf9913ecc43c6d4466fd1d0310c14557d80b1eb58d1ad"
+    },
+    {
+      "bytes": 980,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/diagnostics_best_train.json",
+      "sha256": "99d7e316810050d6a78eb16d06651dd905a2ae225409f6457303867ecdf31509"
+    },
+    {
+      "bytes": 982,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/diagnostics_best_validation.json",
+      "sha256": "f2e41fd15f614c2e6123f920740fd2f574a2def6a39c599eb58468b615cb875c"
+    },
+    {
+      "bytes": 976,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/diagnostics_last_train.json",
+      "sha256": "a5ad529c5c61ed57cc82299016cf2b03f05d6c45cbb048dfc99cb35331c7ac32"
+    },
+    {
+      "bytes": 977,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/diagnostics_last_validation.json",
+      "sha256": "a66cfbb628f2c60cbf4c02dc99bbd4cb50b20f64350f515d802b39affb9d0e47"
+    },
+    {
+      "bytes": 4659,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/epochs.csv",
+      "sha256": "240978df1ae9945f2dd9c85a14a1f5a5a8542aa1d84728c20885fca7c415db03"
+    },
+    {
+      "bytes": 1591,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/groups_best_train.csv",
+      "sha256": "988c41c41b6d701f3ee99738aa5ad0a31cdb283f3e58beb0dcf6177c2165a8a7"
+    },
+    {
+      "bytes": 1531,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/groups_best_validation.csv",
+      "sha256": "57c297990142b923be60b6adcfeeaf8c900ac566fdacbb28fe43174c479856b9"
+    },
+    {
+      "bytes": 1593,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/groups_last_train.csv",
+      "sha256": "3e716bef7fe17b207956746c49a0873d887ce2ae99d9fdb19b58800e1484b8ce"
+    },
+    {
+      "bytes": 1524,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/groups_last_validation.csv",
+      "sha256": "c3f7cdae3bf91bd1ce0fb94d5e2c9a94a3649e61942ce83535199322d0445efc"
+    },
+    {
+      "bytes": 1599,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/summary.json",
+      "sha256": "5dbefebebe2c56af15efb636e8f83ac6959eeb6b91eb6862ee4893a2b70b511c"
+    },
+    {
+      "bytes": 147650,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/targets_best_validation.csv",
+      "sha256": "4b7143a27920901fa85a0555a5b262177e9273a45daefc69dcf31a7b2d548014"
+    },
+    {
+      "bytes": 147209,
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/targets_last_validation.csv",
+      "sha256": "5448860ea97b072c598e21e51d1b9ffde41c8abf25108cd66364d1d721c43950"
+    },
+    {
+      "bytes": 855,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/diagnostics_analytical_train.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8"
+    },
+    {
+      "bytes": 855,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/diagnostics_analytical_validation.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8"
+    },
+    {
+      "bytes": 1605,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/groups_analytical_train.csv",
+      "sha256": "307f7f421ac2067f6292d65061f8a7167aca5b71028da47320f82113378e78db"
+    },
+    {
+      "bytes": 1479,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/groups_analytical_validation.csv",
+      "sha256": "5fdb4ea276ad02b526ff6151bb914449a422b43465db357f550d7d4ec15c8a0e"
+    },
+    {
+      "bytes": 440,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/summary.json",
+      "sha256": "96ccc240fadc3c6ef43f2611b7aca46b523e5651b5640c356fced4b6a2a3b072"
+    },
+    {
+      "bytes": 469472,
+      "path": "results/tables/stage3p7/crowds_zara02/CV/targets_analytical_validation.csv",
+      "sha256": "4c286204cf96153cb06500a7c324b36679b1702cefb1f013f549fafcd1fb4ea2"
+    },
+    {
+      "bytes": 977,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/diagnostics_best_validation.json",
+      "sha256": "2d98b226fb68334a3584935a5b61806394507a8156a5cf158fd4b9091d1c6dc5"
+    },
+    {
+      "bytes": 980,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/diagnostics_last_validation.json",
+      "sha256": "5be7b940e4003e165740f27998742c031287a54b0a80a09a1900741c0ed89bc3"
+    },
+    {
+      "bytes": 1484,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/groups_best_validation.csv",
+      "sha256": "c4a1d9f8bca733ee6c8e75a05a8b04c54843f4556ccedc0e9c0a5dd19830554f"
+    },
+    {
+      "bytes": 1483,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/groups_last_validation.csv",
+      "sha256": "990a4e585706f922152333f1ae5e49260ff3b53505af7baa5d6852c0d45efec7"
+    },
+    {
+      "bytes": 1696,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/summary.json",
+      "sha256": "88a3c3bfe58c2f0e50e71ca6f530a3dfe1aac0d1a5433f0b49ccf0a20bf37844"
+    },
+    {
+      "bytes": 503224,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/targets_best_validation.csv",
+      "sha256": "5328ae5d7dd0ad99c1ce8f971c6d117a3b8c30bb5219d80e4973dab4b4739e04"
+    },
+    {
+      "bytes": 502663,
+      "path": "results/tables/stage3p7/crowds_zara02/CVR-Unnormalized-reference/targets_last_validation.csv",
+      "sha256": "e88a014a8798a02287791997c56a8141ba4b58b36366e17437644d76de7d31f8"
+    },
+    {
+      "bytes": 81368,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/config.json",
+      "sha256": "dac2ecddc36fa7d3cbd8a3419abfe7161e0fdac4602834fc60333fc64979ea33"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/diagnostics_best_train.json",
+      "sha256": "6e237d915ed57b567f94e791d5d5e53bba204e5595af8f401c0b21536bf354b6"
+    },
+    {
+      "bytes": 914,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/diagnostics_best_validation.json",
+      "sha256": "ffea5c103b97f06ac7b56bc34f55b21d83eb8d0cf29ea1d7448a58a9a775422e"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/diagnostics_last_train.json",
+      "sha256": "c78eb30fee560589d13619e4cf902b2d6b979765398de64b21e1dfeaf1021384"
+    },
+    {
+      "bytes": 913,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/diagnostics_last_validation.json",
+      "sha256": "744c380cc557f6733b660174228ddbfa65309e8b0540992e74e3f0f64c555b37"
+    },
+    {
+      "bytes": 4599,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/epochs.csv",
+      "sha256": "7b5218ce1485bf291ee5b997e8fffd4a64d9260a9a221d0d958fac2cb66ee0bc"
+    },
+    {
+      "bytes": 1598,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/groups_best_train.csv",
+      "sha256": "3972e038376b1835813c4bf4f21f528e866a0e469332380ef71e7460859727ca"
+    },
+    {
+      "bytes": 1483,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/groups_best_validation.csv",
+      "sha256": "91036814a56a1e6759ab80dfe5e4a93ca7c00a26d94dc115f31d6fae379d6925"
+    },
+    {
+      "bytes": 1600,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/groups_last_train.csv",
+      "sha256": "98ea883089e4ec72860c4fbdd5dcbcaf68777affb64c5fd79b1f75788bdc42b0"
+    },
+    {
+      "bytes": 1483,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/groups_last_validation.csv",
+      "sha256": "4e111a0c0f27d64129a86db91f467680292b7d9eba76b174f4713a7aba48fbc2"
+    },
+    {
+      "bytes": 1618,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/summary.json",
+      "sha256": "f140798e79eda849e72a3597737d7fdb55744dac3933f141295e7c91e15d8144"
+    },
+    {
+      "bytes": 484141,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/targets_best_validation.csv",
+      "sha256": "daf0c9bd84163b40eef35cb5ecb9af7580e66d9ef6e943e5ede05959701557d5"
+    },
+    {
+      "bytes": 483551,
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/targets_last_validation.csv",
+      "sha256": "9e4c943d5cf09a68179533fccdae0c15c971db0d345fb39dbed596658f7d2fb4"
+    },
+    {
+      "bytes": 81368,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/config.json",
+      "sha256": "1c4a586abe1567232e0666082d226d53123b7c8478626bd336afb40b01271a61"
+    },
+    {
+      "bytes": 972,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/diagnostics_best_train.json",
+      "sha256": "a51d9c50ca6ea1b757eada049bb9a5837f91873ff5a18a32af11094c2d06a5f7"
+    },
+    {
+      "bytes": 979,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/diagnostics_best_validation.json",
+      "sha256": "46dabb8f67f705851d7f6eaaeb253a1a00312e687d96f6a27cac479a56e52159"
+    },
+    {
+      "bytes": 973,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/diagnostics_last_train.json",
+      "sha256": "820658281f75d702e238d2aa3df991057028ed55eab1255c88a3edf36a75a0ed"
+    },
+    {
+      "bytes": 976,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/diagnostics_last_validation.json",
+      "sha256": "48ec04b63bdd8937928a62f6fff496f41e68c757e56b821f1ec3e8c74e81e027"
+    },
+    {
+      "bytes": 4607,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/epochs.csv",
+      "sha256": "de3b1d4643ebbf6adc03409fc6edee61ff13ba89c11d259c15de99844b007106"
+    },
+    {
+      "bytes": 1600,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/groups_best_train.csv",
+      "sha256": "2877319dfed72bdaae51c3e3ef2eabb34913190b1ccfc98b819d7c6b45096528"
+    },
+    {
+      "bytes": 1469,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/groups_best_validation.csv",
+      "sha256": "2c4e158f3461054acc64981a9c573b5e77ca6736f49ca1fb92520e17af6dbfa0"
+    },
+    {
+      "bytes": 1601,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/groups_last_train.csv",
+      "sha256": "0825f762d64f60e47c70d1fb6ffcf729913dd1c464c184d5365edb973c997201"
+    },
+    {
+      "bytes": 1479,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/groups_last_validation.csv",
+      "sha256": "a4ae19bac2aaf611d5e21d19c8ff5173723c30e5438533cb60aad9b1033a2c36"
+    },
+    {
+      "bytes": 1617,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/summary.json",
+      "sha256": "da0b8492ec434de56ffb13155c358b8fbb7897046506e969b2f3070d55ef505f"
+    },
+    {
+      "bytes": 542994,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/targets_best_validation.csv",
+      "sha256": "f9bcc636ad80c8cb1ed66a7ca9883c6f2daccc41ffd4d08019d87564be00893e"
+    },
+    {
+      "bytes": 542299,
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/targets_last_validation.csv",
+      "sha256": "e35be14653f31fa5770bff008f5ce69e05505bb52c62657c959e3b5f5236c1af"
+    },
+    {
+      "bytes": 81368,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/config.json",
+      "sha256": "81b62314cafddd9bf7a3d1458d6060096fe4fc4e089a74271b44e505f48aa152"
+    },
+    {
+      "bytes": 979,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/diagnostics_best_train.json",
+      "sha256": "d611fe4c07f784e14ee24773d43e0629574cfef973382823cb7f18e602f169c9"
+    },
+    {
+      "bytes": 979,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/diagnostics_best_validation.json",
+      "sha256": "83d0071f3efa9f7d103ba417b43dd0054298cc11e9043a7ebb670c8dd10f64e1"
+    },
+    {
+      "bytes": 976,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/diagnostics_last_train.json",
+      "sha256": "5fdbdee4730f67d67d414d28b61c0037ab600e7a1a756e9aa8b6d484811fcd72"
+    },
+    {
+      "bytes": 977,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/diagnostics_last_validation.json",
+      "sha256": "45c4fe90ccb03f39de380babd4d6a89330ced80825defe4f554433897d32ca23"
+    },
+    {
+      "bytes": 4674,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/epochs.csv",
+      "sha256": "7706c0ddfd0ba19304c53eb5d15f9baabd8c4041ae9374999b572752b9aa19a6"
+    },
+    {
+      "bytes": 1600,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/groups_best_train.csv",
+      "sha256": "64034c1a1204280ca372f0908c69cc5041b41856847ac248523c6eac4aef1003"
+    },
+    {
+      "bytes": 1482,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/groups_best_validation.csv",
+      "sha256": "4fefe5ca0dd6c1463ff7ce67c8283fdeb3add6f923a73a2703f74dd7539cd9ba"
+    },
+    {
+      "bytes": 1605,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/groups_last_train.csv",
+      "sha256": "9ac70dcb713b8d91f0e3564ba9581f60252e2d359dba48ebc6bde090d2fa020c"
+    },
+    {
+      "bytes": 1481,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/groups_last_validation.csv",
+      "sha256": "3706ddd750e2bc777868a144a9a6ec6798b8b27e77cd3dcdc060130828a42871"
+    },
+    {
+      "bytes": 1621,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/summary.json",
+      "sha256": "9802a9b66f22c9f0e1e782e4dc9ae868cbe800fe638d4490f4e52bd96f0086a9"
+    },
+    {
+      "bytes": 545395,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/targets_best_validation.csv",
+      "sha256": "a014abcccec79600438d90bc679af327697c2bedf2fb9575d4677e765e548723"
+    },
+    {
+      "bytes": 544308,
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/targets_last_validation.csv",
+      "sha256": "e045506009de4bc2dcff50021a7698388e41a9d37d7a54a0ab543fdf53c3c355"
+    },
+    {
+      "bytes": 29008,
+      "path": "results/tables/stage3p7/fixed_epoch_comparison.csv",
+      "sha256": "b126666cfc3708d3ee01df1dbe009662c1561b37a922255f066db854b7d72c28"
+    },
+    {
+      "bytes": 73303,
+      "path": "results/tables/stage3p7/group_comparison.csv",
+      "sha256": "a628384966577d20f8afa49cda7ad73adc220be3df17e3e5b6cf3274d70fa9e0"
+    },
+    {
+      "bytes": 8618,
+      "path": "results/tables/stage3p7/history_distribution.csv",
+      "sha256": "2aac85152e78ca7fdd64d4b64f04c1f3314d37d24137039427d967e8980289ae"
+    },
+    {
+      "bytes": 2260,
+      "path": "results/tables/stage3p7/manual_review_provenance.json",
+      "sha256": "8347a25701b371d16c52cebcb43587d1b24430b0428b52db94437ccf57c9f2b8"
+    },
+    {
+      "bytes": 4629,
+      "path": "results/tables/stage3p7/model_comparison.csv",
+      "sha256": "8078ee280d6a3d219ae7a350c0a334873b59e42e53b364c7fb8d6514a810a2b1"
+    },
+    {
+      "bytes": 4336886,
+      "path": "results/tables/stage3p7/paired_target_errors.csv",
+      "sha256": "a75dc615f60c0490038658802b15d4b50f6e5713b012a2943d9877349f2a7579"
+    },
+    {
+      "bytes": 1161,
+      "path": "results/tables/stage3p7/pretraining_audit.json",
+      "sha256": "5ee79d4c1c70d274a16bd78d03e50500bc3db7abe3433982d4b8b4d440a9d842"
+    },
+    {
+      "bytes": 23478,
+      "path": "results/tables/stage3p7/pretraining_tests.xml",
+      "sha256": "9bc134a46415dafd04c64ee5938b308acfb4a5192c3833e509f36eaa71de03a7"
+    },
+    {
+      "bytes": 23610,
+      "path": "results/tables/stage3p7/pretraining_tests_final.xml",
+      "sha256": "26d5b2ce5d53e87dd653a77ecf98c6f3fcd814b126ddc8283ed239b613ea1487"
+    },
+    {
+      "bytes": 1262,
+      "path": "results/tables/stage3p7/reference_compatibility.json",
+      "sha256": "b8ccfa1ba960b4c19f13bd780356d6137fec1b31ed33523a917769a3a1d1e85e"
+    },
+    {
+      "bytes": 1494,
+      "path": "results/tables/stage3p7/report_provenance.json",
+      "sha256": "6ef4aa9f02ed2f1eb4d9ef15a8709b0be74bdad7bb7d652516dacb7cd2086c9e"
+    },
+    {
+      "bytes": 1200,
+      "path": "results/tables/stage3p7/research_decision.json",
+      "sha256": "822373fcbbeffb52ea85fa98b01c853e239da754e6c64f7e811f23f6270e3917"
+    },
+    {
+      "bytes": 19666,
+      "path": "results/tables/stage3p7/rotation_checks.csv",
+      "sha256": "0e29257672e0f43e7db14cddb8b5e3b3d31128151542ae794ec73d1cfc5b7d7f"
+    },
+    {
+      "bytes": 855,
+      "path": "results/tables/stage3p7/setup_failures/attempt_01/crowds_zara02/CV/diagnostics_analytical_train.json",
+      "sha256": "f6147f07c5e6850561719f5e954c4f8c7e5d190a9def3dc93a6be7ee969a71e8"
+    },
+    {
+      "bytes": 1605,
+      "path": "results/tables/stage3p7/setup_failures/attempt_01/crowds_zara02/CV/groups_analytical_train.csv",
+      "sha256": "307f7f421ac2067f6292d65061f8a7167aca5b71028da47320f82113378e78db"
+    },
+    {
+      "bytes": 311,
+      "path": "results/tables/stage3p7/setup_failures/attempt_01/failure.json",
+      "sha256": "6867f9f2c17c19c1d4bb90bfee045ea81d44ec599d93e6b850320ac41db6e217"
+    },
+    {
+      "bytes": 1404,
+      "path": "results/tables/stage3p7/split_counts.csv",
+      "sha256": "d413e943f9e3b379f0792cdbca9f10c96920020db22a9c274df0436b785296df"
+    },
+    {
+      "bytes": 31305,
+      "path": "results/tables/stage3p7/threshold_sensitivity.csv",
+      "sha256": "5b957345108759457b51dd3745098defac8d82ccd89a095d0bd933c8ccc49768"
+    },
+    {
+      "bytes": 941,
+      "path": "results/tables/stage3p7/training_stability.csv",
+      "sha256": "c0eff71f955b8efaca2bdfc3cdc7107a06f6cc8ddbd7969c1195775f25859480"
+    },
+    {
+      "bytes": 23610,
+      "path": "results/tables/stage3p7/unit_tests.xml",
+      "sha256": "8744777c0eaace53b978492215c43b0e722f2c82105551e85756c3bff2d4d7a2"
+    },
+    {
+      "bytes": 16608,
+      "path": "scripts/analyze_stage3p7.py",
+      "sha256": "0fc5f07278418c3acb1a30575884a3857f73a2dd013ff0a6db825c59cf0708c1"
+    },
+    {
+      "bytes": 3789,
+      "path": "scripts/audit_stage3p7.py",
+      "sha256": "1bdd57c1db528f3ff94079b5f048e3082641c0512338863e064b322aa26e7046"
+    },
+    {
+      "bytes": 5849,
+      "path": "scripts/check_stage3p7.py",
+      "sha256": "d4f94578703fb503d822e3231b38bf1cd58445a466ae07cff8e1bc777581fc09"
+    },
+    {
+      "bytes": 4694,
+      "path": "scripts/prepare_stage3p7.py",
+      "sha256": "58e58d7b7f285e180b1793fbd2c8962571edce2cc3e95a21ece2794951b194b8"
+    },
+    {
+      "bytes": 16373,
+      "path": "scripts/write_stage3p7_reports.py",
+      "sha256": "417a264b489978943112ea9be1c05b642cd27cf10ce719189f989a498b15df4f"
+    },
+    {
+      "bytes": 3822,
+      "path": "src/models/motion_normalization.py",
+      "sha256": "4a084ef2c7f582125fc861af10cdd3a2d9db6208c3082a3cc8dcd437646b7453"
+    },
+    {
+      "bytes": 9648,
+      "path": "src/training/motion_generalization.py",
+      "sha256": "c9f38ae95af2e2332cf7c40cee3b16d9d7565d5d2282cd6566dbecad60e9950a"
+    },
+    {
+      "bytes": 6695,
+      "path": "tests/test_motion_normalization.py",
+      "sha256": "8c458e35b9252425850d1c42926b6f2c68a6d94809d565586d379d1cb5bd76db"
+    }
+  ],
+  "large_data_or_weights_included": false,
+  "prior_tracked_paths_modified": false,
+  "secret_scan": "passed"
+}

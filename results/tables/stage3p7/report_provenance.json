@@ -1,0 +1,41 @@
+{
+  "source_commit": "20e34348d5dea5a86bd02a7b6bd021ba109e05c2",
+  "generator_sha256": "417a264b489978943112ea9be1c05b642cd27cf10ce719189f989a498b15df4f",
+  "sources": [
+    {
+      "path": "results/tables/stage3p7/model_comparison.csv",
+      "sha256": "8078ee280d6a3d219ae7a350c0a334873b59e42e53b364c7fb8d6514a810a2b1"
+    },
+    {
+      "path": "results/tables/stage3p7/group_comparison.csv",
+      "sha256": "a628384966577d20f8afa49cda7ad73adc220be3df17e3e5b6cf3274d70fa9e0"
+    },
+    {
+      "path": "results/tables/stage3p7/research_decision.json",
+      "sha256": "822373fcbbeffb52ea85fa98b01c853e239da754e6c64f7e811f23f6270e3917"
+    },
+    {
+      "path": "results/tables/stage3p7/analysis_provenance.json",
+      "sha256": "48c53bbbe4bc2780639f92f0014725c273e5e67f07e9f56d86d9c2f484da8039"
+    }
+  ],
+  "reports": [
+    {
+      "path": "reports/stage3p7/03_BASELINE_RESULTS.md",
+      "sha256": "158a50a94b08ea6836e9b19e8e53eec8338ed8dc9094e76b999efee80b91ebfb"
+    },
+    {
+      "path": "reports/stage3p7/04_GENERALIZATION_ANALYSIS.md",
+      "sha256": "8377b7d6f2d853e94f20b7e5a8a06db966db635ddabe366c70c71846935e9ff1"
+    },
+    {
+      "path": "reports/stage3p7/05_RESEARCH_DECISION.md",
+      "sha256": "50f7f6e98b40f4285e2a373b4991d04be70731326a23e92ff10d9c5058272a99"
+    },
+    {
+      "path": "reports/stage3p7/STAGE3P7_REPORT.md",
+      "sha256": "3e03cf3336f25ffbad2cf3f255b1fcff70ffb64974dc0eb8d6e9223b951b5168"
+    }
+  ],
+  "generated_from_actual_measurements": true
+}

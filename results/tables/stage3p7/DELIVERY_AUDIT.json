@@ -1,0 +1,68 @@
+{
+  "ETH_evaluated": false,
+  "M0_reproduced": true,
+  "M1_new_training": false,
+  "auto_push": false,
+  "epochs": 180,
+  "extra_seeds_run": false,
+  "neural_runs": 6,
+  "new_checkpoints_local_only": [
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M3/seed_17/checkpoints/best.pt",
+      "sha256": "31aa2b9b98861f471dab2a614acc8a9eb464d5d292afa5d8ac2799a72e9e77bf"
+    },
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M3/seed_17/checkpoints/last.pt",
+      "sha256": "40fdb1eba56c0c7da4ad4b5c16eeef0877f565344e78e4ca9f5020bc59d615be"
+    },
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/best.pt",
+      "sha256": "525f5ee7c706a34047bc02999afaef42621ff6909c04483fb6832ff567f4e517"
+    },
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M0/seed_17/checkpoints/last.pt",
+      "sha256": "139b2b313d37cdb2d143bbb1c5583e2ef45dd71694ca9dd34d988897c3f13ae5"
+    },
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M2/seed_17/checkpoints/best.pt",
+      "sha256": "a88d9ec89ebaef328bdd4a0c498d947e831372cfdfb4960c7a5e46076faf7fee"
+    },
+    {
+      "path": "experiments/stage3p7/biwi_hotel/M2/seed_17/checkpoints/last.pt",
+      "sha256": "15995657f5960745f18ff5ea68a5927f05b55dae8216a19458b3f83202f51cdb"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M3/seed_17/checkpoints/best.pt",
+      "sha256": "9c2fbe9c8c362244d346de4558945f43f906124e97c5b848228668f3f5cbd6a9"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M3/seed_17/checkpoints/last.pt",
+      "sha256": "fbeb840fa583c30a0d1c773bff6d752ca2224699c3c6a3586b719e5b3f2a1846"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M0/seed_17/checkpoints/best.pt",
+      "sha256": "c5ea77a164d20c6ffa8d622d7994925ba28337dd59f63a50984f12b99f3629ee"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M0/seed_17/checkpoints/last.pt",
+      "sha256": "da46c89ef00aeb3503a17a86630b2e0f90c98a80d95150da2ebd56a51af43670"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M2/seed_17/checkpoints/best.pt",
+      "sha256": "c775a5ed9aefe08306a88ef35afa6fb73e0ccdd732bb66f26d94b14e7654b252"
+    },
+    {
+      "path": "experiments/stage3p7/crowds_zara02/M2/seed_17/checkpoints/last.pt",
+      "sha256": "7bf904fe385575408e42e806e427264b78167f53f68b10f37a8aa6b921e84a23"
+    }
+  ],
+  "old_checkpoints": 130,
+  "optimizer_updates": 42930,
+  "protected_artifacts": 973,
+  "status": "passed",
+  "tests": {
+    "pretraining_tests_final.xml": 183,
+    "unit_tests.xml": 183
+  },
+  "training_seconds": 1404.0181036205322
+}

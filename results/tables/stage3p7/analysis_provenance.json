@@ -1,0 +1,54 @@
+{
+  "ETH_evaluated": false,
+  "actual_seeds": [
+    17
+  ],
+  "executed_epochs": 180,
+  "extra_training": false,
+  "group_rows": 560,
+  "inputs": [
+    {
+      "path": "configs/stage3p7/protocol.json",
+      "sha256": "a0dddc9f453a826439398e571e72a6970829d0e475e89a1d55a9509bdec6262b"
+    },
+    {
+      "path": "results/tables/stage3p7/biwi_hotel/M3/seed_17/summary.json",
+      "sha256": "5dbefebebe2c56af15efb636e8f83ac6959eeb6b91eb6862ee4893a2b70b511c"
+    },
+    {
+      "path": "results/tables/stage3p7/biwi_hotel/M0/seed_17/summary.json",
+      "sha256": "4d620531356f61b7d26e07bb9623f4b8b9e2ab93cc618eefa8435ac1e2f58adf"
+    },
+    {
+      "path": "results/tables/stage3p7/biwi_hotel/M2/seed_17/summary.json",
+      "sha256": "e98075eb61a9ca8312c3eb091ca04fe7af70560a5b11bff9741c82f53f1517d6"
+    },
+    {
+      "path": "results/tables/stage3p7/crowds_zara02/M3/seed_17/summary.json",
+      "sha256": "9802a9b66f22c9f0e1e782e4dc9ae868cbe800fe638d4490f4e52bd96f0086a9"
+    },
+    {
+      "path": "results/tables/stage3p7/crowds_zara02/M0/seed_17/summary.json",
+      "sha256": "f140798e79eda849e72a3597737d7fdb55744dac3933f141295e7c91e15d8144"
+    },
+    {
+      "path": "results/tables/stage3p7/crowds_zara02/M2/seed_17/summary.json",
+      "sha256": "da0b8492ec434de56ffb13155c358b8fbb7897046506e969b2f3070d55ef505f"
+    },
+    {
+      "path": "results/tables/stage3p7/biwi_hotel/CV/summary.json",
+      "sha256": "e07c2710ad354250351105e2710cca41bc0d74f4ec6cdea2cc789864de6a94af"
+    },
+    {
+      "path": "results/tables/stage3p7/crowds_zara02/CV/summary.json",
+      "sha256": "96ccc240fadc3c6ef43f2611b7aca46b523e5651b5640c356fced4b6a2a3b072"
+    }
+  ],
+  "neural_runs": 6,
+  "optimizer_updates": 42930,
+  "pair_rows": 14100,
+  "script_sha256": "0fc5f07278418c3acb1a30575884a3857f73a2dd013ff0a6db825c59cf0708c1",
+  "source_commit": "20e34348d5dea5a86bd02a7b6bd021ba109e05c2",
+  "supplemental_used_for_selection": false,
+  "training_seconds": 1404.0181036205322
+}
