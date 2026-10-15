@@ -1,0 +1,93 @@
+{
+  "CV_models": [
+    "CV-Last2",
+    "CV-OLS4",
+    "CV-OLS8"
+  ],
+  "ETH_evaluated": false,
+  "FPC": false,
+  "automatic_push": false,
+  "base_commit": "d25da2fa743034338c337bee5d726885b91a2ef1",
+  "boundary_policy": "backward differences within 8 raw frames; unknown neighbor velocity excludes motion packet at steps1..7; initial position-only social init allowed at step0; ego first acceleration is an explicit zero-acceleration boundary prior with validity=False",
+  "branch": "feat/stage5p1-socialvae-causal",
+  "coordinate_unit": "m",
+  "coverage_stop": {
+    "all_history_social_context_lost_target_fraction_gt": 0.25,
+    "blocked_near_motion_fraction_gt": 0.25
+  },
+  "data_root": "data/raw/eth_ucy",
+  "development_recordings": [
+    "biwi_hotel",
+    "crowds_zara02"
+  ],
+  "formal_baseline_training": false,
+  "frame_step": 10,
+  "independent_confirmation": false,
+  "new_network": false,
+  "observation_frames": 8,
+  "official_commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "official_source": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "posterior_policy": "unchanged official VAE and loss; y used only by supervised posterior/loss; neighbor future slots all padding constructed from history, never future-neighbor GT",
+  "prediction_frames": 12,
+  "protocols": [
+    "SocialVAE-Official-Offline",
+    "HTraj-SocialVAE-Causal8x12-v1"
+  ],
+  "recordings": [
+    "biwi_hotel",
+    "students001",
+    "students003",
+    "crowds_zara01",
+    "crowds_zara02"
+  ],
+  "resource_benchmark": {
+    "batch_sizes": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "initialization": "fresh random per batch size",
+    "learning_rate": 0.0005,
+    "optimizer": "Adam",
+    "record_each_step": true,
+    "seed": 17,
+    "selection": "fixed seed17 random training target permutation; includes naturally occurring padded context sizes, plus maximum-neighbor batch forward/backward check",
+    "stop_on_nonfinite": true,
+    "timed_updates": 10,
+    "warmup_updates": 2
+  },
+  "seconds_per_sample": 0.4,
+  "smoke": {
+    "batch_fallback": "largest successful predeclared batch among128/64/32/16; single fixed choice after resource-only checks",
+    "batch_size": 128,
+    "best_rule": "minimum validation K1 latent-prior-mean ADE; exact tie earliest epoch; paired FDE; last5 separate",
+    "data_augmentation": false,
+    "epoch_definition": "one shuffled pass over every supervised training target; no resampling cap",
+    "epochs": 5,
+    "evaluation": "entire frozen validation target set each epoch; no FPC; K20 sampling seed171000+batch_index; diagnostic posterior seed172000+batch_index",
+    "gradient_clip": null,
+    "initialization": "fresh random; never pretrained",
+    "learning_rate": 0.0005,
+    "loss": "unchanged official reconstruction mean + Monte Carlo latent KL mean",
+    "optimizer": "Adam",
+    "scheduler": null,
+    "seed": 17,
+    "stop": "first nonfinite loss/gradient/output stops run; no LR search or automatic retry; no extension",
+    "validation_recording": "crowds_zara02",
+    "weight_decay": 0.0
+  },
+  "split_policy": "Stage3.5 exact train/validation window support; train only old train regions on other recordings; no old validation promoted to train; held-recording original train excluded",
+  "split_sources": {
+    "biwi_hotel": {
+      "path": "configs/stage3p5/folds/val_biwi_hotel.json",
+      "sha256": "3f8e2cf1e6462656fc0a15f0483ebe3ea63db948b946d8cce70ebd9331e7a7ea"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage3p5/folds/val_crowds_zara02.json",
+      "sha256": "6c63448ecd2e921a8f99c1af4d7cbc2f109e9a6d40dc92e8db74f52525e7f6fa"
+    }
+  },
+  "stage": "5.1",
+  "units": "official neural interface: displacements m/step and differences m/step^2; physical derivatives divide by dt and dt^2 only for diagnostics/CV"
+}
