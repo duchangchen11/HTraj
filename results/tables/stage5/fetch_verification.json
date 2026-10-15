@@ -1,0 +1,229 @@
+{
+  "fetched_or_verified": [
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "eth_ucy/model_t.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/eth_ucy/model_t.py",
+      "bytes": 12111,
+      "sha256": "5d31dd6c5144ec4715a006bf1c3e5e8753a71a2dd87dc4ab42b1b80b98a6cfcc"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "eth_ucy/gcl_t.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/eth_ucy/gcl_t.py",
+      "bytes": 7476,
+      "sha256": "ca6856d408c99a8cd97184861a646a87406bf2b09ec1d37dd517bc71c80d2e06"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "eth_ucy/preprocessor.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/eth_ucy/preprocessor.py",
+      "bytes": 7016,
+      "sha256": "790a3e4ceb7e24e2feda6335b117662085ea260d726af5617bf9efc06c976938"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "eth_ucy/dataloader_diverse.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/eth_ucy/dataloader_diverse.py",
+      "bytes": 13790,
+      "sha256": "51bec703ecbde61c4e9d3d1a26e0e51fc13fb1331b126d8faff525219f3656f2"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "eth_ucy/process_eth_data_diverse.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/eth_ucy/process_eth_data_diverse.py",
+      "bytes": 7080,
+      "sha256": "faf14a90298643e467f6a509c6cfb8bc98435dd72bb5938a9a78247e11fe0f7d"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "main_eth_diverse.py",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/main_eth_diverse.py",
+      "bytes": 13255,
+      "sha256": "1dc93be49d4f632df4d865647f66b0bc70d55d784f59219faaf3ec12cb5c87ad"
+    },
+    {
+      "repository": "eqmotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "upstream_path": "LICENSE",
+      "local_path": "experiments/stage5/cache/eqmotion/5aec2e0b61c511fa93a24138dd90da59a089084b/LICENSE",
+      "bytes": 1072,
+      "sha256": "f1d3136868b8e8bd929d21257c3b9c6970e398a052d6a7b5ed02cfc72c49caf1"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "social_vae.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/social_vae.py",
+      "bytes": 13372,
+      "sha256": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "data.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/data.py",
+      "bytes": 12839,
+      "sha256": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "utils.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/utils.py",
+      "bytes": 2317,
+      "sha256": "10894cb020784778f627f40d1f7457cee0c63746132bfc68df7d3e8b04c768db"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "main.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/main.py",
+      "bytes": 13078,
+      "sha256": "428cb111bf9d4d7ceb3cbff01a6aafccbdb3e4f7501eeb61744bddc8ce163f74"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "requirements.txt",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/requirements.txt",
+      "bytes": 297,
+      "sha256": "581e000f5cbf34aff02761d8883e640969a969db3f1003ce9e516225811e64d6"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "LICENSE",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/LICENSE",
+      "bytes": 1063,
+      "sha256": "c6cb50404733337028c39e6690d60f06a6c3fbd3373454892555e503562f1e03"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "config/hotel.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/config/hotel.py",
+      "bytes": 741,
+      "sha256": "ae569b92b1fc106694a4bf4f939806b21ad22912788ef1848edc1692e4242365"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "config/zara01.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/config/zara01.py",
+      "bytes": 739,
+      "sha256": "35dc6d37c1e92313cdcd487ddbac4e001ecc87026da1ea9f8f29cb82d9de9cb1"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "config/zara02.py",
+      "local_path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/config/zara02.py",
+      "bytes": 741,
+      "sha256": "7c20f2902d1f24681dd595682d35c5b83853b1dc5ebc5cd6d17c209c54a6f275"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "model.py",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/model.py",
+      "bytes": 12170,
+      "sha256": "5354f288f70ad6a5adbe7fb9321c6a54f7395e998f929ec4ccab2835bc4148bd"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "utils.py",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/utils.py",
+      "bytes": 8372,
+      "sha256": "88eeb1a8f1498d444e2df7338f04dbea5f1801e65f1f48d36c1acaefa027f713"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "metrics.py",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/metrics.py",
+      "bytes": 2603,
+      "sha256": "64b8755d77929fc79a1cac653c6aa736d63a73931b4cd4dff8a13254940660a5"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "train.py",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/train.py",
+      "bytes": 9097,
+      "sha256": "fb07b3588e91f3c3237334ffc13442c51355177839f65b3352764d060f622180"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "test.py",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/test.py",
+      "bytes": 5922,
+      "sha256": "c3975709a62b92d87b795db46c5713a0c88df631b96938b610b379f003064d75"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "train.sh",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/train.sh",
+      "bytes": 786,
+      "sha256": "6cac887735da693a86ddeecbaca6cb7aa5131a2ae3cc16f79f0b46560f98bee2"
+    },
+    {
+      "repository": "sgcn",
+      "commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "upstream_path": "LICENSE",
+      "local_path": "experiments/stage5/cache/sgcn/ec2ac7353ccba7c9691b00c0e978a0631667fa94/LICENSE",
+      "bytes": 1068,
+      "sha256": "146debf11abab53d89f5bf2146eb4e55bd2b59f1148f8661401def92a677e08c"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "models/hotel/ckpt-best",
+      "local_path": "experiments/stage5/assets/socialvae/models/hotel/ckpt-best",
+      "bytes": 8597864,
+      "sha256": "e2424388d9b2e55a3816b865af8df1811b72703c962e2baa93e1d13adf728854"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "models/zara02/ckpt-best",
+      "local_path": "experiments/stage5/assets/socialvae/models/zara02/ckpt-best",
+      "bytes": 8597864,
+      "sha256": "48d8f781a4e95c58e7fb8c17727bca3b091f51f52b1be47b0008dad15109d082"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "data/hotel/test/biwi_hotel.txt",
+      "local_path": "experiments/stage5/assets/socialvae/data/hotel/test/biwi_hotel.txt",
+      "bytes": 143799,
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "data/zara02/test/crowds_zara02.txt",
+      "local_path": "experiments/stage5/assets/socialvae/data/zara02/test/crowds_zara02.txt",
+      "bytes": 392227,
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    {
+      "repository": "socialvae",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "upstream_path": "data/zara02/train/crowds_zara01.txt",
+      "local_path": "experiments/stage5/assets/socialvae/data/zara02/train/crowds_zara01.txt",
+      "bytes": 205711,
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    }
+  ],
+  "no_ETH_assets": true
+}

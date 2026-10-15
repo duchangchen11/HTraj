@@ -1,0 +1,65 @@
+{
+  "access_date": "2026-10-16",
+  "method": "nature-academic-search multi-source-search workflow; primary publishers, author project pages, official Git history and file blobs",
+  "sources": [
+    {
+      "id": "EqMotion",
+      "title": "EqMotion: Equivariant Multi-Agent Motion Prediction With Invariant Interaction Reasoning",
+      "authors": "Chenxin Xu; Robby T. Tan; Yuhong Tan; Siheng Chen; Yu Guang Wang; Xinchao Wang; Yanfeng Wang",
+      "publication": "CVPR 2023, pp. 1410–1420",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Xu_EqMotion_Equivariant_Multi-Agent_Motion_Prediction_With_Invariant_Interaction_Reasoning_CVPR_2023_paper.html",
+      "arxiv": "https://arxiv.org/abs/2303.10876",
+      "official_repository": "https://github.com/MediaBrain-SJTU/EqMotion",
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "license": "MIT",
+      "evidence": "Publisher search metadata, arXiv and fetched official code; direct CVF open returned 403; no ETH score table read"
+    },
+    {
+      "id": "HighGraph",
+      "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction",
+      "authors": "Sungjune Kim; Hyung-gun Chi; Hyerin Lim; Karthik Ramani; Jinkyu Kim; Sangpil Kim",
+      "publication": "CVPR 2024, pp. 15251–15260",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.html",
+      "official_author_page": "https://sungjune-kim.github.io/",
+      "official_lab_page": "https://kuaicv.com/publications/",
+      "previous_project_url": "https://sungjuune.github.io/posts/HighGraph/",
+      "previous_project_status": 404,
+      "official_repository": null,
+      "commit": null,
+      "license": "No public source license located",
+      "evidence": "Publisher record, official author/lab publication entries and exact GitHub searches; no repository identified within searched sources"
+    },
+    {
+      "id": "SocialVAE",
+      "title": "SocialVAE: Human Trajectory Prediction using Timewise Latents",
+      "authors": "Pei Xu; Jean-Bernard Hayet; Ioannis Karamouzas",
+      "publication": "ECCV 2022, pp. 511–528",
+      "paper": "https://arxiv.org/abs/2203.08207",
+      "project": "https://motion-lab.github.io/SocialVAE/",
+      "official_repository": "https://github.com/xupei0610/SocialVAE",
+      "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "license": "MIT",
+      "evidence": "Author project publication metadata and direct official repository blobs/weights; bounded real execution"
+    },
+    {
+      "id": "SGCN",
+      "title": "SGCN: Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+      "authors": "Liushuai Shi; Le Wang; Chengjiang Long; Sanping Zhou; Mo Zhou; Zhenxing Niu; Gang Hua",
+      "publication": "CVPR 2021, pp. 8994–9003",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2021/html/Shi_SGCN_Sparse_Graph_Convolution_Network_for_Pedestrian_Trajectory_Prediction_CVPR_2021_paper.html",
+      "arxiv": "https://arxiv.org/abs/2104.01528",
+      "official_repository": "https://github.com/shuaishiliu/SGCN",
+      "current_head": "0d4ac44f44a0688a839f25070be1a4faeed5ade1",
+      "code_initial_commit": "ec2ac7353ccba7c9691b00c0e978a0631667fa94",
+      "complete_code_and_weights_commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+      "license": "MIT",
+      "evidence": "Publisher search metadata, arXiv and official complete history; code and checkpoint metadata only, not forward-tested"
+    }
+  ],
+  "limitations": [
+    "Academic MCP search endpoints were not exposed; preflight fallback HTTP endpoints were reachable, OpenAlex discovery returned 429 and was not retried",
+    "GitHub EqMotion issue-index API returned 403 rate limit; bounded targeted web issue search did not identify an author-supplied matching version",
+    "No ETH checkpoint, trajectory evaluation or ETH metric table was fetched by the Stage5 asset allowlist",
+    "A code MIT license is not a separate dataset redistribution license; raw data and weights remain local ignored assets"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "paths_metadata_only": [
+    "data/hotel/test/biwi_hotel.txt",
+    "data/hotel/train/biwi_eth.txt",
+    "data/hotel/train/crowds_zara01.txt",
+    "data/hotel/train/crowds_zara02.txt",
+    "data/hotel/train/crowds_zara03.txt",
+    "data/hotel/train/students001.txt",
+    "data/hotel/train/students003.txt",
+    "data/hotel/train/uni_examples.txt",
+    "data/zara02/test/crowds_zara02.txt",
+    "data/zara02/train/biwi_eth.txt",
+    "data/zara02/train/biwi_hotel.txt",
+    "data/zara02/train/crowds_zara01.txt",
+    "data/zara02/train/crowds_zara03.txt",
+    "data/zara02/train/students001.txt",
+    "data/zara02/train/students003.txt",
+    "data/zara02/train/uni_examples.txt"
+  ],
+  "ETH_trajectories_loaded": false,
+  "official_weight_exact_training_manifest_available": false,
+  "scope": "Directory membership only, not proof of actual checkpoint training provenance"
+}

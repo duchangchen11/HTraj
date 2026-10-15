@@ -1,0 +1,278 @@
+[
+  {
+    "fold": "hotel",
+    "category_specific_MLP_indices": {
+      "gcl_0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gcl_1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gcl_2": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_2": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_3": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_5": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_6": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_7": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_8": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_9": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_10": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_11": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_12": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_13": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_14": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_15": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_16": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_17": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_18": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "head_19": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "root_category_classifier_shapes": {
+      "category_mlp.0.weight": [
+        64,
+        256
+      ],
+      "category_mlp.0.bias": [
+        64
+      ],
+      "category_mlp.2.weight": [
+        4,
+        64
+      ],
+      "category_mlp.2.bias": [
+        4
+      ]
+    },
+    "inference_limitation": "Root Linear layer indices are not category labels. Category-specific indices inferred only from gcl/head ModuleLists. Does not specify the unavailable training architecture.",
+    "new_architecture_instantiated": false
+  },
+  {
+    "fold": "zara1",
+    "category_specific_MLP_indices": {
+      "gcl_0": [
+        0,
+        1
+      ],
+      "gcl_1": [
+        0,
+        1
+      ],
+      "gcl_2": [
+        0,
+        1
+      ],
+      "head_0": [
+        0,
+        1
+      ],
+      "head_1": [
+        0,
+        1
+      ],
+      "head_2": [
+        0,
+        1
+      ],
+      "head_3": [
+        0,
+        1
+      ],
+      "head_4": [
+        0,
+        1
+      ],
+      "head_5": [
+        0,
+        1
+      ],
+      "head_6": [
+        0,
+        1
+      ],
+      "head_7": [
+        0,
+        1
+      ],
+      "head_8": [
+        0,
+        1
+      ],
+      "head_9": [
+        0,
+        1
+      ],
+      "head_10": [
+        0,
+        1
+      ],
+      "head_11": [
+        0,
+        1
+      ],
+      "head_12": [
+        0,
+        1
+      ],
+      "head_13": [
+        0,
+        1
+      ],
+      "head_14": [
+        0,
+        1
+      ],
+      "head_15": [
+        0,
+        1
+      ],
+      "head_16": [
+        0,
+        1
+      ],
+      "head_17": [
+        0,
+        1
+      ],
+      "head_18": [
+        0,
+        1
+      ],
+      "head_19": [
+        0,
+        1
+      ]
+    },
+    "root_category_classifier_shapes": {
+      "category_mlp.0.weight": [
+        64,
+        384
+      ],
+      "category_mlp.0.bias": [
+        64
+      ],
+      "category_mlp.2.weight": [
+        4,
+        64
+      ],
+      "category_mlp.2.bias": [
+        4
+      ]
+    },
+    "inference_limitation": "Root Linear layer indices are not category labels. Category-specific indices inferred only from gcl/head ModuleLists. Does not specify the unavailable training architecture.",
+    "new_architecture_instantiated": false
+  }
+]

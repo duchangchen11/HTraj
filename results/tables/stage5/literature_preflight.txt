@@ -1,0 +1,5 @@
+PRE-FLIGHT REPORT
+  PubMed E-utilities  : OK (1.3s)
+  CrossRef REST       : OK (1.3s)
+  arXiv API           : OK (0.9s)
+  3/3 endpoints reachable.

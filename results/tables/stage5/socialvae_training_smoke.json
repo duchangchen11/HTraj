@@ -1,0 +1,27 @@
+{
+  "seed": 17,
+  "steps": 1,
+  "batch_targets": 16,
+  "recording": "crowds_zara01",
+  "initialization": "from scratch",
+  "optimizer": "Adam",
+  "learning_rate": 0.0005,
+  "losses": {
+    "loss": 5.081954002380371,
+    "rec": 5.0774102210998535,
+    "kl": 0.004543625749647617
+  },
+  "gradient_L2": 20.84901175525592,
+  "parameter_update_L2": 0.6573417565317605,
+  "step_seconds": 0.18583173499791883,
+  "peak_cuda_allocated_MiB": 101.31689453125,
+  "allocation_scope": "includes the retained inference model and fresh training model",
+  "strict_restore": true,
+  "checkpoint_sha256": "fff6d7df554b98be064b3da3281ace6212b431ace68d28382967f1f5966038ce",
+  "training_data_sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85",
+  "measured_batch_size": 16,
+  "official_training_batch_size": 128,
+  "full_training_completed": false,
+  "convergence_verified": false,
+  "ETH_evaluated": false
+}

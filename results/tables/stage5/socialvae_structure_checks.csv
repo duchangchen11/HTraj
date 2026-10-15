@@ -1,0 +1,17 @@
+fold,check,max_abs_error,tolerance,passed
+hotel,deterministic_repeat,0.0,1e-06,True
+hotel,target_batch_permutation,0.0,2e-05,True
+hotel,neighbor_index_permutation,5.960464477539063e-08,2e-05,True
+hotel,preprocessed_future_neighbor_isolation,0.0,0.0,True
+hotel,empty_vs_none_neighbors,0.0,0.0,True
+hotel,neighbor_padding,0.0,2e-05,True
+hotel,translation,2.872943878173828e-05,2e-05,True
+hotel,seeded_K20_repeat,0.0,1e-06,True
+zara02,deterministic_repeat,0.0,1e-06,True
+zara02,target_batch_permutation,0.0,2e-05,True
+zara02,neighbor_index_permutation,0.0,2e-05,True
+zara02,preprocessed_future_neighbor_isolation,0.0,0.0,True
+zara02,empty_vs_none_neighbors,0.0,0.0,True
+zara02,neighbor_padding,0.0,2e-05,True
+zara02,translation,9.72747802734375e-05,2e-05,True
+zara02,seeded_K20_repeat,0.0,1e-06,True

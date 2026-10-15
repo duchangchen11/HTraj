@@ -1,0 +1,11 @@
+{
+  "observed_raw_positions_identical": true,
+  "target_future_identical": true,
+  "history_neighbor_velocity_max_difference": 0.800000011920929,
+  "forecast_mean_difference_m": 0.4874526262283325,
+  "forecast_max_difference_m": 1.1258633136749268,
+  "expected_finding": "Official extend() fills a first-appearance neighbor velocity from next frame; at observation boundary this can use future",
+  "audit_passed": true,
+  "deployment_causality_passed": false,
+  "synthetic": true
+}

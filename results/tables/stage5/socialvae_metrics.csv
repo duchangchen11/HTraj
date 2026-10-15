@@ -1,0 +1,7 @@
+fold,mode,target_windows,ADE_m,FDE_m,independent_minima,official_paper_reproduced
+hotel,K1_prior_mean,128,0.18516377349442337,0.35871849818795454,False,False
+hotel,K1_first_sample,128,0.2861683282062586,0.5891974313781247,False,False
+hotel,K20_noFPC,128,0.09405517424238496,0.13115103220479796,True,False
+zara02,K1_prior_mean,128,0.4662602929456625,1.0296283028146718,False,False
+zara02,K1_first_sample,128,0.6375635908043478,1.3947960761724971,False,False
+zara02,K20_noFPC,128,0.24911157463793643,0.4477138190923142,True,False

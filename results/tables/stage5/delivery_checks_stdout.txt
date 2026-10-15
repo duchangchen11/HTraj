@@ -1,0 +1,25 @@
+{
+  "protected_files": 2385,
+  "protected_mismatches": [],
+  "pinned_source_and_asset_files": 28,
+  "pinned_sources_and_assets_unchanged": true,
+  "functional_candidates": [
+    "EqMotion",
+    "SocialVAE"
+  ],
+  "EqMotion_strict_load_passed": false,
+  "SocialVAE_strict_load_passed": true,
+  "SocialVAE_deployment_causality_passed": false,
+  "formal_training_completed": false,
+  "training_smoke_optimizer_steps": 1,
+  "ETH_evaluated": false,
+  "tests": 255,
+  "test_failures": 0,
+  "paired_target_windows": 256,
+  "original_stages_untouched": true,
+  "new_artifacts_below_2MB": true,
+  "external_assets_git_ignored": true,
+  "git_diff_check": true,
+  "automatic_push": false,
+  "git_HEAD_at_check": "daaa5e5b0d00254bff1560fb92fccb36aa787028"
+}

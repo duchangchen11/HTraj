@@ -1,0 +1,21 @@
+{
+  "primary": {
+    "model": "SocialVAE",
+    "commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+    "status": "conditional primary: strict checkpoints and bounded execution pass; original loader fails raw history causality; full reproduction unverified"
+  },
+  "backup": {
+    "model": "SGCN",
+    "commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+    "status": "conditional historical backup, static audit only; checkpoint/functionality/permutation gates pending"
+  },
+  "EqMotion": "temporarily unavailable: no matching reachable official ETH/UCY code/checkpoint version; strict loading fails",
+  "HighGraph": "literature reference only: no public implementation commit located within bounded official-source search",
+  "closed_structure_iterations": ["HTraj TOHI prototypes", "Stage4.2 PTN G0/G1 family"],
+  "legacy_artifacts": "preserve unchanged as frozen controls and negative evidence",
+  "new_method_design_ready": false,
+  "next_action_recommendation_only": "audit and independently version a causal SocialVAE data/selection protocol, then preregister limited from-scratch public baseline training",
+  "formal_training_completed": false,
+  "ETH_evaluated": false,
+  "automatic_push": false
+}

@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/shuaishiliu/SGCN",
+  "complete_release_commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+  "code_comparison": {
+    "model.py": {
+      "original_blob": "67237370506c7440b0d1f0c78132eb360968eabe",
+      "complete_release_blob": "67237370506c7440b0d1f0c78132eb360968eabe",
+      "identical": true
+    },
+    "train.py": {
+      "original_blob": "6ba639305f428332b9146c75ce8d657df86e158c",
+      "complete_release_blob": "6ba639305f428332b9146c75ce8d657df86e158c",
+      "identical": true
+    },
+    "test.py": {
+      "original_blob": "a5ddfd233507016576d007cbe19f3c36a143dcc4",
+      "complete_release_blob": "a5ddfd233507016576d007cbe19f3c36a143dcc4",
+      "identical": true
+    },
+    "utils.py": {
+      "original_blob": "34551b7c36b7e28dbcecb7515354eb360c8543d8",
+      "complete_release_blob": "34551b7c36b7e28dbcecb7515354eb360c8543d8",
+      "identical": true
+    },
+    "metrics.py": {
+      "original_blob": "319da6ae1e507590135b082150263c2f0cca4763",
+      "complete_release_blob": "319da6ae1e507590135b082150263c2f0cca4763",
+      "identical": true
+    },
+    "LICENSE": {
+      "original_blob": "cba4e9d626924113f7aa635e30c189e683811864",
+      "complete_release_blob": "cba4e9d626924113f7aa635e30c189e683811864",
+      "identical": true
+    }
+  },
+  "nonETH_checkpoint_inventory_metadata_only": "100644 blob f29e89eb419e7ac3f19cd17c3dd716b6db413535     521\tcheckpoints/hotel/args.pkl\n100644 blob bdcba32cb5f2ef93dd75792c5ca0745ce8a7d241     113\tcheckpoints/hotel/constant_metrics.pkl\n100644 blob aa8689caff22782d9b2597a444314b9b9427810a  131044\tcheckpoints/hotel/train_best.pth\n100644 blob 65e75ca8d35806f880d03e726bef5ab154a1c478  131044\tcheckpoints/hotel/val_best.pth\n100644 blob bf7590a5eeeed15163b6a1364c527fff04313075     521\tcheckpoints/zara2/args.pkl\n100644 blob 74890b371edd52c14705df96dcc6d733c52d2704     114\tcheckpoints/zara2/constant_metrics.pkl\n100644 blob 1427bfd4a5220ed1543fac3c214870a2cc4d5bc0  131014\tcheckpoints/zara2/train_best.pth\n100644 blob 253cad3264e576c25c2de07bad980c2e80457aa1  131014\tcheckpoints/zara2/val_best.pth\n",
+  "checkpoint_loaded": false,
+  "forward_executed": false
+}

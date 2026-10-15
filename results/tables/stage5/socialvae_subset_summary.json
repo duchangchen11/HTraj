@@ -1,0 +1,18 @@
+{
+  "hotel": {
+    "targets": 128,
+    "unique_target_ids": 9,
+    "unique_window_starts": 89,
+    "same_candidate_minADE_minFDE_count": 80,
+    "near_boundary_new_neighbor_cases": 1,
+    "mean_history_context_agents": 5.328125
+  },
+  "zara02": {
+    "targets": 128,
+    "unique_target_ids": 13,
+    "unique_window_starts": 44,
+    "same_candidate_minADE_minFDE_count": 67,
+    "near_boundary_new_neighbor_cases": 0,
+    "mean_history_context_agents": 6.2890625
+  }
+}

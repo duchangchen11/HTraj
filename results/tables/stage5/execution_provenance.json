@@ -1,0 +1,15 @@
+{
+  "execution_HEAD": "daaa5e5b0d00254bff1560fb92fccb36aa787028",
+  "plan_committed_before_execution": true,
+  "runner_was_untracked_at_execution": true,
+  "runner_sha256_at_execution": "b284c81b40f166ec831058f9b20f5d13941a845f022d40faaf7ccb8120f3f6f5",
+  "runner_sha256_now": "b284c81b40f166ec831058f9b20f5d13941a845f022d40faaf7ccb8120f3f6f5",
+  "provenance_note": "Recorded HEAD identifies preregistration; final delivery commit includes the identical runner bytes. Do not describe HEAD alone as the full executed wrapper version. Official model has its own exact pinned upstream commit.",
+  "normalization_test_tolerance": "structure_checks.csv tolerance is BOTH atol and rtol in torch.allclose; max_abs_error alone can exceed atol. No bitwise translation guarantee.",
+  "pytest_initial_failure": "External ROS plugin autoload required missing lark; no tests collected. Re-run disables external plugin autoload, not project tests.",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "pytest": "8.3.3"
+  }
+}
