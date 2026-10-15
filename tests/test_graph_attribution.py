@@ -77,6 +77,22 @@ def test_nll_matches_frozen_official_objective_and_valid_gaussian():
     mu,samples=gaussian_predictions(p,torch.zeros(2,5,2),torch.zeros(2,20,12,5,2))
     assert mu.shape==(2,12,5,2) and samples.shape==(2,20,12,5,2) and torch.isfinite(samples).all()
     assert torch.equal(samples,mu[:,None].expand_as(samples))
+    torch.testing.assert_close(mu,p[...,:2].cumsum(1),atol=2e-6,rtol=2e-6)
+
+
+@pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA compatibility check')
+def test_deterministic_cuda_gaussian_integration():
+    import os
+    os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG',':4096:8')
+    prior=torch.are_deterministic_algorithms_enabled()
+    try:
+        torch.use_deterministic_algorithms(True)
+        parameters=torch.randn(2,12,5,5,device='cuda')*.1;last=torch.zeros(2,5,2,device='cuda');noise=torch.randn(2,20,12,5,2,device='cuda')
+        mean,samples=gaussian_predictions(parameters,last,noise)
+        again,draws=gaussian_predictions(parameters,last,noise)
+        assert torch.equal(mean,again) and torch.equal(samples,draws)
+        torch.testing.assert_close(mean.cpu(),parameters[...,:2].cpu().cumsum(1),atol=1e-6,rtol=1e-6)
+    finally:torch.use_deterministic_algorithms(prior)
 
 
 def test_future_label_change_does_not_change_inputs_and_padded_loss():

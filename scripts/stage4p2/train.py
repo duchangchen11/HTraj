@@ -22,7 +22,8 @@ def state_hash(state):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--fold',required=True,choices=['crowds_zara02','biwi_hotel'])
-    parser.add_argument('--model',required=True,choices=['G0','G1','G2']);parser.add_argument('--phase',required=True,choices=['smoke','finish']);args=parser.parse_args()
+    parser.add_argument('--model',required=True,choices=['G0','G1','G2']);parser.add_argument('--phase',required=True,choices=['smoke','finish'])
+    parser.add_argument('--attempt',default='deterministic_scan',choices=['deterministic_scan']);args=parser.parse_args()
     config=json.loads(Path('configs/stage4p2/protocol.json').read_text());torch.set_num_threads(config['cpu_threads'])
     seed=config['seed'];random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.benchmark=False;torch.backends.cudnn.deterministic=True;torch.use_deterministic_algorithms(True)
@@ -32,7 +33,7 @@ def main():
         decision=json.loads(Path('results/tables/stage4p2/first_round_decision.json').read_text());assert decision['run_G2']
     cache=torch.load(config['cache'],weights_only=False)
     samples={split:[cache['records'][r][i] for r,i in pairs] for split,pairs in cache['folds'][args.fold].items()}
-    result=Path('results/tables/stage4p2')/args.fold/args.model;checkpoints=Path('experiments/stage4p2')/args.fold/args.model
+    result=Path('results/tables/stage4p2')/args.fold/args.model/args.attempt;checkpoints=Path('experiments/stage4p2')/args.fold/args.model/args.attempt
     model=GraphAttributionModel(args.model,config['width'],config['graph']['gamma']).cuda()
     optimizer=torch.optim.SGD(model.parameters(),lr=config['lr'],momentum=config['momentum'],weight_decay=config['weight_decay'])
     initial_hash=state_hash(model.state_dict());source_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
@@ -41,7 +42,7 @@ def main():
     start=1;previous=[]
     if args.phase=='smoke':
         assert not result.exists() and not checkpoints.exists();result.mkdir(parents=True);checkpoints.mkdir(parents=True)
-        write_json_new(result/'run_config.json',dict(**config,fold=args.fold,model=args.model,source_commit=source_commit,initial_state_sha256=initial_hash,
+        write_json_new(result/'run_config.json',dict(**config,fold=args.fold,model=args.model,attempt=args.attempt,source_commit=source_commit,initial_state_sha256=initial_hash,
             protocol_sha256=sha256('configs/stage4p2/protocol.json'),effective_parameters=sum(p.numel() for p in model.parameters()),
             entrypoint_sha256=sha256(__file__),environment=sys.prefix,python=sys.version,torch=str(torch.__version__),GPU=torch.cuda.get_device_name(),
             code_files={str(p):sha256(p) for p in sorted(Path('src/graph_attribution').glob('*.py'))}))

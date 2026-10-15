@@ -68,5 +68,11 @@ def gaussian_predictions(parameters,last,noise):
     if not torch.isfinite(parameters).all() or not (1-rho.square()>0).all():raise FloatingPointError('Invalid Gaussian')
     e1,e2=noise[...,0],noise[...,1]
     delta=torch.stack([sx[:,None]*e1,sy[:,None]*(rho[:,None]*e1+(1-rho.square()).sqrt()[:,None]*e2)],-1)
-    samples=last[:,None,None]+(mean[:,None]+delta).cumsum(2)
-    return last[:,None]+mean.cumsum(1),samples
+    # CUDA cumsum is rejected by PyTorch2.5 deterministic mode. A fixed12-step
+    # scan evaluates the same position-integration formula without that kernel.
+    def integrate(displacements,dim):
+        steps=displacements.unbind(dim);values=[steps[0]]
+        for step in steps[1:]:values.append(values[-1]+step)
+        return torch.stack(values,dim)
+    samples=last[:,None,None]+integrate(mean[:,None]+delta,2)
+    return last[:,None]+integrate(mean,1),samples
