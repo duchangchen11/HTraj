@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "provider": "OpenAlex skill fallback",
+  "error": "SSL UNEXPECTED_EOF_WHILE_READING",
+  "papers": [],
+  "fallback": "official CVF and arXiv verified with web tool",
+  "academic_MCP_tools_available": false
+}

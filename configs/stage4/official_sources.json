@@ -1,0 +1,262 @@
+{
+  "ETH_evaluated": false,
+  "base_commit": "f12146143514d2b6eb6cf14877cb5b4cae454543",
+  "sources": [
+    {
+      "ETH_metrics_read": false,
+      "ETH_trajectories_checked_out": false,
+      "assets": [
+        {
+          "bytes": 143799,
+          "local": "data/external/stage4/assets/social_stgcnn/datasets/hotel/test/biwi_hotel.txt",
+          "official_path": "datasets/hotel/test/biwi_hotel.txt",
+          "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+        },
+        {
+          "bytes": 879714,
+          "local": "data/external/stage4/assets/social_stgcnn/datasets/univ/test/students001.txt",
+          "official_path": "datasets/univ/test/students001.txt",
+          "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+        },
+        {
+          "bytes": 724279,
+          "local": "data/external/stage4/assets/social_stgcnn/datasets/univ/test/students003.txt",
+          "official_path": "datasets/univ/test/students003.txt",
+          "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+        },
+        {
+          "bytes": 205711,
+          "local": "data/external/stage4/assets/social_stgcnn/datasets/zara1/test/crowds_zara01.txt",
+          "official_path": "datasets/zara1/test/crowds_zara01.txt",
+          "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+        },
+        {
+          "bytes": 392227,
+          "local": "data/external/stage4/assets/social_stgcnn/datasets/zara2/test/crowds_zara02.txt",
+          "official_path": "datasets/zara2/test/crowds_zara02.txt",
+          "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+        },
+        {
+          "bytes": 341,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-hotel/args.pkl",
+          "official_path": "checkpoint/social-stgcnn-hotel/args.pkl",
+          "sha256": "f102d6b4cbbac3ac4da5b7d4c1f71610bcd13de3b730a51f9fa2d8f530d4a9e4"
+        },
+        {
+          "bytes": 36966,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-hotel/val_best.pth",
+          "official_path": "checkpoint/social-stgcnn-hotel/val_best.pth",
+          "sha256": "c5faeb80523235e8091ce53b8c119e247e0363433180dfec729132ed40b62ded"
+        },
+        {
+          "bytes": 339,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-univ/args.pkl",
+          "official_path": "checkpoint/social-stgcnn-univ/args.pkl",
+          "sha256": "853b3437aa1e2d7a6568de345e670dc348538847bb39936a6c0bf290ab5d1127"
+        },
+        {
+          "bytes": 36890,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-univ/val_best.pth",
+          "official_path": "checkpoint/social-stgcnn-univ/val_best.pth",
+          "sha256": "6fc75f7725818442a96a688d696a3c4a5330e4f436136e85fc3f94f0d146da97"
+        },
+        {
+          "bytes": 341,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-zara1/args.pkl",
+          "official_path": "checkpoint/social-stgcnn-zara1/args.pkl",
+          "sha256": "612aacb0560411d98a02c00cd7b2bbf3305a6d0660f9528fd4f4a548d6f94a5c"
+        },
+        {
+          "bytes": 36966,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-zara1/val_best.pth",
+          "official_path": "checkpoint/social-stgcnn-zara1/val_best.pth",
+          "sha256": "982d286ea16acf43289676b6050f7a0e6080eda2bddd649f42e41e67442c26b1"
+        },
+        {
+          "bytes": 341,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-zara2/args.pkl",
+          "official_path": "checkpoint/social-stgcnn-zara2/args.pkl",
+          "sha256": "b480b5921cdded8fabf06b93ab737ebdddbf1e75ddb2d0abba85832b62f460c5"
+        },
+        {
+          "bytes": 36956,
+          "local": "data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-zara2/val_best.pth",
+          "official_path": "checkpoint/social-stgcnn-zara2/val_best.pth",
+          "sha256": "ad1ab6c1cc22aed38fac7c912209e21c81754fd5b2192988e08362d6e107112b"
+        }
+      ],
+      "commit": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1",
+      "files": [
+        {
+          "bytes": 1074,
+          "local": "third_party/stage4/social_stgcnn/LICENSE",
+          "official_path": "LICENSE",
+          "sha256": "364f9d362d639560c45bcc7450e4f39ec80474923f116911c8745c28f4d56985"
+        },
+        {
+          "bytes": 3619,
+          "local": "third_party/stage4/social_stgcnn/requirements.txt",
+          "official_path": "requirements.txt",
+          "sha256": "42aa8b4869f7570ac3d82fba9f99091dd89fba921ea7efee027257f65b02c7c5"
+        },
+        {
+          "bytes": 7003,
+          "local": "third_party/stage4/social_stgcnn/model.py",
+          "official_path": "model.py",
+          "sha256": "178e623334a3d91ec5caf5a302de0045e18e959142d07a5bad8a2c05cfbbb968"
+        },
+        {
+          "bytes": 8883,
+          "local": "third_party/stage4/social_stgcnn/utils.py",
+          "official_path": "utils.py",
+          "sha256": "d8b9cbf06e621eddd68fc6994320f7f4d90006d7491e0337d1542b2e4c8186bf"
+        },
+        {
+          "bytes": 3006,
+          "local": "third_party/stage4/social_stgcnn/metrics.py",
+          "official_path": "metrics.py",
+          "sha256": "7ce16f805a207e5b80c9aa61d5c1241f54d9a04c743ab01f90ff169ee0373730"
+        },
+        {
+          "bytes": 7603,
+          "local": "third_party/stage4/social_stgcnn/train.py",
+          "official_path": "train.py",
+          "sha256": "d566f1cfb7b8d16847d3d06b3aa1cfdc36fde12180ff6f044de272fcb0697aec"
+        },
+        {
+          "bytes": 6049,
+          "local": "third_party/stage4/social_stgcnn/test.py",
+          "official_path": "test.py",
+          "sha256": "e4b63bb38e81027685efece6ef0e14fd5f807e9e79e36c999a27c26b7d415b22"
+        },
+        {
+          "bytes": 3426,
+          "local": "data/external/stage4/readmes/social_stgcnn/README.MD",
+          "official_path": "README.MD",
+          "sha256": "caf1ec3f3b5c48d1c261d4ab60fc8776289d341e18408a4bb123d5822a9f9a2e"
+        }
+      ],
+      "name": "social_stgcnn",
+      "url": "https://github.com/abduallahmohamed/Social-STGCNN"
+    },
+    {
+      "ETH_metrics_read": false,
+      "ETH_trajectories_checked_out": false,
+      "assets": [
+        {
+          "bytes": 29616623,
+          "local": "data/external/stage4/assets/eqmotion/eth_ucy/saved_models/hotel_ckpt.pth.tar",
+          "official_path": "eth_ucy/saved_models/hotel_ckpt.pth.tar",
+          "sha256": "7505fd78ec53755e665ba291245ee2cd12059314b1f5308383f77f1f95c50025"
+        },
+        {
+          "bytes": 61967633,
+          "local": "data/external/stage4/assets/eqmotion/eth_ucy/saved_models/zara1_ckpt.pth.tar",
+          "official_path": "eth_ucy/saved_models/zara1_ckpt.pth.tar",
+          "sha256": "e8140e2b0ad30eea9038c0ff1e7e126624bbc94256b6cdbfc6ae31f3a83a274b"
+        },
+        {
+          "bytes": 614905,
+          "local": "data/external/stage4/assets/eqmotion/eth_ucy/data/hotel/biwi_hotel.txt",
+          "official_path": "eth_ucy/data/hotel/biwi_hotel.txt",
+          "sha256": "90c4b0f7514b307b53481d8e2e23f9ba1ea9202d732634291c01267742d66746"
+        },
+        {
+          "bytes": 566429,
+          "local": "data/external/stage4/assets/eqmotion/eth_ucy/data/zara1/crowds_zara01.txt",
+          "official_path": "eth_ucy/data/zara1/crowds_zara01.txt",
+          "sha256": "7d2c9a70e33594dbaf3142ec97ade2bc07f41ea681cf0e399057c8fa1da0f5f8"
+        }
+      ],
+      "commit": "5aec2e0b61c511fa93a24138dd90da59a089084b",
+      "files": [
+        {
+          "bytes": 1072,
+          "local": "third_party/stage4/eqmotion/LICENSE",
+          "official_path": "LICENSE",
+          "sha256": "f1d3136868b8e8bd929d21257c3b9c6970e398a052d6a7b5ed02cfc72c49caf1"
+        },
+        {
+          "bytes": 13608,
+          "local": "third_party/stage4/eqmotion/eth_ucy/dataloader.py",
+          "official_path": "eth_ucy/dataloader.py",
+          "sha256": "ab5dc85e0cc6486d24c265071ea81376d1c533975b4d7b48fc462e3ac060a8cc"
+        },
+        {
+          "bytes": 13790,
+          "local": "third_party/stage4/eqmotion/eth_ucy/dataloader_diverse.py",
+          "official_path": "eth_ucy/dataloader_diverse.py",
+          "sha256": "51bec703ecbde61c4e9d3d1a26e0e51fc13fb1331b126d8faff525219f3656f2"
+        },
+        {
+          "bytes": 7476,
+          "local": "third_party/stage4/eqmotion/eth_ucy/gcl_t.py",
+          "official_path": "eth_ucy/gcl_t.py",
+          "sha256": "ca6856d408c99a8cd97184861a646a87406bf2b09ec1d37dd517bc71c80d2e06"
+        },
+        {
+          "bytes": 12111,
+          "local": "third_party/stage4/eqmotion/eth_ucy/model_t.py",
+          "official_path": "eth_ucy/model_t.py",
+          "sha256": "5d31dd6c5144ec4715a006bf1c3e5e8753a71a2dd87dc4ab42b1b80b98a6cfcc"
+        },
+        {
+          "bytes": 7016,
+          "local": "third_party/stage4/eqmotion/eth_ucy/preprocessor.py",
+          "official_path": "eth_ucy/preprocessor.py",
+          "sha256": "790a3e4ceb7e24e2feda6335b117662085ea260d726af5617bf9efc06c976938"
+        },
+        {
+          "bytes": 5247,
+          "local": "third_party/stage4/eqmotion/eth_ucy/process_eth_data.py",
+          "official_path": "eth_ucy/process_eth_data.py",
+          "sha256": "bd4275a9f11d7f7ae585134007d66e107d59422a10ffd9fb5fffba491804e5eb"
+        },
+        {
+          "bytes": 7080,
+          "local": "third_party/stage4/eqmotion/eth_ucy/process_eth_data_diverse.py",
+          "official_path": "eth_ucy/process_eth_data_diverse.py",
+          "sha256": "faf14a90298643e467f6a509c6cfb8bc98435dd72bb5938a9a78247e11fe0f7d"
+        },
+        {
+          "bytes": 13255,
+          "local": "third_party/stage4/eqmotion/main_eth_diverse.py",
+          "official_path": "main_eth_diverse.py",
+          "sha256": "1dc93be49d4f632df4d865647f66b0bc70d55d784f59219faaf3ec12cb5c87ad"
+        },
+        {
+          "bytes": 14340,
+          "local": "third_party/stage4/eqmotion/main_h36m.py",
+          "official_path": "main_h36m.py",
+          "sha256": "5a88b3904a28407b7eca392c22e182c38d951e8f655e8dfcfa955a4aaf4fd3dd"
+        },
+        {
+          "bytes": 10928,
+          "local": "third_party/stage4/eqmotion/main_md17.py",
+          "official_path": "main_md17.py",
+          "sha256": "ea30db386916606c1692136337343942da51f2d123deb671a600bb5d31fce446"
+        },
+        {
+          "bytes": 10737,
+          "local": "third_party/stage4/eqmotion/main_nbody.py",
+          "official_path": "main_nbody.py",
+          "sha256": "a0f27e3d5b2978f431f9557d93b78a2960e2650cb7df37be40957423d66ac1c8"
+        },
+        {
+          "bytes": 12330,
+          "local": "third_party/stage4/eqmotion/main_nbody_reasoning.py",
+          "official_path": "main_nbody_reasoning.py",
+          "sha256": "a75733b4d58d57d22a8c88a9f65df4b38fc6cd603f0a73c280a7754273c9c260"
+        },
+        {
+          "bytes": 5958,
+          "local": "data/external/stage4/readmes/eqmotion/README.md",
+          "official_path": "README.md",
+          "sha256": "aded869035346f0a84b7786209d26355fd33c223046ccf2c4d7c009babe336a2"
+        }
+      ],
+      "name": "eqmotion",
+      "url": "https://github.com/MediaBrain-SJTU/EqMotion"
+    }
+  ]
+}

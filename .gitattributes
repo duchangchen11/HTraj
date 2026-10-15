@@ -1,0 +1,3 @@
+# Preserve licensed upstream snapshots byte-for-byte; HTraj edits retain
+# normal whitespace checks. These exceptions cover upstream formatting only.
+third_party/stage4/** whitespace=-trailing-space,-blank-at-eof

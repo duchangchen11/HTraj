@@ -1,0 +1,45 @@
+{
+  "ETH_scores_used": false,
+  "scope": "targeted primary-source audit, not exhaustive 2026 novelty survey",
+  "skill": "nature-academic-search",
+  "sources": [
+    {
+      "arxiv": "2002.11927",
+      "repository": "https://github.com/abduallahmohamed/Social-STGCNN",
+      "status": "verified official conference and author repository",
+      "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.html",
+      "venue": "CVPR",
+      "year": 2020
+    },
+    {
+      "arxiv": "2303.10876",
+      "repository": "https://github.com/MediaBrain-SJTU/EqMotion",
+      "status": "verified official conference and author repository",
+      "title": "EqMotion: Equivariant Multi-Agent Motion Prediction With Invariant Interaction Reasoning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Xu_EqMotion_Equivariant_Multi-Agent_Motion_Prediction_With_Invariant_Interaction_Reasoning_CVPR_2023_paper.html",
+      "venue": "CVPR",
+      "year": 2023
+    },
+    {
+      "arxiv": "2104.01528",
+      "repository": "https://github.com/shuaishiliu/SGCN",
+      "scope": "sparse directed spatial/temporal graph already studied; no experiments here",
+      "title": "SGCN: Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+      "url": "https://arxiv.org/abs/2104.01528",
+      "venue": "CVPR",
+      "year": 2021
+    },
+    {
+      "scope": "trajectory evaluation and generative sample metrics already studied; no experiments here",
+      "title": "Social-Implicit: Rethinking Trajectory Prediction Evaluation and The Effectiveness of Implicit Maximum Likelihood Estimation",
+      "url": "https://github.com/abduallahmohamed/Social-Implicit",
+      "venue": "ECCV",
+      "year": 2022
+    }
+  ],
+  "workflows": [
+    "citation-verification",
+    "multi-source-search"
+  ]
+}

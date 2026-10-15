@@ -1,0 +1,13 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "cuda": "12.4",
+  "environment_method": "conda offline clone of installed dependency environment into independent experiments/stage4/venv; no old-project model/results imported",
+  "isolated_environment": true,
+  "networkx": "3.4.2",
+  "numpy": "1.26.4",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "prefix": "/home/lrj/HTraj/experiments/stage4/venv",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "scipy": "1.14.1",
+  "torch": "2.5.1+cu124"
+}

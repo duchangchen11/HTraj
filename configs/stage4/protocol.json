@@ -1,0 +1,67 @@
+{
+  "ETH_evaluated": false,
+  "ETH_results_read": false,
+  "K": 20,
+  "auto_push": false,
+  "base_commit": "f12146143514d2b6eb6cf14877cb5b4cae454543",
+  "cpu_threads": 1,
+  "device": "cuda",
+  "endpoint": "full four-scene Social checkpoint evaluation with3 fixed MonteCarlo seeds; at most128 target cases each two EqMotion folds; source/protocol/novelty audit; local commit only",
+  "eqmotion_batch_size": 16,
+  "eqmotion_channels": {
+    "hotel": 64,
+    "zara1": 128
+  },
+  "eqmotion_compatibility": "np.int=int API alias in wrapper; preprocessor path as explicit argument; checkpoints strict=True rather than silently ignoring missing keys",
+  "eqmotion_execution": "do not run main() (--test falls through into training); isolated test() only; preprocess selected test files, no official train pool or ETH files loaded; absolute path redirected by wrapper",
+  "eqmotion_folds": [
+    "hotel",
+    "zara1"
+  ],
+  "eqmotion_geometry_checks": "first batch, fixed .731rad rotation, translation[3,-2], reflection, agent permutation; output equivariance and category invariance; not new model/selection",
+  "eqmotion_max_target_samples_per_fold": 128,
+  "eqmotion_metrics": [
+    "K1_head0 predeclared deterministic head",
+    "K20_independent_min over20 learned output heads, target0 only as official evaluator"
+  ],
+  "eqmotion_neighbor_budget": {
+    "hotel": 1,
+    "zara1": 3
+  },
+  "eqmotion_neighbor_radius_m": 5.0,
+  "eqmotion_scope": "bounded official pretrained functional validation; chronological first128 target-centered examples per fold; original preprocessor complete8/12; metadata and strict key checks; not full published performance reproduction",
+  "forbidden": [
+    "new training",
+    "ETH data/evaluation scores",
+    "loss/architecture change",
+    "sample-count/head/seed/data choices based on resulting metrics",
+    "read stored official metrics.pkl"
+  ],
+  "independent_confirmation": false,
+  "monte_carlo_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "nominal_dt": 0.4,
+  "obs_len": 8,
+  "pred_len": 12,
+  "pretrained_ETH_training_exposure": "nonETH official pretrained checkpoints may have seen ETH training splits in their upstream training; unknown upstream selection history; this run never loads ETH trajectory/evaluation metrics; not ETH-free training or future external test independence claim",
+  "protocol_comparison": "official full-recording/complete20 context vs HTraj originalval/history-complete context; official pools include extra recordings and ETH-trained pretrained models; not fair K1-vsK20 or same-data model ranking",
+  "social_compatibility": "nx.from_numpy_matrix alias to nx.from_numpy_array, no_grad, num_workers0; upstream source byte-identical, no model/loss change",
+  "social_execution": "AST extract and execute upstream test() unchanged; avoid upstream global driver reading saved metrics/ETH, aggregate4 not5; numerical equality check against independent error calculation",
+  "social_folds": [
+    "hotel",
+    "univ",
+    "zara1",
+    "zara2"
+  ],
+  "social_metrics": [
+    "K1_first_sample from the same20 bank",
+    "K1_distribution_mean deterministic Gaussian mean",
+    "K20_independent_min per-person separate ADE/FDE minima"
+  ],
+  "social_scope": "complete official test partitions for four nonETH benchmark scenes, five recording files; official supplied val_best per fold; no HTraj data/weights substituted",
+  "stage": "4",
+  "training": false
+}
