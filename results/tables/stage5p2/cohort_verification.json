@@ -1,0 +1,64 @@
+[
+  {
+    "exact_target_ID_order_and_history_and_future_SHA_verified": true,
+    "full_pass_steps": 213,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "old_target_metadata_sha256": "4d9646fc745430fcd9e82328179e8a09503ee9200e0aea6f2c14f34f144df06c",
+    "people": 892,
+    "recordings": [
+      "crowds_zara01",
+      "crowds_zara02",
+      "students001",
+      "students003"
+    ],
+    "split": "train",
+    "target_windows": 27145,
+    "validation_recording": "biwi_hotel",
+    "windows": 2121
+  },
+  {
+    "exact_target_ID_order_and_history_and_future_SHA_verified": true,
+    "full_pass_steps": 3,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "old_target_metadata_sha256": "1268f9bc51012926c7aee321ae214df905c18322ace8006de1ceee3c5a153798",
+    "people": 28,
+    "recordings": [
+      "biwi_hotel"
+    ],
+    "split": "validation",
+    "target_windows": 318,
+    "validation_recording": "biwi_hotel",
+    "windows": 94
+  },
+  {
+    "exact_target_ID_order_and_history_and_future_SHA_verified": true,
+    "full_pass_steps": 184,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "old_target_metadata_sha256": "b6f35174804b04125ec5f9691a29d08a84227423a6b288d0063f9d872901b4e7",
+    "people": 833,
+    "recordings": [
+      "biwi_hotel",
+      "crowds_zara01",
+      "students001",
+      "students003"
+    ],
+    "split": "train",
+    "target_windows": 23545,
+    "validation_recording": "crowds_zara02",
+    "windows": 1684
+  },
+  {
+    "exact_target_ID_order_and_history_and_future_SHA_verified": true,
+    "full_pass_steps": 9,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "old_target_metadata_sha256": "c84941b0b108dfaa79c579e6dcf3d54f204f7be8cf1f4e0ebb67b9b034e69b7f",
+    "people": 35,
+    "recordings": [
+      "crowds_zara02"
+    ],
+    "split": "validation",
+    "target_windows": 1092,
+    "validation_recording": "crowds_zara02",
+    "windows": 172
+  }
+]
