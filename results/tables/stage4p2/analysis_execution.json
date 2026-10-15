@@ -1,0 +1,68 @@
+{
+  "ETH_evaluated": false,
+  "analysis_script_sha256": "f3108b32eacbb1f7ee3f9109834b0319c06093053c56aabe0afd91da457445c8",
+  "cache_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "logs": [
+    {
+      "path": "experiments/stage4p2/analysis.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/stage4p2/biwi_hotel_G0_finish_deterministic_scan.log",
+      "sha256": "460c719b49337b10c18353c8d16a56d86a6e8eafb83dbd94182159d40bf50677"
+    },
+    {
+      "path": "experiments/stage4p2/biwi_hotel_G0_smoke_deterministic_scan.log",
+      "sha256": "3d0009d6523cc731009e846a8700d73bd826dffb08960ce48e30f8f3930959e1"
+    },
+    {
+      "path": "experiments/stage4p2/biwi_hotel_G1_finish_deterministic_scan.log",
+      "sha256": "58356220249f93a201a28f0c018616ae9560623c0e227547635759554af1f604"
+    },
+    {
+      "path": "experiments/stage4p2/biwi_hotel_G1_smoke_deterministic_scan.log",
+      "sha256": "c734687969e40ac9ec822cefff31a74ef3fa642f0f74c4fa9ae07692d80155a8"
+    },
+    {
+      "path": "experiments/stage4p2/compatibility_tests.log",
+      "sha256": "cab25240050f0623b1622b7d7d506a34864d4d0d61de244714383cb5f248d93c"
+    },
+    {
+      "path": "experiments/stage4p2/crowds_zara02_G0_finish_deterministic_scan.log",
+      "sha256": "92165f78396c758f7a868ad529b1c5dfe57b2f70d5f3986acaa69f4b910fd02e"
+    },
+    {
+      "path": "experiments/stage4p2/crowds_zara02_G0_smoke.log",
+      "sha256": "7b84f99c168c1e7552dbbbdb60a6e96f5d580fb6c4050cd81257ebf9bf65bca7"
+    },
+    {
+      "path": "experiments/stage4p2/crowds_zara02_G0_smoke_deterministic_scan.log",
+      "sha256": "0e95d2d215874083dc47dab3b739e3c6a76a25cf68422468f3c1e1de8b2db6e9"
+    },
+    {
+      "path": "experiments/stage4p2/crowds_zara02_G1_finish_deterministic_scan.log",
+      "sha256": "207b2458e0944be8ab9e30acfde0b621b3678eb5df312bd2616290d3dd36db38"
+    },
+    {
+      "path": "experiments/stage4p2/crowds_zara02_G1_smoke_deterministic_scan.log",
+      "sha256": "cb1722d19ad6fa54daf0924a80db59ebbe5be7aed88bb9e74fb3cadc01675bea"
+    },
+    {
+      "path": "experiments/stage4p2/preparation.log",
+      "sha256": "66ef327a45a8b8c80eafc12a96dd027e2890da6e7945ef2d336131daddc3c509"
+    },
+    {
+      "path": "experiments/stage4p2/pretraining_tests.log",
+      "sha256": "203e46daf796a73eeac320d6f33ae412fe036df6b24094b8bb8fb127f4241f90"
+    },
+    {
+      "path": "experiments/stage4p2/previous_audit.log",
+      "sha256": "3a8af5ca07b3147323effbac43fd0a187efe01666fb85c1346f2d2eb6158cc05"
+    }
+  ],
+  "overlap_warning": "target windows are dependent; recording/person aggregates descriptive only; no iid-window p-values",
+  "protocol_sha256": "3ea2dad7a3cea6feb5335d02fd3952b778fc0b2112766e3a63ba93e57c0d67ba",
+  "seconds": 20.398902649001684,
+  "source_commit": "0a1706d6c6253abeb12fa7d7dccf6748d98e6ed3",
+  "training_commit": "0a1706d6c6253abeb12fa7d7dccf6748d98e6ed3"
+}

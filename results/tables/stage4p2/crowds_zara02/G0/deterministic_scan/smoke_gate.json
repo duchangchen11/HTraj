@@ -1,0 +1,8 @@
+{
+  "checkpoint": "experiments/stage4p2/crowds_zara02/G0/deterministic_scan/epoch005.pt",
+  "epoch": 5,
+  "exact_restore": true,
+  "max_restore_difference": 0.0,
+  "passed": true,
+  "seconds": 13.0845339410007
+}

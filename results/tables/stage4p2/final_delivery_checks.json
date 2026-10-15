@@ -1,0 +1,99 @@
+{
+  "ETH_evaluated": false,
+  "G2_trained": false,
+  "additional_seeds_executed": false,
+  "base_commit": "ce77c49c68367b169bc6d8f7a29bb4cba4400575",
+  "branch": "feat/stage4p2-graph-attribution",
+  "checkpoints_verified": 120,
+  "errors": 0,
+  "failures": 0,
+  "final_log_hashes": {
+    "experiments/stage4p2/analysis.log": "657469d8f1c79fefe606098820da7bc25f0e7dfe8dcb0fb788fde6a9fd14f450",
+    "experiments/stage4p2/biwi_hotel_G0_finish_deterministic_scan.log": "460c719b49337b10c18353c8d16a56d86a6e8eafb83dbd94182159d40bf50677",
+    "experiments/stage4p2/biwi_hotel_G0_smoke_deterministic_scan.log": "3d0009d6523cc731009e846a8700d73bd826dffb08960ce48e30f8f3930959e1",
+    "experiments/stage4p2/biwi_hotel_G1_finish_deterministic_scan.log": "58356220249f93a201a28f0c018616ae9560623c0e227547635759554af1f604",
+    "experiments/stage4p2/biwi_hotel_G1_smoke_deterministic_scan.log": "c734687969e40ac9ec822cefff31a74ef3fa642f0f74c4fa9ae07692d80155a8",
+    "experiments/stage4p2/compatibility_tests.log": "cab25240050f0623b1622b7d7d506a34864d4d0d61de244714383cb5f248d93c",
+    "experiments/stage4p2/crowds_zara02_G0_finish_deterministic_scan.log": "92165f78396c758f7a868ad529b1c5dfe57b2f70d5f3986acaa69f4b910fd02e",
+    "experiments/stage4p2/crowds_zara02_G0_smoke.log": "7b84f99c168c1e7552dbbbdb60a6e96f5d580fb6c4050cd81257ebf9bf65bca7",
+    "experiments/stage4p2/crowds_zara02_G0_smoke_deterministic_scan.log": "0e95d2d215874083dc47dab3b739e3c6a76a25cf68422468f3c1e1de8b2db6e9",
+    "experiments/stage4p2/crowds_zara02_G1_finish_deterministic_scan.log": "207b2458e0944be8ab9e30acfde0b621b3678eb5df312bd2616290d3dd36db38",
+    "experiments/stage4p2/crowds_zara02_G1_smoke_deterministic_scan.log": "cb1722d19ad6fa54daf0924a80db59ebbe5be7aed88bb9e74fb3cadc01675bea",
+    "experiments/stage4p2/final_tests.log": "7f710c5db78d1fd4ac909a9dbc58d037de07eaac2b476259218ea3e53f47623f",
+    "experiments/stage4p2/preparation.log": "66ef327a45a8b8c80eafc12a96dd027e2890da6e7945ef2d336131daddc3c509",
+    "experiments/stage4p2/pretraining_tests.log": "203e46daf796a73eeac320d6f33ae412fe036df6b24094b8bb8fb127f4241f90",
+    "experiments/stage4p2/previous_audit.log": "3a8af5ca07b3147323effbac43fd0a187efe01666fb85c1346f2d2eb6158cc05",
+    "experiments/stage4p2/sensitivity.log": "2d38f3c38b53c525276fd87f6a643d4811ead71338f9e59bde3ba9d33a9c0221",
+    "experiments/stage4p2/sensitivity_with_norm.log": "131e18472025b1ed007258eb0c33734a0abfc5d9f5cff47b16414fd2d0d4af08"
+  },
+  "initial_states_identical": true,
+  "largest_new_files": [
+    [
+      4982261,
+      "results/tables/stage4p2/checkpoint_intervention_targets.csv.gz"
+    ],
+    [
+      4221799,
+      "results/tables/stage4p2/paired_target_errors.csv.gz"
+    ],
+    [
+      1657009,
+      "results/tables/stage4p2/crowds_zara02/G1/deterministic_scan/last_targets.csv.gz"
+    ],
+    [
+      1657009,
+      "results/tables/stage4p2/crowds_zara02/G1/deterministic_scan/best_targets.csv.gz"
+    ],
+    [
+      1574581,
+      "configs/stage4p2/manifests/crowds_zara02.json"
+    ],
+    [
+      1491788,
+      "configs/stage4p2/manifests/biwi_hotel.json"
+    ],
+    [
+      1114043,
+      "results/tables/stage4p2/crowds_zara02/G0/deterministic_scan/last_targets.csv.gz"
+    ],
+    [
+      1114043,
+      "results/tables/stage4p2/crowds_zara02/G0/deterministic_scan/best_targets.csv.gz"
+    ],
+    [
+      285826,
+      "results/tables/stage4p2/paired_person_means.csv"
+    ],
+    [
+      238918,
+      "configs/stage4p2/protected_artifacts.json"
+    ]
+  ],
+  "logs_note": "execution_logs archive contains snapshots captured by analyze.py; its own then-active analysis.log was empty in that snapshot",
+  "new_files_scanned": 202,
+  "no_data_weights_secrets": true,
+  "old_hashes_unchanged": true,
+  "paired_target_rows": 41316,
+  "passed": true,
+  "postprocessing_script_hashes": {
+    "scripts/stage4p2/analyze.py": "f3108b32eacbb1f7ee3f9109834b0319c06093053c56aabe0afd91da457445c8",
+    "scripts/stage4p2/audit_previous.py": "f6c5bf6978d57f106e4ac932b42bf526516d73f118ce71f5080cb25d39c4f701",
+    "scripts/stage4p2/check.py": "71bcc40221c15483d7fc2bb60050336fa0fc488e646eb29e06bfd1509669badc",
+    "scripts/stage4p2/prepare.py": "67dd94368672e8791889804e21ca0c6cbbc4639119e15bdfc2ac2d1513eb1422",
+    "scripts/stage4p2/sensitivity.py": "de80c4f294cebf6e90838239c0d7b90d26ccc93c82abe5c34116b8b3bee8d23f",
+    "scripts/stage4p2/structure.py": "ea74776606d188cc2ae34d2a86feeb7d0af9297f617b3a763bcce93f0a986500",
+    "scripts/stage4p2/train.py": "a125654eb5141a883acf70393918b1712dd2239b434743dd786f58f20b62c178",
+    "scripts/stage4p2/write_reports.py": "b1749160ac5e8c28a89dfca5c309862ee44c8a310a88467a259d0f783b3cbd27"
+  },
+  "protected_files": 1386,
+  "protocol_unchanged_after_registration": true,
+  "push_executed": false,
+  "skipped": 0,
+  "tests": 237,
+  "training_code_matches_run_hashes": true,
+  "training_source_commit": "0a1706d6c6253abeb12fa7d7dccf6748d98e6ed3",
+  "validation_target_windows": {
+    "biwi_hotel": 1053,
+    "crowds_zara02": 5833
+  }
+}

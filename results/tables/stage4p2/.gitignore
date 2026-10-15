@@ -1,0 +1,3 @@
+# Exact compressed research tables are tracked; local expanded duplicates stay out.
+**/best_targets.csv
+**/last_targets.csv

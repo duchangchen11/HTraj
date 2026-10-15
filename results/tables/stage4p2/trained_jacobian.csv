@@ -1,0 +1,5 @@
+fold,model,window_id,receiver,source,sender_jacobian_max,zero_graph_distribution_difference
+crowds_zara02,G0,crowds_zara02:10,0,1,0.0,0.0
+crowds_zara02,G1,crowds_zara02:10,0,1,5.709447383880615,0.24382424354553223
+biwi_hotel,G0,biwi_hotel:0,0,1,0.0,0.0
+biwi_hotel,G1,biwi_hotel:0,0,1,2226.59521484375,0.4334869384765625

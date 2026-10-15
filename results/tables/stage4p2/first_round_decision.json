@@ -1,0 +1,28 @@
+{
+  "G2_training_status": "not_run_predefined_gate_failed",
+  "additional_seeds_executed": false,
+  "both_worthwhile": false,
+  "folds": [
+    {
+      "ADE_reduction_m": -0.05250388311377707,
+      "ADE_required_m": 0.006610588655635759,
+      "ADE_worthwhile": false,
+      "FDE_allowed_m": 0.025485081687028677,
+      "FDE_increase_m": 0.07020793555548055,
+      "FDE_safe": false,
+      "fold": "crowds_zara02"
+    },
+    {
+      "ADE_reduction_m": 0.04707834815141254,
+      "ADE_required_m": 0.012277144723397602,
+      "ADE_worthwhile": true,
+      "FDE_allowed_m": 0.04325135907435972,
+      "FDE_increase_m": -0.026091210670585507,
+      "FDE_safe": true,
+      "fold": "biwi_hotel"
+    }
+  ],
+  "recommend_seeds42_2026": false,
+  "relation_control_gate": false,
+  "run_G2": false
+}
