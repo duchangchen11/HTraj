@@ -54,9 +54,9 @@ def main():
          for r in rows('threshold_sensitivity.csv') if r['group'] == 'all'])
     generalization = '# Stage3.7：泛化、坐标敏感性与完整历史运动分组\n\n'
     generalization += '训练前历史统计表明两个录像的运动分布并不一致。可靠朝向目标中，训练集的纵向运动比例在ZARA2留出划分约29.06%、HOTEL留出划分约24.92%；验证分别约0.68%与89.36%。此处纵向指|vy|>|vx|、平均历史速度≥0.2m/s，只分析历史；方向与录像相关但不是唯一可能混杂。原始八扇区计数及所有连续特征见history_distribution.csv。\n\n'
-    generalization += '预设速度组使用当前连续历史段平均速度：低速<0.2，中速[0.2,1)，高速≥1m/s，无可用速度另列。HOTEL低速224/318，ZARA2低速648/1092。只评价A完整历史目标，因此部分历史组为空，仍显式保留。所有组会重叠，不能相加当作独立样本；窗口复用同一行人，N是目标窗口数而非独立行人数。\n\n'
+    generalization += '预设速度组使用当前连续历史段时间加权平均速度向量的模长：低速<0.2，中速[0.2,1)，高速≥1m/s，无可用速度另列。往返运动也可能具有较小净平均速度，因此低速不等于真实静止。HOTEL低速224/318，ZARA2低速648/1092。只评价A完整历史目标，因此部分历史组为空，仍显式保留。所有组会重叠，不能相加当作独立样本；窗口复用同一行人，N是目标窗口数而非独立行人数。\n\n'
     generalization += '## 坐标变化与优化的区别\n\n'+differences
-    generalization += '\nM2−M0保持参数、初始化、数据、loss及训练策略相同，改变局部坐标的计算归纳偏置；M3−原坐标CV残差保持CV先验。M3−M2则主要检验CV主路径。这里坐标变换也会改变梯度方向及优化过程，不能从单seed、各自best checkpoint的误差完全排除“优化更容易”。需要同时看固定last30和同endpoint训练误差，不能把best提升直接等同独立方向因果证明。没有进行学习率搜索或添加更多训练。\n\n'+endpoint
+    generalization += '\nM2−M0保持参数、初始化、数据、loss及训练策略相同，改变局部坐标的计算归纳偏置；M3−原坐标CV残差保持CV先验。M3−M2则主要检验CV主路径。这里坐标变换也会改变梯度方向及优化过程，不能从单seed、各自best checkpoint的误差完全排除“优化更容易”。需要同时看固定last30和同endpoint训练误差，不能把best提升直接等同独立方向因果证明。fixed_epoch_comparison.csv保存全部30个相同预算epoch的配对差值，作为学习过程描述，不再挑选新checkpoint。没有进行学习率搜索或添加更多训练。\n\n'+endpoint
     generalization += '\n## 合法全局旋转检查\n\n'+rotations
     generalization += '\n±90°、180°的全部数据见rotation_checks.csv。只对完成训练后的固定best checkpoint同步旋转历史输入与指标GT，检查预测应如何变换；GT仅用于误差计算。可靠方向组的M2/M3应在浮点误差范围等变，恒等低速回退不具有该保证。M0通常依赖全局轴方向。旋转指标不用于再选模型、阈值或checkpoint，也不是新增独立训练任务。\n\n'
     generalization += '## 阈值敏感性\n\n'+sensitivities

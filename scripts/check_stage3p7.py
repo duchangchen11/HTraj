@@ -66,7 +66,7 @@ def main():
     assert a['pair_rows'] == len(csv_rows(root/'paired_target_errors.csv')) == 14100
     assert a['group_rows'] == len(csv_rows(root/'group_comparison.csv')) == 560
     assert len(csv_rows(root/'all_epoch_curves.csv')) == 180
-    assert all(r['compatible_within_1e6'] == 'True' for r in csv_rows(root/'M0_reproducibility.csv'))
+    assert all(r['compatible_within_1e_minus6'] == 'True' for r in csv_rows(root/'M0_reproducibility.csv'))
     d = js(root/'research_decision.json'); assert not d['extra_seeds_run'] and not d['further_training_started']
     assert not list(Path('experiments/stage3p7').rglob('seed_42')) and not list(Path('experiments/stage3p7').rglob('seed_2026'))
     for name in ('01_MOTION_REPRESENTATION_AUDIT.md', '02_COORDINATE_NORMALIZATION.md', '03_BASELINE_RESULTS.md',

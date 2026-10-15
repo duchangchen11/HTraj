@@ -143,7 +143,7 @@ def main():
         old_curve = read_csv(old_dir/'epochs.csv'); new_curve = read_csv(ROOT/fold['recording']/'M0/seed_17/epochs.csv')
         diffs = [abs(float(a['validation_ADE_m'])-float(b['validation_ADE_m'])) for a, b in zip(old_curve, new_curve)]
         reproducibility.append(dict(recording=fold['recording'], old_summary_sha256=sha256(old_dir/'summary.json'),
-            epochs=30, maximum_validation_ADE_difference_m=max(diffs), compatible_within_1e6=max(diffs) < 1e-6))
+            epochs=30, maximum_validation_ADE_difference_m=max(diffs), compatible_within_1e_minus6=max(diffs) < 1e-6))
         unnormalized_curve = read_csv(ref_path/'epochs.csv')
         for name in ('M2', 'M3'):
             candidate_curve = read_csv(ROOT/fold['recording']/name/'seed_17/epochs.csv')
