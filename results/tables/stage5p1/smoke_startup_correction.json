@@ -1,0 +1,11 @@
+{
+  "error": "TypeError: dict() got multiple values for keyword argument initialization",
+  "optimizer_updates_before_error": 0,
+  "epoch_checkpoints_before_error": 0,
+  "correction": "Rename extra provenance field initialization_audit; preserve registered initialization setting",
+  "hyperparameters_changed": false,
+  "protocol_changed": false,
+  "old_runner_sha256": "f1339949eb445415707ac81eef9b513bed9ba91592b476075ba2ce58a87d9a8e",
+  "corrected_runner_sha256": "7a734ff21a644431fb7721606ce1687171157b221b83354ded03cf60014be079",
+  "failure_log": "results/tables/stage5p1/smoke_startup_failure.txt"
+}

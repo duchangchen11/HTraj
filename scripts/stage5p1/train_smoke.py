@@ -34,7 +34,7 @@ def main():
     source_hashes={str(f):sha256(f) for f in sorted(Path('src/socialvae_causal').glob('*.py'))}
     source_hashes.update({str(f):sha256(f) for f in sorted(Path('scripts/stage5p1').glob('*.py'))})
     write_json_new(OUT/'smoke_config.json',dict(**smoke,actual_batch_size=batch_size,parameters=sum(p.numel() for p in model.parameters()),
-        initialization='seed17 fresh random; no resource/pretrained checkpoint loaded',manifest=str(manifest),manifest_sha256=sha256(manifest),
+        initialization_audit='seed17 fresh random; no resource/pretrained checkpoint loaded',manifest=str(manifest),manifest_sha256=sha256(manifest),
         protocol_sha256=sha256(CONF/'protocol.json'),source_commit=source_commit,source_sha256=source_hashes,
         official_source_sha256={k:sha256(SOURCE/k) for k in EXPECTED},preparation_seconds=prepare_seconds,
         train_target_windows=len(train),validation_target_windows=len(val),train_recordings=sorted(train.records),validation_recordings=sorted(val.records)))
