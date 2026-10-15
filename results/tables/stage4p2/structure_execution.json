@@ -1,0 +1,14 @@
+{
+  "ETH_evaluated": false,
+  "device": "cpu",
+  "passed": true,
+  "sizes": [
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "source_commit": "ce77c49c68367b169bc6d8f7a29bb4cba4400575",
+  "torch": "2.5.1+cu124"
+}

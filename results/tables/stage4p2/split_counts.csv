@@ -1,0 +1,5 @@
+fold,split,windows,target_windows,recordings
+crowds_zara02,train,1488,23349,biwi_hotel|crowds_zara01|students001|students003
+crowds_zara02,validation,921,5833,crowds_zara02
+biwi_hotel,train,1970,26994,crowds_zara01|crowds_zara02|students001|students003
+biwi_hotel,validation,301,1053,biwi_hotel

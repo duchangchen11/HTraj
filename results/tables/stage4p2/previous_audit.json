@@ -1,0 +1,28 @@
+{
+  "ETH_evaluated": false,
+  "active_allocated_parameters": 6254,
+  "cache_sha256": "4f5a72f7ca08f9021d199f401da9f1136ccb89150c1814990e4bbf998a0104a1",
+  "checkpoint_hashes": {
+    "experiments/stage4p1/Full/epoch029.pt": "ff381ed7dc5a7bf985fa2917125e08cf73f1d0a0b927cd776a1f3cfce954348c",
+    "experiments/stage4p1/Full/epoch030.pt": "54c21a3af3333094ef36201d6bc53c05fc73a74179b5bc1d099a37967c509c74"
+  },
+  "checkpoints_unchanged": true,
+  "dormant_parameters": [
+    [
+      "tpcnns.4.weight",
+      1296
+    ],
+    [
+      "tpcnns.4.bias",
+      12
+    ],
+    [
+      "prelus.4.weight",
+      1
+    ]
+  ],
+  "parameters": 7563,
+  "scope": "all old921 Zara2 windows; inference-only weight x BN buffer swap, not a retraining ablation",
+  "seconds": 12.141025630000513,
+  "source_commit": "ce77c49c68367b169bc6d8f7a29bb4cba4400575"
+}

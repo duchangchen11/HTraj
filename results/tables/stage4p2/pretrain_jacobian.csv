@@ -1,0 +1,4 @@
+model,cross_source_jacobian_max,unconnected_source_jacobian_max,changed_graph_prediction_max
+G0,0.0,0.0,0.0
+G1,0.4656730890274048,0.0,0.17676115036010742
+G2,0.3580892086029053,0.0,0.2148476541042328
