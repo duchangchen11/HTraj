@@ -1,0 +1,18 @@
+[
+  {
+    "label": "解析基线上界参考：事后逐录像选择，非可部署模型",
+    "minimum_ADE_m": 0.2201437778667311,
+    "minimum_ADE_model": "CV-OLS8",
+    "minimum_FDE_m": 0.4087597894603781,
+    "minimum_FDE_model": "CV-OLS8",
+    "recording": "biwi_hotel"
+  },
+  {
+    "label": "解析基线上界参考：事后逐录像选择，非可部署模型",
+    "minimum_ADE_m": 0.2963058062761224,
+    "minimum_ADE_model": "CV-Last2",
+    "minimum_FDE_m": 0.6675226177418371,
+    "minimum_FDE_model": "CV-Last2",
+    "recording": "crowds_zara02"
+  }
+]

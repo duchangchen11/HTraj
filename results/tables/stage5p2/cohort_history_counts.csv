@@ -1,0 +1,17 @@
+recording,group,target_windows,people
+biwi_hotel,speed_stationary,106,4
+biwi_hotel,speed_low,121,5
+biwi_hotel,speed_normal,91,24
+biwi_hotel,speed_fast,0,0
+biwi_hotel,legal_neighbor_absent,35,3
+biwi_hotel,legal_neighbor_present,283,28
+biwi_hotel,new_neighbor_present,80,13
+biwi_hotel,unknown_neighbor_velocity_present,43,9
+crowds_zara02,speed_stationary,579,9
+crowds_zara02,speed_low,91,10
+crowds_zara02,speed_normal,422,33
+crowds_zara02,speed_fast,0,0
+crowds_zara02,legal_neighbor_absent,94,4
+crowds_zara02,legal_neighbor_present,998,35
+crowds_zara02,new_neighbor_present,63,13
+crowds_zara02,unknown_neighbor_velocity_present,61,13

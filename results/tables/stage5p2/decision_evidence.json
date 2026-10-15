@@ -1,0 +1,15 @@
+{
+  "ETH_evaluated": false,
+  "K1_ADE_better_than_Last2_recordings": [
+    "crowds_zara02"
+  ],
+  "K1_ADE_better_than_strongest_analytic_recordings": [
+    "crowds_zara02"
+  ],
+  "K20_minADE_better_than_Last2_recordings": [
+    "biwi_hotel",
+    "crowds_zara02"
+  ],
+  "NoSocial_trained": false,
+  "completed_100_epochs_both": true
+}

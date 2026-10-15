@@ -1,0 +1,101 @@
+[
+  {
+    "checkpoint_sha256": "268eedda73bb72dd3b6ecf0550a4d5eefcadedf169374c75b0212c942037e6e0",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 1,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "4274373064987f97a7cb590c47d8bcb1e59c65cb83e3097ad835c1f374298cb2",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 10,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "5d5a3dcf37dd8fe020444afcf3bfefea019c11e7d441b5a6bb0025659afb79ce",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 20,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "e60594d67deeee83c73660a1a61fc387e10acc1cd4c54679a12d3df48cd75dd5",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 30,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "094c517a7fc3aac01988ff03e404335b3bab4b4c35f476a2836a68d4d05477f4",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 40,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "de473b0f098e1d06c6363c7e9565a10c1d7b2245fd877fbc0bb4c7101c4291c8",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 50,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "a215667229682f315bb8d22df204f34dcb362049990316c7f9a7b3c453d0e6d8",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 60,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "4e127cbe87665a6d888ccdf2cf589729c67023f50e1f124e745980b3bba542a8",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 70,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "6000b42cd26581b0ba5a96d818352d5898c85e4e9cdc8af2e5ddad65df6440fb",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 80,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "c0092b736d96f2defbec490a04bda24491941d4c1c827cdfabf9147b42a81f03",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 90,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  {
+    "checkpoint_sha256": "feeaceba2bb1024d14d2863fd980c421925f86d731dfd9b45d18cfc45afa38aa",
+    "deterministic_prediction_max_difference_m": 0.0,
+    "epoch": 100,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "CUDA_batch_partition_max_coordinate_difference_m": 0.0011129379272460938,
+  "CUDA_original_tolerance_unchanged": true,
+  "ETH_evaluated": false,
+  "additional_CUDA_diagnostics": 8,
+  "additional_CUDA_tolerance_failures": 4,
+  "checkpoints_verified": 200,
+  "code_commit": "eb8d494bb1373462fcd07da46abeb5e7bb2533f7",
+  "complete_epochs_per_run": 100,
+  "initial_parameter_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+  "local_commit_only": true,
+  "official_source_changed": false,
+  "protected_files_verified": 2569,
+  "two_fresh_independent_seed17_runs": true,
+  "unit_test_failures": 0,
+  "unit_tests": 302
+}
