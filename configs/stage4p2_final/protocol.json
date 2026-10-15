@@ -1,0 +1,112 @@
+{
+  "ETH_evaluated": false,
+  "auto_push": false,
+  "base_commit": "55515d0ef5d50c36f4f148206d07f062644f92ff",
+  "cache": "data/processed/stage4p2/complete_windows.pt",
+  "cache_sha256": "7cfe17f5b10a92a474a9f484bb061342fa6c91cff27a064f9a7e64d9dcf46b02",
+  "comparison": {
+    "CV": "Last2=(X7-X6)/.4; OLS4/8 slope using centered true .4s time; all anchor atX7 and extrapolate12*.4s; no learned parameters",
+    "arithmetic": "same float32 frozen positions and neural predictions promoted to float64 for distance sums; check old metric differences<=1e-6",
+    "metrics": "K1 Gaussian mean ADE/FDE, mean of12 Euclidean positions and last Euclidean position, m",
+    "models": [
+      "G0",
+      "G1",
+      "CV-Last2",
+      "CV-OLS4",
+      "CV-OLS8"
+    ],
+    "paired_keys": "fold,window_id,agent_id,per-target future SHA256; no filtering; exact original frozen6886 targets"
+  },
+  "data_protocol": "A_offline_complete20",
+  "decisions": {
+    "no_G2_training": true,
+    "no_additional_seeds": true,
+    "no_complex_modules": true,
+    "stop_after_audit": true,
+    "worthwhile": "G1 ADE lower by>=max(.005,.01*G0), FDE increase<=max(.01,.02*G0_FDE), both recordings required; also compare all three CVs"
+  },
+  "extend_to100": true,
+  "extension": {
+    "end": 100,
+    "endpoint": "100 once, no further extension, no learning rate/structure/epsilon change; nonfinite stops affected run and reports incomplete",
+    "estimated_minutes_with30percent_IO_margin": 15.34653590022208,
+    "estimated_train_eval_seconds": 708.3016569333267,
+    "frozen_optimizer": "unchanged SGD.01, no momentum/decay/scheduler, clip1, batch16, accumulate64; same seed17+epoch ordering",
+    "initialization": "resume exact epoch30 model+optimizer+CPU/CUDA RNG, not restart",
+    "resume": {
+      "biwi_hotel__G0": {
+        "epoch": 30,
+        "path": "experiments/stage4p2/biwi_hotel/G0/deterministic_scan/epoch030.pt",
+        "sha256": "ebaf658f15009eb14519a5e0cbd4835c449fc951b0fe8de6154901b6a9527250"
+      },
+      "biwi_hotel__G1": {
+        "epoch": 30,
+        "path": "experiments/stage4p2/biwi_hotel/G1/deterministic_scan/epoch030.pt",
+        "sha256": "ca060d93e15ab713df3a00e55950cccc1163257998d54d9410cdce5cf19d073a"
+      },
+      "crowds_zara02__G0": {
+        "epoch": 30,
+        "path": "experiments/stage4p2/crowds_zara02/G0/deterministic_scan/epoch030.pt",
+        "sha256": "d15bf2108f03ccb62561395b4aaf0ee6fdfc2af5e15013ee0698083eb1953bf3"
+      },
+      "crowds_zara02__G1": {
+        "epoch": 30,
+        "path": "experiments/stage4p2/crowds_zara02/G1/deterministic_scan/epoch030.pt",
+        "sha256": "eec33c0a5e83d5298f698f042064ca3395fc831e6763d8ec5f3c6276b3ab672d"
+      }
+    },
+    "rule": "all four finite; trainNLL mean20:24 minus26:30>=.01, ADE reduction>=max(.005,.01*earlierADE), bestADE epoch>=28; all four must pass",
+    "selection": "min validation Gaussian-mean ADE across1..100, exact tie earlier; same checkpoint FDE; separately save original budget30 and epoch100",
+    "start": 31
+  },
+  "folds": [
+    "crowds_zara02",
+    "biwi_hotel"
+  ],
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage4p2/manifests/biwi_hotel.json",
+      "sha256": "3fd6774ebea8f5465198c4c6c202f8d9cbd7effcecb7861807e27793f127f608"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage4p2/manifests/crowds_zara02.json",
+      "sha256": "1a398f10a70e094997b530bf788d314646aa2b878e9a10cfbe1f4640d78e5314"
+    }
+  },
+  "models": [
+    "G0",
+    "G1"
+  ],
+  "no_new_network": true,
+  "old_protocol_path": "configs/stage4p2/protocol.json",
+  "old_protocol_sha256": "3ea2dad7a3cea6feb5335d02fd3952b778fc0b2112766e3a63ba93e57c0d67ba",
+  "seed": 17,
+  "sensitivity": {
+    "checkpoints": [
+      "budget30_best",
+      "budget100_best_if_completed"
+    ],
+    "epsilon_m": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "epsilon_unchanged": 1e-05,
+    "groups": "historical mean speed<=.2 stationary,(.2,.8] low,(.8,1.6] normal walking,>1.6 fast; extra exact-stationary stepabs<=1e-8 and strict-stationary maxspeed<=.05+net<=.05m",
+    "interpretation": "full fixed-network sensitivity plus local PTN hooks; no PTN-removal causal proof; overlapping windows dependent",
+    "modes": [
+      "fixed_history_graph",
+      "recomputed_history_graph"
+    ],
+    "noise": "stable windowID+agentID keyed independent unit2D direction at each of8 points; same direction scaled byepsilon; all observed people jittered; no future GT",
+    "output": "absolute position and relative-to-last forecast displacement shifts; actual inputRMS, gain P50/P95/P99/max; local PTN gain/lowvariance fraction; same jitter CV-Last2 calibration",
+    "primary": "fixed_history_graph for feature/PTN sensitivity; recompute secondary includes edge threshold changes",
+    "replicates": [
+      0,
+      1
+    ],
+    "risk_rule": "at1mm, per-target max over2rep relative-final-shift>.1m and gain>100; group rate>=5% and>=30 unique people indicates repeated risk evidence, not iid significance or all-target claim",
+    "seed": 271828
+  },
+  "stage": "4.2-final"
+}
