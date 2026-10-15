@@ -1,0 +1,31 @@
+{
+  "ETH_evaluated": false,
+  "failed_checkpoint_weights_reused_for_training": false,
+  "interpretation": "same train-mode transform and common parameter updates; only evaluation normalization and nontrainable running buffers differ; corrected run nevertheless trained from scratch",
+  "rows": [
+    {
+      "epoch": 1,
+      "mismatched_keys": [],
+      "shared_tensor_keys": 31,
+      "shared_tensors_exact": true
+    },
+    {
+      "epoch": 2,
+      "mismatched_keys": [],
+      "shared_tensor_keys": 31,
+      "shared_tensors_exact": true
+    },
+    {
+      "epoch": 3,
+      "mismatched_keys": [],
+      "shared_tensor_keys": 31,
+      "shared_tensors_exact": true
+    },
+    {
+      "epoch": 4,
+      "mismatched_keys": [],
+      "shared_tensor_keys": 31,
+      "shared_tensors_exact": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ETH_evaluated": false,
+  "checkpoint": "experiments/stage4p1/NoSocial/epoch004.pt",
+  "checkpoint_sha256": "4bcd2804b02bf19297f5ddfb160e37fd2caf2c71b9cfba7e048d03cf1723ac70",
+  "checkpoint_unchanged": true,
+  "correction": "supersedes max_gaussian_parameter_shift=0 in initial diagnosis: inline audit reset baseline inside loop; policy maxima were valid, zero shift field was invalid and must not be used",
+  "inference": "supports train/eval normalization amplification in epoch4; epoch5 failed state not saved, exact offending value unavailable",
+  "max_gaussian_parameter_shift": 17.189287185668945,
+  "policies": [
+    {
+      "finite_NLL_windows": 64,
+      "max_absolute_correlation_logit": 8.399216651916504,
+      "max_absolute_log_sigma": 19.260074615478516,
+      "policy": "stored_running_statistics",
+      "windows": 64
+    },
+    {
+      "finite_NLL_windows": 64,
+      "max_absolute_correlation_logit": 1.4406805038452148,
+      "max_absolute_log_sigma": 2.3974721431732178,
+      "policy": "same_per_node_statistics_as_training",
+      "windows": 64
+    }
+  ],
+  "scope": "posthoc fixed weights, first64 windows; no performance model selection",
+  "script_sha256": "de5cfb8fdd31fdf01139e53a99f7db58c3ee3d77c911e47a2d31206e3941e277",
+  "weights_updated": false
+}

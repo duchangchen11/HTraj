@@ -21,6 +21,8 @@
 
 训练仅使用此前Stage3.5标记的原train时段，继续保留其他录像的旧val和隔离带不用；没有把原验证窗口悄悄加入训练，也没有只取1024子集。验证使用留出ZARA2整个录像，其原train/val时段均不进入本轮训练。仅录像隔离，不等于新独立确认：ZARA2早已曝光。ETH未加载、未评价；官方额外zara03/uni_examples也不在本轮训练池。
 
+ZARA2在官方benchmark中称test，本次按用户指定重新定义为**开发验证录像**；它不再具有官方未调参测试的含义。本轮封存测试是ETH，没有额外读取测试指标选择epoch，也不把ZARA2开发成绩冒充论文官方测试复现。
+
 manifest存于 `configs/stage4p1/{A_offline_complete20,B_history_context_complete_targets}_manifest.json`，数据文件及manifest SHA256固定于 `protocol.json`、`preparation.json`。完整cache仅在忽略的 `data/processed/stage4p1/A_windows.pt`，不可上传。
 
 ## 网络、图和张量

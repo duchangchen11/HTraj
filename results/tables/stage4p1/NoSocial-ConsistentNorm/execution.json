@@ -1,0 +1,43 @@
+{
+  "ETH_evaluated": false,
+  "actual_epochs": 30,
+  "amendment_sha256": "e66fbd85ff0d63596a6aed5d2d35cb2645ec87378c4254c181e5aa19ca6e2b25",
+  "best_epoch": 30,
+  "best_validation_NLL": -1.3323651980016347,
+  "checkpoints": [
+    {
+      "epoch": 30,
+      "label": "best",
+      "path": "experiments/stage4p1/NoSocial-ConsistentNorm/epoch030.pt",
+      "sha256": "58e8469b5b68f72bb6153176bf75dcf5b1408d9ef3a06160c9def5bfdb8ac498"
+    },
+    {
+      "epoch": 30,
+      "label": "last",
+      "path": "experiments/stage4p1/NoSocial-ConsistentNorm/epoch030.pt",
+      "sha256": "58e8469b5b68f72bb6153176bf75dcf5b1408d9ef3a06160c9def5bfdb8ac498"
+    }
+  ],
+  "engine_sha256": "b2a78ae8c490bc589c088ad42d02fd1f4ba41b1ab0a9327797c2f56a1c52116d",
+  "evaluation_seconds": 94.99755119998008,
+  "initial_state_sha256": "354ca2456b8fd52f47ae4e7d798bef1e18b2b569146a21bd120c8f51f1191921",
+  "initial_weights": "from scratch seed17; Full and NoSocial same source initialization, NoSocial TXP weights reshaped",
+  "learning_rate": 0.01,
+  "manifest_sha256": "191cab0e257a56af4238557da95bd3d5a2bd9d593346c29f7cbe2708399abfaa",
+  "model": "NoSocial-ConsistentNorm",
+  "model_code_sha256": "3b4ce75a51946b21ead951db4fb3fbc7bcb133c95bd74e9d0e9c1fd28b25c6de",
+  "optimizer": "SGD",
+  "parameters": 7563,
+  "pretrained_initialization": false,
+  "protocol_sha256": "02879bae14d0906d61042b5be32bf9c3eeb6cbaabe975ac15d5a621f9500f9fb",
+  "script_sha256": "d96b55d58e7c1920a98469d87cd7e2a988d87ec0d3203a28b0e23a99c63c43d2",
+  "seed": 17,
+  "source_commit": "6ca7494152d6a2050ebec6f02989a1af2d894b47",
+  "training_resume": "exact epoch5 weights, optimizer and RNG; no repeated epochs or warm start from pretrained model",
+  "training_seconds": 709.6850214719598,
+  "unused_parameter_names": [
+    "tpcnns.4.weight",
+    "tpcnns.4.bias",
+    "prelus.4.weight"
+  ]
+}

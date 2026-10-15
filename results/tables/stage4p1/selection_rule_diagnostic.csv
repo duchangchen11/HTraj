@@ -1,0 +1,5 @@
+model,rule,epoch,NLL,K1_mean_ADE,K1_mean_FDE,checkpoint_changed,new_evaluation,used_for_main_pair_comparison
+Full,preregistered_NLL,30,-0.7897405968360302,0.7885080743533158,1.5402452954797328,False,False,True
+Full,posthoc_min_K1_ADE_descriptive_only,29,-0.7161180041064653,0.6909753135013506,1.3172627275721192,False,False,False
+NoSocial-ConsistentNorm,preregistered_NLL,30,-1.3323651980016347,0.7591400940438068,1.430126696312824,False,False,True
+NoSocial-ConsistentNorm,posthoc_min_K1_ADE_descriptive_only,30,-1.3323651980016347,0.7591400940438068,1.430126696312824,False,False,False

@@ -1,0 +1,22 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "cache_sha256": "4f5a72f7ca08f9021d199f401da9f1136ccb89150c1814990e4bbf998a0104a1",
+  "cuda": "12.4",
+  "isolated_stage4_environment": true,
+  "manifests": {
+    "A_offline_complete20": {
+      "path": "configs/stage4p1/A_offline_complete20_manifest.json",
+      "sha256": "191cab0e257a56af4238557da95bd3d5a2bd9d593346c29f7cbe2708399abfaa"
+    },
+    "B_history_context_complete_targets": {
+      "path": "configs/stage4p1/B_history_context_complete_targets_manifest.json",
+      "sha256": "711295f121aad002dc675a24ec61db6c0f310d5ef750049c1cd197db1501e390"
+    }
+  },
+  "prefix": "/home/lrj/HTraj/experiments/stage4/venv",
+  "protocol_sha256": "02879bae14d0906d61042b5be32bf9c3eeb6cbaabe975ac15d5a621f9500f9fb",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "script_sha256": "102da32ee035283d5e6eec5f5151b9f597af2a91e1df778f8b0db2014763feca",
+  "source_commit": "6ca7494152d6a2050ebec6f02989a1af2d894b47",
+  "torch": "2.5.1+cu124"
+}
