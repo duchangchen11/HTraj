@@ -1,0 +1,44 @@
+{
+  "bit_order": "bit0=earliest raw history frame, bit7=last observation; 1=valid,0=unknown/absent",
+  "ego_boundary_acceleration": "state[1,4:6]=0 is explicit boundary prior, acceleration_valid=False; not a measured stationary state",
+  "files": [
+    {
+      "actor_windows": 6214,
+      "path": "results/tables/stage5p1/observability/biwi_hotel.csv.gz",
+      "recording": "biwi_hotel",
+      "sha256": "758c6f631befa9323be03d33d794972c18a7d3c1653c2188a61559504db69e95",
+      "windows": 709
+    },
+    {
+      "actor_windows": 4945,
+      "path": "results/tables/stage5p1/observability/crowds_zara01.csv.gz",
+      "recording": "crowds_zara01",
+      "sha256": "4c227dfbef8b7ba2103dd65712a9e73adeba4c2779df7d68b88223ad1ff34e5e",
+      "windows": 650
+    },
+    {
+      "actor_windows": 10440,
+      "path": "results/tables/stage5p1/observability/crowds_zara02.csv.gz",
+      "recording": "crowds_zara02",
+      "sha256": "00378b138939a8e11fa33134f22e906329ca4266fd60fb33e74855ef53e18a6a",
+      "windows": 994
+    },
+    {
+      "actor_windows": 19346,
+      "path": "results/tables/stage5p1/observability/students001.csv.gz",
+      "recording": "students001",
+      "sha256": "74c1c63de105b4897682bfc3e8b1bee4e9000021113db43a95e89dc952e6568c",
+      "windows": 336
+    },
+    {
+      "actor_windows": 17509,
+      "path": "results/tables/stage5p1/observability/students003.csv.gz",
+      "recording": "students003",
+      "sha256": "e18da9da9feb2e5a8acf010d069d6dd7514dfbf6e697259af098c42433257bf9",
+      "windows": 413
+    }
+  ],
+  "initial_position": "frame0 position can initialize social hidden state without a velocity claim",
+  "role": "out-of-band validity audit, no added network channel",
+  "unknown_motion_packets": "all six slots padding at attention steps, not fake measured zero velocity"
+}

@@ -1,0 +1,51 @@
+{
+  "ETH_loaded": false,
+  "actual_batch_sizes": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "automatic_push": false,
+  "checkpoints_git_ignored": true,
+  "engineering_ready_for_formal_baseline": true,
+  "formal_baseline_training_completed": false,
+  "git_HEAD_at_check": "56a21da6a3766da468000c35fd3f119444437ae1",
+  "git_diff_check": true,
+  "legacy_mismatches": [],
+  "new_architecture": false,
+  "new_checkpoint_files": 9,
+  "observable_actor_windows": 58454,
+  "official_source_unchanged": true,
+  "old_validation_promoted_to_train": false,
+  "packages": {
+    "numpy": "1.26.4",
+    "pytest": "8.3.3",
+    "torch": "2.5.1+cu124"
+  },
+  "protected_files": 2463,
+  "raw_counterfactual_cases": 36,
+  "raw_counterfactual_max_difference_m": 0.0,
+  "resource_updates": 52,
+  "stage5p1_code_sha256": {
+    "scripts/stage5p1/audit_raw_inputs.py": "4b45e47d84080e37fd9c342554f036296cce7072f3cfe3a903447988ba8388f8",
+    "scripts/stage5p1/benchmark_resources.py": "113f86ae35d859599cab78334a6a0b5cba764c538b4ac6ab8e632681d512eab2",
+    "scripts/stage5p1/build_data.py": "e60a61686958d5c6157afec04a750d2982d5ad06b2ddaa23aa6de911405c4c65",
+    "scripts/stage5p1/export_observability.py": "2be43f236356ff7dbfba297cc5fe882d03a220746ed997a6b8b6203d6de9a87f",
+    "scripts/stage5p1/prepare.py": "e28c2df8014f2b3853db20e82d9c41c974221d447eb80e131f9649165c63f0d6",
+    "scripts/stage5p1/summarize_results.py": "d1a24f3a4f13202124736b8910e80120e5aaf1f6ff8953b9650954397c1b54ea",
+    "scripts/stage5p1/train_smoke.py": "7a734ff21a644431fb7721606ce1687171157b221b83354ded03cf60014be079",
+    "scripts/stage5p1/verify_delivery.py": "cb2a43a3c90f9277b573f8cbf498363c79f5622420cc78fb1e0ad1a993de7248",
+    "src/socialvae_causal/__init__.py": "417187c70d08545aab3edda777042d726b741db9b5c13beb465a24e32db04946",
+    "src/socialvae_causal/data.py": "e253652a6f836fc3673a573c12d6a2df3fc96da73d3bad95c15d399c97e52301",
+    "src/socialvae_causal/evaluation.py": "a47be3d949ed49b651a788db0e34ee9e3c2d6c62c3126097971e0cf835d3cb9d",
+    "src/socialvae_causal/io.py": "30ad54a81392c964cb2260f802d617831f1245f4b55717273bb6082ca9aa38f8",
+    "src/socialvae_causal/official.py": "05f947ca517233d355cb4be470c92eceedf22bdfc2a75e10d59987163d67bb5e",
+    "src/socialvae_causal/offline_reference.py": "e2573ff9ce900bf8d0d2a3679b265293cac6daf4f05e89b31ed8cb0377ca070c",
+    "src/socialvae_causal/training.py": "bd9a43a640e3ad1a21c771d792fdb5196f768eca51dad9c5082c27ec81bfd930"
+  },
+  "test_failures": 0,
+  "tests": 293,
+  "training_smoke_epochs": 5,
+  "training_smoke_updates": 920
+}

@@ -1,0 +1,3 @@
+Forensic record of interrupted JSON write (exact original bytes as Python bytes repr).
+Recover with ast.literal_eval of the following line; no metric was changed.
+b'{\n  "ETH_evaluated": false,\n  "FPC": false,\n  "automatic_push": false,\n  "best_checkpoint_sha256": "e7f532491244a1e09bae66fcfdc389caca8e09a720c71c04b8649f6a1ed2d31b",\n  "current_K1_beats_CV_Last2": '

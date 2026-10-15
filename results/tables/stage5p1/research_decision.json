@@ -1,0 +1,29 @@
+{
+  "ETH_evaluated": false,
+  "FPC": false,
+  "automatic_push": false,
+  "best_checkpoint_sha256": "e7f532491244a1e09bae66fcfdc389caca8e09a720c71c04b8649f6a1ed2d31b",
+  "current_K1_beats_CV_Last2": false,
+  "engineering_ready_for_formal_baseline": true,
+  "formal_performance_reproduction": false,
+  "measurement_summary": {
+    "five_epoch_wall_seconds": 117.19292684798711,
+    "mean_complete_epoch_wall_seconds": 23.438585369597423,
+    "mean_training_step_with_data_seconds": 0.12157004178699699,
+    "mean_validation_seconds": 0.7493680949963164
+  },
+  "new_method_innovation_claim": false,
+  "next_recommendation": "preregister a finite formal baseline budget on fixed recording-isolated causal manifests; no network modifications; do not begin automatically",
+  "reasons": [
+    "raw eight-frame counterfactual inputs/predictions unchanged",
+    "coverage gate passed",
+    "all measured batch sizes fit",
+    "five complete passes finite with decreasing loss",
+    "strict model/optimizer/RNG restore passed"
+  ],
+  "resource_optimizer_steps": 52,
+  "selected_checkpoint_epoch": 5,
+  "smoke_epochs": 5,
+  "smoke_optimizer_steps": 920,
+  "social_information_independent_benefit_proven": false
+}

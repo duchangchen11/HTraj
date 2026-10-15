@@ -1,0 +1,56 @@
+{
+  "actual_batch_size": 128,
+  "batch_fallback": "largest successful predeclared batch among128/64/32/16; single fixed choice after resource-only checks",
+  "batch_size": 128,
+  "best_rule": "minimum validation K1 latent-prior-mean ADE; exact tie earliest epoch; paired FDE; last5 separate",
+  "data_augmentation": false,
+  "epoch_definition": "one shuffled pass over every supervised training target; no resampling cap",
+  "epochs": 5,
+  "evaluation": "entire frozen validation target set each epoch; no FPC; K20 sampling seed171000+batch_index; diagnostic posterior seed172000+batch_index",
+  "gradient_clip": null,
+  "initialization": "fresh random; never pretrained",
+  "initialization_audit": "seed17 fresh random; no resource/pretrained checkpoint loaded",
+  "learning_rate": 0.0005,
+  "loss": "unchanged official reconstruction mean + Monte Carlo latent KL mean",
+  "manifest": "configs/stage5p1/manifests/crowds_zara02/B.json",
+  "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+  "official_source_sha256": {
+    "data.py": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+    "social_vae.py": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+  },
+  "optimizer": "Adam",
+  "parameters": 2144002,
+  "preparation_seconds": 0.9360817870183382,
+  "protocol_sha256": "73657761b0ddc5aad6cb82126ee9304e00023b77e3295b7f982466c9d382bcdf",
+  "scheduler": null,
+  "seed": 17,
+  "source_commit": "56a21da6a3766da468000c35fd3f119444437ae1",
+  "source_sha256": {
+    "scripts/stage5p1/audit_raw_inputs.py": "4b45e47d84080e37fd9c342554f036296cce7072f3cfe3a903447988ba8388f8",
+    "scripts/stage5p1/benchmark_resources.py": "113f86ae35d859599cab78334a6a0b5cba764c538b4ac6ab8e632681d512eab2",
+    "scripts/stage5p1/build_data.py": "e60a61686958d5c6157afec04a750d2982d5ad06b2ddaa23aa6de911405c4c65",
+    "scripts/stage5p1/prepare.py": "e28c2df8014f2b3853db20e82d9c41c974221d447eb80e131f9649165c63f0d6",
+    "scripts/stage5p1/train_smoke.py": "7a734ff21a644431fb7721606ce1687171157b221b83354ded03cf60014be079",
+    "src/socialvae_causal/__init__.py": "417187c70d08545aab3edda777042d726b741db9b5c13beb465a24e32db04946",
+    "src/socialvae_causal/data.py": "e253652a6f836fc3673a573c12d6a2df3fc96da73d3bad95c15d399c97e52301",
+    "src/socialvae_causal/evaluation.py": "a47be3d949ed49b651a788db0e34ee9e3c2d6c62c3126097971e0cf835d3cb9d",
+    "src/socialvae_causal/io.py": "30ad54a81392c964cb2260f802d617831f1245f4b55717273bb6082ca9aa38f8",
+    "src/socialvae_causal/official.py": "05f947ca517233d355cb4be470c92eceedf22bdfc2a75e10d59987163d67bb5e",
+    "src/socialvae_causal/offline_reference.py": "e2573ff9ce900bf8d0d2a3679b265293cac6daf4f05e89b31ed8cb0377ca070c",
+    "src/socialvae_causal/training.py": "bd9a43a640e3ad1a21c771d792fdb5196f768eca51dad9c5082c27ec81bfd930"
+  },
+  "stop": "first nonfinite loss/gradient/output stops run; no LR search or automatic retry; no extension",
+  "train_recordings": [
+    "biwi_hotel",
+    "crowds_zara01",
+    "students001",
+    "students003"
+  ],
+  "train_target_windows": 23545,
+  "validation_recording": "crowds_zara02",
+  "validation_recordings": [
+    "crowds_zara02"
+  ],
+  "validation_target_windows": 1092,
+  "weight_decay": 0.0
+}
