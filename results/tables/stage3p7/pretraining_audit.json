@@ -1,0 +1,35 @@
+{
+  "ETH_evaluated": false,
+  "M1_equivalent_to_M0": true,
+  "encoder_absolute_coordinates": false,
+  "encoder_acceleration_mps2": true,
+  "encoder_features": 7,
+  "encoder_velocity_mps": true,
+  "independent_confirmation": false,
+  "inputs": [
+    {
+      "path": "src/models/ego_encoder.py",
+      "sha256": "d711945f44d51ed9e6cb690e1359b58f75b23726fecf9f41953576657722283c"
+    },
+    {
+      "path": "src/models/trajectory_decoder.py",
+      "sha256": "70f0188452252fe44f01b284d2dc389ee2fb63af25e173fa7b14a47eac2f999b"
+    },
+    {
+      "path": "src/models/ped_base.py",
+      "sha256": "d16e197fa6a21f5b2c578319537215f22dc1a0a1bf2db63ab19ae2758c8592de"
+    },
+    {
+      "path": "src/models/motion_normalization.py",
+      "sha256": "4a084ef2c7f582125fc861af10cdd3a2d9db6208c3082a3cc8dcd437646b7453"
+    }
+  ],
+  "nominal_dt": 0.4,
+  "original_rotation_equivariant": false,
+  "original_translation_equivariant": true,
+  "prediction_global_anchor": "last observed position + direct 12-step offset",
+  "source_commit": "e64c0aac49386a94075099fd1fc7ab5f545a533e",
+  "speed_missing_mask_explicit": true,
+  "stage": "before-training",
+  "trained_models": 0
+}
