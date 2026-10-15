@@ -1,0 +1,112 @@
+{
+  "ETH_evaluated": false,
+  "compatibility": [
+    "nx.from_numpy_matrix alias to nx.from_numpy_array",
+    "only official test function executed; nonETH whitelist driver, no stored metrics.pkl",
+    "num_workers1->0; no_grad inference; no numerical architecture/loss change"
+  ],
+  "environment": {
+    "GPU": "NVIDIA GeForce RTX 3080",
+    "cuda": "12.4",
+    "networkx": "3.4.2",
+    "numpy": "1.26.4",
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124"
+  },
+  "inventory": [
+    {
+      "architecture": {
+        "input_size": 2,
+        "kernel_size": 3,
+        "n_stgcnn": 1,
+        "n_txpcnn": 5,
+        "obs_seq_len": 8,
+        "output_size": 5,
+        "pred_seq_len": 12
+      },
+      "args_sha256": "f102d6b4cbbac3ac4da5b7d4c1f71610bcd13de3b730a51f9fa2d8f530d4a9e4",
+      "checkpoint_selection": "official supplied val_best; no Stage4 model fitting or selection",
+      "checkpoint_sha256": "c5faeb80523235e8091ce53b8c119e247e0363433180dfec729132ed40b62ded",
+      "fold": "hotel",
+      "loader_seconds": 7.589918908983236,
+      "max_pedestrians": 8,
+      "parameters": 7563,
+      "target_windows": 1053,
+      "windows": 301
+    },
+    {
+      "architecture": {
+        "input_size": 2,
+        "kernel_size": 3,
+        "n_stgcnn": 1,
+        "n_txpcnn": 5,
+        "obs_seq_len": 8,
+        "output_size": 5,
+        "pred_seq_len": 12
+      },
+      "args_sha256": "853b3437aa1e2d7a6568de345e670dc348538847bb39936a6c0bf290ab5d1127",
+      "checkpoint_selection": "official supplied val_best; no Stage4 model fitting or selection",
+      "checkpoint_sha256": "6fc75f7725818442a96a688d696a3c4a5330e4f436136e85fc3f94f0d146da97",
+      "fold": "univ",
+      "loader_seconds": 212.43220843200106,
+      "max_pedestrians": 57,
+      "parameters": 7563,
+      "target_windows": 24334,
+      "windows": 947
+    },
+    {
+      "architecture": {
+        "input_size": 2,
+        "kernel_size": 3,
+        "n_stgcnn": 1,
+        "n_txpcnn": 5,
+        "obs_seq_len": 8,
+        "output_size": 5,
+        "pred_seq_len": 12
+      },
+      "args_sha256": "612aacb0560411d98a02c00cd7b2bbf3305a6d0660f9528fd4f4a548d6f94a5c",
+      "checkpoint_selection": "official supplied val_best; no Stage4 model fitting or selection",
+      "checkpoint_sha256": "982d286ea16acf43289676b6050f7a0e6080eda2bddd649f42e41e67442c26b1",
+      "fold": "zara1",
+      "loader_seconds": 14.983317762991646,
+      "max_pedestrians": 14,
+      "parameters": 7563,
+      "target_windows": 2253,
+      "windows": 602
+    },
+    {
+      "architecture": {
+        "input_size": 2,
+        "kernel_size": 3,
+        "n_stgcnn": 1,
+        "n_txpcnn": 5,
+        "obs_seq_len": 8,
+        "output_size": 5,
+        "pred_seq_len": 12
+      },
+      "args_sha256": "b480b5921cdded8fabf06b93ab737ebdddbf1e75ddb2d0abba85832b62f460c5",
+      "checkpoint_selection": "official supplied val_best; no Stage4 model fitting or selection",
+      "checkpoint_sha256": "ad1ab6c1cc22aed38fac7c912209e21c81754fd5b2192988e08362d6e107112b",
+      "fold": "zara2",
+      "loader_seconds": 32.01161139601027,
+      "max_pedestrians": 14,
+      "parameters": 7563,
+      "target_windows": 5833,
+      "windows": 921
+    }
+  ],
+  "official_sources_sha256": "8a66d736a0c2f7fee3f3510630c8db496e79035af7e296e3943580efbbb92134",
+  "official_test_function_sha256": "03d533a7af2a23e508278efe1b1e769858e081ceb4509bfa50ba79f650fc3c5c",
+  "paper_full_reproduction": false,
+  "protocol_sha256": "ccc6e7325d2c897d9ab67abcad4f17214a0ad7de3f3f81bd5a4e2bf13a59094e",
+  "script_sha256": "751a0e58afd7f30c29f00cb1027fe7e000d86051155eafc12e06539880e34713",
+  "source_commit": "26075a24ed646505ae5e8a269ee86ab5f4c6b697",
+  "source_hashes": {
+    "third_party/stage4/social_stgcnn/metrics.py": "7ce16f805a207e5b80c9aa61d5c1241f54d9a04c743ab01f90ff169ee0373730",
+    "third_party/stage4/social_stgcnn/model.py": "178e623334a3d91ec5caf5a302de0045e18e959142d07a5bad8a2c05cfbbb968",
+    "third_party/stage4/social_stgcnn/test.py": "e4b63bb38e81027685efece6ef0e14fd5f807e9e79e36c999a27c26b7d415b22",
+    "third_party/stage4/social_stgcnn/train.py": "d566f1cfb7b8d16847d3d06b3aa1cfdc36fde12180ff6f044de272fcb0697aec",
+    "third_party/stage4/social_stgcnn/utils.py": "d8b9cbf06e621eddd68fc6994320f7f4d90006d7491e0337d1542b2e4c8186bf"
+  },
+  "training": false
+}

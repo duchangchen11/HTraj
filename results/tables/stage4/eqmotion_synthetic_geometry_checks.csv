@@ -1,0 +1,5 @@
+transform,valid_agent_prediction_mean_error_m,valid_agent_prediction_max_error_m,category_max_difference,finite,only_prefix_input,changed_samples,scope,device,seconds,pass_tolerance_1e_minus3
+rotation,2.294235628141905e-06,3.078891313634813e-05,2.9802322387695312e-08,True,True,2,synthetic random-weight source check only; no checkpoint metrics,cpu,0.32693279400700703,True
+translation,8.325738463099697e-07,9.35014304559445e-06,2.9802322387695312e-08,True,True,2,synthetic random-weight source check only; no checkpoint metrics,cpu,0.32693279400700703,True
+reflection,0.0,0.0,0.0,True,True,2,synthetic random-weight source check only; no checkpoint metrics,cpu,0.32693279400700703,True
+agent_permutation,1.665205786594015e-07,8.34997024412587e-07,1.4901161193847656e-08,True,True,2,synthetic random-weight source check only; no checkpoint metrics,cpu,0.32693279400700703,True

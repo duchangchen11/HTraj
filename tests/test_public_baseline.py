@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 import torch
 from pathlib import Path
-from src.evaluation.public_baseline import non_eth_fold,load_args,only_function,load_module,sample_modes,trajectory_errors
+from src.evaluation.public_baseline import non_eth_fold,load_args,only_function,load_module,sample_modes,trajectory_errors,state_dict_audit
 
 
 def test_eth_guard():
@@ -58,3 +58,26 @@ def test_official_args_whitelisted():
     for name in ('hotel','univ','zara1','zara2'):
         args=load_args(f'data/external/stage4/assets/social_stgcnn/checkpoint/social-stgcnn-{name}/args.pkl')
         assert args.dataset==name and args.obs_seq_len==8 and args.pred_seq_len==12
+
+
+def test_checkpoint_audit_rejects_missing_extra_and_shape_without_partial_load():
+    layer=torch.nn.Linear(2,3);before={k:v.clone() for k,v in layer.state_dict().items()}
+    bad={'weight':torch.zeros(2,2),'unrecognized':torch.zeros(1)}
+    report=state_dict_audit(layer,bad)
+    assert report['missing_keys']==['bias'] and report['unexpected_keys']==['unrecognized']
+    assert report['shape_mismatches']==['weight']
+    assert all(torch.equal(layer.state_dict()[k],v) for k,v in before.items())
+
+
+def test_eqmotion_synthetic_geometry_is_not_checkpoint_performance():
+    import sys
+    sys.path.insert(0,str(Path('third_party/stage4/eqmotion').resolve()))
+    from eth_ucy.model_t import EqMotion
+    from scripts.evaluate_stage4_eqmotion import geometry
+    torch.manual_seed(17)
+    model=EqMotion(8,2,64,8,64,12,device='cpu',n_layers=4,recurrent=True,norm_diff=False,tanh=False).eval()
+    loc=torch.randn(2,3,8,2).cumsum(2);loc[1,2]=0;num=torch.tensor([3,2],dtype=torch.int32)
+    with torch.no_grad():checks=geometry(model,loc,num)
+    assert {c['transform'] for c in checks}=={'rotation','translation','reflection','agent_permutation'}
+    for c in checks:
+        assert c['finite'] and c['valid_agent_prediction_max_error_m']<1e-3 and c['category_max_difference']<1e-3

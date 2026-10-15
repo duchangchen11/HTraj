@@ -1,0 +1,6 @@
+fold,recording,accepted_windows,target_windows,windows_with_non10_frame_gap,target_windows_with_non10_frame_gap,max_accepted_frame_interval,method
+hotel,biwi_hotel,301,1053,0,0,10.0,source frame+ID occurrence audit matching complete20 and at least2 nodes; no prediction/GT-value grouping
+univ,students001,425,14295,0,0,10.0,source frame+ID occurrence audit matching complete20 and at least2 nodes; no prediction/GT-value grouping
+univ,students003,522,10039,0,0,10.0,source frame+ID occurrence audit matching complete20 and at least2 nodes; no prediction/GT-value grouping
+zara1,crowds_zara01,602,2253,0,0,10.0,source frame+ID occurrence audit matching complete20 and at least2 nodes; no prediction/GT-value grouping
+zara2,crowds_zara02,921,5833,0,0,10.0,source frame+ID occurrence audit matching complete20 and at least2 nodes; no prediction/GT-value grouping

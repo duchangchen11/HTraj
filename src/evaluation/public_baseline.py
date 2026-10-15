@@ -51,3 +51,11 @@ def sample_modes(predictions,target,mean_prediction=None):
     if mean_prediction is not None:
         a,f=trajectory_errors(np.asarray(mean_prediction)[None],target);result['K1_distribution_mean']=(a[0],f[0])
     return result
+
+
+def state_dict_audit(model,state):
+    """Report incompatibility without loading partial/random model weights."""
+    required=model.state_dict()
+    return dict(required_keys=len(required),checkpoint_keys=len(state),
+        missing_keys=sorted(set(required)-set(state)),unexpected_keys=sorted(set(state)-set(required)),
+        shape_mismatches=[k for k in sorted(set(required)&set(state)) if required[k].shape!=state[k].shape])

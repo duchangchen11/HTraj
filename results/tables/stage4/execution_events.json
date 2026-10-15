@@ -1,0 +1,150 @@
+{
+  "ETH_evaluated": false,
+  "events": [
+    {
+      "event": {
+        "K20_ADE": 0.404984797330163,
+        "K20_FDE": 0.6717731621569659,
+        "fold": "hotel",
+        "seconds": 5.456133347004652,
+        "seed": 17,
+        "targets": 1053
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.40935954349320014,
+        "K20_FDE": 0.6809135943911254,
+        "fold": "hotel",
+        "seconds": 4.532408144994406,
+        "seed": 42,
+        "targets": 1053
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.40962321491324943,
+        "K20_FDE": 0.6756573329795296,
+        "fold": "hotel",
+        "seconds": 4.584812168002827,
+        "seed": 2026,
+        "targets": 1053
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.488710052457415,
+        "K20_FDE": 0.9115269173706606,
+        "fold": "univ",
+        "seconds": 64.73913477399037,
+        "seed": 17,
+        "targets": 24334
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.4890298134250559,
+        "K20_FDE": 0.9126313171395937,
+        "fold": "univ",
+        "seconds": 65.76273328901152,
+        "seed": 42,
+        "targets": 24334
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.488975668131597,
+        "K20_FDE": 0.9127714379846037,
+        "fold": "univ",
+        "seconds": 64.84681727999123,
+        "seed": 2026,
+        "targets": 24334
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.33206527278535175,
+        "K20_FDE": 0.5232750969269567,
+        "fold": "zara1",
+        "seconds": 9.667340721003711,
+        "seed": 17,
+        "targets": 2253
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.32994456761788316,
+        "K20_FDE": 0.5152059758973576,
+        "fold": "zara1",
+        "seconds": 9.620080513006542,
+        "seed": 42,
+        "targets": 2253
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.33040204849562504,
+        "K20_FDE": 0.5147046180535934,
+        "fold": "zara1",
+        "seconds": 9.589064361003693,
+        "seed": 2026,
+        "targets": 2253
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.30403203851267346,
+        "K20_FDE": 0.479859763967673,
+        "fold": "zara2",
+        "seconds": 21.571142437984236,
+        "seed": 17,
+        "targets": 5833
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.30366195498745335,
+        "K20_FDE": 0.48111766438386294,
+        "fold": "zara2",
+        "seconds": 21.315699288010364,
+        "seed": 42,
+        "targets": 5833
+      },
+      "log": "experiments/stage4/social_execution.log"
+    },
+    {
+      "event": {
+        "K20_ADE": 0.3039163311394789,
+        "K20_FDE": 0.4830103278701061,
+        "fold": "zara2",
+        "seconds": 21.223138795001432,
+        "seed": 2026,
+        "targets": 5833
+      },
+      "log": "experiments/stage4/social_execution.log"
+    }
+  ],
+  "logs": [
+    {
+      "bytes": 76372,
+      "path": "experiments/stage4/social_execution.log",
+      "sha256": "ab94d332a0d7da96930bdb1e1b37b6f65c567c95dc7fee227ad94f346ff18409"
+    },
+    {
+      "bytes": 11185,
+      "path": "experiments/stage4/eqmotion_execution.log",
+      "sha256": "02825be04523cf3c78e29b530e1cbcbc3d871de421c47d3f1a14d69b4494023a"
+    }
+  ],
+  "training": false
+}

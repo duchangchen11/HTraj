@@ -1,0 +1,186 @@
+{
+  "Dynamic_GNN_RN_hidden64_parameters": 102235,
+  "ETH_evaluated": false,
+  "added_files_checked": 62,
+  "artifacts": [
+    {
+      "bytes": 528,
+      "path": "results/tables/stage4/environment.json",
+      "sha256": "7705a95fb247b48eb43c4c2f37cd7c3663a28b44f50096b4b5acc02e5ddd25b3"
+    },
+    {
+      "bytes": 36052,
+      "path": "results/tables/stage4/eqmotion_checkpoint_compatibility.json",
+      "sha256": "ea946e799ff75e82703740f5d0369b939aeb925887d8367f5c5bfb6761dfe9bb"
+    },
+    {
+      "bytes": 37321,
+      "path": "results/tables/stage4/eqmotion_execution.json",
+      "sha256": "70ecf6166240c2a295831ed35d2d8b0450c8424767e46359bbeb2b702bcd1f50"
+    },
+    {
+      "bytes": 877,
+      "path": "results/tables/stage4/eqmotion_synthetic_geometry_checks.csv",
+      "sha256": "0fb87df3af31ec46f695069a2fe95a23fa9c222f4cdd5cc7a070369e7af73d60"
+    },
+    {
+      "bytes": 7390,
+      "path": "results/tables/stage4/eqmotion_tree_inventory.json",
+      "sha256": "1e309a52f1653cc70decbef814d27651018524f3cdda6501efe4936f17cbe290"
+    },
+    {
+      "bytes": 3799,
+      "path": "results/tables/stage4/execution_events.json",
+      "sha256": "07659d134fb39e3e283efc0912620882c54a294c862e323e743049eaeb3f09d0"
+    },
+    {
+      "bytes": 26958,
+      "path": "results/tables/stage4/final_tests.xml",
+      "sha256": "e0a5c4edd59c38b6da22f7be8565bb9b336e17e6a831b00fa956455a2657b3b2"
+    },
+    {
+      "bytes": 233,
+      "path": "results/tables/stage4/literature_discovery_eqmotion.json",
+      "sha256": "b90a774832cd23a2ee98a77c07071a350e0e697770c2cdbd7790def39488536f"
+    },
+    {
+      "bytes": 2039,
+      "path": "results/tables/stage4/literature_sources.json",
+      "sha256": "6c69297b515553e63d4f57e12ce46bd53d80e73ea5a7ca95ae00dd78682f0687"
+    },
+    {
+      "bytes": 10683,
+      "path": "results/tables/stage4/package_versions.json",
+      "sha256": "e19cdf70a3a285dcede33dd243f0e34187343f7e36ee57a1fbfcbcb4e738af09"
+    },
+    {
+      "bytes": 26678,
+      "path": "results/tables/stage4/pre_evaluation_tests.xml",
+      "sha256": "b339a2bff2b2312b62a7db8b6b8ded043463fab437c8c365a0ac72446a74534c"
+    },
+    {
+      "bytes": 2248,
+      "path": "results/tables/stage4/raw_protocol_comparison.csv",
+      "sha256": "ba0ee70f0e3fbfef9a8d49821d9e3eed6fd177cde67ea373200f92c12c0b8458"
+    },
+    {
+      "bytes": 1971,
+      "path": "results/tables/stage4/setup_provenance.json",
+      "sha256": "d1e8078f0656e6fbd2534658de8e7ef1a6c1aa78132d65b5ca8400f88b5ada70"
+    },
+    {
+      "bytes": 1761,
+      "path": "results/tables/stage4/social_aggregate_results.csv",
+      "sha256": "0710a0bc832358b9e765903975b4b6164e6bd4dfd0e19b1632d8871adbadafdc"
+    },
+    {
+      "bytes": 4342,
+      "path": "results/tables/stage4/social_execution.json",
+      "sha256": "2300ee3fd5f2f3243de0014d053a2c5520dcb63644f0732012713a335ec0e81d"
+    },
+    {
+      "bytes": 5996,
+      "path": "results/tables/stage4/social_results.csv",
+      "sha256": "0d193881456f0a1cb76667b2b82ccac65901b776f8303b81cf5b826c2928716b"
+    },
+    {
+      "bytes": 1672,
+      "path": "results/tables/stage4/social_sampling_summary.csv",
+      "sha256": "12b7fc2b82ad9ce9b80c8c3251aedb71cd8c7c05b08e87390fb8328de9765bf8"
+    },
+    {
+      "bytes": 6060,
+      "path": "results/tables/stage4/social_stgcnn_tree_inventory.json",
+      "sha256": "eb7f8ac07125aab92ac8da6c852abd6b78b542e59de816cc8ae4bf00b94f8249"
+    },
+    {
+      "bytes": 6664926,
+      "path": "results/tables/stage4/social_target_errors.csv.gz",
+      "sha256": "8495c3b5cd52c96f539a784b644426467a9f20bfdc07dbdda722acbe009cbd70"
+    },
+    {
+      "bytes": 860,
+      "path": "results/tables/stage4/social_temporal_support_audit.csv",
+      "sha256": "3629fd8227c70aea07ea6f661dbba881dccd227193e5c94991595d5ee742c958"
+    },
+    {
+      "bytes": 3115,
+      "path": "results/tables/stage4/source_version_comparison.json",
+      "sha256": "e405d787dd30fc4fc8986b84cd9ff7b37dbabe8af9ff2d69ed14277274a6e2e1"
+    }
+  ],
+  "auto_push": false,
+  "base_commit": "f12146143514d2b6eb6cf14877cb5b4cae454543",
+  "checked_at_HEAD": "26075a24ed646505ae5e8a269ee86ab5f4c6b697",
+  "eqmotion_checkpoint_status": "blocked; no ADE/FDE",
+  "full_unit_tests": 210,
+  "ignore_examples_pass": true,
+  "independent_target_sampling_claim": false,
+  "largest_added_bytes": 6664926,
+  "limitations": "secret check is specified-pattern scan; independent data confirmation and full paper/training reproduction not established",
+  "logs": [
+    {
+      "bytes": 508,
+      "path": "experiments/stage4/environment_setup.log",
+      "sha256": "a17ba95aa8ebf44a49e60f25a5a0be4250d283337868957d7c626359527c0d88"
+    },
+    {
+      "bytes": 328,
+      "path": "experiments/stage4/eq_asset_fetch.log",
+      "sha256": "43be32d19aee0e6b8a4ff2f834ec2bb7bad26497a9d7f168bece45cbebdb0a83"
+    },
+    {
+      "bytes": 1830,
+      "path": "experiments/stage4/eqmotion_diagnostic.log",
+      "sha256": "7d0077eeaa0f7c45f3582336162b3bd91fb64f9e75ede3dead99a7fc59253405"
+    },
+    {
+      "bytes": 11185,
+      "path": "experiments/stage4/eqmotion_execution.log",
+      "sha256": "02825be04523cf3c78e29b530e1cbcbc3d871de421c47d3f1a14d69b4494023a"
+    },
+    {
+      "bytes": 341,
+      "path": "experiments/stage4/final_tests.log",
+      "sha256": "73982923aabb8db0c7acc706882380229afe725a2b0fc9d84095e02fbffb5d85"
+    },
+    {
+      "bytes": 156,
+      "path": "experiments/stage4/literature_discovery.log",
+      "sha256": "1959d19ec4aab5dc782d1f5de25b2440d91ed49276b636a58e0f4e9ba031fa9d"
+    },
+    {
+      "bytes": 76372,
+      "path": "experiments/stage4/social_execution.log",
+      "sha256": "ab94d332a0d7da96930bdb1e1b37b6f65c567c95dc7fee227ad94f346ff18409"
+    },
+    {
+      "bytes": 1283,
+      "path": "experiments/stage4/source_fetch.log",
+      "sha256": "2936de46eff51c5fdcf27db7813af08680538c1e379646917842bc050dc29fd9"
+    },
+    {
+      "bytes": 1366,
+      "path": "experiments/stage4/source_fetch_attempt2.log",
+      "sha256": "994f54e750c7cdd7196fff9ddab28378176d8fa0c936665626fcc398f68a26f3"
+    },
+    {
+      "bytes": 305,
+      "path": "experiments/stage4/source_fetch_attempt3.log",
+      "sha256": "7690a68eba2ac6b4ab8480ae7c865ec7297c07bfe7a2cb4f95f74e78e723b956"
+    }
+  ],
+  "new_training": false,
+  "old_checkpoints": 142,
+  "old_protected_files": 1169,
+  "old_results_unchanged": true,
+  "sensitive_pattern_matches": 0,
+  "social_result_rows": 36,
+  "social_target_error_rows": 301257,
+  "status": "pass",
+  "synthetic_geometric_checks": 4,
+  "unit_test_seconds": 8.682,
+  "upstream_bytes_unchanged": true,
+  "verifier_sha256": "d37159ce584727b096531487ca40f4f0c91b9171aa36568e1bfeb00e6efa6a44",
+  "whitespace_check": true
+}
