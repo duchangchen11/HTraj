@@ -1,0 +1,49 @@
+{
+  "ETH_evaluated": false,
+  "automatic_push": false,
+  "base_commit": "546c256755139edd59b1ffe09c184bc05260a1e8",
+  "context_rule": "Intersection of raw actor IDs in the eight historical frames; sorted IDs; no radius or count cap",
+  "coordinate_unit": "m",
+  "core_or_loss_modifications_allowed": false,
+  "formal_epochs": 0,
+  "inference_interface": "NaN future sentinel and zero validity; infer only; never a valid training packet",
+  "inference_noise": "K1 epsilon zero at learned prior; K20 stable SHA256(recording,start,actor,seed)-seeded epsilon; same noise for all raw variants",
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "maximum_real_cases_per_recording": 6,
+  "model_config": "cfg/eth_ucy/hotel/hotel_agentformer_pre.yml",
+  "negative_probe": "One mixed-label real window per recording; compare two explicitly artificial masked placeholder completions and NaN sentinel; diagnostics ONLY, no update",
+  "numerical_tolerance": {
+    "atol": 1e-05,
+    "rtol": 1e-05
+  },
+  "observations": 8,
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "optimizer_updates": 0,
+  "predictions": 12,
+  "protocol_A": "HTraj-AgentFormer-A_offline_complete20-v1",
+  "protocol_B": "HTraj-AgentFormer-Causal8x12-v1",
+  "raw_counterfactual_windows": "First mixed-label validation window per recording, otherwise first N>=2 validation window",
+  "raw_counterfactuals": [
+    "future_positions",
+    "neighbor_future_deleted",
+    "neighbor_future_shortened",
+    "future_only_actor",
+    "non_target_future_changed"
+  ],
+  "real_case_selection": "Per recording: first N1, first N2, first N>=3 fully labeled if available, first mixed-label, first partial-history presence, maximum N; deduplicate",
+  "resource_probe": "Maximum complete8 context across frozen train and validation supports; no truncation; original backward only if all labels available",
+  "seconds_per_sample": 0.4,
+  "seed": 17,
+  "semantic_stop": "If posterior, KL, normalization or output semantics must change for unlabeled context: NO-GO; do not implement replacement training objective",
+  "target_rule": "Exact Stage5.1 frozen complete8/complete12 cohort; labels kept separately from context selection",
+  "true_original_loss": "Allowed only if ALL causal context nodes have real complete12 labels; otherwise fail closed"
+}

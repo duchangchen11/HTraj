@@ -1,0 +1,11 @@
+{
+  "frozen_before_model_execution": true,
+  "reason": "Validation scan has no causal N1 windows; HOTEL validation has no all-labeled causal contexts. Cover engineering single/two/multi backward cases using already frozen original source TRAIN regions, without changing validation or target cohorts.",
+  "rule": "If a recording lacks an all-labeled causal N1/N2/N>=3 case in selected validation cases, add its first N1/N2/N3 all-labeled window in frozen Stage5.1 train supports. Keep at most six cases per recording.",
+  "inference_or_backward_only": true,
+  "formal_epochs": 0,
+  "optimizer_updates": 0,
+  "ETH_evaluated": false,
+  "future_completeness_used_only_for_engineering_case_selection": true,
+  "future_completeness_never_used_for_context_selection": true
+}
