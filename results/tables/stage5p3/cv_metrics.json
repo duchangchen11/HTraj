@@ -1,0 +1,44 @@
+[
+  {
+    "ADE_m": 0.3295158974530481,
+    "FDE_m": 0.6110384289258903,
+    "model": "CV-Last2",
+    "recording": "biwi_hotel",
+    "target_windows": 318
+  },
+  {
+    "ADE_m": 0.237813629136381,
+    "FDE_m": 0.4388663518470621,
+    "model": "CV-OLS4",
+    "recording": "biwi_hotel",
+    "target_windows": 318
+  },
+  {
+    "ADE_m": 0.2201437778667311,
+    "FDE_m": 0.4087597894603781,
+    "model": "CV-OLS8",
+    "recording": "biwi_hotel",
+    "target_windows": 318
+  },
+  {
+    "ADE_m": 0.2963058062761224,
+    "FDE_m": 0.6675226177418371,
+    "model": "CV-Last2",
+    "recording": "crowds_zara02",
+    "target_windows": 1092
+  },
+  {
+    "ADE_m": 0.3318751334420477,
+    "FDE_m": 0.7156826276460467,
+    "model": "CV-OLS4",
+    "recording": "crowds_zara02",
+    "target_windows": 1092
+  },
+  {
+    "ADE_m": 0.3831749337628911,
+    "FDE_m": 0.787222272017701,
+    "model": "CV-OLS8",
+    "recording": "crowds_zara02",
+    "target_windows": 1092
+  }
+]

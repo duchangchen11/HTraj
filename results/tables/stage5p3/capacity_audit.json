@@ -1,0 +1,70 @@
+[
+  {
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "loss_graph_connected_parameters": 2144002,
+    "losses": [
+      {
+        "kl": 0.004642963875085115,
+        "loss": 0.05179513990879059,
+        "rec": 0.04715217649936676
+      },
+      {
+        "kl": 0.003508415538817644,
+        "loss": 1.1448026895523071,
+        "rec": 1.141294240951538
+      },
+      {
+        "kl": 0.004412107169628143,
+        "loss": 1.1479402780532837,
+        "rec": 1.1435282230377197
+      },
+      {
+        "kl": 0.002898639068007469,
+        "loss": 7.644853115081787,
+        "rec": 7.64195442199707
+      }
+    ],
+    "model": "Full",
+    "module_forward_used_parameters": 2144002,
+    "observed_nonzero_gradient_scalars": 1783553,
+    "optimizer_updates": 0,
+    "probe_batches": 4,
+    "probe_targets": 64,
+    "structural_effective_upper_bound": 2045698,
+    "total_parameters": 2144002
+  },
+  {
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "loss_graph_connected_parameters": 1656514,
+    "losses": [
+      {
+        "kl": 0.004650929011404514,
+        "loss": 0.05217134952545166,
+        "rec": 0.04752042144536972
+      },
+      {
+        "kl": 0.003504590131342411,
+        "loss": 1.1456812620162964,
+        "rec": 1.142176628112793
+      },
+      {
+        "kl": 0.004398766905069351,
+        "loss": 1.1480562686920166,
+        "rec": 1.1436574459075928
+      },
+      {
+        "kl": 0.0028894967399537563,
+        "loss": 7.644174575805664,
+        "rec": 7.641284942626953
+      }
+    ],
+    "model": "NoSocial",
+    "module_forward_used_parameters": 1656514,
+    "observed_nonzero_gradient_scalars": 1278481,
+    "optimizer_updates": 0,
+    "probe_batches": 4,
+    "probe_targets": 64,
+    "structural_effective_upper_bound": 1459906,
+    "total_parameters": 2144002
+  }
+]

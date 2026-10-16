@@ -1,0 +1,48 @@
+[
+  {
+    "recording": "biwi_hotel",
+    "split": "train",
+    "target_windows": 27145,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "records": [
+      "crowds_zara01",
+      "crowds_zara02",
+      "students001",
+      "students003"
+    ],
+    "all_target_IDs_history_GT_SHA_match_Full": true
+  },
+  {
+    "recording": "biwi_hotel",
+    "split": "validation",
+    "target_windows": 318,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "records": [
+      "biwi_hotel"
+    ],
+    "all_target_IDs_history_GT_SHA_match_Full": true
+  },
+  {
+    "recording": "crowds_zara02",
+    "split": "train",
+    "target_windows": 23545,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "records": [
+      "biwi_hotel",
+      "crowds_zara01",
+      "students001",
+      "students003"
+    ],
+    "all_target_IDs_history_GT_SHA_match_Full": true
+  },
+  {
+    "recording": "crowds_zara02",
+    "split": "validation",
+    "target_windows": 1092,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "records": [
+      "crowds_zara02"
+    ],
+    "all_target_IDs_history_GT_SHA_match_Full": true
+  }
+]
