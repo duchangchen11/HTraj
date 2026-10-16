@@ -1,0 +1,36 @@
+[
+  {
+    "model": "EgoCapacity",
+    "total_parameters": 2669570,
+    "module_forward_used_parameters": 2182082,
+    "loss_graph_connected_parameters": 2182082,
+    "observed_nonzero_gradient_scalars": 1602243,
+    "structural_effective_upper_bound": 1985474,
+    "probe_batches": 4,
+    "probe_targets": 64,
+    "optimizer_updates": 0,
+    "losses": [
+      {
+        "loss": 0.05188741534948349,
+        "rec": 0.04723384976387024,
+        "kl": 0.0046535637229681015
+      },
+      {
+        "loss": 1.1449503898620605,
+        "rec": 1.1414449214935303,
+        "kl": 0.003505433676764369
+      },
+      {
+        "loss": 1.1479086875915527,
+        "rec": 1.143506407737732,
+        "kl": 0.004402227699756622
+      },
+      {
+        "loss": 7.64410924911499,
+        "rec": 7.6412153244018555,
+        "kl": 0.002893900265917182
+      }
+    ],
+    "initial_parameter_state_sha256": "129e5e7e7edc0a611a9bee5678d8dd312863bbaf702854290f52359b827a4a91"
+  }
+]

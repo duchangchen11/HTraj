@@ -1,0 +1,12 @@
+{
+  "configs/stage5p4/ego_protocol.json": "c38ee92926507985b5ad9c6665dd5eede541db22c927be521d2ee14653578d4f",
+  "scripts/stage5p4/audit_capacity.py": "1534829b9351914b734bbc9495fe5edf5c620787d6028bbe81c81a834fa03282",
+  "scripts/stage5p4/prepare.py": "f78a815d6e94a8acb60d5c23cd7b1138491580863b7f7f42e2fd70352920fa57",
+  "scripts/stage5p4/status.py": "104a5a5a3cfa80eab04dcc644d139b259dcdc28511a724d07de31cd90b8d7253",
+  "scripts/stage5p4/train.py": "29aba774f71f1e907d017cbce40803e21f1c30c87142e51797b4533c5a8d5530",
+  "scripts/stage5p4/verify_cohorts.py": "316de99a7b752b1ddb03d54c1a724e94b2c6a76c112b14b09e46c283a2a46808",
+  "src/socialvae_capacity/__init__.py": "e954cb064b07aa95dae34a9a2669a9ab515e72d4ce733bd0e5ee8ae72478d173",
+  "src/socialvae_capacity/model.py": "0511341e8e0b4c46fd2ad6475360a7da91bedeed6d0b51f6a6b6a91a07bbfbfc",
+  "src/socialvae_capacity/training.py": "772640d3ecd9a80750abd4bf1615e0aba678f2912e1ed1328a794d9895f8a956",
+  "tests/test_socialvae_capacity.py": "4aa92ccd79f711114729a626e025f108ba80802ebc78c20fc364b3be11b3f341"
+}
