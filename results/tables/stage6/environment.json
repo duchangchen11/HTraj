@@ -1,0 +1,12 @@
+{
+  "python": "3.10.21",
+  "python_executable": "experiments/stage4/venv/bin/python",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "numpy": "1.26.4",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "gpu_total_bytes": 10366025728,
+  "full_tests_command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 experiments/stage4/venv/bin/python -m pytest -q --junitxml=results/tables/stage6/full_tests.xml",
+  "scope": "Existing isolated Stage4 environment reused for inference/unit tests; no new training"
+}

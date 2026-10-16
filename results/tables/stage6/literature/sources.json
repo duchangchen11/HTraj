@@ -1,0 +1,73 @@
+{
+  "ETH_scores_used": false,
+  "GitHub_REST": "HTTP403, source pinning used Git plus SHA-verified raw blobs",
+  "OpenAlex_fallback": "HTTP429, no blind retry; original log in experiments/stage6/academic_search.txt",
+  "academic_search_MCP_available": false,
+  "metadata_requests": [
+    {
+      "bytes": 7913,
+      "seconds": 1.350640074990224,
+      "status": 200,
+      "url": "https://export.arxiv.org/api/query?id_list=2104.01528,2403.18452,2203.05046&max_results=3"
+    },
+    {
+      "bytes": 9157,
+      "seconds": 1.2323442149790935,
+      "status": 200,
+      "url": "https://api.crossref.org/works/10.1109/CVPR46437.2021.00888"
+    }
+  ],
+  "search_scope": "Focused primary-source reassessment, not exhaustive systematic review or a novelty certificate",
+  "sources": [
+    {
+      "arxiv": "2104.01528",
+      "claim": "Sparse directed spatial and temporal graphs are existing published ideas.",
+      "doi": "10.1109/CVPR46437.2021.00888",
+      "id": "SGCN",
+      "status": "CVF/arXiv/Git source cross-check",
+      "title": "SGCN: Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Shi_SGCN_Sparse_Graph_Convolution_Network_for_Pedestrian_Trajectory_Prediction_CVPR_2021_paper.html",
+      "venue": "CVPR",
+      "year": 2021
+    },
+    {
+      "claim": "Existing social graph baseline. Local tests concern maintained commit, not exact 2020 code.",
+      "id": "Social-STGCNN",
+      "status": "CVF plus previous frozen local audits",
+      "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.html",
+      "venue": "CVPR",
+      "year": 2020
+    },
+    {
+      "arxiv": "2403.18452",
+      "claim": "Motion representation unification and adaptive anchors already exist; domain adaptation is not target-free domain generalization.",
+      "id": "SingularTrajectory",
+      "status": "CVF/arXiv and fixed Git source",
+      "title": "SingularTrajectory: Universal Trajectory Predictor Using Diffusion Model",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bae_SingularTrajectory_Universal_Trajectory_Predictor_Using_Diffusion_Model_CVPR_2024_paper.html",
+      "venue": "CVPR",
+      "year": 2024
+    },
+    {
+      "claim": "CV-prior residuals and cross-domain motion prediction are existing ideas, not HTraj novelty.",
+      "id": "MotionPriorDG",
+      "status": "Publisher primary abstract/metadata; not reproduced, not baseline candidate",
+      "title": "Towards Single Source Domain Generalisation in Trajectory Prediction: A Motion Prior based Approach",
+      "url": "https://proceedings.mlr.press/v232/huang23a.html",
+      "venue": "CoLLAs / PMLR232:227-243",
+      "year": 2023
+    },
+    {
+      "claim": "Domain alignment and transferable GNN are prior work; adaptation access assumptions must be separated from target-free generalization.",
+      "id": "T-GNN",
+      "status": "Author arXiv metadata; not reproduced, not additional baseline candidate",
+      "title": "Adaptive Trajectory Prediction via Transferable GNN",
+      "url": "https://arxiv.org/abs/2203.05046v2",
+      "venue": "CVPR",
+      "year": 2022
+    }
+  ],
+  "unverified_performance_claims": false,
+  "workflow": "nature-academic-search / multi-source-search"
+}

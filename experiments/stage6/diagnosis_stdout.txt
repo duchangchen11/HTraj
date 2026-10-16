@@ -1,0 +1,13 @@
+Restored biwi_hotel 17 Full 318 targets
+Restored biwi_hotel 17 PlaceboSocial 318 targets
+Restored crowds_zara02 17 Full 1092 targets
+Restored crowds_zara02 17 PlaceboSocial 1092 targets
+Restored biwi_hotel 42 Full 318 targets
+Restored biwi_hotel 42 PlaceboSocial 318 targets
+Restored crowds_zara02 42 Full 1092 targets
+Restored crowds_zara02 42 PlaceboSocial 1092 targets
+Restored biwi_hotel 2026 Full 318 targets
+Restored biwi_hotel 2026 PlaceboSocial 318 targets
+Restored crowds_zara02 2026 Full 1092 targets
+Restored crowds_zara02 2026 PlaceboSocial 1092 targets
+All frozen predictions verified; actual diagnostics saved; no training

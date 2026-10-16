@@ -1,0 +1,215 @@
+{
+  "ETH_evaluated": false,
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "cases": [
+    {
+      "artificial_input": true,
+      "error": "",
+      "error_type": "AssertionError",
+      "fold": "hotel",
+      "forward_success": false,
+      "optimizer_updates": 0,
+      "people": 1
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "hotel",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.3430686295032501,
+      "mean_trajectory_max_difference_m": 0.08759943395853043,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        2,
+        5
+      ],
+      "people": 2,
+      "raw_gaussian_parameter_max_difference": 0.021825790405273438
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "hotel",
+      "forward_success": true,
+      "identity_intervention": "structure-only, untrained intervention; no performance inference",
+      "learned_spatial_adjacency_max_difference": 0.0,
+      "mean_trajectory_max_difference_m": 0.0,
+      "optimizer_updates": 0,
+      "other_node_Jacobian_L2_with_identity_graph": 0.0,
+      "output_shape": [
+        12,
+        3,
+        5
+      ],
+      "people": 3,
+      "raw_gaussian_parameter_max_difference": 0.0
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "hotel",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.0,
+      "mean_trajectory_max_difference_m": 0.0,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        5,
+        5
+      ],
+      "people": 5,
+      "raw_gaussian_parameter_max_difference": 0.0
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "hotel",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.0,
+      "mean_trajectory_max_difference_m": 0.0,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        8,
+        5
+      ],
+      "people": 8,
+      "raw_gaussian_parameter_max_difference": 0.0
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "hotel",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.0,
+      "mean_trajectory_max_difference_m": 0.0,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        12,
+        5
+      ],
+      "people": 12,
+      "raw_gaussian_parameter_max_difference": 0.0
+    },
+    {
+      "artificial_input": true,
+      "error": "",
+      "error_type": "AssertionError",
+      "fold": "zara2",
+      "forward_success": false,
+      "optimizer_updates": 0,
+      "people": 1
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "zara2",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.539721667766571,
+      "mean_trajectory_max_difference_m": 0.1360251009464264,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        2,
+        5
+      ],
+      "people": 2,
+      "raw_gaussian_parameter_max_difference": 0.24407005310058594
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "zara2",
+      "forward_success": true,
+      "identity_intervention": "structure-only, untrained intervention; no performance inference",
+      "learned_spatial_adjacency_max_difference": 0.5205676555633545,
+      "mean_trajectory_max_difference_m": 0.04555322229862213,
+      "optimizer_updates": 0,
+      "other_node_Jacobian_L2_with_identity_graph": 0.0,
+      "output_shape": [
+        12,
+        3,
+        5
+      ],
+      "people": 3,
+      "raw_gaussian_parameter_max_difference": 0.031025409698486328
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "zara2",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.533186137676239,
+      "mean_trajectory_max_difference_m": 0.07599607110023499,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        5,
+        5
+      ],
+      "people": 5,
+      "raw_gaussian_parameter_max_difference": 0.025003671646118164
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "zara2",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.8753651976585388,
+      "mean_trajectory_max_difference_m": 0.4616323709487915,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        8,
+        5
+      ],
+      "people": 8,
+      "raw_gaussian_parameter_max_difference": 0.615389347076416
+    },
+    {
+      "artificial_input": true,
+      "finite": true,
+      "fold": "zara2",
+      "forward_success": true,
+      "learned_spatial_adjacency_max_difference": 0.9154250025749207,
+      "mean_trajectory_max_difference_m": 0.15295138955116272,
+      "optimizer_updates": 0,
+      "output_shape": [
+        12,
+        12,
+        5
+      ],
+      "people": 12,
+      "raw_gaussian_parameter_max_difference": 0.2841005325317383
+    }
+  ],
+  "caveat": "Artificial graphs only. Upstream nonETH weights may have trained on ETH. Strict load and finite forward do not reproduce paper scores.",
+  "elapsed_seconds": 1.1051613140152767,
+  "loads": [
+    {
+      "fold": "hotel",
+      "parameters": 25369,
+      "path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/hotel/val_best.pth",
+      "sha256": "fe993865fd4a0fd345e1ea5da8131d931ad5ecf0c7be463dfc43ffc83f4beb38",
+      "state_keys": 97,
+      "strict_load": true
+    },
+    {
+      "fold": "zara2",
+      "parameters": 25369,
+      "path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/zara2/val_best.pth",
+      "sha256": "a2fb16d13522f599fbc6a9d09da354ddadb0998bf73f7c97b9afcdd965097d19",
+      "state_keys": 97,
+      "strict_load": true
+    }
+  ],
+  "new_training_runs": 0,
+  "official_source_modified": false,
+  "optimizer_updates": 0,
+  "real_scene_evaluation": false,
+  "repository_commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+  "source_sha256": "5354f288f70ad6a5adbe7fb9321c6a54f7395e998f929ec4ccab2835bc4148bd",
+  "torch": "2.5.1+cu124"
+}

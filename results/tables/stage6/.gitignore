@@ -1,0 +1,2 @@
+# Full immutable diagnostic stream is retained locally; tracked shards contain every row.
+/diagnosis/per_step_motion_diagnostics.csv.gz

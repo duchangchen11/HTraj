@@ -1,0 +1,13 @@
+artificial_input,error,error_type,finite,fold,forward_success,identity_intervention,learned_spatial_adjacency_max_difference,mean_trajectory_max_difference_m,optimizer_updates,other_node_Jacobian_L2_with_identity_graph,output_shape,people,raw_gaussian_parameter_max_difference
+True,,AssertionError,,hotel,False,,,,0,,,1,
+True,,,True,hotel,True,,0.3430686295032501,0.08759943395853043,0,,"[12, 2, 5]",2,0.021825790405273438
+True,,,True,hotel,True,"structure-only, untrained intervention; no performance inference",0.0,0.0,0,0.0,"[12, 3, 5]",3,0.0
+True,,,True,hotel,True,,0.0,0.0,0,,"[12, 5, 5]",5,0.0
+True,,,True,hotel,True,,0.0,0.0,0,,"[12, 8, 5]",8,0.0
+True,,,True,hotel,True,,0.0,0.0,0,,"[12, 12, 5]",12,0.0
+True,,AssertionError,,zara2,False,,,,0,,,1,
+True,,,True,zara2,True,,0.539721667766571,0.1360251009464264,0,,"[12, 2, 5]",2,0.24407005310058594
+True,,,True,zara2,True,"structure-only, untrained intervention; no performance inference",0.5205676555633545,0.04555322229862213,0,0.0,"[12, 3, 5]",3,0.031025409698486328
+True,,,True,zara2,True,,0.533186137676239,0.07599607110023499,0,,"[12, 5, 5]",5,0.025003671646118164
+True,,,True,zara2,True,,0.8753651976585388,0.4616323709487915,0,,"[12, 8, 5]",8,0.615389347076416
+True,,,True,zara2,True,,0.9154250025749207,0.15295138955116272,0,,"[12, 12, 5]",12,0.2841005325317383

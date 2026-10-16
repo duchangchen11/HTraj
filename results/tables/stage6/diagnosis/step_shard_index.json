@@ -1,0 +1,117 @@
+{
+  "no_rows_discarded": true,
+  "original_retained_locally": true,
+  "original_sha256": "a626f9a8a8217694fd61fa46608a74abb9c7d1bab08f5edcd26ecd892a6a351b",
+  "original_stream": "results/tables/stage6/diagnosis/per_step_motion_diagnostics.csv.gz",
+  "shards": [
+    {
+      "bytes": 201190,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed17_Full.csv.gz",
+      "rows": 3816,
+      "sha256": "0225e527201b3c522212c98ece3e8b59baf8b1544495d36c6bd8fb07122884b8"
+    },
+    {
+      "bytes": 196428,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed17_PlaceboSocial.csv.gz",
+      "rows": 3816,
+      "sha256": "ffba286d1a48c344bbd44a72f298cf23a044d5d426bb8155e363da58a15f421e"
+    },
+    {
+      "bytes": 201727,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed2026_Full.csv.gz",
+      "rows": 3816,
+      "sha256": "dee45e306579ec5f4e0ce153a223931151be95ce0ed5ab6306478379e627ea21"
+    },
+    {
+      "bytes": 194863,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed2026_PlaceboSocial.csv.gz",
+      "rows": 3816,
+      "sha256": "9171ea30d0d5d4333341e7cc2d1820d4790b72afd8ed1c2140f1e341119fffee"
+    },
+    {
+      "bytes": 201327,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed42_Full.csv.gz",
+      "rows": 3816,
+      "sha256": "705a02dde7ee71fa77fbbc84c37674c92cc736a41ebb2fa1fc44b4d2d483ded0"
+    },
+    {
+      "bytes": 195426,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seed42_PlaceboSocial.csv.gz",
+      "rows": 3816,
+      "sha256": "5b5b729a999eec9d0488802066b5ac1093ba4725f4b6869398a1ee36487df659"
+    },
+    {
+      "bytes": 140925,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seedanalytic_CV-Last2.csv.gz",
+      "rows": 3816,
+      "sha256": "7e1d3820ed0d8bd432bde0faf55f623c87d6adcd1a66e1c68b7c3de5eaeb9aae"
+    },
+    {
+      "bytes": 157256,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seedanalytic_CV-OLS4.csv.gz",
+      "rows": 3816,
+      "sha256": "520b7c94756b93a830ab1116710d8c88a529667ee5ed6b26d8730ee74cfe317d"
+    },
+    {
+      "bytes": 160115,
+      "path": "results/tables/stage6/diagnosis/step_shards/biwi_hotel_seedanalytic_CV-OLS8.csv.gz",
+      "rows": 3816,
+      "sha256": "a8d5cc78acf354d6bf3dcea96f4d94d2ee2fb24bc67e9c0a14786efa73e90e5c"
+    },
+    {
+      "bytes": 821576,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed17_Full.csv.gz",
+      "rows": 13104,
+      "sha256": "04fb3a9129cd095e11598b2bbfe0a043fe38b47b9bb27de932d735f171a850a8"
+    },
+    {
+      "bytes": 825258,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed17_PlaceboSocial.csv.gz",
+      "rows": 13104,
+      "sha256": "e9e60e8d61edf1178486ec733bf71cd287b5f97e154cf9dc8679e18a9916e602"
+    },
+    {
+      "bytes": 821098,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed2026_Full.csv.gz",
+      "rows": 13104,
+      "sha256": "eab6e010fe790be3455eaac7cbb52e4c5a46bf7b929d31687c5b993b14d44642"
+    },
+    {
+      "bytes": 820726,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed2026_PlaceboSocial.csv.gz",
+      "rows": 13104,
+      "sha256": "cbc2f3f8e4ab954277e557d0676bca0031901925839dc332234e1bee560b1285"
+    },
+    {
+      "bytes": 822795,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed42_Full.csv.gz",
+      "rows": 13104,
+      "sha256": "465471488ebcfede5dcd3632704bdd64110d653d6322199bf7da61902979ac2a"
+    },
+    {
+      "bytes": 824188,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seed42_PlaceboSocial.csv.gz",
+      "rows": 13104,
+      "sha256": "c019f81e280ded27edec15e78d35079444d8e8c1af395ff1d85dad4df10724a6"
+    },
+    {
+      "bytes": 562989,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seedanalytic_CV-Last2.csv.gz",
+      "rows": 13104,
+      "sha256": "71f0850703a77fb522c4855e04318cd03e0100b4e21a0b1b8f532eb0c9ba3519"
+    },
+    {
+      "bytes": 638006,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seedanalytic_CV-OLS4.csv.gz",
+      "rows": 13104,
+      "sha256": "060afb9893dc1cd902ce3555c71b4484dbc41a65335ed519d5bf0e8edb49a093"
+    },
+    {
+      "bytes": 648078,
+      "path": "results/tables/stage6/diagnosis/step_shards/crowds_zara02_seedanalytic_CV-OLS8.csv.gz",
+      "rows": 13104,
+      "sha256": "2115966bf005bd97fd9b530c60602bc5b921fe4951eb6eaf9b1d09fbead472f9"
+    }
+  ],
+  "total_rows": 152280
+}

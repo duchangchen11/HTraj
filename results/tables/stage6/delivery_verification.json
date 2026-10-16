@@ -1,0 +1,68 @@
+{
+  "ETH_evaluated": false,
+  "automatic_push": false,
+  "base_commit": "6d6c741520ce09a5a72e375ffa7a17d4206b7d97",
+  "branch": "feat/stage6-research-reassessment",
+  "commit_provenance": "Base SHA plus source SHA above; delivery commit is the Git commit containing this file (no circular self-SHA).",
+  "elapsed_seconds": 38.50519852002617,
+  "expected_SGCN_single_person_interface_failures": 2,
+  "frozen_best_checkpoints_verified": 12,
+  "full_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 360
+  },
+  "historical_SHA_failures": [],
+  "historical_files_checked": 9753,
+  "historical_tracked_paths_changed": false,
+  "inference_maximum_error_match_difference_m": 3.308369471710648e-07,
+  "manifests_sha256": {
+    "configs/stage5p1/manifests/biwi_hotel/B.json": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "configs/stage5p1/manifests/crowds_zara02/B.json": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+  },
+  "new_training_runs": 0,
+  "next_stage_training_requires_new_authorization": true,
+  "non_ETH_raw_data_sha256": {
+    "data/raw/eth_ucy/biwi_hotel.txt": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf",
+    "data/raw/eth_ucy/crowds_zara01.txt": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85",
+    "data/raw/eth_ucy/crowds_zara02.txt": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff",
+    "data/raw/eth_ucy/students001.txt": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b",
+    "data/raw/eth_ucy/students003.txt": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+  },
+  "optimizer_updates": 0,
+  "per_step_rows_preserved": 152280,
+  "per_step_values_equal_to_original_stream": true,
+  "public_failures_reported": true,
+  "public_source_checks": {
+    "SGCN": {
+      "commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+      "verified_files": 9
+    },
+    "SingularTrajectory": {
+      "commit": "f7855881976276787bc16d951a9259d1cd50c101",
+      "verified_files": 27
+    }
+  },
+  "reports": [
+    "reports/stage6/01_STAGE5P5_FAILURE_ANALYSIS.md",
+    "reports/stage6/02_PUBLIC_GNN_BASELINE_REVIEW.md",
+    "reports/stage6/03_RESEARCH_PROBLEM_COMPARISON.md",
+    "reports/stage6/04_CHAPTER4_METHOD_DIRECTION.md",
+    "reports/stage6/STAGE6_REPORT.md"
+  ],
+  "stage6_source_sha256": {
+    "scripts/stage6/diagnose.py": "422e141d9667926688fb8a0d6ac4559f566741f7e16e05c6dd23f035b154924d",
+    "scripts/stage6/fetch_git_fallback.py": "e0c0c18c1415a5b06a62219623c42fd4abf1f8c99e0698874e6da0ceb09d77d9",
+    "scripts/stage6/fetch_public.py": "0d105a2933f1e8ad9a23fc6b8640681f32842c136a268ab75f14a40ed6d2754b",
+    "scripts/stage6/prepare.py": "1b2e3aebf67c384e43aad03f5c65c830ce39d864437264eca99de55a2ecea12c",
+    "scripts/stage6/record_sources.py": "f7695ae61d5522e0daaf15c7dde6c4d64ced6b707e868355f13269569af784d0",
+    "scripts/stage6/sgcn_functional.py": "15958fa3690df20cdf112909118d292c3949c95a277d4855df3a459b59bc4939",
+    "scripts/stage6/shard_steps.py": "2ac19eb0ce59b662a19af84e4d2b701023a06ec686e2c0fa98b919501b9c409c",
+    "scripts/stage6/structural_supplement.py": "fd9107bf559cb004d5aee9689028a094b5db47a794174a6b5c13b0a1acdf9e25",
+    "scripts/stage6/verify_delivery.py": "30c70ab06cd910d98993f099fccd804e9594006f0978895420ea34b1687832b6",
+    "scripts/stage6/write_reports.py": "bb65c2efe8a213c3a2455a70c5149b0cbd4178468f4ebaa01ace058bd97e2882",
+    "src/evaluation/stage6_motion.py": "5557f5fad8a785aa8ede68492952255469237d80852c23ace023e28e16f0fc7e",
+    "tests/test_stage6_motion.py": "a1c923048f207d4ca962181d1e2aab7fb68ee7fdef6c58ca5f652605d8b66ee3"
+  }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage6/fetch_git_fallback.py", line 6, in <module>
+    from scripts.stage6.fetch_public import request
+  File "/home/lrj/HTraj/scripts/stage6/fetch_public.py", line 9, in <module>
+    ROOT=Path('results/tables/stage6/public');ROOT.mkdir(parents=True)
+  File "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: 'results/tables/stage6/public'

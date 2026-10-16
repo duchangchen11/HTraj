@@ -1,0 +1,58 @@
+{
+  "ETH_evaluated": false,
+  "automatic_push": false,
+  "base_commit": "6d6c741520ce09a5a72e375ffa7a17d4206b7d97",
+  "data_root": "data/raw/eth_ucy",
+  "dt_seconds": 0.4,
+  "evaluation_batch_size": 128,
+  "historical_groups": "Stage5.2 frozen history groups, copied by stable target ID; new orientation bins are historical only",
+  "inference_match_tolerance_m": 2e-06,
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "models": [
+    "Full",
+    "PlaceboSocial"
+  ],
+  "obs_len": 8,
+  "pred_len": 12,
+  "predictions": "Recompute deterministic K1 from strict-loaded frozen weights; check every saved ADE/FDE. No posterior or GT model input.",
+  "protocol": "HTraj-SocialVAE-Causal8x12-v1",
+  "public_function_test": "Only synthetic forward/checkpoint/ordering checks. No official scene scores, no optimizer steps.",
+  "public_models": {
+    "SGCN": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+    "additional_maximum": 1
+  },
+  "raw_packets": "Keep exact trajectory arrays in ignored experiments/stage6/cache; commit only derived diagnostic scalars and hashes",
+  "scope": "Post-hoc descriptive diagnosis on exposed development recordings, no new training or ETH evaluation",
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "selection": "Reuse each Stage5.5 indexed best checkpoint, never reselect",
+  "thresholds": {
+    "displacement_comparison_min_m": 0.5,
+    "displacement_ratio_high": 2.0,
+    "displacement_ratio_low": 0.5,
+    "future_stationary_speed_mps": 0.05,
+    "heading_bins": 8,
+    "history_stationary_speed_mps": 0.05,
+    "motion_flag_mps": 0.2,
+    "predicted_deceleration_ratio": 0.7,
+    "reliable_heading_net_displacement_m": 0.2,
+    "reliable_heading_speed_mps": 0.2,
+    "sustained_future_speed_mps": 0.4,
+    "sustained_late_to_early_ratio": 0.75,
+    "turn_error_deg": 30.0
+  },
+  "training": false,
+  "warning": "Future-defined error tags are diagnosis outcomes only; never input features, training groups or gates. Tags overlap. Thresholds are descriptive, not registered statistical confirmation."
+}

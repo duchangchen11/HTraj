@@ -1,0 +1,54 @@
+{
+  "ETH_evaluated": false,
+  "SGCN": {
+    "TXP_node_axis": "batch N, not spatial convolution axis",
+    "TXP_other_node_Jacobian_L2": 0.0,
+    "TXP_permutation_max_difference": 0.0,
+    "correction": "Stage5 static suspicion that SGCN TXP directly convolves node indices was too broad. Spatial NN mask still does; do not overwrite old report.",
+    "full_model_permutation_issue": "See original synthetic cases; full model failure is not disproved by isolated decoder equality",
+    "official_source_changed": false,
+    "shapes": {
+      "spatial_mask.conv0.input": [
+        8,
+        4,
+        5,
+        5
+      ],
+      "tcns.0.input": [
+        5,
+        8,
+        4,
+        16
+      ]
+    }
+  },
+  "SingularTrajectory": {
+    "cases": [
+      {
+        "history_speed_mps": 0.0,
+        "official_history_motion_mask": false,
+        "raw_scaling_finite": false,
+        "selected_branch_inverse_max_error_m": 0.0,
+        "selected_branch_normalized_finite": true
+      },
+      {
+        "history_speed_mps": 1e-06,
+        "official_history_motion_mask": false,
+        "raw_scaling_finite": true,
+        "selected_branch_inverse_max_error_m": 8.526512829121202e-14,
+        "selected_branch_normalized_finite": true
+      },
+      {
+        "history_speed_mps": 1.0,
+        "official_history_motion_mask": true,
+        "raw_scaling_finite": true,
+        "selected_branch_inverse_max_error_m": 8.940696716308594e-08,
+        "selected_branch_normalized_finite": true
+      }
+    ],
+    "normalizer_sha256": "852646c262dec52d0bd2b5ef34d0bfe0bc8bfa93e5befdc9d417d7e2aa8c9c24",
+    "scope": "Normalizer component only; no trained full-model forward or paper reproduction"
+  },
+  "new_training_runs": 0,
+  "optimizer_updates": 0
+}

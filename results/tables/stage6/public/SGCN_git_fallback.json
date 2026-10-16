@@ -1,0 +1,111 @@
+{
+  "ETH_scores_read": false,
+  "clone_log": null,
+  "commit": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+  "fallback_reason": "GitHub REST HTTP403 rate limit; Git metadata plus raw fixed-commit blobs",
+  "files": [
+    {
+      "bytes": 1068,
+      "git_blob": "cba4e9d626924113f7aa635e30c189e683811864",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/LICENSE",
+      "path": "LICENSE",
+      "seconds": 1.4002802149625495,
+      "sha256": "146debf11abab53d89f5bf2146eb4e55bd2b59f1148f8661401def92a677e08c",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/LICENSE"
+    },
+    {
+      "bytes": 131044,
+      "git_blob": "65e75ca8d35806f880d03e726bef5ab154a1c478",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/hotel/val_best.pth",
+      "path": "checkpoints/hotel/val_best.pth",
+      "seconds": 1.533502704987768,
+      "sha256": "fe993865fd4a0fd345e1ea5da8131d931ad5ecf0c7be463dfc43ffc83f4beb38",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/hotel/val_best.pth"
+    },
+    {
+      "bytes": 131014,
+      "git_blob": "253cad3264e576c25c2de07bad980c2e80457aa1",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/zara2/val_best.pth",
+      "path": "checkpoints/zara2/val_best.pth",
+      "seconds": 1.4427842459990643,
+      "sha256": "a2fb16d13522f599fbc6a9d09da354ddadb0998bf73f7c97b9afcdd965097d19",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/checkpoints/zara2/val_best.pth"
+    },
+    {
+      "bytes": 2603,
+      "git_blob": "319da6ae1e507590135b082150263c2f0cca4763",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/metrics.py",
+      "path": "metrics.py",
+      "seconds": 1.391317711037118,
+      "sha256": "64b8755d77929fc79a1cac653c6aa736d63a73931b4cd4dff8a13254940660a5",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/metrics.py"
+    },
+    {
+      "bytes": 12170,
+      "git_blob": "67237370506c7440b0d1f0c78132eb360968eabe",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/model.py",
+      "path": "model.py",
+      "seconds": 1.382114385953173,
+      "sha256": "5354f288f70ad6a5adbe7fb9321c6a54f7395e998f929ec4ccab2835bc4148bd",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/model.py"
+    },
+    {
+      "bytes": 5922,
+      "git_blob": "a5ddfd233507016576d007cbe19f3c36a143dcc4",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/test.py",
+      "path": "test.py",
+      "seconds": 1.239959958998952,
+      "sha256": "c3975709a62b92d87b795db46c5713a0c88df631b96938b610b379f003064d75",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/test.py"
+    },
+    {
+      "bytes": 9097,
+      "git_blob": "6ba639305f428332b9146c75ce8d657df86e158c",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/train.py",
+      "path": "train.py",
+      "seconds": 1.2827889089821838,
+      "sha256": "fb07b3588e91f3c3237334ffc13442c51355177839f65b3352764d060f622180",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/train.py"
+    },
+    {
+      "bytes": 786,
+      "git_blob": "d580205c514f620388e0328879f05d3d99a19fc0",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/train.sh",
+      "path": "train.sh",
+      "seconds": 1.2795401570037939,
+      "sha256": "6cac887735da693a86ddeecbaca6cb7aa5131a2ae3cc16f79f0b46560f98bee2",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/train.sh"
+    },
+    {
+      "bytes": 8372,
+      "git_blob": "34551b7c36b7e28dbcecb7515354eb360c8543d8",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/utils.py",
+      "path": "utils.py",
+      "seconds": 1.3549709409708157,
+      "sha256": "88eeb1a8f1498d444e2df7338f04dbea5f1801e65f1f48d36c1acaefa027f713",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/utils.py"
+    }
+  ],
+  "remote_HEAD": "0d4ac44f44a0688a839f25070be1a4faeed5ade1\tHEAD",
+  "repository": "shuaishiliu/SGCN",
+  "source_directory": "experiments/stage6/cache/public/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+  "success": true
+}

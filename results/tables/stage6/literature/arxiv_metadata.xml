@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6tKa3syP66Fl40BNv7uCv5w/rag</id>
+  <title>arXiv Query: search_query=&amp;id_list=2104.01528,2403.18452,2203.05046&amp;start=0&amp;max_results=3</title>
+  <updated>2026-10-16T12:38:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=3&amp;id_list=2104.01528,2403.18452,2203.05046" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01528v1</id>
+    <title>SGCN:Sparse Graph Convolution Network for Pedestrian Trajectory Prediction</title>
+    <updated>2021-04-04T03:17:42Z</updated>
+    <link href="https://arxiv.org/abs/2104.01528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pedestrian trajectory prediction is a key technology in autopilot, which remains to be very challenging due to complex interactions between pedestrians. However, previous works based on dense undirected interaction suffer from modeling superfluous interactions and neglect of trajectory motion tendency, and thus inevitably result in a considerable deviance from the reality. To cope with these issues, we present a Sparse Graph Convolution Network~(SGCN) for pedestrian trajectory prediction. Specifically, the SGCN explicitly models the sparse directed interaction with a sparse directed spatial graph to capture adaptive interaction pedestrians. Meanwhile, we use a sparse directed temporal graph to model the motion tendency, thus to facilitate the prediction based on the observed direction. Finally, parameters of a bi-Gaussian distribution for trajectory prediction are estimated by fusing the above two sparse graphs. We evaluate our proposed method on the ETH and UCY datasets, and the experimental results show our method outperforms comparative state-of-the-art methods by 9% in Average Displacement Error(ADE) and 13% in Final Displacement Error(FDE). Notably, visualizations indicate that our method can capture adaptive interactions between pedestrians and their effective motion tendencies.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-04T03:17:42Z</published>
+    <arxiv:comment>Accepted by CVPR2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Liushuai Shi</name>
+    </author>
+    <author>
+      <name>Le Wang</name>
+    </author>
+    <author>
+      <name>Chengjiang Long</name>
+    </author>
+    <author>
+      <name>Sanping Zhou</name>
+    </author>
+    <author>
+      <name>Mo Zhou</name>
+    </author>
+    <author>
+      <name>Zhenxing Niu</name>
+    </author>
+    <author>
+      <name>Gang Hua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.18452v1</id>
+    <title>SingularTrajectory: Universal Trajectory Predictor Using Diffusion Model</title>
+    <updated>2024-03-27T11:11:08Z</updated>
+    <link href="https://arxiv.org/abs/2403.18452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.18452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are five types of trajectory prediction tasks: deterministic, stochastic, domain adaptation, momentary observation, and few-shot. These associated tasks are defined by various factors, such as the length of input paths, data split and pre-processing methods. Interestingly, even though they commonly take sequential coordinates of observations as input and infer future paths in the same coordinates as output, designing specialized architectures for each task is still necessary. For the other task, generality issues can lead to sub-optimal performances. In this paper, we propose SingularTrajectory, a diffusion-based universal trajectory prediction framework to reduce the performance gap across the five tasks. The core of SingularTrajectory is to unify a variety of human dynamics representations on the associated tasks. To do this, we first build a Singular space to project all types of motion patterns from each task into one embedding space. We next propose an adaptive anchor working in the Singular space. Unlike traditional fixed anchor methods that sometimes yield unacceptable paths, our adaptive anchor enables correct anchors, which are put into a wrong location, based on a traversability map. Finally, we adopt a diffusion-based predictor to further enhance the prototype paths using a cascaded denoising process. Our unified framework ensures the generality across various benchmark settings such as input modality, and trajectory lengths. Extensive experiments on five public benchmarks demonstrate that SingularTrajectory substantially outperforms existing models, highlighting its effectiveness in estimating general dynamics of human movements. Code is publicly available at https://github.com/inhwanbae/SingularTrajectory .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-27T11:11:08Z</published>
+    <arxiv:comment>Accepted at CVPR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Inhwan Bae</name>
+    </author>
+    <author>
+      <name>Young-Jae Park</name>
+    </author>
+    <author>
+      <name>Hae-Gon Jeon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.05046v2</id>
+    <title>Adaptive Trajectory Prediction via Transferable GNN</title>
+    <updated>2022-03-26T19:12:45Z</updated>
+    <link href="https://arxiv.org/abs/2203.05046v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.05046v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pedestrian trajectory prediction is an essential component in a wide range of AI applications such as autonomous driving and robotics. Existing methods usually assume the training and testing motions follow the same pattern while ignoring the potential distribution differences (e.g., shopping mall and street). This issue results in inevitable performance decrease. To address this issue, we propose a novel Transferable Graph Neural Network (T-GNN) framework, which jointly conducts trajectory prediction as well as domain alignment in a unified framework. Specifically, a domain-invariant GNN is proposed to explore the structural motion knowledge where the domain-specific knowledge is reduced. Moreover, an attention-based adaptive knowledge learning module is further proposed to explore fine-grained individual-level feature representations for knowledge transfer. By this way, disparities across different trajectory domains will be better alleviated. More challenging while practical trajectory prediction experiments are designed, and the experimental results verify the superior performance of our proposed model. To the best of our knowledge, our work is the pioneer which fills the gap in benchmarks and techniques for practical pedestrian trajectory prediction across different domains.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-09T21:08:47Z</published>
+    <arxiv:comment>Accepted by CVPR 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yi Xu</name>
+    </author>
+    <author>
+      <name>Lichen Wang</name>
+    </author>
+    <author>
+      <name>Yizhou Wang</name>
+    </author>
+    <author>
+      <name>Yun Fu</name>
+    </author>
+  </entry>
+</feed>

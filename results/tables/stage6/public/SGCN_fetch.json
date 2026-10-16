@@ -1,0 +1,16 @@
+{
+  "logs": [
+    {
+      "error": "HTTP Error 403: rate limit exceeded",
+      "seconds": 0.6880635340348817,
+      "url": "https://api.github.com/repos/shuaishiliu/SGCN/commits/5153702d8ae32a2b0586b093d4e094aee08b0f9b"
+    },
+    {
+      "error": "HTTP Error 403: rate limit exceeded",
+      "seconds": 0.7373311870032921,
+      "url": "https://api.github.com/repos/shuaishiliu/SGCN"
+    }
+  ],
+  "repository": "shuaishiliu/SGCN",
+  "success": false
+}

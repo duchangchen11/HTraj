@@ -1,0 +1,16 @@
+{
+  "logs": [
+    {
+      "error": "HTTP Error 403: rate limit exceeded",
+      "seconds": 0.7014433789881878,
+      "url": "https://api.github.com/repos/InhwanBae/SingularTrajectory/commits/main"
+    },
+    {
+      "error": "HTTP Error 403: rate limit exceeded",
+      "seconds": 0.8046774110407569,
+      "url": "https://api.github.com/repos/InhwanBae/SingularTrajectory"
+    }
+  ],
+  "repository": "InhwanBae/SingularTrajectory",
+  "success": false
+}

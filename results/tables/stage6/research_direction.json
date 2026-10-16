@@ -1,0 +1,35 @@
+{
+  "ETH_evaluated": false,
+  "backup": {
+    "baseline": "SGCN5153702d8ae32a2b0586b093d4e094aee08b0f9b, audit reference only until permutation/training gates repaired and verified",
+    "immediate_eligibility": false,
+    "name": "A: explicit social graph attribution on a reliable public baseline",
+    "stop": "Do not start unless node-order, gradient, loader, loss accumulation, capacity and same-target protocol gates pass; no old graph/module stacking",
+    "training_authorized": false
+  },
+  "claimed_new_method_improvements": false,
+  "current_stage_new_training_runs": 0,
+  "primary": {
+    "baseline": "Frozen Stage5.3 SocialVAE-NoSocial implementation, not another social redesign",
+    "first_factor": "Uniform original source sampling versus pre-frozen history-motion-stratified source sampling, same total sample visits and optimizer steps; report repeat/coverage; never use future errors",
+    "future_max_epochs_per_run": 30,
+    "future_minimum_runs": 4,
+    "future_seed": 17,
+    "future_validation": [
+      "biwi_hotel",
+      "crowds_zara02"
+    ],
+    "hypothesis": "Source-history state composition contributes to speed shrinkage; a source-only sampling-factor counterfactual may reduce bias without architecture/loss/gate change. Unverified.",
+    "inputs": "Eight observed target positions in meters; history-only velocity/mask; no real/synthetic neighbors or future",
+    "name": "B: source-only motion-state distribution and cross-recording prediction generalization",
+    "outputs": "Twelve future 2D positions; deterministic latent-prior K1 primary, fixed-noise K20 separate",
+    "requires_separate_authorization": true,
+    "smoke_first_epochs": 5,
+    "stop": "Stop if both-recording window/person K1 criterion or paired FDE safety fails; never restart high-order/gate search"
+  },
+  "rejected_as_immediate_primary": [
+    "current TOHI/G0/G1 structural variants",
+    "SocialVAE social architecture redesign",
+    "SingularTrajectory without map/protocol/compute audit"
+  ]
+}
