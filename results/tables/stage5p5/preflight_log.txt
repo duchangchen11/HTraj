@@ -1,0 +1,1 @@
+Preflight passed: common initial states/RNG for 3 seeds; exact frozen inputs; 12-run index; all per-target sampling seeds

@@ -1,0 +1,26 @@
+[
+  {
+    "Full_Placebo_exactly_equal": true,
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "nominal_parameters": 2144002,
+    "optimizer_updates": 0,
+    "post_initialization_torch_RNG_equal": true,
+    "seed": 17
+  },
+  {
+    "Full_Placebo_exactly_equal": true,
+    "initial_parameter_state_sha256": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+    "nominal_parameters": 2144002,
+    "optimizer_updates": 0,
+    "post_initialization_torch_RNG_equal": true,
+    "seed": 42
+  },
+  {
+    "Full_Placebo_exactly_equal": true,
+    "initial_parameter_state_sha256": "7a0cee7a38fa32e35204f0c877fddb77bf3d50f024fad1e47f00346dcbb47d9d",
+    "nominal_parameters": 2144002,
+    "optimizer_updates": 0,
+    "post_initialization_torch_RNG_equal": true,
+    "seed": 2026
+  }
+]

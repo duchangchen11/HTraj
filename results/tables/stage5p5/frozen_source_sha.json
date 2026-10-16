@@ -1,0 +1,20 @@
+{
+  "configs/stage5p5/protocol.json": "6c7975b255677a8d1c714502ad94075a12cdf033956e29ca48505cdeca837289",
+  "scripts/stage5p5/preflight.py": "635b7f520ca45af2af085fda580ad7a595fbed95338e51bff6f2a2e8b3b781e7",
+  "scripts/stage5p5/prepare.py": "57082cc75506b8d832eb239e76e375988ac6ccd51508adb9939e8dba2f673cd2",
+  "scripts/stage5p5/schedule.py": "c456372280788b63d3c1c54852a3bc5099d2c57532c3493dfaccff9acfc436ef",
+  "scripts/stage5p5/status.py": "b3dcb265842cecb0df2b274d0b65cf8261769586eb17890326a1e982eb5639c2",
+  "scripts/stage5p5/train.py": "81032b8f0770623aff63738524360c6027eb8bc6d3dcd9e8a487cb01a9fabceb",
+  "scripts/stage5p5/verify_cohorts.py": "7f4f132764d155c51d91ad1deedf4a719aacda30dee6604a7b454ef11baa1dda",
+  "src/socialvae_attribution/model.py": "5e4c6580acfbacb4d67139f862179bc5d49974bbec2618be216898527b369ccc",
+  "src/socialvae_baseline/evaluation.py": "210ac1b858a4482ac17dde47a96bea840a280893a4ce3d4a33af8bce146b3bab",
+  "src/socialvae_capacity/placebo.py": "0d89788a143a40bb1cccf58f069f963ab744bf3b55ef0bd68a9a0229ca448ef7",
+  "src/socialvae_causal/data.py": "e253652a6f836fc3673a573c12d6a2df3fc96da73d3bad95c15d399c97e52301",
+  "src/socialvae_causal/training.py": "bd9a43a640e3ad1a21c771d792fdb5196f768eca51dad9c5082c27ec81bfd930",
+  "src/socialvae_stability/__init__.py": "187b99e5d66e20bd726f0b42e9094e438f44c9a3dec64c5c1b9dae5ec915ebcb",
+  "src/socialvae_stability/bootstrap.py": "5676a8c6a55e2583426755173dde744e4b5569e698581960909c1e6309155030",
+  "src/socialvae_stability/evaluation.py": "8b5ed76c171f2e2a666face9cd075e844ceb01cd66a1444557554cd991e56f7f",
+  "src/socialvae_stability/model.py": "e01c42ec8a6a77ab14e0f35ce64e91ad2de38714b4aad6e133e05cdcbc9234b0",
+  "src/socialvae_stability/training.py": "9cb1a15f49a4b89e7bd9938d25990569ba6add4b352603f6460b34197745fed7",
+  "tests/test_socialvae_stability.py": "03d858948adbb8e2315a145e9cea5084d384d9c1725a061535e16a18fffed80c"
+}
