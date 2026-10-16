@@ -1,0 +1,35 @@
+{
+  "CVF_direct": "AgentFormer article direct403; indexed CVF metadata plus author/arXiv used",
+  "OpenAlex": "HTTP429 preserved, no retry",
+  "OpenReview": "Browser challenge, primary author/institute and arXiv corroboration used",
+  "academic_MCP_available": false,
+  "benchmark_numbers_used_for_ranking": false,
+  "exhaustive_novelty_review": false,
+  "new_candidates_detailed": 2,
+  "sources": [
+    {
+      "arxiv": "2103.14023v3",
+      "code": "https://github.com/Khrylx/AgentFormer",
+      "normalization_correction": "https://github.com/Khrylx/AgentFormer/issues/5",
+      "title": "AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Yuan_AgentFormer_Agent-Aware_Transformers_for_Socio-Temporal_Multi-Agent_Forecasting_ICCV_2021_paper.html",
+      "venue": "ICCV2021"
+    },
+    {
+      "arxiv": "2004.02025v3",
+      "code": "https://github.com/HarshayuGirase/Human-Path-Prediction",
+      "title": "It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction",
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470749.pdf",
+      "venue": "ECCV2020"
+    },
+    {
+      "arxiv": "2110.05304",
+      "author_record": "https://is.mpg.de/en/publications/makansietal21",
+      "role": "Related work only, not a third model candidate",
+      "title": "You Mostly Walk Alone: Analyzing Feature Attribution in Trajectory Prediction",
+      "url": "https://openreview.net/forum?id=POxF-LEqnF",
+      "venue": "ICLR2022"
+    }
+  ],
+  "workflow": "nature-academic-search multi-source-search"
+}

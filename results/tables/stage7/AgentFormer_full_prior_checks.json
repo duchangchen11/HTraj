@@ -1,0 +1,69 @@
+{
+  "ETH_evaluated": false,
+  "all_passed": true,
+  "cases": [
+    {
+      "K1_prior_mean_permutation_max": 0.0,
+      "K20_coupled_epsilon_permutation_max": 0.0,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_full_prior_N1.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "future_poison_max": 0.0,
+      "passed": true,
+      "people": 1,
+      "prior_logvar_permutation_max": 0.0,
+      "prior_mean_permutation_max": 0.0,
+      "strict_restore_max": 0.0
+    },
+    {
+      "K1_prior_mean_permutation_max": 1.1920928955078125e-07,
+      "K20_coupled_epsilon_permutation_max": 2.384185791015625e-07,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_full_prior_N2.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "future_poison_max": 0.0,
+      "passed": true,
+      "people": 2,
+      "prior_logvar_permutation_max": 4.470348358154297e-08,
+      "prior_mean_permutation_max": 5.960464477539063e-08,
+      "strict_restore_max": 0.0
+    },
+    {
+      "K1_prior_mean_permutation_max": 2.384185791015625e-07,
+      "K20_coupled_epsilon_permutation_max": 2.384185791015625e-07,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_full_prior_N5.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "future_poison_max": 0.0,
+      "passed": true,
+      "people": 5,
+      "prior_logvar_permutation_max": 8.940696716308594e-08,
+      "prior_mean_permutation_max": 5.960464477539063e-08,
+      "strict_restore_max": 0.0
+    },
+    {
+      "K1_prior_mean_permutation_max": 4.76837158203125e-07,
+      "K20_coupled_epsilon_permutation_max": 4.76837158203125e-07,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_full_prior_N12.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "future_poison_max": 0.0,
+      "passed": true,
+      "people": 12,
+      "prior_logvar_permutation_max": 7.450580596923828e-08,
+      "prior_mean_permutation_max": 8.940696716308594e-08,
+      "strict_restore_max": 0.0
+    }
+  ],
+  "distant_context_probe": {
+    "added_people": 3,
+    "interpretation": "Synthetic fixed-weight context dependence, not observed forecast error or proven degradation; scene centering and attention both change",
+    "offset_m": 100.0,
+    "original_agent_prediction_max_difference_m": 0.29463839530944824,
+    "same_original_histories": true
+  },
+  "elapsed_seconds": 3.2441436169901863,
+  "formal_training_runs": 0,
+  "model_source_modified": false,
+  "noise_control": "mu+sigma*agent-coupled epsilon; original learned prior retained; no GT-based selection",
+  "official_pretrained_loaded": false,
+  "optimizer_updates": 0,
+  "repository_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "source_SHA": "460c8515022a936711cfd9b1635a255b7495ab2ed6b6a96f57a2cd9aca2f76d8"
+}

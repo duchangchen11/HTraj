@@ -1,0 +1,17 @@
+{
+  "ETH_evaluated": false,
+  "automatic_push": false,
+  "commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "component_technical_admission": true,
+  "formal_training_started": false,
+  "frozen_future_plan_sha256": "7a37a30d9f41cd37a12ee40cbaa9ef2ee88daffb8fd21b2102790f978d17c3e1",
+  "new_algorithm_evidence": false,
+  "new_paper_algorithm_development": "NO-GO",
+  "official_end_to_end_reproduction_complete": false,
+  "official_pretrained_strictly_verified": false,
+  "offline_protocol_baseline_feasibility": "conditional GO",
+  "other_new_candidate_selected": false,
+  "reason": "Model tests pass; offline context and strict causal context must stay separate; real paired prediction ability/independent interaction benefit not established",
+  "sole_followup_backbone": "AgentFormer-CVAE maintained original pre-stage",
+  "strict_history_context_pipeline_admitted": false
+}

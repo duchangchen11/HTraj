@@ -1,0 +1,74 @@
+........................................................................ [ 18%]
+........................................................................ [ 37%]
+..........................FFFF.......................................... [ 56%]
+........................................................................ [ 74%]
+........................................................................ [ 93%]
+.........................                                                [100%]
+=================================== FAILURES ===================================
+_________________ test_history_only_packet_and_permutation[1] __________________
+
+n = 1
+
+    @pytest.mark.parametrize('n',[1,2,5,12])
+    def test_history_only_packet_and_permutation(n):
+        h,y=synthetic_scene(n);p=np.arange(n)[::-1]
+        a=agentformer_packet(h);b=agentformer_packet(h[p])
+        assert all(torch.equal(a['pre_motion_3D'][i],b['pre_motion_3D'][int(np.where(p==i)[0][0])]) for i in range(n))
+        assert all(not v.any() for v in a['fut_motion_3D']+a['fut_motion_mask'])
+        x,pos,mask=pecnet_packet(h);px,pp,pm=pecnet_packet(h[p])
+>       torch.testing.assert_close(px,x[p]);torch.testing.assert_close(pp,pos[p]);torch.testing.assert_close(pm,mask[p][:,p])
+E       ValueError: At least one stride in the given numpy array is negative, and tensors with negative strides are not currently supported. (You can probably work around this by making a copy of your array  with array.copy().)
+
+tests/test_public_admission.py:14: ValueError
+_________________ test_history_only_packet_and_permutation[2] __________________
+
+n = 2
+
+    @pytest.mark.parametrize('n',[1,2,5,12])
+    def test_history_only_packet_and_permutation(n):
+        h,y=synthetic_scene(n);p=np.arange(n)[::-1]
+        a=agentformer_packet(h);b=agentformer_packet(h[p])
+        assert all(torch.equal(a['pre_motion_3D'][i],b['pre_motion_3D'][int(np.where(p==i)[0][0])]) for i in range(n))
+        assert all(not v.any() for v in a['fut_motion_3D']+a['fut_motion_mask'])
+        x,pos,mask=pecnet_packet(h);px,pp,pm=pecnet_packet(h[p])
+>       torch.testing.assert_close(px,x[p]);torch.testing.assert_close(pp,pos[p]);torch.testing.assert_close(pm,mask[p][:,p])
+E       ValueError: At least one stride in the given numpy array is negative, and tensors with negative strides are not currently supported. (You can probably work around this by making a copy of your array  with array.copy().)
+
+tests/test_public_admission.py:14: ValueError
+_________________ test_history_only_packet_and_permutation[5] __________________
+
+n = 5
+
+    @pytest.mark.parametrize('n',[1,2,5,12])
+    def test_history_only_packet_and_permutation(n):
+        h,y=synthetic_scene(n);p=np.arange(n)[::-1]
+        a=agentformer_packet(h);b=agentformer_packet(h[p])
+        assert all(torch.equal(a['pre_motion_3D'][i],b['pre_motion_3D'][int(np.where(p==i)[0][0])]) for i in range(n))
+        assert all(not v.any() for v in a['fut_motion_3D']+a['fut_motion_mask'])
+        x,pos,mask=pecnet_packet(h);px,pp,pm=pecnet_packet(h[p])
+>       torch.testing.assert_close(px,x[p]);torch.testing.assert_close(pp,pos[p]);torch.testing.assert_close(pm,mask[p][:,p])
+E       ValueError: At least one stride in the given numpy array is negative, and tensors with negative strides are not currently supported. (You can probably work around this by making a copy of your array  with array.copy().)
+
+tests/test_public_admission.py:14: ValueError
+_________________ test_history_only_packet_and_permutation[12] _________________
+
+n = 12
+
+    @pytest.mark.parametrize('n',[1,2,5,12])
+    def test_history_only_packet_and_permutation(n):
+        h,y=synthetic_scene(n);p=np.arange(n)[::-1]
+        a=agentformer_packet(h);b=agentformer_packet(h[p])
+        assert all(torch.equal(a['pre_motion_3D'][i],b['pre_motion_3D'][int(np.where(p==i)[0][0])]) for i in range(n))
+        assert all(not v.any() for v in a['fut_motion_3D']+a['fut_motion_mask'])
+        x,pos,mask=pecnet_packet(h);px,pp,pm=pecnet_packet(h[p])
+>       torch.testing.assert_close(px,x[p]);torch.testing.assert_close(pp,pos[p]);torch.testing.assert_close(pm,mask[p][:,p])
+E       ValueError: At least one stride in the given numpy array is negative, and tensors with negative strides are not currently supported. (You can probably work around this by making a copy of your array  with array.copy().)
+
+tests/test_public_admission.py:14: ValueError
+--- generated xml file: /home/lrj/HTraj/results/tables/stage7/full_tests.xml ---
+=========================== short test summary info ============================
+FAILED tests/test_public_admission.py::test_history_only_packet_and_permutation[1]
+FAILED tests/test_public_admission.py::test_history_only_packet_and_permutation[2]
+FAILED tests/test_public_admission.py::test_history_only_packet_and_permutation[5]
+FAILED tests/test_public_admission.py::test_history_only_packet_and_permutation[12]
+4 failed, 381 passed in 16.06s

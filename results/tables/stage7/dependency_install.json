@@ -1,0 +1,106 @@
+{
+  "version": "1",
+  "pip_version": "26.2.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz",
+        "archive_info": {
+          "hashes": {
+            "sha256": "85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"
+          },
+          "hash": "sha256=85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "glob2",
+        "version": "0.7",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "home-page",
+          "license",
+          "license-file",
+          "summary"
+        ],
+        "summary": "Version of the glob module that can capture patterns and supports recursive wildcards",
+        "home_page": "http://github.com/miracle2k/python-glob2/",
+        "author": "Michael Elsdoerfer",
+        "author_email": "michael@elsdoerfer.com",
+        "license": "BSD",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 3 - Alpha",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Topic :: Software Development :: Libraries"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/05/ec/fa6963f1198172c2b75c9ab6ecefb3045991f92f75f5eb41b6621b198123/easydict-1.13-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "6b787daf4dcaf6377b4ad9403a5cee5a86adbc0ca9a5bcf5410e9902002aeac2"
+          },
+          "hash": "sha256=6b787daf4dcaf6377b4ad9403a5cee5a86adbc0ca9a5bcf5410e9902002aeac2"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "easydict",
+        "version": "1.13",
+        "summary": "Access dict values as attributes (works recursively).",
+        "keywords": [
+          "Tools"
+        ],
+        "home_page": "https://github.com/makinacorpus/easydict",
+        "download_url": "http://pypi.python.org/pypi/easydict/",
+        "author": "Mathieu Leplatre",
+        "author_email": "mathieu.leplatre@makina-corpus.com",
+        "license": "LGPL-3.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Topic :: Utilities",
+          "Natural Language :: English",
+          "Operating System :: OS Independent",
+          "Intended Audience :: Developers",
+          "Development Status :: 5 - Production/Stable",
+          "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+          "Programming Language :: Python :: 2.5",
+          "Programming Language :: Python :: 3.6"
+        ],
+        "description": ".. image:: https://img.shields.io/pypi/v/easydict.svg\n        :target: https://pypi.python.org/pypi/easydict\n\n.. image:: https://img.shields.io/pypi/dm/easydict.svg\n        :target: https://pypi.python.org/pypi/easydict\n\n========\nEasydict\n========\n\n*EasyDict* allows to access dict values as attributes (works recursively). \nA Javascript-like properties dot notation for python dicts.\n\nINSTALL\n=======\n\n::\n    \n    pip install easydict\n\n\nUSAGE\n=====\n\n::\n\n    >>> from easydict import EasyDict as edict\n    >>> d = edict({'foo':3, 'bar':{'x':1, 'y':2}})\n    >>> d.foo\n    3\n    >>> d.bar.x\n    1\n    \n    >>> d = edict(foo=3)\n    >>> d.foo\n    3\n\n\nVery useful when exploiting parsed JSON content ! \n\n::\n\n    >>> from easydict import EasyDict as edict\n    >>> from simplejson import loads\n    >>> j = \"\"\"{\n    \"Buffer\": 12,\n    \"List1\": [\n        {\"type\" : \"point\", \"coordinates\" : [100.1,54.9] },\n        {\"type\" : \"point\", \"coordinates\" : [109.4,65.1] },\n        {\"type\" : \"point\", \"coordinates\" : [115.2,80.2] },\n        {\"type\" : \"point\", \"coordinates\" : [150.9,97.8] }\n    ]\n    }\"\"\"\n    >>> d = edict(loads(j))\n    >>> d.Buffer\n    12\n    >>> d.List1[0].coordinates[1]\n    54.9\n\nCan set attributes as easily as getting them :\n\n::\n\n    >>> d = EasyDict()\n    >>> d.foo = 3\n    >>> d.foo\n    3\n\nIt is still a ``dict`` !\n\n::\n\n    >>> d = EasyDict(log=False)\n    >>> d.debug = True\n    >>> d.items()\n    [('debug', True), ('log', False)]\n\nInstance and class attributes are accessed like usual objects...\n\n::\n\n    >>> class Flower(EasyDict):\n    ...     power = 1\n    ...\n    >>> f = Flower({'height': 12})\n    >>> f.power\n    1\n    >>> f['power']\n    1\n\nLICENSE\n=======\n\n* Lesser GNU Public License\n\nAUTHORS\n=======\n\n* Mathieu Leplatre <mathieu.leplatre@makina-corpus.com>\n\n|makinacom|_\n\n.. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif\n.. _makinacom:  http://www.makina-corpus.com\n\nSimilar tools\n=============\n\n* `TreeDict <http://pypi.python.org/pypi/treedict>`_, a fast and full-featured dict-like tree container.\n* `addict <https://github.com/mewwts/addict>`_\n\n\n=========\nCHANGELOG\n=========\n\n1.12 (2024-03-04)\n=================\n\n- Fix #46: Fix handling of optional default value for .pop() (#47)\n\n1.12 (2024-02-13)\n=================\n\n- Fix #22: Do not convert tuple attributes to list (#44)\n\n1.11 (2023-10-24)\n=================\n\n- Fix #39: RecursionError when dict in class member (#41)\n- Minor changes in README\n\n1.10 (2022-09-28)\n=================\n\n* Make tests compatible with python2 and python3 (thanks @JackLangerman)\n* Dictify input\n* Fix license metadata \n\n1.9 (2018-10-18)\n================\n\n* Fix issue #3 that update and pop now work correctly on EasyDicts.\n\n\n1.8 (2018-08-17)\n================\n\n* Update package classifiers.\n\n\n1.7 (2017-04-27)\n================\n\n* Prevent copying sub-EasyDicts on assignment to fix unpickling (#7, thanks @Chronos-Sk)\n\n1.6 (2015-01-27)\n================\n\n* Allow setting attributes via setting items (thanks phivos)\n\n1.5 (2014-08-07)\n================\n\n* Allow subclassing using self instead of class name (thanks Steve Engledow)\n\n1.4 (2011-03-13)\n================\n\n* Access class attributes like instance attributes\n\n1.3 (2012-02-08)\n================\n\n* Better documentation and tests\n\n1.2 (2011-06-08)\n================\n\n* Fix inclusion of README\n\n1.1 (2012-04-21)\n================\n\n* Switch to distutils2\n\n1.0 (2011-04-18)\n================\n\n* Initial working version\n"
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.10.21",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "5.15.0-139-generic",
+    "platform_system": "Linux",
+    "platform_version": "#149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025",
+    "python_full_version": "3.10.21",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.10",
+    "sys_platform": "linux"
+  }
+}

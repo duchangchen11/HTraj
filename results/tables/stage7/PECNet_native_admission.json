@@ -1,0 +1,177 @@
+{
+  "ETH_evaluated": false,
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "all_cases_passed": true,
+  "attempt": "native",
+  "candidate": "PECNet",
+  "cases": [
+    {
+      "K1_fixed_latent_permutation_max": 0.0,
+      "K20_coupled_latent_permutation_max": 0.0,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/PECNet_native_N1_random_state.pth",
+      "checkpoint_sha256": "a939da69c44005664f9a5b895b5a62aec674dfa4966d149ff7160b3d12b0238c",
+      "elapsed_seconds": 0.6422358630225062,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 526263,
+      "gradients_finite": true,
+      "original_loss": 15.021541870674803,
+      "output_shape": [
+        1,
+        1,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 68519936,
+      "people": 1,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 5.551115123125783e-17,
+      "K20_coupled_latent_permutation_max": 5.551115123125783e-17,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/PECNet_native_N2_random_state.pth",
+      "checkpoint_sha256": "a939da69c44005664f9a5b895b5a62aec674dfa4966d149ff7160b3d12b0238c",
+      "elapsed_seconds": 0.37451012001838535,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 734475,
+      "gradients_finite": true,
+      "original_loss": 16.40776275505326,
+      "output_shape": [
+        1,
+        2,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 68540416,
+      "people": 2,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 2.220446049250313e-16,
+      "K20_coupled_latent_permutation_max": 2.220446049250313e-16,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/PECNet_native_N5_random_state.pth",
+      "checkpoint_sha256": "a939da69c44005664f9a5b895b5a62aec674dfa4966d149ff7160b3d12b0238c",
+      "elapsed_seconds": 0.31997083296300843,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 1041841,
+      "gradients_finite": true,
+      "original_loss": 19.723468817148614,
+      "output_shape": [
+        1,
+        5,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 68605952,
+      "people": 5,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 4.440892098500626e-16,
+      "K20_coupled_latent_permutation_max": 4.440892098500626e-16,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/PECNet_native_N12_random_state.pth",
+      "checkpoint_sha256": "a939da69c44005664f9a5b895b5a62aec674dfa4966d149ff7160b3d12b0238c",
+      "elapsed_seconds": 0.32642416399903595,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 1213515,
+      "gradients_finite": true,
+      "original_loss": 21.42812765312057,
+      "output_shape": [
+        1,
+        12,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 68757504,
+      "people": 12,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    }
+  ],
+  "compatibility_changes": [],
+  "configuration": {
+    "adl_reg": 1,
+    "data_scale": 1.86,
+    "dataset_type": "image",
+    "dec_size": [
+      1024,
+      512,
+      1024
+    ],
+    "dist_thresh": 100,
+    "enc_dest_size": [
+      8,
+      16
+    ],
+    "enc_latent_size": [
+      8,
+      50
+    ],
+    "enc_past_size": [
+      512,
+      256
+    ],
+    "fdim": 16,
+    "future_length": 12,
+    "gpu_index": 0,
+    "kld_reg": 1,
+    "learning_rate": 0.0003,
+    "mu": 0,
+    "n_values": 20,
+    "non_local_dim": 128,
+    "non_local_g_size": [
+      256,
+      128,
+      64
+    ],
+    "non_local_phi_size": [
+      256,
+      128,
+      64
+    ],
+    "non_local_theta_size": [
+      256,
+      128,
+      64
+    ],
+    "nonlocal_pools": 3,
+    "normalize_type": "shift_origin",
+    "num_epochs": 650,
+    "num_workers": 0,
+    "past_length": 8,
+    "predictor_hidden_size": [
+      1024,
+      512,
+      256
+    ],
+    "sigma": 1.3,
+    "test_b_size": 4096,
+    "time_thresh": 0,
+    "train_b_size": 512,
+    "zdim": 16
+  },
+  "elapsed_seconds": 2.496257826045621,
+  "formal_training_runs": 0,
+  "latent_dim": 16,
+  "optimizer_updates": 0,
+  "parameter_count": 2099692,
+  "pretrained_checkpoint_tested": false,
+  "repository_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "source_SHA256": "96965ba48b236dc9be5cbd7d662cc4ed26175498eeaa640246747b8e00e54871",
+  "synthetic_only": true,
+  "torch": "2.5.1+cu124"
+}

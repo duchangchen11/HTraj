@@ -1,0 +1,16 @@
+{
+  "ETH_evaluated": false,
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "all_cases_passed": false,
+  "attempt": "native",
+  "candidate": "AgentFormer",
+  "cases": [],
+  "elapsed_seconds": 0.060640832991339266,
+  "formal_training_runs": 0,
+  "optimizer_updates": 0,
+  "pretrained_checkpoint_tested": false,
+  "setup_traceback": "Traceback (most recent call last):\n  File \"/home/lrj/HTraj/scripts/stage7/admit.py\", line 90, in run\n    meta,build,predict,loss,settings=pecnet() if name=='PECNet' else agentformer(compat)\n  File \"/home/lrj/HTraj/scripts/stage7/admit.py\", line 61, in agentformer\n    from model.agentformer import AgentFormer\n  File \"/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py\", line 9, in <module>\n    from .agentformer_lib import AgentFormerEncoderLayer, AgentFormerDecoderLayer, AgentFormerDecoder, AgentFormerEncoder\n  File \"/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer_lib.py\", line 18, in <module>\n    from torch.nn.modules.linear import Linear, _LinearWithBias\nImportError: cannot import name '_LinearWithBias' from 'torch.nn.modules.linear' (/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py)\n",
+  "source_SHA256": "96965ba48b236dc9be5cbd7d662cc4ed26175498eeaa640246747b8e00e54871",
+  "synthetic_only": true,
+  "torch": "2.5.1+cu124"
+}

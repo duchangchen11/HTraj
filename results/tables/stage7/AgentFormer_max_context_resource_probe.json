@@ -1,0 +1,19 @@
+{
+  "ETH_evaluated": false,
+  "elapsed_seconds": 2.077052607026417,
+  "finite_loss": true,
+  "formal_training_runs": 0,
+  "gradients_finite": true,
+  "loss": 23.202198028564453,
+  "manifest_SHA": {
+    "configs/stage4p2/manifests/biwi_hotel.json": "3fd6774ebea8f5465198c4c6c202f8d9cbd7effcecb7861807e27793f127f608",
+    "configs/stage4p2/manifests/crowds_zara02.json": "1a398f10a70e094997b530bf788d314646aa2b878e9a10cfbe1f4640d78e5314"
+  },
+  "official_K20_training_objective": true,
+  "optimizer_updates": 0,
+  "passed": true,
+  "peak_allocated_bytes": 6391504896,
+  "peak_reserved_bytes": 9659482112,
+  "people": 57,
+  "reason": "Maximum source train context N in existing nonETH offline manifests; no trajectories or metrics evaluated"
+}

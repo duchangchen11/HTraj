@@ -1,0 +1,5 @@
+PECNet 1 True 0.0
+PECNet 2 True 5.551115123125783e-17
+PECNet 5 True 2.220446049250313e-16
+PECNet 12 True 4.440892098500626e-16
+Admission saved: results/tables/stage7/PECNet_native_admission.json

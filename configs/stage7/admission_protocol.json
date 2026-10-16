@@ -1,0 +1,38 @@
+{
+  "ETH_evaluated": false,
+  "automatic_push": false,
+  "base_commit": "e7706706e7ea3d1e4146a16821f862a194ef7bc0",
+  "candidates": [
+    "AgentFormer",
+    "PECNet"
+  ],
+  "checkpoint": "Strict random-state save/load roundtrip, not official pretrained reproduction",
+  "closures": [
+    "TOHI graph modules",
+    "G0/G1 prototypes",
+    "SocialVAE social-attention modification",
+    "capacity and Placebo social attribution",
+    "Stage6p1 history-stratified sampling"
+  ],
+  "dt_seconds": 0.4,
+  "future_isolation": "Same history and explicit fixed latent/noise, change or poison all future labels; inference unchanged",
+  "gradients": "Finite original training objective and backward only, no optimizer update; all tested gradients finite",
+  "limits": "Bounded source/protocol/synthetic checks only; no real scene ADE or fivefold training; do not repair architecture to force admission",
+  "max_new_candidates": 2,
+  "new_training_runs": 0,
+  "observations": 8,
+  "optimizer_updates": 0,
+  "permutation": "Synchronized agent data/mask permutation; deterministic latent control and identical RNG, then inverse outputs",
+  "predictions": 12,
+  "stage": 7,
+  "synthetic_agents": [
+    1,
+    2,
+    5,
+    12
+  ],
+  "tolerances": {
+    "atol": 1e-05,
+    "rtol": 1e-05
+  }
+}

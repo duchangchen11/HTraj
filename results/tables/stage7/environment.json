@@ -1,0 +1,17 @@
+{
+  "CUDA": "12.4",
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "GPU_total_bytes": 10366025728,
+  "compatibility": "runtime torch.nn.modules.linear._LinearWithBias=nn.Linear; no source patch",
+  "excluded_data_entry_point": "np.int usage in official loader still needs mechanical compatibility and fresh real-data smoke; no end-to-end official training claimed",
+  "existing_environment": "experiments/stage4/venv (read-only reuse; prior packages not upgraded)",
+  "extra_dependency_target": "experiments/stage7/cache/deps",
+  "extra_pins": [
+    "glob2==0.7",
+    "easydict==1.13"
+  ],
+  "numpy": "1.26.4",
+  "python": "3.10.21",
+  "pyyaml": "6.0.2",
+  "torch": "2.5.1+cu124"
+}

@@ -1,0 +1,123 @@
+{
+  "ETH_evaluated": false,
+  "clone_log": "Cloning into bare repository 'experiments/stage7/cache/PECNet.git'...\n",
+  "commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "datasets_downloaded": false,
+  "files": [
+    {
+      "bytes": 1072,
+      "git_blob": "689a3f0b422baedef4bac74a3db1be47f01ac393",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/LICENSE",
+      "path": "LICENSE",
+      "seconds": 1.1477434430271387,
+      "sha256": "e998f968c513a45fad98e70dafd54d3e7aae2f99d6807faaa7ba58d4953afd49",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/LICENSE"
+    },
+    {
+      "bytes": 5877,
+      "git_blob": "da2dc6545ec929ff6e6f6a9faccd6d4868204a21",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/README.md",
+      "path": "PECNet/README.md",
+      "seconds": 1.5995261300122365,
+      "sha256": "22e96c0359b234dd3e06ef675da83e163319cc7dd93aa3c6c486ed1823a9fb27",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/README.md"
+    },
+    {
+      "bytes": 1614,
+      "git_blob": "001a10718212f5007f35c1f70b6aae7252743e27",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/config_gen.py",
+      "path": "PECNet/config/config_gen.py",
+      "seconds": 1.6077350679552183,
+      "sha256": "9d6a62d5f249088d5ec667ce7ab64a797e27172cc718f53aa57eabfa934d9077",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/config_gen.py"
+    },
+    {
+      "bytes": 600,
+      "git_blob": "d5d64811439b7297755d599786b0ffd8249f0f66",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/optimal.yaml",
+      "path": "PECNet/config/optimal.yaml",
+      "seconds": 1.2616488479543477,
+      "sha256": "9941fde933fc9785648bc32e79261006379df87c875913e0a631f79e3d7704c1",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/optimal.yaml"
+    },
+    {
+      "bytes": 51,
+      "git_blob": "3f4e8316de4847254eee0a0ddc2f3ecf80f09eb7",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/requirements.txt",
+      "path": "PECNet/requirements.txt",
+      "seconds": 1.3140815840451978,
+      "sha256": "8bbad2f6bd18e23739484b5d41a7a6eedc9bdc3172bb1f945f7eb8692b6b0046",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/requirements.txt"
+    },
+    {
+      "bytes": 5058,
+      "git_blob": "f37f20f102754f8cb3ab1f8bc7fa47db69536d4d",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/test_pretrained_model.py",
+      "path": "PECNet/scripts/test_pretrained_model.py",
+      "seconds": 1.3301631460199133,
+      "sha256": "0334b0f164a00cd66937b98a396c966a0d162249bf400652597b530e46d224ad",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/test_pretrained_model.py"
+    },
+    {
+      "bytes": 7299,
+      "git_blob": "4f649f5145e1b22f74987cd632067b5041882232",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/training_loop.py",
+      "path": "PECNet/scripts/training_loop.py",
+      "seconds": 1.3139509580214508,
+      "sha256": "c4260fe09cebaf84881d963d4c7b9c95b1e87f1103f93e603b9489f341cb0a4f",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/training_loop.py"
+    },
+    {
+      "bytes": 7035,
+      "git_blob": "a7aea68f8f13cae1b0d26d62653395055614bb43",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/models.py",
+      "path": "PECNet/utils/models.py",
+      "seconds": 1.1056751199648716,
+      "sha256": "9dad7b9b10a2c6fad4c644939f8830389aa218e9ce7b01a25fe1347957949e11",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/models.py"
+    },
+    {
+      "bytes": 7072,
+      "git_blob": "d86e03e3c7c370d594c434b8748be070345cf1a3",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/social_utils.py",
+      "path": "PECNet/utils/social_utils.py",
+      "seconds": 1.1691270360024646,
+      "sha256": "74987dd5626ea2e8e8b462ef3b06b23448b861e6f0fc6951fd3a5a4f18f7890c",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/social_utils.py"
+    },
+    {
+      "bytes": 7710,
+      "git_blob": "9e641a389bf856333b74288fa4ac2757db8e1370",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/README.md",
+      "path": "README.md",
+      "seconds": 1.1050410299794748,
+      "sha256": "e6d647ddef6887505beffc04026c2cbc4a65919bab50c6bb3d4e9950b7c8c91f",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/README.md"
+    }
+  ],
+  "pretrained_weights_downloaded": false,
+  "remote_HEAD": "a345ada1557f53dc2acb4c07f71d340d366980da\tHEAD",
+  "repository": "HarshayuGirase/PECNet",
+  "source_directory": "experiments/stage7/cache/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da",
+  "success": true
+}

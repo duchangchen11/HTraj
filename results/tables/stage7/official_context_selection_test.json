@@ -1,0 +1,19 @@
+{
+  "ETH_evaluated": false,
+  "candidate": "AgentFormer",
+  "changed_context_IDs": [
+    0.0
+  ],
+  "history_equal": true,
+  "interpretation": "Offline complete20 context selection; forecast values isolate GT but context membership uses future existence. Do not claim Causal8x12 equivalence.",
+  "new_training_runs": 0,
+  "only_neighbor_future_presence_changed": true,
+  "original_context_IDs": [
+    0.0,
+    1.0
+  ],
+  "original_method_executed_via_AST": true,
+  "source_path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/preprocessor.py",
+  "source_sha256": "dfea67e46f6d4718f9be8b7fa71af7e7a468671ccd06e48c319c756bddb212ca",
+  "strict_history_only_context_selection": false
+}

@@ -1,0 +1,20 @@
+Collecting glob2==0.7
+  Downloading glob2-0.7.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting easydict==1.13
+  Downloading easydict-1.13-py3-none-any.whl.metadata (4.2 kB)
+Downloading easydict-1.13-py3-none-any.whl (6.8 kB)
+Building wheels for collected packages: glob2
+  Building wheel for glob2 (pyproject.toml): started
+  Building wheel for glob2 (pyproject.toml): finished with status 'done'
+  Created wheel for glob2: filename=glob2-0.7-py2.py3-none-any.whl size=9367 sha256=d3a932f933128e441f3609715b7067cc3d77d56085279df40df98be53f5a32e3
+  Stored in directory: /home/lrj/.cache/pip/wheels/37/07/ce/cbe8d31ad93224571b49fa03f8a5da11cdb31d3845ff73e0f3
+Successfully built glob2
+Installing collected packages: glob2, easydict
+
+Successfully installed easydict-1.13 glob2-0.7

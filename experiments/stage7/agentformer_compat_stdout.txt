@@ -1,0 +1,5 @@
+AgentFormer 1 True 0.0
+AgentFormer 2 True 1.1920928955078125e-07
+AgentFormer 5 True 2.384185791015625e-07
+AgentFormer 12 True 4.76837158203125e-07
+Admission saved: results/tables/stage7/AgentFormer_compat_admission.json

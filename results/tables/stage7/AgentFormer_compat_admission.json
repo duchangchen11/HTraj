@@ -1,0 +1,181 @@
+{
+  "ETH_evaluated": false,
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "all_cases_passed": true,
+  "attempt": "compat",
+  "candidate": "AgentFormer",
+  "cases": [
+    {
+      "K1_fixed_latent_permutation_max": 0.0,
+      "K20_coupled_latent_permutation_max": 0.0,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_compat_N1_random_state.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "elapsed_seconds": 1.0298525280086324,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 4266140,
+      "gradients_finite": true,
+      "original_loss": 16.107372283935547,
+      "output_shape": [
+        1,
+        1,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 91215872,
+      "people": 1,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 1.1920928955078125e-07,
+      "K20_coupled_latent_permutation_max": 2.384185791015625e-07,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_compat_N2_random_state.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "elapsed_seconds": 0.6519955379772,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 5680969,
+      "gradients_finite": true,
+      "original_loss": 23.642004013061523,
+      "output_shape": [
+        1,
+        2,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 121205760,
+      "people": 2,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 2.384185791015625e-07,
+      "K20_coupled_latent_permutation_max": 2.384185791015625e-07,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_compat_N5_random_state.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "elapsed_seconds": 0.6693397369817831,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 5779407,
+      "gradients_finite": true,
+      "original_loss": 27.514820098876953,
+      "output_shape": [
+        1,
+        5,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 232886272,
+      "people": 5,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    },
+    {
+      "K1_fixed_latent_permutation_max": 4.76837158203125e-07,
+      "K20_coupled_latent_permutation_max": 4.76837158203125e-07,
+      "changed_future_max_difference": 0.0,
+      "checkpoint": "experiments/stage7/cache/AgentFormer_compat_N12_random_state.pth",
+      "checkpoint_sha256": "ba55601f1c90e71919beb25a94ee2a1b38642b65c94a27a71af65c31cbc5673d",
+      "elapsed_seconds": 0.6452336310176179,
+      "finite_forward": true,
+      "gradient_nonzero_scalars": 5869697,
+      "gradients_finite": true,
+      "original_loss": 25.706981658935547,
+      "output_shape": [
+        1,
+        12,
+        12,
+        2
+      ],
+      "passed": true,
+      "peak_allocated_bytes": 576257024,
+      "people": 12,
+      "poisoned_future_max_difference": 0.0,
+      "restored_prediction_max_difference": 0.0,
+      "strict_random_checkpoint_restore": true
+    }
+  ],
+  "compatibility_changes": [
+    "Runtime alias removed private _LinearWithBias to nn.Linear (default bias=True); source bytes untouched"
+  ],
+  "configuration": {
+    "context_encoder": {
+      "nlayer": 2
+    },
+    "data_root_ethucy": "datasets/eth_ucy",
+    "data_root_nuscenes_pred": "datasets/nuscenes_pred",
+    "dataset": "hotel",
+    "decay_gamma": 0.5,
+    "decay_step": 10,
+    "description": "AgentFormer (Before DLow)",
+    "forecast_dim": 2,
+    "future_decoder": {
+      "nlayer": 2
+    },
+    "future_encoder": {
+      "nlayer": 2
+    },
+    "future_frames": 12,
+    "input_type": [
+      "scene_norm",
+      "vel"
+    ],
+    "learn_prior": true,
+    "loss_cfg": {
+      "kld": {
+        "min_clip": 2.0,
+        "weight": 1.0
+      },
+      "mse": {
+        "weight": 1.0
+      },
+      "sample": {
+        "k": 20,
+        "weight": 1.0
+      }
+    },
+    "lr": 0.0001,
+    "lr_fix_epochs": 10,
+    "lr_scheduler": "step",
+    "min_future_frames": 12,
+    "min_past_frames": 8,
+    "model_id": "agentformer",
+    "model_save_freq": 10,
+    "motion_dim": 2,
+    "num_epochs": 100,
+    "nz": 32,
+    "past_frames": 8,
+    "pos_concat": true,
+    "pred_type": "scene_norm",
+    "print_freq": 20,
+    "rand_rot_scene": true,
+    "results_root_dir": "results",
+    "sample_k": 20,
+    "scene_orig_all_past": true,
+    "seed": 1,
+    "sn_out_type": "norm",
+    "tf_dropout": 0.1,
+    "tf_ff_dim": 512,
+    "tf_model_dim": 256,
+    "tf_nhead": 8,
+    "tf_version": "v2",
+    "traj_scale": 1
+  },
+  "elapsed_seconds": 4.590686012990773,
+  "formal_training_runs": 0,
+  "latent_dim": 32,
+  "optimizer_updates": 0,
+  "parameter_count": 5972098,
+  "pretrained_checkpoint_tested": false,
+  "repository_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "source_SHA256": "96965ba48b236dc9be5cbd7d662cc4ed26175498eeaa640246747b8e00e54871",
+  "synthetic_only": true,
+  "torch": "2.5.1+cu124"
+}

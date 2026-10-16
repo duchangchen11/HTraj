@@ -1,0 +1,144 @@
+{
+  "CV": [
+    "CV-Last2",
+    "CV-OLS4",
+    "CV-OLS8"
+  ],
+  "CV_primary": "CV-Last2; never choose best scene-wise as deployable estimator",
+  "ETH_evaluated": false,
+  "aggregation": [
+    "target-window",
+    "equal recording-person ID",
+    "two-recording macro separately"
+  ],
+  "author_architecture": {
+    "ff_dim": 512,
+    "heads": 8,
+    "layers_each": 2,
+    "learn_prior": true,
+    "model_dim": 256,
+    "nz": 32,
+    "use_agent_index_encoding": false,
+    "use_map": false
+  },
+  "automatic_push": false,
+  "budget_unit": "same train windows, same supervised target visits, one optimizer update per window; per-person losses averaged before update",
+  "candidate": "AgentFormer-CVAE original pre-stage",
+  "conditions": [
+    "original AgentFormer-CVAE",
+    "same network per-person independent"
+  ],
+  "context_counts": [
+    {
+      "recording": "biwi_hotel",
+      "train": {
+        "max_context_people": 57,
+        "records": [
+          "crowds_zara01",
+          "crowds_zara02",
+          "students001",
+          "students003"
+        ],
+        "single_person_windows": 151,
+        "targets": 27145,
+        "windows": 2121
+      },
+      "validation": {
+        "max_context_people": 8,
+        "records": [
+          "biwi_hotel"
+        ],
+        "single_person_windows": 25,
+        "targets": 318,
+        "windows": 94
+      }
+    },
+    {
+      "recording": "crowds_zara02",
+      "train": {
+        "max_context_people": 57,
+        "records": [
+          "biwi_hotel",
+          "crowds_zara01",
+          "students001",
+          "students003"
+        ],
+        "single_person_windows": 196,
+        "targets": 23545,
+        "windows": 1684
+      },
+      "validation": {
+        "max_context_people": 13,
+        "records": [
+          "crowds_zara02"
+        ],
+        "single_person_windows": 3,
+        "targets": 1092,
+        "windows": 172
+      }
+    }
+  ],
+  "coordinate_unit": "m",
+  "dt_seconds": 0.4,
+  "evaluation": [
+    "K1 learned-prior-mean, not recon or mathematical trajectory expectation",
+    "K1 first prior sample",
+    "independent minADE20/minFDE20"
+  ],
+  "held_out_ETH": true,
+  "independent_confirmation": false,
+  "individual_control_limitations": "Per-person processing removes all social paths including scene centering; changes effective inter-agent parameter usage, clipping aggregation and context normalization. Not an independent social-value proof.",
+  "initialization": "fresh, exact matched seed17 weights, no pretrained import",
+  "learning_rate": 0.0001,
+  "loss_changes": false,
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage7/minimal_manifests/biwi_hotel.json",
+      "sha256": "e6437914adfdc83e6b61418d78c9a8bcc6b8a1d0d6d4b96385f8604cc0f66108"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage7/minimal_manifests/crowds_zara02.json",
+      "sha256": "9b2b75eecebf1a855bae1a333b48a905b5430d1a81f660c74d32d90ac32b7892"
+    }
+  },
+  "max_epochs": 30,
+  "max_runs": 4,
+  "maximum_concurrent_runs": 1,
+  "new_algorithm": false,
+  "obs_len": 8,
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "optimizer": "Adam",
+  "original_loss": "mse(weight1)+kld(weight1,min_clip2)+sample(weight1,k20)",
+  "original_other_validation_promoted_to_train": false,
+  "pred_len": 12,
+  "pretrain_requirements": [
+    "fresh manifest/target/GT SHA audit",
+    "np.int dtype compatibility shim and entry smoke tested",
+    "restore and common ID-keyed latent noise",
+    "report actual effective-capacity difference before running"
+  ],
+  "protocol": "HTraj-AgentFormer-A_offline_complete20-v1",
+  "protocol_limitation": "Complete20 offline context uses future existence; not strict history-context Causal8x12-v1",
+  "raw_sources": "Five original nonETH files with Stage5.1 SHA; no old model/cache",
+  "resource_note": "N57 original K20 backward fit, reserved9.66GB: limited margin; stop on OOM, never silently drop crowded samples",
+  "scheduler": "StepLR step10 gamma0.5",
+  "seed": 17,
+  "selection": "minimum validation window K1 learned-prior-mean ADE, earlier exact tie, same-checkpoint FDE",
+  "smoke_epochs_within_run": 5,
+  "status": "FROZEN DESIGN ONLY; not authorized or run in Stage7",
+  "stopping": {
+    "budget": "30 maximum; best=30 is truncated, no automatic extension; smoke not extra epochs",
+    "final": "If prediction/interaction readiness fails, stop new social algorithm development; next action belongs to user, no hidden hyperparameter/seed search",
+    "interaction": "Same criterion vs per-person control necessary, but not sufficient: centering/effective capacity unresolved => no independent social attribution or new module",
+    "multimodal": "If K1 fails but K20 improves, report separate multimodal evidence only, no automatic chapter5 or social-method pivot",
+    "numerical": "Any nonfinite, target mismatch, future-valued input dependency or OOM stops affected run; no blind retry",
+    "prediction": "K1 improvement vs fixed CV-Last2 >=max(.005m,1%) in both recordings/both weights, paired FDE regression<=max(.005m,1%); all three CV displayed"
+  },
+  "target_cohort": "Same supervised targets as frozen Stage5.1 B, regrouped into synchronous complete20 offline contexts, including N1. Not the Causal-context protocol.",
+  "training_started": false,
+  "validation_recordings": [
+    "biwi_hotel",
+    "crowds_zara02"
+  ],
+  "weight_decay": 0.0
+}

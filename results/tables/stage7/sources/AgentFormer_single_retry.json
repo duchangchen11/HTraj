@@ -1,0 +1,38 @@
+{
+  "attempts": [
+    {
+      "bytes": 1426,
+      "git_blob": "32e169ea2e7b6e8275824120b091ccc9460b4382",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/10_sample/nuscenes_10sample_agentformer.yml",
+      "path": "cfg/nuscenes/10_sample/nuscenes_10sample_agentformer.yml",
+      "seconds": 1.1766909430152737,
+      "sha256": "9462213d8aea7b920f5b58483e04bfefc69fc0473e7dc85509f1ad70772fafa2",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/Khrylx/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/10_sample/nuscenes_10sample_agentformer.yml"
+    },
+    {
+      "bytes": 3650,
+      "git_blob": "353a6b005764b7cbd4989ab972ff979737254ce0",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/dataloader.py",
+      "path": "data/dataloader.py",
+      "seconds": 1.4263733580010012,
+      "sha256": "4c166b27ddb623ca42774835457bf846df648fc53af427b578c79f6b52581428",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/Khrylx/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/dataloader.py"
+    },
+    {
+      "bytes": 20049,
+      "git_blob": "2677983309f78848ce3b0297d5bbcc9f6c91793b",
+      "git_blob_verified": true,
+      "local_path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/homography_warper.py",
+      "path": "data/homography_warper.py",
+      "seconds": 1.350377043010667,
+      "sha256": "ecb0d00574241d620056dac81e8314248d7fece8e0406de94d090b26e09e56ee",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/Khrylx/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/homography_warper.py"
+    }
+  ],
+  "success": true
+}

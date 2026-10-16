@@ -1,0 +1,66 @@
+{
+  "ETH_evaluated": false,
+  "cohorts": [
+    {
+      "recording": "biwi_hotel",
+      "train": {
+        "max_context_people": 57,
+        "records": [
+          "crowds_zara01",
+          "crowds_zara02",
+          "students001",
+          "students003"
+        ],
+        "single_person_windows": 151,
+        "targets": 27145,
+        "windows": 2121
+      },
+      "validation": {
+        "max_context_people": 8,
+        "records": [
+          "biwi_hotel"
+        ],
+        "single_person_windows": 25,
+        "targets": 318,
+        "windows": 94
+      }
+    },
+    {
+      "recording": "crowds_zara02",
+      "train": {
+        "max_context_people": 57,
+        "records": [
+          "biwi_hotel",
+          "crowds_zara01",
+          "students001",
+          "students003"
+        ],
+        "single_person_windows": 196,
+        "targets": 23545,
+        "windows": 1684
+      },
+      "validation": {
+        "max_context_people": 13,
+        "records": [
+          "crowds_zara02"
+        ],
+        "single_person_windows": 3,
+        "targets": 1092,
+        "windows": 172
+      }
+    }
+  ],
+  "formal_training_runs": 0,
+  "future_existence_conditioning_declared": true,
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage7/minimal_manifests/biwi_hotel.json",
+      "sha256": "e6437914adfdc83e6b61418d78c9a8bcc6b8a1d0d6d4b96385f8604cc0f66108"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage7/minimal_manifests/crowds_zara02.json",
+      "sha256": "9b2b75eecebf1a855bae1a333b48a905b5430d1a81f660c74d32d90ac32b7892"
+    }
+  },
+  "real_prediction_metrics_computed": false
+}

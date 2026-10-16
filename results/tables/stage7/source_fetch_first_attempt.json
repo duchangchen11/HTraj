@@ -1,0 +1,8 @@
+{
+  "ETH_evaluated": false,
+  "affected_process_group": 3710771,
+  "completed": false,
+  "prior_stage_files_modified": false,
+  "reason": "git ls-tree --long queries missing blob sizes in a partial clone; bounded interruption after about44seconds to avoid unnecessary data fetching. Corrected to metadata-only ls-tree.",
+  "stopped_by_agent": true
+}

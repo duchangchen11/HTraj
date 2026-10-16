@@ -1,0 +1,64 @@
+{
+  "ETH_evaluated": false,
+  "algorithm_development": "NO-GO",
+  "automatic_push": false,
+  "base_commit": "e7706706e7ea3d1e4146a16821f862a194ef7bc0",
+  "candidates": [
+    {
+      "candidate": "AgentFormer",
+      "parameter_count": 5972098,
+      "passed": true
+    },
+    {
+      "candidate": "PECNet",
+      "parameter_count": 2099692,
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 39.91853851504857,
+  "final_commit": "Containing Git delivery commit; use recorded source SHA without circular self-reference",
+  "final_full_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 385
+  },
+  "first_four_index_test_failures_preserved": true,
+  "formal_training_runs": 0,
+  "future_reproduction_plan_only": true,
+  "historical_SHA_failures": [],
+  "historical_SHA_verified": 10729,
+  "inline_probes": "N57 and official loader ID filter were first executed inline; equivalent bodies persisted as resource_probe.py/protocol_selection_probe.py for reproduction; no second formal run",
+  "native_import_failure_preserved": true,
+  "old_research_routes_frozen": true,
+  "optimizer_updates_on_candidates": 0,
+  "pretrained_weights_verified": false,
+  "random_checkpoint_files_verified": 12,
+  "source_SHA": {
+    "scripts/stage7/admit.py": "96965ba48b236dc9be5cbd7d662cc4ed26175498eeaa640246747b8e00e54871",
+    "scripts/stage7/build_minimal_manifest.py": "edc6d60268d5bc65e4d2c6e3ca47082996ed9595dc01e2162e19800d496e1f24",
+    "scripts/stage7/check_full_prior.py": "460c8515022a936711cfd9b1635a255b7495ab2ed6b6a96f57a2cd9aca2f76d8",
+    "scripts/stage7/fetch_sources.py": "a1a09fd15fa5b379c9cce684d6a80d57e5a9b10abe543e5d9ff21eb738817758",
+    "scripts/stage7/prepare.py": "edc39ebda39e64902e9583c748afb9279a6b1488c39dd2843ec20f00c0db1fd0",
+    "scripts/stage7/protocol_selection_probe.py": "dc895b6a74920770bff321bb1a9345e7c063026eded2fae54d9631afa5592d08",
+    "scripts/stage7/resource_probe.py": "68d52ee2b205394da415ec00df198bdd7d6ac3e1bc12e53997c8f8fb48d78e2e",
+    "scripts/stage7/verify_delivery.py": "351a97881bd4cad04f9bf7531f13a27c2a3f35da49b3190de20ad171dcd1e986",
+    "scripts/stage7/write_reports.py": "808ec1c1a3183af084ac9ec4f2b64ada8bc6a8f9aa2e2af6ebd238ade81ec111",
+    "src/public_admission/__init__.py": "96d6dbaa19aa8fcf796fb39b892bb2ce74943e27034cff07d0e901f56e2f159a",
+    "src/public_admission/inputs.py": "13d2580741639846940fc49bceba8bd79165acaff1aba1f12dbe1ca1540df1ea",
+    "tests/test_public_admission.py": "03a1fa665227ad1ffff01ed485446e123c0b2fd2bcc8c2e9ee2a986aebcabc2d"
+  },
+  "source_repositories": [
+    {
+      "candidate": "AgentFormer",
+      "commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+      "verified_source_files": 43
+    },
+    {
+      "candidate": "PECNet",
+      "commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+      "verified_source_files": 10
+    }
+  ],
+  "strict_causal_context_admitted": false
+}
