@@ -1,0 +1,115 @@
+{
+  "all_passed": false,
+  "decision": "stop_current_sampling_hypothesis",
+  "checks": [
+    {
+      "gate": "ADE",
+      "recording": "biwi_hotel",
+      "weighting": "target-window",
+      "observed_gain": 0.01566762504103425,
+      "required": 0.005,
+      "passed": true
+    },
+    {
+      "gate": "FDE",
+      "recording": "biwi_hotel",
+      "weighting": "target-window",
+      "observed_regression": -0.03011169620502574,
+      "allowed": 0.0077780923658232175,
+      "passed": true
+    },
+    {
+      "gate": "ADE",
+      "recording": "biwi_hotel",
+      "weighting": "equal-person-ID",
+      "observed_gain": 0.10431761127184236,
+      "required": 0.008167937877349575,
+      "passed": true
+    },
+    {
+      "gate": "FDE",
+      "recording": "biwi_hotel",
+      "weighting": "equal-person-ID",
+      "observed_regression": -0.2417533483854597,
+      "allowed": 0.017250435223965254,
+      "passed": true
+    },
+    {
+      "gate": "ADE",
+      "recording": "crowds_zara02",
+      "weighting": "target-window",
+      "observed_gain": -0.006621160773447821,
+      "required": 0.005,
+      "passed": false
+    },
+    {
+      "gate": "FDE",
+      "recording": "crowds_zara02",
+      "weighting": "target-window",
+      "observed_regression": 0.032126933193403984,
+      "allowed": 0.006186194098942602,
+      "passed": false
+    },
+    {
+      "gate": "ADE",
+      "recording": "crowds_zara02",
+      "weighting": "equal-person-ID",
+      "observed_gain": -0.029374681365482325,
+      "required": 0.005,
+      "passed": false
+    },
+    {
+      "gate": "FDE",
+      "recording": "crowds_zara02",
+      "weighting": "equal-person-ID",
+      "observed_regression": 0.08574874810611899,
+      "allowed": 0.007429024764479968,
+      "passed": false
+    },
+    {
+      "gate": "HOTEL_normal_speed_bias",
+      "Uniform_absolute_bias_mps": 0.26740836179211,
+      "Stratified_absolute_bias_mps": 0.1869062456387646,
+      "required_ratio": 0.9,
+      "passed": true
+    },
+    {
+      "gate": "stationary_FDE",
+      "recording": "biwi_hotel",
+      "weighting": "target-window",
+      "observed_regression": 0.08832446011310477,
+      "allowed": 0.010383460475659034,
+      "passed": false
+    },
+    {
+      "gate": "stationary_FDE",
+      "recording": "biwi_hotel",
+      "weighting": "equal-person-ID",
+      "observed_regression": 0.09490021945433236,
+      "allowed": 0.010264258121684118,
+      "passed": false
+    },
+    {
+      "gate": "stationary_FDE",
+      "recording": "crowds_zara02",
+      "weighting": "target-window",
+      "observed_regression": 0.010882899137004742,
+      "allowed": 0.01585736569376672,
+      "passed": true
+    },
+    {
+      "gate": "stationary_FDE",
+      "recording": "crowds_zara02",
+      "weighting": "equal-person-ID",
+      "observed_regression": 0.008581632027777841,
+      "allowed": 0.028306536916117044,
+      "passed": true
+    },
+    {
+      "gate": "integrity",
+      "passed": true
+    }
+  ],
+  "extra_training_authorized": false,
+  "confirmation_experiment": false
+}

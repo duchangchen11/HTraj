@@ -1,0 +1,93 @@
+{
+  "ETH_evaluated": false,
+  "additional_seed_or_epoch_runs": 0,
+  "all_pairing_and_budget_checks_passed": true,
+  "automatic_push": false,
+  "configuration_sha256": "27762097318e8414d015659ae952480a79a2697eb18581e7aed5bddb12998cf1",
+  "current_hypothesis_continue_gate": false,
+  "elapsed_seconds": 37.226047744974494,
+  "epochs_each": 30,
+  "final_commit": "Containing Git delivery commit; training commit is separately recorded above. No circular self-SHA.",
+  "full_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 375
+  },
+  "historical_SHA_failures": [],
+  "historical_files_checked": 9868,
+  "manifest_SHA": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "new_formal_runs": 4,
+  "prior_source_protocol_results_checkpoints_unchanged": true,
+  "raw_non_ETH_SHA": {
+    "data/raw/eth_ucy/biwi_hotel.txt": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf",
+    "data/raw/eth_ucy/crowds_zara01.txt": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85",
+    "data/raw/eth_ucy/crowds_zara02.txt": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff",
+    "data/raw/eth_ucy/students001.txt": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b",
+    "data/raw/eth_ucy/students003.txt": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+  },
+  "runs": [
+    {
+      "best_epoch": 2,
+      "checkpoint_restore_checks": 5,
+      "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+      "condition": "Uniform",
+      "epochs": 30,
+      "last_epoch": 30,
+      "optimizer_steps": 6390,
+      "recording": "biwi_hotel",
+      "seed": 17,
+      "source_sha_verified_against_training_commit": true,
+      "target_visits": 814350
+    },
+    {
+      "best_epoch": 3,
+      "checkpoint_restore_checks": 5,
+      "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+      "condition": "Stratified",
+      "epochs": 30,
+      "last_epoch": 30,
+      "optimizer_steps": 6390,
+      "recording": "biwi_hotel",
+      "seed": 17,
+      "source_sha_verified_against_training_commit": true,
+      "target_visits": 814350
+    },
+    {
+      "best_epoch": 30,
+      "checkpoint_restore_checks": 5,
+      "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+      "condition": "Uniform",
+      "epochs": 30,
+      "last_epoch": 30,
+      "optimizer_steps": 5520,
+      "recording": "crowds_zara02",
+      "seed": 17,
+      "source_sha_verified_against_training_commit": true,
+      "target_visits": 706350
+    },
+    {
+      "best_epoch": 27,
+      "checkpoint_restore_checks": 5,
+      "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+      "condition": "Stratified",
+      "epochs": 30,
+      "last_epoch": 30,
+      "optimizer_steps": 5520,
+      "recording": "crowds_zara02",
+      "seed": 17,
+      "source_sha_verified_against_training_commit": true,
+      "target_visits": 706350
+    }
+  ],
+  "verified_checkpoint_files": 23
+}

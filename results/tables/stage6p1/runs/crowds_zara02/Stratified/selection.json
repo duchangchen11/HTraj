@@ -1,0 +1,60 @@
+{
+  "actual_run_wall_seconds": 687.1524532570038,
+  "best": {
+    "K1_prior_ADE_m": 0.2872467819143312,
+    "K1_prior_FDE_m": 0.6507463430876642,
+    "bytes": 21895968,
+    "epoch": 27,
+    "path": "experiments/stage6p1/checkpoints/crowds_zara02/Stratified/best_epoch027.pth",
+    "sha256": "1193be6b5a80e1d69565a423d83ea3e1b97d0ed19f9be85e70d6dfd092087493"
+  },
+  "best_at_budget_boundary": false,
+  "best_train_K1": {
+    "train_K1_prior_ADE_m": 0.4882497480857851,
+    "train_K1_prior_FDE_m": 1.0750021988987593
+  },
+  "best_validation": {
+    "K1_prior_ADE_m": 0.2872467819143312,
+    "K1_prior_FDE_m": 0.6507463430876642,
+    "K1_sample_ADE_m": 0.43424816926490967,
+    "K1_sample_FDE_m": 0.9819754522401266,
+    "minADE20_m": 0.15611911923095803,
+    "minFDE20_m": 0.29354466738617696,
+    "people": 35,
+    "posterior_kl": 0.009796972891431806,
+    "posterior_loss": 0.015561503020452928,
+    "posterior_rec": 0.005764529965272098,
+    "target_windows": 1092,
+    "windows": 172
+  },
+  "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+  "completed_epochs": 30,
+  "condition": "Stratified",
+  "initial_parameter_state": {
+    "parameter_L2": 55.61193547353812,
+    "parameter_count": 2144002,
+    "parameter_max_abs": 0.70648592710495,
+    "parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "parameters_finite": true
+  },
+  "last": {
+    "K1_prior_ADE_m": 0.30028757264056405,
+    "K1_prior_FDE_m": 0.6749563232326928,
+    "bytes": 21895968,
+    "epoch": 30,
+    "path": "experiments/stage6p1/checkpoints/crowds_zara02/Stratified/epoch030.pth",
+    "sha256": "6a9c3a6bf0d3b1e8a42030339c1a27ecfeab51fcac31d9dc948c437988d2ee08"
+  },
+  "selected_best_restore": {
+    "deterministic_prediction_max_difference_m": 0.0,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  "selection_rule": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "total_optimizer_steps": 5520,
+  "total_target_visits": 706350,
+  "training_completed": true,
+  "training_targets_per_epoch": 23545
+}

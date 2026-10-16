@@ -1,0 +1,5 @@
+category,pool_targets,visits,unique_targets,repeated_visits,repeated_target_ID_windows,coverage,sampled_fraction,epoch,total_visits,order_sha256,actual_full_order_consumed,cumulative_unique_total,cumulative_coverage_total
+stationary,4644,4644,4644,0,0,1.0,0.17108123042917664,4,27145,bcf7fbe0a189ac365c04b95cd1b4aaabd220ca65238909d8bde0a792e545ab32,True,27145,1.0
+low,6130,6130,6130,0,0,1.0,0.22582427703076072,4,27145,bcf7fbe0a189ac365c04b95cd1b4aaabd220ca65238909d8bde0a792e545ab32,True,27145,1.0
+normal,16341,16341,16341,0,0,1.0,0.6019893166328975,4,27145,bcf7fbe0a189ac365c04b95cd1b4aaabd220ca65238909d8bde0a792e545ab32,True,27145,1.0
+fast,30,30,30,0,0,1.0,0.0011051759071652237,4,27145,bcf7fbe0a189ac365c04b95cd1b4aaabd220ca65238909d8bde0a792e545ab32,True,27145,1.0

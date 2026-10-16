@@ -1,0 +1,11 @@
+recording,epoch,train_loss_abs_difference,validation_K1_ADE_abs_difference_m,validation_K1_FDE_abs_difference_m,purpose
+biwi_hotel,1,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+biwi_hotel,2,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+biwi_hotel,3,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+biwi_hotel,4,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+biwi_hotel,5,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+crowds_zara02,1,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+crowds_zara02,2,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+crowds_zara02,3,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+crowds_zara02,4,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30
+crowds_zara02,5,0.0,0.0,0.0,Reproducibility diagnostic only; old100 does not replace new30

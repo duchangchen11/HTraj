@@ -1,0 +1,4187 @@
+{
+  "files": [
+    {
+      "bytes": 1851251,
+      "path": "configs/stage6p1/protected_artifacts.json",
+      "sha256": "447710ee805bfd4ad048a92b106ebd9759ac28d3e87bffb8e02c461617db9ad8"
+    },
+    {
+      "bytes": 5314,
+      "path": "configs/stage6p1/protocol.json",
+      "sha256": "27762097318e8414d015659ae952480a79a2697eb18581e7aed5bddb12998cf1"
+    },
+    {
+      "bytes": 15,
+      "path": "experiments/stage6p1/.gitignore",
+      "sha256": "c65888d3b07b8b9d39432bf5fb184d2790da43488054f870ad08026a40d73be6"
+    },
+    {
+      "bytes": 3023,
+      "path": "experiments/stage6p1/analysis_stdout.txt",
+      "sha256": "323c31bf0c123f946495d2851cfd9e11c900d65f47dd0b7fa546b9f318cbff6e"
+    },
+    {
+      "bytes": 139,
+      "path": "experiments/stage6p1/delivery_verification_stdout.txt",
+      "sha256": "fbdde783696b24889bba9a1a58be095cbdd9ebfdcf2012e76d3e1bc202330f00"
+    },
+    {
+      "bytes": 84,
+      "path": "experiments/stage6p1/exposure_summary_stdout.txt",
+      "sha256": "e30c920e969603e7061a517a28b57377dab09eadee5d958b2dc9ac71105006e4"
+    },
+    {
+      "bytes": 83,
+      "path": "experiments/stage6p1/interpretation_stdout.txt",
+      "sha256": "7e09c966bb297e8ed992233ff8f2e5547126080ad71ba6d092b5101848f56760"
+    },
+    {
+      "bytes": 0,
+      "path": "experiments/stage6p1/monitor_stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 101,
+      "path": "experiments/stage6p1/prepare_stdout.txt",
+      "sha256": "c9f1773be0339c106d86c5bc2e02e0fa8e3dbbd2684afb827c00a6f54fd80bf3"
+    },
+    {
+      "bytes": 71,
+      "path": "experiments/stage6p1/report_stdout.txt",
+      "sha256": "db3435574aae7211771c19ce0d28d5fa07c0549c1cc42d3c9c1c4757985537c6"
+    },
+    {
+      "bytes": 1205,
+      "path": "experiments/stage6p1/scheduler_stdout.txt",
+      "sha256": "c1cd584e43beea59805614cc4cc3554dbc9d9715629dd79f218f9d320e2cc482"
+    },
+    {
+      "bytes": 4380,
+      "path": "reports/stage6p1/01_FROZEN_PROTOCOL.md",
+      "sha256": "6c4add11c4873f6fde2ec1a71d981a14d48bbf7bd650b4899434991374df67a0"
+    },
+    {
+      "bytes": 2471,
+      "path": "reports/stage6p1/02_SAMPLING_DISTRIBUTION.md",
+      "sha256": "1d66bb93382d6f4a522a88da837b416cad39d2989c5e7e7abfe60a7347da15be"
+    },
+    {
+      "bytes": 9722,
+      "path": "reports/stage6p1/03_TRAINING_RESULTS.md",
+      "sha256": "74cec7543e340e0b3f45c2474fbbb51a25d983d7d9d28fd29c99aaf09b9f4194"
+    },
+    {
+      "bytes": 14158,
+      "path": "reports/stage6p1/04_MOTION_ERROR_ANALYSIS.md",
+      "sha256": "caa07c859d39b8be6d03c35f5d55d4177cde79468af875a9cb2f39719595be16"
+    },
+    {
+      "bytes": 2664,
+      "path": "reports/stage6p1/05_PAIRED_COMPARISON.md",
+      "sha256": "d77a65c4e80f144cb9c37af6f4588c0d7e5d2762444c8000adfd07255424f68b"
+    },
+    {
+      "bytes": 3595,
+      "path": "reports/stage6p1/06_RESEARCH_DECISION.md",
+      "sha256": "33f0d391dc9c2195375f1ea4550d589166bd51139445af4ccca4c7e514be47a5"
+    },
+    {
+      "bytes": 4141,
+      "path": "reports/stage6p1/STAGE6P1_REPORT.md",
+      "sha256": "c3e96bcad87841fd6bf961c027b25db0b4175ca8f1a1668dc8445ff6f66bd4a4"
+    },
+    {
+      "bytes": 1015,
+      "path": "results/tables/stage6p1/Uniform_first5_compatibility.csv",
+      "sha256": "b5d1c6f8dfebef79051d82f118677dbb7c97a96d6c55be7dd7eb4df18679ac01"
+    },
+    {
+      "bytes": 2081,
+      "path": "results/tables/stage6p1/actual_class_sampling_summary.csv",
+      "sha256": "1ddca4e6a37ecd9cdaf16e9e071fe71cc8321dcc146b44361c3b1e4c2fb707c0"
+    },
+    {
+      "bytes": 20843,
+      "path": "results/tables/stage6p1/actual_source_person_exposure.csv.gz",
+      "sha256": "11f1a13543180aa0a7e314e87b684f180d05fe3d5c0f677ef5f5b7917710fa71"
+    },
+    {
+      "bytes": 150340,
+      "path": "results/tables/stage6p1/analysis/all_history_group_metrics.csv",
+      "sha256": "4618966a09875c6447419f02db31b04cadfd23b6bb43f1983d12cf70ff7bc327"
+    },
+    {
+      "bytes": 123437,
+      "path": "results/tables/stage6p1/analysis/all_motion_group_diagnostics.csv",
+      "sha256": "6549e6595949aea54738f4c14e309d75bcec53638b1ae02e1f5702c955b74035"
+    },
+    {
+      "bytes": 944397,
+      "path": "results/tables/stage6p1/analysis/all_target_metrics.csv.gz",
+      "sha256": "f4102f77b2f542436cedb6064ea17feca3749d223ebf1b86c7ae2d30cb65dd4c"
+    },
+    {
+      "bytes": 1667,
+      "path": "results/tables/stage6p1/analysis/budget_and_pairing_checks.json",
+      "sha256": "7ca8aa204a8cfb759a20fe52ccc2926e83f16942326a393f2996a5aafc4b3d90"
+    },
+    {
+      "bytes": 2267,
+      "path": "results/tables/stage6p1/analysis/checkpoint_index.csv",
+      "sha256": "bf2e80fe02c7e3f86a97a54f7bce393c81286362241e326a6d70720b57d28cec"
+    },
+    {
+      "bytes": 781,
+      "path": "results/tables/stage6p1/analysis/execution.json",
+      "sha256": "17d581813b932faf18c0684b6af06cf4d8cf7dd7905e6920df8431d1be428685"
+    },
+    {
+      "bytes": 215059,
+      "path": "results/tables/stage6p1/analysis/horizon_group_metrics.csv",
+      "sha256": "3100069a3c022fec1d17891826933604403c11ec4f8c3c52ce2eada941fc81ed"
+    },
+    {
+      "bytes": 1410328,
+      "path": "results/tables/stage6p1/analysis/motion_diagnostics.csv.gz",
+      "sha256": "aa6ecb0c4f91fa03a4079d558512e78cae2f96b709e10f35441aa18e5694b96e"
+    },
+    {
+      "bytes": 6873,
+      "path": "results/tables/stage6p1/analysis/paired_overall_metrics.csv",
+      "sha256": "8c0be89147c8a4e3819aa72601a42a1e923cbd07b06a66304499a601211164e6"
+    },
+    {
+      "bytes": 797852,
+      "path": "results/tables/stage6p1/analysis/paired_target_errors.csv.gz",
+      "sha256": "3969c24fcb27012e95add698f4ef09de6284fc7ba29538b8398d00e4478e35d5"
+    },
+    {
+      "bytes": 4517716,
+      "path": "results/tables/stage6p1/analysis/per_step_motion.csv.gz",
+      "sha256": "5481872d4a6a77551d80c39c1d5bc0fd860dcf47b5acd323689268b0af01eae4"
+    },
+    {
+      "bytes": 3023,
+      "path": "results/tables/stage6p1/analysis/research_decision.json",
+      "sha256": "a2c851ca369cbc5ee3c7a3ed191abb0e5ff08f559250e4fa92455e175696642f"
+    },
+    {
+      "bytes": 1212,
+      "path": "results/tables/stage6p1/analysis/run_summary.csv",
+      "sha256": "cf40b7eb3ca7e9c14d0ab46308bfe9cbdef8d4c0f61a32e94adba957f0fd5a8f"
+    },
+    {
+      "bytes": 1892,
+      "path": "results/tables/stage6p1/cohort_verification.json",
+      "sha256": "bed9ea2a4d935797ad8bf443d881edb6bd9fb69d6e712fefec2a4084016a0e37"
+    },
+    {
+      "bytes": 951,
+      "path": "results/tables/stage6p1/cv_metrics.json",
+      "sha256": "20dbf35f574f37544a47d1b85262ee8b91d64c97a86dbd34f2ba36d845e86016"
+    },
+    {
+      "bytes": 150575,
+      "path": "results/tables/stage6p1/cv_paired_targets.csv.gz",
+      "sha256": "835092f4b5a320e7f1dc4aff2b30e80dfe3411491502b98dda302dbe6d367559"
+    },
+    {
+      "bytes": 3259,
+      "path": "results/tables/stage6p1/delivery_verification.json",
+      "sha256": "b93b874cb36108fea73794eaa0d6cdf7f885794d74f76a5892a0cb1fc76ddd95"
+    },
+    {
+      "bytes": 144411,
+      "path": "results/tables/stage6p1/evaluation_sampling_seeds.csv.gz",
+      "sha256": "3228f44f2c0c59b8a7ea27135a9a49351c1c20135e32dcf65f58a2c18c98c72b"
+    },
+    {
+      "bytes": 582,
+      "path": "results/tables/stage6p1/full_tests.txt",
+      "sha256": "546cc9ec498c0959787c6cce583aa00b34ba26e70c4310ac3af6be7caee612f0"
+    },
+    {
+      "bytes": 48720,
+      "path": "results/tables/stage6p1/full_tests.xml",
+      "sha256": "a63aa521c9e078edb5b71aedeff08028d1cb0dfaefe00f2497cf8d7a2b2bbdcf"
+    },
+    {
+      "bytes": 1623,
+      "path": "results/tables/stage6p1/gpu_resource_samples.csv",
+      "sha256": "1002b688c973a854fa839b8632282b5c837b6d8f96c45c76fdb533fbef21d09c"
+    },
+    {
+      "bytes": 161106,
+      "path": "results/tables/stage6p1/history_features.csv.gz",
+      "sha256": "b911895977e4357a27aff817178b8a1ad7816b1d9fe376a55a8e381f30385e72"
+    },
+    {
+      "bytes": 496,
+      "path": "results/tables/stage6p1/initialization_check.json",
+      "sha256": "32b5a74860b189abccb2cb713e80bb8cf6b72e5fc2f3bdccd4ec7deed046ad2b"
+    },
+    {
+      "bytes": 325,
+      "path": "results/tables/stage6p1/interpretation_values.json",
+      "sha256": "ab5691747b9af3fdfa92e4d440efb410fa76a5212a897378febd3c4685a77c15"
+    },
+    {
+      "bytes": 180,
+      "path": "results/tables/stage6p1/policy_tests.txt",
+      "sha256": "e30687d5ba7d065ace6810ac46d0078b20ce1bad5916921665579e06e414cfd9"
+    },
+    {
+      "bytes": 2043,
+      "path": "results/tables/stage6p1/policy_tests.xml",
+      "sha256": "98540417a1a5e5be09ae837875e2f2f65a90bafd73c0a19d6e9f90fc54a4f77f"
+    },
+    {
+      "bytes": 2575411,
+      "path": "results/tables/stage6p1/pools/biwi_hotel_train.csv.gz",
+      "sha256": "a47ce322ecacec4af0009dab3c58fe9484f69d137e649ceeac23a7b07905244c"
+    },
+    {
+      "bytes": 26682,
+      "path": "results/tables/stage6p1/pools/biwi_hotel_validation.csv.gz",
+      "sha256": "fff6de7ee87b25a1a9c7590d6f210469d95a017d37e5c07a9864151283696ef1"
+    },
+    {
+      "bytes": 2224908,
+      "path": "results/tables/stage6p1/pools/crowds_zara02_train.csv.gz",
+      "sha256": "9ab08b0a20c5c1bc98bf35b7c74753e7453f649ede4d24744f0089195fa4386a"
+    },
+    {
+      "bytes": 99680,
+      "path": "results/tables/stage6p1/pools/crowds_zara02_validation.csv.gz",
+      "sha256": "c6a7359f720a87dae3d1738eefbba28443a9940faa7029c230da05d129da52ff"
+    },
+    {
+      "bytes": 592,
+      "path": "results/tables/stage6p1/pretraining_full_tests.txt",
+      "sha256": "548accdb67637e7a31500a8287594c8c9fe4050999f8fdc064f616a280fe38d0"
+    },
+    {
+      "bytes": 48720,
+      "path": "results/tables/stage6p1/pretraining_full_tests.xml",
+      "sha256": "14559bc12497654f2754c50a98e5a6230fe74b86a50436e922af4ca4c189e656"
+    },
+    {
+      "bytes": 26276,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/best_paired_targets.csv.gz",
+      "sha256": "867dcbd2bdf58d469c1eb82c64ec726ff1933fd6293c683c784e81e81c1dccd4"
+    },
+    {
+      "bytes": 1150,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/checkpoint_inventory.csv",
+      "sha256": "1c294bf7382b942f0124073304d5296f4415ad14716e16be2b9fd9999102e28e"
+    },
+    {
+      "bytes": 1661,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/checkpoint_restore_checks.json",
+      "sha256": "873c9afd33c433ae6dcce21bad367628aca9f33ac4731883e7cb28c492fb76d6"
+    },
+    {
+      "bytes": 1381,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001.json",
+      "sha256": "d022f277be14b98890c834742d96dd2eaaccdce73521a05796bebd932e9752d0"
+    },
+    {
+      "bytes": 1396,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "3bc0c99b79f30a7c8ab12875e7138403a2ab0b5f5c47f3ecd859fbb517201cc2"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001_sampling.csv",
+      "sha256": "812b40966df1dffcc1ca4ec21bd3860e9d538b5b21a12d9c1449e4bd069b62b8"
+    },
+    {
+      "bytes": 12996,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001_steps.csv.gz",
+      "sha256": "6fa222cc2a03f4e4979fa1d76a327931af474ff8d2558a9378ef83e4cbc7a9c1"
+    },
+    {
+      "bytes": 69832,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001_target_visits.csv.gz",
+      "sha256": "6b0441f749abfe83e6b21d251cea441854041a333888c051b6facf5e1c037de7"
+    },
+    {
+      "bytes": 26241,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch001_targets.csv.gz",
+      "sha256": "4824fbd76b8e6ed6a861dc913140a5d02ef2c0e8cd84bf39eb536ba453254fcc"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002.json",
+      "sha256": "f2b8d48a5713e73bf7f58becf42c451715f6d73a3a048edf4d5aeff8ef6f6c74"
+    },
+    {
+      "bytes": 1386,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "8ffcb74b55583a6f1176e9ea72344f3934395803479cddfecc4ead9ad4431ee8"
+    },
+    {
+      "bytes": 892,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002_sampling.csv",
+      "sha256": "0db772f4ff04b333831ba75508adbf10c2ef8b6b5397eaf2077b03ee62d26e2c"
+    },
+    {
+      "bytes": 12944,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002_steps.csv.gz",
+      "sha256": "4a9a85b7a50ecc554123ae7015a2a2e3ee8eed3764613b9e1c7013bdfeaa0f63"
+    },
+    {
+      "bytes": 77346,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002_target_visits.csv.gz",
+      "sha256": "485fb0e1ff514811d779096f79f7e6d42c651a89771f98924a2dd670fec54aac"
+    },
+    {
+      "bytes": 26234,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch002_targets.csv.gz",
+      "sha256": "ca3b29c5500df5ba505c3ed27ef7eb084b389b7799bd26ed610911366465b089"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003.json",
+      "sha256": "577f54e852b1ea15e95550aa7decd615c4e69b8d3fcbbdbee7ea4be067530219"
+    },
+    {
+      "bytes": 1383,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "538d5a80c2f62bae2bf78cfce8a8625f6c8c78d160d9467cba6bdcec54a0b2d4"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003_sampling.csv",
+      "sha256": "7e9481aa6809b5512061091442476e588c2f5cdb5862609552e57cb6db37ccc0"
+    },
+    {
+      "bytes": 12881,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003_steps.csv.gz",
+      "sha256": "52b9da390365dd961e07305110de09af709d19b16d39fd595ee1472ef0342bed"
+    },
+    {
+      "bytes": 80542,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003_target_visits.csv.gz",
+      "sha256": "baacf45bb496dcb001f7841fba326270f89aac93d006612219b9b8f6ac4bde66"
+    },
+    {
+      "bytes": 26273,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch003_targets.csv.gz",
+      "sha256": "b6742b7a932e6dad49f507fa003601662f56bd73676246a23fabbbd56a99aec0"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004.json",
+      "sha256": "788264ff66bd2d5cc4d51b074c9de0592b2cf069954a09e93f9383d6837b1091"
+    },
+    {
+      "bytes": 1379,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "1414ca9b35ffe6a688aa3df16211a4a299f0d434db488b29f091c375f55c48ab"
+    },
+    {
+      "bytes": 897,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004_sampling.csv",
+      "sha256": "4cd64bcaeac6482d988eb272269ff36b3385f7c0b625106ebc1f7d74d2f53320"
+    },
+    {
+      "bytes": 12819,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004_steps.csv.gz",
+      "sha256": "db7fc42b4bf2a90aff3b78806ed524abac8643b362fb272f83b2a8df912fb4cc"
+    },
+    {
+      "bytes": 82566,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004_target_visits.csv.gz",
+      "sha256": "acd2b5cf1c6f835734667616ba28ab85a5dd042ffe46fc52b8c98c3b280d1901"
+    },
+    {
+      "bytes": 26313,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch004_targets.csv.gz",
+      "sha256": "1e5fdeb175517d1afb6a198af94f89bc87997772e2fd260be5f20cebbb1fe7b2"
+    },
+    {
+      "bytes": 1387,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005.json",
+      "sha256": "b447735faabf9d0873faf5c7bb8aa41d7c65e5e63b6e38ea97a611db452b5691"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "976074895645cbd188508378b7aed5dbe1849a23986d24ce3051494365cc3702"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005_sampling.csv",
+      "sha256": "325a17ceef117bac38e0f8cbbe6427c8859ddd0e5bf53e2b0edef4741150b6da"
+    },
+    {
+      "bytes": 12863,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005_steps.csv.gz",
+      "sha256": "b643c1bd01039f79a0aec20d0b211675778eb640765070f78fcc8470f53f4a39"
+    },
+    {
+      "bytes": 83857,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005_target_visits.csv.gz",
+      "sha256": "cfaeda5c6aca47e842871ad412a892a57c1cef384bf5fffa3ba7530a9659651e"
+    },
+    {
+      "bytes": 26340,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch005_targets.csv.gz",
+      "sha256": "fcb5ccdd6b089a1d33bc5de643c1e67d4a04fc5631697fa94806bdfc9cb2ba1c"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006.json",
+      "sha256": "57f878a7dc4896dbc954a2f89f295ac02d7540bb58f23d08d459ddf5e266efa3"
+    },
+    {
+      "bytes": 1373,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "63d9961c8adfc5f655662555f95e141cc2f6a478b78b47cad35ed31cf02160bd"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006_sampling.csv",
+      "sha256": "c11303d586c868cd2f9b930a481becbd79fa4e9b41862a69972384bc2250eb8b"
+    },
+    {
+      "bytes": 12835,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006_steps.csv.gz",
+      "sha256": "988a875c15639005e0597a5053054dc78b25ac379ab6701c55c4d5f1e98db805"
+    },
+    {
+      "bytes": 85071,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006_target_visits.csv.gz",
+      "sha256": "dbd93167c7f70dbb15a9297bb11a0416a5ba0d0d29964e989d209305658c0121"
+    },
+    {
+      "bytes": 26398,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch006_targets.csv.gz",
+      "sha256": "0064b9c16b315b837498a6014e7ad524cd665ad62b2f2b46b5403ffb8514a3b7"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007.json",
+      "sha256": "62e7fc08679139edccf8349ba6a199f6e708ab7e05741ac7a69da33868cd1d4b"
+    },
+    {
+      "bytes": 1372,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "b7a98d8726ffc11b99ee485b6c9f4ca354c5f1513c69fdde091ac0e3a39a4739"
+    },
+    {
+      "bytes": 895,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007_sampling.csv",
+      "sha256": "7d52a55f6697d5895d4cb075770b38f717b9ff678b2ffbc8074e773283623ca8"
+    },
+    {
+      "bytes": 12787,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007_steps.csv.gz",
+      "sha256": "35369b4789dd15f9add82ab54b7a28950f5a502f84a983e76f3509f087225011"
+    },
+    {
+      "bytes": 86013,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007_target_visits.csv.gz",
+      "sha256": "d6661b65f157024435d72f56652d63ba576eda99e41b774ba5a67c74f896e7f8"
+    },
+    {
+      "bytes": 26316,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch007_targets.csv.gz",
+      "sha256": "5856da6977ee82aeb698ff06ec1d26a33bd20145f82aa267b16310efe8268e60"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008.json",
+      "sha256": "5b490131e716fe99ca623caeaa2ea999831c98bf3b035e7abef7f0622710ceac"
+    },
+    {
+      "bytes": 1372,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "1ba36e04e2ed23338ff0a1e9e5b8ca058fe9a9945b66d51ee8882e61a4fcb121"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008_sampling.csv",
+      "sha256": "fd1bd106a68c5a4a77776d174d09e06ba8231973057218bf3219c52e969e6059"
+    },
+    {
+      "bytes": 12828,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008_steps.csv.gz",
+      "sha256": "4f8a4f9ad5967e8d374eeb0e78c34dd06c33f5f171ddab0127ce77c5dafeea08"
+    },
+    {
+      "bytes": 86774,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008_target_visits.csv.gz",
+      "sha256": "82a55cafc330d01d6f9998aa294bdfd5d33edb5318b361acc6c4d70a255c11cf"
+    },
+    {
+      "bytes": 26321,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch008_targets.csv.gz",
+      "sha256": "7be73d7a745fa0deae8866d86b35ee9f2c5913d7587bb152b11157c6d0463e85"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009.json",
+      "sha256": "230e1938a79f70cdf20b8d163278a88201b303d369e4cf196a6b2b4e54c7879a"
+    },
+    {
+      "bytes": 1374,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "72a8223f2232aa2d6d81814a400b6218566a3773a5fb07f216472134f4e2cd5f"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009_sampling.csv",
+      "sha256": "444778c2026609b115655574507fc51ef1f527f6a69f66e1a137ae7a1775d804"
+    },
+    {
+      "bytes": 12809,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009_steps.csv.gz",
+      "sha256": "08cae91f906d648bdbdf72bd79c567f64b0c3d5d81f29b2f32d71dbcedca9ed8"
+    },
+    {
+      "bytes": 87468,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009_target_visits.csv.gz",
+      "sha256": "8455d0bb887f9d9d12860f712412b3d4997eca77f1c626452342dd5e6212e017"
+    },
+    {
+      "bytes": 26266,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch009_targets.csv.gz",
+      "sha256": "036cb28d3dc6d7b9cb8e1225bc873fdc8612f2e8cf206a7807d51e3967fb3fc4"
+    },
+    {
+      "bytes": 1384,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010.json",
+      "sha256": "5a278738a890b551807b0601fc9d8d6e1137868fdc1af51b3300b4ba12cb6b8f"
+    },
+    {
+      "bytes": 1376,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "92431a38230ba4a54f182fb6d4bd6bac40fc89b5c431854bf65f9bb1b7969c19"
+    },
+    {
+      "bytes": 900,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010_sampling.csv",
+      "sha256": "cbc52094c6cce16731af99761d00fbe81b60b68ae196ea8afd8b500f9c5fc991"
+    },
+    {
+      "bytes": 12906,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010_steps.csv.gz",
+      "sha256": "f6ca9e134c0d09bc3a1df08415a23d3a34081802529b9fb044bb31c9753d7aa3"
+    },
+    {
+      "bytes": 88222,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010_target_visits.csv.gz",
+      "sha256": "2a3e79ba26476747cf8a638005d25d7f49939384583db53322cd375f47e5731b"
+    },
+    {
+      "bytes": 26302,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch010_targets.csv.gz",
+      "sha256": "681c576682535df4898b5508314a4ef5a0286425170928a9547de539ef688867"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011.json",
+      "sha256": "cb413685a7bf1b55b6d173d10b0135b34a5eacf3d1e3be95fb89a76d3a3bd44c"
+    },
+    {
+      "bytes": 1374,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "21e3cf1b960c3203b80fa9c5d8b7e9a426383447f29d8ba9ffa6f55f0d321cd1"
+    },
+    {
+      "bytes": 900,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011_sampling.csv",
+      "sha256": "7a920d123a5ef39f467b064659d3200aa662363b480a40590ee8475b86958c87"
+    },
+    {
+      "bytes": 12902,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011_steps.csv.gz",
+      "sha256": "117cac7d65b4d97493535177d757d1274fe3ac08b091a9c66cb7be5156f496d0"
+    },
+    {
+      "bytes": 88871,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011_target_visits.csv.gz",
+      "sha256": "d3b046b3079c2a749700f30bd83fddcfa04a1eedc62511a5b074b4ef2f2f455e"
+    },
+    {
+      "bytes": 26329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch011_targets.csv.gz",
+      "sha256": "e175fa7a01340d1079a50cd892ccfa9810529ad3c065eea82f8e476fb4da0ea8"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012.json",
+      "sha256": "797f511d173ea3573a07c5ebf4256def00ff59ebdbaecacad9c3439e40b6cc04"
+    },
+    {
+      "bytes": 1377,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "9d8e0e6f4db951fbe2c7a7e2b3dcd882ed25e6a84c7ad960e625c8a44d2427fc"
+    },
+    {
+      "bytes": 897,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012_sampling.csv",
+      "sha256": "9b028f7d1adc35e3872889c1b3cd95a8995eadc1876bea0322ecc0b4da2b6124"
+    },
+    {
+      "bytes": 12865,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012_steps.csv.gz",
+      "sha256": "be92f012d0918a0b00edf7e3ce71b6edd5d714a3a88ca2a51dc932f079b21a3b"
+    },
+    {
+      "bytes": 89548,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012_target_visits.csv.gz",
+      "sha256": "6f25b98449e7ea86736ef983b9091ec9715c6da3f095af3203b323871208a2c1"
+    },
+    {
+      "bytes": 26352,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch012_targets.csv.gz",
+      "sha256": "ee43f5936ab32ce93b609c9758606d45bdb59709e122ab6d53286edfd38f9d19"
+    },
+    {
+      "bytes": 1367,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013.json",
+      "sha256": "0502ba2e1fe6195b41d52cc7e4dd2f9ec106d328b1da61549795c1c5508aa035"
+    },
+    {
+      "bytes": 1376,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "512c00cb37f9e9bbca710a53dcb8dfbfd636b76be2bed8f8975142ea3a3a84b5"
+    },
+    {
+      "bytes": 900,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013_sampling.csv",
+      "sha256": "d87b7b76addb600dfe5d538803cba1233a1697ae177e933a34abda6b8c474371"
+    },
+    {
+      "bytes": 12907,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013_steps.csv.gz",
+      "sha256": "7fa6d2677617899cc9b07cf43dd852fdafe232efddfef3c6a178ecb3bf86e197"
+    },
+    {
+      "bytes": 90015,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013_target_visits.csv.gz",
+      "sha256": "0eec21d53ec8e3e2b5138344a4fb8a6562dfd0fea5da829c65072ad6a3517619"
+    },
+    {
+      "bytes": 26319,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch013_targets.csv.gz",
+      "sha256": "90567ee6ed6edda3145d03f5188cc556dcceb4bcd42921922e1a226d21c3679f"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014.json",
+      "sha256": "6e40d43c1d6eb7551aedfbaa02055e635d6a888ee254a02dd9c08b142b0c193f"
+    },
+    {
+      "bytes": 1367,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "e5329566785be7757d8b003ed5ff958fbd70d8fa0a4ed5a5b18ca895d68a8fb4"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014_sampling.csv",
+      "sha256": "730d04c92b4bfbfb063b14f070327e22820a7e748e642c15d3e9d0f59f9727f6"
+    },
+    {
+      "bytes": 12887,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014_steps.csv.gz",
+      "sha256": "6043bad7ab3ad5a98c8d5b8d540a410e7c32a11410a5919ff9bc7813b3a78846"
+    },
+    {
+      "bytes": 90345,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014_target_visits.csv.gz",
+      "sha256": "5d53ed5beb6eb058c064ac6113abe0c22e997099f50ada9638141dd3081309a6"
+    },
+    {
+      "bytes": 26234,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch014_targets.csv.gz",
+      "sha256": "bd7b4a445a5bacde3d0e5c7c6cbf0c0b440b97a58e82dc4652233d153893111b"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015.json",
+      "sha256": "76ce7756b39120bfdb57357c26b9eb999a0616dc032cd77a8de2958a383a84f2"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "d6880ab6f6ca486a58551942187405711fcf3ad28fb62e93905d95a86c5bbe06"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015_sampling.csv",
+      "sha256": "c3a22fe2bef9f0cc7d2c41cfdd2c54edbefa397650e35805e3535867b8095664"
+    },
+    {
+      "bytes": 12881,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015_steps.csv.gz",
+      "sha256": "9afa33b641bb78b045041ab04e27723f8291f37164ba61e279669555ef411b1c"
+    },
+    {
+      "bytes": 90789,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015_target_visits.csv.gz",
+      "sha256": "59afda2981bde790d176edf9927138c99a6634bb26ca50296ea038b2f38530a4"
+    },
+    {
+      "bytes": 26245,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch015_targets.csv.gz",
+      "sha256": "4d6c38ecb49b134a29e3de6200e5dbbaeb5fad83530a542847ba784d65b040cf"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016.json",
+      "sha256": "7bb3083e3d1d965cf90815cce89b1baf610df491a69c3844a48020bdb33fc7ea"
+    },
+    {
+      "bytes": 1366,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "0610a468e0a17035dc692396c5e8d51e4aa7aa0b14e1f894ab5236370febddb9"
+    },
+    {
+      "bytes": 839,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016_sampling.csv",
+      "sha256": "9a789ae8b2fe2051480ea2f41ba06015a669fd9ef7dbebf740a281b7f85cf305"
+    },
+    {
+      "bytes": 12880,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016_steps.csv.gz",
+      "sha256": "e1d3a973b8000a1599a15e607eeaf9cd3b2d5e3eecb8eb50efe7d5e469b1d4aa"
+    },
+    {
+      "bytes": 91124,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016_target_visits.csv.gz",
+      "sha256": "57550537c1a2bb8bf565a8fbc21a9180f6e9262fd50b6941f67b62b2c947a4b9"
+    },
+    {
+      "bytes": 26385,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch016_targets.csv.gz",
+      "sha256": "6cb68d3460c9f0b3f9fa95a59936a8e5a150d0b7b0c899009fe885d15b1aba7b"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017.json",
+      "sha256": "8899d2a46c108d7d502b60299b016c0ee697853e3097963f0117f45c35384c58"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "6dc43274b67a4dc22029888982a9567a641d089fc5466620f513a88f4d550e6a"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017_sampling.csv",
+      "sha256": "44c239601d2b28929ff6221dc1ae4f8474714497ffed4e2e4ae740b27100da1e"
+    },
+    {
+      "bytes": 12928,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017_steps.csv.gz",
+      "sha256": "9cf54b2b3c113e2b15e2b24ece2dbf2bea488d60ad5a8a6253d26fcbf4985091"
+    },
+    {
+      "bytes": 91292,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017_target_visits.csv.gz",
+      "sha256": "150640da01f89b1db290581ddc42442e06b66c3821bcc60cfe505886699f4541"
+    },
+    {
+      "bytes": 26367,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch017_targets.csv.gz",
+      "sha256": "bf56774aa44f4780d6b426f1200c6b195a90b9f483e13c33f8a0fc7cfbacf8b8"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018.json",
+      "sha256": "4a66dec094242eca5d1fa72e2c9be25dbdcefa869f7c5827064be54f7b9bea8e"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "1205be7200c5f7eeda23fa07e8075c57c7011cf3bc008cf13bffc08302e8044f"
+    },
+    {
+      "bytes": 838,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018_sampling.csv",
+      "sha256": "be050107f00a01c633a5794933bafffa338b0487c433d72c5abd9d616cb120cf"
+    },
+    {
+      "bytes": 12899,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018_steps.csv.gz",
+      "sha256": "617986579f2608f38b3fdef9b88963612024eeeeb263dd474fbb41f0f1d866f0"
+    },
+    {
+      "bytes": 91537,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018_target_visits.csv.gz",
+      "sha256": "bec8d7a45d2e024545d6a079a8ba9a97126877fcabf6af03dbd5472a68809497"
+    },
+    {
+      "bytes": 26271,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch018_targets.csv.gz",
+      "sha256": "6d9561f215180e3c981a82805672e2a8908939b5e9a2bf8c8aca0b7dfe017c5c"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019.json",
+      "sha256": "9c99685ba228cfd3024d64c193242643ed28f73f97159bfe1e93402d89d3bfcb"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "7ecc192452fd27606f482ae8c17eb30b0eaa3d2c7144f0b017bfbf5d77db4910"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019_sampling.csv",
+      "sha256": "89e37839c39e3d64c00ab3b41642f4b9f896b27c363514c3d654b3602ec120ba"
+    },
+    {
+      "bytes": 12871,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019_steps.csv.gz",
+      "sha256": "aeb77edf39a247c06625395f1c492028f4ec0f3703f1e2f44db6a71d0bc0eb2e"
+    },
+    {
+      "bytes": 91873,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019_target_visits.csv.gz",
+      "sha256": "bf67b1ddebc10eb3a4ca02dbb426f1409e63f086c8cae70b9a091d384f341129"
+    },
+    {
+      "bytes": 26329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch019_targets.csv.gz",
+      "sha256": "1f1b35af64fcad0f3a54f725296de9156c1b207c0889daccc05db218c98db761"
+    },
+    {
+      "bytes": 1392,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020.json",
+      "sha256": "259946d09ec9bf4ad6804e1645c88e45331da8b95aa0224181823e739458f1a5"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "1ce6922e690b33962dffe74d3f77b7b8e0240e911df75a7d0e75c6a0f4b3fe67"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020_sampling.csv",
+      "sha256": "bceaccc60a710f940d5472070aafed377e4bd8b33c4c8be0258a280e3d7b414f"
+    },
+    {
+      "bytes": 12886,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020_steps.csv.gz",
+      "sha256": "42fd99c28511ed59af6febcf762e41f9a89bcdb1a88c0a0439d867b2b4565e4d"
+    },
+    {
+      "bytes": 92200,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020_target_visits.csv.gz",
+      "sha256": "74fe7cd4a586e13fa6e39532a57103aed94e96f3fdc396c4434f424dd6a83587"
+    },
+    {
+      "bytes": 26238,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch020_targets.csv.gz",
+      "sha256": "38b9675a4c9e67a102c8f277acb3da24ac3d99fedb835affbfe29ef7f34128c7"
+    },
+    {
+      "bytes": 1362,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021.json",
+      "sha256": "10f064d3df2e5b60902f8cd39210f019f1755fde7eab1366b9591f1ec0f844e1"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "99a2b8608d61c42535700694c4a25a75000602592a9e9445f7da02e9a2b12dff"
+    },
+    {
+      "bytes": 842,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021_sampling.csv",
+      "sha256": "5609864af61f257503144b47eb58dddf4d3331960ba4f4ab4a052943fe4c73b8"
+    },
+    {
+      "bytes": 12909,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021_steps.csv.gz",
+      "sha256": "57ed4e283c90ecb6e1f996e180f61515db855c5ecd7812e65c05fbb41bd4f907"
+    },
+    {
+      "bytes": 92382,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021_target_visits.csv.gz",
+      "sha256": "e4f4e7d22ee7a1044f17978982cffe00cb2f61a2613d4edebbead20bacccd502"
+    },
+    {
+      "bytes": 26381,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch021_targets.csv.gz",
+      "sha256": "e7be893787e0226d0dbbfbacbedef1f5dd83d8d78d486f1ff02a955f218f876c"
+    },
+    {
+      "bytes": 1362,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022.json",
+      "sha256": "a5a9a3f2c1cb9966d3aff21ea53b6cb180ebdf901509f7ec3b399a664863e607"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "0f94d2191980bbef94c6f6e9375d7528f84b234c6597a4d538ae19fd04fecd2a"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022_sampling.csv",
+      "sha256": "015d4af231b6c3a2d5960a8a769525fe49764a1ce37457fc892471a9fabe90a2"
+    },
+    {
+      "bytes": 12924,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022_steps.csv.gz",
+      "sha256": "bae3fedbe0c4a020f2bd45a960d8f116cb72c56ee79b662a3af4bc3c777c8b45"
+    },
+    {
+      "bytes": 92675,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022_target_visits.csv.gz",
+      "sha256": "3cbb1c6a5b16b3c664f85b2d30b6c9c9655878224716f03743ff14ee1227970c"
+    },
+    {
+      "bytes": 26392,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch022_targets.csv.gz",
+      "sha256": "0e43be501990c73e5f7a6014ae75bb6a88e8fe7b0bef0546272f043d2055992d"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023.json",
+      "sha256": "aa6fa68b71186fe1f75a554cefde521bcaea332f6bfd1a91739edb47643be0a0"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "0eac6fc45295652d95fe84a4a7933962a761836acf2a2b8776bc973f54844ee3"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023_sampling.csv",
+      "sha256": "1450322d86dafae99bdd6fec4d65477e56902569e2bdede202efb754f32299e8"
+    },
+    {
+      "bytes": 12906,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023_steps.csv.gz",
+      "sha256": "154f57e93fd5f6b1023f1d3e73df8d8c97173244e8a14a668bb388e87f9b9c1c"
+    },
+    {
+      "bytes": 92990,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023_target_visits.csv.gz",
+      "sha256": "f4808fa1126cda419cbc7a92ca33c687713ab365bb13bdba7fb8ec267ac8adfb"
+    },
+    {
+      "bytes": 26432,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch023_targets.csv.gz",
+      "sha256": "3e14e13a8862ab2ad630604186367ad901c2e9b2e9c3c832f6393684877f8cff"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024.json",
+      "sha256": "0e8ad942ea7d927d9d46539a3d50e62bc4b44cb83f4b205394b93dcfe3ed3250"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "dc52bc9923a2c68ba0f8d46da680b57ac05f9e566745b05cbad095e245c27895"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024_sampling.csv",
+      "sha256": "94eb40de3cef7f37403e658a1787d5f7e59b01636cf0153efe5e75557defd47a"
+    },
+    {
+      "bytes": 12913,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024_steps.csv.gz",
+      "sha256": "fd14881d36d59f2309029b9c5222b6821e20e3dd6b2bb38bd57bca00e2321e55"
+    },
+    {
+      "bytes": 93359,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024_target_visits.csv.gz",
+      "sha256": "4340b1a04f3eed6b0a9079d1db36a40d080f16273ddce90c53c597baf41710c3"
+    },
+    {
+      "bytes": 26366,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch024_targets.csv.gz",
+      "sha256": "336021592a128ae3d5d40e1ba05b159dc9ab85a212e51c9ae8ee3c53c8c65ecf"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025.json",
+      "sha256": "a2708b221ebb437ff18f3551e3e74319885404605237b7dea794e723af3b30d0"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "cda2f0663d47b070095ee10e72ffe0af8a025f211353e0c29c2f7835eab15677"
+    },
+    {
+      "bytes": 842,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025_sampling.csv",
+      "sha256": "538fc9aab5ddb16c13d0412f9f55f6c35c660e340865bac8a76833b85739cd61"
+    },
+    {
+      "bytes": 12899,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025_steps.csv.gz",
+      "sha256": "7af644024e40294c0bb76ee5ec23a0cce495742ceba24cf51b66ba49ee2a027a"
+    },
+    {
+      "bytes": 93451,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025_target_visits.csv.gz",
+      "sha256": "d0e978e20e237af7097b19defee7cc4dcae4ceafb35a45ad251e363de5546827"
+    },
+    {
+      "bytes": 26397,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch025_targets.csv.gz",
+      "sha256": "42d53789a1f7c9dfa6467a789d5a7f00d0c3bb1e42de613ff779121d690050b9"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026.json",
+      "sha256": "2529bb82dc0f351b4b9493dc8843b467a98c27cb9476a94088724e4167dde07a"
+    },
+    {
+      "bytes": 1352,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "4f35a090abc86281308bed28c4ea27c4da3bcc1411dff472173edaea86ffe291"
+    },
+    {
+      "bytes": 842,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026_sampling.csv",
+      "sha256": "907c5877c548a04a82b0c14a374bc06ff9cc208b7377255b2d42ea82d7698a15"
+    },
+    {
+      "bytes": 12876,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026_steps.csv.gz",
+      "sha256": "f438280f455c494771703eb8494b120154df21ad0e42131583a18b8c856313f3"
+    },
+    {
+      "bytes": 93717,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026_target_visits.csv.gz",
+      "sha256": "1c2b3d78c0cef69e62192538b05b7f71c1aa92cf24cda0bdb712099a66c9bd54"
+    },
+    {
+      "bytes": 26353,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch026_targets.csv.gz",
+      "sha256": "42b361f48a5b238d781b610abb0768f2613e6eef9cf944d70d3c016ed3a35df6"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027.json",
+      "sha256": "e46abb3c04137f53ac0e3c48d217b0736d6f2295a7f7767a48f8147c3efda178"
+    },
+    {
+      "bytes": 1350,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "76c6e99ed4e63a21fdab234823ab9ee6024d882c117dad6e70a6e064cf618e36"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027_sampling.csv",
+      "sha256": "ce38c46fd4fdd7dd3a5bf0d934afb788f469d3ae67ababd5698812163e2a5189"
+    },
+    {
+      "bytes": 12894,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027_steps.csv.gz",
+      "sha256": "6aff02465186685c9efac556b88220e66a68da4ad48c9652cb0e33d4276c1a79"
+    },
+    {
+      "bytes": 93896,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027_target_visits.csv.gz",
+      "sha256": "085c0ff9437dd418d2bcab4275c8b4534b2e59efa74ad0ba251cf30e669ad740"
+    },
+    {
+      "bytes": 26430,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch027_targets.csv.gz",
+      "sha256": "8f025dffd20fcf73a6668f9b3ee759d46ab9eaf0db5761df5ad3d5b08b9c5730"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028.json",
+      "sha256": "668766af8b18f8219b1bc4dce2c31e5365dfef864d46bf294e6f22a3ded50c39"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "ee03ccd6392cf8229042659ab454a18b8b92010b30cdaa363b92856bdd88e58d"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028_sampling.csv",
+      "sha256": "27c2a50333150116720fccbc3f4c8ef5d9504224a9d116797cd3bbc5fdd613b1"
+    },
+    {
+      "bytes": 12913,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028_steps.csv.gz",
+      "sha256": "47cf37514a13b1e2dea2a5a6cb3e633ed813501b085068e24dbd93166e4a6995"
+    },
+    {
+      "bytes": 93958,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028_target_visits.csv.gz",
+      "sha256": "d5af8bd30f061ac0c80b16020d924b7c04fb59f79f0187f45881e593863eeeb9"
+    },
+    {
+      "bytes": 26399,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch028_targets.csv.gz",
+      "sha256": "fae2cb0e556a9b605d103b475755352c78943f08f78a28765fb681465ca9fdc6"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029.json",
+      "sha256": "daecd1c517445ffb9f628a457d32297bd174308d9fb12c02e1152340d134b375"
+    },
+    {
+      "bytes": 1352,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "3653e92e499bd1b302525c3f6ee1eb85b5b292fcf6b423f21e2f220b9f13350f"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029_sampling.csv",
+      "sha256": "41811d48761cebec9c62e06eebf87635e8c14d3821b38de108b523b151a4391d"
+    },
+    {
+      "bytes": 12895,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029_steps.csv.gz",
+      "sha256": "162d2fee5f443390ceb3436b232e573b0f5060a9967a12ecb6f4fd4868acfbb2"
+    },
+    {
+      "bytes": 94477,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029_target_visits.csv.gz",
+      "sha256": "872558c00508905cfcc62047049086902cf9c5ded9ef7b2f1222982e701f045d"
+    },
+    {
+      "bytes": 26355,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch029_targets.csv.gz",
+      "sha256": "8fe1973e1d54dad17598b14104a1c929205d625ee8f55b45c748d2b1b4f23da9"
+    },
+    {
+      "bytes": 1391,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030.json",
+      "sha256": "76ddff4569f091fbffa21e3e8ea661fbcee3cd1703c3ec165b73b7fa5eb3fd6d"
+    },
+    {
+      "bytes": 1350,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "51ba7ec2ed3045c7c08e20f483c6affc8336a1cb1da160d3f2b9d2b42380d203"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030_sampling.csv",
+      "sha256": "ba326351f34c94e30fb0547434c13b40fc43393f638b22927c1c01fba7539ff6"
+    },
+    {
+      "bytes": 12920,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030_steps.csv.gz",
+      "sha256": "f015d5e5fdb84ef936c3f0a4e7a2cfd4baf0a4a5b535afba4a490e01767f2949"
+    },
+    {
+      "bytes": 94613,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030_target_visits.csv.gz",
+      "sha256": "4f3c8f110b05a337ed250f4fadc8e31fa7a8d83ce3760673d57c72f1129a8014"
+    },
+    {
+      "bytes": 26397,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/epochs/epoch030_targets.csv.gz",
+      "sha256": "cf5c0121315a382bb3ad7f3b5807145fdfdd9e5066d33eabc51ab3b444239ca2"
+    },
+    {
+      "bytes": 13091,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/execution.txt",
+      "sha256": "f60b9d9c916712d6fcc814c7da751d52c7346b1ced4f9def0c0b58d730414f4b"
+    },
+    {
+      "bytes": 5085,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/lifetime_parameter_gradients.csv",
+      "sha256": "b1242d53c04cb59c25284b3461b3243870664d8d48aa57a104a6936fe33e8061"
+    },
+    {
+      "bytes": 2887,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/provenance.json",
+      "sha256": "c72b558156b68ea327db812aa6228be9bb4a5948bedad8e1d1855b110daab20a"
+    },
+    {
+      "bytes": 5383,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/run_config.json",
+      "sha256": "53e231169fa147f8ca46b78cf6012696ee3cdcca9795bd88fd94de100d1e2897"
+    },
+    {
+      "bytes": 19516,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/sampling_curve.csv",
+      "sha256": "394ffdbb5b5d65d03a1572ee234e4bcdc7389c7f35edfdce3f85c88537f624b3"
+    },
+    {
+      "bytes": 2197,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/selection.json",
+      "sha256": "4968728f1814ceaf1d03cce6c81220064b49d02a34d852995ec3a5cfad9402e3"
+    },
+    {
+      "bytes": 174,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/smoke_5epoch.json",
+      "sha256": "cea59661edb667d4a64fc11431fb8e37c7111ba923bbca47390229268a775612"
+    },
+    {
+      "bytes": 17392,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Stratified/training_curve.csv",
+      "sha256": "3655bfc5b98643f1051706e55514bfbab941a7a06dd0f5614be1605680653db2"
+    },
+    {
+      "bytes": 26214,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/best_paired_targets.csv.gz",
+      "sha256": "3d83b2c54a1f4f3ac3ed1c6db211b1f30f5ba125832e3c855a611a87944f8ca7"
+    },
+    {
+      "bytes": 1138,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/checkpoint_inventory.csv",
+      "sha256": "6c0da740373549cd0d5eb7028bf01c18f915752873013ab002df2b9c7b4262d0"
+    },
+    {
+      "bytes": 1661,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/checkpoint_restore_checks.json",
+      "sha256": "64d8c1b70c6a3817ba93791c69a73095add70eedd749f5238696adc3508193a1"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001.json",
+      "sha256": "23e3d27d7ecd0ac4d3c6e7130e285abfd2cbf06567278bd3b77f824b57c04674"
+    },
+    {
+      "bytes": 1377,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "2ecbb6713198f98c20da4fc8844422c66136db9835862b31bbdecc15cc852330"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001_sampling.csv",
+      "sha256": "0c82508ca159f9a3f3448dddc9579e19cbbb0c37bb81bd4a9dc599cdbdf51f84"
+    },
+    {
+      "bytes": 12970,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001_steps.csv.gz",
+      "sha256": "90b1cc8ce951dcb32fffeb32f254ab9efd2d92411b81089539626d1f7081468d"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001_target_visits.csv.gz",
+      "sha256": "e2beb9623e54d2c28cc9a89a7ce4683d652c0e2e51291ba9f5dd32b44d8b0020"
+    },
+    {
+      "bytes": 26270,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch001_targets.csv.gz",
+      "sha256": "a7802300e780261253e5d8216bfe749442c95ef5192ba433a97d5afa35b15cda"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002.json",
+      "sha256": "e4a73eba8c49060ff84532d1883fee3bd2063402f493b4bfc6b24e28d57fae63"
+    },
+    {
+      "bytes": 1375,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "4521cd16b791d2f48bc7610c3a783b240b8e33d6b92dc3c38171b6c5092a8288"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002_sampling.csv",
+      "sha256": "87b88f89f5aab6f54a2f1007a2ecedd6d54a564cf3794e18d466d0dbdd3dfb7f"
+    },
+    {
+      "bytes": 12943,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002_steps.csv.gz",
+      "sha256": "65d1d9eb8c9d4339f15572c43abe83c069be46d0d287b8c7552467bf0b29b415"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002_target_visits.csv.gz",
+      "sha256": "838644bf6eec534c4d3d702cce21e59fb1a239a38cb20c97a76c45cee364d10d"
+    },
+    {
+      "bytes": 26211,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch002_targets.csv.gz",
+      "sha256": "aba880b70203e5b3593e640bc1664219ff46bfc0d0243d45d7e6e6ea34942823"
+    },
+    {
+      "bytes": 1336,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003.json",
+      "sha256": "d7aedc0387517385be58cd8ce5ea744b498e24ee44ac20d0080d2b119ed6a20f"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "5146b921c05f4404c076af63bc31b7bc2160a4540c55f810f551471362a8fbc3"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003_sampling.csv",
+      "sha256": "3b007d197278d1944c1f923040457c124988f9b47768e30e31387f2e11fa0245"
+    },
+    {
+      "bytes": 12858,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003_steps.csv.gz",
+      "sha256": "e66f6c7466ce775a858712a04fb87bd7e646753a8dd7971f352db5a8ee6dddb8"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003_target_visits.csv.gz",
+      "sha256": "aa7ba8f58b613f9c9cdb0c383ee11603eadca7ab283b97f718f83066b0b629f2"
+    },
+    {
+      "bytes": 26267,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch003_targets.csv.gz",
+      "sha256": "98166a22b239db7c0e3cda223c2421e1873c1be3480e00419050178bbce75e36"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004.json",
+      "sha256": "a66539f1708de7c1a9f8a7ac5b607bd815c9fa52e236ea225eb023bf0c5b9c42"
+    },
+    {
+      "bytes": 1362,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "90a438315f13fdb11a80efc2b5bdabeb706c854c98500eb63fed7de5d9067a2d"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004_sampling.csv",
+      "sha256": "efbcd799611a30a4dd5496c31b79c4815dac3d4072c941fb90c00930e8e002cf"
+    },
+    {
+      "bytes": 12832,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004_steps.csv.gz",
+      "sha256": "5e7f6be76e8959affda162942346aeff117679463769d09f60e969365c61c655"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004_target_visits.csv.gz",
+      "sha256": "769e975d034c1081c6f55547e43cf8529b90b61ce9e694ba6eb435473a0bd78e"
+    },
+    {
+      "bytes": 26291,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch004_targets.csv.gz",
+      "sha256": "60802af531b5d8e7ff183e08a989a75b982203b1186217cfd6efd22070aed93c"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005.json",
+      "sha256": "e7fb4093475c6dfd46be4849bb238ff7b1b6150c21bb8658bc3b580a5f62d29e"
+    },
+    {
+      "bytes": 1367,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "d9e5eefd4f65e2ed0a9544ac8c5f4ffd6045dd4493c3ff9873e20b348ca9a2ad"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005_sampling.csv",
+      "sha256": "67fd920bb79e23e03449195025bcfec3fa60242794173bc8f7741595b141237a"
+    },
+    {
+      "bytes": 12831,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005_steps.csv.gz",
+      "sha256": "d9a54af7958cfc6737c469543a2a885d772d5d594656f2e80a57858eec2b8e27"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005_target_visits.csv.gz",
+      "sha256": "c97c48150a984a300f4dcdb4734e49a4d939ebb45c7f476d76e504daaffb0fcb"
+    },
+    {
+      "bytes": 26164,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch005_targets.csv.gz",
+      "sha256": "41557acb6e24eb6320286e9f5dbddacff999052649a6615da7cbd9cc32f132a5"
+    },
+    {
+      "bytes": 1337,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006.json",
+      "sha256": "5531803b7081e8b94efdbaaa1204755e5de5d38698910d080b12f69f850ad2d6"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "0fdbf02c31d4856ccd389044c623d8e75c398bfa58bffff7993bf7bb6ca88fe4"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006_sampling.csv",
+      "sha256": "bff915d70ffb593152cc902311c92a0d6685a0eafb72b59dac8cd3d226091bb9"
+    },
+    {
+      "bytes": 12797,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006_steps.csv.gz",
+      "sha256": "d2b3926a0723dcf35c8e0b1e414827938216c9ef31a660414d42bf69e9acee64"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006_target_visits.csv.gz",
+      "sha256": "6361ca7a0f9b2413c2abb9040eea92e84682819bf4117eb661b531e5876c6a18"
+    },
+    {
+      "bytes": 26316,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch006_targets.csv.gz",
+      "sha256": "fbf62bd016dbbb50a69d53099f0471856cbe4865c682c0ee693b9cfed4698a57"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007.json",
+      "sha256": "4bc7af17e6a772c41bae3b4fe7a202bd11fdc4d9878b98754fde4f4377a37bbe"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "ec4befdb3b1e5086585b8c074702a368755a0a32717236cc507646cfcc828317"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007_sampling.csv",
+      "sha256": "561709407811ad2baf6389c7399c32e1b51f288fbf7b5225591dfa8fb36328fe"
+    },
+    {
+      "bytes": 12827,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007_steps.csv.gz",
+      "sha256": "8799059da3e5fdfe2f02b2ece11e37e4f7605366337dbebb152f6a150ef01ad8"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007_target_visits.csv.gz",
+      "sha256": "b7d137efa1db949f82dfc53353af9d5b3a7fddf90c5ab250420a4369089f79f8"
+    },
+    {
+      "bytes": 26206,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch007_targets.csv.gz",
+      "sha256": "809c01d6aded21315a51a5eebdca4d39192bffe907347253a24babfe4fff4685"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008.json",
+      "sha256": "f9731fa9d7af4d14e29efbb5d2a03091122efb6e22e4662acc54d3d28614a7d9"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "e02dcce0df13be6532083fa74cdf3ef2bffa1297c00c9298ef34f63563a8066c"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008_sampling.csv",
+      "sha256": "6d2ab278a3617b9d69775c2277a4def1f70cf5b2738486af0e58cef8fc8b72b2"
+    },
+    {
+      "bytes": 12862,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008_steps.csv.gz",
+      "sha256": "8a993a17e6c58893ce1a1351ef571b4f8237362ad190913678491ce5db916d12"
+    },
+    {
+      "bytes": 61805,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008_target_visits.csv.gz",
+      "sha256": "022a36b52b5fe201a878fdaffe6a6da47e543e03d982e6a06fd22b5ac23eab85"
+    },
+    {
+      "bytes": 26342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch008_targets.csv.gz",
+      "sha256": "76023e76dd7047326db5b200d9ef320e318a87004342f467414e3abf609d1677"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009.json",
+      "sha256": "f2077fe38b521b310ffb9d0c6211a8b66bae9ee6873fcd3fc41d428ec1706891"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "46e2036f4be84e653cc82634fa17ce1fbaaf404c211977da47b4d63b05566770"
+    },
+    {
+      "bytes": 771,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009_sampling.csv",
+      "sha256": "3bb1d5759058422654bc300fdc0f100721886756f3051b8f5835e54fa918002d"
+    },
+    {
+      "bytes": 12869,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009_steps.csv.gz",
+      "sha256": "639a6a1a7aaaff626ac79850bdaeed1bf9e281ebe466c2693b6a28f213ed5966"
+    },
+    {
+      "bytes": 61806,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009_target_visits.csv.gz",
+      "sha256": "a7ed026f50ef59f88cb55d4a01e22158733ed58b3b9ddd5e067430fccc4c8e6a"
+    },
+    {
+      "bytes": 26314,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch009_targets.csv.gz",
+      "sha256": "70efba6bf0a07635eb1133afd6985569cf63ec5fdc15a32329d025b467fc7ca4"
+    },
+    {
+      "bytes": 1370,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010.json",
+      "sha256": "c8381773323d8bdd410313109686c430043d4523b182b341dd2264bfc5ac894c"
+    },
+    {
+      "bytes": 1356,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "9492e1be2351a09167baeeea4ee6624d599998237dd24a0ec20fd7e84d8c1491"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010_sampling.csv",
+      "sha256": "513fe75e99cd5b7be16e99c1dc915c8f7e0523e36bff8bb9b7c883c170445590"
+    },
+    {
+      "bytes": 12875,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010_steps.csv.gz",
+      "sha256": "34d14ce74d47e8b4b441bed1d9c130c9eaecaa3983be4b37553ea40de8b7a6c5"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010_target_visits.csv.gz",
+      "sha256": "a99715519202b2d940d86c4f2323d2e3f021f81aaf5225cde0b58cb844b1d616"
+    },
+    {
+      "bytes": 26339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch010_targets.csv.gz",
+      "sha256": "ddeda02af4d46ea8e1eec7f903264614287ddd488ad421d3c74322fd3efa56fe"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011.json",
+      "sha256": "e0bc34a139345d3dbb45b2b226f4ace449dbb859630ff2fe3efa374065161852"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "840b2bca8b69e9c22df56ce79be82b160e48066fd8b750d80e763e82705ed9d1"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011_sampling.csv",
+      "sha256": "c6189057decf8d692d993ee6c0c9c2de9cd298469b41c039a0269d6b68cfdd9b"
+    },
+    {
+      "bytes": 12883,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011_steps.csv.gz",
+      "sha256": "7f108c59abbb425975363a80d445cc8e3e50f7c112ff49f0f9659828630881f2"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011_target_visits.csv.gz",
+      "sha256": "10a75e613b0588bdc74baf2c2daef0c00ed84a56d9c223c5bd1e7687a8ac22dd"
+    },
+    {
+      "bytes": 26391,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch011_targets.csv.gz",
+      "sha256": "4e8ee74af009ef6489231d6eb5ed330700034ffe3f0d434db4a9d07bc8d73cfe"
+    },
+    {
+      "bytes": 1337,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012.json",
+      "sha256": "b9942ffe4fcb0f96c19a372f080b1ce562b6fb1bbf2d865cead558a25863fb6d"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "a6eabf5abb11e94d43ff4b53e8344c9711fb670f15b52c06ab490f7c864e5554"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012_sampling.csv",
+      "sha256": "962dd6f25d4c72f9c53db61e79276502f79b6c86d58ae6cefbc4ea3a977ace82"
+    },
+    {
+      "bytes": 12921,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012_steps.csv.gz",
+      "sha256": "01a52f07c02ad1007245d9711206ecf525cbb75ccd89bb7e3eaad0a90a49a339"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012_target_visits.csv.gz",
+      "sha256": "27bc68e32ec90668b3f0227a8aa5941e9920be7eaa6005c16ddceab35e908d6a"
+    },
+    {
+      "bytes": 26369,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch012_targets.csv.gz",
+      "sha256": "0ad6a234ff168da643d9317267e9202a79b1f8b199d2262da1d180e35da709e0"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013.json",
+      "sha256": "e7f0a8212420ba7a8866ff81a2cbc82a90f23fe445ea191fd3e58f86a15aaed4"
+    },
+    {
+      "bytes": 1350,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "6f68ac78b31aa27729b9c5d7120e370d432e73252154d631168520d3cae0fce5"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013_sampling.csv",
+      "sha256": "31faf2dad0a15305f7c6ae35a0ded3ab7b3692a4f1590575be5606e875710c53"
+    },
+    {
+      "bytes": 12905,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013_steps.csv.gz",
+      "sha256": "a715bfb2d1d307c076f20f6a23ef79eee9fb94e5dc0297f357719e70039b0e83"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013_target_visits.csv.gz",
+      "sha256": "06c7586db9a81aa6cd294b45a6684c123cb5f666c9de83e3f215472c7e625b25"
+    },
+    {
+      "bytes": 26365,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch013_targets.csv.gz",
+      "sha256": "a9f59c3b325a9d405ad0321826c16e8a8afb43e37fb9dea7898ae5d98dc32ac0"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014.json",
+      "sha256": "9bd2c4b60caf913ea68b566a52628401ba9efcc4cc5dd835d05d77418580670c"
+    },
+    {
+      "bytes": 1348,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "21acd4d80da681c434d41df850098e6cd3f0ccef5be49f91f96bde289b18e1ad"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014_sampling.csv",
+      "sha256": "633b42dfc99d2250eae14d4636af7c9468f65e40a62c3c83e3e36299a0134902"
+    },
+    {
+      "bytes": 12867,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014_steps.csv.gz",
+      "sha256": "29f1ed5726c0cb22c073efb1ce8fa9727f4c9980e9a24455923ae9e8232bd181"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014_target_visits.csv.gz",
+      "sha256": "0392fd93adcea3f94d9434d624ae2b44655c668a56fc1856f701a59d2bf188f1"
+    },
+    {
+      "bytes": 26290,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch014_targets.csv.gz",
+      "sha256": "307cf45c961a698403315614f9e7240a5859a1816289935bcb41b5052adfb139"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015.json",
+      "sha256": "7013332450d9cad7df23819c45722cf61ccbbc84c3c662a35b31913b8560cb2c"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "117cf8f54e422043f6abeb77ba9288d12bca865d7cde54bebbbb3baaac57c327"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015_sampling.csv",
+      "sha256": "76af269385ea5c6ea2f1a7967d12ffe98cc4e653e6caea02b20b34e252c81598"
+    },
+    {
+      "bytes": 12923,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015_steps.csv.gz",
+      "sha256": "a882ddd99eac99b4a705ec472bfd10bd16706ca738d5df6274b6bb2712c37f3a"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015_target_visits.csv.gz",
+      "sha256": "25ca2e39605581e30fbbb4858121ef2bfdbe6162c8a31aee17a1019a79819366"
+    },
+    {
+      "bytes": 26354,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch015_targets.csv.gz",
+      "sha256": "2bffe8ceaf6bfd5c7dbbfedee40bd2e20cf72dd1cc8d3bc1cc87f84f9479a29b"
+    },
+    {
+      "bytes": 1343,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016.json",
+      "sha256": "e5e1d20a646168eb49312cd7691056aa47800d1ed189c6edb3f5b19b82d6ad1f"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "a95a6173e99641113238fa9b8fc19b22b1747d84129b9860c3d60fb7305df450"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016_sampling.csv",
+      "sha256": "1ea492397cff0cb23bd04911f199279e2a272f2249905491c5cf7775094918b5"
+    },
+    {
+      "bytes": 12898,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016_steps.csv.gz",
+      "sha256": "438f3af34ff399add99b0868892b64b880c3a7370c959492b3dea1e34e71b3b3"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016_target_visits.csv.gz",
+      "sha256": "6b13e35d8f1836070a37619b899e1a1a93383390cd801f8365d8afef3f808548"
+    },
+    {
+      "bytes": 26386,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch016_targets.csv.gz",
+      "sha256": "bf93d99bde0a9bae437628fe05f5c6ddcd9621c4b200a6fa7c34ebd41d5425f1"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017.json",
+      "sha256": "867c66ce32d2696e0acdfb8a8afdc90ea68d1da9faf480d6d35533db7629a01a"
+    },
+    {
+      "bytes": 1345,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "8e8ac7889375067d52cab2d79934e4c0af018cb4522f23a5b3962c9c917f71e3"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017_sampling.csv",
+      "sha256": "eba4b614f40a53f1d840ba057b275eab97660d0598e9e73849d39df9a8e60278"
+    },
+    {
+      "bytes": 12889,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017_steps.csv.gz",
+      "sha256": "b4997c3f7713cc784b2450b5f70c44fab559e9ee0660fd792c3ba6f8e06dfc47"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017_target_visits.csv.gz",
+      "sha256": "e9a3f24a0ca5b5a48ea26c9b1cce5de7f6a5ce0aaea864c911b2b8ba3671fcdb"
+    },
+    {
+      "bytes": 26349,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch017_targets.csv.gz",
+      "sha256": "7d0bcf4d41baca9599a45202dbc956b36f0196388187b1de556f4d1e7397cc74"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018.json",
+      "sha256": "e0778b9ec5531e4959eebee184284f697b99181b16633afcaf5ae195791fc280"
+    },
+    {
+      "bytes": 1343,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "359fd3d382424ac16bc2ad680d185d99f6d0279abe629379153c0b612dc2dbde"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018_sampling.csv",
+      "sha256": "f58e831f133c73e0e767204f44441f530f6551666b2a0e0000e5057e645c5a86"
+    },
+    {
+      "bytes": 12929,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018_steps.csv.gz",
+      "sha256": "f00d5a2ff48e30f8f9171b07d210b2e4bdc674be57d6123c608e3e7d7423b5ea"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018_target_visits.csv.gz",
+      "sha256": "1bf2aba70657565e8fa2a556d0c9bcd51bcb94117e79c47169ff97bd9fbc23cb"
+    },
+    {
+      "bytes": 26385,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch018_targets.csv.gz",
+      "sha256": "9bf6f7f44d62076c15df40195585539d22db3ef4574f4d868e96d469c9399794"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019.json",
+      "sha256": "92522731fd0467f95f638c0d63bfd657834784bd856a57da5a78ab6b219bc53b"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "543815a71201072f62ebf60dfae007727cffc8e4e335bbce6da6e8cbee46c213"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019_sampling.csv",
+      "sha256": "d8673237c6d257f723c9bffc126fd5fc03bcb4aa4b20c8ba7bc31a616158b4a9"
+    },
+    {
+      "bytes": 12931,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019_steps.csv.gz",
+      "sha256": "ffcd80ec24bd0c93ba5ba784393916eba42a846ef6ede4d23fd2d79de035d9cd"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019_target_visits.csv.gz",
+      "sha256": "f6fe5b3f083801107ca7e7fbf060df2c05236c599b58e1080f6fb37d7ee5f504"
+    },
+    {
+      "bytes": 26378,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch019_targets.csv.gz",
+      "sha256": "4f717f2c9d7b40f4e8da8614e57f51afcd4f56d6dda2b679c8ba4b5160963061"
+    },
+    {
+      "bytes": 1372,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020.json",
+      "sha256": "ab0886332a16a82b1704fbfa402020d14656602ef11817642deef7fe90675730"
+    },
+    {
+      "bytes": 1336,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "eb63dc2e407a6188544ba538f6cd178b08a9a335918a57e2b6c016469d19d8c7"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020_sampling.csv",
+      "sha256": "51d55d75992fe34e4d83f088e2046a909a2f65b2bce2d0b3b2fa741c56aa242e"
+    },
+    {
+      "bytes": 12928,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020_steps.csv.gz",
+      "sha256": "d496b5f9f8e51af68ac62fa51930874bb6e0e7269168bb5da49b8e55836a8e8f"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020_target_visits.csv.gz",
+      "sha256": "c8c1d14a1171779741bea35822cc5061c8c1f62b532775d170ae42c9f5afec05"
+    },
+    {
+      "bytes": 26297,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch020_targets.csv.gz",
+      "sha256": "9fb239b59dd54e5f0cee6f90f138edfea700bdb39f69af06f9536c49d1ca3de4"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021.json",
+      "sha256": "0a5f8883157c07721a434979f5ed8779698719855f6373b734a31fd2f0866c32"
+    },
+    {
+      "bytes": 1338,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "d9e69c2751c76f9a16287cb6d1a2b1b8baae82101d4678c0441dc6c7d59022d7"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021_sampling.csv",
+      "sha256": "1ed29dc6cf9c7b9bb787d51942dce5b694cfa0e60f575c0cb1c21bb09af95e27"
+    },
+    {
+      "bytes": 12894,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021_steps.csv.gz",
+      "sha256": "64e41c4cfa1bac2f902eb80261ece2d332371e3f49a0a7127a33bf1104581920"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021_target_visits.csv.gz",
+      "sha256": "f7021e9605d0d4320accd48f3a28447d95023750cb6e4910cd5379604440e1a3"
+    },
+    {
+      "bytes": 26350,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch021_targets.csv.gz",
+      "sha256": "3439ad12c18a5a7ff650c22d05de7e2d4fed9fbe7c1267d490e853d335e0ecd5"
+    },
+    {
+      "bytes": 1346,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022.json",
+      "sha256": "8ff5c0aa4be254a028cd793912c9dfeeb54f1a3122708c63d285d120c40e7be6"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "058e0f5194551f266f979eb9e1e7ed136df40a16b6b7464c6477338622d7fa53"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022_sampling.csv",
+      "sha256": "11af75b3b7da499027c2b61e2153b979b6adc807f3d0b3e0bfee64e0b30ddf90"
+    },
+    {
+      "bytes": 12881,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022_steps.csv.gz",
+      "sha256": "d46e110289f3708a9ebe377dc9fa9da8b8b61d2f274bfbabaaaecfea016e38cb"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022_target_visits.csv.gz",
+      "sha256": "bf8f9625e0785a767bc3ff4584e48dc34e6b394350f90d4a3dc09f7d58c1e979"
+    },
+    {
+      "bytes": 26300,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch022_targets.csv.gz",
+      "sha256": "7d271ef92be61ba83694572777a2f26267875f214379d147b14ac5c17e4f8acb"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023.json",
+      "sha256": "fe4b26a2a74c0920ebba1bf8613425a50958133b5e73f0bb8995c0e74d812283"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "e72091d12903cbace0636c3b6b4fc35dbe385dd2b9122f293371b058251408f9"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023_sampling.csv",
+      "sha256": "953d4793249b0aa7bc80a2b95a771f2fbb685fe221700368aacb5527d194317c"
+    },
+    {
+      "bytes": 12913,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023_steps.csv.gz",
+      "sha256": "021fd2b1a2fe9b7182f25271f60e80025d0db195c3c5d6c5898706ab71cf01d4"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023_target_visits.csv.gz",
+      "sha256": "2a3268705c870b37a8bd21abc04a5b24416b1e36857e2edec62f2ae19236fd34"
+    },
+    {
+      "bytes": 26322,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch023_targets.csv.gz",
+      "sha256": "db08b2d1320dbc04eab66ac3cc951fa99d70c11a7c4bde55e27cb4b715e919b9"
+    },
+    {
+      "bytes": 1337,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024.json",
+      "sha256": "f17a43cef98821d768725068c9a00804b63e8ab37e0a54adb2c704f8e7d95c6f"
+    },
+    {
+      "bytes": 1329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "3b634d2996924966d521c1f67b47648bf40e940bca0397e0d5f5a96ebde5ab09"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024_sampling.csv",
+      "sha256": "f6a077f571162c746836850d6d260a44085a86986569a7eb39a95572af21bccf"
+    },
+    {
+      "bytes": 12916,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024_steps.csv.gz",
+      "sha256": "8197a56c1695be184448e6e34173eae47d2aa163916c73133b7680bbb5aadd89"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024_target_visits.csv.gz",
+      "sha256": "f4f53bc16f0850142e0f2d0cd095fe56e46dc34095adca2f051ed5ab93aa8098"
+    },
+    {
+      "bytes": 26393,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch024_targets.csv.gz",
+      "sha256": "9b6c6268e7c28fdcb9ea5b96bc1215d484bc39cdfbccad24a0f26199cd6695ca"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025.json",
+      "sha256": "16e057bacaea6aa167888705c92cf506874e1941139abb5e7d31176f5a3b6b14"
+    },
+    {
+      "bytes": 1330,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "df4aadbb9b4191d09757551aa211e07b4e4decd098a12b93eee08ef4bdf020e0"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025_sampling.csv",
+      "sha256": "75a3d249676d3c7de5cf8ab84ddcb03444e9adbdfffb7fa09a8070638d5f2fa2"
+    },
+    {
+      "bytes": 12906,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025_steps.csv.gz",
+      "sha256": "b0333d0782480422a2aae6d7ef9c1e6316fa983c0e1bcefa117efe23d9e16a6f"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025_target_visits.csv.gz",
+      "sha256": "c9da570f80398b3d59009643e90b57d1c7d90479815fd921f0482af0a0a7610c"
+    },
+    {
+      "bytes": 26325,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch025_targets.csv.gz",
+      "sha256": "1455dc12a583e96012fe7e2e183878ecf5ab24bdbe4617d8553b71ea2e98ea4b"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026.json",
+      "sha256": "6becc7a5eed3d4b4d691469295215675f0820008067bb7f14455f367d1e94114"
+    },
+    {
+      "bytes": 1329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "85901205c57da5e50a9b520562c7dd1d6fdfe2c62f81a137e408df915a0ddb5b"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026_sampling.csv",
+      "sha256": "24c82aa834c8df63f3a3f5bcb63acb2c674388e73c2170200080e617ec72608d"
+    },
+    {
+      "bytes": 12888,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026_steps.csv.gz",
+      "sha256": "edf5f99410451eb3a906fd68b4b8b2e6f6a10d04bfc3e53ee299aa2141ec440e"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026_target_visits.csv.gz",
+      "sha256": "50edff5096e27213b5f0dab53fdec6616bf03c8e33544a451ce842207153b9f1"
+    },
+    {
+      "bytes": 26343,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch026_targets.csv.gz",
+      "sha256": "f6d68228e4545327e70924f3f78c251cf928fee346ee32a31cd624450f799e33"
+    },
+    {
+      "bytes": 1345,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027.json",
+      "sha256": "1ec112fb6c25dd20b9fc415f6d14b93a5138e1f4f75bfd512934fcf0bc93e377"
+    },
+    {
+      "bytes": 1329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "b97019a1e6b65cd0cae2832d738f95fb087d0d589b88fcc3d3c93f58493a379c"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027_sampling.csv",
+      "sha256": "9500280480ba1cff1d55f8eb2701994b13b27d0b706e5c4a4254dca8dbc983dc"
+    },
+    {
+      "bytes": 12922,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027_steps.csv.gz",
+      "sha256": "3ff55e87bf91f48e327e33d06310d2d9f1c998f66f8d416729483bb7179306db"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027_target_visits.csv.gz",
+      "sha256": "522fd6f9d7bdf21bfff34bb29b5b907c1a685b605f8233a295eab10f9cc72732"
+    },
+    {
+      "bytes": 26270,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch027_targets.csv.gz",
+      "sha256": "91898bb901a949c9f65833ccfd25466e449078424949dd1cd782d5b06ef2aa60"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028.json",
+      "sha256": "fc6ebba4d41bd7965aa9af657eed453afaa9dbe6696e9cbe3e3ae52dc1d73fbe"
+    },
+    {
+      "bytes": 1328,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "c8a92dab22ef7f95567a1fb176638b74cd072efa11014f2da20dfd3801f66a0a"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028_sampling.csv",
+      "sha256": "244036ce6cd108bcc91aaaba11b8bf94e662613404cd0fee43ab6e0343c97b88"
+    },
+    {
+      "bytes": 12905,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028_steps.csv.gz",
+      "sha256": "c41ae5ef281fbb2b2d1362d447304735136aa3c312ff898ebe58b0b7822a0604"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028_target_visits.csv.gz",
+      "sha256": "ce9e13bc0595f853eab9b7939e54fa256ed1e456797ed393bde3f28676b3bda7"
+    },
+    {
+      "bytes": 26323,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch028_targets.csv.gz",
+      "sha256": "de1434e3168cb0dc255fa1b27e1e747b821292ced02599e1f24b79aaca86f734"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029.json",
+      "sha256": "2503b4098fbd3b7c5fcf48581161354550dda228fe96d062e8453118c581583c"
+    },
+    {
+      "bytes": 1329,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "ec2fe0a9befddcbf2459ffabafb84229f1c9abfd8183eb1f864abaceed548cd2"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029_sampling.csv",
+      "sha256": "7659273693a60d5815fc162c53a1cb4f7a94bd11ca4924f0d164d26be128522f"
+    },
+    {
+      "bytes": 12932,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029_steps.csv.gz",
+      "sha256": "dd7f61a8c482aa49d5c19f0117a4e58ec28ff3ed91c78063f3b81882088642ef"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029_target_visits.csv.gz",
+      "sha256": "e89de19c5caf9d82e31c1accd7664637e54fd9a7d4ed4d5e0ed6345bc2f48eeb"
+    },
+    {
+      "bytes": 26397,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch029_targets.csv.gz",
+      "sha256": "f0e1d397a21b66cb0bdee05981196df1edd39c37800f723acaa95e22bdf05d11"
+    },
+    {
+      "bytes": 1370,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030.json",
+      "sha256": "33ae39f06f3c9729e8b0fb58a4f478e8249ff99656ff59e473bda69536b7e3cb"
+    },
+    {
+      "bytes": 1330,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "54bc026670d671faf3b3d8d77dcd65c254513581a966ba1291e0b684236a9d41"
+    },
+    {
+      "bytes": 775,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030_sampling.csv",
+      "sha256": "19a7ecdb5f17a0fc6e38580369f34bcb21924b4c9cf281bace07c75a8574e054"
+    },
+    {
+      "bytes": 12923,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030_steps.csv.gz",
+      "sha256": "4f77be703a17823764d3122ea52d96e783e55f3e772712d17a84c7e758cf01b6"
+    },
+    {
+      "bytes": 61975,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030_target_visits.csv.gz",
+      "sha256": "c1fc644e4d1fd517f6c0801f5af1f3f37a463fb0347a945f17b407ff12e37ee2"
+    },
+    {
+      "bytes": 26377,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/epochs/epoch030_targets.csv.gz",
+      "sha256": "81a86132b32b2480efb5f799ea54014923c8bba5cdcb7f3c6ee02aa84da6e872"
+    },
+    {
+      "bytes": 12557,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/execution.txt",
+      "sha256": "197e00402a3fc8cb2105b5bae5a42c871de989aaf18f25ab9e21ced59e5b10db"
+    },
+    {
+      "bytes": 5073,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/lifetime_parameter_gradients.csv",
+      "sha256": "d55a9fa41e8ad7d972dfb2217e985ac96ee0c87b788314935a7e21bfb875880b"
+    },
+    {
+      "bytes": 2884,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/provenance.json",
+      "sha256": "84cd48717a4e87be222803eba269cc01e367c96b7c552bb26234a01a75fd5f06"
+    },
+    {
+      "bytes": 5380,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/run_config.json",
+      "sha256": "c404d225fc62746ceaa6cd1d6941d7fbc8ee17764e0b63c1da01e2e541ae673d"
+    },
+    {
+      "bytes": 16776,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/sampling_curve.csv",
+      "sha256": "42acc336c28f67160a85ec758a7463232d7fa69c348af5a6ecf8dd479d01ed7f"
+    },
+    {
+      "bytes": 2192,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/selection.json",
+      "sha256": "5ceb0fb8f31d0b8b38abec3c81ead09244048b908039a09caf59cecc40b90853"
+    },
+    {
+      "bytes": 174,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/smoke_5epoch.json",
+      "sha256": "cea59661edb667d4a64fc11431fb8e37c7111ba923bbca47390229268a775612"
+    },
+    {
+      "bytes": 16772,
+      "path": "results/tables/stage6p1/runs/biwi_hotel/Uniform/training_curve.csv",
+      "sha256": "302472571eaa606c9b8a321d54660a433eabd00d897f7732d573d46f944e9aeb"
+    },
+    {
+      "bytes": 86505,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/best_paired_targets.csv.gz",
+      "sha256": "f10372ee38f766be7899450dde381b92934df516f406cd782e97ffcfe7e5504a"
+    },
+    {
+      "bytes": 1174,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/checkpoint_inventory.csv",
+      "sha256": "e78cf23b84d90aed5aa703a4eefb39d8b0ddc2b0276acaf50a83225b62ed8208"
+    },
+    {
+      "bytes": 1661,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/checkpoint_restore_checks.json",
+      "sha256": "230854100c75d388e536d58462aafcd742e39ee79329f999dc6f8b32ec974deb"
+    },
+    {
+      "bytes": 1380,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001.json",
+      "sha256": "02014df8453e4d852578f7688923d24a9670f60688266db6f260e89eec57e2c8"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "3e3b224ccc78bb0e140d69d58c5c5abed6ca303a2a09ef1f05b71641cd3d2335"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001_sampling.csv",
+      "sha256": "12b71cf1e55f14b4c87aba3bcc8158861da568ad4648b24ee88d7120aef5db0f"
+    },
+    {
+      "bytes": 11276,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001_steps.csv.gz",
+      "sha256": "c5957788f160a85f5ec6006be54c81a7b721a7717f9310b99791794c011c0bdf"
+    },
+    {
+      "bytes": 60565,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001_target_visits.csv.gz",
+      "sha256": "862919562453e87a77ba7875080444eef4867f6eff4d72afaf719e1b7fa670dc"
+    },
+    {
+      "bytes": 85226,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch001_targets.csv.gz",
+      "sha256": "bbe58235ab4f464afddc11cfaf859ad4fb9a8d4f470b2f06d39901f145d192fa"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002.json",
+      "sha256": "ecdd7aee8b6b2aa806861d3a110ef627a5a3459ae18490eec4db6803939bf101"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "eadaaa9cce481bb297812ddcbb4268eaa6a602bf2a6a1bd1ab1dfc5c7680c86b"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002_sampling.csv",
+      "sha256": "cae244b66816e6522003681706fe5093c6a65bb987611c394cf59d049204f8a6"
+    },
+    {
+      "bytes": 11212,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002_steps.csv.gz",
+      "sha256": "c2c97497781f29045732427abb9e1248086426508a9bf151dcffbd4171cdd1d3"
+    },
+    {
+      "bytes": 67012,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002_target_visits.csv.gz",
+      "sha256": "870aee3fa234f5867b44a8ff9545dc9822d39f8c14d4355ade7c88097e19ebed"
+    },
+    {
+      "bytes": 85949,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch002_targets.csv.gz",
+      "sha256": "b4f370129eccb3df797160244262535b0df069467be2817d041750da6187eb37"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003.json",
+      "sha256": "6450c813558c99ce6bff6b9dbc0fdfdded56f92f7ef52f3006b25076c96b0343"
+    },
+    {
+      "bytes": 1362,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "b796dd63a0862e0e239d25d893c0cf1a009f1e9c4343a1db611fdd7d4125181f"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003_sampling.csv",
+      "sha256": "159244179e5346c7373142ab62a39cdd3dff11ce700a2048fb05ee655a4ca06b"
+    },
+    {
+      "bytes": 11138,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003_steps.csv.gz",
+      "sha256": "9cf01ca6999bd028b026674a8d21782b68ada378b8b1f668888185b3aa6b609c"
+    },
+    {
+      "bytes": 69805,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003_target_visits.csv.gz",
+      "sha256": "b89fd9a97b78b1e6f8f4cb814ae70bb090e3211282cd2b9d2d8e2c1de6dc9572"
+    },
+    {
+      "bytes": 85581,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch003_targets.csv.gz",
+      "sha256": "554c7029a01893701ab39e9c728fbce83a7091a8fe7faa67ae40de1d1f0adf16"
+    },
+    {
+      "bytes": 1357,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004.json",
+      "sha256": "66ef4647fd123bfa890ad3d27d99720de0faf045321bc5fc5e3f0c01c720828c"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "4326a03c003e84a4739659f98079cf145192123c83bd7fb9aefb9cd21960eca4"
+    },
+    {
+      "bytes": 892,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004_sampling.csv",
+      "sha256": "4df720c62b8f19e5feb11748c2f18efb6c1138b1ed3e9d1a726423f986a86c5d"
+    },
+    {
+      "bytes": 11129,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004_steps.csv.gz",
+      "sha256": "1966b42ef671b5b2da944c8d654145e3ad33b84c40d90394f27ebc1196ccb436"
+    },
+    {
+      "bytes": 71518,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004_target_visits.csv.gz",
+      "sha256": "47cd210ae2800372fc9db697b5e8c49d32840e9eb6c81a75bf9517153aaeb569"
+    },
+    {
+      "bytes": 85737,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch004_targets.csv.gz",
+      "sha256": "901ec1892be2e2f561b4e2fbe61ef46f04309dcc4fdd4bd16cb23b744eae06cc"
+    },
+    {
+      "bytes": 1395,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005.json",
+      "sha256": "b383dce320f4975179a187906990a13e9ebdcf8c3e45cd2ee914c8a17b6c4706"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "6e19befb6a619c908bff7ed96ba68f1012e12021303187b6facf63344261d523"
+    },
+    {
+      "bytes": 897,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005_sampling.csv",
+      "sha256": "3e37d47b34cc216191f74a82d5de3f3f8551b48f39c2ad856cd25a2cdc412912"
+    },
+    {
+      "bytes": 11117,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005_steps.csv.gz",
+      "sha256": "ae7a3697ad9d5951516840200b15d0fbc33e42df4939c5900b85554a91c8a768"
+    },
+    {
+      "bytes": 72792,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005_target_visits.csv.gz",
+      "sha256": "a9ac2ad332fd37e36d50abff36ddab36c2af33db216df05549dd06c79e7d856d"
+    },
+    {
+      "bytes": 85851,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch005_targets.csv.gz",
+      "sha256": "2207624b42cd560ca1deef4c48c9e1c36d0e0ef45125e07e6b535034024dcc41"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006.json",
+      "sha256": "5a70728e2a700dc72b657986eb401a74af6e37228e56e68c674a517293aa7bdf"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "634a2c403851f1488da588cc3b6b2bfca52d6bab6d5dc15f81d50e98b4ee847f"
+    },
+    {
+      "bytes": 897,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006_sampling.csv",
+      "sha256": "fe4636ecec2ac43f39d112d93947ebf177f3dd9785f4546c6653c8b34b645c1b"
+    },
+    {
+      "bytes": 11100,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006_steps.csv.gz",
+      "sha256": "a0670509b4a907b89ce538143ee97873311d1a98867ac9d6b9be1fc7fcb52b27"
+    },
+    {
+      "bytes": 73874,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006_target_visits.csv.gz",
+      "sha256": "0999de5b6fe66921a4ddea84cb3ec6857c89c4fd7c28faf84377326ef0487b31"
+    },
+    {
+      "bytes": 85641,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch006_targets.csv.gz",
+      "sha256": "98129e03ef7d3d650357f1a4aed025daccc330fff388d2c76ad6d0527e28aa8f"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007.json",
+      "sha256": "c1b91cd38e2241581bbd6d4c3de9d80d74c737c607d4ee046c55f3a3de8c7f8c"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "1fab8b0bedcbeb626000de5495b8aa4ad460ac21a529defe46365465f410d483"
+    },
+    {
+      "bytes": 896,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007_sampling.csv",
+      "sha256": "23a4514b68f1210b0d431a6b03268206e4923a4bb5709860639483ed720bf62b"
+    },
+    {
+      "bytes": 11086,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007_steps.csv.gz",
+      "sha256": "00dc0202d7a22437a3e2af5832b3f0be5da647d5892826f6ce1531dfb437802d"
+    },
+    {
+      "bytes": 74480,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007_target_visits.csv.gz",
+      "sha256": "79db3689881ef698ae5348e83ad311dba5b647ce68e605100f5fd82acb982276"
+    },
+    {
+      "bytes": 85813,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch007_targets.csv.gz",
+      "sha256": "aaae26f80b6cc9ba2a19fd16890286f863f2aeb40a0309e6d671376c86bb5aaa"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008.json",
+      "sha256": "1db52f6a03c10b97bffdda0cdfaa4707b9d8c3342b6c085619bd7eb14cbc8fdf"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "6e7f33b004fa9a68c447e75d51d711b57124f4f74c51803342a3f16d48566cb5"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008_sampling.csv",
+      "sha256": "ad28ae2a3a1c304021ee609b77dd57f7b2e12caea52e23743edfec0fc1e0b464"
+    },
+    {
+      "bytes": 11137,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008_steps.csv.gz",
+      "sha256": "10b90ae4b98a6dbd428618cd8454fb0943ef4d17ecdb6b6f35936415ce4080ab"
+    },
+    {
+      "bytes": 75118,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008_target_visits.csv.gz",
+      "sha256": "63bb188d49966d5fd3c1b0c0269424b4e5519ae23acb99c427c3e5e16de04033"
+    },
+    {
+      "bytes": 85926,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch008_targets.csv.gz",
+      "sha256": "a90dab347bf7d981fae305d181fe7ad7254d62691828a536948521babae818da"
+    },
+    {
+      "bytes": 1366,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009.json",
+      "sha256": "0ffc4fc4862595a8ce9353111c66d8c5918c2b024c3f84c2c9cc33d72a174a7c"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "9bf23530e2b5e273372f910b863d1395001d7e1aac4b89ae533fb211226265e8"
+    },
+    {
+      "bytes": 898,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009_sampling.csv",
+      "sha256": "db14c445d90147bcb769cfa8fc9968ad8660fd1ea104ae4ea69f2e341c7cef40"
+    },
+    {
+      "bytes": 11113,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009_steps.csv.gz",
+      "sha256": "06bd885669b630ae17dfc0bce8f453ff45b609e535b700cecf7dfd370414a3af"
+    },
+    {
+      "bytes": 75873,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009_target_visits.csv.gz",
+      "sha256": "eab9594098fad5d2281246d6bd6d848358082d208f79a7b4f799cd2c4c29d1aa"
+    },
+    {
+      "bytes": 85845,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch009_targets.csv.gz",
+      "sha256": "4b4225217e6b5ed3baf385cf88a47d4e960e694463d08b30dda8b154f3ff7e67"
+    },
+    {
+      "bytes": 1395,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010.json",
+      "sha256": "b36354dc19ae7468f90984508c93edf25b5e93c81ad4ff02069377381b9efcd4"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "02b5a55bdc50ccca5221b3c3c0f78758e7b5f38c36f842cf75b174189ca21a1c"
+    },
+    {
+      "bytes": 899,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010_sampling.csv",
+      "sha256": "2075c727ed88d510da725aa57789f2465adeadd5e206f87c566b57d774e8aa91"
+    },
+    {
+      "bytes": 11100,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010_steps.csv.gz",
+      "sha256": "b2d1c367c29a1a28e95c0468eca02b31931b64a1b81e9c3fa853f68e0318eb0e"
+    },
+    {
+      "bytes": 76544,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010_target_visits.csv.gz",
+      "sha256": "442aa30e7d0952a11ddff7c3c003d3a8b39cfe1ebba1a0223b389f9d6aff1251"
+    },
+    {
+      "bytes": 85980,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch010_targets.csv.gz",
+      "sha256": "7c8db07c88af88d9a19d0611c2382dfd827357744eb2daa1a1ac991f28c58850"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011.json",
+      "sha256": "f9b5c7776a58a5de0db0675225b076ad53998bf2ebdbd6ff8567baf73a9daf3c"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "247cb8119b14c7587161971a1a3040b9242f9dcdf45e10dc0c21597dc4c0b452"
+    },
+    {
+      "bytes": 900,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011_sampling.csv",
+      "sha256": "ee76ecc9b667b1ccdcccb607e9ade5a44a7cc717f690b2c5189e7b713e776e50"
+    },
+    {
+      "bytes": 11180,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011_steps.csv.gz",
+      "sha256": "1696ec739ca5a48a10cb1d83dfa1622c04bf1fe79c3cb243b2af88a139b48f4c"
+    },
+    {
+      "bytes": 77281,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011_target_visits.csv.gz",
+      "sha256": "3536ef856937a92291de5452b805369c764c76fa6cd912e439b1e7243eae8bc8"
+    },
+    {
+      "bytes": 86344,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch011_targets.csv.gz",
+      "sha256": "b4dc4a9516a36146f0ac18f96fc9f1dab2b126b2eae1805d3aa2f7b8fb8f10c1"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012.json",
+      "sha256": "7e87ca2a6f770e4d16fa8704c1f95caa5e74f3f811522ff72bd617282d903edf"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "d87f2a09097f283e58a3a32148f9f3a51d0f55b2ec0ca4120fd0d73141c5def4"
+    },
+    {
+      "bytes": 900,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012_sampling.csv",
+      "sha256": "aa28b8f5129c0ef7443e16721f16f1655538af77f6171dcdf325c495ac03d9ac"
+    },
+    {
+      "bytes": 11159,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012_steps.csv.gz",
+      "sha256": "ab5a9625a63eed86ae1a1368b9c612c719ec0ddddbc6131614b69cd1ce3c811a"
+    },
+    {
+      "bytes": 77600,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012_target_visits.csv.gz",
+      "sha256": "49dab797ad958914feb1ec71f5de755baa5ca8cc7be90491a5d56189169a2733"
+    },
+    {
+      "bytes": 86301,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch012_targets.csv.gz",
+      "sha256": "de08205e45e924d3cab197ddf8e489723a9b44277e08d8aed28e321075886b2e"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013.json",
+      "sha256": "848669304a0220557c443348483fd6e4f5e0a76f6241c96796becfeb1dc77167"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "6b6a0d6ceb8fec086d30cfe6edda04b9db01adc7dbf3a767fc04a678a907ef23"
+    },
+    {
+      "bytes": 839,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013_sampling.csv",
+      "sha256": "174ab58eb5a8959b8e1da2a9030cf11dfffdaf7e299a790dc9b38f8c7e795c7e"
+    },
+    {
+      "bytes": 11204,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013_steps.csv.gz",
+      "sha256": "4d9cf1f06b7c24cedc4c03b02424d005e26caf157d8c14e75250de1edacb310f"
+    },
+    {
+      "bytes": 78002,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013_target_visits.csv.gz",
+      "sha256": "4d7c12c8cce07df30ebadca355d7b3340a853d6b571fb1a143834bcb4ca1e316"
+    },
+    {
+      "bytes": 85961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch013_targets.csv.gz",
+      "sha256": "396efa15bf71e63493d5ce25924516077e41687a030ba064ed25ac6458bc6316"
+    },
+    {
+      "bytes": 1367,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014.json",
+      "sha256": "bdb4ece101b91fa500a1a04f42ac0c6318f33bb740384575aaccc0b5160320a0"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "8e35838df07af1ebb8fc00cd4f040fee72a088266be47d56be8477093d051cea"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014_sampling.csv",
+      "sha256": "0a88b122088994343d42aac760fcbb2edd78c89e7a5bcd39104955c6897b813f"
+    },
+    {
+      "bytes": 11161,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014_steps.csv.gz",
+      "sha256": "57af40eac0280d56f1510552f532a5c6e2310401b83fac3dac6c7d35a66da117"
+    },
+    {
+      "bytes": 78376,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014_target_visits.csv.gz",
+      "sha256": "4c1eca4407d4a7f9366e51681c34a7e1394ffc50889c1f52781f0e64a8fc8366"
+    },
+    {
+      "bytes": 86183,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch014_targets.csv.gz",
+      "sha256": "8fb89c4c19b0c892f5df5619fec32cc6213f2c958bd796b688168ed0de1bf412"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015.json",
+      "sha256": "ad31c2a543d79869250e171af9348ebe7a327471380c77d7614782e7f77f09bc"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "ed18fffb82be89bfceba07123b9e4ab6704a6336fe72ea62038553c453233691"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015_sampling.csv",
+      "sha256": "af8cfb1d304726414eb49301facc97319e3f8824f47e86420519bd9ecd973486"
+    },
+    {
+      "bytes": 11150,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015_steps.csv.gz",
+      "sha256": "bb645e5be59ebb653c2e765e9d04120b81a156bc3bc5ea6c0d0416da515ae2f6"
+    },
+    {
+      "bytes": 78749,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015_target_visits.csv.gz",
+      "sha256": "839f7723d3dd834f9145005c63c1ff92076d7035c0c08d562d82c8bcb77b6dea"
+    },
+    {
+      "bytes": 86187,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch015_targets.csv.gz",
+      "sha256": "91ba95c02ba132b5ced358fc0aef306acaff4df836754906b16a36c1dc485500"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016.json",
+      "sha256": "2ff86165088e0a49140fa529133ac879f2477425abcb17123a821116625a0acd"
+    },
+    {
+      "bytes": 1345,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "c247dc3c3767e9eeacf4948e220200994866cd7ba615cd06088d6f11837823ea"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016_sampling.csv",
+      "sha256": "1c2813da630395a91d32b87639f239e1b6dd66472244f6654f2b5bfa3800a18c"
+    },
+    {
+      "bytes": 11133,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016_steps.csv.gz",
+      "sha256": "d843143aead0ad0934ed79da3a5d40519fd8cdf8bd591e5173bafec8b1bb9016"
+    },
+    {
+      "bytes": 79220,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016_target_visits.csv.gz",
+      "sha256": "c7d76f19c68eef6ff479df25bfd2fe855f4edf0bdd35eda7db13c676ae3f8f0f"
+    },
+    {
+      "bytes": 86032,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch016_targets.csv.gz",
+      "sha256": "51739bdf3750defa15140512e4a81b3572bd2afbe10fcff300a21e28831c2fc2"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017.json",
+      "sha256": "a7da7eff1d2a16228fa998299c553b938041e4ccaec34d98eee7c415667dbfc0"
+    },
+    {
+      "bytes": 1346,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "eda9deb3f5ff2e226fba84a49b05b11ca6222502f3b9471988d1eae5ea8a6384"
+    },
+    {
+      "bytes": 839,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017_sampling.csv",
+      "sha256": "256688890d9042377e63e722628ac9f1042f53ab4487a51455d0d973df0a004a"
+    },
+    {
+      "bytes": 11142,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017_steps.csv.gz",
+      "sha256": "dbf13ac4d59187177d48da1bcf144117acbb47b218bd3f65cd1724289b18112d"
+    },
+    {
+      "bytes": 79530,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017_target_visits.csv.gz",
+      "sha256": "3a03c1f3d259932cf4658f8510a19894b43e8c9177d022ac3a6128f806ee74c9"
+    },
+    {
+      "bytes": 86047,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch017_targets.csv.gz",
+      "sha256": "77fafe86152359a939bf63284674b14e8420d0a14e9230a70c8835b86e3b7bbd"
+    },
+    {
+      "bytes": 1364,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018.json",
+      "sha256": "3c1da1d8ae6e3bcd7acf96a895444c41297d2ca6b0cadefdac77afd7a33e1f0d"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "0fbd933251bab545eed568d2619c0d4bbb656eca729bea4ed0e547b13cb78a30"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018_sampling.csv",
+      "sha256": "5245ebb199590602685ad1eaea494ad8d2214789c9a223a486217fb1f3be6600"
+    },
+    {
+      "bytes": 11178,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018_steps.csv.gz",
+      "sha256": "a62654617311a28fa8231bc7f2948c0d15888ffedc09f4a529907900e77fd5f3"
+    },
+    {
+      "bytes": 79793,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018_target_visits.csv.gz",
+      "sha256": "0c3d2ca5ffa85a47225d5b59fd806d672a0acaa7cbf22554f110f8feb94ba72d"
+    },
+    {
+      "bytes": 86084,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch018_targets.csv.gz",
+      "sha256": "2cf3b1b9acbb4be314180454851bf00f0e393d7962ab85a0dcc86a4f81b5f98b"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019.json",
+      "sha256": "7f0d3b04a5ee0a5e7ed42f3b2727c3ebfa6bfe7e3b08d3102b43d8e83d6cfc2f"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "5e0c0582158ecc420c39920186a459024532b503b3aa4c68772e463357dbc5c1"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019_sampling.csv",
+      "sha256": "483ff1bc68813484188d29b48c22ae9732b9d7e2994997b7509a0b670a56bd3a"
+    },
+    {
+      "bytes": 11169,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019_steps.csv.gz",
+      "sha256": "a0d59136fd889cb5f4edf4ea80dedd19aa8a79562000abb0360ef93e01dede40"
+    },
+    {
+      "bytes": 80064,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019_target_visits.csv.gz",
+      "sha256": "e0cc27a883b04cb2aefdad2f227d2eb35729ab1fb366fed5b95f268b9d7852ab"
+    },
+    {
+      "bytes": 86284,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch019_targets.csv.gz",
+      "sha256": "fe8c5a6d67cfb000ee642f3883991bc91e6875d856f23d2d0e65f6c3fa41ffd5"
+    },
+    {
+      "bytes": 1392,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020.json",
+      "sha256": "99b0368fdc901e269ddb3c7a629b8989b31754fa589b04735d396d30814e33df"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "4def260c97cad28a1e139887191bfe103e34a91f79ec56c9a9b9fbb83c3e98ef"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020_sampling.csv",
+      "sha256": "f8c88621fe7b5ae29750907f58cd2a4b2c0a4eb4815847481db3a065b3ea4154"
+    },
+    {
+      "bytes": 11156,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020_steps.csv.gz",
+      "sha256": "1aecb683764a985ac0d2fcc871b289b7a28bf4985d7d164996a975e4df68df3e"
+    },
+    {
+      "bytes": 80150,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020_target_visits.csv.gz",
+      "sha256": "930e3f374a68e1984b28debdfbe28c27ced99c69ac236a95d53a9ac2a9db3bd3"
+    },
+    {
+      "bytes": 86375,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch020_targets.csv.gz",
+      "sha256": "7025a9d9cbd197a8405454dc34134403c9fa811ef495db1b6f3e4cccc1369acd"
+    },
+    {
+      "bytes": 1365,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021.json",
+      "sha256": "dce175e7ed1fd4f1574274be2eb1cf16ff402ca0f4ab9d3f351bcfdd1aa27024"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "b9ffcd31e640a82aec85af7e4919f8d8888adb8541d3f53e5f1fec6d93779c98"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021_sampling.csv",
+      "sha256": "3f51ef96b9542a12995e92ed00e81e30de6eb3c6142ba57ba500b263ee7a8cd1"
+    },
+    {
+      "bytes": 11172,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021_steps.csv.gz",
+      "sha256": "ce334fb25a10ad4fc07df875574fecc9a72f6f278d8a35a0bdd28d65afb966e8"
+    },
+    {
+      "bytes": 80533,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021_target_visits.csv.gz",
+      "sha256": "61d96974b9f5088812e2dc9410f79ff3d39cc0664bfc714a55c186eb78d57ed3"
+    },
+    {
+      "bytes": 86425,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch021_targets.csv.gz",
+      "sha256": "2b33d928e67f40dc6406cb72d46fdcc7cb2f58585dd6c473815d90d6597ebbb2"
+    },
+    {
+      "bytes": 1366,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022.json",
+      "sha256": "af97862b28a8c6a0eb7bacac1faff6838ecc3acbf23f366708b0c779a8ea7589"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "b28459714e775171faaac3c1b0e2a10c68c6831b0034a1a2673ee666eb92a43a"
+    },
+    {
+      "bytes": 838,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022_sampling.csv",
+      "sha256": "a49c56af073946545f9d49388f8cbeacb20af4915545c25d051b7e606187a0b1"
+    },
+    {
+      "bytes": 11214,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022_steps.csv.gz",
+      "sha256": "933e6670b6c746876425535fd0d53df64007b4fdf6b914d08878fcb94afeea6a"
+    },
+    {
+      "bytes": 80721,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022_target_visits.csv.gz",
+      "sha256": "ecc4fd29298841afba1c856bc0e6d7f54061cc70a3022a5700837e6022ed4284"
+    },
+    {
+      "bytes": 86572,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch022_targets.csv.gz",
+      "sha256": "1e671b8fb71aa6bcbea6ec5f39b87320ffe7231638ab4171519daaed0c372fd0"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023.json",
+      "sha256": "7ecc6f8f41486aeeb36db58704d8dd3f4ad24785e96229aa79990f37342d79dc"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "c33f3512d5de87035f48ae7d58ec47ee5eedd2273c1d15c902ad077fc44685dd"
+    },
+    {
+      "bytes": 839,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023_sampling.csv",
+      "sha256": "edb79061c37bd7ff5e2c28034a8d69fb30d3d21fa4261cfa243f1639e387d16c"
+    },
+    {
+      "bytes": 11196,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023_steps.csv.gz",
+      "sha256": "0a735bed11fc14bc6fdf986f6473989a222636529dde560c37545c8fdd2b3cb8"
+    },
+    {
+      "bytes": 81099,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023_target_visits.csv.gz",
+      "sha256": "cc2c809a0302eef975a105778187be15bb2aec726871f06fe9dbaba7947e3b1c"
+    },
+    {
+      "bytes": 86338,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch023_targets.csv.gz",
+      "sha256": "7467ce337023816288a6b5409186090c931f481331c9c90052f22c1f6428c32a"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024.json",
+      "sha256": "37f31cb9239619af59f71eda1ee3823c833632fc985a561c4c77ad8c4b6af905"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "931c326962e2d2afbc90094a2bfb635ac6c1a6dffb2896686b0a7f89a503a31d"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024_sampling.csv",
+      "sha256": "288061f3b289d52314983a8f5fcf02f8808d37c8ef78e2804a407aa3ff48fbe0"
+    },
+    {
+      "bytes": 11176,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024_steps.csv.gz",
+      "sha256": "0a244a7c5f2a40132e0d594eb82d0b228f27dc0dd6d09ab34986cd1e1b7ac667"
+    },
+    {
+      "bytes": 81405,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024_target_visits.csv.gz",
+      "sha256": "0f9c60ba2a0f635c616679af4376f6767a7923214701c39cc7ba40601b673b48"
+    },
+    {
+      "bytes": 86631,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch024_targets.csv.gz",
+      "sha256": "33ed2f140632f4c9b8d98a57247c6b3fe5113bf892bdf6e9065828ea6c162426"
+    },
+    {
+      "bytes": 1366,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025.json",
+      "sha256": "a3839c1452b3d804f15d7ee569a36c250f9f117bafa5a3a6cde0e26ddb430dcc"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "074cff3b4774001a8d4aad0c0fc962ecda37ee29e0ea46feb202c315de977c73"
+    },
+    {
+      "bytes": 841,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025_sampling.csv",
+      "sha256": "c598b7e1196f3010ac10ebc06b3da65a82dbdd14ae06da95995920fb86502c23"
+    },
+    {
+      "bytes": 11194,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025_steps.csv.gz",
+      "sha256": "72d76b0d6490fc2445b70505737cca33c5603f9db6678158ccfd9c8569c2aea2"
+    },
+    {
+      "bytes": 81444,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025_target_visits.csv.gz",
+      "sha256": "521173dd7759def8734e8b5693f429f5723f87d12203a08e0ed66897873b3f79"
+    },
+    {
+      "bytes": 86354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch025_targets.csv.gz",
+      "sha256": "a1f636962b9d980993e2808cd6dbe8b701e8066535fdf7bf4d091ab4f39e733d"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026.json",
+      "sha256": "412c38d58ee62a66d53c256747b4e036995e9c329694524a8c5580328c28cddf"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "9f18c8e88292ecafa027afe78fefcf89573945a28d307750b79d3307542a269d"
+    },
+    {
+      "bytes": 838,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026_sampling.csv",
+      "sha256": "a7a632c82456c8cefc65756eee57b4b95a56c8d9d5559f1d8b2984b43e219183"
+    },
+    {
+      "bytes": 11187,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026_steps.csv.gz",
+      "sha256": "9882de6d505087b80171a8651174040ec0c0ae4133ed45da08ed061a59de7353"
+    },
+    {
+      "bytes": 81739,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026_target_visits.csv.gz",
+      "sha256": "bcd92333c9d87d709af6965808c91e4ee168d5ccfc8b43c0245217a0c3a1dc32"
+    },
+    {
+      "bytes": 86747,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch026_targets.csv.gz",
+      "sha256": "1d079abb3c02f90f44cbf79c2ef850af7c623340908e2b1c56d545b8b6d93da8"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027.json",
+      "sha256": "6c8934186f0ef73ca68b706bfd080cf4704d90a59fd6819a3a0a584ed534f8be"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "c195b7d0f02e83aa725034da9964e4fe91798f61bdf1d3ccfcd17852996013e0"
+    },
+    {
+      "bytes": 842,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027_sampling.csv",
+      "sha256": "a4140a6ce3cd56894abc9d9f0c348768bfab333c4a7bc3da5d297d5b604072d3"
+    },
+    {
+      "bytes": 11211,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027_steps.csv.gz",
+      "sha256": "7e0b3d13170fecdc043e843c527ece342f5c540bc7d644ee54728b6a77518c9d"
+    },
+    {
+      "bytes": 81916,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027_target_visits.csv.gz",
+      "sha256": "964897768a6d88013419afff361798bd29c9362d96f528c2f37c93793e4811c2"
+    },
+    {
+      "bytes": 86502,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch027_targets.csv.gz",
+      "sha256": "e77c8005e8a674b8d43b3c92f8680f2da8d83496fc00ee2fc420c619f9d06d81"
+    },
+    {
+      "bytes": 1367,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028.json",
+      "sha256": "0b49205ee78103c696506964a0b142eab14649922014191529bce972d0ac238e"
+    },
+    {
+      "bytes": 1337,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "a8f817f4b5168071bd109f85a2f136167351f9b41f8748ecb5f74e5d24625791"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028_sampling.csv",
+      "sha256": "9bdb39e38a8b7f06cdf00192e4d570e05f22d75f4f9b02cb9bff6cf209b9ccba"
+    },
+    {
+      "bytes": 11223,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028_steps.csv.gz",
+      "sha256": "97fc22214fcca3b0e84df0aebad93b8c194f2b59020d3d500dc5e661dcf836f0"
+    },
+    {
+      "bytes": 82252,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028_target_visits.csv.gz",
+      "sha256": "6d295e0d338012aacf23190e59d6610969141c663e9b72e27613f06b75f93642"
+    },
+    {
+      "bytes": 86844,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch028_targets.csv.gz",
+      "sha256": "902bfead3455841939dc6569f100ae3ce4cf02f401ae0d3e4f9291de5ade9e31"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029.json",
+      "sha256": "e12b775c13b43786a9446334370b1d3feb2a1888944c89a33c639f25a4113597"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "e1e691a91f9b0b2637c407fa5a44e16bc9f35b039587d34d56e310568b8aaa24"
+    },
+    {
+      "bytes": 840,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029_sampling.csv",
+      "sha256": "842d5199659b11197359d0b6cfa05083a1186b99763475a8a7b160d1f8b5ca9f"
+    },
+    {
+      "bytes": 11196,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029_steps.csv.gz",
+      "sha256": "7404b4515add302ddddda8792da490678f44e5854a7e621d14b97cad3f4a72de"
+    },
+    {
+      "bytes": 82240,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029_target_visits.csv.gz",
+      "sha256": "703c78e6e0e784a3426f6e1992d11352d4a8ffa85d158bfa3c3018d7a460c862"
+    },
+    {
+      "bytes": 86464,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch029_targets.csv.gz",
+      "sha256": "ecb95f5d7a4944ba1ec7d44719ef2cdad2fe4e6182da1a23fe45f6c4c170bc19"
+    },
+    {
+      "bytes": 1396,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030.json",
+      "sha256": "529524b84721a6d22a53c22832fd199e2c1ea396f79b228161ecab5ee48604fc"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "00ac551c80cb998fd61599b9d06b0347203dd5fdc1b993ce6a78293cfe790015"
+    },
+    {
+      "bytes": 838,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030_sampling.csv",
+      "sha256": "82df4db0243d6e0f2ebab3d8a8b8453ef4add4fa8ac62198068f64131c3fff4b"
+    },
+    {
+      "bytes": 11196,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030_steps.csv.gz",
+      "sha256": "7c27a47f9afa79cbe2a100417ee496bb47cfb431a3672cace372d907dbb8b409"
+    },
+    {
+      "bytes": 82493,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030_target_visits.csv.gz",
+      "sha256": "9cdd51415c371c44f19cdfe78b3b3dadcbe837ae0af4101d68baea4815bb9c95"
+    },
+    {
+      "bytes": 86252,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/epochs/epoch030_targets.csv.gz",
+      "sha256": "89618188807935c67a7d2fe69a8f4904315c16a797e8c3ce7999b89a32352e4d"
+    },
+    {
+      "bytes": 13225,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/execution.txt",
+      "sha256": "6f61b26d1d354c976994baf54644698b4ceca6cc13e0f42838a29a42f07b4bb6"
+    },
+    {
+      "bytes": 5087,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/lifetime_parameter_gradients.csv",
+      "sha256": "a25b34d2e7f92c35848b74cd230a14772d016edee025a7e39fe35f4f5699087a"
+    },
+    {
+      "bytes": 2891,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/provenance.json",
+      "sha256": "a3dd74b9e54bd1db8968224d02cb0fcbf0273c37cce48e084cddf34617bc9bce"
+    },
+    {
+      "bytes": 5386,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/run_config.json",
+      "sha256": "64f00355894cc054e1be5ab2b34f23eba3037bdfa3472684ebfaa0445c816b9d"
+    },
+    {
+      "bytes": 19447,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/sampling_curve.csv",
+      "sha256": "6b600ec68ac39154cdcf89d1197077f9c42893f5ed4342f6a488c0eeea2d3b6f"
+    },
+    {
+      "bytes": 2213,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/selection.json",
+      "sha256": "4e554519763c61f3fa61a2cfd1f4d8f17d3c13dc6c9ae4c347b070d36e65377d"
+    },
+    {
+      "bytes": 173,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/smoke_5epoch.json",
+      "sha256": "cec7cee9c698f10f9c1e3fe0239265b1f9188862b19f73c2c836f099e1be112c"
+    },
+    {
+      "bytes": 17514,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Stratified/training_curve.csv",
+      "sha256": "6d2df51fe5dff979aa2a0759d96841a3bf96cd9f86ade30b226fbba36851f6dd"
+    },
+    {
+      "bytes": 86859,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/best_paired_targets.csv.gz",
+      "sha256": "3809e04e31385b61f0e700d553d276ffd10626640a15bce208117e8ed61d7979"
+    },
+    {
+      "bytes": 966,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/checkpoint_inventory.csv",
+      "sha256": "f8316f77b134a1d7cc755eff1f0e0c5b82ea0e495fc1d03bda62223d8c87501d"
+    },
+    {
+      "bytes": 1661,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/checkpoint_restore_checks.json",
+      "sha256": "d52e8c78003e6f90bacac1f5dd07d0ef3cc538ad726e4be3fd2deb3c13d8cad1"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001.json",
+      "sha256": "b935c27ca35ad390eb5ea0f4b6ccb23414c54a725ecac38ee587b08927b4e67a"
+    },
+    {
+      "bytes": 1368,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "b47d6881927afe8659cd8c48a53f3fd731a0eceeaa7ee6da713550bb0bb14f9f"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001_sampling.csv",
+      "sha256": "9ebe118bda4896f0e33dd5c1e313afeb263d2387e207bd6bc7d6a1277e6ee7e9"
+    },
+    {
+      "bytes": 11231,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001_steps.csv.gz",
+      "sha256": "30a4788b00a7cb79b869e55fc763a14d5d5c88fe6c638dfb2654af4ffcf5ff4d"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001_target_visits.csv.gz",
+      "sha256": "e0f5eed9cdd621a106d057e968978ed13c57c86690a906ac18d3629132f7842b"
+    },
+    {
+      "bytes": 85343,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch001_targets.csv.gz",
+      "sha256": "69ebf32a935f74fb70ce2d5e1691f8323c87ba8587347bdfd58627714cf0f589"
+    },
+    {
+      "bytes": 1338,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002.json",
+      "sha256": "b3c242158813d24ac1e761ea98751ba91ac22e19d153b4b4173e74d29c6193da"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "a9381287d3b6df0c838a29108c71ba6cbc8c95e924b32e9a91265c6543bc1593"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002_sampling.csv",
+      "sha256": "362e1fe8851fbb767f7cac8494e1be030f5e330b9152044a1cba7e7eddda22e1"
+    },
+    {
+      "bytes": 11218,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002_steps.csv.gz",
+      "sha256": "e16198e8fdf4ba48eb4998f5ddc46fbb40221ddad9c39402efb3fea1ef8f130a"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002_target_visits.csv.gz",
+      "sha256": "c9541b5dafc32a998acb4f268a8feee5a7141272c95ffe3a703bf21237c0bd3a"
+    },
+    {
+      "bytes": 86101,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch002_targets.csv.gz",
+      "sha256": "ee4839033d849f338a1a008e8d60a1701c87e8e47a13e85901b26e047f16f3cf"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003.json",
+      "sha256": "28e5fa7727387b772abc49d69ba2ea545ffd6fe987d2930c2da5f8da30a2520b"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "1e3dadc603b82c1a24d3efffba1deb081addc09464af0b4a4f839e6c7c084a1a"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003_sampling.csv",
+      "sha256": "c1a1038dd33ad1a5eaadba79c0adf409724c1287950820fa5dda0b587602c29f"
+    },
+    {
+      "bytes": 11149,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003_steps.csv.gz",
+      "sha256": "294a3408ba452b8ef5507131df727ced728b6881a50fe9bb724161d93518bfe4"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003_target_visits.csv.gz",
+      "sha256": "f60a21dae75afd363a086c7e54508effac7c4e28fdff39e5f73f5cda318463ba"
+    },
+    {
+      "bytes": 85796,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch003_targets.csv.gz",
+      "sha256": "b5f10e326472a72d9b672bef5801a450ace6f82d6a4fc9e1626c669bd3a75a53"
+    },
+    {
+      "bytes": 1342,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004.json",
+      "sha256": "2f3ed2a7060ee5d52c9e0da2cab650cf3abb5d9a980722b3a2b1ad71b5e9137a"
+    },
+    {
+      "bytes": 1352,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "1d58208b155aec6889f3ba4282ff7c1066933a3a08fc2b3cce656c6e05fd8473"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004_sampling.csv",
+      "sha256": "b458847912da4bdd3c6e74e5984ea1cde946e1c04bf9996299654760e9961f58"
+    },
+    {
+      "bytes": 11133,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004_steps.csv.gz",
+      "sha256": "47f26bdfc1459acdf2d1889c6b9ba7259e6bb1eb290163c1ed19b4f8b3a93e2a"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004_target_visits.csv.gz",
+      "sha256": "cb89d4cd94b7a2e8b1da84cf0e5a2eeb64e62c4ea1cec15de5c534558def923f"
+    },
+    {
+      "bytes": 85932,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch004_targets.csv.gz",
+      "sha256": "b299a7cc54aae8ccfd542b35891859e91ab65a28c16a5da404dd8edef98180e3"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005.json",
+      "sha256": "3d3da50c54f8cc42f7b27978a65967484e6f28b61d5412ca34624eb00d648030"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "7bb573974f0c1b0180f3cb3d8a77ab246405d664d1defae2f27889c300ae7f50"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005_sampling.csv",
+      "sha256": "f924d2d18c6d969c469c5c90c6cc522ec8a6d052e9d432512f6c6bffbbadac5b"
+    },
+    {
+      "bytes": 11140,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005_steps.csv.gz",
+      "sha256": "3e1d2b81ba769af1441669a5982f1b44318f4f097a92b440e3812df0e0364369"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005_target_visits.csv.gz",
+      "sha256": "76210c116fa4d4c4a8687f11671640b462134cd204da953a10219ba2712e6ce7"
+    },
+    {
+      "bytes": 86263,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch005_targets.csv.gz",
+      "sha256": "876d2fb428decb76256eddad6bfc5bc8d54a2aa9ef610da27c45b8b15efba771"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006.json",
+      "sha256": "460c7c7a9e9863ac638e426d5b246ce5489de3a85292b79d3850aa5ec59372a0"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "0ca2fce61410d80ca1b6157d3465847c48b664d651d0948d0f3ea31996434261"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006_sampling.csv",
+      "sha256": "f0af525d0bdf9597bc68dd83cdcca54eb32728f70328cb1d9ad87c916b22f8e9"
+    },
+    {
+      "bytes": 11106,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006_steps.csv.gz",
+      "sha256": "97c9f52797aa118c908844e5ceee81709cf7557a184bca9edaca2cd744156f74"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006_target_visits.csv.gz",
+      "sha256": "7302f38e950c0c9eeb93bb3f045b03a7e067c8cfeb053eeffc1567c386a3bd33"
+    },
+    {
+      "bytes": 85987,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch006_targets.csv.gz",
+      "sha256": "97652a249fc1980bbf65fbe0dcb5de777d5bdd4b7b7314f7bb2608614de730ea"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007.json",
+      "sha256": "4c9a85c7f9844d2ace0007b4a76d61d59ff3eccf701f3cba4f58d89c6b321192"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "8d4f71a549e1b34bd901b5138d9fd1a97ae2f7d84ba4397bc43eb394467d4592"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007_sampling.csv",
+      "sha256": "566df3a43712d68acaf537f599a43120537cfd9cd53482ebf0468275d3b6c25e"
+    },
+    {
+      "bytes": 11125,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007_steps.csv.gz",
+      "sha256": "ce036b7f0cebad3f39083a3548c337a7a8027bea596bf5974f0885bc64b21a1f"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007_target_visits.csv.gz",
+      "sha256": "281b5321f6e2e906fad0d126d6e321311878917f5662708607397798ad7e14fe"
+    },
+    {
+      "bytes": 85982,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch007_targets.csv.gz",
+      "sha256": "6d09eb317d989a11223f392a9747a0138c68bcb7049d44b6279a7af4cde19968"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008.json",
+      "sha256": "28e98c23b42e1850ee2d97d9d537743bffd3d0a3d7f33a885bbf9b35a720eee2"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "9f550caf436ac6c7ee24886380d698271fd31e693d0ad112bf544ace29ba328d"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008_sampling.csv",
+      "sha256": "861b88d97fd8a8bac6c161f06bd9954340a46c634b43187973edb59ebd604d09"
+    },
+    {
+      "bytes": 11101,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008_steps.csv.gz",
+      "sha256": "007a748a3f7db83e072cdefba2d129ad93329068754d30080284c228fc1b0ffe"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008_target_visits.csv.gz",
+      "sha256": "89bf8fea447891049d736c319be0886848eef11986a653494c8e2849928f8c00"
+    },
+    {
+      "bytes": 86050,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch008_targets.csv.gz",
+      "sha256": "39981349cd1c0b0789027d70e9470132d2f0a19f004ec156504e8282403d2f06"
+    },
+    {
+      "bytes": 1343,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009.json",
+      "sha256": "24a43cc033da4bc3493adedce77a7bcb29302ed73048528dbaf776d130b3d20b"
+    },
+    {
+      "bytes": 1363,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "29308414e22b3455bb61f033df7b3f88de8ab14621d1f34335d99e193e805380"
+    },
+    {
+      "bytes": 769,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009_sampling.csv",
+      "sha256": "1a20044b985ff2bc4341d28d325304399bb55ab7f8627df2052e6e3058df14ea"
+    },
+    {
+      "bytes": 11135,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009_steps.csv.gz",
+      "sha256": "373256a85b882ff8648314556aa92281c550e743a3a52babadae4bf9ad9cd22c"
+    },
+    {
+      "bytes": 53961,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009_target_visits.csv.gz",
+      "sha256": "761154b377badc46e4c40b49b041ec7ef9b912f0fbae7fffee7924851e3d44ac"
+    },
+    {
+      "bytes": 85628,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch009_targets.csv.gz",
+      "sha256": "66acc902d8e8edd0068ce7eee1fbc539ac13e8512e54e4a98027b1aaac7c0645"
+    },
+    {
+      "bytes": 1369,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010.json",
+      "sha256": "ee13908b131c418dc1be005da88c16210548f1e177fbd48d2c5125201967baba"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "c5538d63f392f7038031a3002cdc73fa5ea2c3538dc3452ef789ef46d4ab8a17"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010_sampling.csv",
+      "sha256": "fcac80483de44be521e3f29e3185a572eda8bc62a5a4cc719d8c2283e086310d"
+    },
+    {
+      "bytes": 11118,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010_steps.csv.gz",
+      "sha256": "aa1006c76a2478e9cd102a70e55f1323e20621652c0776cce403c5c7a7feac9d"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010_target_visits.csv.gz",
+      "sha256": "ce0f745618369013ac870ab8db074f5bc2124b9f4a0b45e1bc556d6e599bbf4f"
+    },
+    {
+      "bytes": 86200,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch010_targets.csv.gz",
+      "sha256": "10681cc70c61df707076573b57ae641e5bd09d781460c292f1bf2da74ffa14d5"
+    },
+    {
+      "bytes": 1348,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011.json",
+      "sha256": "0d1b5aee716a37e082b19d886ac741c515cea9d02b722bbcf3aabb7745826cf5"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "28544d700c4a2685a87264cae60286acb87982857d1c1bc908d5a708042a0e63"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011_sampling.csv",
+      "sha256": "2dbb00bcb028ac17e13fffad36e76d064d6ac512224d0eddae7e2cdca2daa6f4"
+    },
+    {
+      "bytes": 11102,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011_steps.csv.gz",
+      "sha256": "f490bbb13aeebb2d8596253879f09afbcf3e264faf10f65fd0973c4c150d768a"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011_target_visits.csv.gz",
+      "sha256": "935a82bb2b62ec27c056040d9c5fd9944685dbaee050a3f1cecd5d6f84f29c55"
+    },
+    {
+      "bytes": 85924,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch011_targets.csv.gz",
+      "sha256": "ac5dcf64f301d674d1e251d957cedf2d39bf43a944f4fc8c394556a104fd3f67"
+    },
+    {
+      "bytes": 1338,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012.json",
+      "sha256": "fd675b605d7db02daad6be7521c59247466ed775d5137a766193fdb8880345fa"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "2b83029081ca8f5e23923c0ce844a4f47a76d997a99a835703f97f6c2ddc3dae"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012_sampling.csv",
+      "sha256": "11f68ab41dea1d7383ac35e336f9363ad8c1baa48eca10520a467c72d5e2a2e5"
+    },
+    {
+      "bytes": 11117,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012_steps.csv.gz",
+      "sha256": "14cbc34b3846669da5fe7664fcc54a665bf80883f0bb79d68d4019529ecc4509"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012_target_visits.csv.gz",
+      "sha256": "0a9d8ce29549f28f141534a2638ae84c05c2d535bb2c660106fa01c81aa1f33b"
+    },
+    {
+      "bytes": 85799,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch012_targets.csv.gz",
+      "sha256": "2665cf2dc46186f78ffbf53e2d2610a044792c3ece53e846a38bcb6c6561dcb1"
+    },
+    {
+      "bytes": 1347,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013.json",
+      "sha256": "52368d12d5f20f93f3d1e937d667ab075795a127b8c492af997ba67674e05900"
+    },
+    {
+      "bytes": 1361,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "3507b8fab327712379c5c6058002f96cc08a3992ec1424667d3b86bf99b632f0"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013_sampling.csv",
+      "sha256": "62a2b3de5ea6947916fe3d1604775a47a47fd8c3ce398881844032ad027de9d1"
+    },
+    {
+      "bytes": 11166,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013_steps.csv.gz",
+      "sha256": "df06e542ed527a3e289694e4d9829d2d0a34227928be5e91342c4b2cc3e86d49"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013_target_visits.csv.gz",
+      "sha256": "570c1c6c40306734bd8a1b358512113b68840406e8b7b701c647d8d42caa8f13"
+    },
+    {
+      "bytes": 85339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch013_targets.csv.gz",
+      "sha256": "9cf8b9bbb5a550a1719646cf9eab507b32b5167d169cb49a3e69c41ad41adc30"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014.json",
+      "sha256": "64ab04dbad09bb49de1e97ce1448bd62cfb8649407aacda54b05263aaf6e47f3"
+    },
+    {
+      "bytes": 1359,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "95359be10ed809eede3ead867fc1b8331f090266a10385ba20678e4e9501ba78"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014_sampling.csv",
+      "sha256": "dc84ddff41b4638864d9525411625e9ffc57419a93a49507675a4c0dbc7d789a"
+    },
+    {
+      "bytes": 11153,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014_steps.csv.gz",
+      "sha256": "a55563547adde659ea7e38054b7e9d65095980b7723acf9b961f8cbb191dcaae"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014_target_visits.csv.gz",
+      "sha256": "307ba10204eb40951bcd731ff8799e1a94ed3764767450007f636d20d1403772"
+    },
+    {
+      "bytes": 85767,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch014_targets.csv.gz",
+      "sha256": "b1f0a94625cf9a046438985aaf87bf17a55a72d931ec6a7e55d67a3628dd9a90"
+    },
+    {
+      "bytes": 1348,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015.json",
+      "sha256": "e8c6535f6547faf92d13800bc525e9b0c48855a242da74385ed01bdf48af8d34"
+    },
+    {
+      "bytes": 1357,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "a55ac5ce77b24c47deb3ca4a008feadad00d7140a3537ebace7bb28abaed247f"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015_sampling.csv",
+      "sha256": "8b1b9d86743ca31cba05838f8d115c6aa514efae56be2b4f882db2c13963d526"
+    },
+    {
+      "bytes": 11136,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015_steps.csv.gz",
+      "sha256": "55b76396a98aef02aca5de7d6bcc323f6e0c4643facbc5bf31742a113a5446b6"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015_target_visits.csv.gz",
+      "sha256": "f9be4eb9ca375d1948a1318c53bc5121619936e1dc499f07b1a9592e07f54575"
+    },
+    {
+      "bytes": 85991,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch015_targets.csv.gz",
+      "sha256": "096199404cd5d919c7cdff29797fbaee82e1389acd36169b871c7c8f6cfd6b56"
+    },
+    {
+      "bytes": 1344,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016.json",
+      "sha256": "5b110d5e33e44aafa181bd5e9e87290601761b78bb2cb52719dc11cfa5e8abb2"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "786c4f66d6a3b99f96df52e0c1f335dd62571f19fcf678ae0fdb1427a7d69458"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016_sampling.csv",
+      "sha256": "34a454f2c25ca89e1dbf15aec94e24d82cf6e2e33ae2bf425f5620e5cf8569a9"
+    },
+    {
+      "bytes": 11142,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016_steps.csv.gz",
+      "sha256": "b85f9af228c70651ef936bbb64e0e5804afbd78fde8cbe23ac8712f9e4f1c006"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016_target_visits.csv.gz",
+      "sha256": "6abcec419861d33b932225a571cc2c92d8301cddeb84b42da3b8083d24b25c26"
+    },
+    {
+      "bytes": 85812,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch016_targets.csv.gz",
+      "sha256": "3f1cf95aee196d24c36876077676456e395f362e9ae60482461a9795bfbaa56f"
+    },
+    {
+      "bytes": 1345,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017.json",
+      "sha256": "359ac487468321d9efbc7c15d8724214e81fca1339bbf4e949165537e34c8b51"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "f8a42d3d0da6c67be8b74360e2d88c073918fd63bb7fd44247a194764fb477f6"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017_sampling.csv",
+      "sha256": "299db2a84482b94077322c9834feb6b7455c924a25403376e757a8f0f405bcc1"
+    },
+    {
+      "bytes": 11158,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017_steps.csv.gz",
+      "sha256": "1774b5c0581e3edbc039590db53b1f271cb5f892efe40940f6b8555f5ea0afd6"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017_target_visits.csv.gz",
+      "sha256": "1f8698071a2e116cf826dae71e23ab77949549e11a81b1d27c7da042e943bf45"
+    },
+    {
+      "bytes": 85996,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch017_targets.csv.gz",
+      "sha256": "330adf0204949eddb03acc071b0639f40bc4732f79ced6bb9902c6c084eeb58f"
+    },
+    {
+      "bytes": 1346,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018.json",
+      "sha256": "0c30e472153702b56549f498588486e9e367e2a0b49a11923ac5873a660288d5"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "9493b3208bacff1a1a8b311942f2baff4e67731f852bf6435e53e92f0061ab48"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018_sampling.csv",
+      "sha256": "13e925b3e7b7645aa986716743075c38eee53aacc76c6b1094c0ec48094eeb28"
+    },
+    {
+      "bytes": 11166,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018_steps.csv.gz",
+      "sha256": "94ab6d68cd3c09be86eae45607f4b3b60d6a47d9692b6eec27f2b093208e6517"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018_target_visits.csv.gz",
+      "sha256": "1db80cd832edf71c34aea8ca22db9ca958d58a67227b0a9e79675427511bf5d1"
+    },
+    {
+      "bytes": 85942,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch018_targets.csv.gz",
+      "sha256": "28a3d82a684f57710a14efd22fe3e2f73de0fffb62e9e0ea2048989552ec45bb"
+    },
+    {
+      "bytes": 1348,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019.json",
+      "sha256": "40ee39c14659633eacb653f224ba5b2d54d20c81181d2591601feba0ce09c663"
+    },
+    {
+      "bytes": 1358,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "4760c8c76ad21fd4e8b98e669dc619115f968139df149d73b08efd1d3255fb90"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019_sampling.csv",
+      "sha256": "4dcb5f22b20992eef333287ede8dde1cd839e57e731e24f5c0275dbb463db4fb"
+    },
+    {
+      "bytes": 11175,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019_steps.csv.gz",
+      "sha256": "0f7108077e1ab86a962cd233c2d27cc8a7eadb3f88d9986e2a4609a7bbb0b8f9"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019_target_visits.csv.gz",
+      "sha256": "f9e789bed3a3d9d7f2ad4824fc3d166eef145f6c898ab6cf2130e75baa75e24e"
+    },
+    {
+      "bytes": 86205,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch019_targets.csv.gz",
+      "sha256": "325ccd04cd9ae7e23bbe33c330131eed20040e0242700101deaae46911fc0f25"
+    },
+    {
+      "bytes": 1375,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020.json",
+      "sha256": "048c9aeb4990de1856a89fc4f626139979a17dd2bb19b8e846edbceded2256fb"
+    },
+    {
+      "bytes": 1352,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "7ea3300b3c029409c364cd13cb5e331d7ece7dc7d39e2dd14935c3c21f015eee"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020_sampling.csv",
+      "sha256": "d83661184aa16b803ed0693e38fd4b986e96bf3094b062ea7cd9a1131014701d"
+    },
+    {
+      "bytes": 11184,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020_steps.csv.gz",
+      "sha256": "e554cb43544acdbd1b526b30a660c6bba5c50d7ed2ee873157a60ec47fe3f0c0"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020_target_visits.csv.gz",
+      "sha256": "b048f669726e6f6c1cab9ca14b73c4af351c523d6f1139de1a2f9cd6a878b774"
+    },
+    {
+      "bytes": 86280,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch020_targets.csv.gz",
+      "sha256": "069221866a24f6bf5d01deda00fd35df108df53aeae8973f62cebee443d7afbd"
+    },
+    {
+      "bytes": 1345,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021.json",
+      "sha256": "55f4f902e03b5ab795f81a35b89ebbde8f389297786db14d068f1754b0d7451e"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "a7265f35a7a4b0e5ccc630e93cc1421a5acafbaa408e2612052be1398e196ee4"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021_sampling.csv",
+      "sha256": "588747b18b7b2d06bb58a287dc51a1902ccc23539befd43254083c07f61e5208"
+    },
+    {
+      "bytes": 11173,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021_steps.csv.gz",
+      "sha256": "f16136e350fb55473403f3d01c06995943864c963dadc86d3a6c839b6d2e977b"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021_target_visits.csv.gz",
+      "sha256": "1cb47067dd779cca26276f403e1b66de431439ffaa1dc693e9dd21021a1d2c57"
+    },
+    {
+      "bytes": 86269,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch021_targets.csv.gz",
+      "sha256": "9768bb789a59a4b3196cdeef51efe2798dcdf26de7f58fa6a0f6d8c07e0ceb3a"
+    },
+    {
+      "bytes": 1348,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022.json",
+      "sha256": "8592a0fd7f1a626af51aea0835579dba83609f471604010604f1f047d6f98a5e"
+    },
+    {
+      "bytes": 1355,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "da239c99a6b75d6f4985e4c2b40f52f86f451eabfd0ca0d533dc882d83fef07b"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022_sampling.csv",
+      "sha256": "cb9a4c24b79975f211a589018210fd2628703e2d007b5fca0db625268a97c0a9"
+    },
+    {
+      "bytes": 11168,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022_steps.csv.gz",
+      "sha256": "c9fd6eab7e6b0eaecf298a48cd688ec5b6cecf0aff122ec8817d2ea1434654ca"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022_target_visits.csv.gz",
+      "sha256": "251a680c38303d6bc3aca9b0746ae21973eefbd8798636bd70412194e84bba24"
+    },
+    {
+      "bytes": 85956,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch022_targets.csv.gz",
+      "sha256": "ff1956aab480b7a0793d8c829fa65f28cf008cfd0052b9ea698c59ce5b93f2bd"
+    },
+    {
+      "bytes": 1343,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023.json",
+      "sha256": "bb89e81145c532b7624210e7d71144faaa24a825c94be4887a98d7086716ca9e"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "3f46cfc023a40360c4bcc0cc58faf3d7846fcfcecaa55af7b2d9d05d766f3ab8"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023_sampling.csv",
+      "sha256": "44e67e9e8693a4a4124a3651e61486a98a6ef40b7d508a8be7406fefadcc9833"
+    },
+    {
+      "bytes": 11199,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023_steps.csv.gz",
+      "sha256": "5e83ef720e7263ddcd7f7cf05196f0ba2ee365434c6354878dbcc24b2cd39f4f"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023_target_visits.csv.gz",
+      "sha256": "d8e2b0e9317c233a8d7edf47fdb6b5beef343e798adbfadbc6b9727b71d43609"
+    },
+    {
+      "bytes": 86337,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch023_targets.csv.gz",
+      "sha256": "0bb015001be80b96ebfb7fa4be6084e3a4259ac9e26e7b0a74e280000b98a362"
+    },
+    {
+      "bytes": 1346,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024.json",
+      "sha256": "ac9d9366896f2335e4d68e1c84cca6137f7b900ee767ad1c921b909d981292c8"
+    },
+    {
+      "bytes": 1354,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "dc969ad2e3418eb41fa7a3784698b19262744676446361044287a8090d4d0d22"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024_sampling.csv",
+      "sha256": "9e457811edff0fcaa4f0afe46f44284f69ed0eced971f5b182887e237e58ee32"
+    },
+    {
+      "bytes": 11207,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024_steps.csv.gz",
+      "sha256": "cb5d3eef6bc783a4f9e517d42c315bdeac41b4059f95ba5c15cc40c653b41296"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024_target_visits.csv.gz",
+      "sha256": "813e00bc99658e794d263dd3c68b498493984588f1509f950f527a4d67e97cab"
+    },
+    {
+      "bytes": 86348,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch024_targets.csv.gz",
+      "sha256": "988fe1510ed846b027d0f482bca01e9a8837a0d617b173f70dd2c161b15bef58"
+    },
+    {
+      "bytes": 1346,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025.json",
+      "sha256": "9350ea6632ca1d26b740350b9c6a87a3f9c72fe598ae6ab541661abfc7a32085"
+    },
+    {
+      "bytes": 1353,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "9d1fc6058775006e7dfea7923db2a2b5038b98031bd4a72472e7c24a2e7fabef"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025_sampling.csv",
+      "sha256": "f0af678df75f1ceaf84f252aaaa1913df3fd5fa5b2738a9c93f1f9b51008e61c"
+    },
+    {
+      "bytes": 11190,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025_steps.csv.gz",
+      "sha256": "e2670ae73899098d2e76deae3db471d54e81a56692fcad18fb5d6ab586ed1b18"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025_target_visits.csv.gz",
+      "sha256": "1a652eb6c92b2313a0d10d75312a9166ab3b751b848970346303005203d70e96"
+    },
+    {
+      "bytes": 86098,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch025_targets.csv.gz",
+      "sha256": "f2deabd7488384b0a333534cbe2f78627c822a1f6ca7db6834b579e2855a820c"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026.json",
+      "sha256": "4e9ae761923697746ded36bd398503afa3a705c3516d062ead47c785e448c5e6"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "a31c7a6b84584b30eb45b89da42517f7002d5217eacfab355aa5654eabae0228"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026_sampling.csv",
+      "sha256": "c3d8e450aaa68697960cfdb93ed6f70d4e76057923ef5fecbe7f9bbac24165b5"
+    },
+    {
+      "bytes": 11203,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026_steps.csv.gz",
+      "sha256": "404814a96dfebf143fbe85dc08fab8d09c58d935811a93470992367532edcd3f"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026_target_visits.csv.gz",
+      "sha256": "e6b4f01b746a303f4f0e519f26c231858ef0c59493327521562b17d143265e42"
+    },
+    {
+      "bytes": 86294,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch026_targets.csv.gz",
+      "sha256": "5408de10b8985fe8acee981625b036c33b4b9495a67031ce1105b18a18eb12ea"
+    },
+    {
+      "bytes": 1347,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027.json",
+      "sha256": "007f6833f22d83045a6cf9e7a4ef9d4acea48983a5b8aad5f4ae22ae0aea17fd"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "6b8d4a68c7811ab57cdcc1f84ca7b8dc3d000038ff2bed03b0226f8174738314"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027_sampling.csv",
+      "sha256": "4632c02a01cbfc7b15dcdcfa2277c4f8477ad664fab882c329c87f7899891663"
+    },
+    {
+      "bytes": 11190,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027_steps.csv.gz",
+      "sha256": "11a998c2c5c3920af275fd1032d0f78390b4343d3118a326e693d12060eaeb36"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027_target_visits.csv.gz",
+      "sha256": "60bf186d7dc2b043ecfeed0eeb493941a9bc21e3e2369f5c16628a33bc6c62c0"
+    },
+    {
+      "bytes": 86544,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch027_targets.csv.gz",
+      "sha256": "797689e0b2565393759ca4cea58cb0b68045e4eb69f9a13630e2fb5d2a71b3d7"
+    },
+    {
+      "bytes": 1349,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028.json",
+      "sha256": "0deafe7bfbefeaab7d1796f1c857436ea2bda83de7eb9db265f60671c39adfa7"
+    },
+    {
+      "bytes": 1339,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "acf045aa1f7f201e2c7d60c3e8c654762486f29238f943588f24381a20ac47e4"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028_sampling.csv",
+      "sha256": "4530ffb82d82595aa9cc3abb1014cb0954b5826f9d16026b47a8830cbae69ae6"
+    },
+    {
+      "bytes": 11199,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028_steps.csv.gz",
+      "sha256": "3a5eee0f785a8b7b49450a472a3fb8cad43f3612431a2e1f1cdefc7a45c65af6"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028_target_visits.csv.gz",
+      "sha256": "f1b8310233fa60d1dd9b07fa5dd8bb753b1727e1cdc35cf5e3390503fc387da3"
+    },
+    {
+      "bytes": 86458,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch028_targets.csv.gz",
+      "sha256": "90587841f04f2852ee3226f91850b80dde5ac481e58bc19c75ace44c7f529180"
+    },
+    {
+      "bytes": 1347,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029.json",
+      "sha256": "988e113efbbc3820d2bf1669ca8fc913af44c5c3015d6ae91aeb0953951728c1"
+    },
+    {
+      "bytes": 1340,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "12f2642abc2594ee5de9592ecf93a79e39ea3d8de02fb6ff9d6ac82004472748"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029_sampling.csv",
+      "sha256": "a89106581ecb70a1a81eab1697207bb9484d48aa3643f00dcfec8d1124a33645"
+    },
+    {
+      "bytes": 11179,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029_steps.csv.gz",
+      "sha256": "5ec05997b78ae50aac6da14b641033586fb4bb0d26ff4e22e254cf5f39f41878"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029_target_visits.csv.gz",
+      "sha256": "6f61572d57e1be06b9b91b99be5f7c401f02eccd042f39d56437fac08a6d8eae"
+    },
+    {
+      "bytes": 86538,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch029_targets.csv.gz",
+      "sha256": "ec2d26b22066b6308239cfaf67c0f28bde07fc70c9c1a69530680d03491878cf"
+    },
+    {
+      "bytes": 1374,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030.json",
+      "sha256": "712f9bb81faf2156d40fca05b3e4b982685784c7ba05da6526cbac9d7c28bae5"
+    },
+    {
+      "bytes": 1341,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "5f0920232ed6a56c556a9f531d86b12c11ad27dd3405d314a2f17a5910315621"
+    },
+    {
+      "bytes": 773,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030_sampling.csv",
+      "sha256": "35e30b7653441ef4d93a949696f20bdc1df0dc70b20f8c2b2a017f45445b01d3"
+    },
+    {
+      "bytes": 11218,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030_steps.csv.gz",
+      "sha256": "89911f1d1b037972b980f62991e293da853c53ebed13f9468f5b2a61aa022693"
+    },
+    {
+      "bytes": 54128,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030_target_visits.csv.gz",
+      "sha256": "85080a1176abf9045da9a374aad57ca0b0ddddaed1a8a6da306b0a9cbfb4e4e8"
+    },
+    {
+      "bytes": 86856,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/epochs/epoch030_targets.csv.gz",
+      "sha256": "ba091704b14ac843780f7c5e46f0a0e776309a1959229426ee46029071844ec2"
+    },
+    {
+      "bytes": 12692,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/execution.txt",
+      "sha256": "c0852568f9e8289f50c486accec24d013e1e8830b8b7a2b937d0c75057cab172"
+    },
+    {
+      "bytes": 5087,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/lifetime_parameter_gradients.csv",
+      "sha256": "3d774044241671b46d78c75be54f5c56ee34e0fcb35539e3d50185d3c2fb4d79"
+    },
+    {
+      "bytes": 2888,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/provenance.json",
+      "sha256": "fb45b32d12384b5d7ba15b03712e0f3682baa03d0dded4a883e636e4dee928fb"
+    },
+    {
+      "bytes": 5383,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/run_config.json",
+      "sha256": "a915cdaf50c923567fa7817bd222cbc1943c7778c5ca6684c6d9bd4417013b43"
+    },
+    {
+      "bytes": 16716,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/sampling_curve.csv",
+      "sha256": "20e2f09b1410f8693301cb9c40f5616b119814d5a1365cc1110c3d47bba2d640"
+    },
+    {
+      "bytes": 2197,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/selection.json",
+      "sha256": "4bba8b8fcbdc20b5bc829259bc601dd52e3c9b6c5b1f2ad24dc29669045b714a"
+    },
+    {
+      "bytes": 173,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/smoke_5epoch.json",
+      "sha256": "cec7cee9c698f10f9c1e3fe0239265b1f9188862b19f73c2c836f099e1be112c"
+    },
+    {
+      "bytes": 16885,
+      "path": "results/tables/stage6p1/runs/crowds_zara02/Uniform/training_curve.csv",
+      "sha256": "a0bd25a9e92940f559ef6a7fdff4d390a0079f0377a721593be5fcfd09b29d29"
+    },
+    {
+      "bytes": 1782,
+      "path": "results/tables/stage6p1/scheduler_completion.json",
+      "sha256": "7f70d6162c9928c39f137e3ccf144774b7260697b666b3ddb6920e050dddba22"
+    },
+    {
+      "bytes": 1205,
+      "path": "results/tables/stage6p1/scheduler_execution.txt",
+      "sha256": "c1cd584e43beea59805614cc4cc3554dbc9d9715629dd79f218f9d320e2cc482"
+    },
+    {
+      "bytes": 1120,
+      "path": "results/tables/stage6p1/source_class_distribution.csv",
+      "sha256": "7f15640458700b940ae107f32b79663a9aec2d6d4c62a6fd56a68044a4cd8599"
+    },
+    {
+      "bytes": 6019,
+      "path": "results/tables/stage6p1/source_class_person_counts.csv.gz",
+      "sha256": "d7b695467481cc9abfda00f3f503ee358c0e53642764f9285394e632d8f3c95c"
+    },
+    {
+      "bytes": 15076,
+      "path": "scripts/stage6p1/analyze.py",
+      "sha256": "09a0c4cf45cfc3fdd73d89f7849d802468f5cb84574b6f47891c6e18abdb5148"
+    },
+    {
+      "bytes": 2934,
+      "path": "scripts/stage6p1/exposure_summary.py",
+      "sha256": "2aa563c45f79c2156d91864962caf84675ba6ce94a1fefe36ac5f2269705f6b1"
+    },
+    {
+      "bytes": 5200,
+      "path": "scripts/stage6p1/final_interpretation.py",
+      "sha256": "821107f2be64c771dfb891ab144daf118d4397267a5392ff7ef835f5beb3bc7c"
+    },
+    {
+      "bytes": 2178,
+      "path": "scripts/stage6p1/inventory_delivery.py",
+      "sha256": "7f788907f342b399cf3c6f800a4bc35e38badd8196fdee6cfd1fbef2c3c82eb2"
+    },
+    {
+      "bytes": 819,
+      "path": "scripts/stage6p1/monitor.py",
+      "sha256": "a0ab535c3717450be42fe483a2d682e9325f0d0f649bb8805a1f3125cd317b8c"
+    },
+    {
+      "bytes": 8514,
+      "path": "scripts/stage6p1/prepare.py",
+      "sha256": "d9cfcbfce8b457fef4d42e10d98a14544a5978d8ad32810c9e13a92f3dabba13"
+    },
+    {
+      "bytes": 1633,
+      "path": "scripts/stage6p1/schedule.py",
+      "sha256": "a7adfc2013322c8f7b035dc220f0e43ffdf7a267ad8f6d1c9fe7761583c1fd66"
+    },
+    {
+      "bytes": 12789,
+      "path": "scripts/stage6p1/train.py",
+      "sha256": "00749aab975e76f90219a5b38987f5ba0dff357acdda3607b1b92cf9da60951b"
+    },
+    {
+      "bytes": 7430,
+      "path": "scripts/stage6p1/verify_delivery.py",
+      "sha256": "8b89b6dc9862ed987766b3efe20fd7821676ce5b08e685cf1116cd24e743ff8e"
+    },
+    {
+      "bytes": 16818,
+      "path": "scripts/stage6p1/write_reports.py",
+      "sha256": "82817085438fe1e25ca9c1c14349c0d1d5139e0fef6dcc843b1afac65c093b38"
+    },
+    {
+      "bytes": 81,
+      "path": "src/motion_sampling/__init__.py",
+      "sha256": "fe42765f8770d11a52d19c41f65df07af2611e223411b327d0e1cf788d0b5522"
+    },
+    {
+      "bytes": 4555,
+      "path": "src/motion_sampling/policy.py",
+      "sha256": "e91f7e4cd32258ce56516709f2ba9e6150dc8b162715792e37466b97d86d29ad"
+    },
+    {
+      "bytes": 3036,
+      "path": "tests/test_motion_sampling.py",
+      "sha256": "4aa6976f9ebda368e8dfd28e446aea511ae8ab8a84b6bf82799538dfaf5de899"
+    },
+    {
+      "bytes": 478,
+      "path": "results/tables/stage6p1/formatting_check.json",
+      "sha256": "f5bff53ca22dd4c32ed26646ba3d8ade74cdefaf037507f7fdfc6ca7ee65e6f3"
+    }
+  ],
+  "files_excluding_inventory": 835,
+  "inventory_self_SHA": "Containing delivery Git commit",
+  "max_file_bytes": 4517716,
+  "private_key_and_known_token_marker_matches": 0,
+  "raw_trajectories_weights_caches_environments_ignored": true,
+  "safety_scope": "Size/filename/high-confidence credential markers, not universal secret detection",
+  "self_output_log_excluded": "experiments/stage6p1/inventory_stdout.txt (open during inventory; checked separately at staging)",
+  "total_bytes": 33263690
+}

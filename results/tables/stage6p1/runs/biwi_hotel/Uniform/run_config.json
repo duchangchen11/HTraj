@@ -1,0 +1,147 @@
+{
+  "ETH_evaluated": false,
+  "FPC": false,
+  "automatic_push": false,
+  "base_commit": "af7da3ffda0d65ec8ff1e05a5d0235d62cd53dad",
+  "batch_size": 128,
+  "branch": "feat/stage6p1-motion-sampling-pilot",
+  "checkpoint_restore_epochs": [
+    1,
+    5,
+    10,
+    20,
+    30
+  ],
+  "checkpoint_saving": "Immutable periodic epochs1/5/10/20/30 plus best snapshot serialized in RAM and written once at completion; last=30; all epoch curves retained; no overwrite",
+  "condition": "Uniform",
+  "data_root": "data/raw/eth_ucy",
+  "epochs": 30,
+  "evaluation": {
+    "FPC": false,
+    "K20": "independent ADE and FDE minima per target; first sample is candidate0",
+    "every_epoch": "full validation all metrics plus original supervised posterior objective; same per-target noise across epochs",
+    "method": "external evaluation-only Gaussian standard-noise provider through temporary distribution hooks; original loc/scale, forward, parameters and loss unchanged; remove hooks before training",
+    "posterior_seed_namespace": "stage5p2-posterior-noise-v1",
+    "prior": "original deterministic latent-prior-mean trajectory, not expectation over predicted trajectories",
+    "samples": 20,
+    "seed_namespace": "stage5p2-prior-noise-v1",
+    "selected_best_full_train_K1": true,
+    "stable_key": "protocol|seed17|recording|start_frame|target_id; SHA256 first8 bytes modulo2^63",
+    "train_K1_epochs": [
+      1,
+      5,
+      10,
+      20,
+      30
+    ]
+  },
+  "failure_policy": "First nonfinite stops affected run, save failure model/optimizer/RNG/batch and traceback; no retry. Other preregistered runs may complete.",
+  "formal_runs": [
+    {
+      "condition": "Uniform",
+      "name": "Run1",
+      "recording": "biwi_hotel",
+      "seed": 17
+    },
+    {
+      "condition": "Stratified",
+      "name": "Run2",
+      "recording": "biwi_hotel",
+      "seed": 17
+    },
+    {
+      "condition": "Uniform",
+      "name": "Run3",
+      "recording": "crowds_zara02",
+      "seed": 17
+    },
+    {
+      "condition": "Stratified",
+      "name": "Run4",
+      "recording": "crowds_zara02",
+      "seed": 17
+    }
+  ],
+  "gradient_clip": null,
+  "hidden_dim": 256,
+  "independent_confirmation": false,
+  "initialization": "seed_all(17), same frozen constructor; random weights, no old checkpoint initialization; exact state/RNG audit",
+  "learning_rate": 0.0005,
+  "loss": "unchanged official mean reconstruction + Monte Carlo latent KL mean; not exact marginal NLL",
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "model": "Frozen Stage5.3 SocialVAE-NoSocial",
+  "model_selection": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "model_source": "src/socialvae_attribution/model.py",
+  "new_network": false,
+  "ob_radius_m": 2.0,
+  "official_commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "official_source_sha256": {
+    "data.py": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+    "social_vae.py": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+  },
+  "optimizer": "Adam",
+  "protocol": "HTraj-SocialVAE-Causal8x12-v1",
+  "scheduler": null,
+  "scheduling": {
+    "max_concurrent": 4,
+    "rule": "exactly four independent processes, shared GPU; wall time includes contention, no settings depend on results"
+  },
+  "seed": 17,
+  "smoke": "Epochs1..5 within same run; if all diagnostics/strict restore finite, continue unchanged to30; never restart from smoke",
+  "stage": "6.1",
+  "stopping": {
+    "ADE_gain_abs_m": 0.005,
+    "ADE_gain_relative": 0.01,
+    "FDE_max_regression_abs_m": 0.005,
+    "FDE_max_regression_relative": 0.01,
+    "all_conditions_required": true,
+    "best_epoch_30": "budget truncation; no extension",
+    "extra_epochs": false,
+    "extra_seeds": false,
+    "failure": "Stop current hypothesis on any failed gate; no ratio/threshold/model/seed/budget search",
+    "speed_bias_reduction_relative": 0.1,
+    "speed_gate": "HOTEL speed_normal window-weighted abs(mean signed bias), also report mean(abs(per-target bias)) and ID weights",
+    "stationary_FDE_max_regression_abs_m": 0.01,
+    "stationary_FDE_max_regression_relative": 0.05,
+    "weightings": [
+      "target-window",
+      "equal-person-ID"
+    ]
+  },
+  "train_K1_epochs": [
+    1,
+    5,
+    10,
+    20,
+    30
+  ],
+  "training_order": {
+    "Stratified": "numpy default_rng(17+epoch).choice(N,size=N,replace=True,p=P)",
+    "Uniform": "numpy default_rng(17+epoch).permutation(N), no replacement",
+    "changes": "Same N visits/ceil(N/128) updates per epoch; repeated target windows and unique coverage differ; no target-future input",
+    "classes": [
+      "stationary",
+      "low",
+      "normal",
+      "fast"
+    ],
+    "probability": "P(i)=0.5/N+0.5/(G*N_g); G counts only nonempty history-speed classes",
+    "speed": "mean norm of seven consecutive raw historical displacements / 0.4 seconds; float64",
+    "thresholds_mps": [
+      0.05,
+      0.4,
+      1.8
+    ]
+  },
+  "validation_recording": "biwi_hotel",
+  "weight_decay": 0.0
+}

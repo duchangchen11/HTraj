@@ -1,0 +1,8 @@
+{"event": "launch", "elapsed_seconds": 0.00019099196651950479, "condition": "Uniform", "name": "Run1", "recording": "biwi_hotel", "seed": 17}
+{"event": "launch", "elapsed_seconds": 0.0009121219627559185, "condition": "Stratified", "name": "Run2", "recording": "biwi_hotel", "seed": 17}
+{"event": "launch", "elapsed_seconds": 0.0017467680154368281, "condition": "Uniform", "name": "Run3", "recording": "crowds_zara02", "seed": 17}
+{"event": "launch", "elapsed_seconds": 0.0027012809878215194, "condition": "Stratified", "name": "Run4", "recording": "crowds_zara02", "seed": 17}
+{"event": "finish", "elapsed_seconds": 684.5331010189839, "condition": "Uniform", "name": "Run3", "recording": "crowds_zara02", "seed": 17, "returncode": 0}
+{"event": "finish", "elapsed_seconds": 689.1179677330074, "condition": "Stratified", "name": "Run4", "recording": "crowds_zara02", "seed": 17, "returncode": 0}
+{"event": "finish", "elapsed_seconds": 714.9171996749938, "condition": "Stratified", "name": "Run2", "recording": "biwi_hotel", "seed": 17, "returncode": 0}
+{"event": "finish", "elapsed_seconds": 716.2158677760162, "condition": "Uniform", "name": "Run1", "recording": "biwi_hotel", "seed": 17, "returncode": 0}

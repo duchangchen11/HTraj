@@ -1,0 +1,11 @@
+{
+  "all_finite": true,
+  "epochs_are_part_of_30": true,
+  "extra_epochs": 0,
+  "optimizer_steps": 920,
+  "passed": true,
+  "strict_restore_passed_at": [
+    1,
+    5
+  ]
+}

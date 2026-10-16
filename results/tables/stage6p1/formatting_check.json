@@ -1,0 +1,10 @@
+{
+  "GPU_csv_after_sha256": "1002b688c973a854fa839b8632282b5c837b6d8f96c45c76fdb533fbef21d09c",
+  "GPU_csv_before_sha256": "fd58b7935733346bb612b579abb7d31ca91eb24320b0d76db13750d97950ba5e",
+  "GPU_csv_parsed_values_unchanged": true,
+  "cause": "Default CSV writer emitted CRLF; one new report had a blank EOF line",
+  "corrected": true,
+  "historical_files_touched": false,
+  "initial_git_diff_check_passed": false,
+  "training_policy_model_selection_metrics_changed": false
+}

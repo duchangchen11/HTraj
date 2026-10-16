@@ -1,0 +1,15 @@
+{
+  "ETH_evaluated": false,
+  "code_commit": "74e441a065d96979c1cdc60497ad1f4178b1bcd6",
+  "elapsed_seconds": 22.018494658987038,
+  "maximum_diagnostic_error_match_difference_m": 3.678624844738465e-07,
+  "optimizer_updates": 0,
+  "selection_changed": false,
+  "source_sha256": {
+    "scripts/stage6p1/analyze.py": "09a0c4cf45cfc3fdd73d89f7849d802468f5cb84574b6f47891c6e18abdb5148",
+    "src/evaluation/stage6_motion.py": "5557f5fad8a785aa8ede68492952255469237d80852c23ace023e28e16f0fc7e",
+    "src/motion_sampling/policy.py": "e91f7e4cd32258ce56516709f2ba9e6150dc8b162715792e37466b97d86d29ad"
+  },
+  "trajectory_packet": "experiments/stage6p1/cache/k1_prediction_packets.jsonl.gz",
+  "trajectory_packet_sha256": "462bd43438429cec65c3b67af81c19db7ea6bfe451d4f5a6b0e9e0808368dcb5"
+}

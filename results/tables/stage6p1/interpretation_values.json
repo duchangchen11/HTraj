@@ -1,0 +1,9 @@
+{
+  "HOTEL_normal_absolute_mean_bias_reduction": 0.30104562031582915,
+  "HOTEL_normal_mean_absolute_target_bias_reduction": 0.23579707954036788,
+  "HOTEL_stationary_FDE_regression_m": 0.08832445817594972,
+  "decision_changed": false,
+  "reporting_only": true,
+  "sampling_rule_changed": false,
+  "selection_changed": false
+}

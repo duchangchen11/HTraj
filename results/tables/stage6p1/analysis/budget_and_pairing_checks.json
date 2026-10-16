@@ -1,0 +1,46 @@
+[
+  {
+    "all_30_epoch_visits_match_frozen_sampler": true,
+    "all_GT_history_IDs_verified": true,
+    "condition": "Uniform",
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "recording": "biwi_hotel",
+    "source_labels_history_only": true,
+    "source_pool_identical": true,
+    "total_optimizer_steps": 6390,
+    "total_target_visits": 814350
+  },
+  {
+    "all_30_epoch_visits_match_frozen_sampler": true,
+    "all_GT_history_IDs_verified": true,
+    "condition": "Stratified",
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "recording": "biwi_hotel",
+    "source_labels_history_only": true,
+    "source_pool_identical": true,
+    "total_optimizer_steps": 6390,
+    "total_target_visits": 814350
+  },
+  {
+    "all_30_epoch_visits_match_frozen_sampler": true,
+    "all_GT_history_IDs_verified": true,
+    "condition": "Uniform",
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "recording": "crowds_zara02",
+    "source_labels_history_only": true,
+    "source_pool_identical": true,
+    "total_optimizer_steps": 5520,
+    "total_target_visits": 706350
+  },
+  {
+    "all_30_epoch_visits_match_frozen_sampler": true,
+    "all_GT_history_IDs_verified": true,
+    "condition": "Stratified",
+    "initial_parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "recording": "crowds_zara02",
+    "source_labels_history_only": true,
+    "source_pool_identical": true,
+    "total_optimizer_steps": 5520,
+    "total_target_visits": 706350
+  }
+]
