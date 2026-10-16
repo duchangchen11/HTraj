@@ -1,0 +1,10 @@
+{
+  "actual_wall_seconds": 23.931272070971318,
+  "all_supervised_target_pools": true,
+  "always_within_radius": true,
+  "caveat": "operative real context packet masks missing source velocities; frame0 only position participates. Counts include zero-message frames. Synthetic contexts have complete 8-frame support; not distribution-matched.",
+  "future_slots": "all padding",
+  "future_used": false,
+  "original_neighbor_packet_only_history": true,
+  "synthetic_count": 4
+}

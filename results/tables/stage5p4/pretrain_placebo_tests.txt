@@ -1,0 +1,3 @@
+..........                                                               [100%]
+- generated xml file: /home/lrj/HTraj/results/tables/stage5p4/pretrain_placebo_tests.xml -
+10 passed in 2.62s

@@ -1,0 +1,9 @@
+{
+  "configs/stage5p4/placebo_protocol.json": "4bea4d73b74099a4e95f0857966ca38745f09e1857490194c2c947bdc08428d0",
+  "scripts/stage5p4/audit_context_distribution.py": "87a872b99354188753bd03d662fa40830eec1df10c22c984a5758077eefd2741",
+  "scripts/stage5p4/audit_placebo_capacity.py": "ffb294a3d8d5a7cf1dc7705e75682c1a8ef68318f989a226ef97aafdd35886c6",
+  "scripts/stage5p4/train_placebo.py": "99a0e395fd4cc1fb58865a9451352ac7f45f509d737e695e3bbcd27d153ea335",
+  "src/socialvae_capacity/placebo.py": "0d89788a143a40bb1cccf58f069f963ab744bf3b55ef0bd68a9a0229ca448ef7",
+  "src/socialvae_capacity/placebo_training.py": "d0028461720ba4e6569324cf8913cd5708489f49e88eb380803d8a7ce1b3387d",
+  "tests/test_socialvae_placebo.py": "3f1dda0fdc8695e7b98bc6b65a8ed6e05f7978d6d40bd18c7a6cba4b5036e7ac"
+}

@@ -1,0 +1,70 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "GPU_total_bytes": 10366025728,
+  "checkpoint_loaded_before_training": false,
+  "code_commit": "f937249e142e677bafbc687ee11fcbd6b3666d28",
+  "fresh_random_initialization": true,
+  "initial_parameter_state": {
+    "parameter_L2": 59.33130056236636,
+    "parameter_count": 2669570,
+    "parameter_max_abs": 0.70648592710495,
+    "parameter_state_sha256": "129e5e7e7edc0a611a9bee5678d8dd312863bbaf702854290f52359b827a4a91",
+    "parameters_finite": true
+  },
+  "manifest": {
+    "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+    "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+  },
+  "numpy": "1.26.4",
+  "plan_sha256": "c38ee92926507985b5ad9c6665dd5eede541db22c927be521d2ee14653578d4f",
+  "python": "3.10.21",
+  "seed": 17,
+  "source_files": {
+    "biwi_hotel": {
+      "file": "biwi_hotel.txt",
+      "scene": "HOTEL",
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf"
+    },
+    "crowds_zara01": {
+      "file": "crowds_zara01.txt",
+      "scene": "ZARA1",
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85"
+    },
+    "crowds_zara02": {
+      "file": "crowds_zara02.txt",
+      "scene": "ZARA2",
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff"
+    },
+    "students001": {
+      "file": "students001.txt",
+      "scene": "UNIV",
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b"
+    },
+    "students003": {
+      "file": "students003.txt",
+      "scene": "UNIV",
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c"
+    }
+  },
+  "source_hashes": {
+    "scripts/stage5p4/train.py": "29aba774f71f1e907d017cbce40803e21f1c30c87142e51797b4533c5a8d5530",
+    "src/socialvae_baseline/evaluation.py": "210ac1b858a4482ac17dde47a96bea840a280893a4ce3d4a33af8bce146b3bab",
+    "src/socialvae_capacity/model.py": "0511341e8e0b4c46fd2ad6475360a7da91bedeed6d0b51f6a6b6a91a07bbfbfc",
+    "src/socialvae_capacity/training.py": "772640d3ecd9a80750abd4bf1615e0aba678f2912e1ed1328a794d9895f8a956",
+    "src/socialvae_causal/data.py": "e253652a6f836fc3673a573c12d6a2df3fc96da73d3bad95c15d399c97e52301",
+    "src/socialvae_causal/training.py": "bd9a43a640e3ad1a21c771d792fdb5196f768eca51dad9c5082c27ec81bfd930"
+  },
+  "steps_per_epoch": 213,
+  "torch": "2.5.1+cu124",
+  "train_recordings": [
+    "crowds_zara01",
+    "crowds_zara02",
+    "students001",
+    "students003"
+  ],
+  "training_targets": 27145,
+  "validation_recordings": [
+    "biwi_hotel"
+  ],
+  "validation_targets": 318
+}

@@ -1,0 +1,216 @@
+{
+  "CV": {
+    "models": [
+      "CV-Last2",
+      "CV-OLS4",
+      "CV-OLS8"
+    ],
+    "oracle_label": "解析基线上界参考：事后逐录像最佳CV，非可部署的新模型；ADE/FDE若取各自最低需分别标明",
+    "primary": "CV-Last2",
+    "source": "recompute and verify Stage5.1 target IDs/history/future SHA and existing CV errors"
+  },
+  "ETH_evaluated": false,
+  "aggregation": [
+    "target-window weighted",
+    "equal recording-person ID after within-person averaging",
+    "two-recording macro separately for each weighting"
+  ],
+  "augmentation": false,
+  "automatic_push": false,
+  "base_commit": "04d95937282e8a84c1f497c6c1170f81a5a753ea",
+  "batch_size": 128,
+  "branch": "feat/stage5p4-capacity-attribution",
+  "checkpoint_policy": "immutable checkpoint whenever best K1 improves, at epoch1/every10/epoch100; metrics/target errors/parameter states every epoch; no old file overwritten",
+  "checkpoints": "best improvements + periodic10 + last100; strict restore at1/every10 and selected best",
+  "data_root": "data/raw/eth_ucy",
+  "diagnostics": {
+    "capacity_definition": "separate nominal, module-forward-used, graph-gradient-connected, observed-nonzero, structural scalar upper bound; no claim of equal effective capacity",
+    "checkpoint_restore_epochs": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "epoch_gradient_tracking": "per parameter scalar count with nonzero gradient, maxabs, ever_nonzero; structural dead masks audited"
+  },
+  "embargo": "exact Stage5.1 train/dev support; no held-recording train and no promotion of old validation",
+  "epochs": 100,
+  "evaluation": {
+    "FPC": false,
+    "K20": "independent ADE and FDE minima per target; first sample is candidate0",
+    "every_epoch": "full validation all metrics plus original supervised posterior objective; same per-target noise across epochs",
+    "method": "external evaluation-only Gaussian standard-noise provider through temporary distribution hooks; original loc/scale, forward, parameters and loss unchanged; remove hooks before training",
+    "posterior_seed_namespace": "stage5p2-posterior-noise-v1",
+    "prior": "original deterministic latent-prior-mean trajectory, not expectation over predicted trajectories",
+    "samples": 20,
+    "seed_namespace": "stage5p2-prior-noise-v1",
+    "selected_best_full_train_K1": true,
+    "stable_key": "protocol|seed17|recording|start_frame|target_id; SHA256 first8 bytes modulo2^63",
+    "train_K1_epochs": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "execution_schedule": "two independent processes may overlap on same RTX3080; RNG/model/optimizer separate; wall times not exclusive-device throughput",
+  "failure_policy": "first nonfinite stops affected run, save model/optimizer/RNG/batch and traceback; no retry or hyperparameter search; independent other preregistered run still attempted",
+  "gradient_clip": null,
+  "hidden_dim": 256,
+  "history_groups": {
+    "adjacent_direction_change_deg": 45.0,
+    "heading_reliable_speed_mps": 0.2,
+    "last_neighbor_count_bins": [
+      0,
+      2,
+      5
+    ],
+    "neighbor_density_bins": [
+      0.0,
+      1.0,
+      3.0
+    ],
+    "radial_speed_threshold_mps": 0.2,
+    "radius_m": 2.0,
+    "relative_heading_cosine": 0.7,
+    "speed_mps": [
+      0.05,
+      0.4,
+      1.8
+    ],
+    "support": "only raw eight-frame positions and masks, never future error; keep all/empty groups",
+    "turn_angle_deg": 30.0
+  },
+  "independent_confirmation": false,
+  "initialization": "fresh seed17; exact Full architecture/state schema/default initialization; no checkpoint import",
+  "learning_rate": 0.0005,
+  "loss": "unchanged official mean reconstruction + Monte Carlo latent KL mean; not exact marginal NLL",
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "max_total_formal_runs": 4,
+  "model": "SocialVAE-PlaceboSocial",
+  "model_selection": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "new_graph_module": false,
+  "new_network": false,
+  "new_paper_method": false,
+  "no_extra_runs_or_extension": true,
+  "ob_radius_m": 2.0,
+  "official_commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "official_source_sha256": {
+    "data.py": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+    "social_vae.py": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+  },
+  "optimizer": "Adam",
+  "phase1_formal_runs": 2,
+  "phase1_gate": {
+    "FDE_substantial_regression_relative": 0.01,
+    "Full_meaningful_ADE_gain_relative": 0.01,
+    "capacity_sufficient": "Ego ADE <= Full ADE and Ego FDE <= Full FDE*1.01 in both recordings and both weightings; stop without placebo",
+    "continue_to_placebo": "Full relative ADE gain (Ego-Full)/Ego >=1% and Full FDE <= Ego FDE*1.01 in both recordings and both weightings, plus capacity and isolation tests passed",
+    "otherwise": "conditional/conflicting/small differences: stop without placebo; no alternative seeds or architecture attempts",
+    "primary": "best K1 latent-prior ADE, paired FDE, exact same target cohort",
+    "thresholds": "preregistered development decision criteria, not statistical significance or formal noninferiority tests",
+    "weightings": [
+      "target-window",
+      "equal-person-ID"
+    ]
+  },
+  "phase1_gate_decision_sha256": "297c2c15041b97c582581bba6e1501d755d8ee76703e23debf68dcd0b11b7d9f",
+  "phase2_authorization": {
+    "Full_architecture_loss_preserved": true,
+    "additional_seeds": false,
+    "max_runs": 2,
+    "only_if_phase1_gate_passes": true,
+    "pseudo_context": "one deterministic target-history-only construction, frozen before any phase2 training; no real neighbor count/ID/position/velocity; no rule search",
+    "separate_protocol_commit_required": true
+  },
+  "phase2_formal_runs": 2,
+  "phase2_interpretation": {
+    "FDE_substantial_regression_relative": 0.01,
+    "Full_meaningful_relative_ADE_gain": 0.01,
+    "K20": "separate descriptive outcome, never a replacement for K1 attribution",
+    "otherwise": "conditional/conflicting evidence; no more social modules or runs this stage",
+    "primary": "K1 at best K1 checkpoint; paired FDE; both recordings and both weightings",
+    "provisional_content_support": "Full relative ADE gain >=1% and Full FDE <= Placebo*1.01 across all four cells; conditional on input-distribution and single-seed caveats",
+    "sufficient_target_only": "Placebo ADE <= Full ADE and Placebo FDE <= Full*1.01 across all four cells"
+  },
+  "protocol": "HTraj-SocialVAE-Causal8x12-v1",
+  "reference": {
+    "Full": "results/tables/stage5p2",
+    "NoSocial": "results/tables/stage5p3",
+    "models_frozen": true
+  },
+  "runs": [
+    {
+      "name": "Run-A",
+      "validation_recording": "crowds_zara02"
+    },
+    {
+      "name": "Run-B",
+      "validation_recording": "biwi_hotel"
+    }
+  ],
+  "scheduler": null,
+  "seed": 17,
+  "stage": "5.4-phase2",
+  "synthetic_context": {
+    "acceleration": "successive synthetic displacement differences; boundary zero placeholders ignored by official initialization",
+    "causality": "each synthetic frame uses target prefix only",
+    "count": 4,
+    "distribution_caveat": "four always-available near neighbors vs variable real count/entry/missing velocity; fixed cardinal directions and bounded drift change inductive bias; initial relative offsets are constant, not equal function-class capacity",
+    "future": "all twelve future neighbor slots are 1e9 padding, including training posterior",
+    "offsets_m": [
+      [
+        0.8,
+        0
+      ],
+      [
+        -0.8,
+        0
+      ],
+      [
+        0,
+        0.8
+      ],
+      [
+        0,
+        -0.8
+      ]
+    ],
+    "raw_neighbor_information_used": false,
+    "rule": "p_j(t)=x(t)+r_j+0.2*s_j*tanh((x(t)-x(0))/1m), componentwise",
+    "rule_search": false,
+    "signs": [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "velocity": "successive synthetic position differences, per-step displacement as official API"
+  },
+  "training_order": "numpy default_rng(17+epoch).permutation(all train target indices), one complete pass, retain final partial batch",
+  "weight_decay": 0.0
+}

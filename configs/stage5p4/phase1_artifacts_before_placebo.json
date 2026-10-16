@@ -1,0 +1,3448 @@
+{
+  "files": [
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch001.pth",
+      "sha256": "49e7e8be23b49a39641fe153ecf20e24f90e25a9e20e2fd48354f87517b64e3f"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch002.pth",
+      "sha256": "ed27c728040e96f0c4eef4e0dd1beddfe360349f67df3ae2950f13b011b5eb64"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch003.pth",
+      "sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch010.pth",
+      "sha256": "1cba931aa6b7591b5d656873e34bd238dd608495c7338e521bfea9b111197912"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch020.pth",
+      "sha256": "59cfd986e79aae82db4b3be26450dbc828dbadaa128214f9440a9b20bbca667c"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch030.pth",
+      "sha256": "43fc784512e58ba5444a878d36ac404b58a984b085280092d6b04b703c9a2b39"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch040.pth",
+      "sha256": "d13134bfe1fb078b8adb6c460273103ca16eae87d52b8af048297c72077b46ec"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch050.pth",
+      "sha256": "743b6a2f495915deb9f580644ddf085fac5788dc4bbae665b7550e313eed137c"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch060.pth",
+      "sha256": "9aa47c27bc793bb9683d87ab240d93638930f5a95a0d91505f7b7e205106d679"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch070.pth",
+      "sha256": "7175080bb93848d0470452976b9497280af29a667af24c76ecbfc7b88a39441b"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch080.pth",
+      "sha256": "def18f71975804d37401eadcc4b0fdb9048b9d52b3d471203e4b057260eb17fb"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch090.pth",
+      "sha256": "d651c6bdbc910e9be2a1c8c7e381bfeb50d015687351648035751307c2a02f1d"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/biwi_hotel/epoch100.pth",
+      "sha256": "0e4d632c495590d14614b317f05ce45c1dd129cc38404139cd12e7f85b2931dc"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch001.pth",
+      "sha256": "374c1683831cc72b42325bbdab26138e2c442fab066b932ef09e8f65859551f2"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch002.pth",
+      "sha256": "8751ed515e631a235eee61d66ba285fa44d827c40a113513461060f335354f5c"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch003.pth",
+      "sha256": "416ae5b2c8bd736784c342255597d3440209a494eaf4842d8cb8eb9446bdb430"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch004.pth",
+      "sha256": "565c2220f39416818c8e717fa6fead237041dfef243e59709be2b292b2d54078"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch005.pth",
+      "sha256": "f1818b14e7b673b144c8a63134df81f6decbbe672847924e1b44184018d1c4a9"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch010.pth",
+      "sha256": "0029aec7855f0ba760ba94d5462ca59133800206768370b49b2cc8a88733d81e"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch020.pth",
+      "sha256": "f733de09637949b81d21e38ae75a6ce0f9d5d5675d0d821e647622af25afb8c2"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch028.pth",
+      "sha256": "73249aede0b84d1592b41bdde5ab06cb0f3e65cba8e327e0ffcf66d817ebb98f"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch030.pth",
+      "sha256": "54becbd044f3b236c8f8a47c91fe6ba6a9f867c8eeb5c209c812c2867c10ac48"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch039.pth",
+      "sha256": "51d877799a0e2e2d0453fcc719d743a4991224555b158312c1f9d0a49107fab0"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch040.pth",
+      "sha256": "996945c5435c33974180078b99b4dcc3cf832653a6f20ebdc3fc55507608a1ba"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch043.pth",
+      "sha256": "f81ba9c50030fc8a619e1445f682023333a913d137bfc5e599200d5040977c86"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch047.pth",
+      "sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch050.pth",
+      "sha256": "10e517d5b924f4d5e1b46d2ed3801a0572c2249a54b6553e9910d3d2ba6736ea"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch060.pth",
+      "sha256": "613c5d61872a679d995a9cd3f54d7d0432b27f89b7d15b0046d5ca67b514d2c5"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch070.pth",
+      "sha256": "c3236dedc790988aa60fea55d96b5e09ac587d89852a530b66fa82270eec1923"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch080.pth",
+      "sha256": "9c0785bc0bb0e7b466be77ddcacf8f0235b48922833a21ca646cfead02321857"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch090.pth",
+      "sha256": "350118820965ff7ee0ecf9241f55389a0765205ba4ea284b6d2d1aaa6e1e88bd"
+    },
+    {
+      "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch100.pth",
+      "sha256": "5d0c3712b98459ca1f70cc2c9e8d1d72e6d50d6c74e80e3431bce77368abe715"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/all_group_metrics.csv",
+      "sha256": "46a42ecdd2442cd4f5e1f9816fcc1a8b0f49cdd6755713c9fd43e3c8fd105e01"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/all_group_paired_differences.csv",
+      "sha256": "2cd78e13abe5670a6d1546d0816705108ed3506a4e8298831996c6ee662c0370"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/convergence_audit.json",
+      "sha256": "92a3ef6e782f29d870a6181be525ab71ae5d3e041552ffa8184c88962e01b0cd"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/model_metrics.csv",
+      "sha256": "bf6925c5f241749308f2f66e62f69dcc5e7a168f06f3e8877b40df9bfb9310a9"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/model_references.csv",
+      "sha256": "63b6c0059b005ccd46cf2a153d765f01b94bacc15adc55d8dc7b1b1f10042f81"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/paired_differences_vs_Full.csv.gz",
+      "sha256": "331697a7f30d0ad30eb04150f211c6e0881c549d9dc021d6a2b0e0bfd8a1c1b1"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/paired_model_errors.csv.gz",
+      "sha256": "a0b5a59f1500b4f7f2ecface1d132970fa2d55764e62830a27d70ee37a79c7ec"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/person_aggregated_errors.csv",
+      "sha256": "9c15564435d526791221a6c386922d3997441a9014b9553c5fac5a58c30129cf"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/pooled_metrics.csv",
+      "sha256": "2cd671d9c82b4cd23b4576f3bd63b710807c2de33c5197493d78e63ef8fa7667"
+    },
+    {
+      "path": "results/tables/stage5p4/analysis_phase1/recording_macro_metrics.csv",
+      "sha256": "599aaf7899b12c2d33fa414937c3455e1101ae925479b0296518c857063738e0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/best_paired_targets.csv.gz",
+      "sha256": "5829d7c1fc5a3416b18846c258722e87e0d504ac5ab1a19bb57f796007097137"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/checkpoint_inventory.csv",
+      "sha256": "998fc1add526f42850d6ecd3ee099f84d210ec7b2e9cbc68b411ec2c8192b5ff"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/checkpoint_restore_checks.json",
+      "sha256": "591669a79f5b4a2fe7a3d48ac14e5cb2f67c4323b20cb20dde01f96b8c859cbf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch001.json",
+      "sha256": "d98ecef8c69164ae9a08ed229bb96d7546ddc3cb9e988e2c709032af7b824cab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "c611c6b35dc6d415557c474fe40046d72b799f09d94e5569901df8946fc08bb2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch001_steps.csv.gz",
+      "sha256": "6335dd82d3138d6c0eb53912e1fb4a0bd1f2e6b1427204b25a181330f25a749f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch001_targets.csv.gz",
+      "sha256": "11e0d0850febaf315d719d9750c077890377943b1dfbb258aaf3861770403333"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch002.json",
+      "sha256": "730021233823add1625c470cebb64a8737f7402c26685798a39ff6a4a46e3aec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "06261082ade5e8bad97f731d7fdf1ad7e6310b178590b8ee4873a4762e93b6bc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch002_steps.csv.gz",
+      "sha256": "7b7c42ea4a70cb18f2fad9c8da74f351ed659db217c8bd328f45289914f94726"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch002_targets.csv.gz",
+      "sha256": "aa26b83e648ede317fee94704d998346194d7e82cf34aaf7e0fdf45a71b98d5f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch003.json",
+      "sha256": "375af2b86a292a77f8faaf03b5c09f0e3bfc2982e0a9c677c1c4bb342396941f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "018bc621c3e87c6f53f53a4ae9c95f6dcf6921cf6cacda31a51ad284dad96164"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch003_steps.csv.gz",
+      "sha256": "667b5bf1e6075514b9788bb13a02f561689a3ccb92bbe25bc8726223b4127012"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch003_targets.csv.gz",
+      "sha256": "b5f29d6483647c063e484d8ae8a338f0269a2e0a168bf3d3ee3e66a1dd96959e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch004.json",
+      "sha256": "123df62e864bd3b105a29435f7f540be10c095b3852cda1861ae450f7f5d2034"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "2e74792da1a7c63edabcf605b4b383d9bc677246b42df8ce05ad046c0855b699"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch004_steps.csv.gz",
+      "sha256": "d7b4bb22f35a3a8382567c9877e1403da3f2e010e8ccebd9af998477217049e5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch004_targets.csv.gz",
+      "sha256": "d755272d642f95ac6daeb405ee6469bbceaaa4aac60b0aa16ed25747e133ccb5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch005.json",
+      "sha256": "a4abf152d2fc169e748c90bc593b10704b3162bd52e297de1a6f61956cb043a3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "3973eab5ff565b936014dcfc71ce4f946784caae20c4923cd662f56dfb898045"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch005_steps.csv.gz",
+      "sha256": "9539d2f1a0fbd446f185050f79918e94ff7599aa157f0c86099fe2f8c5dce9c4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch005_targets.csv.gz",
+      "sha256": "83204bd65b222686a6843e2ddc5127bcd775077777ceecd0b10663184c040609"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch006.json",
+      "sha256": "7fbd6d602b9a033577629d92c3c256f2e4624ad64cb11142188abf78f28c446e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "db9997264799696bb188108a05be16a6b2ba7866125c538c4cc1dfa0a184634a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch006_steps.csv.gz",
+      "sha256": "e4d6e38e39b6ae1c056e89ca97b3b3ac18dcef03a04da8d9bfafe55b86c0e724"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch006_targets.csv.gz",
+      "sha256": "098c74a605dbed076ad353287568df2406fd8858b21a82e0cc2c8be343472191"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch007.json",
+      "sha256": "95a7077d5158deace5b3c67b39ef9b1ae05fccfb53b81258a8bc368d37fc5699"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "83512d7693e783af981fa2deb97c67c40ad2503fe9241b7074664ef88b61e480"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch007_steps.csv.gz",
+      "sha256": "5f98de5a1926292910f51288c01a757cb33a428870d8db52cfd5fb2b278ecc23"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch007_targets.csv.gz",
+      "sha256": "d12c8836293c4d26cee7ce3bc291e77aa993de14074d75d16dce0b280027e21c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch008.json",
+      "sha256": "0bb586bfadd261d6ee802f1a9a64afb49371fe3b1b139b79a9a5e6bcd403a710"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "47a43283d236d8b86f5386479a984c6744b58a494f2ac94fb47c50620dd2fa0f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch008_steps.csv.gz",
+      "sha256": "c3bc399418fbaacc7796a90991cfc5254651a292445893fd27384e3f0381d1c8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch008_targets.csv.gz",
+      "sha256": "8c0d74a073929b02e76f720809f61be7ad44d18a4de77eb924f3e731a9ff6a40"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch009.json",
+      "sha256": "abd5b6104a4838c1c2ae24bd489d2d2c9aeadb620018a79b941dbc2a91e0a443"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "5ed3e95aa3de57669d1b471d58241eda67579ae4b22cf99399049e0c2ea0b313"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch009_steps.csv.gz",
+      "sha256": "05d5a5a8998afcfb4f4cdd95d409bbae21d601ba8a67e57d16d7d3fab2621282"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch009_targets.csv.gz",
+      "sha256": "b195471d0f4cf1ee05858176898c2bd7fc9d30afb0dfcc2dceb3b2dbd99df82c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch010.json",
+      "sha256": "56f45ac4ed8560eea5baafc4312387f77a1ca7ba94294bd44909ed9fbf636491"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "594dd249a491697f89cbbd074d31064e0998a10616fab1822f936f661486983b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch010_steps.csv.gz",
+      "sha256": "2006b14628082476ba3efc71cf23fd61ddd3fc332fd3d32d02d3a1716948c572"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch010_targets.csv.gz",
+      "sha256": "068aebef53c1dc09b8a4e5dc5e483623ad7f384b55869b30b6c08ec88bb35aaa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch011.json",
+      "sha256": "a0f6a64955dbfa960b6147eff1dc78e40808269564618306bb688cd8fd3d35b4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "0d087dfc39a47d375b5096a20a6b476ff0e7f842d9608ee82f84483bed9d522f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch011_steps.csv.gz",
+      "sha256": "fb651c5a0e503399e280bd18fab9a24975fd0e9756a877f600dd1374711a3012"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch011_targets.csv.gz",
+      "sha256": "3199e1b455d63347365fd4ede3012d4e18347fe968261ad846de993b24d9cb74"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch012.json",
+      "sha256": "794353c0420ea002e0b06971628296caa5ec65b228d45dd4a586fed918717469"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "72c150bcdeb5cdcc4970a9ed9f7d27b111d2071ae0beb70ec8d2e294ef817490"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch012_steps.csv.gz",
+      "sha256": "038a28d857a09b0ca07c5bfbac7832f2164c66034e691601f2efc93bd02fbab1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch012_targets.csv.gz",
+      "sha256": "f495cef6e73814d86992f21933a8f208aa1fbf2dabe17910bf7304d315406ce1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch013.json",
+      "sha256": "ca88cc51c398ae016e5f8bbe73279a7c668988a65bef2a296587a380e090fd3d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "9056d9f4ac98244c0d2ccd3301344a9b8f286b3b35a59227b5b6c9ebe0b03ec4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch013_steps.csv.gz",
+      "sha256": "3e4e7088881ff4fe504ff95c985dae6df347872a01315f37b47dbe96be0bf414"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch013_targets.csv.gz",
+      "sha256": "2951a0c246342210fe1980fc34fccb7e7702d4a9607bdf399781be2780fc4575"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch014.json",
+      "sha256": "d3d99dd8c22b90e6f7e4b081c7df5a20871d34c00605cb1fd7d6fba5e8a94aeb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "5815cf3e9360eb0ec676e6d95e673f2ebc3519525f4486e36d49fb904522daa5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch014_steps.csv.gz",
+      "sha256": "22b81338474444766d30a7dac092333afa8a1520740805e0451a4250365bd2fb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch014_targets.csv.gz",
+      "sha256": "eaffcb5d0ab164f899727acbfcae3c894e1d665306ea565e81c1ef0af1e8d842"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch015.json",
+      "sha256": "5929e91fa4fd6c4496bba6c1628cbfeba5ab06c34e5f9636cb5e70e73e657f7e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "97e86007e7b88a64dba8af43b9d2fbb6be91861f67bb7e8c8463a8111ea7a18b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch015_steps.csv.gz",
+      "sha256": "858ef42d971fe2a962d4e19f5c02140bbe03c1db72652f95fed7ae773841a53c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch015_targets.csv.gz",
+      "sha256": "3c6dfb182ee235667ebb46b92334c1e8981c8bc04570194d00806a04b3b5d535"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch016.json",
+      "sha256": "f6eef78df43c98f67612ecd0f59cc939f5bd90713a67f9d78c3bfb60c2bdaa35"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "f08d38cce400ce2b14518e6b8d4391cad5c8ab7583faab209bea41831220db0e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch016_steps.csv.gz",
+      "sha256": "f6f439861140f083b5e3b1992ec451887defd1168bc70a914d56e0ee07d8d1c9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch016_targets.csv.gz",
+      "sha256": "293d715f58fc43ba58cf84a0e8bbd3dc548ab4d94c9b43f2becca8e25d2b8166"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch017.json",
+      "sha256": "2de283bdb6d04e9c7f6267dba0ed9401ff1eba969981638ca8f864e14767986c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "ad305e18cdf4ac938baab05cad9b6ba7c14c4a1ab68c038932f81498ba154baa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch017_steps.csv.gz",
+      "sha256": "b13e8d5e4804b4594e21a6291a6c81dc80f75f7ae2ce3ca9ab60e55240e58eae"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch017_targets.csv.gz",
+      "sha256": "0f1c3372ac46a723903cf0413be5b8e46f65196f841e8c2ddb36e31f399f431b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch018.json",
+      "sha256": "8c4281b70543aa9ebbfee1cfbf9a83ba41b3e8e5b91ed446abe66e9ad916d18d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "81919d3ac0f3b68f8a2b0b05ac65d60f45246437354fd4ceb6d370598b99f785"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch018_steps.csv.gz",
+      "sha256": "8eb587e01b7192da1be71f5ce67ff7a25dfc1497f846a962e65da1b0bc2663e4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch018_targets.csv.gz",
+      "sha256": "acaabf752966fe9e60082e347b56034599970ec4296398ca94461da7e61a01da"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch019.json",
+      "sha256": "a8a50bd688de3fefb9963659857724465f2362a61fdfe2145c544a5805dc1b24"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "ddb1ae800a2c5442183736da1c4ef9331ea1ac6c4892fe08d3f83cb446826bf0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch019_steps.csv.gz",
+      "sha256": "8ac98389573335ebdf561db0326fc45c44072debda16a60d0db891a623f74409"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch019_targets.csv.gz",
+      "sha256": "0ef5371ccab5eda042a6db131fbf1afdff772d5872ab42033830a1826b3b0126"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch020.json",
+      "sha256": "9315f6c360c770e546172ad584909a362ae083c15640801657f0025ca8eda302"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "8e00b3c5b1ecfe5ea4055d816fe40a4d4ddb08f872d90b5546f0bb90edac12e1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch020_steps.csv.gz",
+      "sha256": "74d7866790c3a8dd2044c4428d42a557ffe138cb7b8c89abf0a893c89ef949c5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch020_targets.csv.gz",
+      "sha256": "e49d0540e1f0730ab6af9020da1416ac962552cb0d8d4db655ed183a9e33a503"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch021.json",
+      "sha256": "9d6f884a8438b3ad70159ebc099358ec2a163706f8d1317f0c4cd89489190436"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "7838bb8983d616d400fc93aba03938b0a5578e8851bf4fa844d5d052e5893a72"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch021_steps.csv.gz",
+      "sha256": "168c6c54387a5062543a13d420053dfa5ad155e5677ec7e8ac14ba9495fb4d76"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch021_targets.csv.gz",
+      "sha256": "258ee31a3895ac952901f0340fed7c7f349d0b799f182793e0a22b31eee7eb09"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch022.json",
+      "sha256": "8c9d5d94be84a78a994321f8ec3e25cd0848924bfc3815b33ad9d25a60e1b4a0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "8bdb75e18ab6a87f592195c0be6d84194f58fc2f6ff43ead886f1563892cc92c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch022_steps.csv.gz",
+      "sha256": "9ae8dcbdab924bb62b3ab0cc22ec3367aa6a76fda8dc9a83500d785b376d4a38"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch022_targets.csv.gz",
+      "sha256": "94872f1e1b3a92f3647eb3436bcd4aa2dc192319a4069bf847e9bfec3f1705dd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch023.json",
+      "sha256": "1eb905033aa5c1047147ca50653816977e5867750bc018ae0eb83721cd8bfb8c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "fef92d16c253abbc3823d1c684f2edee54b8711260e2ba91ea16e4ecef4cdc9f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch023_steps.csv.gz",
+      "sha256": "dc292fe4db2aaa279df45e3ad8f65f11c0ac62b9594967793328f8c03d0a75b2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch023_targets.csv.gz",
+      "sha256": "db5e995e5daa15942facda2307e50905cbbc72be06036e091a0249289e4adc5c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch024.json",
+      "sha256": "1267575e6d05ca37ca1eedc226f9a907cf1f8f06d4c1fc6afbf9f7f5ef02df99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "098a8bb81e83ad0d1b7fe662bb7046a3d8d57e6a97754637f8ea3f7c6c055fb4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch024_steps.csv.gz",
+      "sha256": "36b6d7ee20e88ccd42a6ecc4787fd70a82573288f110a9cd642832b6d2c712d7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch024_targets.csv.gz",
+      "sha256": "ef1c5b9e28c52e986bae4057e7edc0caf5e049cfdebf84c7925376b45ea4b13a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch025.json",
+      "sha256": "55ef2c8b41904a257ad82e0326d798a68d3ac964d0a4ede49de3021f6efd65bb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "ec0e75b2950b920a0dd7c84fd1ee8220ba6e22096db1d4dcde7748740a89ea8e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch025_steps.csv.gz",
+      "sha256": "8aa9912accef791caa2f971617fccccfbfc12049552d26baa992c0e544a704ac"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch025_targets.csv.gz",
+      "sha256": "fa11e9e08574e056d7cd8bfb044df73f6f1e773a8ea0b807bda00931c303785b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch026.json",
+      "sha256": "0b17fb268f0fbe4223fb7b69cad485cbefcf37e0aba95079e8262c517b4dfd27"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "fc038f242fa7f0309c1d638f91f2c54e1dbb4bbb262bd2f06ec964a03b981f47"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch026_steps.csv.gz",
+      "sha256": "dfa96a4eabbb9796f2c8e81fd8209ded3e2f2c053b0d29ca73817f245cbe4a25"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch026_targets.csv.gz",
+      "sha256": "134685eb8101755a062254163b6486daf6cdbf52115e2af2895451817be492b0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch027.json",
+      "sha256": "355e87b27154678d9c906df0cdc96b0f13f90ac24a49b6a0f1cb1102131e5601"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "9fe36f72f036fdf66177c59bfd880c895c741fb332d6a7b057ea0162c09b4e49"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch027_steps.csv.gz",
+      "sha256": "3e908c9c6c4f894d9903fb6ac7b0fd2bddbc0ff60e53ec2b5f83fde0ae72ec73"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch027_targets.csv.gz",
+      "sha256": "939da054707b2b1019075d2049a9a75e6c6813d5af444e4156cc1707f6870a91"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch028.json",
+      "sha256": "31761a5b9190ae8045246a296af4431d24e6ebe880a2259e8accb0a52f2f11f4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "b92aa655daec37d8860fbb93f0c1948aaf636dfab0098962e0742df836fdba22"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch028_steps.csv.gz",
+      "sha256": "036a3f18d6218bc48040cdc34d1776251eb1c510bf98d35f8d95bd7973f79331"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch028_targets.csv.gz",
+      "sha256": "6e672c1f62b1dc3b8bdad9c119de09e3e1a25bc515d68e36de736d752d73cc1e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch029.json",
+      "sha256": "24f706df8dc26c13e021046eb4467ff00a9d1c47a333e13d1943237c988c6483"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "6d6b7d670a3fc89904f8d06d5fa2d8645e162785f7d1c2502daec1af3603d418"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch029_steps.csv.gz",
+      "sha256": "4803e094994d17a8f9708a05780e1d53868bca0d8c1ae01282cb9023f3305b1d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch029_targets.csv.gz",
+      "sha256": "6fc8260910094660f5ca7c678d7d321b5aa7a31e8e09caed1dad8d11a329bfa9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch030.json",
+      "sha256": "6d12d92ce73eb1db61f7cfe6c099557a9a3f47f0435a4a68051c02e38e43f282"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "5d0db5f04d90f128aa6f04e823d4b24ba27fc672b4f550bd8bc055cb7aedcdfa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch030_steps.csv.gz",
+      "sha256": "db1617fce2b512d756ce2e2fc822766695607ea44aa2643bb2838889edbd8e50"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch030_targets.csv.gz",
+      "sha256": "7843c06ddef25810a38b0e16c0a30df3d96c9247b0c288c1589b62f2d01de4c8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch031.json",
+      "sha256": "3c5143986216b7cabdeea41e960bd08dc75c644d0f48e44d82ce804c283655c2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch031_parameter_gradients.csv.gz",
+      "sha256": "f7d4c6447f5c00a578e7d1485a73e1fc2e2b27a4911f0889d981f4de3871ab65"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch031_steps.csv.gz",
+      "sha256": "d49db28291479e9a3ae7a33fcd2be869f4b21ee5fd680a6f3ccea0c0cd95f4a9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch031_targets.csv.gz",
+      "sha256": "acce0a41cee01dd9940bcef0c8fb8b61ade740cfd27c8c61fcac5ced2a7c08bf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch032.json",
+      "sha256": "ef7ad84ae5d8d10aba92df92e1e07852e73c0fe7df72405c495fe0ff3caf3674"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch032_parameter_gradients.csv.gz",
+      "sha256": "69e733197ca5f1d85c6aea674ee5fd0c0202182dd9185a43c03562953a29f745"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch032_steps.csv.gz",
+      "sha256": "7836138f31dd8dd4edd6c06227df96f8e35cdd7c2b8412da2faa1a244fd18df2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch032_targets.csv.gz",
+      "sha256": "2c6a80e3a1bdc5f5676ff26c2b005fe3dc3b9b0cc78b1a164f5bf23811dd70d3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch033.json",
+      "sha256": "428c45c797f3ffa4309ef28c90477691b513f9e765964a7cb4842b7f10916e20"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch033_parameter_gradients.csv.gz",
+      "sha256": "e680581edc9dbdf2f1ade5dbae29b9659a33598c9c9a9b1f600115ee1e2daaab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch033_steps.csv.gz",
+      "sha256": "441c78d3e2a6141ab04cfa85005265cd26b0f00792e4192e59f862947ed58c8e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch033_targets.csv.gz",
+      "sha256": "268e71ead3cd4e79baac28332b4ff955f6890c2e51e42307eceab429a7d52412"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch034.json",
+      "sha256": "9af2e4ec94044c40f74961f07824dfa9612d567839570f01e9d9559ca38b10a3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch034_parameter_gradients.csv.gz",
+      "sha256": "60ec3f2b8ad0e51738bf2ff95611e378339cf1b897730a327f2cae3be4975c7d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch034_steps.csv.gz",
+      "sha256": "4bb43127b71dd5c7387938bff52ff250a11d8d1bfebae9cad4152bc689306f96"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch034_targets.csv.gz",
+      "sha256": "500b2d71ef2aceec0790dc88812892247adb2b3ca555c4409b16d372d83eba4c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch035.json",
+      "sha256": "dc4fcc64432ba3d75ad9ff6d47fd43963d51c0f33f10fea1e08a55c60de7d359"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch035_parameter_gradients.csv.gz",
+      "sha256": "c68bbdb1f40f2dc7b306170446c0e0989a0654a2b93e449be6ad38db50c6b19f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch035_steps.csv.gz",
+      "sha256": "a0c8d47acf747368688bef0d4cbe91341982e43f0d5c90974b932bd9afe9f8fe"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch035_targets.csv.gz",
+      "sha256": "d23307ece1feb033781d9c3a2a420aa82132dca65021f1fcf9266761df81005b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch036.json",
+      "sha256": "91e8f93ee9c7cfc771fb7efa81b4504ea0f22ca4681ee524789695cd6344942d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch036_parameter_gradients.csv.gz",
+      "sha256": "88b1c349b4eaa9cf1f1b143f31c9c5b0974fe72d6973a7f4430c0472ef5a5014"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch036_steps.csv.gz",
+      "sha256": "9d8e3b03f2e358346f8758420baaa8f6ce500ec6fd784f4be419593544d54f44"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch036_targets.csv.gz",
+      "sha256": "609d255e226d9eb689d4b49df12fd475006468ba5dec62709683f18eff7dde45"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch037.json",
+      "sha256": "19026457f478df4b530a99b2a9c7cc0972aca3dd2f572f5b985aa2d5d2626ab1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch037_parameter_gradients.csv.gz",
+      "sha256": "bc7c4831c8e230ca35e6137597bba80b289e0f9a1d3003baa548b7be52b200b6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch037_steps.csv.gz",
+      "sha256": "ca054d5101b506142cbe9596220187d6910a7f6bb3055e536cb579ff8f30116f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch037_targets.csv.gz",
+      "sha256": "fd81f039e3815df698aa0d36b4319f72c9c433402e8ee5b088f09af41af5fab6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch038.json",
+      "sha256": "3ada068f9a97327502725befb290b1aff7b5c2371912e86c6f6269d54eb03dbc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch038_parameter_gradients.csv.gz",
+      "sha256": "10095a821db1e817bf4adb8b2e1e0480c56d55e59d0d4643be59e5d5c73876df"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch038_steps.csv.gz",
+      "sha256": "e8a076b82b97b7f988b70825405049fb41fbea2f4fe6f4395062d9a243a10826"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch038_targets.csv.gz",
+      "sha256": "8d306de080d9179df0c92d8e43516b541c23051f8d2bb4eece9b815c889b32f5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch039.json",
+      "sha256": "a059c2deb8a68600bf8c8eb58c9145c6bec8a63409cc58cdefd80a25a897ee4f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch039_parameter_gradients.csv.gz",
+      "sha256": "72ca9979d547da47fdba81574a041ec5dfb34ef9e8cb96abd91574d0d30dd8b8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch039_steps.csv.gz",
+      "sha256": "9d3e3edb27ed31f062b52bbaaf88ef748d37a685a817dbb8aaa4309fae5b359c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch039_targets.csv.gz",
+      "sha256": "6c367976a28131b5b028a66da18c53616808dc28062472355448e975e0e38daa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch040.json",
+      "sha256": "4ba700a6b6b80d97b3ef39c2f58f985cc18a14c084a76814c3ae94568bbd378a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch040_parameter_gradients.csv.gz",
+      "sha256": "340bdd716a46f91f48069989873f12c1e6f5d07f153b53bc8bd47510b0d6b800"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch040_steps.csv.gz",
+      "sha256": "f91cb743b43380b6b776539d51044c03ecfa4d3e95d65a8ed4f90b5d9fd9826d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch040_targets.csv.gz",
+      "sha256": "ce132f4826e8ebe002af85c84a0b7ebe517f8135a250709458fdb44343c68705"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch041.json",
+      "sha256": "c8a314eb3941c6707d2aa61d7a92b113d375e1b1ebff99d7ee49c87b6ddecfe6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch041_parameter_gradients.csv.gz",
+      "sha256": "ca2c4954651da3160b67a117c2938879aefb668c51d7fc916d281ef111832d7c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch041_steps.csv.gz",
+      "sha256": "244b33f0bf76a5de40edaee6dd27e68b781fb3c50329e3482a5745e5980612bf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch041_targets.csv.gz",
+      "sha256": "d74e5ec39a2703a2f258ce6c242caff6ccc7bd9acae158807bc2787393b6a990"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch042.json",
+      "sha256": "5d34a1c689b7f8ea53a893cfdc282786db8b15a0a3ab111f59f8e83d1e943480"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch042_parameter_gradients.csv.gz",
+      "sha256": "65745c878bb15d57ba62466bc41cb9e1fa7fc226de7a6e6ab0611b2138d8eb39"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch042_steps.csv.gz",
+      "sha256": "7e31df30752985252f2e468f864d27704402a2286b71d182df175a940b941f60"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch042_targets.csv.gz",
+      "sha256": "d4ac95e12699998abed10875825343d14bb109463880a56593b7406cd12c8ee5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch043.json",
+      "sha256": "4abc02aacf1104f519e3dff9e50bdcac4e34c2244a6a503d6d48f489278cf5ea"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch043_parameter_gradients.csv.gz",
+      "sha256": "176e64a0ccb4cce14eef0e6221cfb78d7b331b55e4075199ebe3b2a737039d68"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch043_steps.csv.gz",
+      "sha256": "8935de8723fc241fca1f6f6f2e8ba6f7b105d329438ba1153c3b077ed8d29301"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch043_targets.csv.gz",
+      "sha256": "3073ab70e411b79ce886950be8512305542ce4c87a48984aa4d74e3be9bc134a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch044.json",
+      "sha256": "f59db734b9360224bbc997f2d931177eae191661e8bfa9fec7c6c30a7fdd292d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch044_parameter_gradients.csv.gz",
+      "sha256": "fd1d72d227ffefcfc6ecf9969acdab0547de0fdd2bdf2b17d38414e9f9aff651"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch044_steps.csv.gz",
+      "sha256": "4d44bdaca64cb99074188c54f66e7f958b6db42bf86393588651d27e333c2f8c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch044_targets.csv.gz",
+      "sha256": "fdf25eb88afad82f2ed1f97de3f5ec8c7d4cd55ef63fe3ea2091969560820784"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch045.json",
+      "sha256": "3d3389c22e841e16984183ea7a83dec71e356ff6666e867a268795965d4f1fee"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch045_parameter_gradients.csv.gz",
+      "sha256": "f012dfbbeb5c0a2c570c5040d94979f4161dce930c7915561573c39f6c2d3cd7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch045_steps.csv.gz",
+      "sha256": "6430a12a125f3f949545139bfa0a6666d316b32a6932978d4781c8a5625f7a38"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch045_targets.csv.gz",
+      "sha256": "7540f264b130fa06f4c20b27823d11f7e7c16ce579a085606980535690503fea"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch046.json",
+      "sha256": "b8b09623e4c38fd8dba19db2099bec7cbc3a3688992860301a5fe33d273d3584"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch046_parameter_gradients.csv.gz",
+      "sha256": "b3a693946f3bb4f0f5a5ff88ab0ff979a3d772927c10609aec1c294b42d2e1ae"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch046_steps.csv.gz",
+      "sha256": "08cf5f090c8ef0b874beba5808cc941af1392e5642ebefd4637ad0f401427d3e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch046_targets.csv.gz",
+      "sha256": "737223b2f6215e171442504ad725585d62b80a4e6c59b6278d1c935cabf29745"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch047.json",
+      "sha256": "5955163e6663eaa5f3541e7f04e010b15b4d913c920f01479891830512781f13"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch047_parameter_gradients.csv.gz",
+      "sha256": "c9a799f2529dbbe1a2833b2263b2b8f9edf11fabf575ac56c355cbb239e10392"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch047_steps.csv.gz",
+      "sha256": "658c734eae0206b75923155dd4e7b81fc62e792ab6647c4d9cce06bfaadf9076"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch047_targets.csv.gz",
+      "sha256": "ab07959c60aff906483eabdcb66b584ecf3a5b20c89e870ef0b07f8942ed6114"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch048.json",
+      "sha256": "559ce9b0e687de85b99b6739b5fb402e25221df97d21f7322bd20ddde3698057"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch048_parameter_gradients.csv.gz",
+      "sha256": "1e72b39b0e25d6cdd81f1c342f12becaaff41465914c4361033f7785380621c6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch048_steps.csv.gz",
+      "sha256": "2ceb1605af2f2d71ca2c972ac8993d5ed23c7eae5d34db0d30e4cdcf3cd7287a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch048_targets.csv.gz",
+      "sha256": "5ea7f0a536338c269757ad53620a7ec7bd20033707bfe73f57b2410e0d7cc1a7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch049.json",
+      "sha256": "7c31e156d259cf6f169a4d06aa20b138ff0cb55326eae3833ec0edca05878da3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch049_parameter_gradients.csv.gz",
+      "sha256": "066a20496b2e59ed747241bcdd1c147c8df8fa02883bcd434323f5daae924408"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch049_steps.csv.gz",
+      "sha256": "7a797973f22a47b243ea8404597fd1411560bafb9eec4c38fe7425fc2f447fb0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch049_targets.csv.gz",
+      "sha256": "40c6043bc1bbfac7afebee33ca06aa265d4fca9b79c51375b734512cf363e905"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch050.json",
+      "sha256": "339a6ab4ee3f33b9e69ee762aecea32e9e7756aff358f38e54647eb760848447"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch050_parameter_gradients.csv.gz",
+      "sha256": "65eb31bb5ee20783a2c799b5725db375d4b099b558202907eb0d23686ed21e20"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch050_steps.csv.gz",
+      "sha256": "634ec2edca98e0c5928a24bba3ae3598b4357284e2fe67292149e4757dbeb089"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch050_targets.csv.gz",
+      "sha256": "56e2b942621d5eb86b35c742d55138382d1d8c63e5d21d0eccf4a4e1f4eb3767"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch051.json",
+      "sha256": "b291cb0b87cb6b8a3991e63b0e38a64277558878315ee5f95762a3a6be0ca05d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch051_parameter_gradients.csv.gz",
+      "sha256": "d018f480a1fa88ab878fc384183088a3f1eabc83317b0983f3406c1059a5773b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch051_steps.csv.gz",
+      "sha256": "85f24682ae00257f9d6d8a74cf02b43537dab5160a08fa8d2a62b788cddc574e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch051_targets.csv.gz",
+      "sha256": "ad6a9e7835a1517299916fd8e9819eaae02acc6db3221534df487181bd14e292"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch052.json",
+      "sha256": "1a44e2e4d22bd6ba4696fde4bcf8b83dd13116767ba5132a7cb5d7486959c692"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch052_parameter_gradients.csv.gz",
+      "sha256": "d707e12ab2ae0ba8ba811dd47fa1484691f0a6406b230ef02853a101a8a5cdf1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch052_steps.csv.gz",
+      "sha256": "1482bbb768e2ec8c712cb5563a0171fce327bdf89c7b9f586ce5d9005d632a96"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch052_targets.csv.gz",
+      "sha256": "f95588238776e999df590094b8f17af6e81009131887845ae5504258f57e5e2e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch053.json",
+      "sha256": "f354285fd28676e76e8579eb8c6b8b722e852ddeaa709e8d103db3a2943d085c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch053_parameter_gradients.csv.gz",
+      "sha256": "e531db2e9dc729f4036ecc6bbfd7e08e7da713a7ab1e6905909c02a08768d8ae"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch053_steps.csv.gz",
+      "sha256": "bcf886ee5310e79c3c165dadd472bd20e457476d9c87e776825ae35af7118000"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch053_targets.csv.gz",
+      "sha256": "f9c87fcfe89412e5a69c8b6dbdb5ec961a3cb3975cf33e9704c6666475fe0afb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch054.json",
+      "sha256": "968919d8a5adc6554bec6c5d7479e3004ce18e7e0434b491dde5fe1966298629"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch054_parameter_gradients.csv.gz",
+      "sha256": "3886a03068f9a295da497626262f91b0f495dfe3a3c8a05f8ca8e2145b210087"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch054_steps.csv.gz",
+      "sha256": "b179ddd34601d6e2f5aa2bbe17b89c9f27b33950340bb718de35944001823e10"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch054_targets.csv.gz",
+      "sha256": "1b6ae4ce6cbac4b07caf370e5a0ddabb934e4d33fa93095a860ccf8a15f3b344"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch055.json",
+      "sha256": "03c83fcc5f7e0ff4f8a36f2db526b068fc40eed4cd7852bc283402af1df1b200"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch055_parameter_gradients.csv.gz",
+      "sha256": "f7f7c592f88cd904891e0975d9c4dd1d95716a9c0dca4213c6659fa0c777d914"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch055_steps.csv.gz",
+      "sha256": "cf8eed9f2c51f948481570561cf92c7d7cbbb9e529bb8375e7124bb9453a9799"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch055_targets.csv.gz",
+      "sha256": "a7bf565afb3cec64cffe0d2e6c60814ddf24de09a057e8227ef8fb62bdcbb59a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch056.json",
+      "sha256": "262dd02ba6c8502c9f9f035a57cc102af1e767a966d97bd5b786acac473378ad"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch056_parameter_gradients.csv.gz",
+      "sha256": "a8ccddbe4d48edd112b392c4c7bdffbe0292021aaaaee40e918e3ef87b1e784f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch056_steps.csv.gz",
+      "sha256": "dd18e6f072bf738ead11b9fa4c37099a8ecf76fc303c1fc03dbcf9083e2759a9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch056_targets.csv.gz",
+      "sha256": "a3aa1894486b492e6ae5305504c936da350dcea7a15c99d2735b4a8c0123139f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch057.json",
+      "sha256": "2df9800835f01f3713151f46984fb977cafdd86de76ba2a75cfcab612471d85e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch057_parameter_gradients.csv.gz",
+      "sha256": "6e72f02e1ba951cfb10aef2374999a980d1ad8fa17e607fe7cf7bf08e3b9f858"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch057_steps.csv.gz",
+      "sha256": "c4a9a46da11da33add243d357e76d6c05bb975a28b7f39902b6b106d585f09c9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch057_targets.csv.gz",
+      "sha256": "1668a37d7aa5b9520294f73c0f813ee182032d598fe08872023712d59a7b815c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch058.json",
+      "sha256": "4c244c83123090a6bfdbfdd6e2fc7ca4d675ea9331bb9211150d975616df2aaa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch058_parameter_gradients.csv.gz",
+      "sha256": "0eae2d598144c29a253b9a2d8833c2a753e8630104aa2bed9b84ff49721dbfc9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch058_steps.csv.gz",
+      "sha256": "7c454e455e62a94ca21834d98560392faa0a4ee14a1bc15d4117c4a14d7bb8be"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch058_targets.csv.gz",
+      "sha256": "7a9f1cc763f3f5c94a8967ed51d7e00ded489aa6a538cfe9d10f3af881044b2a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch059.json",
+      "sha256": "7e9bed761d0c5b9350a00f3bc7f14830dd975ec3e0f05e8fcb04ce4ee34935d8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch059_parameter_gradients.csv.gz",
+      "sha256": "c44a473180681b4df694420a847465c144fb200ffb1479eeae771fa325b04ea4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch059_steps.csv.gz",
+      "sha256": "62f81970aaf47bbb8da877154dce7f3fb45807a4f19423dec65a64e41c97e293"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch059_targets.csv.gz",
+      "sha256": "37250e1fa2ac7ccdc923d3031ae3b2b9e9338ce7cc057235c0379230366e1ee5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch060.json",
+      "sha256": "123a0297f6f5dd33416996eda86abd299e2a803f5d3f01cac700e4c6d9dac145"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch060_parameter_gradients.csv.gz",
+      "sha256": "cf0bd0a6d6b354b040650e814f1766a7c06454066621f0f1392e89cbf6deb00a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch060_steps.csv.gz",
+      "sha256": "2831a9eafc536123497433c8875db372ea84981093ad38370e714b9fb6dcb862"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch060_targets.csv.gz",
+      "sha256": "b64dbf96ec2598b7363c1cc0d633d0ee03826c54983179fc23a0ce0906bdd78e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch061.json",
+      "sha256": "0060ad8453dae7bda46265922c92c3b7ea0175814ba867762b390f3d9446db1e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch061_parameter_gradients.csv.gz",
+      "sha256": "447df18555620df77a65fd0a5189e64ace54736ac618265ae86d22b86436b4f6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch061_steps.csv.gz",
+      "sha256": "465926faf74bdbc309e7ee9f8fbf3183bad9aaafd3db2affd5c73355f46d69b9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch061_targets.csv.gz",
+      "sha256": "3d7be36c0d6ef6d7703aa6c9605c21da1d6bc0eafa2ef48b80e78ca9faa17b4a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch062.json",
+      "sha256": "ae35884ac215ab4b69808eae94c8e2f39046500a4e76463f4a53f6f990429ed2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch062_parameter_gradients.csv.gz",
+      "sha256": "48d0e4adbbf8a3e3b447c188b620e92128f1ca744c7a884934c9af31c66fc577"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch062_steps.csv.gz",
+      "sha256": "774723aa6d35252279fc0895a275507dab5f1a5e4330dc3fbd570edfa3de062e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch062_targets.csv.gz",
+      "sha256": "d5995890d6d446ee65cb0ab73767cc6490d17c784093e56ce7d92fb01c5e50cc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch063.json",
+      "sha256": "0b40443da6989d692110291b6734f5e1ff423e4783bede7a5c1629c43e3f2c3c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch063_parameter_gradients.csv.gz",
+      "sha256": "bcbf19fb24b763b7e74f943905a42a0f2ca1e006515f74e1bec3e542bd0734a8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch063_steps.csv.gz",
+      "sha256": "d7b8f94d7040ee731ebe2da0cbd0bc32f2623adeccf8da96caf261be01466aaf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch063_targets.csv.gz",
+      "sha256": "ee603087bc5f4cb16f0b98677cb0a89729645efde7f88aea699f8fb3ea99091c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch064.json",
+      "sha256": "689799a0ddc69df12f593ad7586d976117a0e67fc68f776b17f838e2b7e49f6e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch064_parameter_gradients.csv.gz",
+      "sha256": "51e9fb4f54b2cfa4ebbf2938508d05bd488a827b28c43f33775e978c4f64e6c6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch064_steps.csv.gz",
+      "sha256": "2fe62c1be66cb50f46b19d6c7ebd09dc539b6933d98504d585c5b433d6943fed"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch064_targets.csv.gz",
+      "sha256": "6d9f8fa42ef1f8bfa5d97ade7566cc786cee938361c7a949dd868342aa13dfe3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch065.json",
+      "sha256": "5a06427078ee2dee08ed78ad8661315b706e1bdebf05014a80a3daac6a4223b0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch065_parameter_gradients.csv.gz",
+      "sha256": "7e6d3744f7da5509ddd62f94b3b157c9614365e23f2f02fc2b507b25743c86eb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch065_steps.csv.gz",
+      "sha256": "9617e7abea3c4e2e93d80b7091021e575948f9000f0de389a7300b4083cf45bf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch065_targets.csv.gz",
+      "sha256": "d4b5aa1afb4d975e324d259e627b06db3da80ed618344ee874c6ee957f48e159"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch066.json",
+      "sha256": "f0267087f5238b408f31059f027e7e211402831cef1315ce2a73c6a404b1d1c0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch066_parameter_gradients.csv.gz",
+      "sha256": "c3189a6abe3051befa606ba1764de5180edadf6845b5760199bf73cea61f3196"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch066_steps.csv.gz",
+      "sha256": "bc2e9c86bb7e1ac0da73bd58a9387125c1c128d0b2d2cee6c78fddb21b44d1c0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch066_targets.csv.gz",
+      "sha256": "513ad20a9f21fae655bee0247f3afa817c9ebbced2325a81d288232888c801cc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch067.json",
+      "sha256": "b24a86473365118a8d1827305a4a2d72fe6472925b10077e3ed8a9fc4bc4e244"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch067_parameter_gradients.csv.gz",
+      "sha256": "986156aeb49e31ba59ff1e4328f151dec49bdb1f7c3b068ad085c3142bbb3968"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch067_steps.csv.gz",
+      "sha256": "ecd6a9df9ef528262d1ed7c721c60bfde45f274f74ced4d2e465815a237a36fc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch067_targets.csv.gz",
+      "sha256": "9693529a49916ee5affae9a54e8dedb1d32867e1e6305741eed4ab963a403663"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch068.json",
+      "sha256": "4e914f519e16a5bab44569bd47762660ab8a35c0a0e0e13206894700bf952668"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch068_parameter_gradients.csv.gz",
+      "sha256": "81e4ea293ef7eb591e2710c61dcceeb007491468e76cf8572aa76dd24b7d4b14"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch068_steps.csv.gz",
+      "sha256": "7471fcdbbe2593f5916be702a0875a510759cbfae080b8ceaec1d59f3504c30d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch068_targets.csv.gz",
+      "sha256": "33dd22bb2b50ed5211ffab458ce3f7336288a7796bf3380003a7bd5342879a4a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch069.json",
+      "sha256": "3cd364afe5d76ec3a5ff6674a10fdd431325663b706b64ff0b18d2f7f5871443"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch069_parameter_gradients.csv.gz",
+      "sha256": "a41b239b0a109cd0f63428f4555945139b10e02a9b66ae422b33f8c1ea21755d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch069_steps.csv.gz",
+      "sha256": "3246b27bde0fea0db8d866dc985b3a787b20af95d487a1411b6a6ceb848d8c06"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch069_targets.csv.gz",
+      "sha256": "143e6657d771e531e9e4db1c3502e7227228621120bf775142c7853027681d9c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch070.json",
+      "sha256": "9c03eae636fe10c76602476cb4804e6af9ddc57cf65bd1e1a9150860bde41d9c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch070_parameter_gradients.csv.gz",
+      "sha256": "3ee0c26c5b8426a20ecdea6a47e657662a7cec54d2fc5a25b8539b91527ceda0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch070_steps.csv.gz",
+      "sha256": "0c537e7cc6113debc341670abd302983be1b0aecd43b68c86beaa2e0ca2844dc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch070_targets.csv.gz",
+      "sha256": "53c15a9a06a81364c80e2da210e1e0a9ada3abf0b18e63c8c8c1e86b0ec8166f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch071.json",
+      "sha256": "294f01dfe3fdb194c0e6d9540809a5fab1ff5055a57642431be9bd65468a755e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch071_parameter_gradients.csv.gz",
+      "sha256": "f3366e23e2fb1f8aa85db2000a3d68c78768391ca5b1c5f9d6490bb46bc816f5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch071_steps.csv.gz",
+      "sha256": "dc5dc725085d48a2bd0c156101feb5a341497f4b1772c9c8e05bafb210c204b4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch071_targets.csv.gz",
+      "sha256": "7f825af3e02faf1bbbd67dad2fbda0532096d5656229664457e2868f2af68a1c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch072.json",
+      "sha256": "f36cfc94fd85799c97dbd1670f654989b1f0690cfba52c16e58f8a5979741aaf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch072_parameter_gradients.csv.gz",
+      "sha256": "081e478f94366b807740662de1cb1819e8b7722052ff156ad9810ebee5642145"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch072_steps.csv.gz",
+      "sha256": "8d133c030dd8d0a42ce0461aa6cc6d56bd48b37f17a1674290b9edd349c1555d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch072_targets.csv.gz",
+      "sha256": "dd604ba85f5e46e3cf332ce738a4af74030b1a989fcea2feecaa7afd8d3dd65d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch073.json",
+      "sha256": "408f6ae98ccd1ff33aea67e570bcd54fdf4dc1dec62050cdaa3892393e60dda6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch073_parameter_gradients.csv.gz",
+      "sha256": "1b3220cc6abc194ea3b7b231a74b8aa4d2d4db1dbba7d90a5b6f2e21d118a582"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch073_steps.csv.gz",
+      "sha256": "12b1d9ef99314ec467022dcd1149a1b400aae0600ddd26821827c7593dd50ec9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch073_targets.csv.gz",
+      "sha256": "67851f8d261a508df8a406d38889f1b7ff1e33e40a3ef2cb50347fb0d4650df8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch074.json",
+      "sha256": "0c0103126d52b1ee53849fa37e57c3e398119c41c27d51215f514c139e777579"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch074_parameter_gradients.csv.gz",
+      "sha256": "6df39ea5962569ec4cdfd44fdb4f78fd08fc6fe7742d3c5f6a098ebc4e028458"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch074_steps.csv.gz",
+      "sha256": "7f93dc40f1463951beac21461353dea773bc0bc2d8a4f1a3be64b958241e882a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch074_targets.csv.gz",
+      "sha256": "308e86b4aa85d58db44ee113de82b06ba6a6f40513807b8be714d1f19c84641c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch075.json",
+      "sha256": "fd756968e29550066e6b40355b2304689bc2632a61561d78a372d3703126db72"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch075_parameter_gradients.csv.gz",
+      "sha256": "e13ec0d3b57135d6058deefc252685f073591533f45a16f03a4dabac7ab7d41b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch075_steps.csv.gz",
+      "sha256": "a856b58d0b7b001688b9ceaf99b370b8703a597f35fbeb4d6091d3501f54fe64"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch075_targets.csv.gz",
+      "sha256": "82bd20840134869d0b503da93a7063f0b1890570005f6435d057c1522ade472b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch076.json",
+      "sha256": "5e13c464c5d98e2ca7787b433b0cc3822ce4f1302681640291b21caf9601f494"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch076_parameter_gradients.csv.gz",
+      "sha256": "50a0b1583d417a306768b1d2126ac5786b2e44fe2efc2bfc4e641e39833f3d97"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch076_steps.csv.gz",
+      "sha256": "f2dc2cb4365f016380d40bc6fad2d2bba922526766122c774ed2ead4413b4e26"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch076_targets.csv.gz",
+      "sha256": "cf2cfe95b5647cfb2a4e3536bdb91fed6b60723b22e26088216b27de5253542e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch077.json",
+      "sha256": "cdfb55f19b17f9072a2f0ccbddd249993f49ef2955b5b9d289ecbc7954e13e5a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch077_parameter_gradients.csv.gz",
+      "sha256": "5231e1c4b59eebfb0fdd233f9316310d8746749ed7f06818119f634075dd629d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch077_steps.csv.gz",
+      "sha256": "ae539a017e585fcaf170f69912cb226c064b3707c1997f3530db59ef0d1837e5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch077_targets.csv.gz",
+      "sha256": "62bbbe8d7a2c49cadb72073a410f32a4e14fdfa2946647fcd2ba11c873ddc05b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch078.json",
+      "sha256": "37ab96d9d73fe93a5594ae339b0ecd9a7569b5f4533be845e56561502744c0d5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch078_parameter_gradients.csv.gz",
+      "sha256": "9970ddc15502649a49e8d0b7a55a4d84bbe98f265704aa91f56af99110d3ce72"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch078_steps.csv.gz",
+      "sha256": "7f30c909875c9043aa287c913e768b8ee468e59ea1421d814fb7661298413249"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch078_targets.csv.gz",
+      "sha256": "e8e87da4cac7b4684b1d59ad3446ae8d1be8090b6297531fb7dd4527257b7379"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch079.json",
+      "sha256": "0824ef92a4bfb8de76d3c6808f7b1a74234c75dd7bb5674b7cfc356a4e6af716"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch079_parameter_gradients.csv.gz",
+      "sha256": "b3de1cb061f58da0d4f3e55077bcfe8e23d9912afe868aeaf1226e8fd24d69bf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch079_steps.csv.gz",
+      "sha256": "0792c97cf2fcd7100f12dbf25b0d13174f0bdcca0f24d96f642e9161c1d2c24f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch079_targets.csv.gz",
+      "sha256": "93488b9eaacae0dd3341fd8a443eb2f4efa43a4814ab638680b44a2ffe162511"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch080.json",
+      "sha256": "008aa3db8265c6afa987d07639c0f321fbb021b97a190af2a6830518d3eb1b36"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch080_parameter_gradients.csv.gz",
+      "sha256": "3f58f5cae94d1bfff468b41c125a76da5296833610553c3bcd7eebef94365bd0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch080_steps.csv.gz",
+      "sha256": "67e04b1faf430f5effe6a888b145980019602e3a22bc71ec1f3642df3989ae83"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch080_targets.csv.gz",
+      "sha256": "32724aaff748fc73d2f45c846779400762b02b83d41f8ae3b626778e1ad44692"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch081.json",
+      "sha256": "b636cb68fa994b994b22b64606624b9a4031a95ab99c60abcdbd3383fa189b18"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch081_parameter_gradients.csv.gz",
+      "sha256": "f8cb3acfa903d0f6d9008106ac119c9e9a63e7e887654e9776f6b21d9df97a14"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch081_steps.csv.gz",
+      "sha256": "b420e45025688f0e68c73e21addc3cc36fe45e72a1de519efa196ebc22261c03"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch081_targets.csv.gz",
+      "sha256": "c2246f0508cc7cecf5158531d5295f37e55afa83572361c14e626684d2b6cab5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch082.json",
+      "sha256": "7c60005a77ab2624af013de48bc526bc294195108285f664fc70af6bde55ca73"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch082_parameter_gradients.csv.gz",
+      "sha256": "2f73d852c049b7ebcabb58d8713477316ebb0641b283a28f558c822be77af61d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch082_steps.csv.gz",
+      "sha256": "e78fba1d5a4994271db118e952ac86df6e74a7be0ff51ae53c7db6c039dd857c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch082_targets.csv.gz",
+      "sha256": "940a2c9fbce1199ea2c57780e203587ab98bec36034004ddf03a40f27aa3c01b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch083.json",
+      "sha256": "b9dc43175c2b5c414783266fbd1430d42b545009239d627e6c46ec5fcf580e65"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch083_parameter_gradients.csv.gz",
+      "sha256": "5b0fe629d5f66e52cd90d7b7c9154ebf5842c3c750d53183393be97bad2ade29"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch083_steps.csv.gz",
+      "sha256": "1f3b73083f4c98e21537382bf7ba42bd3a6393bad018cacf5f2faca08918b3ab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch083_targets.csv.gz",
+      "sha256": "c8c45295884d4334279558c94d32fc6208dc864d5ac8341387cc8fae0002b321"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch084.json",
+      "sha256": "2a3245700ea17ff5f33284e9599005fe6b932ea2dcd7e31a04915f0309e1e060"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch084_parameter_gradients.csv.gz",
+      "sha256": "74871f87aff57e9a01da2d992d1048af3c66c953c4c81fbad0680720fcb95bec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch084_steps.csv.gz",
+      "sha256": "9d02f3a5279fd92e7ffb04ff63f0dafe56e5badee0670b1e7d34912cd4ae5f2e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch084_targets.csv.gz",
+      "sha256": "0c556275c60c6afc7daf6ec7c2d0059b3667fcff195d1fa22cb164c732d295a1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch085.json",
+      "sha256": "19f94ce99e73555443b886de4c945f30a58428aa23750e4d5c96069e58d25699"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch085_parameter_gradients.csv.gz",
+      "sha256": "38a5cd4f48e5efc351253cc52daf200df1483a24b34ddfb3764ee428e09f37d9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch085_steps.csv.gz",
+      "sha256": "5b3b40728e1cfff8de32d9d5750bb24f9c0e7cd59d773c4948b3899f23bc76ca"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch085_targets.csv.gz",
+      "sha256": "6c1da60e8f724ac663650903c839b7ab28f5bcb20df636fa65ccbdbe12fcd5d8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch086.json",
+      "sha256": "c8d3c0ae8323559546785e1f1f6e8390d620367c7701a4d91bae4cdf2da3f341"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch086_parameter_gradients.csv.gz",
+      "sha256": "d662b1c2be364b45f914c52c0db741ee5df99bdac5b4c2c905a043c269e451c4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch086_steps.csv.gz",
+      "sha256": "dfe3ca884033a1aa2bb63ca483d7ba4293306739b2e6c9730019683958ea6d1d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch086_targets.csv.gz",
+      "sha256": "1f31b9b087c3e9f3604563c8736bd787a41c49b97843406bc2cb283dd807c96a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch087.json",
+      "sha256": "6c87f861366ca4898a894bb814a78701e9ce71401600d60e2253e5c18c528515"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch087_parameter_gradients.csv.gz",
+      "sha256": "0d733cdb1a7de7b04f61bf62fc48dfdd2c3233db6e6dc6e21a100a1f9a8e4042"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch087_steps.csv.gz",
+      "sha256": "51b5dc9fd86ec1efe72e0ec6bafefbc78d3476822cd1d8e824445fe33678f441"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch087_targets.csv.gz",
+      "sha256": "595262776bfc7380336a336588528034f085ce71922c6008ebd025742682d16c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch088.json",
+      "sha256": "75034acc83bd097507b9c6ac7bd6cac8e9fe9151e26e1a5aabf9d28e3631b344"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch088_parameter_gradients.csv.gz",
+      "sha256": "fd78e8ed25d0230fd5675fa0ed1aca689acd5a41f7da6d1ce7e1aed9ac04701d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch088_steps.csv.gz",
+      "sha256": "6407ec529472213411d5cdf2481a7170f6760ef172c7803d2ca64317278dcc76"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch088_targets.csv.gz",
+      "sha256": "1500d8c48b48834eaf2f8f6e2e18866a5dd4e0746fb7cd23702a868bf17e8adf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch089.json",
+      "sha256": "21da72a71b0f4f9dfe9394ca94a40df6d471fa513118cf99722fcd1b175e1281"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch089_parameter_gradients.csv.gz",
+      "sha256": "b7efca189a3b39c6a70a79712db28c30775e3358798226f7a43df29db8bf18a5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch089_steps.csv.gz",
+      "sha256": "56b43b6fc3f95b78132a2ce7de798222fd51af0b2d433eded2c296a2bb576da6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch089_targets.csv.gz",
+      "sha256": "d4bb8132b3dc6f9e37d37d71a40835f1f76ee46fde81dd7874067f7a3115e9ef"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch090.json",
+      "sha256": "30a4ca97a1bc1755b836802962def12e584d1b7220013343e57e70da3f8e705e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch090_parameter_gradients.csv.gz",
+      "sha256": "504d4e5528ef9077d17565096dc3b30874ac4b7e440b6b0e41659deb4092cca5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch090_steps.csv.gz",
+      "sha256": "005758e3773a7c53ea993f3fa2dcd8f2fffb0ea68df297a8f0903f60debf7703"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch090_targets.csv.gz",
+      "sha256": "80331336f961daa1f2ac52ab5e724c95a5d01c23918a5de7b01404921d0bd40a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch091.json",
+      "sha256": "f593d046682e5e2bc0501fa8aa0d7e74eaaf228ff5b3bc138b2349df572585c3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch091_parameter_gradients.csv.gz",
+      "sha256": "c38b1070aaedbf92b54fbd16ccc8bbaa7fcc09ea522eee50993c5a67f191b5da"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch091_steps.csv.gz",
+      "sha256": "8a964ada5b43c88c5d9998087162cecb499fb041130759791c25e77937578992"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch091_targets.csv.gz",
+      "sha256": "7e5b9dad5e9552a825888bdbeed0bbefcdb6de7be34773caeda00197f8e1eaf0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch092.json",
+      "sha256": "504898b820954d195dad762ea596dc0bcb08d6e365ccd978344562446de03c99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch092_parameter_gradients.csv.gz",
+      "sha256": "b82bc49ac6cfb6353edb0d086e0762299c2be512e451cd737add50ff87e5560a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch092_steps.csv.gz",
+      "sha256": "a0e928663f777a8fcd808f3ce0e77bcbb76ffb446c7843fbccd8a7c90509e481"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch092_targets.csv.gz",
+      "sha256": "4141ecc38edcd513d42abd734d0fe64d17dbfed7d8c89d2283b7e12742c9db91"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch093.json",
+      "sha256": "522474ccc1b31de2f644c7989d2deb510432ff7b3997c635d0163195dbf227fb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch093_parameter_gradients.csv.gz",
+      "sha256": "749b0013ce5279cbacee9e0dfed1d4d4954db140ab66ac8bdae493f8efc4fd94"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch093_steps.csv.gz",
+      "sha256": "2cd54543ea7d238d3042ded0e1e1e125d4ae1ecbc738c8d6c9db4b22290160ed"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch093_targets.csv.gz",
+      "sha256": "a23b9fdcc65bff03d92fee1da0a988a6650b8c69ca0dfb32b5e634278d8b5e6c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch094.json",
+      "sha256": "2086d900ded55f9a6b4669543a2caf77e357cca8fe127504a8f6344445c4b039"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch094_parameter_gradients.csv.gz",
+      "sha256": "9827f10c71f14323d9ed09b643149ce7452194697ce472cbc585f7e8eb1e54e2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch094_steps.csv.gz",
+      "sha256": "4313d6f0b633f5c94f631b373285eec57909778fcc366d00364ccf363f914f0f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch094_targets.csv.gz",
+      "sha256": "7eb87dad575c1b5f9418c8c91466eb43fb7c6f988ff5324272a33d8e1a3ad803"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch095.json",
+      "sha256": "72b880aa7e67e1d1e2b78989ba00096b4ee60902534831368c9376bf9fab5a3e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch095_parameter_gradients.csv.gz",
+      "sha256": "01123b41718d52632b24a13899604baaee6f1899868a6638e7d691fa8606dda6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch095_steps.csv.gz",
+      "sha256": "bbec8928b57cdfea785ac3e1df95c71d7a918427d7e7746201acb3f3eeb23bf4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch095_targets.csv.gz",
+      "sha256": "daa2c87bef1f085272995482fd81b6fccca09efeaef621f9ebf512911f2a3072"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch096.json",
+      "sha256": "031591974a7ea3cc2d6be8a66f424c1d917296958553ce0205998c56f09169a2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch096_parameter_gradients.csv.gz",
+      "sha256": "cb980c9056b8a3cb20654cb519c256bdf07c70f0326cfc137aee338e5085cfd5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch096_steps.csv.gz",
+      "sha256": "01da2365b0a1af642bbb6d39723d6666a8e4bdff72098e1eb96b823899ed9a49"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch096_targets.csv.gz",
+      "sha256": "05b27eceb07b8ec6368a525d5dde96df925364c82fc57f74559005a5249db788"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch097.json",
+      "sha256": "a04a904336a455186ca7a16f4ac0cb92be2cce563709afa11e0f185adf488ed9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch097_parameter_gradients.csv.gz",
+      "sha256": "978e5241d8979ae0ee57851d13d47a94511fad2e2f39f94b6f796d0a5ee74f7e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch097_steps.csv.gz",
+      "sha256": "d6f366e47e2ad37d3229eb0d776aa70e77be158d0689dac593f686542449af28"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch097_targets.csv.gz",
+      "sha256": "c0eae03a36dfa201de86e741ef95f90756da1ad5ce8e7611710cc585d7b9b71d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch098.json",
+      "sha256": "965f5813287c257758ed2e1b66bd0f28a256b6d7a39112da75841344855d10b3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch098_parameter_gradients.csv.gz",
+      "sha256": "b97c7333d360b554a503bd632c16d2a3f3b792bfb0205db84591a62d900379ae"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch098_steps.csv.gz",
+      "sha256": "ee0ca96cfc9c3efe82d8c62ac28e530e495fdcf526b71187040f92a6a29eb3fe"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch098_targets.csv.gz",
+      "sha256": "3bc8261fa2a22f9f431f9347fb5a3e898cd66f66dad5c61a52b87ad67cccaf30"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch099.json",
+      "sha256": "7495573ef8010408ac03b18b3ec024dde478c9c41d3846908f617eb368e55b11"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch099_parameter_gradients.csv.gz",
+      "sha256": "1f595ff1dab16c7125bc1f03ee8c0d48db83fd22c460319f3b3a0ff374a20a50"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch099_steps.csv.gz",
+      "sha256": "0ffa8becd27be55fc8222d53d11536adb8da9d5dd18259cf285ec5b6c49def76"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch099_targets.csv.gz",
+      "sha256": "1d5a23e961c7698f012c792a006061f0a2b46fabdf249fd8ccd27d6e442ee0e9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch100.json",
+      "sha256": "8eec2d83b12722327dc7ca48656902ac8c701c03351fff82266b27ff1e1e651d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch100_parameter_gradients.csv.gz",
+      "sha256": "cfb91707c9b944082381f6c00f29df6efa0a48ab4f60158c21596bea7f0fe373"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch100_steps.csv.gz",
+      "sha256": "c30f8ac4bbbc0c35ae9ab3c18f0fc9d3df86a94d31db8fb6e353ebe3ec53de81"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/epochs/epoch100_targets.csv.gz",
+      "sha256": "c933e9d4b6345e6881be66559135fd9776ca9f1960485c7f9adb50c37b09e067"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/execution.jsonl",
+      "sha256": "109eab3df04465b7767ed8c40f388c71280905e77cd6af7098e3a66822b689fc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/execution.txt",
+      "sha256": "109eab3df04465b7767ed8c40f388c71280905e77cd6af7098e3a66822b689fc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/lifetime_parameter_gradients.csv",
+      "sha256": "81cbdf6ab1d5771ebffad77ba9bb6bb514ea6bbf644719b932a7e5910f9afc94"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/provenance.json",
+      "sha256": "c93641438633b031b380042157902e0f96c0325c3262ecc9a0c4dffb7559378e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/selection.json",
+      "sha256": "b11ee9141d7861aa83ac898c31082d07941e4be79243fa0d2b68485460909e95"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/biwi_hotel/training_curve.csv",
+      "sha256": "81b4a5b8811240de1cb5d9cf1337a4cff25f557dea988183733c6271319c2231"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/best_paired_targets.csv.gz",
+      "sha256": "7c9489df44ec9013902dd5a4034616389659634b5bada0c6e9661b6d4c3a4cfc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/checkpoint_inventory.csv",
+      "sha256": "7842b6f915c206adb3b8de5d43a142b4359df646b73ba32182c35c45ac53ae67"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/checkpoint_restore_checks.json",
+      "sha256": "ceea3c862b5d0669e45b9ea8fbcbd0e2ddcf9632f7da709c4d7c40f5bb400b46"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch001.json",
+      "sha256": "8ebe5175a2b7846cc6835b4e8fcd47147f3a710ef1ab032d46ef49c21f44c4fd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch001_parameter_gradients.csv.gz",
+      "sha256": "6163de1c7ad5c58ae7152e5c60d8b8cf9309391602b863846725cf75d11b9df8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch001_steps.csv.gz",
+      "sha256": "309319d9ceb89a1af9f31f92d96137a1d6e8cc3228364f0110946369a2caf221"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch001_targets.csv.gz",
+      "sha256": "ce0f0c9f8355b45b300eb88642993e1aea7ad91e0f605d3f510935dcbff87c7b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch002.json",
+      "sha256": "2552770c350fe8a589941d21de147fafcf683e3104f784e7db416a5150dc6a67"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch002_parameter_gradients.csv.gz",
+      "sha256": "3c8f11c369ec5195a7feec110a01dab17bdf740c5aba2d247badb4f58996c27a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch002_steps.csv.gz",
+      "sha256": "65d9745661712686a4b243c9fc65d6394bf9aacdc5f3f385ac47ee4509f7fe8c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch002_targets.csv.gz",
+      "sha256": "7c0c11eec09c78c3cb48c3420045c50c8982ba9004e8f5641cc8403024861e46"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch003.json",
+      "sha256": "81d096fdf5924f2d751a68a510cf88495b7dd4fa17233ce9987746df57b763fb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch003_parameter_gradients.csv.gz",
+      "sha256": "932dd9076e2b2d6454918159e8bd146aaa74c169df2fbc4aca0f5f53c06de877"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch003_steps.csv.gz",
+      "sha256": "8058c50c1dce848cab97755b990b5359510a2c5ea212be6637ab1667e147ec67"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch003_targets.csv.gz",
+      "sha256": "56bdbf03621453ab5c8a8894ac0f22f06f8424565ddec99c21ea31edcf3862f4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch004.json",
+      "sha256": "5d05811a71042ee6ef9ca220dcf9d1935a9403f1ec7469495bc5827565ee097b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch004_parameter_gradients.csv.gz",
+      "sha256": "8220f3818871bbba26eea39129cd4c945d4b27ccb3bf632093dbf402f54fbe36"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch004_steps.csv.gz",
+      "sha256": "5d21a0a5702c75b24e4eb749ab189943a7f7eb1f95f37d94d5ebd0e46d02e534"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch004_targets.csv.gz",
+      "sha256": "caff6840a39ea40340f8897756b55dc60322b097527f62072719518e72ac9d35"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch005.json",
+      "sha256": "06e22febbbd533b81372cec9f22d1d5f3825853843734395c80225fac48e2d85"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch005_parameter_gradients.csv.gz",
+      "sha256": "46a01c3e90ad0444bc7c9df1cbb37c20fdd215cd87cffcd6d25b074ea517bdca"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch005_steps.csv.gz",
+      "sha256": "59f4d87c98fc57f3c68ef3b8e15e305df84e0139c2ee97ea841d7477f9dc9dd3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch005_targets.csv.gz",
+      "sha256": "d9e252d1e0d892ead6138be6d38b87a083d774f53708049b214c66ebcc59ceb2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch006.json",
+      "sha256": "f9d5e50f525ad1521b78ef1b033e127f01d3aef414c1c0cf79d570f3c169b3fa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch006_parameter_gradients.csv.gz",
+      "sha256": "6f8e9ec80b1b90bfd572f5792347389b4b163e02064691c1c1a3d3feed9e2198"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch006_steps.csv.gz",
+      "sha256": "5e20d10cab2bdee72509f453bca4c5ed1b7cc566cc4ca4ceecccc8b05879241c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch006_targets.csv.gz",
+      "sha256": "27b130f33c15ace19f2dce8707508f6bda1771a3dbe6d0028d2663a39bfbcb8c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch007.json",
+      "sha256": "975d92806ba15c52e9c2084441b1ad511cf8547ed7d31a5dffb2524ad27c926b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch007_parameter_gradients.csv.gz",
+      "sha256": "6cc13784b1637b670e5e6c9fcd8af6473ad942767551d4c649529357abfa2b1f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch007_steps.csv.gz",
+      "sha256": "359a7b6649becac9033ed5bdb347ea789d88d641adcbd588f472a81870791aee"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch007_targets.csv.gz",
+      "sha256": "f4137df4971cc2511e2103be835bfcd4e9f5e7da1cfd2a3ec64eb684b9fcf0d0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch008.json",
+      "sha256": "26d0317783806d482e3f3e609b7a116b3a54dccecf6d0f90e1eaa2dae18b1d77"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch008_parameter_gradients.csv.gz",
+      "sha256": "eb7882ff8ba61de64b0beaf30b822f69caa6fdca1f6005046d722e7b2ec01c4b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch008_steps.csv.gz",
+      "sha256": "0f8d6a8c7644ff20ef047ff3b0cfd6c956a4ddbdee1bddbbfe31dc414b103d19"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch008_targets.csv.gz",
+      "sha256": "07c1f1aa9237766bdd7d0d25dff2a2687c9bcdbbb1eab83d88a3f90ea6cca29e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch009.json",
+      "sha256": "8c2b00dc8a133bceb009480f4cc5838c1adb361f28b7df7ca30958b3bec4cd9b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch009_parameter_gradients.csv.gz",
+      "sha256": "0ab98ffb18a581f3fd5b6af39c7cfc849d1c3924b0b19bbec1c51196649d8fb8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch009_steps.csv.gz",
+      "sha256": "239f4a75f42e7fb5dcb1cbf7f37a4e800be3c3c8b42e58bc3bd3c970979b4f8b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch009_targets.csv.gz",
+      "sha256": "8d196089cfb8bf0ae4106fe76afc7a64084d5436c6a67219526683555a37f6db"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch010.json",
+      "sha256": "45e890542791cc26ebd40db960fd225ee96a2c0810c0af8cbdc14b543002c825"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch010_parameter_gradients.csv.gz",
+      "sha256": "b2af0335d16f9d1b9399b20762bfbcb60ed2c46d11de93ea046da1f1b0fa4110"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch010_steps.csv.gz",
+      "sha256": "076b27663a00789586f0d44ba023c628f22df31771815e6f23c85a166abb34e1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch010_targets.csv.gz",
+      "sha256": "1e6e1edb03e59023e252ad6ace07eb263a2647f9ad8e2b34fc0e54e947def4f5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch011.json",
+      "sha256": "fa8607cfa753317477f865831e39a974ffce1023bf008cb1999b5da110a8b3e7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch011_parameter_gradients.csv.gz",
+      "sha256": "ecca97800120acdeb12329b65bc4b042b094177656b920ffe309155221d3d799"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch011_steps.csv.gz",
+      "sha256": "8793984e722e0b90c1a73550b5e547608bf678ed70ba357581a99c789443b479"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch011_targets.csv.gz",
+      "sha256": "b3bb6f0bfbbe478d637e49386d1214fd73b456e1b83c32655c7ac687abb0d689"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch012.json",
+      "sha256": "500a3d8812978468f12d206058e52f211244265de4b2854222341c770eaf5179"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch012_parameter_gradients.csv.gz",
+      "sha256": "2599daefc0ba2fd0893cf15da5b911bcd9dbe3262d67e4caa4aac0c4b5bea48a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch012_steps.csv.gz",
+      "sha256": "b17b9d85d40546dd896756e04e04fe87e953dfac682ebfb44cb4cdb3ef6af03d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch012_targets.csv.gz",
+      "sha256": "bf7985473d7efd5c4fb11bebdc525cf47fd33f534303fb511c5a20e26fdd9096"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch013.json",
+      "sha256": "603a7b39ebb94bbb9a29e279ac4fa202f3c0e3cc2c7f501d1ec7f4ce97784b6c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch013_parameter_gradients.csv.gz",
+      "sha256": "3cf8d8b36085befe94f2d9d9ed059c0ededc3cbb938501e4e36c65ac9f28bc58"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch013_steps.csv.gz",
+      "sha256": "26bf2e5916e51546099be13dac0b0ed0a9a055ec635cd6ab0ca25bad4469dc44"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch013_targets.csv.gz",
+      "sha256": "e8dbb53d5d5d0edf283ec44b73b9d1e7c41b8ee497e9a61d1d3bb6679b387f47"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch014.json",
+      "sha256": "b663e34c882f567cad55554e051ae3bb53b2a63352de3151aef9deccf0565688"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch014_parameter_gradients.csv.gz",
+      "sha256": "fcc6697e39eaf7ab7b4b3c166ed87331a73f6af4c6ffe6e99c1ffdd20fa73435"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch014_steps.csv.gz",
+      "sha256": "8317575c399a2a2c320343c72436356d8593ae946eb571b612de943105ec8e48"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch014_targets.csv.gz",
+      "sha256": "8f11467d12a22f31144866b4aa9d955908f85a26533ba695c5a1b7dbe59415eb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch015.json",
+      "sha256": "860fa232c75b1c5423839cfa78407f813c8cfcfc5f847fa0cf6fe226e3730790"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch015_parameter_gradients.csv.gz",
+      "sha256": "18af9f76468d9d3a929342b417fb89163c2ac301b13e073aba2a37d8b827b984"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch015_steps.csv.gz",
+      "sha256": "ff3d5274781bb847090cd8c7f286252de7c8991418f99391c1bc917e205d8fbb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch015_targets.csv.gz",
+      "sha256": "1e3c2bbd7188bae7ebdbe27f6d9a5f51641a00f56ae28a977fddc65c8bbe6e96"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch016.json",
+      "sha256": "95fdb306af4400d3ebc057f52b2af12ced953ef9b54d7c3a3100fd0fee6df7a2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch016_parameter_gradients.csv.gz",
+      "sha256": "823eafc779bdba4ac429c6e79cbf539565c7d4d6c40b4c788869fe9fbb229d9c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch016_steps.csv.gz",
+      "sha256": "8b6f6e4d4fabe313c4225bf79cf36c78d77a66af55f68ad4e05530a6084e9f06"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch016_targets.csv.gz",
+      "sha256": "6d105904941b0610f8f1009ffd4b2f84dd51058b078ce546a933be4f94f7989a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch017.json",
+      "sha256": "3f9a21947854944f9093eedde0ab5f82e414ea87359c2db832229af1f8ce2cef"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch017_parameter_gradients.csv.gz",
+      "sha256": "f00957ef4fe6420eb53ae7a5d40c6cf67f5130335bb0679f8e222cb460769617"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch017_steps.csv.gz",
+      "sha256": "7a38aaac7e879afb8e30dca167489f07f79b0218681ab8a0b327135e82f7a60c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch017_targets.csv.gz",
+      "sha256": "009a0860bb3cf081986edfe890ea817f2a955c56646aa274ca22eb83a5cdf661"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch018.json",
+      "sha256": "74fe4a6c3629f4e81d56fb963df69b60fba420bb14111d895a1f92778243b8e8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch018_parameter_gradients.csv.gz",
+      "sha256": "19f79cb173fe84ca3179df5a832a2ac84d2151a21699ef8814b1f6494e69110c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch018_steps.csv.gz",
+      "sha256": "6c99242fe7c43727b9d6a8189a7d17c6cca4cf068867226b19f612610bca555f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch018_targets.csv.gz",
+      "sha256": "fdf5ddfbc14a2f545cf316111e54149c44dbc140f4d68fa775285524fe90adf3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch019.json",
+      "sha256": "fbd94dc1aa59233872fc6f814a1a43e447cc0a4a6b0447e309cda519d79d67b6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch019_parameter_gradients.csv.gz",
+      "sha256": "ba932b1035b19a5b2e6992277139390d4f97c21bb593563b3ae9de7045fed9e4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch019_steps.csv.gz",
+      "sha256": "24d0f1371cf71fe14c8debb59ce26564ed1a9362c4ad2f0ac9db2c5148967da9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch019_targets.csv.gz",
+      "sha256": "5043ff721c016c01b9eaec787e4ccef75febd059b2b35d6315f604eeabd2f47e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch020.json",
+      "sha256": "3a53e5f70ef16318ff6be265078d5861adec3c34f39c8e6fd3cc41c73867bb86"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch020_parameter_gradients.csv.gz",
+      "sha256": "14e9133168b0a23bc767828cb0895be602f918d633f9939444e07508b9db14ab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch020_steps.csv.gz",
+      "sha256": "841215594df84adf41d60491546a32a29497fce8fc2773320d04965239d8a69f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch020_targets.csv.gz",
+      "sha256": "92794db15d4cda64f3aa225a62026e41c538ae4806ff5843a1d4bbd87f35a123"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch021.json",
+      "sha256": "6c9d9e5f2cd163c2525395435df7bc9c6beb6cbf58f09b0e3cbb24f1319d846e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch021_parameter_gradients.csv.gz",
+      "sha256": "6f7fc123178c4f3b9cc2d5e69aa3c463b9ea11b399bafed1aaa8afe7afcc9099"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch021_steps.csv.gz",
+      "sha256": "83d42d04c5c055a755441873a3d241c3b0407bbf709f3f4cfd36bb6cacd39858"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch021_targets.csv.gz",
+      "sha256": "45e9d073644a1ab05b107e0b4d230aa53be50f0c40c09ffc13b652628bbe366c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch022.json",
+      "sha256": "3b90fa10fcde43df08af0349ed15f66f2ad0ec55e55c032fde4b78d58a67127a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch022_parameter_gradients.csv.gz",
+      "sha256": "064cb79033d8676b899d50ad107692bf850d570cc22d9759656882e641fa39ca"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch022_steps.csv.gz",
+      "sha256": "54a92158e1776cb46bdc0b509f54116a39b418d162441b56169efb4ec3ce3eec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch022_targets.csv.gz",
+      "sha256": "1204f33ccb9aad3dd3f7d3a31d1e89764533d7fd2ba3356e7116c9adab563a10"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch023.json",
+      "sha256": "b48e3e769fe2213835e31054d2bb1aafbc5da25d299ca090944048e224058f45"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch023_parameter_gradients.csv.gz",
+      "sha256": "bcdaddce37859a412aaaf998826d1eb37219f4adc2f3b74b75d66dd624f9cd4b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch023_steps.csv.gz",
+      "sha256": "d0a3a6eeb09c6575992c8d5f30bcaaba0e78e35a69467eb59e6b049f576df8a6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch023_targets.csv.gz",
+      "sha256": "f11e8c6bbb9d97ea0577cf41919b918280e42b6e4e07afd0052a547519ee6ec4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch024.json",
+      "sha256": "fb3c6e26dda95439f7c257a59fbcd3241964c9758d6e521d922dd1a8f7875042"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch024_parameter_gradients.csv.gz",
+      "sha256": "943a6e0bf2d8135fde4d71be12b3db5c8ffd2244e008bbacd5c4442b520d4f6d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch024_steps.csv.gz",
+      "sha256": "c3ec1ed76c0e28b1adbf452c64d8202e1a17336d095e3dc23483a36124645d53"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch024_targets.csv.gz",
+      "sha256": "72b14eb3d48fd95acfd6ace53a887eef430c3e121ea0289d96c8c12c520fe722"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch025.json",
+      "sha256": "074cf0378206c6233c386ad6498ab76b18cce91dc03531149f5462933714adf7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch025_parameter_gradients.csv.gz",
+      "sha256": "839b3faa52cc87551fbb7d0dfcbd4966301e206c1ea2c6b6494de96bb4bedf0b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch025_steps.csv.gz",
+      "sha256": "e2e4b9894b9e40aa025858a200df1069a0509afb31d4bdc9da7626032818656f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch025_targets.csv.gz",
+      "sha256": "caacf9e0854442a73fb9f5102ad4f819a566805a977c30745f2b8697cb26dac2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch026.json",
+      "sha256": "fff8ce7481ec719b257e2322de8dbbb2153f7315a12a9f7431b44a7bcdc69e29"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch026_parameter_gradients.csv.gz",
+      "sha256": "92726a255ffe59fb7cb23af5edba35ab56fb698299f2940a0fe3040e36d59e3b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch026_steps.csv.gz",
+      "sha256": "6a0d2bc120590bd74e5eabd57a9cbfbe0bc57c8272bf28e4582eea6fef93479d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch026_targets.csv.gz",
+      "sha256": "351a55c0f34a95da61dfc648cce7f7da7cbe005f9a138de9c45e93b13a52c875"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch027.json",
+      "sha256": "ce1569c40b48cfeec0f65fcf90647a636f09052e5f903bd0431e0e92e6f70fde"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch027_parameter_gradients.csv.gz",
+      "sha256": "696ef4bc4b8a3f95756b9d06eb145c8943028e9f1823c5979d0d408e6d45c854"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch027_steps.csv.gz",
+      "sha256": "ec3a31490018dcff3346cdeae0354811002e1204eea53f68f73b9af3d0c0f012"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch027_targets.csv.gz",
+      "sha256": "6fd34bcea53a9fbd35e0cd80ab002a1b938f2fba94b3d3919475838d38d732ab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch028.json",
+      "sha256": "1d0868178ee77f49b93f3fd825ed555496dce1880ac1d5895943011ee892a365"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch028_parameter_gradients.csv.gz",
+      "sha256": "0b87dd1832e99a25ea534fc1aa7387bfea0f47d6e004764625bd403f9cd61ebd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch028_steps.csv.gz",
+      "sha256": "c76cd27ed28d034d33e51f7fa22f8dfd813eed5d40ac2c7df3907fab5b0f85fd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch028_targets.csv.gz",
+      "sha256": "420dda569d7e014f7b27a73561da4f9569862a4507757f75bf1799b4ba5f4082"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch029.json",
+      "sha256": "23dee3bfca3b5e76125e65d98f65e1d2efffe662f31c685f9393175706d1b202"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch029_parameter_gradients.csv.gz",
+      "sha256": "d104847a69d1ac08f990b62f4277ba8e7ba684d85fb57aee8644abd7dd718048"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch029_steps.csv.gz",
+      "sha256": "f9af9cb471865ea2c31e8657c29ae46e6d724bb0314b3f1c546d83f7e63f5b17"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch029_targets.csv.gz",
+      "sha256": "05ed5feee84cf64ffc932f61bfd5a126aa7cb71367f995e77690c803744754ce"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch030.json",
+      "sha256": "9755751106c27193b2cacf235c10a89ae02b5005059872fcf9fb8dd54f4e452e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch030_parameter_gradients.csv.gz",
+      "sha256": "d09a47b4aa80117a41fae3610569a03cfcea4297b80b4e460bebf1cdd0b4afce"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch030_steps.csv.gz",
+      "sha256": "3f4be0ca1a5cc1ca71062de2327b372765cb2de822abf85f4baea955d4532cab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch030_targets.csv.gz",
+      "sha256": "9feba9ef409d824a570b93580a6ad255cb588e8e18acfe62754b316fc8be8e4a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch031.json",
+      "sha256": "cf90b0529108c3e8b8c89520b12fdd994e5983698cd993ee552173b5e7e1c69f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch031_parameter_gradients.csv.gz",
+      "sha256": "da5d3ee390ed7735641f400eb09d2a9942a525822f42fc0c320dffe236a38c3e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch031_steps.csv.gz",
+      "sha256": "98444d1d8794addd9c7101718ddf375cea1fd66c283781770afbe592836097bb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch031_targets.csv.gz",
+      "sha256": "244382b52fa72e3c458ef4ee0871f6c838e25d7532d4491fa4d2fc3c7fcb06e6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch032.json",
+      "sha256": "cf4bf8d4ee222c305d941e81fc2abcc56359ac179abd0aa87ad7f2f055c4fd37"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch032_parameter_gradients.csv.gz",
+      "sha256": "ee4b0cbf6fc55c255c98a7dc13ac5d0091dbf4d006d9c0470b975f504137ac97"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch032_steps.csv.gz",
+      "sha256": "3044d31b518b8f71132fd7dd320b79fb9e513010ccca6ff85abaca511cd7286d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch032_targets.csv.gz",
+      "sha256": "ea6c6e58e916552d534a0615f48366e4f968ea53c9b7b2724e86834bc1a2ae8a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch033.json",
+      "sha256": "55ac8207ab601601812b6422a5816cc0927f768b801c8cec433de984f7d0355c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch033_parameter_gradients.csv.gz",
+      "sha256": "c27422a9d02c7f15b3100d707edd79c5a4ff312df5809ff321ebd5aa09fe24a6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch033_steps.csv.gz",
+      "sha256": "b11ea640671f02b0a40e075474ac4526dccb4aa745584c268a4ebc04bfa9ddca"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch033_targets.csv.gz",
+      "sha256": "bb7ede2e7cb3aae722702c2ea59534162096abc053e145434a859e3bcf0e694a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch034.json",
+      "sha256": "88b3b20ca47cb429422e46b1eea53dcc00d03b05b3413a0fd6a6cdce6da74ac9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch034_parameter_gradients.csv.gz",
+      "sha256": "e14247248e82137d92a86001d23b321e25943f22f645e97c227c39734b157d2f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch034_steps.csv.gz",
+      "sha256": "2576631819168e94ee61e295e64d8fb93897c99eca780bc3cb824fcdf5104e74"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch034_targets.csv.gz",
+      "sha256": "b2e88ce76e86d0760b26bb6d03c7cd09a76e5c484cbdd09e8a92f3eca28b38cf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch035.json",
+      "sha256": "11f259354811e7f63151f83f954aeef1f38c208bcbe4b7148418d535ecced326"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch035_parameter_gradients.csv.gz",
+      "sha256": "a83c9c79b309fe335bdc5ba24225442383efb22d56a40258111c9c4745fb5eac"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch035_steps.csv.gz",
+      "sha256": "c22c7010af63c48cf46515a631fc6efa7720b3864e2c000d06026bb513eb233f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch035_targets.csv.gz",
+      "sha256": "c46c3f3dedcd9c65d61e950a23dcc946de826904fc34822be5bebc96b46c34bf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch036.json",
+      "sha256": "9ec3c763b619f3e5568ad4f33a20194cf76da59a57f62e3b4c6ff6f3f343bda1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch036_parameter_gradients.csv.gz",
+      "sha256": "f73335a5b407465b71e7ece4b6a6e903516674c61f89f64d508e5be229a9e609"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch036_steps.csv.gz",
+      "sha256": "fe592a9500191e6a5254c6a137e45d9edaced50ecb23aa4082c8731252caab67"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch036_targets.csv.gz",
+      "sha256": "6ac1d0726b1453525ea8b0e2401200b6e90ed73f03b00d766ee44a2eb90c2d1f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch037.json",
+      "sha256": "dfb8c23a1b94f8b5868905ddb942c09c36b1e2737c980a789a9258f271c44b15"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch037_parameter_gradients.csv.gz",
+      "sha256": "80534194f419dc94100c26f59dac5b258be84fdc4d1dff3588a9cf86a52019e8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch037_steps.csv.gz",
+      "sha256": "4cd7f8529fa101d5c7d0db8a4e08eb268cab8c0c1cc43ba4c3670597dee95e10"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch037_targets.csv.gz",
+      "sha256": "e85897b2cb16dc1fb85402417aaf0560d9ea0e4fee6b7ccfbfa0968493eb3e2a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch038.json",
+      "sha256": "bb722e15c91ae294ba2010836fe426bee14080715f32af3f233fe3d8a2cc6b5e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch038_parameter_gradients.csv.gz",
+      "sha256": "6e123a41498cd73dfb3383ddd0bf2fd351d802f364a2599c534d39b6de53dd24"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch038_steps.csv.gz",
+      "sha256": "c02e021076aa0ae338311a6207870a98b1adf20a658b69cef307c899f5381022"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch038_targets.csv.gz",
+      "sha256": "c7a939aa8da48784b05f4e1d0fe080b272ec37f0d913bd7e5ae44f4840060321"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch039.json",
+      "sha256": "5825c55d56d5696663951531f62b976f850f9381eaa7c29bfe10be0cc37ed2cf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch039_parameter_gradients.csv.gz",
+      "sha256": "053971bc8c0abd49439c222c195310c6b314a4f1f56b045c9f97598e682c6ba7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch039_steps.csv.gz",
+      "sha256": "1b62d91a8f3436ca084ac400c57f83f2f860bf86283aaa781793dd447b15f466"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch039_targets.csv.gz",
+      "sha256": "1d672837d881ee557fe40a5b4246048f3a5dc86a48f4b2f9d818e8f265961f9a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch040.json",
+      "sha256": "8ad6de56b26ff4e1a2e765021c9ce39a0cff81342b6f4a0f1564deaa8cee7fc1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch040_parameter_gradients.csv.gz",
+      "sha256": "6b4e48859b48f3c17256accaf7af1ddf4b5eb23e3f2c928b1fb96f747b4bcd17"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch040_steps.csv.gz",
+      "sha256": "b758ed005a9c39627eda1f62b615a7e16e8e0ee52a7821a14b3f43db743432b5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch040_targets.csv.gz",
+      "sha256": "32fd0c7b0308e8d48b672973700500fd34423ab1b346b16902d8b88765dc8c3f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch041.json",
+      "sha256": "17317d2b02de0b06b8ea7dc48adf047d62ef20f1854cdbbed29e0750b7f22eff"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch041_parameter_gradients.csv.gz",
+      "sha256": "153ae38cd43a41c350ad4864cd924c3c478bdf833bf4351abe42977cd357a1b4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch041_steps.csv.gz",
+      "sha256": "37ca5259a73b58f42680d318a8d6c688084a7e621fefb9efaf14431863e4fde1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch041_targets.csv.gz",
+      "sha256": "3ea93403bf2bb88a22009cfb1c4d694eb439c516d01489835ca50d53bf02f55b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch042.json",
+      "sha256": "419ecb3016c474f7dc5af46f93746104045d1b25c1b1102a0790b26e562d4391"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch042_parameter_gradients.csv.gz",
+      "sha256": "5a141822c211f296449bc1dddfe8da7255ad52e5f610a599217e13b4c5e22123"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch042_steps.csv.gz",
+      "sha256": "e0a546a92be8ab8e8556092058745d234972d4084d3d37fcacb944e9ecd118b8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch042_targets.csv.gz",
+      "sha256": "ac1939d1de0454c4af0e85cfc3bfada029c3ec84d0cbe24b6b50758a4d266e99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch043.json",
+      "sha256": "07fc5bfc692ff8cacb1a3e332272709de12b901396d918b5712223ec8671911a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch043_parameter_gradients.csv.gz",
+      "sha256": "6e40d3c963b3135c406dbf0c84884d10b8a507fbf8a84c391839750c2695b725"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch043_steps.csv.gz",
+      "sha256": "024bac81703f585c55f49f5ae13ba9428170e92bdc2c41d0f965c0fac3ffd42a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch043_targets.csv.gz",
+      "sha256": "9bdf4ac63d3702d9fe33ccfd525a6e89fccf5fa53e8a40288d996d7de800eb67"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch044.json",
+      "sha256": "f048aa6eaaf3f4fcc5647b8ce5fe06cedcafb3175ea9be4c7ee85225aab7f119"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch044_parameter_gradients.csv.gz",
+      "sha256": "7f79de179dab79ab17c08c691c72023e7119d2e59806acd7861b95c0f9dc957c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch044_steps.csv.gz",
+      "sha256": "5e2515c85f3f4c2f8a31096aeeecb2cd525d13850c7a4a2608527e414515d377"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch044_targets.csv.gz",
+      "sha256": "dc53d3a8ec02e82bb07a48ccd49822ee8807f0c4b664e96212d6c9b41413ca2d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch045.json",
+      "sha256": "f49fbe0abae4a9028994e6ff0741381cba43b584e9091f9d9079b103d74ab993"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch045_parameter_gradients.csv.gz",
+      "sha256": "bd532496c8c9fee29b9ca74cf649e0b4514b81b158ebaa03837e8f6fac6eb88d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch045_steps.csv.gz",
+      "sha256": "46c30da6bcb4ab4dcf3e0fc081b0c406abcd48435dc21f8a7014493c724d778e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch045_targets.csv.gz",
+      "sha256": "598572ceeba4952ecf9e7e4de2ec35259e859756afa31e43703283534ca665fc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch046.json",
+      "sha256": "aefa27bfee1bb2ad5502575c773ced927466b407e473385bcc028256bd9e2957"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch046_parameter_gradients.csv.gz",
+      "sha256": "217c111c620f05ffe507399c5c8a620462020b388ad78fc1cab894a730345d12"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch046_steps.csv.gz",
+      "sha256": "61d72e9c1cd30670257aa76fb33f4c3cd512571ee9d9b505ac857cef544b2aed"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch046_targets.csv.gz",
+      "sha256": "7ce99093f1e5246f8dcd464cc20227c75dcb774951fe3c8f5def75795bb6685b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch047.json",
+      "sha256": "80055a50a1590c2b3d1ff730a311513e705edb5ede6f0d13d89fe6a625bb1d5b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch047_parameter_gradients.csv.gz",
+      "sha256": "67a3e80b875ca32201aa3facca2477fc1e283c2661c2799b8621612556ad37a3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch047_steps.csv.gz",
+      "sha256": "7cda87d314b3dfb9b6b1af9d658f3958bff02411a46207353c4fc250c039353f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch047_targets.csv.gz",
+      "sha256": "f268f9a708c8956a17f1a095442006c6612402bef68826bbcead031b32adc98f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch048.json",
+      "sha256": "3e52a85cd6de2081dcb874d2c6edf4023d9b85a5b80bb5591ec5477e5ae6fe37"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch048_parameter_gradients.csv.gz",
+      "sha256": "9d5f1629f5375f748fb6ecaba00a00507e58dbc0114daabb563461936053af8e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch048_steps.csv.gz",
+      "sha256": "7f9f4cc7efb426b1e14e3d0d7b7f752118323dd6513be35fe8c97c7beae95e65"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch048_targets.csv.gz",
+      "sha256": "7eb93ff398b90d8e3dbb82ed4c5f94745e7fdd2e3cf06b318404eeab7967f4c0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch049.json",
+      "sha256": "d573a5eb95602d41cde359ef722e5254d304f93986201db3a15e8305cd1ff7d8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch049_parameter_gradients.csv.gz",
+      "sha256": "45023b1dfb8c49918fb11f82887e7560127c050ab75f19a925913eb41cd59427"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch049_steps.csv.gz",
+      "sha256": "31376f8dcdc972588f70ad2e731e62caf9165a51c8c0dea43d8f335abb930d0a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch049_targets.csv.gz",
+      "sha256": "a396bc6e09140161bd2e8753030390191f427c1eb6e785270c3ea34f34ab3e99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch050.json",
+      "sha256": "f8204839bdfe4c8b173e4b191de2c65a68aecbda3891597ae1e5fcbca2333361"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch050_parameter_gradients.csv.gz",
+      "sha256": "d44d400fdb4e5cb241a694f955071e49ba5d90d55d9f9eea38e31afcd6ff75d8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch050_steps.csv.gz",
+      "sha256": "738f502b962415475050fd51dc81cd1fea348677792a54df78adddc01f590ef4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch050_targets.csv.gz",
+      "sha256": "b2a36cdf83b8a865ab5a5b531e3aa97b1ee060ea1856506450615d889ea390b2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch051.json",
+      "sha256": "ce446345b8fa19ad774f03292041727a0b116281380e3f19056fc5e91df53731"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch051_parameter_gradients.csv.gz",
+      "sha256": "4a70acb6e3f3d1063960c73785e9c63031b21951fc56c026c28ff7a26b107642"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch051_steps.csv.gz",
+      "sha256": "9f26177b799d4e052bf0c9af7e40b0ba485207b9ba3b0893e3244309ca887840"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch051_targets.csv.gz",
+      "sha256": "7593ac202f33aa7d678cdc95fd5c16bcdad79f7c52b9d45b432f3422cf1a5f23"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch052.json",
+      "sha256": "01038e25d48b8ffeb718bcd70c776d0cb712132508028759006f341e8ecf5a41"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch052_parameter_gradients.csv.gz",
+      "sha256": "1d3a8f4c10a1ba7a35cb3cece6e7fd9bf2a13ebf18099cddabdd34a6c4737bc1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch052_steps.csv.gz",
+      "sha256": "dec606e51a4c5018e0dae1a948e910adcbbe797bc2152cbbfa6825d0bbb5b6f6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch052_targets.csv.gz",
+      "sha256": "4871ec48702554b8dd94cca74470549efeb8e798609ad428d2812f6e8433b4bb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch053.json",
+      "sha256": "953ab46b5d37978791de664636ea248f04cb526b3ed196650e3693a8db58d15c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch053_parameter_gradients.csv.gz",
+      "sha256": "fbbe568947c82b6273fd2270c576a6e8234d49deb2505f32353a6d88a591274b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch053_steps.csv.gz",
+      "sha256": "0fce8cc748fcdba77106e84dc84fa3965e67d5c67b2ac795773b8c865627efc4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch053_targets.csv.gz",
+      "sha256": "e94399026d7ecf03fe9bd995be46ef26f2ed8ef5996ab87e13ba2880140f82eb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch054.json",
+      "sha256": "af89b62896a090639301089d860354b9be8f82cde71e80a6f5802b0a0ae3eb93"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch054_parameter_gradients.csv.gz",
+      "sha256": "bb9830d1b79364efaec3f97f08a2b6ec5bab12a5f62c6dfd5211844d500aa389"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch054_steps.csv.gz",
+      "sha256": "cdb6fdf6ee5f08adaf2b08e68975dd7e292807aa4804c4173ca958d0f0bd640e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch054_targets.csv.gz",
+      "sha256": "d30441b30235d70435549fc04d078594e2ca792990aced6abdd9eeb3b37a7796"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch055.json",
+      "sha256": "6de7db73d28e42d91740304caa3a085c4f8aea41cdfedccfce55b0bb68ad99e9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch055_parameter_gradients.csv.gz",
+      "sha256": "542af9ed715fd64d4b1ffe5fc07951fdebdd3de78f1993a504773ff34b0cdaae"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch055_steps.csv.gz",
+      "sha256": "dff171d7061867f7b72afb22444ddbd261b494c9e737a4ec8208d52ac706a88b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch055_targets.csv.gz",
+      "sha256": "33233fd7f60fb5b20f4a691429737c1db632fdfeb7f36f616ff93e19a0d606a3"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch056.json",
+      "sha256": "14efee08c28ed6eadeab7521b922c53afc1b00c2e9f78e2d7f637a398c067937"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch056_parameter_gradients.csv.gz",
+      "sha256": "99f6a5dccdf56ef1f1e357c7328dddbb203b4d1af61bec9b6317cd20ffe83445"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch056_steps.csv.gz",
+      "sha256": "8efa25ccd36b30c2f82a10870e28692d0313d1ae76f26fee586c6f34660bbc77"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch056_targets.csv.gz",
+      "sha256": "ddaefe3dd50204860a124c24779fcfb27584d353f84f3a61a564e2b9e065b7de"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch057.json",
+      "sha256": "184aad5a1418511f80bc07c58163e2347492c73f8983816a4805873493d6eda6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch057_parameter_gradients.csv.gz",
+      "sha256": "c69c2fbb3993f1b8f6fc38982b73b11602e145064940919e4b03268a35541b94"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch057_steps.csv.gz",
+      "sha256": "6de1a3ddb10cd959a034c19144ca23f6bdf61056e0c554d81f9d265e6ac1d157"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch057_targets.csv.gz",
+      "sha256": "7afbcbdf0f9277888c5a38d66e0557ab3f8ae8a5c0ec974a8e22507297f001fa"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch058.json",
+      "sha256": "7efd68803ad6d31dd9d315bcf1552a14699a9e22f7a5865c48afa019f57de63c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch058_parameter_gradients.csv.gz",
+      "sha256": "0a796f4715e7f9edf311516296767c524cc6a91141642d9bcea26a814f3fd7ef"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch058_steps.csv.gz",
+      "sha256": "d6ecebbb101d9c8446a0bc82925f950e5ae944f8e379a661cf056255dd4f3a1e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch058_targets.csv.gz",
+      "sha256": "7476ec3552c4d76b509ac98bdcc652866c35bc1d0891115a846976ad29bb0451"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch059.json",
+      "sha256": "5e3034ad728a79794bf36d0dc8e861a7e058090e05e8001e559479e927b9a0ab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch059_parameter_gradients.csv.gz",
+      "sha256": "ba827daa1d946e6b80cef6ae8d0c8c8aab400a13c08b83703e34ef81da1e11b5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch059_steps.csv.gz",
+      "sha256": "ab660625c58a0797d9f2d950d6e4da11fd1463dd559c56dda4b4dde246fb6db1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch059_targets.csv.gz",
+      "sha256": "ed374e9936b704ea33441fda572f4959a39c8ec7f01afc9718228072f6a2ec56"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch060.json",
+      "sha256": "ca74cbeba70b134cec09111d24d4ef52efcefefdeb02735dc9005e59c1896817"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch060_parameter_gradients.csv.gz",
+      "sha256": "cc65b19908f2cf4238b182e2ed77780d6b911f904ced41fc7563825e54716d91"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch060_steps.csv.gz",
+      "sha256": "7d9b5a98f4abddc14f6100900cce554cf07c5123596d960a60928de988143488"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch060_targets.csv.gz",
+      "sha256": "0416fa452fe3ac71a3020f4a2bc41c8527ec12bfe4b31c5ea318646800a80230"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch061.json",
+      "sha256": "3155fc3f52c8ac62663d700f2d36cf7fdc5dfb9b90396d03d3d9aec7ca858965"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch061_parameter_gradients.csv.gz",
+      "sha256": "72ae5c66ad02e729c02c2445923bef2a0bdaf10d8ce59b782ce7dcb35addb2c2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch061_steps.csv.gz",
+      "sha256": "3902a56c3fcc3286485bc8f38a3088c7dbf1281a61d2aa793178d06c8c33f18f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch061_targets.csv.gz",
+      "sha256": "7bb14d03d45673d2d871ba9ebfcda1e39d1339892c36df1a33cb69b8eadb644b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch062.json",
+      "sha256": "434d5980a4a02ab952aafc2cdc5f22ccb9d89dc87b99b6d827f4b6cfe4282c56"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch062_parameter_gradients.csv.gz",
+      "sha256": "93f288197a09f3d49262b318d5a7d6dff5c2d48801511cb9a504caf23efb470e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch062_steps.csv.gz",
+      "sha256": "ffe49006a80b103cb3d446744b90ce01df6211d421b27a867416bcc506255f51"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch062_targets.csv.gz",
+      "sha256": "9f8ad2dc248f3171b0b01dff945ff49b6e30fc63c8552804533a9af5d85dcf39"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch063.json",
+      "sha256": "6623a01590fca290c80448a25ad957fd9e0221ce76395a71c02c8281867a0702"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch063_parameter_gradients.csv.gz",
+      "sha256": "cf31800efd247d21b3f685d72cc9ca7d937d6a249617dfc31155519ce63a114e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch063_steps.csv.gz",
+      "sha256": "9bbef2d3a3b616893c4c19216ed8ce990948f4b24b627af198b5e18c64a92b94"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch063_targets.csv.gz",
+      "sha256": "a37afc8d15ce44eb064df0e2188619ac884c16bd16c0eaf7155917696cb16e0f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch064.json",
+      "sha256": "61a4a368264fb95b541dfadcb025105b0c405971d6c724f2a5403024f1b6c61e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch064_parameter_gradients.csv.gz",
+      "sha256": "b1b80b9453e51d666b0d2efc9ef49426b4a61313c2c8498f6187f5769495ea27"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch064_steps.csv.gz",
+      "sha256": "b142db33bb49412271750514fb6b3e52f53c22b3c34d7e0faab8d034c09889df"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch064_targets.csv.gz",
+      "sha256": "dd8dc8193aeaa6ac1bf141290fdc3f694d7ad9e68d57dea3dd2d950ac2a2c2e1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch065.json",
+      "sha256": "3dc111d8c4d6a80ec11435b7ee2d1cf3972b457e8378e8a1ed3a2fba4af81bb9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch065_parameter_gradients.csv.gz",
+      "sha256": "3a447e67cc145a367df32bdb5412c0193e4fff17e2175e2997d5716c5475f620"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch065_steps.csv.gz",
+      "sha256": "4f8472728d6c033f8041122e307449c05503012488dc3ed167410695f96cedc6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch065_targets.csv.gz",
+      "sha256": "b1b7a8f07e4b5cfa8e59debfb82f475b0c46ed96220f8df659fb6a1f17626db5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch066.json",
+      "sha256": "196dc81ac486ea832a83f68e3ffd7ee8adeac68df98aa8b32e84d290b318b258"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch066_parameter_gradients.csv.gz",
+      "sha256": "6d9502906bb5c312e116d8166a6afec705503b8f7557ab233550adbd3506dc94"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch066_steps.csv.gz",
+      "sha256": "9c8fa1355b07655a5c17329f7548f32703fa1676d9a62da5771161d9e66fec52"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch066_targets.csv.gz",
+      "sha256": "1804e1405f84f9d381c09ee5f317acc631f0d4bfb5dbb88edb3462d859354f77"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch067.json",
+      "sha256": "cb1e3b8b04d9102d0d462a3bdaaaddf7fe73c03efd22a66a30e93e880d939718"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch067_parameter_gradients.csv.gz",
+      "sha256": "713089e1e00f31f951127e0f0bcca97dc81b441059dceb6c8a52ed94f94cd314"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch067_steps.csv.gz",
+      "sha256": "85b039a7ed0981e40dd7831264c8d6b3bda29c1e2999c81381352bffeeb3e536"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch067_targets.csv.gz",
+      "sha256": "9de7583aca0e03862f32eb64a9833a543e8f3788e86e124353723cf6f17cb145"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch068.json",
+      "sha256": "30b00a93d26f38964a82053bd81d56ba220376ad0fa6ca123e32cbfb023502ec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch068_parameter_gradients.csv.gz",
+      "sha256": "ac7de7f3133374f938ba0678698f835f1600309f113cba954d5fadd498f2a04e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch068_steps.csv.gz",
+      "sha256": "60a158c969f773b4eb2d5663f36dbbae555a8b28aea79f59c66f4c93d38cff07"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch068_targets.csv.gz",
+      "sha256": "10e59fb951cb2144c0a48758dd5269b8ee1ac10505dcee57ce15dac36c06133d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch069.json",
+      "sha256": "a6197e7d5add776ed7882cf0dbe55eb206c802f04713035a23c320d395400dbd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch069_parameter_gradients.csv.gz",
+      "sha256": "6a284f5ac45c9b0c20c4e4eadb78e68d16160a7328765dad066a4371ca5cbcb5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch069_steps.csv.gz",
+      "sha256": "26a0b2e1abf7df9be1aa69eb21be0fb2cdcd220d74122ebcd8abac1c5e289cb0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch069_targets.csv.gz",
+      "sha256": "398dd0946d1c782e1c9841e9b5acfa7553d09e1dcecf4dbb67c00de7b4cb2b15"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch070.json",
+      "sha256": "aed6ce280ad3b84b3f704cd45963dcfc82897504426a56ace29c831e59aa4ecf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch070_parameter_gradients.csv.gz",
+      "sha256": "f9dfe493155af93a710942f117536fb5e751bcac855bbaa47157500426fceec0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch070_steps.csv.gz",
+      "sha256": "5596b5fd23eb82ddd0de74ed513f6f7f342be681d87da07ed05f5f6e8a7e6ce4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch070_targets.csv.gz",
+      "sha256": "157ab742e046f6b1f43e264deb992bf94d0b17a5d636b9aa946419df3822d73b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch071.json",
+      "sha256": "013ba68441154a000ecf7c1b6c5a7b4e4d72e58171c7e318392eff4b34555b8c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch071_parameter_gradients.csv.gz",
+      "sha256": "1cf4c21170f3537b6da714234ba5ee8515939bc7eb3a8ac84cab559ab9685574"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch071_steps.csv.gz",
+      "sha256": "9a5d737df827bb920d96b8d1e48a227c48cfde6d686016553cf82aafbe16aecd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch071_targets.csv.gz",
+      "sha256": "4b779f68256da4c7e7e3fc3c2573e17e7bc99f28cfbc86a7dd3fad8339511940"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch072.json",
+      "sha256": "3946bf7392c568d6fdcedb8286798eb7ffa50b80f8478eb5ca01b3752dd76276"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch072_parameter_gradients.csv.gz",
+      "sha256": "41eff0f303f04f94b5127831ef97c008c22b7856df82259530e07519be897e41"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch072_steps.csv.gz",
+      "sha256": "9d204f2b56dca20991036e41c2ab1ceaf025647efe9299cc013926dcb3102821"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch072_targets.csv.gz",
+      "sha256": "a90833ba8c65a6e654af35d4db3d303bd90718406c8a4662ac2f43586642377b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch073.json",
+      "sha256": "8549cbac64fe03b115d2a3891d70f3f83113a239feb780f8bb1183698d229810"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch073_parameter_gradients.csv.gz",
+      "sha256": "461b8649f38653ea9e9f9f0b818e00fa58b49a342bd78798223a9f83ba21f036"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch073_steps.csv.gz",
+      "sha256": "b4774cb2192ee9b7e1eb65ce03b03073cfbdd09ee4c9e9f87d56efcfbff26ee8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch073_targets.csv.gz",
+      "sha256": "511803ebb03ef22c1c92e59ef94c787e1f1c4193de28e51d5ace1ef62ef0f727"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch074.json",
+      "sha256": "77314bdadd74d1ec844bb14daf1fdfba988a11518f1fffe33878d68b81928c03"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch074_parameter_gradients.csv.gz",
+      "sha256": "e694c51ea377eda6d0ce6edb290ff8dbf6796db09b5ab9c1d26e6f85163e6b16"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch074_steps.csv.gz",
+      "sha256": "307344fb2afeb46c3c706e814828758634e5a0f88f2197ee263e67a134f16e21"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch074_targets.csv.gz",
+      "sha256": "a80b99233fd2f7263b95e8954b6e3eb0aacc6d70f9e6ac41aa53590636f86996"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch075.json",
+      "sha256": "e0f66445dfa043267b91bfab4cf07e655241618d26688746e408feb9454de032"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch075_parameter_gradients.csv.gz",
+      "sha256": "82da7ebb604454f7b39115a355f1bbd36dacbdd3e0c37aa68db5d61eea3d2244"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch075_steps.csv.gz",
+      "sha256": "1f06f1a4ccc1b92c5d0eb6fb1305a725241896c15b22aa337f66456d626dadff"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch075_targets.csv.gz",
+      "sha256": "b2d92c934d997cf515a1fe1037bd8952b231eb91636f2dfcab9d0d0a83152f74"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch076.json",
+      "sha256": "12bedb883ae604aedb0f3241d09e1afef4e765c4553e9ed7815b07a046a5ead2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch076_parameter_gradients.csv.gz",
+      "sha256": "b0e7c49077509f47a8f0306fa2b5b74625aa96b9a92b78adbc8fa2257967a586"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch076_steps.csv.gz",
+      "sha256": "c9583ce0f19c83e7059006acc13b0e736d6b2bd051664dd9625de2c719378c87"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch076_targets.csv.gz",
+      "sha256": "e54d1e4ae3340848fc53ddeaa40e93fa9c3836cde58091b14ea8db6bb368a3ac"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch077.json",
+      "sha256": "84a0129cd9c19952d673a12708f0eccadc8588bc03fd7f4e6db09db57d015a4d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch077_parameter_gradients.csv.gz",
+      "sha256": "61542b8f23dde4fd2419c4130f7338143a994356cfed5ed9ca190f49c19e6d95"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch077_steps.csv.gz",
+      "sha256": "77f6ae56ef95c8866aed588c37cbbf1bdb2b71a713c7674c6b9a76de9c2cab4b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch077_targets.csv.gz",
+      "sha256": "8beb5f3d727882e63d0c84612b2e48d85430969302cce2ee055e983068cf48d7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch078.json",
+      "sha256": "48e0d7da324ddf7b5f0abf4b2d2af4914c037fbefac94a5266ac1680860d8262"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch078_parameter_gradients.csv.gz",
+      "sha256": "7bcf8f08f75e411ffacff9fcfd7ad48f312c2f608533ce81c22ce9885b98d5b9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch078_steps.csv.gz",
+      "sha256": "d738e1699d2d5a0be8ac63919409f49358b3d531bb0e84a8db4be74b3a6ef2e2"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch078_targets.csv.gz",
+      "sha256": "44fad785685670ca3a619b8e7d974c2955ad6105624ce2ac8e390062d08c242a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch079.json",
+      "sha256": "39200e91745d235a43a4ac3e610ab991ae83012f1a0fc8aea64e4760ca6c2212"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch079_parameter_gradients.csv.gz",
+      "sha256": "773716f01843c7c1177d0b4557ceff35f78f522f088af91b6b37a95c1ed65807"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch079_steps.csv.gz",
+      "sha256": "2e8a301fcc3caee1005eb60202955958b2f292f266a873ce3641eb09a54afe34"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch079_targets.csv.gz",
+      "sha256": "51075509647763f738b015366d22c2dc9e50e6f64ba2b6d7061cc32e78798a99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch080.json",
+      "sha256": "5d55caa8b5c3b27f359154fe1c8885a4133b871a4bc133330334d768eaa9f361"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch080_parameter_gradients.csv.gz",
+      "sha256": "26f3f6bb5006e4e412cc0a5cecc940542898835849e7078ae314f4940ff39ab7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch080_steps.csv.gz",
+      "sha256": "0a6f61c850344ad693e8c108f0cbb4d5f6c0466e2204b8a68e079e8be8d275e8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch080_targets.csv.gz",
+      "sha256": "9270c71272983b830d3f6ff56500e6a6b932c22dead5c1f906d8381544b50bc7"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch081.json",
+      "sha256": "485476ee48b24c892f35773ce88fb5186de43936010d32467cd987475fd1b884"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch081_parameter_gradients.csv.gz",
+      "sha256": "9b55a5cb30ad36c709e60326872441b07904310733cb3e457f05ff6db8135431"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch081_steps.csv.gz",
+      "sha256": "84ffcc21eb12b21154652c32e61f76c0eef74d17d8ca2df14da5c8d78ff8fe89"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch081_targets.csv.gz",
+      "sha256": "2a44369b757199b129b55aa8e6f87b267888e5049c228af58328fae09cd64e3b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch082.json",
+      "sha256": "a99a4a50d16161a187342dc2cac6db3e967b91a08b8c72c12436eba29fb02989"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch082_parameter_gradients.csv.gz",
+      "sha256": "5e73909003544df6f3631df2cc01133e784545552a6bf0b0c4c1dd8ae00ba676"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch082_steps.csv.gz",
+      "sha256": "d05db8d344f68742a319bcaf23e96fb3b79f790335db785ecdeea2524fee1064"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch082_targets.csv.gz",
+      "sha256": "26bab4d170ccced59e46db8e6adefc16e87bb6649322d0d850c845c9bba15cc8"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch083.json",
+      "sha256": "c6ed18b52dc05a02b39c18cf1dc526e77feb15557e14e8218fef23d6e220c6b5"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch083_parameter_gradients.csv.gz",
+      "sha256": "6759f85565650490169aac70a8254d41ff2523027ad8cf290fabb0b8bc5f03cb"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch083_steps.csv.gz",
+      "sha256": "8f4dcc0393166fbc023705ec02f1e55ad76d03b3138aa549b68fce2047b20876"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch083_targets.csv.gz",
+      "sha256": "7ef19ab4eff786891cec321b7bc6cfb0be14ab2c77678280ac775674fbadd00f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch084.json",
+      "sha256": "f0bd56e27d6177fbd1269d0790190c34a1365d7cb7b72b5b0e576ecf61134f56"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch084_parameter_gradients.csv.gz",
+      "sha256": "ff9f6241ac27c1d30bf36056c2d9e51d0c988a0bd9f9950d35064a3823e70604"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch084_steps.csv.gz",
+      "sha256": "c936352f8c8976a2ae87a00cdf951bd8d43870ecf5a22d3cd04418eb350435cc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch084_targets.csv.gz",
+      "sha256": "4ec22b909507031367bc34ba75885c735953e6c543102a2d46d555b619a225d9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch085.json",
+      "sha256": "24e8f08fdef96ceec06a16cb9dd6699106c92f5736afcd90bbeb63e99ab6ac31"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch085_parameter_gradients.csv.gz",
+      "sha256": "8d22f56a779ebdce55205a165302f40e44db7f08c76cdc17184ccc3c785722da"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch085_steps.csv.gz",
+      "sha256": "f4d1ab025a2a9a460c014ff4031814c91dd8f051b4d2ca7ab2aab990f65cee99"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch085_targets.csv.gz",
+      "sha256": "74b91bf82094061ddd44f152128dd873372d8476597ba4769a30972639d0534a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch086.json",
+      "sha256": "5fa48adc86b8a9afc6f1047b2a9bb749ccc12889f14f8fe8cff61d7e10fa1096"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch086_parameter_gradients.csv.gz",
+      "sha256": "55fd642892f2f5ce90538f949e349b10e77963dc5e17a933391a9f04df896283"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch086_steps.csv.gz",
+      "sha256": "c8df065ff6f88e49d1f0cddbc75553bc52db0f6962b09cd37a8e5db5a2a7a610"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch086_targets.csv.gz",
+      "sha256": "d246a58ed4a077f1c0c8b42c40a60b525051f6c2b98c8c66abd417aedc2874b4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch087.json",
+      "sha256": "6b71c5a37cb4009305421a175d95aac54a783ef17688c98961167c030697e2e6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch087_parameter_gradients.csv.gz",
+      "sha256": "b62d6ec641810c85eacd8e4f1d3dce7a407c90858c7a8c2dcc188cff8a4b464d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch087_steps.csv.gz",
+      "sha256": "f195c3e003eb81a12aa896045ade10b55b6402c0d454194ba06bb405aceda0ec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch087_targets.csv.gz",
+      "sha256": "3f25feab9953e4cf7d5d1331cd86813aeebe944b51c45ca0ac80efd285d3a25e"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch088.json",
+      "sha256": "f955fb4683ec404aaed512502d68a1c42d444ea880bf8d1a796a8622d8539588"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch088_parameter_gradients.csv.gz",
+      "sha256": "7b07e3c846744e99a2e8fd43326d644e4d6b57ec403e3c649ef03fbd14b6b02d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch088_steps.csv.gz",
+      "sha256": "04ae80c019d544f8bedcba2702315acb38673bb880994033d62e8a045c42d10b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch088_targets.csv.gz",
+      "sha256": "13fd75b1c18f28ef0b475936d475f992a4ba7c449e5726be36ddf20f71b2e124"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch089.json",
+      "sha256": "d06deabaff4ac7f98df6d79ad43c5530dcaed9e9ad9f27843f2792edf1f1d352"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch089_parameter_gradients.csv.gz",
+      "sha256": "7b67462d80e434149e0e145941ca3279cf657fa74c709ebb08c7ab844bdee3fe"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch089_steps.csv.gz",
+      "sha256": "88c41b34078cee9c1e506b798a0d58459107ffa7d974401f32b5f69506ca06bc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch089_targets.csv.gz",
+      "sha256": "7d7dcd71d7b054015a1d5a17741f6dc54859ec0f8317e4dd3e3adac2fcc039da"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch090.json",
+      "sha256": "f3f8fcfc9b043d08b48fdce9ac8e46c70d84bc5127b7a9d9dd01650da6a81230"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch090_parameter_gradients.csv.gz",
+      "sha256": "77cca009d3af2daf14844821faf2ffb88c6b507bc0cf48f2b33bc50e14e0d3ce"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch090_steps.csv.gz",
+      "sha256": "145097852d851e456c1a37c3849eb01885a90dbf282e427facef99db2decad3c"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch090_targets.csv.gz",
+      "sha256": "2d51edc30f3f70fda899f8c2452f59ed91f910b3ddcef5c82a60162b50405b32"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch091.json",
+      "sha256": "8999dcccf62dc6717eedfcd650cc3c7542ec48ec22ecba7c6b20f50dd3a7bc40"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch091_parameter_gradients.csv.gz",
+      "sha256": "db9ecd0f8da63b376a3e3c9a86d3aba9b17bc9c419c9fb06079faaaaa1b4f8c6"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch091_steps.csv.gz",
+      "sha256": "7c1bed7a548ecbaca8dc3a5212624a051f0911cedeb43f02370a575434f52079"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch091_targets.csv.gz",
+      "sha256": "37700d983fc5a818c71e92647f38a2d2f12af351ab1862309cec2132c160e2d4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch092.json",
+      "sha256": "b4b11ac22f68916f896ff5eb5c8e80512880a1b5431757e2d086d5b5d03a265a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch092_parameter_gradients.csv.gz",
+      "sha256": "ae48a3658c633412ad0aea249ced2e711cf3c13befb609d0c875f918183f5d85"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch092_steps.csv.gz",
+      "sha256": "3c2bf74866787254a77c6c1d6ff18fdf3ebbb25c296226c832c8d95ba83d1371"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch092_targets.csv.gz",
+      "sha256": "2980dade553a8c5bc10a56f11221ebdf8cc6859a2dce5ca12f0cb7651605f112"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch093.json",
+      "sha256": "b8bb5a30f981128ea95ee1a59d8388301c6404de30e34aefd17dab2474949ade"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch093_parameter_gradients.csv.gz",
+      "sha256": "54289c1fc2dbf57015ed5cd21dd00d1c4721eab9acf6a7d752112e8c664ca6be"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch093_steps.csv.gz",
+      "sha256": "e5a553d8f4ea5354ca0ec6eb46ad49de2f43806a74994ad533a486a97aef3e31"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch093_targets.csv.gz",
+      "sha256": "c7d10e5ccd1b57cd1ba01540959d5b2c7878c23141a36eb1e777f4b949b36b24"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch094.json",
+      "sha256": "682fac62d6cd70e8110ab42c027b4aeaa2438e8ffcd72f744eb9e5cdf218344b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch094_parameter_gradients.csv.gz",
+      "sha256": "f57af61607468a330463a17d99a3c86f8c4d1c7b4dbcb1c716f9eadf420d72ab"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch094_steps.csv.gz",
+      "sha256": "ff0aabadcef909f372c189eec2a900b3847a2e409a3b22768f023d7f0e5e87f0"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch094_targets.csv.gz",
+      "sha256": "bf53b57dfc546664b94f537d13e149212052b7f4304174c0302698546692399b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch095.json",
+      "sha256": "90d1fd0916a9d3dae49f5116500f3c022bcd8eb1c57be89edd1e6c4e61b9de8b"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch095_parameter_gradients.csv.gz",
+      "sha256": "0b192faa5517ae1a241a2ecc9c1af6b73c8c5d7df61f48be66801ea4df410c55"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch095_steps.csv.gz",
+      "sha256": "2822860cc16c5eb1ff539382d3724ec7b2c19bb13fc409f5f9184ca7832698e4"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch095_targets.csv.gz",
+      "sha256": "436e0c3d10cb9438845be47720544974695a1278829dd4ff73558d0b18a9f9a9"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch096.json",
+      "sha256": "a62083ee3bba868d306e896f0f547fadede844f81eceba3cb9c7ec0b32f48bbf"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch096_parameter_gradients.csv.gz",
+      "sha256": "4c823f29120c25c341cb82364471a2ab89e73e52ec4465c406f8e2e869594a48"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch096_steps.csv.gz",
+      "sha256": "b503d2e5becd1a4a78c086620508b188bf1d9d1a7786414739e890268e45e06f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch096_targets.csv.gz",
+      "sha256": "87c87f1720439c3b566ae0af2cc4dcbbc99ebcdd3a551cf47e98bce5b02837dc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch097.json",
+      "sha256": "8e0e218c786f9c472145f938d73c42c6428af1869180f213a56c62ab96c2fe41"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch097_parameter_gradients.csv.gz",
+      "sha256": "19d591c02465a7bccf48aad344a65a8bcfc0dfef1ed66170d38c004af3ceae48"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch097_steps.csv.gz",
+      "sha256": "ec4a2863d9f8d0dd8568cc59e3b9cc1dd622a5302773bb0fd7f781279d4efaf1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch097_targets.csv.gz",
+      "sha256": "09e1efb8a2e6b9ca980c47853abc299a0339c6d0a8be56b4dd7183b790372188"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch098.json",
+      "sha256": "6fd636178c040f9b59a48b92b9960a20274ebb80345d9dbb4f5b031ee4e3d0b1"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch098_parameter_gradients.csv.gz",
+      "sha256": "8a06e0339531892242695f0934b6094f758a347e1f1791030bfecce4f32f8cfd"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch098_steps.csv.gz",
+      "sha256": "837f9e68600374d48aa5d8b6769c17a285b90c7b8d852d1b98b402d340850d64"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch098_targets.csv.gz",
+      "sha256": "3919b20374ae33035329313382a5838703a0fd8c6f5939eba39c1138ec98b68f"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch099.json",
+      "sha256": "2a4308455009a8477f82305f64b059b4f702df222255bebc3fbed04ab03f2b42"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch099_parameter_gradients.csv.gz",
+      "sha256": "12881c6a7729e30ca33d08159fb7365499c5c8f8cd16e3d6e1bc332a3780be78"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch099_steps.csv.gz",
+      "sha256": "4be2f5d5967ac37a14b15faeb1a95d02592b2ff4d9e269e7df08b8563beb525a"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch099_targets.csv.gz",
+      "sha256": "c6c2e828a9cd4b650b16fea29a6ecf2e7d48ffc089766d528c26b9be223d072d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch100.json",
+      "sha256": "9bdabd85b00c3f7710ec577740fe6213815ac8a0eb0c96086d6ed73b025cf569"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch100_parameter_gradients.csv.gz",
+      "sha256": "40cb237dc29d8cd3d82511fe3aa7a65d4c744baa829e75af7a4fabc7d2615c59"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch100_steps.csv.gz",
+      "sha256": "6fd2532eb1a42f06de844722131dde4682666d9549319966bcdd5635c2efaf88"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/epochs/epoch100_targets.csv.gz",
+      "sha256": "39c1fd143f9a22f0ed5d38cf4ad16a796904f8334abdd37e5ae27a7e0f4671cc"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/execution.jsonl",
+      "sha256": "7a2bdf74dd2e05f5de5e9580c81cd19f68db5eaef1d09ccdef60bfb4727e196d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/execution.txt",
+      "sha256": "7a2bdf74dd2e05f5de5e9580c81cd19f68db5eaef1d09ccdef60bfb4727e196d"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/lifetime_parameter_gradients.csv",
+      "sha256": "905e26299c22c33d4560231a5eda2d64f1cf1a035cd0db413f9cb138fdb00615"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/provenance.json",
+      "sha256": "822eb550134a12c19fdacdc1c396dbdf0a20ccdb175b8a21efde94d6a9849216"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/selection.json",
+      "sha256": "26f887a59962d46ad1ee1d5d3cefa1e70d7a93aaa3d117893b2f5c13f0a800ec"
+    },
+    {
+      "path": "results/tables/stage5p4/ego_capacity/crowds_zara02/training_curve.csv",
+      "sha256": "c7e91af33c45f8f347e5610889b419e7dd96bb42da9f879caee8249bb3502e83"
+    },
+    {
+      "path": "results/tables/stage5p4/phase1_decision.json",
+      "sha256": "297c2c15041b97c582581bba6e1501d755d8ee76703e23debf68dcd0b11b7d9f"
+    }
+  ]
+}

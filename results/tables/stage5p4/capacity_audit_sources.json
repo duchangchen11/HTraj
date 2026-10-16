@@ -1,0 +1,10 @@
+{
+  "EgoCapacity_probe_source": "results/tables/stage5p4/capacity_audit.json",
+  "Full_NoSocial_probe_sha256": "4cca21d7102b6cafffc04226fe98152c1ab58f111615a50cbdebd8daa40d9609",
+  "Full_NoSocial_probe_source": "results/tables/stage5p3/capacity_audit.json",
+  "Full_lifetime_exact_gradient_union_available": false,
+  "Full_optimizer_moments_proxy_source": "results/tables/stage5p3/full_optimizer_capacity_proxy.csv",
+  "Full_proxy_is_not_exact_gradient_union": true,
+  "function_class_equality_claim": false,
+  "parameter_masks_applied_to_weights": false
+}

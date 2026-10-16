@@ -1,0 +1,57 @@
+{
+  "actual_run_wall_seconds": 1878.150957336009,
+  "best": {
+    "K1_prior_ADE_m": 0.2763775934443055,
+    "K1_prior_FDE_m": 0.6207613133183159,
+    "bytes": 28207360,
+    "epoch": 47,
+    "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch047.pth",
+    "sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4"
+  },
+  "best_train_K1": {
+    "train_K1_prior_ADE_m": 0.4669798548243359,
+    "train_K1_prior_FDE_m": 1.0144989362009065
+  },
+  "best_validation": {
+    "K1_prior_ADE_m": 0.2763775934443055,
+    "K1_prior_FDE_m": 0.6207613133183159,
+    "K1_sample_ADE_m": 0.39227969918848654,
+    "K1_sample_FDE_m": 0.900171383389787,
+    "minADE20_m": 0.15297832026576194,
+    "minFDE20_m": 0.29343086344551556,
+    "people": 35,
+    "posterior_kl": 0.00852432060345407,
+    "posterior_loss": 0.014450740123733933,
+    "posterior_rec": 0.005926419301947831,
+    "target_windows": 1092,
+    "windows": 172
+  },
+  "code_commit": "f937249e142e677bafbc687ee11fcbd6b3666d28",
+  "completed_epochs": 100,
+  "initial_parameter_state": {
+    "parameter_L2": 59.33130056236636,
+    "parameter_count": 2669570,
+    "parameter_max_abs": 0.70648592710495,
+    "parameter_state_sha256": "129e5e7e7edc0a611a9bee5678d8dd312863bbaf702854290f52359b827a4a91",
+    "parameters_finite": true
+  },
+  "last": {
+    "K1_prior_ADE_m": 0.30930447720687143,
+    "K1_prior_FDE_m": 0.6822503136156208,
+    "bytes": 28207424,
+    "epoch": 100,
+    "path": "experiments/stage5p4/checkpoints/ego_capacity/crowds_zara02/epoch100.pth",
+    "sha256": "5d0c3712b98459ca1f70cc2c9e8d1d72e6d50d6c74e80e3431bce77368abe715"
+  },
+  "selected_best_restore": {
+    "deterministic_prediction_max_difference_m": 0.0,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  "selection_rule": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "total_optimizer_steps": 18400,
+  "training_completed": true,
+  "training_targets_per_epoch": 23545
+}

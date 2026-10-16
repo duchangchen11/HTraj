@@ -1,0 +1,8 @@
+model,recording,nominal,module_forward_used,module_loss_connected,structural_upper_bound,observed_nonzero,observed_zero,added_ego_nonzero,interpretation
+Full,64_target_fixed_training_probe,2144002,2144002,2144002,2045698,1783553,360449,,"four no-update probe batches; not lifetime, rank, or exact function capacity"
+NoSocial,64_target_fixed_training_probe,2144002,1656514,1656514,1459906,1278481,865521,,"four no-update probe batches; not lifetime, rank, or exact function capacity"
+EgoCapacity,64_target_fixed_training_probe,2669570,2182082,2182082,1985474,1602243,1067327,,"four no-update probe batches; not lifetime, rank, or exact function capacity"
+NoSocial,biwi_hotel,2144002,,1656514,1459906,1455838,688164,0,100 complete epochs: exact union of observed nonzero gradients; not permanent theoretical inactivity
+NoSocial,crowds_zara02,2144002,,1656514,1459906,1456224,687778,0,100 complete epochs: exact union of observed nonzero gradients; not permanent theoretical inactivity
+EgoCapacity,biwi_hotel,2669570,,2182082,1985474,1981885,687685,525568,100 complete epochs: exact union of observed nonzero gradients; not permanent theoretical inactivity
+EgoCapacity,crowds_zara02,2669570,,2182082,1985474,1982792,686778,525568,100 complete epochs: exact union of observed nonzero gradients; not permanent theoretical inactivity

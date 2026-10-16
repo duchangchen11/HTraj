@@ -1,0 +1,68 @@
+{
+  "ETH_evaluated": false,
+  "Full_qualifies_all_four": true,
+  "additional_seeds": false,
+  "cells": [
+    {
+      "EgoCapacity_ADE_m": 0.44096685493798377,
+      "EgoCapacity_FDE_m": 0.8675000150951574,
+      "Full_ADE_m": 0.3871843371798033,
+      "Full_FDE_m": 0.751520930537544,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.12196498933178164,
+      "ego_sufficient": false,
+      "recording": "biwi_hotel",
+      "weighting": "target-window"
+    },
+    {
+      "EgoCapacity_ADE_m": 0.8435748870597976,
+      "EgoCapacity_FDE_m": 1.7002400318908486,
+      "Full_ADE_m": 0.7361043574498275,
+      "Full_FDE_m": 1.478560875104739,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.12739892007045003,
+      "ego_sufficient": false,
+      "recording": "biwi_hotel",
+      "weighting": "equal-person-ID"
+    },
+    {
+      "EgoCapacity_ADE_m": 0.2763775934443055,
+      "EgoCapacity_FDE_m": 0.6207613133183159,
+      "Full_ADE_m": 0.2725632910217131,
+      "Full_FDE_m": 0.6075127774038465,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.013801055197917265,
+      "ego_sufficient": false,
+      "recording": "crowds_zara02",
+      "weighting": "target-window"
+    },
+    {
+      "EgoCapacity_ADE_m": 0.3769861430565235,
+      "EgoCapacity_FDE_m": 0.7528434963889237,
+      "Full_ADE_m": 0.35976613019152376,
+      "Full_FDE_m": 0.7009071589308883,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.04567810563376028,
+      "ego_sufficient": false,
+      "recording": "crowds_zara02",
+      "weighting": "equal-person-ID"
+    }
+  ],
+  "ego_sufficient_all_four": false,
+  "frozen_rule": {
+    "FDE_substantial_regression_relative": 0.01,
+    "Full_meaningful_ADE_gain_relative": 0.01,
+    "capacity_sufficient": "Ego ADE <= Full ADE and Ego FDE <= Full FDE*1.01 in both recordings and both weightings; stop without placebo",
+    "continue_to_placebo": "Full relative ADE gain (Ego-Full)/Ego >=1% and Full FDE <= Ego FDE*1.01 in both recordings and both weightings, plus capacity and isolation tests passed",
+    "otherwise": "conditional/conflicting/small differences: stop without placebo; no alternative seeds or architecture attempts",
+    "primary": "best K1 latent-prior ADE, paired FDE, exact same target cohort",
+    "thresholds": "preregistered development decision criteria, not statistical significance or formal noninferiority tests",
+    "weightings": [
+      "target-window",
+      "equal-person-ID"
+    ]
+  },
+  "phase2_allowed": true,
+  "threshold_not_statistical_significance": true,
+  "verdict": "Full_meets_gate_allow_phase2_protocol"
+}
