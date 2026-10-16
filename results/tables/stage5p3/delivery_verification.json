@@ -1,0 +1,19 @@
+{
+  "ETH_evaluated": false,
+  "Ego_Capacity_Control_trained": false,
+  "Full_results_frozen": true,
+  "Full_structural_upper_bound": 2045698,
+  "NoSocial_structural_upper_bound": 1459906,
+  "checkpoints_verified": 200,
+  "code_commit": "52de9edc344b1603ba7cb2a7944239b678e1c0ee",
+  "complete_epochs_per_run": 100,
+  "effective_capacity_equal": false,
+  "initial_parameter_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+  "local_commit_only": true,
+  "official_source_changed": false,
+  "protected_files_verified": 3436,
+  "trained_NoSocial_isolation_verified": true,
+  "two_fresh_independent_seed17_runs": true,
+  "unit_test_failures": 0,
+  "unit_tests": 313
+}

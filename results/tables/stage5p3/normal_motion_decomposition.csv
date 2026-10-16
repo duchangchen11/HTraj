@@ -1,0 +1,5 @@
+recording,weighting,target_windows,people,CV_Last2_ADE_m,Full_ADE_m,NoSocial_ADE_m,Full_minus_NoSocial_ADE_m,Full_improvement_vs_CV_m,NoSocial_improvement_vs_CV_m,descriptive_fraction_retained_without_neighbors,interpretation
+biwi_hotel,target-window,91,24,0.5333475523182286,0.79921954870224,0.8924749211950617,-0.09325537249282168,-0.2658719963840114,-0.35912736887683305,,"descriptive numeric ratio, NOT causal attribution fraction"
+biwi_hotel,equal-person-ID,91,24,0.5044793849751231,0.8300004395835027,0.9317080051271301,-0.10170756554362748,-0.32552105460837955,-0.427228620152007,,"descriptive numeric ratio, NOT causal attribution fraction"
+crowds_zara02,target-window,422,33,0.504077575919151,0.42071658533543205,0.44171047428737603,-0.020993888951943984,0.08336099058371899,0.062367101631775,0.7481569160234494,"descriptive numeric ratio, NOT causal attribution fraction"
+crowds_zara02,equal-person-ID,422,33,0.5430333847917597,0.44554681907727933,0.4856317246598316,-0.04008490558255229,0.09748656571448033,0.057401660131928045,0.5888161072372435,"descriptive numeric ratio, NOT causal attribution fraction"

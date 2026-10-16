@@ -1,0 +1,6 @@
+{
+  "formal_run_retries": 0,
+  "inherited_frozen_baseline_limitation": "Stage5.2 CUDA batch-partition diagnostic 4 tolerance failures unchanged; results/tables/stage5p2/CUDA_sampling_invariance_diagnostic.json",
+  "note": "Current stage unit/functional tests passed; no assertion suppressed or tolerance changed",
+  "stage5p3_failures": []
+}

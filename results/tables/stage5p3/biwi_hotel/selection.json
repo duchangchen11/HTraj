@@ -1,0 +1,57 @@
+{
+  "actual_run_wall_seconds": 2019.6689555899939,
+  "best": {
+    "K1_prior_ADE_m": 0.39519397374359694,
+    "K1_prior_FDE_m": 0.7778092365823217,
+    "bytes": 21895776,
+    "epoch": 2,
+    "path": "experiments/stage5p3/checkpoints/biwi_hotel/epoch002.pth",
+    "sha256": "c3c983aa5ef1cc581578ec837f6cca1064850f88b2e4929db003b1deabb03874"
+  },
+  "best_train_K1": {
+    "train_K1_prior_ADE_m": 0.5090508271106854,
+    "train_K1_prior_FDE_m": 1.0963522056822708
+  },
+  "best_validation": {
+    "K1_prior_ADE_m": 0.39519397374359694,
+    "K1_prior_FDE_m": 0.7778092365823217,
+    "K1_sample_ADE_m": 0.5734308197297765,
+    "K1_sample_FDE_m": 1.1534906147903055,
+    "minADE20_m": 0.24611384195492328,
+    "minFDE20_m": 0.4165759803961564,
+    "people": 28,
+    "posterior_kl": 0.02118622940385117,
+    "posterior_loss": 0.04461028757241537,
+    "posterior_rec": 0.023424058918308163,
+    "target_windows": 318,
+    "windows": 94
+  },
+  "code_commit": "52de9edc344b1603ba7cb2a7944239b678e1c0ee",
+  "completed_epochs": 100,
+  "initial_parameter_state": {
+    "parameter_L2": 55.61193547353812,
+    "parameter_count": 2144002,
+    "parameter_max_abs": 0.70648592710495,
+    "parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+    "parameters_finite": true
+  },
+  "last": {
+    "K1_prior_ADE_m": 0.705352962778518,
+    "K1_prior_FDE_m": 1.508764964235513,
+    "bytes": 21895840,
+    "epoch": 100,
+    "path": "experiments/stage5p3/checkpoints/biwi_hotel/epoch100.pth",
+    "sha256": "24ee35d4992e4c2d68a3ee735af6c3e07f419c5c0ddbfa5980aeae1f80c3ae13"
+  },
+  "selected_best_restore": {
+    "deterministic_prediction_max_difference_m": 0.0,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  "selection_rule": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "total_optimizer_steps": 21300,
+  "training_completed": true,
+  "training_targets_per_epoch": 27145
+}

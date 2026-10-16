@@ -1,0 +1,23 @@
+{
+  "ETH_evaluated": false,
+  "Ego_Capacity_Control_trained": false,
+  "additional_seeds": false,
+  "additional_training": false,
+  "any_K1_ADE_improvement_recordings": [
+    "biwi_hotel",
+    "crowds_zara02"
+  ],
+  "capacity_confound_resolved": false,
+  "qualified_recordings_both_weightings": [
+    "biwi_hotel",
+    "crowds_zara02"
+  ],
+  "rule": {
+    "additional_seeds": false,
+    "extra_training_after_two_runs": false,
+    "meaningful_FDE_regression_relative": 0.01,
+    "rule": "Full ADE improvement >=1% and FDE regression <=1% in both recordings and both window/person weighting: worth followup, capacity confound remains. One recording only: conditional. Neither recording: stop complex SocialVAE social-module development. Report exact differences for smaller effects/conflicting metrics; no posthoc new threshold.",
+    "useful_ADE_relative_gain": 0.01
+  },
+  "verdict": "worth_followup_capacity_unresolved"
+}

@@ -47,3 +47,7 @@ flowchart TD
 官方在`enc`开头使用`torch.no_grad()`构造相对特征，导致Full对原始邻居张量的autograd Jacobian也可以为None。这不代表Full没有功能依赖。必须同时检查固定权重/固定潜变量噪声下的邻居干预；Full的合法位置、速度、数量和进入时间干预会改变预测，NoSocial必须不变。源码不因本审计而修复detachment，避免改变冻结对照。
 
 人工测试与真实参数探针分别见 `tests/test_socialvae_attribution.py`、`results/tables/stage5p3/isolation_tests.*` 和 `capacity_audit.json`。这些属于结构/梯度验证，不是性能训练结果。
+
+## 最终实测补充
+
+忠实记录官方几何feature公式：`bearing=<dp,v>/(||dp|| ||v||)`（非有限值归零）；`tau=clip(-<dp,dv>/||dv||,0,7)`（非有限值归零）；`mpd=||dp+tau*dv||`。代码的tau分母是范数而非平方范数，不能擅自写成常规最近相遇时间公式；本阶段不更改它，其物理含义和单位解释若需改动须另行核查。NoSocial不计算上述邻居feature。

@@ -1,0 +1,18 @@
+[
+  {
+    "all_dead_weights_unchanged": true,
+    "ever_nonzero_gradient_scalars": 1455838,
+    "never_nonzero_gradient_scalars": 688164,
+    "recording": "biwi_hotel",
+    "structural_upper_bound": 1459906,
+    "total_parameters": 2144002
+  },
+  {
+    "all_dead_weights_unchanged": true,
+    "ever_nonzero_gradient_scalars": 1456224,
+    "never_nonzero_gradient_scalars": 687778,
+    "recording": "crowds_zara02",
+    "structural_upper_bound": 1459906,
+    "total_parameters": 2144002
+  }
+]
