@@ -1,0 +1,60 @@
+[
+  {
+    "all_target_IDs_history_GT_SHA_equal_Stage5p1": true,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "optimizer_steps_per_epoch": 213,
+    "person_IDs": 892,
+    "pool_file_sha256": "a47ce322ecacec4af0009dab3c58fe9484f69d137e649ceeac23a7b07905244c",
+    "recording": "biwi_hotel",
+    "records": [
+      "crowds_zara01",
+      "crowds_zara02",
+      "students001",
+      "students003"
+    ],
+    "split": "train",
+    "target_windows": 27145
+  },
+  {
+    "all_target_IDs_history_GT_SHA_equal_Stage5p1": true,
+    "manifest_sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1",
+    "optimizer_steps_per_epoch": null,
+    "person_IDs": 28,
+    "pool_file_sha256": "fff6de7ee87b25a1a9c7590d6f210469d95a017d37e5c07a9864151283696ef1",
+    "recording": "biwi_hotel",
+    "records": [
+      "biwi_hotel"
+    ],
+    "split": "validation",
+    "target_windows": 318
+  },
+  {
+    "all_target_IDs_history_GT_SHA_equal_Stage5p1": true,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "optimizer_steps_per_epoch": 184,
+    "person_IDs": 833,
+    "pool_file_sha256": "9ab08b0a20c5c1bc98bf35b7c74753e7453f649ede4d24744f0089195fa4386a",
+    "recording": "crowds_zara02",
+    "records": [
+      "biwi_hotel",
+      "crowds_zara01",
+      "students001",
+      "students003"
+    ],
+    "split": "train",
+    "target_windows": 23545
+  },
+  {
+    "all_target_IDs_history_GT_SHA_equal_Stage5p1": true,
+    "manifest_sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246",
+    "optimizer_steps_per_epoch": null,
+    "person_IDs": 35,
+    "pool_file_sha256": "c6a7359f720a87dae3d1738eefbba28443a9940faa7029c230da05d129da52ff",
+    "recording": "crowds_zara02",
+    "records": [
+      "crowds_zara02"
+    ],
+    "split": "validation",
+    "target_windows": 1092
+  }
+]

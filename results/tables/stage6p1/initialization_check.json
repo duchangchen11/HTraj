@@ -1,0 +1,12 @@
+{
+  "conditions_same_initial_state": true,
+  "frozen_model_source_sha256": "5e4c6580acfbacb4d67139f862179bc5d49974bbec2618be216898527b369ccc",
+  "optimizer_updates": 0,
+  "parameter_L2": 55.61193547353812,
+  "parameter_count": 2144002,
+  "parameter_max_abs": 0.70648592710495,
+  "parameter_state_sha256": "ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63",
+  "parameters_finite": true,
+  "post_init_torch_RNG_equal": true,
+  "structurally_effective_scalar_upper_bound": 1459906
+}
