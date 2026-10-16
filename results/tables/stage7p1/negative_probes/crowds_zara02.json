@@ -1,0 +1,52 @@
+{
+  "completions": [
+    {
+      "loss": 38.51789855957031,
+      "loss_finite": true,
+      "loss_terms": {
+        "kld": 2.0,
+        "mse": 19.19904899597168,
+        "sample": 17.31884765625
+      },
+      "placeholder": "last_position_plus_0.0m",
+      "supervised_posterior_finite": true,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": 0.2621351405978203
+    },
+    {
+      "loss": 38.63867950439453,
+      "loss_finite": true,
+      "loss_terms": {
+        "kld": 2.0,
+        "mse": 19.3198299407959,
+        "sample": 17.31884765625
+      },
+      "placeholder": "last_position_plus_100.0m",
+      "supervised_posterior_finite": true,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": 0.1250341236591339
+    },
+    {
+      "loss": null,
+      "loss_finite": false,
+      "loss_terms": {
+        "kld": null,
+        "mse": null,
+        "sample": null
+      },
+      "placeholder": "NaN",
+      "supervised_posterior_finite": false,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": null
+    }
+  ],
+  "incomplete_context_ids": [
+    166,
+    168
+  ],
+  "interpretation": "INVALID placeholder diagnostic, never training supervision or performance; no optimizer updates",
+  "mask_only_solution_refuted": true,
+  "optimizer_updates": 0,
+  "people": 9,
+  "recording": "crowds_zara02",
+  "start_frame": 8620,
+  "supervised_posterior_mu_max_difference": 0.49924153089523315,
+  "supervised_targets": 7
+}

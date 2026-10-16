@@ -1,0 +1,11 @@
+Raw-data counterfactuals 10 / 10
+Real case biwi_hotel 14950 N 2
+Real case biwi_hotel 16170 N 15
+Real case crowds_zara02 8760 N 6
+Real case crowds_zara02 8620 N 9
+Real case crowds_zara02 9300 N 13
+Real case biwi_hotel 1060 N 1
+Real case biwi_hotel 2770 N 2
+Real case biwi_hotel 590 N 3
+Real case crowds_zara02 990 N 1
+Real case crowds_zara02 10 N 2

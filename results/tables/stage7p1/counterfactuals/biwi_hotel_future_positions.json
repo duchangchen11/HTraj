@@ -1,0 +1,23 @@
+{
+  "K1_historical_model_fingerprints_equal": true,
+  "K1_prediction_equal": true,
+  "K1_prediction_max_difference": 0.0,
+  "K20_historical_model_fingerprints_equal": true,
+  "K20_prediction_equal": true,
+  "K20_prediction_max_difference": 0.0,
+  "anchor_target_id": 344,
+  "context_ids_equal": true,
+  "details": {
+    "all_future_changed": true,
+    "changed_future_rows": 58
+  },
+  "history_rows_exact": true,
+  "history_sha_equal": true,
+  "partial_ids_equal": true,
+  "passed": true,
+  "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/future_positions.txt",
+  "raw_sha256": "0ac0879a0e0301fd6b790913f6249503f98aa9812355be3ea3ef01f31cdc6db9",
+  "recording": "biwi_hotel",
+  "start_frame": 14950,
+  "variant": "future_positions"
+}

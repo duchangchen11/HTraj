@@ -1,0 +1,23 @@
+{
+  "K1_historical_model_fingerprints_equal": true,
+  "K1_prediction_equal": true,
+  "K1_prediction_max_difference": 0.0,
+  "K20_historical_model_fingerprints_equal": true,
+  "K20_prediction_equal": true,
+  "K20_prediction_max_difference": 0.0,
+  "anchor_target_id": 69,
+  "context_ids_equal": true,
+  "details": {
+    "changed_future_rows": 2,
+    "neighbor_id": 168
+  },
+  "history_rows_exact": true,
+  "history_sha_equal": true,
+  "partial_ids_equal": true,
+  "passed": true,
+  "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/neighbor_future_deleted.txt",
+  "raw_sha256": "08f7e3e89c6c1b6ca2153de6c3b032a67de1f10dfd5787c14540c43a3e365de3",
+  "recording": "crowds_zara02",
+  "start_frame": 8620,
+  "variant": "neighbor_future_deleted"
+}

@@ -1,0 +1,48 @@
+{
+  "checkpoint": "experiments/stage7p1/cache/real_case_0_random_state.pth",
+  "checkpoint_sha256": "d0dc36ff4c348ad4dcbb007f57d8c7eca64c6723c7fef75bed69a9e49d4a10e4",
+  "fold": "biwi_hotel",
+  "formal_training": false,
+  "future_lengths_json": "[1, 12]",
+  "gradients_finite": null,
+  "ids_json": "[343, 344]",
+  "incomplete_future_nodes": 1,
+  "inference_finite": true,
+  "input_fingerprints": {
+    "agent_mask": "b03f282c91a5db51bafd26281d556989a8ef504f839ad3a159696bc6b96b3bbc",
+    "context_enc": "d650fa4aceccb0120ecf91d85d5dc62d4b661877eb4cd96773df93f6e69004cb",
+    "pre_motion": "6024785a45d87fb88736b4ea72db00eb2ec40e2b60c45a02231487c4971582b2",
+    "pre_vel": "761e7abcbe5605d1ea75c146d3bf85ec536851ef57bd7c7096aa37716d08a378",
+    "scene_orig": "a525b86bb0615eef048239b7bfd94ca52d0dc812273324254c60f1a497f560ab"
+  },
+  "no_future_nodes": 0,
+  "optimizer_updates": 0,
+  "original_loss_status": "BLOCKED_UNLABELED_CONTEXT",
+  "partial_history_excluded": 4,
+  "partial_ids_json": "[340, 341, 345, 346]",
+  "people": 2,
+  "prediction_sha256": "5434b291e418921ef867479608d2f67c3885b02b57d90039238f7cdc630c3024",
+  "reason": "Original joint posterior/KL cannot consume unlabeled context IDs [343]",
+  "reasons": [
+    "two",
+    "mixed_future",
+    "partial_history"
+  ],
+  "recording": "biwi_hotel",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 58993664,
+    "peak_reserved_bytes": 73400320,
+    "seconds": 0.22477778000757098,
+    "whole_card_memory_samples": 2,
+    "whole_card_sampled_peak_MiB": 698,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "restored_prediction_max_difference": 0.0,
+  "split": "validation",
+  "start_frame": 14950,
+  "strict_checkpoint_restore": true,
+  "target_ids_json": "[344]",
+  "targets": 1,
+  "true_supervised_loss": null
+}

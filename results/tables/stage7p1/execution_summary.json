@@ -1,0 +1,14 @@
+{
+  "ETH_evaluated": false,
+  "formal_epochs": 0,
+  "mask_only_refuted": true,
+  "mixed_label_cases_blocked": 3,
+  "optimizer_updates": 0,
+  "original_training_semantics_admitted": false,
+  "raw_counterfactual_count": 10,
+  "raw_counterfactuals_passed": true,
+  "real_cases": 10,
+  "strict_causal_training_decision": "NO-GO",
+  "true_loss_backward_passes": 7,
+  "unexpected_failures": []
+}

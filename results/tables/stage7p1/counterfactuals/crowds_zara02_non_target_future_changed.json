@@ -1,0 +1,24 @@
+{
+  "K1_historical_model_fingerprints_equal": true,
+  "K1_prediction_equal": true,
+  "K1_prediction_max_difference": 0.0,
+  "K20_historical_model_fingerprints_equal": true,
+  "K20_prediction_equal": true,
+  "K20_prediction_max_difference": 0.0,
+  "anchor_target_id": 69,
+  "context_ids_equal": true,
+  "details": {
+    "changed_future_rows": 2,
+    "original_future_records": 2,
+    "unsupervised_context_id": 168
+  },
+  "history_rows_exact": true,
+  "history_sha_equal": true,
+  "partial_ids_equal": true,
+  "passed": true,
+  "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/non_target_future_changed.txt",
+  "raw_sha256": "818b09ca2e925349a6a9c608627fda827be08e029b474fbdbe9ed37a3c0e8a7c",
+  "recording": "crowds_zara02",
+  "start_frame": 8620,
+  "variant": "non_target_future_changed"
+}

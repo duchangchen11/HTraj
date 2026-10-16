@@ -1,0 +1,46 @@
+{
+  "checkpoint": "experiments/stage7p1/cache/real_case_1_random_state.pth",
+  "checkpoint_sha256": "d0dc36ff4c348ad4dcbb007f57d8c7eca64c6723c7fef75bed69a9e49d4a10e4",
+  "fold": "biwi_hotel",
+  "formal_training": false,
+  "future_lengths_json": "[12, 12, 2, 2, 5, 5, 12, 12, 7, 7, 4, 12, 12, 12, 12]",
+  "gradients_finite": null,
+  "ids_json": "[356, 361, 365, 366, 367, 368, 369, 371, 372, 373, 374, 375, 376, 377, 378]",
+  "incomplete_future_nodes": 7,
+  "inference_finite": true,
+  "input_fingerprints": {
+    "agent_mask": "4ab0a5058ed8eb754dca0c59730bfc354bf4dff117fb368e59abb6e0699cb6bf",
+    "context_enc": "d1cd515466ed9b6c8af031e8db39425fefbbfb204856d2b737594c6dff66d8dc",
+    "pre_motion": "9a7885133d359f63af8f826d8871d03a72396e6228a168acfbfc2f00143ebdd0",
+    "pre_vel": "ce4ab651beb4adfcfc336f66e975052ca862faa9bc487883c8184cdc4769b6e8",
+    "scene_orig": "c61bcce41de993f2991097074864354f1ee37432a001768622aa2c0d328e6b85"
+  },
+  "no_future_nodes": 0,
+  "optimizer_updates": 0,
+  "original_loss_status": "BLOCKED_UNLABELED_CONTEXT",
+  "partial_history_excluded": 4,
+  "partial_ids_json": "[362, 363, 364, 379]",
+  "people": 15,
+  "prediction_sha256": "6905bfef5344f232aea6a632ab44ab515fdab648df561621e8f9818f28c6f9b8",
+  "reason": "Original joint posterior/KL cannot consume unlabeled context IDs [365, 366, 367, 368, 372, 373, 374]",
+  "reasons": [
+    "maximum_validation_context"
+  ],
+  "recording": "biwi_hotel",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 65202176,
+    "peak_reserved_bytes": 79691776,
+    "seconds": 0.21810912701766938,
+    "whole_card_memory_samples": 2,
+    "whole_card_sampled_peak_MiB": 704,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "restored_prediction_max_difference": 0.0,
+  "split": "validation",
+  "start_frame": 16170,
+  "strict_checkpoint_restore": true,
+  "target_ids_json": "[356, 361, 369, 371, 375, 376, 377, 378]",
+  "targets": 8,
+  "true_supervised_loss": null
+}

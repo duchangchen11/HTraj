@@ -1,0 +1,52 @@
+{
+  "checkpoint": "experiments/stage7p1/cache/real_case_9_random_state.pth",
+  "checkpoint_sha256": "d0dc36ff4c348ad4dcbb007f57d8c7eca64c6723c7fef75bed69a9e49d4a10e4",
+  "fold": "biwi_hotel",
+  "formal_training": false,
+  "future_lengths_json": "[12, 12]",
+  "gradient_L2": 2119.113092945503,
+  "gradient_parameters": 5972098,
+  "gradients_finite": true,
+  "ids_json": "[1, 2]",
+  "incomplete_future_nodes": 0,
+  "inference_finite": true,
+  "input_fingerprints": {
+    "agent_mask": "b03f282c91a5db51bafd26281d556989a8ef504f839ad3a159696bc6b96b3bbc",
+    "context_enc": "0f82c590b56da926a7676116dfafd32bb69bf5b81566600428973a01a9dbfd00",
+    "pre_motion": "f4020db7232d6d10640b6f52e01d4413bd9981046b1c420c99f21f50c79d2040",
+    "pre_vel": "1d3bb97eadb2c57ba4e7abe11c795d370319567d52a30ea13a52146e2391bc3c",
+    "scene_orig": "31c71947ece43cc876c030abae3d79dbc875946257448ac95fa81b375c3138d2"
+  },
+  "no_future_nodes": 0,
+  "optimizer_updates": 0,
+  "original_loss_status": "PASS_ALL_CONTEXT_LABELS_COMPLETE",
+  "original_loss_terms": {
+    "kld": 2.0,
+    "mse": 139.569580078125,
+    "sample": 119.72322082519531
+  },
+  "partial_history_excluded": 1,
+  "partial_ids_json": "[3]",
+  "people": 2,
+  "prediction_sha256": "d6ad691b6bfff242c80e9972591a9840cd959e1f95460a874c5337b70f74692f",
+  "reasons": [
+    "supplement_original_train_region_N2"
+  ],
+  "recording": "crowds_zara02",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 121194496,
+    "peak_reserved_bytes": 153092096,
+    "seconds": 0.34563685301691294,
+    "whole_card_memory_samples": 3,
+    "whole_card_sampled_peak_MiB": 787,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "restored_prediction_max_difference": 0.0,
+  "split": "train",
+  "start_frame": 10,
+  "strict_checkpoint_restore": true,
+  "target_ids_json": "[1, 2]",
+  "targets": 2,
+  "true_supervised_loss": 261.29278564453125
+}

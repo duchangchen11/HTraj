@@ -1,0 +1,52 @@
+{
+  "checkpoint": "experiments/stage7p1/cache/real_case_4_random_state.pth",
+  "checkpoint_sha256": "d0dc36ff4c348ad4dcbb007f57d8c7eca64c6723c7fef75bed69a9e49d4a10e4",
+  "fold": "crowds_zara02",
+  "formal_training": false,
+  "future_lengths_json": "[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]",
+  "gradient_L2": 240.4155877251613,
+  "gradient_parameters": 5972098,
+  "gradients_finite": true,
+  "ids_json": "[69, 70, 111, 112, 169, 177, 178, 179, 180, 181, 182, 183, 184]",
+  "incomplete_future_nodes": 0,
+  "inference_finite": true,
+  "input_fingerprints": {
+    "agent_mask": "6a4786b3f46d33a384ff0e92601d6120271e4995397470bcaac09acc82323f3a",
+    "context_enc": "e9e22972eab5459f1c7d3ba0ae2ba58abe993dd126fb1228ec8ad80bac3e2ec4",
+    "pre_motion": "61525f400cba65287359b26105a4a4cac36112a4294f788c06c531d882a16d36",
+    "pre_vel": "1691a69178219d031c131e3698a070434c932398abee77827123aecbfdfcf39d",
+    "scene_orig": "6279b3ee75b1e442b024e57373a6cb569efb7accbf29c37d794f84fdb7d0804d"
+  },
+  "no_future_nodes": 0,
+  "optimizer_updates": 0,
+  "original_loss_status": "PASS_ALL_CONTEXT_LABELS_COMPLETE",
+  "original_loss_terms": {
+    "kld": 2.0,
+    "mse": 54.37255096435547,
+    "sample": 49.660888671875
+  },
+  "partial_history_excluded": 0,
+  "partial_ids_json": "[]",
+  "people": 13,
+  "prediction_sha256": "79b06f338582836c585bd3a97d25879ee2ebd08c335224441abfb3cae3b1c2b6",
+  "reasons": [
+    "maximum_validation_context"
+  ],
+  "recording": "crowds_zara02",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 631401472,
+    "peak_reserved_bytes": 754974720,
+    "seconds": 0.41210109496023506,
+    "whole_card_memory_samples": 4,
+    "whole_card_sampled_peak_MiB": 1359,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "restored_prediction_max_difference": 0.0,
+  "split": "validation",
+  "start_frame": 9300,
+  "strict_checkpoint_restore": true,
+  "target_ids_json": "[69, 70, 111, 112, 169, 177, 178, 179, 180, 181, 182, 183, 184]",
+  "targets": 13,
+  "true_supervised_loss": 106.03343963623047
+}

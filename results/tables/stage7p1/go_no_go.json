@@ -1,0 +1,53 @@
+{
+  "ETH_evaluated": false,
+  "conclusion": "Stop: missing-neighbor futures require explicit posterior/KL/target-semantics adaptation beyond the frozen data-only admission scope.",
+  "decision": "NO-GO",
+  "formal_epochs": 0,
+  "future_training_automatically_authorized": false,
+  "gates": [
+    {
+      "condition": "原始来源/manifest/监督目标及GT SHA一致",
+      "id": 1,
+      "status": "PASS"
+    },
+    {
+      "condition": "原始数据未来反事实10项全部通过",
+      "id": 2,
+      "status": "PASS"
+    },
+    {
+      "condition": "真实单人/多人完整标签原loss反向及推理",
+      "id": 3,
+      "status": "PASS_ON_FULLY_LABELED_CASES_ONLY"
+    },
+    {
+      "condition": "历史完整、未来不完整邻居的原语义训练处理",
+      "id": 4,
+      "status": "FAIL"
+    },
+    {
+      "condition": "原始训练loss/梯度对全部因果场景有限且有定义",
+      "id": 5,
+      "status": "FAIL_FOR_MIXED_LABEL_CONTEXT"
+    },
+    {
+      "condition": "原始网络/loss/参数无未经声明修改",
+      "id": 6,
+      "status": "PASS_UNMODIFIED_BUT_NO_MIXED_LABEL_TRAINING_SOLUTION"
+    },
+    {
+      "condition": "真实batch资源可运行",
+      "id": 7,
+      "status": "PARTIAL_K20_INFERENCE_AND_SMALL_FULL_LABEL_BACKWARD_ONLY"
+    },
+    {
+      "condition": "checkpoint严格恢复",
+      "id": 8,
+      "status": "PASS_10_RANDOM_STATE_CHECKPOINTS"
+    }
+  ],
+  "optimizer_updates": 0,
+  "original_network_or_loss_changed": false,
+  "strict_causal_inference_checks": true,
+  "strict_causal_original_training_admitted": false
+}

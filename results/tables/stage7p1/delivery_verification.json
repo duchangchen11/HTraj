@@ -1,0 +1,52 @@
+{
+  "ETH_evaluated": false,
+  "admission_decision": "NO-GO",
+  "automatic_push": false,
+  "checkpoints_strictly_restored": 10,
+  "complete_context_max_N": 73,
+  "final_commit": "Containing delivery commit; source execution commit and per-file SHA above avoid circular commit SHA",
+  "final_delivery_code_SHA256": {
+    "scripts/stage7p1/audit_history.py": "128a74e61a949d9d17dc99feb87a370500cbb6e4e84d7eb10dc11f87144cc613",
+    "scripts/stage7p1/prepare.py": "1486df5eb565706b539d292e91b837027e31034dfbfc8a65f3da42cd0b8d6036",
+    "scripts/stage7p1/probe.py": "9a1b5b765ce110e777f92738f5aaecce3e8ea4ac7d74ba6a454c11de5fde1941",
+    "scripts/stage7p1/raw_variants.py": "dcd53a5de67b9e19cbf986c9d0bddb235364f9256b5c0c5160cc3b1d32f1826d",
+    "scripts/stage7p1/runtime.py": "06e8c72633206c24982b9d0141c6bc74afdd777fdf82e7c69042607426a5f1e0",
+    "scripts/stage7p1/scan.py": "f361172fe5cfa3d3bbb96917a092756bd5a2676eca21f34fa7d08026c848cbc2",
+    "scripts/stage7p1/verify_delivery.py": "f02faef071d2dfa3430efec7ffc7f2baa3629154bc5d56e408229b9f97caeb91",
+    "scripts/stage7p1/write_reports.py": "58f239d1ae2fc0f529d785bac1be8ed9958695f00ef57fb2c313e63bd93ce127",
+    "src/agentformer_admission/__init__.py": "8359a2e3857d45780d99633b03817d36e53246126bd72b9b3ae8765abc38b76f",
+    "src/agentformer_admission/causal.py": "bffd811d080094cca25780a336e86d06339f85fcd7b9e314f964c4a87fb157de",
+    "tests/test_agentformer_causal_admission.py": "0bb303c1486cdaf802d86d7a61bf5b604947b34daa9080bfc5d6916c20db3113"
+  },
+  "formal_epochs": 0,
+  "full_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 395
+  },
+  "historical_files_unchanged": 11103,
+  "mixed_label_original_training_blocked": 3,
+  "new_admission_config_SHA256": {
+    "configs/stage7p1/admission_protocol.json": "2914ae630b723e2b3143c0770b941d8d983d037ac6b6423797d500aa15129948",
+    "configs/stage7p1/protected_artifacts.json": "85ff3ddb05ce13ae5603ce81d79ac28f6d57f35957c9785699e9c41e78a8d659",
+    "configs/stage7p1/real_case_coverage_addendum.json": "528fc2bbcf20d91be7268fffd7f5be22b6d8f53fd0e999871b7f35865530d65a"
+  },
+  "optimizer_updates": 0,
+  "original_official_source_blobs_verified": 43,
+  "raw_data_and_checkpoint_git_ignored": true,
+  "raw_data_counterfactuals_passed": 10,
+  "real_cases": 10,
+  "size_and_sensitive_content_checks_passed": true,
+  "tested_source_SHA256": {
+    "scripts/stage7p1/prepare.py": "1486df5eb565706b539d292e91b837027e31034dfbfc8a65f3da42cd0b8d6036",
+    "scripts/stage7p1/probe.py": "9a1b5b765ce110e777f92738f5aaecce3e8ea4ac7d74ba6a454c11de5fde1941",
+    "scripts/stage7p1/raw_variants.py": "dcd53a5de67b9e19cbf986c9d0bddb235364f9256b5c0c5160cc3b1d32f1826d",
+    "scripts/stage7p1/runtime.py": "06e8c72633206c24982b9d0141c6bc74afdd777fdf82e7c69042607426a5f1e0",
+    "scripts/stage7p1/scan.py": "f361172fe5cfa3d3bbb96917a092756bd5a2676eca21f34fa7d08026c848cbc2",
+    "src/agentformer_admission/__init__.py": "8359a2e3857d45780d99633b03817d36e53246126bd72b9b3ae8765abc38b76f",
+    "src/agentformer_admission/causal.py": "bffd811d080094cca25780a336e86d06339f85fcd7b9e314f964c4a87fb157de"
+  },
+  "tested_source_commit": "6d07b7f4c697aa79142f383fe4040d133e1531b4",
+  "true_loss_backward_passes": 7
+}

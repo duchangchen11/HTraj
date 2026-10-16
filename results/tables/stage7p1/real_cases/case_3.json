@@ -1,0 +1,47 @@
+{
+  "checkpoint": "experiments/stage7p1/cache/real_case_3_random_state.pth",
+  "checkpoint_sha256": "d0dc36ff4c348ad4dcbb007f57d8c7eca64c6723c7fef75bed69a9e49d4a10e4",
+  "fold": "crowds_zara02",
+  "formal_training": false,
+  "future_lengths_json": "[12, 12, 12, 12, 0, 2, 12, 12, 12]",
+  "gradients_finite": null,
+  "ids_json": "[69, 70, 111, 112, 166, 168, 169, 172, 173]",
+  "incomplete_future_nodes": 2,
+  "inference_finite": true,
+  "input_fingerprints": {
+    "agent_mask": "115fbacd1902ad83e59abc855dab2b9a754f857c24be8f73936c35cefc8d8f52",
+    "context_enc": "863bb6e4ac15394567a43cadd5d28e937ec3b48c97dbfbb4de448358f1076d82",
+    "pre_motion": "64ba58b7836133b82d4d7f19b8419f371f011698e56cd354fedc5259abb9ed6d",
+    "pre_vel": "d44d299ecaafab313a915c631a980aa5524d6f68b63fef1cd6db7fd03b3f03b1",
+    "scene_orig": "6fe9b4251d790c51883897ded80dbcd832ef3ce26596f626e1dfbb75b33ff72e"
+  },
+  "no_future_nodes": 1,
+  "optimizer_updates": 0,
+  "original_loss_status": "BLOCKED_UNLABELED_CONTEXT",
+  "partial_history_excluded": 3,
+  "partial_ids_json": "[167, 170, 171]",
+  "people": 9,
+  "prediction_sha256": "21ec24743ce76d665786e696dc52bfd66cf39ebb1c7f7f4dd700459c7c38edbd",
+  "reason": "Original joint posterior/KL cannot consume unlabeled context IDs [166, 168]",
+  "reasons": [
+    "mixed_future",
+    "partial_history"
+  ],
+  "recording": "crowds_zara02",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 93744128,
+    "peak_reserved_bytes": 121634816,
+    "seconds": 0.23042549804085866,
+    "whole_card_memory_samples": 2,
+    "whole_card_sampled_peak_MiB": 755,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "restored_prediction_max_difference": 0.0,
+  "split": "validation",
+  "start_frame": 8620,
+  "strict_checkpoint_restore": true,
+  "target_ids_json": "[69, 70, 111, 112, 169, 172, 173]",
+  "targets": 7,
+  "true_supervised_loss": null
+}

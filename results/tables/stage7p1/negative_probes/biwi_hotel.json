@@ -1,0 +1,51 @@
+{
+  "completions": [
+    {
+      "loss": 120.36366271972656,
+      "loss_finite": true,
+      "loss_terms": {
+        "kld": 2.0,
+        "mse": 60.48374557495117,
+        "sample": 57.879913330078125
+      },
+      "placeholder": "last_position_plus_0.0m",
+      "supervised_posterior_finite": true,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": 0.10615374892950058
+    },
+    {
+      "loss": 121.00022888183594,
+      "loss_finite": true,
+      "loss_terms": {
+        "kld": 2.0,
+        "mse": 61.12031555175781,
+        "sample": 57.879913330078125
+      },
+      "placeholder": "last_position_plus_100.0m",
+      "supervised_posterior_finite": true,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": 0.014951463788747787
+    },
+    {
+      "loss": null,
+      "loss_finite": false,
+      "loss_terms": {
+        "kld": null,
+        "mse": null,
+        "sample": null
+      },
+      "placeholder": "NaN",
+      "supervised_posterior_finite": false,
+      "supervised_q_gradient_wrt_missing_neighbor_future_L1": null
+    }
+  ],
+  "incomplete_context_ids": [
+    343
+  ],
+  "interpretation": "INVALID placeholder diagnostic, never training supervision or performance; no optimizer updates",
+  "mask_only_solution_refuted": true,
+  "optimizer_updates": 0,
+  "people": 2,
+  "recording": "biwi_hotel",
+  "start_frame": 14950,
+  "supervised_posterior_mu_max_difference": 0.5597405433654785,
+  "supervised_targets": 1
+}

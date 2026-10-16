@@ -1,0 +1,283 @@
+{
+  "ETH_evaluated": false,
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "cases": [
+    {
+      "fold": "biwi_hotel",
+      "future_lengths_json": "[1, 12]",
+      "ids_json": "[343, 344]",
+      "incomplete_future_nodes": 1,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 4,
+      "partial_ids_json": "[340, 341, 345, 346]",
+      "people": 2,
+      "reasons": [
+        "two",
+        "mixed_future",
+        "partial_history"
+      ],
+      "recording": "biwi_hotel",
+      "split": "validation",
+      "start_frame": 14950,
+      "target_ids_json": "[344]",
+      "targets": 1
+    },
+    {
+      "fold": "biwi_hotel",
+      "future_lengths_json": "[12, 12, 2, 2, 5, 5, 12, 12, 7, 7, 4, 12, 12, 12, 12]",
+      "ids_json": "[356, 361, 365, 366, 367, 368, 369, 371, 372, 373, 374, 375, 376, 377, 378]",
+      "incomplete_future_nodes": 7,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 4,
+      "partial_ids_json": "[362, 363, 364, 379]",
+      "people": 15,
+      "reasons": [
+        "maximum_validation_context"
+      ],
+      "recording": "biwi_hotel",
+      "split": "validation",
+      "start_frame": 16170,
+      "target_ids_json": "[356, 361, 369, 371, 375, 376, 377, 378]",
+      "targets": 8
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12, 12, 12, 12, 12, 12]",
+      "ids_json": "[69, 70, 111, 112, 169, 174]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 4,
+      "partial_ids_json": "[172, 173, 175, 176]",
+      "people": 6,
+      "reasons": [
+        "multi_all_labeled"
+      ],
+      "recording": "crowds_zara02",
+      "split": "validation",
+      "start_frame": 8760,
+      "target_ids_json": "[69, 70, 111, 112, 169, 174]",
+      "targets": 6
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12, 12, 12, 12, 0, 2, 12, 12, 12]",
+      "ids_json": "[69, 70, 111, 112, 166, 168, 169, 172, 173]",
+      "incomplete_future_nodes": 2,
+      "no_future_nodes": 1,
+      "partial_history_excluded": 3,
+      "partial_ids_json": "[167, 170, 171]",
+      "people": 9,
+      "reasons": [
+        "mixed_future",
+        "partial_history"
+      ],
+      "recording": "crowds_zara02",
+      "split": "validation",
+      "start_frame": 8620,
+      "target_ids_json": "[69, 70, 111, 112, 169, 172, 173]",
+      "targets": 7
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]",
+      "ids_json": "[69, 70, 111, 112, 169, 177, 178, 179, 180, 181, 182, 183, 184]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 0,
+      "partial_ids_json": "[]",
+      "people": 13,
+      "reasons": [
+        "maximum_validation_context"
+      ],
+      "recording": "crowds_zara02",
+      "split": "validation",
+      "start_frame": 9300,
+      "target_ids_json": "[69, 70, 111, 112, 169, 177, 178, 179, 180, 181, 182, 183, 184]",
+      "targets": 13
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12]",
+      "ids_json": "[38]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 6,
+      "partial_ids_json": "[36, 37, 39, 40, 41, 42]",
+      "people": 1,
+      "reasons": [
+        "supplement_original_train_region_N1"
+      ],
+      "recording": "biwi_hotel",
+      "split": "train",
+      "start_frame": 1060,
+      "target_ids_json": "[38]",
+      "targets": 1
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12, 12]",
+      "ids_json": "[71, 72]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 7,
+      "partial_ids_json": "[73, 75, 76, 77, 78, 79, 80]",
+      "people": 2,
+      "reasons": [
+        "supplement_original_train_region_N2"
+      ],
+      "recording": "biwi_hotel",
+      "split": "train",
+      "start_frame": 2770,
+      "target_ids_json": "[71, 72]",
+      "targets": 2
+    },
+    {
+      "fold": "crowds_zara02",
+      "future_lengths_json": "[12, 12, 12]",
+      "ids_json": "[24, 25, 28]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 4,
+      "partial_ids_json": "[20, 23, 26, 27]",
+      "people": 3,
+      "reasons": [
+        "supplement_original_train_region_N3"
+      ],
+      "recording": "biwi_hotel",
+      "split": "train",
+      "start_frame": 590,
+      "target_ids_json": "[24, 25, 28]",
+      "targets": 3
+    },
+    {
+      "fold": "biwi_hotel",
+      "future_lengths_json": "[12]",
+      "ids_json": "[19]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 1,
+      "partial_ids_json": "[17]",
+      "people": 1,
+      "reasons": [
+        "supplement_original_train_region_N1"
+      ],
+      "recording": "crowds_zara02",
+      "split": "train",
+      "start_frame": 990,
+      "target_ids_json": "[19]",
+      "targets": 1
+    },
+    {
+      "fold": "biwi_hotel",
+      "future_lengths_json": "[12, 12]",
+      "ids_json": "[1, 2]",
+      "incomplete_future_nodes": 0,
+      "no_future_nodes": 0,
+      "partial_history_excluded": 1,
+      "partial_ids_json": "[3]",
+      "people": 2,
+      "reasons": [
+        "supplement_original_train_region_N2"
+      ],
+      "recording": "crowds_zara02",
+      "split": "train",
+      "start_frame": 10,
+      "target_ids_json": "[1, 2]",
+      "targets": 2
+    }
+  ],
+  "code_commit": "6d07b7f4c697aa79142f383fe4040d133e1531b4",
+  "compatibility": "Existing Stage7 runtime _LinearWithBias alias only; no official source changed; original CLI/DataGenerator NOT causal-admitted",
+  "dependency_freeze": "absl-py==2.5.0\naction-tutorials-py==0.14.4\naiohappyeyeballs==2.7.1\naiohttp==3.14.3\naiosignal==1.4.0\nament-cmake-test==1.1.6\nament-copyright==0.10.7\nament-cppcheck==0.10.7\nament-cpplint==0.10.7\nament-flake8==0.10.7\nament-index-python==1.2.0\nament-lint==0.10.7\nament-lint-cmake==0.10.7\nament-package==0.13.1\nament-pep257==0.10.7\nament-uncrustify==0.10.7\nament-xmllint==0.10.7\nangles==1.14.0\nasttokens==3.0.2\nasync-timeout==5.0.1\nattrs==26.1.0\nblack==24.10.0\ncachetools==7.2.0\ncertifi==2026.7.22\ncharset-normalizer==3.5.2\nclick==8.5.0\ncloudpickle==3.1.2\ncomm==0.2.3\ncontourpy==1.3.2\ncv-bridge==3.1.3\ncycler==0.12.1\ndebugpy==1.8.22\ndecorator==5.3.1\ndemo-nodes-py==0.14.4\ndescartes==1.1.0\ndomain-coordinator==0.9.2\neinops==0.8.1\nexamples-rclpy-executors==0.11.2\nexamples-rclpy-minimal-action-client==0.11.2\nexamples-rclpy-minimal-action-server==0.11.2\nexamples-rclpy-minimal-client==0.11.2\nexamples-rclpy-minimal-publisher==0.11.2\nexamples-rclpy-minimal-service==0.11.2\nexamples-rclpy-minimal-subscriber==0.11.2\nexceptiongroup==1.3.1\nexecuting==2.2.1\nfilelock==3.32.3\nfire==0.7.1\nfonttools==4.65.0\nfrozenlist==1.8.0\nfsspec==2026.7.0\ngrpcio==1.84.0\nh5py==3.12.1\nhf-xet==1.6.0\nhuggingface_hub==0.36.2\nidna==3.20\nijson==3.5.1\nimage-geometry==3.1.3\niniconfig==2.3.0\ninteractive-markers==2.2.0\nipykernel==6.29.5\nipython==8.39.0\njedi==0.20.0\nJinja2==3.1.6\njoblib==1.6.0\njupyter_client==8.10.0\njupyter_core==5.9.1\nkiwisolver==1.5.1\nlaunch==0.17.2\nlaunch-ros==0.14.5\nlaunch-testing==0.17.2\nlaunch-testing-ros==0.14.5\nlaunch-xml==0.17.2\nlaunch-yaml==0.17.2\nmamba_ssm==2.2.6.post3\nMarkdown==3.10.3\nMarkupSafe==3.0.3\nmatplotlib==3.9.2\nmatplotlib-inline==0.2.2\nmpmath==1.3.0\nmultidict==6.9.1\nmypy_extensions==1.1.0\nnest-asyncio==1.6.0\nnetworkx==3.4.2\nninja==1.11.1.4\nnumpy==1.26.4\nnuscenes-devkit==1.2.0\nnvidia-cublas-cu12==12.4.5.8\nnvidia-cuda-cupti-cu12==12.4.127\nnvidia-cuda-nvrtc-cu12==12.4.127\nnvidia-cuda-runtime-cu12==12.4.127\nnvidia-cudnn-cu12==9.1.0.70\nnvidia-cufft-cu12==11.2.1.3\nnvidia-curand-cu12==10.3.5.147\nnvidia-cusolver-cu12==11.6.1.9\nnvidia-cusparse-cu12==12.3.1.170\nnvidia-nccl-cu12==2.21.5\nnvidia-nvjitlink-cu12==12.4.127\nnvidia-nvtx-cu12==12.4.127\nopencv-python==4.10.0.84\nopencv-python-headless==4.11.0.86\nosrf-pycommon==2.0.0\npackaging==26.3\npandas==2.2.3\nparameterized==0.9.0\nparso==0.8.7\npathspec==1.1.1\npexpect==4.9.0\npillow==11.0.0\nplatformdirs==4.11.12\npluggy==1.6.0\nprompt_toolkit==3.0.53\npropcache==0.5.4\nprotobuf==7.36.2\npsutil==7.2.2\nptyprocess==0.7.0\npure_eval==0.2.4\npycocotools==2.0.11\nPygments==2.21.0\npyparsing==3.3.3\npyquaternion==0.9.9\npytest==8.3.3\npython-dateutil==2.9.0.post0\npython-qt-binding==1.0.8\npytz==2026.3.post1\nPyYAML==6.0.2\npyzmq==27.2.0\nqt-dotgraph==2.0.1\nqt-gui==2.0.1\nqt-gui-cpp==2.0.1\nqt-gui-py-common==2.0.1\nquality-of-service-demo-py==0.14.4\nrclpy==1.9.3\nrcutils==4.0.4\nregex==2026.9.29\nrequests==2.34.2\nresource-retriever==2.5.0\nros2action==0.13.5\nros2bag==0.9.2\nros2cli==0.13.5\nros2component==0.13.5\nros2doctor==0.13.5\nros2interface==0.13.5\nros2launch==0.14.5\nros2lifecycle==0.13.5\nros2multicast==0.13.5\nros2node==0.13.5\nros2param==0.13.5\nros2pkg==0.13.5\nros2run==0.13.5\nros2service==0.13.5\nros2topic==0.13.5\nrosbag2-py==0.9.2\nrosidl-adapter==2.2.3\nrosidl-cli==2.2.3\nrosidl-cmake==2.2.3\nrosidl-generator-c==2.2.3\nrosidl-generator-cpp==2.2.3\nrosidl-generator-py==0.11.4\nrosidl-parser==2.2.3\nrosidl-runtime-py==0.9.1\nrosidl-typesupport-c==1.2.1\nrosidl-typesupport-cpp==1.2.1\nrosidl-typesupport-fastrtps-c==1.2.1\nrosidl-typesupport-fastrtps-cpp==1.2.1\nrosidl-typesupport-introspection-c==2.2.3\nrosidl-typesupport-introspection-cpp==2.2.3\nrpyutils==0.2.0\nrqt-action==2.0.1\nrqt-bag==1.1.2\nrqt-bag-plugins==1.1.2\nrqt-console==2.0.2\nrqt-graph==1.2.2\nrqt-gui==1.1.2\nrqt-gui-py==1.1.2\nrqt-msg==1.1.0\nrqt-plot==1.1.1\nrqt-publisher==1.1.3\nrqt-py-common==1.1.2\nrqt-py-console==1.0.2\nrqt-reconfigure==1.0.8\nrqt-service-caller==1.0.5\nrqt-shell==1.0.2\nrqt-srv==1.0.3\nrqt-top==1.0.2\nrqt-topic==1.4.0\nruff==0.7.3\nsafetensors==0.8.0\nscikit-learn==1.5.2\nscipy==1.14.1\nseaborn==0.13.2\nshapely==2.0.7\nsix==1.17.0\nsros2==0.10.3\nstack-data==0.6.3\nsympy==1.13.1\nteleop-twist-keyboard==2.3.2\ntensorboard==2.18.0\ntensorboard-data-server==0.7.2\ntermcolor==3.3.0\ntf2-geometry-msgs==0.17.5\ntf2-kdl==0.17.5\ntf2-py==0.17.5\ntf2-ros-py==0.17.5\ntf2-tools==0.17.5\nthreadpoolctl==3.7.0\ntokenizers==0.20.3\ntomli==2.4.1\ntopic-monitor==0.14.4\ntorch==2.5.1+cu124\ntorch-geometric==2.6.1\ntorch_scatter==2.1.2+pt25cu124\ntorch_sparse==0.6.18+pt25cu124\ntorchaudio==2.5.1+cu124\ntorchvision==0.20.1+cu124\ntornado==6.5.10\ntqdm==4.66.6\ntraitlets==5.16.1\ntransformers==4.46.3\ntriton==3.1.0\ntyping_extensions==4.16.0\ntzdata==2026.4\nurllib3==2.8.0\nwcwidth==0.8.4\nWerkzeug==3.1.8\nyarl==1.25.1\n",
+  "formal_epochs": 0,
+  "model_settings": {
+    "compatibility_changes": [
+      "Runtime alias removed private _LinearWithBias to nn.Linear (default bias=True); source bytes untouched"
+    ],
+    "configuration": {
+      "context_encoder": {
+        "nlayer": 2
+      },
+      "data_root_ethucy": "datasets/eth_ucy",
+      "data_root_nuscenes_pred": "datasets/nuscenes_pred",
+      "dataset": "hotel",
+      "decay_gamma": 0.5,
+      "decay_step": 10,
+      "description": "AgentFormer (Before DLow)",
+      "forecast_dim": 2,
+      "future_decoder": {
+        "nlayer": 2
+      },
+      "future_encoder": {
+        "nlayer": 2
+      },
+      "future_frames": 12,
+      "input_type": [
+        "scene_norm",
+        "vel"
+      ],
+      "learn_prior": true,
+      "loss_cfg": {
+        "kld": {
+          "min_clip": 2.0,
+          "weight": 1.0
+        },
+        "mse": {
+          "weight": 1.0
+        },
+        "sample": {
+          "k": 20,
+          "weight": 1.0
+        }
+      },
+      "lr": 0.0001,
+      "lr_fix_epochs": 10,
+      "lr_scheduler": "step",
+      "min_future_frames": 12,
+      "min_past_frames": 8,
+      "model_id": "agentformer",
+      "model_save_freq": 10,
+      "motion_dim": 2,
+      "num_epochs": 100,
+      "nz": 32,
+      "past_frames": 8,
+      "pos_concat": true,
+      "pred_type": "scene_norm",
+      "print_freq": 20,
+      "rand_rot_scene": true,
+      "results_root_dir": "results",
+      "sample_k": 20,
+      "scene_orig_all_past": true,
+      "seed": 1,
+      "sn_out_type": "norm",
+      "tf_dropout": 0.1,
+      "tf_ff_dim": 512,
+      "tf_model_dim": 256,
+      "tf_nhead": 8,
+      "tf_version": "v2",
+      "traj_scale": 1
+    },
+    "latent_dim": 32
+  },
+  "model_state": {
+    "parameter_L2": 301.8423971676194,
+    "parameter_count": 5972098,
+    "parameter_max_abs": 1.0,
+    "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+    "parameters_finite": true
+  },
+  "numpy": "1.26.4",
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "optimizer_updates": 0,
+  "source_SHA256": {
+    "scripts/stage7p1/prepare.py": "1486df5eb565706b539d292e91b837027e31034dfbfc8a65f3da42cd0b8d6036",
+    "scripts/stage7p1/probe.py": "9a1b5b765ce110e777f92738f5aaecce3e8ea4ac7d74ba6a454c11de5fde1941",
+    "scripts/stage7p1/raw_variants.py": "dcd53a5de67b9e19cbf986c9d0bddb235364f9256b5c0c5160cc3b1d32f1826d",
+    "scripts/stage7p1/runtime.py": "06e8c72633206c24982b9d0141c6bc74afdd777fdf82e7c69042607426a5f1e0",
+    "scripts/stage7p1/scan.py": "f361172fe5cfa3d3bbb96917a092756bd5a2676eca21f34fa7d08026c848cbc2",
+    "src/agentformer_admission/__init__.py": "8359a2e3857d45780d99633b03817d36e53246126bd72b9b3ae8765abc38b76f",
+    "src/agentformer_admission/causal.py": "bffd811d080094cca25780a336e86d06339f85fcd7b9e314f964c4a87fb157de"
+  },
+  "torch": "2.5.1+cu124",
+  "torch_total_memory_bytes": 10366025728
+}

@@ -1,0 +1,23 @@
+{
+  "K1_historical_model_fingerprints_equal": true,
+  "K1_prediction_equal": true,
+  "K1_prediction_max_difference": 0.0,
+  "K20_historical_model_fingerprints_equal": true,
+  "K20_prediction_equal": true,
+  "K20_prediction_max_difference": 0.0,
+  "anchor_target_id": 69,
+  "context_ids_equal": true,
+  "details": {
+    "all_future_changed": true,
+    "changed_future_rows": 100
+  },
+  "history_rows_exact": true,
+  "history_sha_equal": true,
+  "partial_ids_equal": true,
+  "passed": true,
+  "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/future_positions.txt",
+  "raw_sha256": "aa3f4a7ec47e6636315082fd0638fe80d63e1966cccfb8f7cd79f78780bc6216",
+  "recording": "crowds_zara02",
+  "start_frame": 8620,
+  "variant": "future_positions"
+}

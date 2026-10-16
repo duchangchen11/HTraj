@@ -1,0 +1,41 @@
+{
+  "counting_unit": "node-window, only windows with at least one frozen supervised target; overlapping windows are not independent people",
+  "rows": [
+    {
+      "complete8_coverage_fraction": 0.754006071938396,
+      "eligible_full8_node_windows": 37502,
+      "fold": "biwi_hotel",
+      "partial_history_node_windows_excluded": 12235,
+      "split": "train",
+      "supervised_target_windows": 27145,
+      "windows_with_targets": 2121
+    },
+    {
+      "complete8_coverage_fraction": 0.5849056603773585,
+      "eligible_full8_node_windows": 713,
+      "fold": "biwi_hotel",
+      "partial_history_node_windows_excluded": 506,
+      "split": "validation",
+      "supervised_target_windows": 318,
+      "windows_with_targets": 94
+    },
+    {
+      "complete8_coverage_fraction": 0.7401911186059584,
+      "eligible_full8_node_windows": 32920,
+      "fold": "crowds_zara02",
+      "partial_history_node_windows_excluded": 11555,
+      "split": "train",
+      "supervised_target_windows": 23545,
+      "windows_with_targets": 1684
+    },
+    {
+      "complete8_coverage_fraction": 0.7703473302229135,
+      "eligible_full8_node_windows": 1486,
+      "fold": "crowds_zara02",
+      "partial_history_node_windows_excluded": 443,
+      "split": "validation",
+      "supervised_target_windows": 1092,
+      "windows_with_targets": 172
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "context_truncated": false,
+  "fold": "biwi_hotel",
+  "full_original_training_status": "BLOCKED_UNLABELED_CONTEXT",
+  "future_lengths_json": "[12, 12, 12, 12, 12, 12, 7, 6, 9, 9, 12, 11, 12, 12, 12, 10, 12, 12, 12, 4, 6, 7, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 8, 6, 12, 12, 12, 12, 11, 9, 12, 12, 2, 12, 12, 12, 12, 12, 12, 12, 12, 2, 7, 12, 12, 12, 9, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 5, 9, 12]",
+  "ids_json": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 71, 72, 82, 83, 400, 401, 402]",
+  "incomplete_future_nodes": 20,
+  "no_future_nodes": 0,
+  "optimizer_updates": 0,
+  "partial_history_excluded": 3,
+  "partial_ids_json": "[21, 24, 69]",
+  "people": 73,
+  "prediction_finite": true,
+  "prior_stage7_N": 57,
+  "recording": "students001",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 2684130304,
+    "peak_reserved_bytes": 9512681472,
+    "seconds": 0.39976575603941455,
+    "whole_card_memory_samples": 3,
+    "whole_card_sampled_peak_MiB": 9315,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "split": "train",
+  "start_frame": 30,
+  "target_ids_json": "[1, 2, 3, 4, 5, 6, 11, 13, 14, 15, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 40, 41, 42, 43, 46, 47, 49, 50, 51, 52, 53, 54, 55, 56, 59, 60, 61, 63, 64, 65, 66, 67, 68, 71, 72, 82, 83, 402]",
+  "targets": 53,
+  "tested_mode": "learned-prior K20 inference ONLY",
+  "training_memory_feasibility": "NOT_ESTABLISHED"
+}
