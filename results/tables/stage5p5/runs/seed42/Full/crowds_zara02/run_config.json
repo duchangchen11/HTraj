@@ -1,0 +1,240 @@
+{
+  "ETH_evaluated": false,
+  "aggregation": [
+    "per recording target-window",
+    "per recording equal person-ID",
+    "two-recording equal macro separately per weighting",
+    "all three individual seeds; mean and sample SD ddof1"
+  ],
+  "architecture_changes": false,
+  "augmentation": false,
+  "automatic_push": false,
+  "base_commit": "e8c69194f228a19d4e7410a9825adbeedb2b2b42",
+  "batch_size": 128,
+  "bootstrap": {
+    "CI": "percentile 2.5/97.5, 2000 paired cluster bootstrap draws; descriptive, not independence or exposure correction",
+    "base_seed": 20261016,
+    "common_draws": "same sampled cluster-index matrix for ADE/FDE, both weightings and all three metric families within a recording/training-seed",
+    "groups": "all frozen history groups reported descriptively; bootstrap main whole recording only, no subgroup significance searches",
+    "namespace": "stage5p5-cluster-bootstrap-v1",
+    "person_equal": "mean selected within-person mean paired errors",
+    "replicates": 2000,
+    "stable_seed": "SHA256(namespace|base20261016|recording|training_seed), first8 bytes modulo2^63",
+    "unit": "recording-local person ID; sample n_person IDs with replacement; keep all windows for each selected ID multiplicity",
+    "window_weighted": "sum cluster error sums with multiplicity / sum cluster window counts with multiplicity"
+  },
+  "branch": "feat/stage5p5-social-stability",
+  "checkpoint_policy": "epoch1/25/50/75/100 immutable periodic snapshots plus selected best serialized in RAM on each improvement and written once at completion; last=epoch100; no old or per-epoch artifact overwritten",
+  "checkpoint_restore_epochs": [
+    1,
+    25,
+    50,
+    75,
+    100
+  ],
+  "data_root": "data/raw/eth_ucy",
+  "embargo": "exact Stage5.1 train/dev support; no held-recording train and no promotion of old validation",
+  "epochs": 100,
+  "evaluation": {
+    "FPC": false,
+    "K20": "independent ADE and FDE minima per target; first sample is candidate0",
+    "batch_size": 128,
+    "every_epoch": "full validation all metrics plus original supervised posterior objective; same per-target noise across epochs",
+    "method": "external evaluation-only Gaussian standard-noise provider through temporary distribution hooks; original loc/scale, forward, parameters and loss unchanged; remove hooks before training",
+    "posterior_seed_namespace": "stage5p2-posterior-noise-v1",
+    "prior": "original deterministic latent-prior-mean trajectory, not expectation over predicted trajectories",
+    "samples": 20,
+    "seed_namespace": "stage5p2-prior-noise-v1",
+    "seed_rule": "namespace unchanged; identity contains run_seed 17/42/2026. Seed17 must exactly reproduce frozen evaluator; same seed Full/Placebo share epsilons",
+    "selected_best_full_train_K1": true,
+    "stable_key": "protocol|seed<run_seed>|recording|start_frame|target_id",
+    "train_K1_epochs": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  "extra_epochs": false,
+  "extra_seeds": false,
+  "failure_policy": "first nonfinite stops affected run and saves failure payload; no hyperparameter retry; other frozen runs still execute",
+  "formal_runs": [
+    {
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "seed": 42
+    },
+    {
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "seed": 42
+    },
+    {
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "seed": 42
+    },
+    {
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "seed": 42
+    },
+    {
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "seed": 2026
+    },
+    {
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "seed": 2026
+    },
+    {
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "seed": 2026
+    },
+    {
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "seed": 2026
+    }
+  ],
+  "gradient_clip": null,
+  "hidden_dim": 256,
+  "history_groups": {
+    "adjacent_direction_change_deg": 45.0,
+    "heading_reliable_speed_mps": 0.2,
+    "last_neighbor_count_bins": [
+      0,
+      2,
+      5
+    ],
+    "neighbor_density_bins": [
+      0.0,
+      1.0,
+      3.0
+    ],
+    "radial_speed_threshold_mps": 0.2,
+    "radius_m": 2.0,
+    "relative_heading_cosine": 0.7,
+    "speed_mps": [
+      0.05,
+      0.4,
+      1.8
+    ],
+    "support": "only raw eight-frame positions and masks, never future error; keep all/empty groups",
+    "turn_angle_deg": 30.0
+  },
+  "history_reference_only": [
+    "NoSocial-seed17",
+    "EgoCapacity-seed17",
+    "CV-Last2",
+    "CV-OLS4",
+    "CV-OLS8"
+  ],
+  "independent_confirmation": false,
+  "initialization": "seed_all(run_seed) before frozen model constructor; verify all shared tensors and post-construction RNG exactly equal for Full/Placebo per seed before training",
+  "learning_rate": 0.0005,
+  "loss": "unchanged official mean reconstruction + Monte Carlo latent KL mean; not exact marginal NLL",
+  "manifests": {
+    "biwi_hotel": {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    "crowds_zara02": {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  },
+  "max_new_runs": 8,
+  "model": "Full",
+  "model_selection": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "models": [
+    "Full",
+    "PlaceboSocial"
+  ],
+  "new_seeds": [
+    42,
+    2026
+  ],
+  "ob_radius_m": 2.0,
+  "official_commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+  "official_source_sha256": {
+    "data.py": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+    "social_vae.py": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f"
+  },
+  "optimizer": "Adam",
+  "pretrained_initialization": false,
+  "protocol": "HTraj-SocialVAE-Causal8x12-v1",
+  "reference_seed": 17,
+  "scheduler": null,
+  "scheduling": {
+    "caveat": "independent processes/RNG; shared single GPU, run wall times include contention; configuration never changes after observing seed42",
+    "max_Full": 2,
+    "max_PlaceboSocial": 2,
+    "max_concurrent": 4,
+    "ordered_queue_per_model": "seed42 ZARA2, seed42 HOTEL, seed2026 ZARA2, seed2026 HOTEL"
+  },
+  "seed": 42,
+  "small_group": {
+    "person_IDs_less_than": 10,
+    "rule": "flag if either; retain empty groups with null metrics",
+    "target_windows_less_than": 30
+  },
+  "stability": {
+    "ADE_FDE_conflict": "ADE consistently negative but FDE not: ADE-only evidence, explicitly conflicting; no joint performance claim",
+    "bootstrap_not_gate": true,
+    "magnitude": "report mean paired delta, sample SD of deltas and per-model across-seed errors; no significance decision from n=3 or chosen SNR cutoff",
+    "primary": "best K1 latent-prior ADE paired Full-minus-Placebo; strict negative indicates Full better",
+    "stronger_development_evidence": "all 3 seeds x 2 recordings x 2 weightings have negative ADE deltas; paired FDE must also be negative for joint ADE/FDE support",
+    "unstable": "any ADE direction reversal across seeds in any recording/weighting: current benefit not stable, stop complex social-module development"
+  },
+  "stage": "5.5",
+  "synthetic_context": {
+    "acceleration": "successive synthetic displacement differences; boundary zero placeholders ignored by official initialization",
+    "causality": "each synthetic frame uses target prefix only",
+    "count": 4,
+    "distribution_caveat": "four always-available near neighbors vs variable real count/entry/missing velocity; fixed cardinal directions and bounded drift change inductive bias; initial relative offsets are constant, not equal function-class capacity",
+    "future": "all twelve future neighbor slots are 1e9 padding, including training posterior",
+    "offsets_m": [
+      [
+        0.8,
+        0
+      ],
+      [
+        -0.8,
+        0
+      ],
+      [
+        0,
+        0.8
+      ],
+      [
+        0,
+        -0.8
+      ]
+    ],
+    "raw_neighbor_information_used": false,
+    "rule": "p_j(t)=x(t)+r_j+0.2*s_j*tanh((x(t)-x(0))/1m), componentwise",
+    "rule_search": false,
+    "signs": [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "velocity": "successive synthetic position differences, per-step displacement as official API"
+  },
+  "training_order": "numpy default_rng(run_seed+epoch).permutation(all train targets), retain final partial batch, exactly one complete pass",
+  "validation_recording": "crowds_zara02",
+  "weight_decay": 0.0
+}

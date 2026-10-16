@@ -1,0 +1,115 @@
+{
+  "ETH_evaluated": false,
+  "additional_training": false,
+  "all_12_ADE_deltas_negative": false,
+  "all_12_FDE_deltas_negative": false,
+  "bootstrap_changes_decision_rule": false,
+  "cells": [
+    {
+      "ADE_deltas_m": [
+        -0.00555737710224008,
+        -0.008814403787255287,
+        0.010604619312117702
+      ],
+      "ADE_direction_reversal": true,
+      "FDE_deltas_m": [
+        -0.013286580829500405,
+        -0.03303596219223626,
+        0.010344162214336539
+      ],
+      "FDE_direction_reversal": true,
+      "all_seeds_Full_better_ADE": false,
+      "all_seeds_Full_better_FDE": false,
+      "recording": "biwi_hotel",
+      "seeds": [
+        17,
+        42,
+        2026
+      ],
+      "weighting": "target-window"
+    },
+    {
+      "ADE_deltas_m": [
+        -0.06887358050019943,
+        0.02687688234331842,
+        0.0963078462948701
+      ],
+      "ADE_direction_reversal": true,
+      "FDE_deltas_m": [
+        -0.1886312219336017,
+        0.058258456990392116,
+        0.1780113730727224
+      ],
+      "FDE_direction_reversal": true,
+      "all_seeds_Full_better_ADE": false,
+      "all_seeds_Full_better_FDE": false,
+      "recording": "biwi_hotel",
+      "seeds": [
+        17,
+        42,
+        2026
+      ],
+      "weighting": "equal-person-ID"
+    },
+    {
+      "ADE_deltas_m": [
+        -0.006616909648146763,
+        -0.01072762404430333,
+        -0.011627422747391591
+      ],
+      "ADE_direction_reversal": false,
+      "FDE_deltas_m": [
+        -0.011392958211924098,
+        -0.026805086661771615,
+        -0.02079199625634598
+      ],
+      "FDE_direction_reversal": false,
+      "all_seeds_Full_better_ADE": true,
+      "all_seeds_Full_better_FDE": true,
+      "recording": "crowds_zara02",
+      "seeds": [
+        17,
+        42,
+        2026
+      ],
+      "weighting": "target-window"
+    },
+    {
+      "ADE_deltas_m": [
+        -0.023637490000062433,
+        -0.0338773522652574,
+        -0.033571228675912335
+      ],
+      "ADE_direction_reversal": false,
+      "FDE_deltas_m": [
+        -0.05571371743089393,
+        -0.07082896985254084,
+        -0.06331788907258062
+      ],
+      "FDE_direction_reversal": false,
+      "all_seeds_Full_better_ADE": true,
+      "all_seeds_Full_better_FDE": true,
+      "recording": "crowds_zara02",
+      "seeds": [
+        17,
+        42,
+        2026
+      ],
+      "weighting": "equal-person-ID"
+    }
+  ],
+  "frozen_rule": {
+    "ADE_FDE_conflict": "ADE consistently negative but FDE not: ADE-only evidence, explicitly conflicting; no joint performance claim",
+    "bootstrap_not_gate": true,
+    "magnitude": "report mean paired delta, sample SD of deltas and per-model across-seed errors; no significance decision from n=3 or chosen SNR cutoff",
+    "primary": "best K1 latent-prior ADE paired Full-minus-Placebo; strict negative indicates Full better",
+    "stronger_development_evidence": "all 3 seeds x 2 recordings x 2 weightings have negative ADE deltas; paired FDE must also be negative for joint ADE/FDE support",
+    "unstable": "any ADE direction reversal across seeds in any recording/weighting: current benefit not stable, stop complex social-module development"
+  },
+  "independent_recording_confirmation": false,
+  "input_distribution_matched": false,
+  "new_formal_runs": 8,
+  "seed_count": 3,
+  "strict_causal_attribution": false,
+  "verdict": "benefit_not_stable_or_not_present_stop_complex_social_modules"
+}

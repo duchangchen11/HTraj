@@ -1,0 +1,16 @@
+{"event": "launch", "elapsed_seconds": 0.000233231985475868, "run_id": "seed42_Full_crowds_zara02", "model": "Full", "seed": 42, "recording": "crowds_zara02", "worker": 0}
+{"event": "launch", "elapsed_seconds": 0.0010000659967772663, "run_id": "seed42_Full_biwi_hotel", "model": "Full", "seed": 42, "recording": "biwi_hotel", "worker": 1}
+{"event": "launch", "elapsed_seconds": 0.0016155060147866607, "run_id": "seed42_PlaceboSocial_crowds_zara02", "model": "PlaceboSocial", "seed": 42, "recording": "crowds_zara02", "worker": 0}
+{"event": "launch", "elapsed_seconds": 0.00247259100433439, "run_id": "seed42_PlaceboSocial_biwi_hotel", "model": "PlaceboSocial", "seed": 42, "recording": "biwi_hotel", "worker": 1}
+{"event": "finish", "elapsed_seconds": 3782.141394382983, "run_id": "seed42_PlaceboSocial_crowds_zara02", "model": "PlaceboSocial", "seed": 42, "recording": "crowds_zara02", "returncode": 0, "worker": 0}
+{"event": "launch", "elapsed_seconds": 3782.149363100005, "run_id": "seed2026_PlaceboSocial_crowds_zara02", "model": "PlaceboSocial", "seed": 2026, "recording": "crowds_zara02", "worker": 0}
+{"event": "finish", "elapsed_seconds": 3818.3704138500034, "run_id": "seed42_Full_crowds_zara02", "model": "Full", "seed": 42, "recording": "crowds_zara02", "returncode": 0, "worker": 0}
+{"event": "launch", "elapsed_seconds": 3818.3708096339833, "run_id": "seed2026_Full_crowds_zara02", "model": "Full", "seed": 2026, "recording": "crowds_zara02", "worker": 0}
+{"event": "finish", "elapsed_seconds": 3882.3016612459905, "run_id": "seed42_PlaceboSocial_biwi_hotel", "model": "PlaceboSocial", "seed": 42, "recording": "biwi_hotel", "returncode": 0, "worker": 1}
+{"event": "launch", "elapsed_seconds": 3882.301952117996, "run_id": "seed2026_PlaceboSocial_biwi_hotel", "model": "PlaceboSocial", "seed": 2026, "recording": "biwi_hotel", "worker": 1}
+{"event": "finish", "elapsed_seconds": 3977.0854062769795, "run_id": "seed42_Full_biwi_hotel", "model": "Full", "seed": 42, "recording": "biwi_hotel", "returncode": 0, "worker": 1}
+{"event": "launch", "elapsed_seconds": 3977.0856056099874, "run_id": "seed2026_Full_biwi_hotel", "model": "Full", "seed": 2026, "recording": "biwi_hotel", "worker": 1}
+{"event": "finish", "elapsed_seconds": 7559.237430636014, "run_id": "seed2026_PlaceboSocial_crowds_zara02", "model": "PlaceboSocial", "seed": 2026, "recording": "crowds_zara02", "returncode": 0, "worker": 0}
+{"event": "finish", "elapsed_seconds": 7615.6384753350285, "run_id": "seed2026_Full_crowds_zara02", "model": "Full", "seed": 2026, "recording": "crowds_zara02", "returncode": 0, "worker": 0}
+{"event": "finish", "elapsed_seconds": 7701.981085275998, "run_id": "seed2026_PlaceboSocial_biwi_hotel", "model": "PlaceboSocial", "seed": 2026, "recording": "biwi_hotel", "returncode": 0, "worker": 1}
+{"event": "finish", "elapsed_seconds": 7834.444182335981, "run_id": "seed2026_Full_biwi_hotel", "model": "Full", "seed": 2026, "recording": "biwi_hotel", "returncode": 0, "worker": 1}

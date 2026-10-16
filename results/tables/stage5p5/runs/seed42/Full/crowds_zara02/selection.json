@@ -1,0 +1,59 @@
+{
+  "actual_run_wall_seconds": 3816.3194530630135,
+  "best": {
+    "K1_prior_ADE_m": 0.26996474844470086,
+    "K1_prior_FDE_m": 0.5990327200349147,
+    "bytes": 25815888,
+    "epoch": 29,
+    "path": "experiments/stage5p5/checkpoints/seed42/Full/crowds_zara02/best_epoch029.pth",
+    "sha256": "b1228707c50a91c476276217a061e840f91e2a24eb20ad3605e1c02c901e0d48"
+  },
+  "best_train_K1": {
+    "train_K1_prior_ADE_m": 0.4461816829439181,
+    "train_K1_prior_FDE_m": 0.9719113871407726
+  },
+  "best_validation": {
+    "K1_prior_ADE_m": 0.26996474844470086,
+    "K1_prior_FDE_m": 0.5990327200349147,
+    "K1_sample_ADE_m": 0.41251128711294205,
+    "K1_sample_FDE_m": 0.9342681639687066,
+    "minADE20_m": 0.1496103162533559,
+    "minFDE20_m": 0.285547998166667,
+    "people": 35,
+    "posterior_kl": 0.009290243195363018,
+    "posterior_loss": 0.014614363306717122,
+    "posterior_rec": 0.005324120165937113,
+    "target_windows": 1092,
+    "windows": 172
+  },
+  "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+  "completed_epochs": 100,
+  "initial_parameter_state": {
+    "parameter_L2": 55.67021610910887,
+    "parameter_count": 2144002,
+    "parameter_max_abs": 0.7067146897315979,
+    "parameter_state_sha256": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+    "parameters_finite": true
+  },
+  "last": {
+    "K1_prior_ADE_m": 0.3467785071580749,
+    "K1_prior_FDE_m": 0.784362928258279,
+    "bytes": 25815952,
+    "epoch": 100,
+    "path": "experiments/stage5p5/checkpoints/seed42/Full/crowds_zara02/epoch100.pth",
+    "sha256": "3e4210be399c1a262c53fd21c678103df5b9ce76a183cf05587ba89765178a0e"
+  },
+  "model_kind": "Full",
+  "seed": 42,
+  "selected_best_restore": {
+    "deterministic_prediction_max_difference_m": 0.0,
+    "optimizer_state_identical": true,
+    "rng_resume_verified": true,
+    "strict_model_restore": true,
+    "supervised_stochastic_loss_max_difference": 0.0
+  },
+  "selection_rule": "minimum validation target-window-weighted K1 latent-prior ADE; exact tie earlier epoch; FDE from same checkpoint",
+  "total_optimizer_steps": 18400,
+  "training_completed": true,
+  "training_targets_per_epoch": 23545
+}

@@ -1,0 +1,113 @@
+{
+  "ETH_evaluated": false,
+  "Placebo_rule_changed": false,
+  "additional_training": false,
+  "all_12_combinations_indexed": true,
+  "automatic_push": false,
+  "bootstrap_intervals": 72,
+  "bootstrap_replicates_per_recording_seed": 2000,
+  "complete_epochs_per_new_run": 100,
+  "completed_new_runs": 8,
+  "frozen_source_SHA_verified": true,
+  "model_structure_changed": false,
+  "new_checkpoints_verified": 48,
+  "new_run_statistics": [
+    {
+      "actual_run_wall_seconds": 3816.3194530630135,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "seed": 42,
+      "steps": 18400
+    },
+    {
+      "actual_run_wall_seconds": 3780.073985040013,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "seed": 42,
+      "steps": 18400
+    },
+    {
+      "actual_run_wall_seconds": 3975.0573562619975,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "seed": 42,
+      "steps": 21300
+    },
+    {
+      "actual_run_wall_seconds": 3880.29854917404,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "d13326589cfc430f9cdc18856d9879edc41d0e315c64b5841c97895cff6f6153",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "seed": 42,
+      "steps": 21300
+    },
+    {
+      "actual_run_wall_seconds": 3795.0229421880213,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "7a0cee7a38fa32e35204f0c877fddb77bf3d50f024fad1e47f00346dcbb47d9d",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "seed": 2026,
+      "steps": 18400
+    },
+    {
+      "actual_run_wall_seconds": 3774.8659095250187,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "7a0cee7a38fa32e35204f0c877fddb77bf3d50f024fad1e47f00346dcbb47d9d",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "seed": 2026,
+      "steps": 18400
+    },
+    {
+      "actual_run_wall_seconds": 3855.4323388749617,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "7a0cee7a38fa32e35204f0c877fddb77bf3d50f024fad1e47f00346dcbb47d9d",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "seed": 2026,
+      "steps": 21300
+    },
+    {
+      "actual_run_wall_seconds": 3817.7369301140425,
+      "checkpoints": 6,
+      "code_commit": "cdeb5993a2c1f22b5153ccba81aa20257b929545",
+      "epochs": 100,
+      "initial_parameter_SHA": "7a0cee7a38fa32e35204f0c877fddb77bf3d50f024fad1e47f00346dcbb47d9d",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "seed": 2026,
+      "steps": 21300
+    }
+  ],
+  "official_source_changed": false,
+  "paired_noise_verified_every_epoch": true,
+  "protected_files_verified": 6346,
+  "raw_nonETH_source_SHA_verified": true,
+  "same_seed_initial_state_verified": true,
+  "single_seed_historical_controls_excluded_from_multiseed": true,
+  "small_cluster_limitation": true,
+  "unit_test_failures": 0,
+  "unit_tests": 349
+}

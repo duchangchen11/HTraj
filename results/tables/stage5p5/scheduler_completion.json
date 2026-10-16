@@ -1,0 +1,161 @@
+{
+  "actual_wall_seconds": 7834.44444998703,
+  "all_succeeded": true,
+  "events": [
+    {
+      "elapsed_seconds": 0.000233231985475868,
+      "event": "launch",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "run_id": "seed42_Full_crowds_zara02",
+      "seed": 42,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 0.0010000659967772663,
+      "event": "launch",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "run_id": "seed42_Full_biwi_hotel",
+      "seed": 42,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 0.0016155060147866607,
+      "event": "launch",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "run_id": "seed42_PlaceboSocial_crowds_zara02",
+      "seed": 42,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 0.00247259100433439,
+      "event": "launch",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "run_id": "seed42_PlaceboSocial_biwi_hotel",
+      "seed": 42,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 3782.141394382983,
+      "event": "finish",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "returncode": 0,
+      "run_id": "seed42_PlaceboSocial_crowds_zara02",
+      "seed": 42,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 3782.149363100005,
+      "event": "launch",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "run_id": "seed2026_PlaceboSocial_crowds_zara02",
+      "seed": 2026,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 3818.3704138500034,
+      "event": "finish",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "returncode": 0,
+      "run_id": "seed42_Full_crowds_zara02",
+      "seed": 42,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 3818.3708096339833,
+      "event": "launch",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "run_id": "seed2026_Full_crowds_zara02",
+      "seed": 2026,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 3882.3016612459905,
+      "event": "finish",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "returncode": 0,
+      "run_id": "seed42_PlaceboSocial_biwi_hotel",
+      "seed": 42,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 3882.301952117996,
+      "event": "launch",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "run_id": "seed2026_PlaceboSocial_biwi_hotel",
+      "seed": 2026,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 3977.0854062769795,
+      "event": "finish",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "returncode": 0,
+      "run_id": "seed42_Full_biwi_hotel",
+      "seed": 42,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 3977.0856056099874,
+      "event": "launch",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "run_id": "seed2026_Full_biwi_hotel",
+      "seed": 2026,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 7559.237430636014,
+      "event": "finish",
+      "model": "PlaceboSocial",
+      "recording": "crowds_zara02",
+      "returncode": 0,
+      "run_id": "seed2026_PlaceboSocial_crowds_zara02",
+      "seed": 2026,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 7615.6384753350285,
+      "event": "finish",
+      "model": "Full",
+      "recording": "crowds_zara02",
+      "returncode": 0,
+      "run_id": "seed2026_Full_crowds_zara02",
+      "seed": 2026,
+      "worker": 0
+    },
+    {
+      "elapsed_seconds": 7701.981085275998,
+      "event": "finish",
+      "model": "PlaceboSocial",
+      "recording": "biwi_hotel",
+      "returncode": 0,
+      "run_id": "seed2026_PlaceboSocial_biwi_hotel",
+      "seed": 2026,
+      "worker": 1
+    },
+    {
+      "elapsed_seconds": 7834.444182335981,
+      "event": "finish",
+      "model": "Full",
+      "recording": "biwi_hotel",
+      "returncode": 0,
+      "run_id": "seed2026_Full_biwi_hotel",
+      "seed": 2026,
+      "worker": 1
+    }
+  ],
+  "extra_runs": 0,
+  "launched_runs": 8,
+  "model_hyperparameter_or_seed_selection": false
+}
