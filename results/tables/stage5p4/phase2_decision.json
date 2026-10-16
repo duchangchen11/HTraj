@@ -1,0 +1,67 @@
+{
+  "ETH_evaluated": false,
+  "Full_qualifies_all_four": true,
+  "Placebo_executed": true,
+  "cells": [
+    {
+      "Full_ADE_m": 0.3871843371798033,
+      "Full_FDE_m": 0.751520930537544,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.014150208394337015,
+      "Placebo_ADE_m": 0.39274171428204335,
+      "Placebo_FDE_m": 0.7648075113670444,
+      "placebo_sufficient": false,
+      "recording": "biwi_hotel",
+      "weighting": "target-window"
+    },
+    {
+      "Full_ADE_m": 0.7361043574498275,
+      "Full_FDE_m": 1.478560875104739,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.08555958772683171,
+      "Placebo_ADE_m": 0.8049779379500269,
+      "Placebo_FDE_m": 1.6671920970383407,
+      "placebo_sufficient": false,
+      "recording": "biwi_hotel",
+      "weighting": "equal-person-ID"
+    },
+    {
+      "Full_ADE_m": 0.2725632910217131,
+      "Full_FDE_m": 0.6075127774038465,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.023701213883614493,
+      "Placebo_ADE_m": 0.2791802006698599,
+      "Placebo_FDE_m": 0.6189057356157706,
+      "placebo_sufficient": false,
+      "recording": "crowds_zara02",
+      "weighting": "target-window"
+    },
+    {
+      "Full_ADE_m": 0.35976613019152376,
+      "Full_FDE_m": 0.7009071589308883,
+      "Full_qualifies": true,
+      "Full_relative_ADE_gain": 0.06165171311697792,
+      "Placebo_ADE_m": 0.3834036201915862,
+      "Placebo_FDE_m": 0.7566208763617822,
+      "placebo_sufficient": false,
+      "recording": "crowds_zara02",
+      "weighting": "equal-person-ID"
+    }
+  ],
+  "exact_function_class_control": false,
+  "extra_training_authorized": false,
+  "frozen_rule": {
+    "FDE_substantial_regression_relative": 0.01,
+    "Full_meaningful_relative_ADE_gain": 0.01,
+    "K20": "separate descriptive outcome, never a replacement for K1 attribution",
+    "otherwise": "conditional/conflicting evidence; no more social modules or runs this stage",
+    "primary": "K1 at best K1 checkpoint; paired FDE; both recordings and both weightings",
+    "provisional_content_support": "Full relative ADE gain >=1% and Full FDE <= Placebo*1.01 across all four cells; conditional on input-distribution and single-seed caveats",
+    "sufficient_target_only": "Placebo ADE <= Full ADE and Placebo FDE <= Full*1.01 across all four cells"
+  },
+  "independent_confirmation": false,
+  "input_distribution_matched": false,
+  "placebo_sufficient_all_four": false,
+  "single_seed": true,
+  "verdict": "provisional_content_signal_with_distribution_confound"
+}

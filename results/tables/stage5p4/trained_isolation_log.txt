@@ -1,0 +1,1 @@
+PASS: trained EgoCapacity exact intervention independence, target-only control diagnostics 50

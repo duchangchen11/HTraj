@@ -1,0 +1,954 @@
+[
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "08801c67a6da27536acf0fb467bcaa97a1da5d5ee4fe51dd4b78f78bd67645b4",
+    "interpretation": "unused real-neighbor input in target-only control; Full no_grad is not isolation proof",
+    "intervention": "autograd",
+    "max_abs_output_difference": 0.0,
+    "mode": "raw_neighbor_Jacobian",
+    "model": "EgoCapacity",
+    "recording": "crowds_zara02",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "K1",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "K20",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "posterior",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "position_shift",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "velocity_feature_change",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_empty",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "count_duplicate",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "permutation",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "intervention": "entry_delay",
+    "max_abs_output_difference": 0.0,
+    "mode": "training_loss",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "cd08817fedfaca0cede29a1018b0c644f34143600d7d63821b95ab0eca890ca6",
+    "interpretation": "unused real-neighbor input in target-only control; Full no_grad is not isolation proof",
+    "intervention": "autograd",
+    "max_abs_output_difference": 0.0,
+    "mode": "raw_neighbor_Jacobian",
+    "model": "EgoCapacity",
+    "recording": "biwi_hotel",
+    "strictly_equal": true,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  }
+]

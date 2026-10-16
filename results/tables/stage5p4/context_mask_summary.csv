@@ -1,0 +1,9 @@
+recording,split,context,target_windows,history_frames_per_target,history_valid_social_slots,history_candidate_slots,history_valid_fraction,history_no_legal_neighbor_frame_fraction,synthetic_future_slots_all_padding,derivation
+biwi_hotel,train,real,27145,8,889123,9014056,0.09863739475326089,0.05864800147356788,False,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+biwi_hotel,train,synthetic,27145,8,868640,868640,1.0,0.0,True,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+biwi_hotel,validation,real,318,8,2604,35720,0.0729003359462486,0.31407232704402516,False,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+biwi_hotel,validation,synthetic,318,8,10176,10176,1.0,0.0,True,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+crowds_zara02,train,real,23545,8,809237,8664712,0.09339456406629555,0.057007857294542365,False,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+crowds_zara02,train,synthetic,23545,8,753440,753440,1.0,0.0,True,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+crowds_zara02,validation,real,1092,8,21487,91744,0.23420605162190444,0.14182692307692307,False,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"
+crowds_zara02,validation,synthetic,1092,8,34944,34944,1.0,0.0,True,"from exhaustive history-only context_distribution.csv; includes frame0 position initialization, not batch padding"

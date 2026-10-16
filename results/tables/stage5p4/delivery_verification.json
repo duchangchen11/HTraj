@@ -1,0 +1,65 @@
+{
+  "ETH_evaluated": false,
+  "Full_results_frozen": true,
+  "NoSocial_results_frozen": true,
+  "checkpoints_verified": 66,
+  "complete_epochs_per_run": 100,
+  "frozen_ego_source_sha_verified": true,
+  "function_classes_equal": false,
+  "local_commit_only": true,
+  "official_source_changed": false,
+  "phase1_artifacts_unchanged": true,
+  "phase2_protocol_frozen_before_training": true,
+  "protected_files_verified": 4526,
+  "run_statistics": [
+    {
+      "lifetime_ever_nonzero_gradient": 1981885,
+      "lifetime_never_nonzero_gradient": 687685,
+      "module_loss_connected_ever": 2182082,
+      "nominal": 2669570,
+      "recording": "biwi_hotel",
+      "saved_checkpoints": 13,
+      "steps": 21300,
+      "structural_upper_bound": 1985474,
+      "variant": "ego_capacity"
+    },
+    {
+      "lifetime_ever_nonzero_gradient": 1982792,
+      "lifetime_never_nonzero_gradient": 686778,
+      "module_loss_connected_ever": 2182082,
+      "nominal": 2669570,
+      "recording": "crowds_zara02",
+      "saved_checkpoints": 19,
+      "steps": 18400,
+      "structural_upper_bound": 1985474,
+      "variant": "ego_capacity"
+    },
+    {
+      "lifetime_ever_nonzero_gradient": 1951344,
+      "lifetime_never_nonzero_gradient": 192658,
+      "module_loss_connected_ever": 2144002,
+      "nominal": 2144002,
+      "recording": "biwi_hotel",
+      "saved_checkpoints": 13,
+      "steps": 21300,
+      "structural_upper_bound": 2045698,
+      "variant": "placebo_social"
+    },
+    {
+      "lifetime_ever_nonzero_gradient": 1950566,
+      "lifetime_never_nonzero_gradient": 193436,
+      "module_loss_connected_ever": 2144002,
+      "nominal": 2144002,
+      "recording": "crowds_zara02",
+      "saved_checkpoints": 21,
+      "steps": 18400,
+      "structural_upper_bound": 2045698,
+      "variant": "placebo_social"
+    }
+  ],
+  "scalar_upper_bound_matched_within_5percent": true,
+  "trained_EgoCapacity_isolation_verified": true,
+  "trained_PlaceboSocial_isolation_verified": true,
+  "unit_test_failures": 0,
+  "unit_tests": 337
+}

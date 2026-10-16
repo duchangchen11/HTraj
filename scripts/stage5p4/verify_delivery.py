@@ -14,6 +14,10 @@ for p,h in json.load(open(root/'ego_frozen_source_sha.json')).items():assert sha
 for p,h in plan['official_source_sha256'].items():
  source=Path('experiments/stage5/cache/socialvae')/plan['official_commit']/p
  assert sha256(source)==h
+for row in json.load(open('configs/stage5p4/phase1_artifacts_before_placebo.json'))['files']:
+ assert sha256(row['path'])==row['sha256'],row['path']
+for p,h in json.load(open(root/'placebo_frozen_source_sha.json')).items():assert sha256(p)==h,p
+assert json.load(open(root/'phase1_decision.json'))['phase2_allowed']
 initial=[];code=[];checkpoints=0;run_stats=[]
 for variant in ['ego_capacity','placebo_social']:
  if variant=='placebo_social' and not (root/variant/'biwi_hotel/selection.json').exists():continue
@@ -46,6 +50,10 @@ for variant in ['ego_capacity','placebo_social']:
   assert all(r['dead_parameter_values_unchanged']=='True' for r in lifetime)
   assert sum(int(r['structural_effective_upper_bound']) for r in lifetime)==(1985474 if variant=='ego_capacity' else 2045698)
   assert all(int(r['optimizer_steps_observed'])==s['total_optimizer_steps'] for r in lifetime)
+  if variant=='placebo_social':
+   for prefix in ['rnn_fx_init.','embed_n.','embed_k.','embed_q.']:
+    assert all(int(r['ever_nonzero_gradient_scalars'])>0 for r in lifetime if r['parameter'].startswith(prefix))
+   assert p['initial_parameter_state']['parameter_state_sha256']=='ad20edd765b3993d5c82ee8d97e8cd84aa4108111e8ff67228a810bcafcc9a63'
   if variant=='ego_capacity':
    assert all(int(r['ever_nonzero_gradient_scalars'])>0 for r in lifetime if r['parameter'].startswith('ego_capacity.'))
   initial.append((variant,p['initial_parameter_state']['parameter_state_sha256']));code.append((variant,p['code_commit']))
@@ -60,10 +68,11 @@ for variant in {v for v,c in initial}:
 xml=ET.parse(root/'final_tests.xml').getroot();suites=[xml] if xml.tag=='testsuite' else xml.findall('testsuite')
 assert sum(int(s.attrib.get('failures',0))+int(s.attrib.get('errors',0)) for s in suites)==0
 trained=json.load(open(root/'trained_isolation_audit.json'));assert all(r['strictly_equal'] for r in trained)
+assert all(r['strictly_equal'] for r in json.load(open(root/'placebo_trained_isolation_audit.json')))
 subprocess.run(['git','diff','--check'],check=True)
 json_new(root/'delivery_verification.json',dict(protected_files_verified=len(protected['files']),run_statistics=run_stats,
  checkpoints_verified=checkpoints,complete_epochs_per_run=100,ETH_evaluated=False,official_source_changed=False,
  frozen_ego_source_sha_verified=True,unit_tests=sum(int(s.attrib['tests']) for s in suites),unit_test_failures=0,
- Full_results_frozen=True,NoSocial_results_frozen=True,trained_EgoCapacity_isolation_verified=True,
+ Full_results_frozen=True,NoSocial_results_frozen=True,trained_EgoCapacity_isolation_verified=True,trained_PlaceboSocial_isolation_verified=True,phase1_artifacts_unchanged=True,phase2_protocol_frozen_before_training=True,
  scalar_upper_bound_matched_within_5percent=True,function_classes_equal=False,local_commit_only=True))
 print('PASS: historical artifacts, frozen sources, complete budgets, checkpoints and tests')

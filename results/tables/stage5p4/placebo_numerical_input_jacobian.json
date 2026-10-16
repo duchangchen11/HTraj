@@ -1,0 +1,158 @@
+[
+  {
+    "checkpoint_sha256": "dfe29eff6a6c3ed2f60f8c7be9fe6d9b8b23cdfaa7f111d03357e1daae1e2e93",
+    "coordinate": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "crowds_zara02",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "dfe29eff6a6c3ed2f60f8c7be9fe6d9b8b23cdfaa7f111d03357e1daae1e2e93",
+    "coordinate": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "crowds_zara02",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "dfe29eff6a6c3ed2f60f8c7be9fe6d9b8b23cdfaa7f111d03357e1daae1e2e93",
+    "coordinate": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "crowds_zara02",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      155,
+      311,
+      467,
+      623,
+      779,
+      935,
+      1091
+    ]
+  },
+  {
+    "checkpoint_sha256": "361a96e60b348492a9e499893f2b0ca33fb761399216f56eaacd02120f49bdef",
+    "coordinate": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "biwi_hotel",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "361a96e60b348492a9e499893f2b0ca33fb761399216f56eaacd02120f49bdef",
+    "coordinate": [
+      0,
+      1,
+      5,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "biwi_hotel",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  },
+  {
+    "checkpoint_sha256": "361a96e60b348492a9e499893f2b0ca33fb761399216f56eaacd02120f49bdef",
+    "coordinate": [
+      0,
+      1,
+      6,
+      0
+    ],
+    "epsilon_m": 0.01,
+    "interpretation": "finite difference functional derivative, not autograd; position-only artificial input diagnostic",
+    "max_abs_central_difference_jacobian": 0.0,
+    "model": "PlaceboSocial",
+    "other_target_max_abs_jacobian": 0.0,
+    "recording": "biwi_hotel",
+    "same_target_max_abs_jacobian": 0.0,
+    "target_indices": [
+      0,
+      45,
+      90,
+      135,
+      181,
+      226,
+      271,
+      317
+    ]
+  }
+]

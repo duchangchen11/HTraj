@@ -3,8 +3,9 @@ import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 import json
+import os
 from src.socialvae_causal.io import read_csv
-ROOT=Path('results/tables/stage5p4');REPORT=Path('reports/stage5p4')
+ROOT=Path('results/tables/stage5p4');REPORT=Path(os.environ.get('STAGE5P4_REPORT_OUTPUT','reports/stage5p4'))
 OUT=ROOT/('analysis_final' if (ROOT/'analysis_final').exists() else 'analysis_phase1')
 metrics=read_csv(OUT/'model_metrics.csv');groups=read_csv(OUT/'all_group_metrics.csv');macros=read_csv(OUT/'recording_macro_metrics.csv')
 convergence=json.load(open(OUT/'convergence_audit.json'));decision=json.load(open(ROOT/'phase1_decision.json'))
@@ -12,6 +13,7 @@ verification=json.load(open(ROOT/'delivery_verification.json'))
 recs=['biwi_hotel','crowds_zara02'];models=['CV-Last2','CV-OLS4','CV-OLS8','Full','NoSocial','EgoCapacity']
 placebo='PlaceboSocial' in {r['model'] for r in metrics}
 if placebo:models.append('PlaceboSocial')
+final_decision=json.load(open(ROOT/'phase2_decision.json')) if placebo else None
 def val(model,rec,weight='target-window',family='K1-prior',which='best'):
  if model.startswith('CV-'):family='deterministic';which='analytic'
  return next(r for r in metrics if (r['model'],r['recording'],r['weighting'],r['metric_family'],r['selection'])==(model,rec,weight,family,which))
@@ -24,7 +26,7 @@ base='单位米，ADE/FDE配对来自同一按最低验证K1 ADE选择的checkpo
 summary=table(['录像','模型','K1 ADE/FDE','K1首样本 ADE/FDE','K20 minADE/minFDE'],[
  [rec,m,pair(val(m,rec)), '—' if m.startswith('CV-') else pair(val(m,rec,family='K1-first-sample')),
  '—' if m.startswith('CV-') else pair(val(m,rec,family='K20-independent-minima'))] for rec in recs for m in models])
-training=table(['录像','模型','best轮','best训练ADE/FDE','last验证ADE/FDE','100轮实耗min','峰值显存GiB'],[
+training=table(['录像','模型','best轮','best训练ADE/FDE','last验证ADE/FDE','100轮实耗min','进程内PyTorch峰值分配GiB'],[
  [c['recording'],c['model'],c['best_epoch'],fmt(c['best_train_K1']['train_K1_prior_ADE_m'])+' / '+fmt(c['best_train_K1']['train_K1_prior_FDE_m']),
  fmt(c['last_epoch']['K1_prior_ADE_m'])+' / '+fmt(c['last_epoch']['K1_prior_FDE_m']),f"{c['actual_run_wall_seconds']/60:.2f}",f"{c['peak_allocated_bytes']/2**30:.3f}"] for c in convergence])
 objective_rows=[]
@@ -46,19 +48,22 @@ save('03_EGO_CAPACITY_RESULTS.md','# EgoCapacity正式训练结果\n\n'+base+sum
 if not placebo:
  save('04_PLACEBO_SOCIAL_RESULTS.md','# PlaceboSocial执行状态\n\n**未执行，未构建正式训练run，没有可报告指标。**\n\n第一阶段预注册判断：`'+decision['verdict']+'`。是否满足四个录像×加权单元的Full继续门槛：'+str(decision['Full_qualifies_all_four'])+'。按冻结停止规则，本阶段不启动Placebo，不增加seed或训练预算。\n\n这不等同于Placebo失败，也不能据此判断真实邻居内容已被证实有效或无效。只有预设门槛通过并另行冻结独立合成上下文协议，才允许其训练。\n')
 else:
- save('04_PLACEBO_SOCIAL_RESULTS.md','# PlaceboSocial真实执行结果\n\n'+base+summary+'\n协议、合成上下文分布与隔离审计见本阶段phase2产物。Placebo改变社会输入分布，不是完美单因素对照；结果不能自动等同于独立社会因果效应。\n')
+ context=read_csv(ROOT/'context_distribution.csv')
+ context_table=table(['录像','split','上下文','统计量','均值','P95','零值比例'],[[r['recording'],r['split'],r['context'],r['statistic'],fmt(r['mean']),fmt(r['P95']),fmt(r['fraction_zero'])] for r in context if r['statistic'] in ['count','distance','speed','relative_speed']])
+ save('04_PLACEBO_SOCIAL_RESULTS.md','# PlaceboSocial真实执行结果\n\n'+base+summary+'\n'+context_table+'\n实际执行两组100完整epoch；规则仅此一套、没有搜索。公式和边界/未来padding规则见PLACEBO_FROZEN_PROTOCOL.md；训练前10项隔离结构测试和全套337项测试通过。Full原始社会模块均实际执行并获得梯度，见placebo_capacity_by_parameter.csv和每轮梯度记录。名义参数2144002、结构有效上界2045698，与Full一致，但常量初始偏移限制输入多样性，非函数类相同。协议、合成上下文分布与隔离审计见本阶段phase2产物。Placebo改变社会输入分布，不是完美单因素对照；结果不能自动等同于独立社会因果效应。\n')
 weighttables=''
 for weight in ['target-window','equal-person-ID']:
  weighttables+='\n## '+weight+'\n\n'+table(['录像','模型','K1 ADE/FDE'],[[rec,m,pair(val(m,rec,weight))] for rec in recs for m in models])
  weighttables+='\n两个录像宏平均（各录像1/2权重）：\n\n'+table(['模型','指标族','ADE/FDE'],[[r['model'],r['metric_family'],pair(r)] for r in macros if r['group']=='all' and r['within_recording_weighting']==weight and r['model'] in models and r['selection'] in ['analytic','best']])
 allgroups=''
+group_models=['Full','NoSocial','EgoCapacity']+(['PlaceboSocial'] if placebo else [])
 for rec in recs:
- allgroups+='\n## '+rec+'：全部历史分组K1窗口加权结果\n\n'+table(['组','窗口/行人','Full ADE/FDE','NoSocial ADE/FDE','EgoCapacity ADE/FDE'],[
- [g, str(rr['target_windows'])+'/'+str(rr['people']),*[pair(next(r for r in groups if r['recording']==rec and r['model']==m and r['selection']=='best' and r['metric_family']=='K1-prior' and r['weighting']=='target-window' and r['group']==g)) for m in ['Full','NoSocial','EgoCapacity']]]
+ allgroups+='\n## '+rec+'：全部历史分组K1窗口加权结果\n\n'+table(['组','窗口/行人']+[m+' ADE/FDE' for m in group_models],[
+ [g, str(rr['target_windows'])+'/'+str(rr['people']),*[pair(next(r for r in groups if r['recording']==rec and r['model']==m and r['selection']=='best' and r['metric_family']=='K1-prior' and r['weighting']=='target-window' and r['group']==g)) for m in group_models]]
  for g in dict.fromkeys(r['group'] for r in groups)
  for rr in [next(r for r in groups if r['recording']==rec and r['model']=='Full' and r['selection']=='best' and r['metric_family']=='K1-prior' and r['weighting']=='target-window' and r['group']==g)]])
 save('05_PAIRED_COMPARISON.md','# 完全配对比较与全部历史分组\n\n'+base+weighttables+allgroups+'''
-完整K1首样本/K20、行人等权、last与各组配对差异见analysis_phase1（若执行第二阶段则最终见analysis_final）下all_group_metrics.csv、all_group_paired_differences.csv、paired_model_errors.csv.gz、person_aggregated_errors.csv、recording_macro_metrics.csv。原始ID、GT SHA与分组一致；两个录像分别35与28个行人ID，窗口重叠，不能按1410个独立行人作显著性推断。组是历史固定、多标签且会重叠；空组保留缺失值，不填0。行人权重先在录像内每个ID平均，再等权；宏平均不混为窗口池化。
+完整K1首样本/K20、行人等权、last与各组配对差异见analysis_phase1（若执行第二阶段则最终见analysis_final）下all_group_metrics.csv、all_group_paired_differences.csv、paired_model_errors.csv.gz、person_aggregated_errors.csv、recording_macro_metrics.csv。原始ID、GT SHA与分组一致；ZARA2有35个、HOTEL有28个行人ID，窗口重叠，不能按1410个独立行人作显著性推断。组是历史固定、多标签且会重叠；空组保留缺失值，不填0。行人权重先在录像内每个ID平均，再等权；宏平均不混为窗口池化。
 
 三种CV均展示，主分析固定CV-Last2。事后逐录像最低解析CV仅为“解析基线上界参考”，不能冒充一个可部署模型。即使神经模型K20较好，也不能替代确定性K1社会贡献结论。
 ''')
@@ -69,19 +74,30 @@ elif condition=='conditional_or_weak_evidence_stop':
  verdict='容量控制没有给出跨录像、跨权重一致的社会独立收益。第一阶段继续门槛未通过，结果属于条件性、冲突或差异不足；不能宣布Full社会收益独立成立。按预设规则停止，不追加Placebo。'
 else:
  verdict='Full在第一阶段两个录像、两种权重下均满足预注册继续门槛。该结果仅说明目标自身容量控制未完全解释优势；仍需结合实际执行的Placebo以及输入分布、归纳偏置和单seed限制判断，不能直接宣布独立邻居收益。'
+if placebo:
+ code=final_decision['verdict']
+ if code=='target_only_Full_path_sufficient_stop':
+  verdict='Ego残差MLP本身未解释Full的K1优势，但同一Full架构仅使用目标自身合成上下文即可在两个录像、两种权重下达到预设不差于Full门槛。真实邻居并非达到当前性能的必要输入；停止继续增加SocialVAE社会结构。该结论不等同于原Full从未使用邻居。'
+ elif code=='provisional_content_signal_with_distribution_confound':
+  verdict='Full在两个录像、两种加权口径下均超过EgoCapacity和PlaceboSocial并通过预设K1/FDE门槛。本次控制未能以额外ego表达或目标自身合成上下文解释Full的K1优势，可记录真实邻居内容的初步贡献迹象。但合成输入分布不同、函数类不完全匹配、单seed与开发曝光仍未排除，不能宣称严格独立因果归因。'
+ else:
+  verdict='Ego残差MLP未解释Full的跨录像K1优势，但Placebo内容负对照未支持跨两个录像、两种权重一致的独立邻居收益。结果属于条件性或冲突证据；本阶段停止，不再增加SocialVAE社会结构。'
 gate=table(['录像','权重','Ego ADE/FDE','Full ADE/FDE','Full相对ADE收益','ego足以解释','Full继续达标'],[
  [c['recording'],c['weighting'],fmt(c['EgoCapacity_ADE_m'])+' / '+fmt(c['EgoCapacity_FDE_m']),fmt(c['Full_ADE_m'])+' / '+fmt(c['Full_FDE_m']),f"{100*c['Full_relative_ADE_gain']:.3f}%",c['ego_sufficient'],c['Full_qualifies']] for c in decision['cells']])
+if placebo:
+ gate+='\n第二阶段固定内容负对照：\n\n'+table(['录像','权重','Placebo ADE/FDE','Full ADE/FDE','Full相对ADE收益','Placebo足以达到','Full继续达标'],[
+  [c['recording'],c['weighting'],fmt(c['Placebo_ADE_m'])+' / '+fmt(c['Placebo_FDE_m']),fmt(c['Full_ADE_m'])+' / '+fmt(c['Full_FDE_m']),f"{100*c['Full_relative_ADE_gain']:.3f}%",c['placebo_sufficient'],c['Full_qualifies']] for c in final_decision['cells']])
 answers='''
-1. Full优势能否由额外ego容量解释：以上四单元结果决定，不以名义参数量替代容量审计；控制引入不同归纳偏置，不能宣称容量完全控制。
-2. 容量上界匹配后Full是否更好：见四单元门槛及全部配对表，不合并口径掩盖冲突。
-3. K1优势跨录像情况：逐录像、窗口和行人等权同时列出；不能由宏平均替代两个录像分别成立。
-4. K20是否同结论：见独立K20表；与K1是不同问题，不用K20替代K1归因。
-5. 不含真实邻居的控制是否可达到Full：EgoCapacity列与Full直接配对；只报告实际结果。
-6. Placebo执行状态：'''+('已执行，见04报告及独立冻结协议。' if placebo else '未执行，第一阶段停止规则不授权启动；没有虚填结果。')+'''
-7. 可归因邻居收益：Full优于严格NoSocial本身不足以证明；容量、归纳偏置、随机优化、单seed和开发集曝光仍限制因果解释。
-8. HOTEL强CV问题：同一目标CV-OLS4/8及窗口/行人两种权重完整展示；不因只比较最弱CV而忽略明显差距。
-9. 是否继续社会图：本阶段不开发图模块；未获跨录像清晰证据时停止增加复杂社会结构。
-10. 后续路线：优先完成公开基线/任务适配与泛化归因，保留现有Full/NoSocial作为冻结对照；普通MLP或伪邻居不是新论文方法。不以一个改善分组发起新网络研究。本阶段结束，不追加训练。
+1. **额外ego容量能否解释Full优势？** 本次256→1024→256控制未能解释四个主指标单元的K1优势；这只是否定“本次具体MLP已足够”的解释，不是数学上排除所有容量解释。额外ego路径的归纳偏置和优化轨迹均不同。HOTEL EgoCapacity ADE0.440967m还弱于NoSocial的0.395194m，因此Full相对EgoCapacity的12.2%优势不能包装成12.2%的社会收益；原Full相对NoSocial只有约2%。
+2. **有效容量上界接近后Full是否仍好？** 是，相对EgoCapacity在HOTEL窗口/行人ADE改善12.196%/12.740%，ZARA2改善1.380%/4.568%，配对FDE均更好。两者上界差2.94%，不是完全同容量或同函数类。
+3. **K1优势是否跨两个录像？** Full对EgoCapacity在两个录像、两种权重均通过预注册门槛；对Placebo同样四单元全部通过，窗口ADE绝对改善HOTEL 5.557mm、ZARA2 6.617mm，属于小幅经验收益，非显著性或跨seed稳定性证据。
+4. **K20是否相同？** 不同：ZARA2 EgoCapacity为0.152978/0.293431m，优于Full的0.157530/0.304836m；Placebo在ZARA2为0.146936/0.280722m，也优于Full；HOTEL的K20则Full更好。不用K20代替K1社会归因。
+5. **无真实邻居控制能否达到Full？** EgoCapacity本次未达到；Placebo也未达到Full的K1，四单元均更差；但二者在ZARA2的K20均优于Full，所以不能说所有预测能力都依赖邻居。
+6. **社会内容负对照是否执行？** '''+('已实际执行ZARA2/HOTEL各100完整epoch，独立冻结协议与代码提交后才启动；没有额外seed或规则搜索。' if placebo else '未执行，第一阶段门槛未通过，按规则停止；未虚填指标。')+'''
+7. **是否证明可独立归因的邻居收益？** 尚不能作严格因果证明。第一阶段解决了一个具体容量控制，第二阶段还存在合成上下文分布变化与初始化输入多样性差异；单seed、重复曝光开发集及重叠窗口也限制结论。当前证据等级以本报告开头最终判断为准。
+8. **HOTEL弱于强CV是否仍存在？** Full窗口ADE0.387184m，明显弱于CV-OLS8的0.220144m；行人等权Full0.736104m，仍弱于CV-OLS4约0.354559m。新控制的实际数值完整列出，不挑最弱CV。K20与确定性CV不是同一预测预算。
+9. **是否值得继续社会图？** 目前值得进一步验证真实邻居的内容价值，但证据不足以启动复杂图模块。建议下一阶段若另行批准，优先预注册多seed内容对照与HOTEL泛化核查，先确认分布混杂和稳定性，而非直接开发GNN。
+10. **是否结束SocialVAE社会改造？** 当前阶段正式结束、无额外训练授权。不必因本次结果彻底否定SocialVAE或真实社会信息；但应暂缓架构改造，保留成熟基线。本次有初步一致K1内容证据，仍不足以立即宣布第四章创新；优先解决HOTEL运动泛化与强解析基线差距。常规容量MLP和伪邻居不是论文创新。
 '''
 save('06_RESEARCH_DECISION.md','# 研究决策\n\n'+verdict+'\n\n'+gate+'\n'+answers+'\n所有门槛为预注册开发规则，不是显著性或因果识别保证。\n')
 save('STAGE5P4_REPORT.md','# Stage5.4：容量归因总报告\n\n'+verdict+'\n\n'+base+summary+'\n'+gate+'\n'+capacity+'\n'+answers+f'''

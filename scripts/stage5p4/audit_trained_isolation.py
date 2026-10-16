@@ -54,8 +54,8 @@ for rec in ['crowds_zara02','biwi_hotel']:
         assert jac is None
         rows.append(dict(recording=rec,model=label,mode='raw_neighbor_Jacobian',intervention='autograd',max_abs_output_difference=0.,
             strictly_equal=True,checkpoint_sha256=selection['best']['sha256'],target_indices=indices,
-            interpretation='unused for NoSocial; upstream feature no_grad for Full, NOT proof of Full isolation'))
+            interpretation='unused real-neighbor input in target-only control; Full no_grad is not isolation proof'))
         assert before==state_info(model)
         del model
 json_new('results/tables/stage5p4/trained_isolation_audit.json',rows)
-print('PASS: trained EgoCapacity exact intervention independence, Full diagnostics preserved',len(rows))
+print('PASS: trained EgoCapacity exact intervention independence, target-only control diagnostics',len(rows))

@@ -7,8 +7,10 @@ from src.socialvae_causal.io import csv_new,read_csv
 from src.socialvae_baseline.artifacts import json_new
 from src.data.preprocessing import sha256
 root=Path('results/tables/stage5p4');rows=[]
+final=(root/'placebo_social/biwi_hotel/selection.json').exists()
+suffix='_final' if final else ''
 old=json.load(open('results/tables/stage5p3/capacity_audit.json'))
-for r in old+json.load(open(root/'capacity_audit.json')):
+for r in old+json.load(open(root/'capacity_audit.json'))+(json.load(open(root/'placebo_capacity_audit.json')) if final else []):
  rows.append(dict(model=r['model'],recording='64_target_fixed_training_probe',nominal=r['total_parameters'],
   module_forward_used=r['module_forward_used_parameters'],module_loss_connected=r['loss_graph_connected_parameters'],
   structural_upper_bound=r['structural_effective_upper_bound'],observed_nonzero=r['observed_nonzero_gradient_scalars'],
@@ -26,8 +28,8 @@ for model,path in [('NoSocial',Path('results/tables/stage5p3')),('EgoCapacity',r
    observed_zero=sum(int(r['never_nonzero_gradient_scalars']) for r in rr),
    added_ego_nonzero=sum(int(r['ever_nonzero_gradient_scalars']) for r in rr if r['parameter'].startswith('ego_capacity.')),
    interpretation='100 complete epochs: exact union of observed nonzero gradients; not permanent theoretical inactivity'))
-csv_new(root/'combined_capacity_audit.csv',rows)
-json_new(root/'capacity_audit_sources.json',dict(
+csv_new(root/f'combined_capacity_audit{suffix}.csv',rows)
+json_new(root/f'capacity_audit_sources{suffix}.json',dict(
  Full_NoSocial_probe_source='results/tables/stage5p3/capacity_audit.json',
  Full_NoSocial_probe_sha256=sha256('results/tables/stage5p3/capacity_audit.json'),
  Full_lifetime_exact_gradient_union_available=False,

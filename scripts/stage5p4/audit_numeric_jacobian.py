@@ -41,4 +41,4 @@ for rec in ['crowds_zara02','biwi_hotel']:
                 interpretation='finite difference functional derivative, not autograd; position-only artificial input diagnostic'))
         del model
 json_new('results/tables/stage5p4/numerical_input_jacobian.json',rows)
-print('EgoCapacity numerical input Jacobians exactly zero; Full measured without detachment confusion',len(rows))
+print('EgoCapacity numerical input Jacobians exactly zero; target-only input independence checked numerically',len(rows))
