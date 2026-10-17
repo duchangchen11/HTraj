@@ -94,17 +94,441 @@
   ],
   "endpoint_dispersion": "RMS radius around mean endpoint and mean of all190 head-pair distances; not a selector",
   "engineering_probe_updates_max": 2,
+  "engineering_repair": {
+    "actual_run_directory": "results/tables/stage7p4/execution_v2",
+    "change": "Import sys; isolate second execution namespace; preserve all initial artifacts. No model/data/optimizer/settings change.",
+    "preserved_attempt1_files": [
+      {
+        "path": "experiments/stage7p4/cache/hotel_validation_stdout.txt",
+        "sha256": "bf55575006827094d3256dd456d0437cace9bdab820d0af338fb608769db7af7"
+      },
+      {
+        "path": "experiments/stage7p4/cache/execution_stdout.txt",
+        "sha256": "a266efb2394fc13e9096992b086f112aa536d24d76daaa1d594b396947f317a2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001040.npz",
+        "sha256": "ed35d7c288f94dfc44846f0e1c589912956b701cab56c7be61c6cde214a27790"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001094.npz",
+        "sha256": "2fdc81b8a1f88f8b626f79012c05a7a58962b8c80e28635ed3ffcf141cf6774c"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001218.npz",
+        "sha256": "02a1e1f74aaf39ac6f784ec442bf9bbdcd3bb1170963b5208c717efef64315aa"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001192.npz",
+        "sha256": "bdf2ac6651deb86cf25da98da0840fc155f410ae48ac1a95e278b84f5ca0b3f7"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001210.npz",
+        "sha256": "728e571645e48d66320545b6504562c01aefc778e03d90441f653b76db080d1e"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001129.npz",
+        "sha256": "87eb61f30a29de4c2db2d2766b9a3728d656be98dc298e868c51cbfd032e94ac"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001201.npz",
+        "sha256": "fd0c225d6e87847c1e084ccae0953bea13bdc36ac86c00638c94bbdb5cced8ca"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001212.npz",
+        "sha256": "ce4f0f97a998837d03b13ebf3addd81c4316c3e3880e09f9713a7d5678f4a89f"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001093.npz",
+        "sha256": "2294585fb55ae507d039295357995004893013d7d237635ec0837ad82464729a"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001214.npz",
+        "sha256": "dc55edc4dbbe3bfe0c2bd229bd2f5ffdbef3f7527f199624a27e8a46c8da0851"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001138.npz",
+        "sha256": "226f05e3f9476419fa0395f3769f2817a136d774f4d580d9db1010193631293f"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001220.npz",
+        "sha256": "f09f95ffc171224a3c2d95ad81946a4c13977b5f15e271a758683b1ac62dd4a2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001095.npz",
+        "sha256": "b9bf1bcdcfae0a6e13532171f017f7ea764c24125308301c156afdffce553edb"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001215.npz",
+        "sha256": "00fd1bc70a744853d18ee0bf41410c9277f83fce5f5a53b4d4d055ca89cc7d4a"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001137.npz",
+        "sha256": "f5ac274280c02a3668248b5f1dc7f42c15efe08cf3064b941d96f9019b746d61"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001128.npz",
+        "sha256": "bee36114c8507addcb3cecf9616b38e7953834ee7119332f8c8a62aeebcdec19"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001035.npz",
+        "sha256": "92f1fc758ce7b03dc5fc8df31f9eb69cddd364e59ed6dce637722b0f54d544d3"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001213.npz",
+        "sha256": "160443b6c3e6e2dee791f02a8cd73b6c0b5966f99f4852355af90dc0582a667f"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001226.npz",
+        "sha256": "b6a0965b9e5c352a7c3ee7220d488b6ab00871f03094569876a3f92b66a25e4c"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001135.npz",
+        "sha256": "fc0e95569bab3cce7dc51b465fa6ddf4c0436f97ae3a5b31ecfddd901afcc957"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001223.npz",
+        "sha256": "61de1508e2c2d90a5438e70db25abf5775c71e5e80e07e363bced25ef9c076a4"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001211.npz",
+        "sha256": "7c269a93a0ed075dac12f09152281df6a7c0519d493d1ddc822522b4607bf195"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001039.npz",
+        "sha256": "3e8a95607e82d31265551f101f466b340e227c234d42aeb9884d0697d444b650"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001202.npz",
+        "sha256": "a7447fdb88a1536c4fd94e272db8272d015abd69e26e0811d5657b236fef31f5"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001037.npz",
+        "sha256": "32121f72af9d9ec19604d421b07ae173c51088a03d587fce3ce3d2b6258bdd16"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001219.npz",
+        "sha256": "0ef404dcb18dbb35ab98747a50fced09759bf1109d629eff297c0390d2410ab2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001041.npz",
+        "sha256": "ca31f14082691e111a1345ab9b2be8aeed71e9e52f9ca437c1d285e2c1f70444"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001222.npz",
+        "sha256": "515981a04955e78e7343ff15f5277c44c3618b9513f36b7dd8508d0938ca7974"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001136.npz",
+        "sha256": "866bb324ba1f60e44ce1d3737bfb009a8e1b255783d0fa09c7b9ccd318ef870b"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001225.npz",
+        "sha256": "05936c3e4fdb2bc631fc6d41677672b417d5e69be3d3783fb10d879203156006"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001224.npz",
+        "sha256": "4b437185acd34727d49e442c3cf9ca75f671f55fc6456103fcd3eb419b39dfc9"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001221.npz",
+        "sha256": "9a345d45b3637829b63a1f1305a3de8d44f378e62b246671ba3134650edee79d"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001038.npz",
+        "sha256": "6357cfdf0708246de1d7bcf3e8aecf252f39c6812e6584c7969a935043210008"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001204.npz",
+        "sha256": "b5fc4ae8e94a462217d4264c5010bdd7db7bb1a109e87c765b3b8e87fe52d2cc"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001031.npz",
+        "sha256": "66baaa6ea84c0d7a605f4f7aca092e8ec096786e728cd5cbf4cb9541ddf6c09e"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001209.npz",
+        "sha256": "8268e7f37fde4536c2efbfcaef05bdad07c675de0305185c7601dc36cf4271c7"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001200.npz",
+        "sha256": "730d99968daf709dc94a05638c1b8bfa89986d551c7d6427273eb99e430f7bee"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001034.npz",
+        "sha256": "4763b80c98a0f911cc5c46c0cd980417a1e2943357716abf25a633a34af6765e"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001191.npz",
+        "sha256": "d4072484cd25a6ba5cb245630d1d32a3b53d5d1ac8502e8c6d25cc5cf4f6a751"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001032.npz",
+        "sha256": "0bed75d797352c75f9d75f5d9e10fd163fd18db480d622b923e79d28109aedd1"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001092.npz",
+        "sha256": "3661976444c8e3341d8060f6bbb533da48a47b86be6976a71cda30fa3781368c"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001195.npz",
+        "sha256": "44761bcc4d4db690951a2875dd6bbd1c4dd34862677c8931d7bc27dbc1eaa4f6"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001205.npz",
+        "sha256": "89025273eb104a2ae9b8ce69abe1b63ad12cf2401c066031cc9f17de5fa3d2f4"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001217.npz",
+        "sha256": "be0c3e64d93bc7e2552017ce6697eb41e88c8c0d91c368a0afe50ecb7c974fa6"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001076.npz",
+        "sha256": "1b0013aac9e620d646c8e57d429e2e463a8db960fa19d61663386e156f84a806"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001033.npz",
+        "sha256": "fe781171f6151d79f1990bbf42221b1401b0d1dccccb77b6de6f52607e8154d2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001036.npz",
+        "sha256": "9a5648cc31b730b17d278b19040bb8e5419ec06446e3d20eb0340c752c28d7c6"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001216.npz",
+        "sha256": "717f729ddc5d8edd0cc4f79c7a9ae23f3c9dc46e20c3de238c23f9cc1fc37119"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001196.npz",
+        "sha256": "285e575ac78f390970f6e43da55cd3e5f31c8a2af4551fecc89ed6f0bac98794"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000757.npz",
+        "sha256": "acf61eeb21c1352334c6266b82a5c38a7a65f33e06e299f32125af296766b233"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000744.npz",
+        "sha256": "a2ef48668044980dadfe649c1c002554fdd88ce20cbd84fc145ddcb26faca9b6"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000749.npz",
+        "sha256": "e2c1807c83af7a161448fd5af51117baec338ef89ad271244c367318aa2c402e"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000786.npz",
+        "sha256": "00a5e6d6788e5acf344ec1e654f67d64ab940652981e792d853dfe6ca7b16475"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000783.npz",
+        "sha256": "fec17b3122ce2a77532ebff9e0a8781aeac1943fd58dd45ca8447e534f5e6742"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000745.npz",
+        "sha256": "160eecb587bc6245ab7569b3a90248912ae578c34c148a91d7820b487a7d8e55"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000782.npz",
+        "sha256": "89042870c97bc8b35773650b93c3e44b4e5020a337c2ca4dd46595693b67b266"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000768.npz",
+        "sha256": "47ccdbc6e30a5f416f33a9af1de41bfd1c588ed3a9d4e4d6f8792cd8b4942136"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000775.npz",
+        "sha256": "48e0564da6ad966a2511b9dff8a491b6e5f7252ff8cb9be9953483ded6ce48ce"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000784.npz",
+        "sha256": "5a958542f7caccfbc8b89b4e7118316395f49724eea8a565b3ba764777230840"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000785.npz",
+        "sha256": "761763a212fd3699dd1fa5e348e1f9d26e8fde781d612496cb8aae270ce3509d"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000752.npz",
+        "sha256": "20db0a41e9b43c856ca669ac179b01455d72169c06b6604de109ccfc64e17b44"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000756.npz",
+        "sha256": "89c600f6da0709e649705d95f548bdcaf133e7d3b989c2b06dc3f4e3b9697759"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000779.npz",
+        "sha256": "66c5a9b5fd62b15d9213477ee9099ca0f940a5e5d4b75df98a62f8d94845f468"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000738.npz",
+        "sha256": "999cb918e5e02f2b2aa0bc2117c2508b3ab99176ba029b1110d9b990c86f3e37"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000761.npz",
+        "sha256": "1edb0dcc703654253a0fe4ad310b09fb523f4e7ed68d9f0b334bcd10451a2141"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000767.npz",
+        "sha256": "4d3616066e5e37e07a9b18270b002b467319e8437fe27c70e94775739dcb8a27"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000747.npz",
+        "sha256": "1312c701456df4c86f9b8c157ff075fb763d054ae4207dcafff1b8eccded13e3"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000741.npz",
+        "sha256": "b0a56e440db868dda649a547e4263e17299d165a0555481ab3b65c0cee2e9f60"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000773.npz",
+        "sha256": "42523c0f471cfbee186eb5ca5b0248197694d410ee7019f43971fa23a356e479"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000718.npz",
+        "sha256": "360db3b45406865881fc7e9fde945a080ee601d2dc47026dfadc4c2ca480d9ae"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000758.npz",
+        "sha256": "7971fa833ce6c322cfbccbad6568319f0b860e21df65a8eea0cac27fc1328c4a"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000781.npz",
+        "sha256": "834703d1970b2adef80349d7692cbca708d56c7cf61fa974cc58ee46f06b01ad"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000765.npz",
+        "sha256": "46784d13e869f4c29fe889394f2a79f16b1e2d79a0a692e8fee0d1e9c7856e58"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000746.npz",
+        "sha256": "ee76d2783fd2aab80962293fa20e5c0bafd20d5bab6d67e09bf2ba627e5655cd"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000777.npz",
+        "sha256": "36b4ef01015f4c9bb005fec4551dba14acab3eb224b3c1e504a57dc503a884c6"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000737.npz",
+        "sha256": "2f0f855a3f942f8702b31ef9295bf2a4641e35e15bfe17822f4584c09d693dc8"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000766.npz",
+        "sha256": "83d926b332d99f2345f5ae7389b4dd1ac2a605b1f7b14728e417b32944cf9e55"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000771.npz",
+        "sha256": "84066f4631fca0146d1d99defe7597b0cba989304241416833462ad35606a5db"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000742.npz",
+        "sha256": "38f083bac57628636c36c72b3533901d46e8443eef0de989922012fec2424300"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000753.npz",
+        "sha256": "23253b122fd890d46b0cb3ffb25675a969564bd954e8d914f26c6c9cde8ed73a"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000763.npz",
+        "sha256": "6ead9a1e4a1a4c92588418b94575ffbe3cf736d8f9f4c61b60ff4eb81b461529"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000754.npz",
+        "sha256": "c78f5a9ae2de3df1209ef9c556e863b28a5498dac2347512c42a520f5102623b"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000776.npz",
+        "sha256": "4f23919fdd9036419ae7af7927e1cddb1d5dd9a1c7c502492c510414bd6fedff"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000759.npz",
+        "sha256": "51b2874677f82c4474bc7eb4cef6209c69a9e34621a480d27152f7508d2e5628"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000778.npz",
+        "sha256": "c448093ff1c7badfef8f5cb5ae9c9f63b04d6e23b3b4e6b759f6b3d3e74bb4b2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000764.npz",
+        "sha256": "2713ee0c8df3e3e1dfe0fea90ccda8c1a5314b933ef3546154531936050986fd"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000755.npz",
+        "sha256": "044fe221a1f606453f20e3642e691836b8e86bc86b4a4c4eb73bb69aeb7b867b"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000748.npz",
+        "sha256": "43e40bcadf9285a10204cc53f85c7b9a6e0c688835494f3f86b190fb27b395b8"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000780.npz",
+        "sha256": "0d8812f12529909eee91e2c4f371d6e504326dd4041642b428c207581d3f8103"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000762.npz",
+        "sha256": "a23ffc8868a266017dd4667d9bb0a061c3f4a77fe9969b23dde7599c2ed53c84"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000769.npz",
+        "sha256": "d922580a138ffe3e025aad9e946cc5b94814fd6aff4e4b9cc9cc9c8bde8728c1"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000774.npz",
+        "sha256": "bc845baef8eb762e9c3bee5c3722531faa662d23c2e5c236143a6b01b646eaab"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000739.npz",
+        "sha256": "58d73ece102d6f0a33826191a5dd1051db14a126d94344804386dab27d7dfd43"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000770.npz",
+        "sha256": "c93e8c74b56511951033ffb6c0c4990935898ddf8202fe25a6992cdcc88dc460"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000751.npz",
+        "sha256": "7506ce66bc0c914c44d1f33cb56b9bed9302cd5f24b2caac5bbb6e198b70e0f8"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000740.npz",
+        "sha256": "03597cec61662942d98f3dc2398c4381fc834e42efc8264e6eb60ba721c98548"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000772.npz",
+        "sha256": "c45623157a4c9d6eb5ebb3dbad3e57d0acb53c10108f893106f8b084708f2f59"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000743.npz",
+        "sha256": "bcdb21faf333c868445311352947daae0eb94852ee55f075fd0d50f9f651709d"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000750.npz",
+        "sha256": "8a86cc241d261deccc4147abc9cb9fd8fa7f92bd398724fa18e13a3c05161fe2"
+      },
+      {
+        "path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000760.npz",
+        "sha256": "6c661468b28fd079812559f711b70b557a6bd448c3eadddbe65bcd5791d54f54"
+      },
+      {
+        "path": "results/tables/stage7p4/execution_start.json",
+        "sha256": "5aadf5beedb1a94d803b262ce03f6fb262b0f0077a34a8c26e50d5f1497c1121"
+      },
+      {
+        "path": "results/tables/stage7p4/execution_failure.json",
+        "sha256": "3804c191eedc7f61e85125d85115fdb57f169607fc0a19a625383c0236de6348"
+      }
+    ],
+    "previous_freeze_commit": "a3c3d561a380496100e88001d954aef8375a5d7d",
+    "reason": "NameError in validation progress logging after100 windows; no training updates"
+  },
   "execution_source_SHA256": {
     "scripts/stage7p1/runtime.py": "06e8c72633206c24982b9d0141c6bc74afdd777fdf82e7c69042607426a5f1e0",
     "scripts/stage7p4/execute.py": "6f815a091769c5eafd5ddcb6715681d7acf518b4e7b3e0e8dedb152b1664aa67",
-    "scripts/stage7p4/finish.py": "3dd22292de357e970a3567a58e4423f3588bcb035e7784cc47d193a7ae1cd776",
+    "scripts/stage7p4/finish.py": "8034ba2889b15e0b7489308dc483ab6f1b7f960107fe9c3c8737aef874cdb697",
     "scripts/stage7p4/preflight.py": "908557291f1391904de52742705361d8ff7ac2c994fa012cb2ed40b036db70dc",
     "scripts/stage7p4/prepare.py": "22f8333721522ebf17b3afbe1113c9d8c7c2def8495556a47afdcec72a0d93bc",
     "scripts/stage7p4/train_epoch.py": "7151b2393d67859623e33d641c9a82e74d47f734b5cc3e3c43443bf3948dd00b",
-    "scripts/stage7p4/validation.py": "018adea8cec5522aff10fbacd7c564360ebd1e856b38796e8a6ac2e96dc600b1",
+    "scripts/stage7p4/validation.py": "369bba8151742cd28fc7db00340db310fe213653b9c965df9a14e56d36765300",
     "src/agentformer_benchmark/official.py": "8a3ea995cd26286b6c4340ae6e695db75baf269ae0ec09e97f8af23a0c4fd41d",
     "src/agentformer_feasibility/__init__.py": "a08068d56a364e1d5b6450c125b63df444927dee80e2de71d12719db39dfeaab",
-    "src/agentformer_feasibility/common.py": "430e9f27f62098edf75776f8830e02986648266843aeb8e460bc413c665e7009",
+    "src/agentformer_feasibility/common.py": "41cb8dc35220559d8c09f87350dc7b73d05d8ecab25d61389dd44551641ca9d5",
     "src/agentformer_feasibility/diagnosis.py": "18269f582c6a84028008eebb9f4531e819e7c851add3f68753e73fb28f961820",
     "tests/test_agentformer_feasibility.py": "b2350a41fb0e9ed942bc870cb944e1364a242a0070bc5d93ad9de2c7db71b2da"
   },

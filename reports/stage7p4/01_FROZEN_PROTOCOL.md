@@ -27,3 +27,5 @@ OOM、NaN/Inf、目标/数据错配或恢复失败即停止后续训练，保存
 所有数值均来自实际运行，失败不补零。原始数据/模型/预测只在ignored cache中保存；轻量配置、日志、逐目标与逐步统计进Git。本阶段不自动push。
 
 来源：[官方固定版本](https://github.com/Khrylx/AgentFormer/tree/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5)的train.py、model/agentformer.py、model/dlow.py、cfg及data入口；本地完整SHA清单见configs/stage7p4/protocol.json。
+
+执行前修订：首次冻结提交a3c3d56之后，validation进度日志缺少sys导入导致在100窗口停止，零训练更新。保留初次现场与提交；只补日志导入并把执行输出隔离到execution_v2，重新提交成功后才运行。所有模型、数据、权重、优化器、预算、分组和停止规则不变。两次重叠窗口预测随后核查一致性；这不是数值失败后的模型重试或超参数搜索。

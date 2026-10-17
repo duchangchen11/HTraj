@@ -1,0 +1,63 @@
+{
+  "CVAE_config_byte_identical": true,
+  "DLow_only_reference_index_changed": true,
+  "GPU": "NVIDIA GeForce RTX 3080, 10240 MiB, 570.133.07",
+  "cases": [
+    {
+      "candidate_slots": 4349,
+      "fold": "hotel",
+      "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+      "sequences": [
+        "biwi_eth_train",
+        "crowds_zara01_train",
+        "crowds_zara02_train",
+        "crowds_zara03_train",
+        "students001_train",
+        "students003_train",
+        "uni_examples_train"
+      ],
+      "source_file_SHA256": "2a36b3b4e43a9246199d5ac4771da97f8496f43d083a70756b047695bcb4f228",
+      "split": "train"
+    },
+    {
+      "candidate_slots": 981,
+      "fold": "hotel",
+      "loader_log": "\n-------------------------- loading val data --------------------------\nloading sequence biwi_eth_val ...\nloading sequence crowds_zara01_val ...\nloading sequence crowds_zara02_val ...\nloading sequence crowds_zara03_val ...\nloading sequence students001_val ...\nloading sequence students003_val ...\nloading sequence uni_examples_val ...\ntotal num samples: 981\n------------------------------ done --------------------------------\n\n",
+      "sequences": [
+        "biwi_eth_val",
+        "crowds_zara01_val",
+        "crowds_zara02_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "source_file_SHA256": "2a36b3b4e43a9246199d5ac4771da97f8496f43d083a70756b047695bcb4f228",
+      "split": "val"
+    },
+    {
+      "candidate_slots": 1137,
+      "fold": "zara2",
+      "loader_log": "\n-------------------------- loading val data --------------------------\nloading sequence biwi_eth_val ...\nloading sequence biwi_hotel_val ...\nloading sequence crowds_zara01_val ...\nloading sequence crowds_zara03_val ...\nloading sequence students001_val ...\nloading sequence students003_val ...\nloading sequence uni_examples_val ...\ntotal num samples: 1137\n------------------------------ done --------------------------------\n\n",
+      "sequences": [
+        "biwi_eth_val",
+        "biwi_hotel_val",
+        "crowds_zara01_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "source_file_SHA256": "3c5681eb7528366a8261fb6bbd195afad6edb1d6f76e673d9ced026a4b2e0bcd",
+      "split": "val"
+    }
+  ],
+  "cuda": "12.4",
+  "no_forward": true,
+  "no_test_metrics": true,
+  "no_training": true,
+  "numpy": "1.26.4",
+  "passed": true,
+  "python": "3.10.21",
+  "torch": "2.5.1+cu124"
+}

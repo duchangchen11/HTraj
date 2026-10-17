@@ -25,6 +25,7 @@ def write(name,text):
 def main():
     begin=time.perf_counter()
     p=protocol();verify_inputs()
+    for r in p['engineering_repair']['preserved_attempt1_files']:assert digest(ROOT/r['path'])==r['sha256']
     old=json.loads((ROOT/'configs/stage7p4/protected_artifacts.json').read_text())
     failures=[r['path'] for r in old['files'] if not (ROOT/r['path']).is_file() or digest(ROOT/r['path'])!=r['sha256']]
     pred_count=0
@@ -151,7 +152,7 @@ def main():
     write('STAGE7P4_REPORT.md',f'# Stage7.4训练可行性与validation诊断\n\n最终决策：**{decision}**。\n\n'+reason_text+
         f'\n\n完整epoch及恢复工程检查：{success}。官方模型、loss、Adam和调度器保留原样；只测HOTEL两阶段各1轮与各1次独立影子恢复更新。无五场景test重复评价，无新模型。\n\n'+validation_text+
         f'\n\n完整测试：{tests}。保护历史文件{len(old["files"])}份与Stage7.3预测/GT/recon文件{pred_count}份，SHA变化0。\n\n'
-        '预算与假设见05报告，完整阶段日志、逐步耗时、loss、checkpoint SHA、状态恢复和分组结果见results/tables/stage7p4。真实失败见execution_failure.json或对应_epoch.json，不存在的运行不填指标。\n\n'
+        '预算与假设见05报告，完整阶段日志、逐步耗时、loss、checkpoint SHA、状态恢复和分组结果见results/tables/stage7p4/execution_v2。首次validation因进度日志缺少sys导入在100窗口后停止，零训练更新；原现场和首次冻结提交保留，补导入并在独立execution_v2目录重新冻结后执行。首次与本次已生成重叠窗口需核查预测不变。真实失败见根目录execution_failure.json或本次对应_epoch.json，不存在的运行不填指标。\n\n'
         '只本地提交，不自动push：`git push -u origin feat/stage7p4-agentformer-training-feasibility`。完成后停止。')
     print('FINAL',decision,'engineering epochs/restore:',success,'reasons:',reasons,'tests:',tests,flush=True)
 

@@ -8,8 +8,8 @@ import torch
 from src.agentformer_benchmark.official import ROOT, SOURCE, DATA, install_compatibility
 from src.agentformer_official_evaluation.runtime import digest
 
-OUT = ROOT/'results/tables/stage7p4'
-CACHE = ROOT/'experiments/stage7p4/cache'
+OUT = ROOT/'results/tables/stage7p4/execution_v2'
+CACHE = ROOT/'experiments/stage7p4/cache/execution_v2'
 WORK = CACHE/'training_workspace'
 
 

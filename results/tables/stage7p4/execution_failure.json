@@ -1,0 +1,7 @@
+{
+  "completed": [],
+  "no_retry": true,
+  "stopped": true,
+  "test_metrics_recomputed": false,
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lrj/HTraj/scripts/stage7p4/execute.py\", line 27, in main\n    validation();completed.append('official validation: HOTEL and ZARA2')\n  File \"/home/lrj/HTraj/scripts/stage7p4/validation.py\", line 100, in run\n    if len(seen)%100==0:print(f'validation {fold}: {len(seen)}/{len(expected)} windows',file=sys.__stdout__,flush=True)\nNameError: name 'sys' is not defined\n"
+}

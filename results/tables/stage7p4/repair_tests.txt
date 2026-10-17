@@ -1,0 +1,3 @@
+.......                                                                  [100%]
+- generated xml file: /home/lrj/HTraj/results/tables/stage7p4/repair_tests.xml -
+7 passed in 1.01s

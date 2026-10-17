@@ -1,4 +1,5 @@
 """Author checkpoints on OFFICIAL validation only, never a test generator."""
+import sys
 import contextlib
 import io
 import json
