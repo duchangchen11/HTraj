@@ -1,0 +1,3 @@
+model,A_novelty,B_protocol_comparability,C_RTX_feasibility,D_fair_ablation,E_thesis_fit,rubric,decision
+Resonance,1,2,3,3,4,"Qualitative1-5, not performance scores; higherengineering score cannot override failed gates",Not selected as current innovation backbone
+MoFlow,1,2,2,2,3,Qualitative1-5; CPU/singleagent/multistage restrictions; not a prediction ranking,Not selected

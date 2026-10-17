@@ -1,0 +1,18 @@
+{
+  "automatic_push": false,
+  "base_commit": "28a1c50482802ab0ea55a791b22cba56a8e5a6a4",
+  "checked_ignore": true,
+  "checked_sensitive_files": true,
+  "decision": "NO-GO",
+  "diff_check": true,
+  "execution_head_commit": "19c19d9bcff7f46d21d03a5e4ddcbe37bc69b64a",
+  "final_commit": "Recorded by final git log; no impossible self-containing commit SHA",
+  "full_regression_tests": "May include existing synthetic forwards/backwards/optimizer regression tests; not research training",
+  "full_tests_passed": 449,
+  "historical_checks": 87680,
+  "historical_files_unchanged": true,
+  "protocol_commit": "19c19d9",
+  "recommended_backbone": null,
+  "reports": 8,
+  "scope": "OriginalRe GPU engineering+MoFlowCPU component checks only; no formal epochs, no test metrics, no innovation module"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-18",
+  "extra_download": {
+    "path": "experiments/stage8/cache/literature/kdtf.pdf",
+    "sha256": "73cf8446335333fb07507b886854e3758bbdbedfd10663175704a4b51d5ed274",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jeong_Multi-modal_Knowledge_Distillation-based_Human_Trajectory_Forecasting_CVPR_2025_paper.pdf"
+  },
+  "failure": "AcademicMCP absent; OpenAlexfallbackHTTP429; Inter-GraphFormer publisher fulltext unavailable again; no bypass attempted",
+  "keywords": [
+    "2024-2026 dynamic pedestrian interactions relative velocity",
+    "trajectory multimodal efficiency flow distillation",
+    "Resonance motion-geometry association and pooling",
+    "Inter-GraphFormer full method",
+    "Reverberation temporal social latency"
+  ],
+  "no_third_model_engineering": true,
+  "nonprimary_sources_not_used": [
+    "automatedpaperreviews",
+    "aggregatorclaims",
+    "reddit"
+  ],
+  "original_downloads": [
+    {
+      "bytes": 8600527,
+      "name": "resonance",
+      "path": "experiments/stage8/cache/literature/resonance.pdf",
+      "sha256": "8b705d35d6f790ee6ff4589d57124471d6f7771696a42d502ba12279a1149e9b",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_Resonance_Learning_to_Predict_Social-Aware_Pedestrian_Trajectories_as_Co-Vibrations_ICCV_2025_paper.pdf"
+    },
+    {
+      "bytes": 10626630,
+      "name": "resonance_supp",
+      "path": "experiments/stage8/cache/literature/resonance_supp.pdf",
+      "sha256": "209e6caeb74579f68fb1f1234436182488425402cee5dd076da19afcd6c7f4a1",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wong_Resonance_Learning_to_ICCV_2025_supplemental.pdf"
+    },
+    {
+      "bytes": 28226704,
+      "name": "reverberation",
+      "path": "experiments/stage8/cache/literature/reverberation.pdf",
+      "sha256": "7af6a82eccc62cd3927168ec10e37ca8abf329443a2a5313ce69ed349fb1229d",
+      "url": "https://arxiv.org/pdf/2511.11164"
+    }
+  ],
+  "reused_full_texts": [
+    "experiments/stage7p5/cache/literature/agentformer_pdf.pdf",
+    "experiments/stage7p5/cache/literature/tutr_pdf.pdf",
+    "experiments/stage7p5/cache/literature/socialcircle_pdf.pdf",
+    "experiments/stage7p5/cache/literature/moflow_pdf.pdf"
+  ],
+  "unavailable_details": "Inter-GraphFormer missing posterior/loss/data formulas and author source stay unverified",
+  "workflow": "nature-academic-search multi-source + legitimate OA downloader"
+}

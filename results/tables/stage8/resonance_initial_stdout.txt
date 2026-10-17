@@ -1,0 +1,349 @@
+{
+  "kind": "Original Resonance engineering/structure probes, not trained prediction metrics",
+  "source_commit": "7358b3d4fd3fcf160c18be9425445a67ee8211ee",
+  "torch": "2.5.1+cu124",
+  "numpy": "1.26.4",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "environment": "/home/lrj/HTraj/experiments/stage8/cache/venv/bin/python",
+  "dependency_reuse": "New stage8 venv; read-only import path to existing frozen stage4 packages, not author exact torch2.0 environment",
+  "formal_epochs": 0,
+  "new_modules": false,
+  "test_metrics": false,
+  "cases": [
+    {
+      "case": "single",
+      "sequence": "biwi_eth_val",
+      "frame": 1031,
+      "target_ids": [
+        238
+      ],
+      "context_people": 1,
+      "target_batch": 1,
+      "output_shape": [
+        1,
+        20,
+        12,
+        2
+      ],
+      "finite": true,
+      "functional_random_init_loss": 0.47321832180023193,
+      "gradient_norm": 5.299845218658447,
+      "neighbor_permutation_max_difference": 0.0,
+      "translation_equivariance_max_difference": 2.86102294921875e-06,
+      "seconds": 0.45971809898037463,
+      "allocated_peak": 42565120,
+      "reserved_peak": 48234496,
+      "whole_card_memory_MiB_snapshot": "758"
+    },
+    {
+      "case": "two",
+      "sequence": "biwi_eth_val",
+      "frame": 1136,
+      "target_ids": [
+        328,
+        329
+      ],
+      "context_people": 2,
+      "target_batch": 2,
+      "output_shape": [
+        2,
+        20,
+        12,
+        2
+      ],
+      "finite": true,
+      "functional_random_init_loss": 1.068526029586792,
+      "gradient_norm": 2.9428763389587402,
+      "neighbor_permutation_max_difference": 0.0,
+      "translation_equivariance_max_difference": 3.814697265625e-06,
+      "seconds": 0.09867835202021524,
+      "allocated_peak": 43467264,
+      "reserved_peak": 48234496,
+      "whole_card_memory_MiB_snapshot": "758"
+    },
+    {
+      "case": "multiple",
+      "sequence": "biwi_eth_val",
+      "frame": 1037,
+      "target_ids": [
+        263,
+        264,
+        265,
+        267,
+        268
+      ],
+      "context_people": 5,
+      "target_batch": 5,
+      "output_shape": [
+        5,
+        20,
+        12,
+        2
+      ],
+      "finite": true,
+      "functional_random_init_loss": 1.578637719154358,
+      "gradient_norm": 2.3500406742095947,
+      "neighbor_permutation_max_difference": 1.9073486328125e-06,
+      "translation_equivariance_max_difference": 5.7220458984375e-06,
+      "seconds": 0.14087213104357943,
+      "allocated_peak": 44884992,
+      "reserved_peak": 50331648,
+      "whole_card_memory_MiB_snapshot": "759"
+    },
+    {
+      "case": "maximum_validation_context",
+      "sequence": "students001_val",
+      "frame": 366,
+      "target_ids": [
+        139,
+        140,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        207,
+        208,
+        209,
+        212,
+        213,
+        214,
+        215,
+        216,
+        218,
+        220,
+        221,
+        223,
+        224,
+        225,
+        269,
+        301,
+        306,
+        307,
+        311,
+        314,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        389,
+        390,
+        396,
+        399,
+        414
+      ],
+      "context_people": 42,
+      "target_batch": 42,
+      "output_shape": [
+        42,
+        20,
+        12,
+        2
+      ],
+      "finite": true,
+      "functional_random_init_loss": 0.44783133268356323,
+      "gradient_norm": 1.1172648668289185,
+      "neighbor_permutation_max_difference": 9.5367431640625e-07,
+      "translation_equivariance_max_difference": 7.62939453125e-06,
+      "seconds": 0.11304455500794575,
+      "allocated_peak": 93730304,
+      "reserved_peak": 111149056,
+      "whole_card_memory_MiB_snapshot": "820"
+    }
+  ],
+  "parameters": 3149192,
+  "pairing_alias": {
+    "synthetic": true,
+    "position_anchors": [
+      [
+        1.0,
+        2.0
+      ],
+      [
+        2.0,
+        4.0
+      ]
+    ],
+    "velocities_m_per_frame": [
+      [
+        0.4000000059604645,
+        0.0
+      ],
+      [
+        -0.4000000059604645,
+        0.0
+      ]
+    ],
+    "relative_histories": [
+      [
+        [
+          -1.7999999523162842,
+          2.0
+        ],
+        [
+          -1.4000000953674316,
+          2.0
+        ],
+        [
+          -1.0,
+          2.0
+        ],
+        [
+          -0.6000000238418579,
+          2.0
+        ],
+        [
+          -0.20000004768371582,
+          2.0
+        ],
+        [
+          0.19999998807907104,
+          2.0
+        ],
+        [
+          0.6000000238418579,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      [
+        [
+          4.800000190734863,
+          4.0
+        ],
+        [
+          4.400000095367432,
+          4.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          3.5999999046325684,
+          4.0
+        ],
+        [
+          3.200000047683716,
+          4.0
+        ],
+        [
+          2.799999952316284,
+          4.0
+        ],
+        [
+          2.4000000953674316,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ]
+    ],
+    "swapped_histories": [
+      [
+        [
+          3.799999952316284,
+          2.0
+        ],
+        [
+          3.4000000953674316,
+          2.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          2.5999999046325684,
+          2.0
+        ],
+        [
+          2.200000047683716,
+          2.0
+        ],
+        [
+          1.7999999523162842,
+          2.0
+        ],
+        [
+          1.399999976158142,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      [
+        [
+          -0.7999999523162842,
+          4.0
+        ],
+        [
+          -0.40000009536743164,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.3999999761581421,
+          4.0
+        ],
+        [
+          0.7999999523162842,
+          4.0
+        ],
+        [
+          1.2000000476837158,
+          4.0
+        ],
+        [
+          1.600000023841858,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ]
+    ],
+    "original_matrix_shape": [
+      1,
+      8,
+      128
+    ],
+    "max_matrix_difference": 7.450580596923828e-09,
+    "first_candidate_or_ADE_not_computed": true,
+    "interpretation": "An architectural non-identifiability, not proof of predictive harm or a novel remedy"
+  },
+  "history_exposure": {
+    "target_windows": 5203,
+    "eligible_target_windows": 3869,
+    "interpretation": "Potential ambiguous association contexts; no counterfactual GT or accuracy improvement claim"
+  },
+  "device": "cuda:0",
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "GPU_total_bytes": 10366025728,
+  "checkpoint_restore": {
+    "strict": true,
+    "path": "experiments/stage8/cache/probe/random_init_roundtrip.pt",
+    "sha256": "7b1def7bcbce11ae887c18450dfb75a6df3fcd24a2187dd90de40cda2126f607",
+    "author_checkpoint": false
+  },
+  "optimizer_updates": 0,
+  "passed": true,
+  "total_seconds": 3.975950833002571
+}

@@ -1,0 +1,12 @@
+{
+  "GPU_seconds": 0,
+  "device": "cpu",
+  "error": "'past_traj_original_scale'",
+  "formal_training": false,
+  "loss_backward": false,
+  "models": [],
+  "passed": false,
+  "scope": "Original teacher/student backbones, no trained flow/student performance",
+  "seconds": 0.07844920997740701,
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lrj/HTraj/scripts/stage8/probe_moflow_cpu.py\", line 37, in main\n    with torch.no_grad():out,score=teacher(noise,t,data)\n  File \"/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/lrj/HTraj/experiments/stage8/cache/MoFlow/models/backbone_eth_ucy.py\", line 97, in forward\n    encoder_out = self.context_encoder(x_data['past_traj_original_scale'])  # [B, A, D]\nKeyError: 'past_traj_original_scale'\n"
+}

@@ -1,0 +1,8 @@
+sequence,target_windows,person_ids,potentially_ambiguous_target_windows,qualifying_pairs,interpretation
+biwi_eth_val,99,26,13,25,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+crowds_zara01_val,337,22,66,120,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+crowds_zara02_val,1259,40,718,3832,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+crowds_zara03_val,708,27,438,1160,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+students001_val,1887,68,1887,138760,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+students003_val,834,55,745,7667,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"
+uni_examples_val,79,11,2,2,"Descriptive history exposure, no causal/accuracy claim; overlapping windows not independent"

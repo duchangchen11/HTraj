@@ -1,0 +1,4 @@
+model,parameters,source,input,output,training_stages,executed
+Resonance Full,3149192,Instantiated and strict author ZARA2 load,"B,8,2 target; B,N,8,2 relative neighbors","B,20,12,2",1,"GPU original forward/backward, no updates"
+MoFlow teacher A1,4700977,Original CPU backbone instance,"B,1,8,6 context + B,20,1,24 noisy future + flow time","B,20,1,24 + B,20,1 scores",1,CPU backbone forward only; no flow sampler
+MoFlow IMLE student A1,4086320,Original CPU backbone instance,context and latent ensemble,K trajectories; not executed,2,Parameter count only; teacher generation + student training needed

@@ -1,0 +1,143 @@
+{
+  "args_only": [
+    {
+      "args_SHA256": "0721d633512076f6c41fa70d0f777f022d557e931f8c83ca4aa6176e0a7649b7",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/reeth/P8_haar_fixed_p101_epoch143.pt"
+      ],
+      "directory": "reeth",
+      "disable_linear_base": 0,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0001,
+      "model_name": "P8_haar_fixed_p101",
+      "output_pred_steps": "2_5_8_11",
+      "split": "eth"
+    },
+    {
+      "args_SHA256": "9c9aa6d24cdfb529d6d2bc89a8741b301b9a276094dc13059681b8ff5e408f7a",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/rehotel/a4_no-linear-base_no-self-bias_epoch234.pt"
+      ],
+      "directory": "rehotel",
+      "disable_linear_base": 1,
+      "epochs": 300,
+      "learn_re_bias": 1,
+      "learn_self_bias": 0,
+      "lr": 0.0001,
+      "model_name": "a4_no-linear-base_no-self-bias",
+      "output_pred_steps": "all",
+      "split": "hotel"
+    },
+    {
+      "args_SHA256": "3fb588664c6b90fa6b345a1b8795c76c2dd066c60d60a4b1168c4cddc8b60265",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/renba50k/no-self-bias_epoch158.pt"
+      ],
+      "directory": "renba50k",
+      "disable_linear_base": 1,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 0,
+      "lr": 0.001,
+      "model_name": "no-self-bias",
+      "output_pred_steps": "0_5_9",
+      "split": "nba50k"
+    },
+    {
+      "args_SHA256": "6f19684c40b3e5517518f74bb730463891d64412d4b07484ef010c52f5ca5ba0",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/renuScenes_ov_v1.0_K10/type_new_no-linear-base_8e-4_epoch177.pt"
+      ],
+      "directory": "renuScenes_ov_v1.0_K10",
+      "disable_linear_base": 1,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0008,
+      "model_name": "type_new_no-linear-base_8e-4",
+      "output_pred_steps": "2_5_8_11",
+      "split": "nuScenes_ov_v1.0"
+    },
+    {
+      "args_SHA256": "94105e6fc2e0ca376a82a0116b5d7507a18ce0e971edfbd4c5b4a4c6364b296e",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/renuScenes_ov_v1.0_K5/K5_epoch163.pt"
+      ],
+      "directory": "renuScenes_ov_v1.0_K5",
+      "disable_linear_base": 1,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0008,
+      "model_name": "K5",
+      "output_pred_steps": "2_5_8_11",
+      "split": "nuScenes_ov_v1.0"
+    },
+    {
+      "args_SHA256": "95ec673d8462a93caec3e1bab425ddfe2da362a90b5e42fbdaf3544458ad8d50",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/resdd/P8_haar_fixed_epoch69.pt"
+      ],
+      "directory": "resdd",
+      "disable_linear_base": 0,
+      "epochs": 300,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0004,
+      "model_name": "P8_haar_fixed",
+      "output_pred_steps": "2_5_8_11",
+      "split": "sdd"
+    },
+    {
+      "args_SHA256": "e69a41eefde0ee90e8a405a04f8bb006d2fc2e89fe4860898d8090d3943c717b",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/reuniv13/P8_haar_fixed_epoch108.pt"
+      ],
+      "directory": "reuniv13",
+      "disable_linear_base": 0,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0001,
+      "model_name": "P8_haar_fixed",
+      "output_pred_steps": "2_5_8_11",
+      "split": "univ13"
+    },
+    {
+      "args_SHA256": "bfbe709a4a577bcb19f6691650765504e087a3c9f0d82d7be358edf17064b6cf",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/rezara1/bias_test_epoch170.pt"
+      ],
+      "directory": "rezara1",
+      "disable_linear_base": 0,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0001,
+      "model_name": "bias_test",
+      "output_pred_steps": "2_5_8_11",
+      "split": "zara1"
+    },
+    {
+      "args_SHA256": "b313ef12fd25c0ed1ea0e2d08ba0165587cca34aa2cab38359f6729fcda2ddda",
+      "checkpoint_paths": [
+        "experiments/stage8/cache/Re_weights/rezara2/P8_haar_fixed_epoch129.pt"
+      ],
+      "directory": "rezara2",
+      "disable_linear_base": 0,
+      "epochs": 200,
+      "learn_re_bias": 1,
+      "learn_self_bias": 1,
+      "lr": 0.0001,
+      "model_name": "P8_haar_fixed",
+      "output_pred_steps": "2_5_8_11",
+      "split": "zara2"
+    }
+  ],
+  "caveat": "rehotel release is no-linear-base/no-self-bias ablation, not Full; no replacement chosen by metric",
+  "score_files_read": false,
+  "strict_loaded_checkpoint": "experiments/stage8/cache/Re_weights/rezara2/P8_haar_fixed_epoch129.pt",
+  "strict_loaded_checkpoint_SHA256": "57b93ae4ade55291d4e84aa0506a5ce22f2c87a31831ed1f9401f6f5f5406f3c"
+}

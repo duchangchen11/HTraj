@@ -1,0 +1,22 @@
+{
+  "AgentFormer": "Retain reproduced benchmark, no more innovation modifications",
+  "candidate_mechanism": "Unimplemented joint geometry-spectral crossmoment in original aggregation; standard bilinear/DeepSets/GNN connections make novelty insufficient",
+  "decision": "NO-GO",
+  "exact_research_problem": "Resonance within-sector independently averaged position and motion features erase association",
+  "gate_meaning": "False data/control/resource gates mean not fully established in a frozen end-to-end training setup, not proof impossible",
+  "gates": {
+    "fair_controls": false,
+    "hardware_cost": false,
+    "legal_data": false,
+    "mechanism_difference": false,
+    "problem": true,
+    "stop_rule": true
+  },
+  "issue_support": "Architecture identity and synthetic frozen-author-weight witness, plus history-only validation exposure; predictive harm unproven",
+  "no_automatic_push": true,
+  "no_go_reason": "No currently justified distinct algorithm+fair frozen training protocol+measured full training budget; do not equate engineering success to a paper backbone",
+  "no_next_stage": true,
+  "no_third_candidate": true,
+  "no_training": true,
+  "recommended_backbone": null
+}

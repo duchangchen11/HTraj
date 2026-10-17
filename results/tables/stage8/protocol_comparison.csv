@@ -1,0 +1,10 @@
+item,AgentFormer,Resonance,MoFlow
+source,"Frozen74 official17-column files,8recordings",Luna true_pos_.csv -> custom config/annotations; no74-file identity equivalence,SocialGAN/EigenTrajectory original pickle vs LED npy; two versions
+window,"current frame grid, contiguous8+12, includesN1","per-target track start/stop, step/interval; different indices; native partial-neighbor padding","original generator sorts unique frames20 and min_ped1 strict>1, so single-person windows excluded"
+context,"Complete20 valid_id, all legal selected nodes",Visible at current obs; nearest cap; missing prefixes/suffixes padded; not fullfuture-neighbor qualification,"original all_data[:,None] makesA1; LED format needs separate qualification audit"
+split,Separate official train/val/test sequence lists,Luna get_splits val=test; UNIV13 groupsuniv+univ3,train/test-only loading by main scripts; trainer val_loader defaults test_loader
+ETH sampling,Frozen official ETH file grid/scale2; outputmetres,"Author eth raw6frames, otherclips10; eth10 alternative; native declared0.4 not cohort equality",Chooseoriginal/LED explicitly; normalization fromtrain; no alignment by name alone
+UNIV,students001+students003 target-count weighted,univ13 combinesuniv/univ3; exact ID/frame map unverified,raw/original/LED files need explicit source mapping and count check
+K20,DLow20 mean=True latent heads,K1 repeats x Kc20 learned styles with random self/re-bias noise,"20 correlated flow queries, teacher multistep or separately trained one-step student"
+metrics,"minADE20/minFDE20 independently, targetweighted then5foldmacro","ADE_2D min acrossK, FDE ownlaststep; cohort differs",separate minADE/minFDE over20; end4.8s; cohort differs
+current strict comparability,"Retained reproduced reference, oldtestnotusedselection",NO direct ranking against AgentFormer,NO direct ranking against AgentFormer/Re

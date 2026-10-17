@@ -1,0 +1,40 @@
+{
+  "GPU_budget_seconds": 7200,
+  "MoFlow_GPU_seconds": 0,
+  "MoFlow_default": {
+    "student_epochs": 150,
+    "teacher_epochs": 150,
+    "teacher_sample_generation": "Additional multistep train-pool offline generation;100step README example"
+  },
+  "Resonance_author_probe_seconds": 0.874757377023343,
+  "Resonance_original_probe_seconds": 3.975950833002571,
+  "available_ZARA2_weight_args": {
+    "batch_size": 1000,
+    "epochs": 200,
+    "lr": 0.0001
+  },
+  "combined_recorded_probe_wall_seconds": 4.850708210025914,
+  "formal_epochs": 0,
+  "full_training_feasibility": "Not measured for either new candidate; no false claim originalbatch1000 full200epochs verified",
+  "max_tested_context": 42,
+  "max_tested_target_batch": 42,
+  "original_paper_Resonance": {
+    "batch_size": 1000,
+    "device": "RTX3090",
+    "epochs": 200,
+    "lr": 0.0003
+  },
+  "peak_allocated_bytes": 93730304,
+  "planning_only": {
+    "caveat": "Assumed step times, not measurements; validation/checkpoint/IObudget extra; full1000batch and epochnot run",
+    "hours_if_step_seconds": {
+      "0.1": 1.288888888888889,
+      "0.5": 6.444444444444445,
+      "1.0": 12.88888888888889
+    },
+    "reference": "ExistingofficialHOTELtraincohort; not nativeLuna pooledatasetcount",
+    "reference_train_targets": 29676,
+    "updates_200ep_batch128": 46400
+  },
+  "wall_scope": "IncludesCPU scan/setup, excludes process import/launch and earlier failedimport; not CUDAkernel time or throughput benchmark"
+}

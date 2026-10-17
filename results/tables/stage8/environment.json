@@ -1,0 +1,23 @@
+{
+  "GPU": "RTX3080",
+  "MoFlow_declared": "Python3.11,torch2.0.1,numpy2.2.4 plus accelerate/EMA/tensorboardX; exact full trainer environment not installed",
+  "MoFlow_probe_dependencies": "easydict1.13 reused from existing frozen compatibility path; no trainer imported",
+  "Resonance_declared": "Python3.10,torch2.0.0,numpy1.26",
+  "author_requirements_exact": false,
+  "driver": "570.133.07",
+  "execution_venv": "experiments/stage8/cache/venv",
+  "frozen_dependency_path": "experiments/stage4/venv/lib/python3.10/site-packages",
+  "isolation": "Separate venv and execution workspace; existing dependency tree imported read-only, no old environment packages installed/updated",
+  "nvidia_smi_memory_MiB": 10240,
+  "packages": {
+    "PyYAML": "6.0.2",
+    "einops": "0.8.1",
+    "numpy": "1.26.4",
+    "opencv-python": "4.10.0.84",
+    "scipy": "1.14.1",
+    "tensorboard": "2.18.0",
+    "torch": "2.5.1+cu124"
+  },
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "torch_visible_memory_bytes": 10366025728
+}

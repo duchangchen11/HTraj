@@ -1,0 +1,139 @@
+{
+  "group_thresholds": "Same final angular sector of8; absolute radial-distance gap>=0.5m and historical mean velocity-vector gap>=0.3m/s. Fixed before scan. Descriptive exposure only.",
+  "no_test_metrics": true,
+  "protocol": "Existing complete20 qualification; adapter for engineering only, not author-loader reproduction",
+  "rules": "Full8/full12 IDs; every context passed, ego included as author neighbor list permits; no neighbor truncation",
+  "selected": [
+    {
+      "case": "single",
+      "end_frame": 1043,
+      "last_observed_frame": 1031,
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "people": 1,
+      "sequence": "biwi_eth_val",
+      "source_SHA256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "start_frame": 1024,
+      "target_ids": [
+        238
+      ]
+    },
+    {
+      "case": "two",
+      "end_frame": 1148,
+      "last_observed_frame": 1136,
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "people": 2,
+      "sequence": "biwi_eth_val",
+      "source_SHA256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "start_frame": 1129,
+      "target_ids": [
+        328,
+        329
+      ]
+    },
+    {
+      "case": "multiple",
+      "end_frame": 1049,
+      "last_observed_frame": 1037,
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "people": 5,
+      "sequence": "biwi_eth_val",
+      "source_SHA256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "start_frame": 1030,
+      "target_ids": [
+        263,
+        264,
+        265,
+        267,
+        268
+      ]
+    },
+    {
+      "case": "maximum_validation_context",
+      "end_frame": 378,
+      "last_observed_frame": 366,
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_val.txt",
+      "people": 42,
+      "sequence": "students001_val",
+      "source_SHA256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "start_frame": 359,
+      "target_ids": [
+        139,
+        140,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        207,
+        208,
+        209,
+        212,
+        213,
+        214,
+        215,
+        216,
+        218,
+        220,
+        221,
+        223,
+        224,
+        225,
+        269,
+        301,
+        306,
+        307,
+        311,
+        314,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        389,
+        390,
+        396,
+        399,
+        414
+      ]
+    }
+  ],
+  "source": "AgentFormer official HOTEL fold validation only; not HOTEL test recording",
+  "sources": [
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784"
+    },
+    {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023"
+    }
+  ],
+  "target_windows": 5203,
+  "windows": 688
+}

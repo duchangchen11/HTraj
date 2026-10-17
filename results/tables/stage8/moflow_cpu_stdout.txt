@@ -1,0 +1,47 @@
+{
+  "device": "cpu",
+  "GPU_seconds": 0,
+  "formal_training": false,
+  "loss_backward": false,
+  "scope": "Original teacher/student backbones, no trained flow/student performance",
+  "models": [
+    {
+      "agents": 1,
+      "teacher_parameters": 4700977,
+      "student_parameters": 4086320,
+      "teacher_output_shape": [
+        2,
+        20,
+        1,
+        24
+      ],
+      "finite": true,
+      "classification_shape": [
+        2,
+        20,
+        1
+      ]
+    },
+    {
+      "agents": 2,
+      "teacher_parameters": 4701233,
+      "student_parameters": 4086576,
+      "teacher_output_shape": [
+        2,
+        20,
+        2,
+        24
+      ],
+      "finite": true,
+      "classification_shape": [
+        2,
+        20,
+        2
+      ],
+      "synchronized_agent_permutation_max_difference": 0.17398829758167267,
+      "scope_note": "N2 is a synthetic fixed-agent configuration, not proof official original A1 dataset is social"
+    }
+  ],
+  "passed": true,
+  "seconds": 1.2244542769622058
+}

@@ -1,0 +1,46 @@
+{
+  "playground_submodule": "Not initialized; GUI not needed",
+  "repositories": [
+    {
+      "commit": "7358b3d4fd3fcf160c18be9425445a67ee8211ee",
+      "name": "Resonance",
+      "path": "experiments/stage8/cache/Re",
+      "tracked_source_unchanged": true,
+      "url": "https://github.com/cocoon2wong/Re"
+    },
+    {
+      "commit": "c7233b3f7e7305294b1d5644e695b44727ac0bea",
+      "name": "Qpid",
+      "path": "experiments/stage8/cache/Re/qpid",
+      "tracked_source_unchanged": true,
+      "url": "https://github.com/cocoon2wong/Project-Qpid"
+    },
+    {
+      "commit": "b25d44354a75f7652c25c37aa9c16b353578ad79",
+      "name": "Luna",
+      "path": "experiments/stage8/cache/Re/dataset_original",
+      "tracked_source_unchanged": true,
+      "url": "https://github.com/cocoon2wong/Project-Luna"
+    },
+    {
+      "commit": "42d88ba95e45f441f72318d673c5effd5ef356ec",
+      "name": "Resonance author weights",
+      "path": "experiments/stage8/cache/Re_weights",
+      "tracked_source_unchanged": true,
+      "url": "https://github.com/cocoon2wong/Project-Monandaeg/tree/Re"
+    },
+    {
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "name": "MoFlow",
+      "path": "experiments/stage8/cache/MoFlow",
+      "tracked_source_unchanged": true,
+      "url": "https://github.com/DSL-Lab/MoFlow"
+    }
+  ],
+  "source_licences": {
+    "MoFlow": "MIT",
+    "Resonance": "GPL-3.0"
+  },
+  "third_candidate_engineering": false,
+  "third_party_source_and_weights_committed": false
+}
