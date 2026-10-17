@@ -1,0 +1,11 @@
+{
+  "freeze_commit": "fe1dfe0fcd47f60bd6e8e5589d1413ac6a82130a",
+  "git_clean": true,
+  "inputs": {
+    "execution_files": 12,
+    "files": 127,
+    "passed": true
+  },
+  "start_UTC": "2026-10-17T10:50:19Z",
+  "test_evaluation_forbidden": true
+}

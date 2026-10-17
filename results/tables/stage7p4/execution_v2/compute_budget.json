@@ -1,0 +1,53 @@
+{
+  "HOTEL_high_hours": 28.055106060738765,
+  "all_fivefold_periodic_checkpoint_bytes": 4050657133,
+  "caveats": [
+    "Only HOTEL two epochs measured; no fold wall-time equality assumed",
+    "Shape-dependent CUDA allocator, CPU parser, thermal/throttling/background load can alter throughput",
+    "Only epoch1 observed; training convergence/stability at100/50 epochs unverified",
+    "ETH source CVAE original cap32 and additional modules differ; time sensitivity is planning, not confidence interval",
+    "DLow measured using epoch1 CVAE; final trained CVAE may alter numerical behavior and loss convergence",
+    "Original train.py has no validation loop; proposed validation cadence is overhead scenario only"
+  ],
+  "complete_epochs_measured": true,
+  "current_free_bytes": 878223360,
+  "estimates_available": true,
+  "fivefold_high_hours": 129.51579888389452,
+  "fivefold_low_hours": 60.04466239427401,
+  "fivefold_point_hours": 86.03893095374457,
+  "storage_excludes_validation_outputs_and_failure_checkpoints": true,
+  "storage_gate_passed": false,
+  "time_gate_passed": true,
+  "timing_fit": {
+    "CVAE": {
+      "RMSE_seconds": 0.019494835795351943,
+      "interpretation": "Instrumented HOTEL scene-step model, not a trained prediction model; no test ADE/FDE used",
+      "measured_epoch_seconds": 509.88280144898454,
+      "measured_people_range": [
+        1.0,
+        57.0
+      ],
+      "measured_step_sum": 506.1404369455995,
+      "nonnegative_coefficients": [
+        0.14583710080314433,
+        0.0,
+        7.540924356840097e-05
+      ]
+    },
+    "DLow": {
+      "RMSE_seconds": 0.013400447185603093,
+      "interpretation": "Instrumented HOTEL scene-step model, not a trained prediction model; no test ADE/FDE used",
+      "measured_epoch_seconds": 307.3549300620216,
+      "measured_people_range": [
+        1.0,
+        57.0
+      ],
+      "measured_step_sum": 302.99125116475625,
+      "nonnegative_coefficients": [
+        0.07891857685434589,
+        0.00016235771408102065,
+        7.641329171800105e-05
+      ]
+    }
+  }
+}

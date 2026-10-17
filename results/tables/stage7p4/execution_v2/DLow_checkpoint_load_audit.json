@@ -1,0 +1,22 @@
+{
+  "all_paths_within_new_training_workspace": true,
+  "author_or_smoke_weights_loaded": false,
+  "loads": [
+    {
+      "path": "/home/lrj/HTraj/experiments/stage7p4/cache/execution_v2/training_workspace/results/hotel_agentformer_pre/models/model_0001.p",
+      "sha256": "7d770983ff99516edc600d73c771b54c1c9965fbd2a66e01927257071dce39e5"
+    },
+    {
+      "path": "/home/lrj/HTraj/experiments/stage7p4/cache/execution_v2/training_workspace/results/hotel_agentformer_pre/models/model_0001.p",
+      "sha256": "7d770983ff99516edc600d73c771b54c1c9965fbd2a66e01927257071dce39e5"
+    },
+    {
+      "path": "/home/lrj/HTraj/experiments/stage7p4/cache/execution_v2/training_workspace/results/hotel_agentformer/models/model_0001.p",
+      "sha256": "fa5512f051b92eca1a0b3779a96fcd2ad4b4d5f5666b10b2e8bc3052b5ac4c1d"
+    },
+    {
+      "path": "/home/lrj/HTraj/experiments/stage7p4/cache/execution_v2/training_workspace/results/hotel_agentformer_pre/models/model_0001.p",
+      "sha256": "7d770983ff99516edc600d73c771b54c1c9965fbd2a66e01927257071dce39e5"
+    }
+  ]
+}

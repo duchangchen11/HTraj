@@ -1,0 +1,51 @@
+{
+  "actual_sampling": "DLow mean=True K20 learned heads",
+  "candidates_used_for_input": false,
+  "first_head_is_not_mathematical_expectation": true,
+  "fold": "zara2",
+  "interpretation": "K20 oracle and deterministic K1 have different budgets, no equal-budget superiority claim",
+  "metrics_precision": "float64 arithmetic on native float32 predictions/GT, no text rounding",
+  "original_CVAE_SHA256": "e6497fb522960f624b5b6d3ea50fcc8dbf8103e9c4822030c358d8cd10c54fa5",
+  "original_DLow_SHA256": "214717ebb465261a7c3ee09f9a82ee7770add1df45a83b0e0b23e8dbc31577d1",
+  "overall": {
+    "CV-Last2_ADE": 0.5020143576304595,
+    "CV-Last2_FDE": 1.1063733983436441,
+    "CV-OLS4_ADE": 0.54553298643273,
+    "CV-OLS4_FDE": 1.1572516403385331,
+    "CV-OLS8_ADE": 0.6271490466900465,
+    "CV-OLS8_FDE": 1.2727988158620915,
+    "K1_ADE": 0.7012065520810574,
+    "K1_FDE": 1.541768985377126,
+    "endpoint_RMS_m": 1.5122291534612526,
+    "endpoint_pairwise_mean_m": 1.9776027938480396,
+    "fold": "zara2",
+    "group": "all",
+    "group_type": "all",
+    "minADE20": 0.20374165339837336,
+    "minFDE20": 0.3465655048755882,
+    "targets": 4262
+  },
+  "prediction_files": 590,
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 961284608,
+    "peak_reserved_bytes": 5188354048,
+    "seconds": 31.880638731003273,
+    "whole_card_memory_samples": 236,
+    "whole_card_sampled_peak_MiB": 5583,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "source_sequences": [
+    "biwi_eth_val",
+    "biwi_hotel_val",
+    "crowds_zara01_val",
+    "crowds_zara03_val",
+    "students001_val",
+    "students003_val",
+    "uni_examples_val"
+  ],
+  "split": "official validation ONLY",
+  "targets": 4262,
+  "test_split_loaded": false,
+  "windows": 590
+}

@@ -1,0 +1,11 @@
+{
+  "completed": [
+    "official validation: HOTEL and ZARA2",
+    "CVAE",
+    "DLow"
+  ],
+  "engineering_resume_probe_updates": 2,
+  "full_epochs": 2,
+  "success": true,
+  "test_metrics_recomputed": false
+}

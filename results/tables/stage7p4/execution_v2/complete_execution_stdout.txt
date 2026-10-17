@@ -1,0 +1,88 @@
+VALIDATION ONLY hotel 688 valid windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+validation hotel: 100/688 windows
+validation hotel: 200/688 windows
+validation hotel: 300/688 windows
+validation hotel: 400/688 windows
+validation hotel: 500/688 windows
+validation hotel: 600/688 windows
+VALIDATION ONLY zara2 590 valid windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+validation zara2: 100/590 windows
+validation zara2: 200/590 windows
+validation zara2: 300/590 windows
+validation zara2: 400/590 windows
+validation zara2: 500/590 windows
+START ONE FULL CVAE EPOCH
+CVAE: 100/3118 valid updates, last N=22, loss=61.8158
+CVAE: 200/3118 valid updates, last N=3, loss=69.2188
+CVAE: 300/3118 valid updates, last N=1, loss=40.0907
+CVAE: 400/3118 valid updates, last N=19, loss=29.5067
+CVAE: 500/3118 valid updates, last N=1, loss=69.4498
+CVAE: 600/3118 valid updates, last N=1, loss=37.8373
+CVAE: 700/3118 valid updates, last N=3, loss=43.1859
+CVAE: 800/3118 valid updates, last N=6, loss=12.5421
+CVAE: 900/3118 valid updates, last N=6, loss=15.3693
+CVAE: 1000/3118 valid updates, last N=3, loss=31.1177
+CVAE: 1100/3118 valid updates, last N=1, loss=10.2072
+CVAE: 1200/3118 valid updates, last N=2, loss=29.9089
+CVAE: 1300/3118 valid updates, last N=1, loss=4.9354
+CVAE: 1400/3118 valid updates, last N=1, loss=6.8086
+CVAE: 1500/3118 valid updates, last N=2, loss=30.7468
+CVAE: 1600/3118 valid updates, last N=36, loss=7.5963
+CVAE: 1700/3118 valid updates, last N=1, loss=26.2348
+CVAE: 1800/3118 valid updates, last N=5, loss=14.3659
+CVAE: 1900/3118 valid updates, last N=4, loss=5.9036
+CVAE: 2000/3118 valid updates, last N=28, loss=12.8020
+CVAE: 2100/3118 valid updates, last N=2, loss=7.6851
+CVAE: 2200/3118 valid updates, last N=6, loss=5.1503
+CVAE: 2300/3118 valid updates, last N=3, loss=14.9432
+CVAE: 2400/3118 valid updates, last N=9, loss=8.5719
+CVAE: 2500/3118 valid updates, last N=34, loss=9.4492
+CVAE: 2600/3118 valid updates, last N=2, loss=7.1010
+CVAE: 2700/3118 valid updates, last N=37, loss=15.4545
+CVAE: 2800/3118 valid updates, last N=3, loss=76.3183
+CVAE: 2900/3118 valid updates, last N=2, loss=48.0326
+CVAE: 3000/3118 valid updates, last N=7, loss=13.8498
+CVAE: 3100/3118 valid updates, last N=3, loss=14.2032
+COMPLETE CVAE 3118 epoch updates; 509.88280144898454 seconds
+START ONE FULL DLow EPOCH
+loading model from checkpoint: results/hotel_agentformer_pre/models/model_0001.p
+/home/lrj/HTraj/scripts/stage7p4/execute.py:35: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return original_load(path,*args,**kwargs)
+DLow: 100/3118 valid updates, last N=22, loss=50.6878
+DLow: 200/3118 valid updates, last N=3, loss=9.8790
+DLow: 300/3118 valid updates, last N=1, loss=13.5282
+DLow: 400/3118 valid updates, last N=19, loss=30.0671
+DLow: 500/3118 valid updates, last N=1, loss=23.1912
+DLow: 600/3118 valid updates, last N=1, loss=27.7592
+DLow: 700/3118 valid updates, last N=3, loss=22.8417
+DLow: 800/3118 valid updates, last N=6, loss=8.7511
+DLow: 900/3118 valid updates, last N=6, loss=9.2356
+DLow: 1000/3118 valid updates, last N=3, loss=14.4303
+DLow: 1100/3118 valid updates, last N=1, loss=16.7410
+DLow: 1200/3118 valid updates, last N=2, loss=26.4732
+DLow: 1300/3118 valid updates, last N=1, loss=8.7905
+DLow: 1400/3118 valid updates, last N=1, loss=15.8533
+DLow: 1500/3118 valid updates, last N=2, loss=58.2865
+DLow: 1600/3118 valid updates, last N=36, loss=9.6460
+DLow: 1700/3118 valid updates, last N=1, loss=15.6113
+DLow: 1800/3118 valid updates, last N=5, loss=10.7600
+DLow: 1900/3118 valid updates, last N=4, loss=13.2790
+DLow: 2000/3118 valid updates, last N=28, loss=13.1257
+DLow: 2100/3118 valid updates, last N=2, loss=9.5509
+DLow: 2200/3118 valid updates, last N=6, loss=7.8548
+DLow: 2300/3118 valid updates, last N=3, loss=22.6980
+DLow: 2400/3118 valid updates, last N=9, loss=12.0203
+DLow: 2500/3118 valid updates, last N=34, loss=13.4270
+DLow: 2600/3118 valid updates, last N=2, loss=13.0819
+DLow: 2700/3118 valid updates, last N=37, loss=17.0837
+DLow: 2800/3118 valid updates, last N=3, loss=65.5214
+DLow: 2900/3118 valid updates, last N=2, loss=84.4611
+DLow: 3000/3118 valid updates, last N=7, loss=13.6945
+DLow: 3100/3118 valid updates, last N=3, loss=13.2322
+/home/lrj/HTraj/scripts/stage7p4/execute.py:35: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return original_load(path,*args,**kwargs)
+COMPLETE DLow 3118 epoch updates; 307.3549300620216 seconds

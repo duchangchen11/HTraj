@@ -1,0 +1,29 @@
+{
+  "execution_commit": "fe1dfe0fcd47f60bd6e8e5589d1413ac6a82130a",
+  "final_SHA256": {
+    "reports/stage7p4/01_FROZEN_PROTOCOL.md": "65b5efca43f1cc7a743722a7d455b52629749b8acec049c67959c1d0a058f544",
+    "reports/stage7p4/02_VALIDATION_BASELINES.md": "1faee4fe0436718096d40ff862d5956bb72a602b757b35e96e1b66498315e8ce",
+    "reports/stage7p4/03_CVAE_FULL_EPOCH.md": "d2aa008b051e5c72991087928278bafcab219fee37300306f18c2cee5de1ddd3",
+    "reports/stage7p4/04_DLOW_FULL_EPOCH.md": "5883bb315262d8f20089d736910c95f857e2c00bba9aa38e059b0412a06d40c0",
+    "reports/stage7p4/05_COMPUTE_BUDGET.md": "fff28dbba5c923923f3a1abb197f68b0f63545b4848c4a782eb85edd7f5ce656",
+    "reports/stage7p4/06_RESEARCH_DECISION.md": "f17d919a166f8a10a4be52e66713102488a2ba3880251a7ce36d114fb57c0bd8",
+    "reports/stage7p4/STAGE7P4_REPORT.md": "84804a596d21224b4da35e38048f6f57ce53789ea0d3e91dec0fbdcb9a9855cf",
+    "scripts/stage7p4/execute.py": "6f815a091769c5eafd5ddcb6715681d7acf518b4e7b3e0e8dedb152b1664aa67",
+    "scripts/stage7p4/finish.py": "8034ba2889b15e0b7489308dc483ab6f1b7f960107fe9c3c8737aef874cdb697",
+    "scripts/stage7p4/preflight.py": "908557291f1391904de52742705361d8ff7ac2c994fa012cb2ed40b036db70dc",
+    "scripts/stage7p4/prepare.py": "22f8333721522ebf17b3afbe1113c9d8c7c2def8495556a47afdcec72a0d93bc",
+    "scripts/stage7p4/train_epoch.py": "7151b2393d67859623e33d641c9a82e74d47f734b5cc3e3c43443bf3948dd00b",
+    "scripts/stage7p4/validation.py": "369bba8151742cd28fc7db00340db310fe213653b9c965df9a14e56d36765300",
+    "src/agentformer_feasibility/__init__.py": "a08068d56a364e1d5b6450c125b63df444927dee80e2de71d12719db39dfeaab",
+    "src/agentformer_feasibility/common.py": "41cb8dc35220559d8c09f87350dc7b73d05d8ecab25d61389dd44551641ca9d5",
+    "src/agentformer_feasibility/diagnosis.py": "18269f582c6a84028008eebb9f4531e819e7c851add3f68753e73fb28f961820",
+    "tests/test_agentformer_feasibility.py": "b2350a41fb0e9ed942bc870cb944e1364a242a0070bc5d93ad9de2c7db71b2da"
+  },
+  "frozen_execution_inputs": {
+    "execution_files": 12,
+    "files": 127,
+    "passed": true
+  },
+  "official_source_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "phase": "Reports completed after actual measurements; original training source/configs unchanged during execution"
+}

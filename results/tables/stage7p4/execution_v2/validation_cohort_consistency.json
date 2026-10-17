@@ -1,0 +1,8 @@
+{
+  "HOTEL_targets": 5203,
+  "ZARA2_targets": 4262,
+  "all_models_within_each_fold_use_identical_history_GT_and_target_IDs": true,
+  "independent_validation_sets": false,
+  "shared_GT_SHA_exact": true,
+  "shared_target_windows": 3944
+}

@@ -1,0 +1,16 @@
+{
+  "CVAE_frozen_during_DLow": true,
+  "all_checkpoints_verified": true,
+  "engineering_resume_updates": 2,
+  "first_attempt_training_updates": 0,
+  "frozen_inputs": {
+    "execution_files": 12,
+    "files": 127,
+    "passed": true
+  },
+  "full_epoch_updates": 6236,
+  "old_test_metrics_not_recomputed": true,
+  "passed": true,
+  "validation_prediction_files_verified": 1278,
+  "validation_target_windows": 9465
+}

@@ -1,0 +1,1 @@
+FINAL NO-GO engineering epochs/restore: True reasons: ['当前磁盘不足以保留官方五折全部周期checkpoint及128MiB余量，正式训练启动NO-GO；不得删除历史成果解决。'] tests: {'tests': 426, 'failures': 0, 'errors': 0, 'skipped': 0}

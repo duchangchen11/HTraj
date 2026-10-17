@@ -1,0 +1,515 @@
+{
+  "all_arrays_bitwise_equal": true,
+  "first_attempt_training_updates": 0,
+  "max_prediction_difference": 0.0,
+  "model_configuration_changed": false,
+  "records": [
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001031.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001031.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001032.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001032.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001033.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001033.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001034.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001034.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001035.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001035.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001036.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001036.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001037.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001037.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001038.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001038.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001039.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001039.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001040.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001040.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001041.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001041.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001076.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001076.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001092.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001092.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001093.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001093.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001094.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001094.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001095.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001095.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001128.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001128.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001129.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001129.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001135.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001135.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001136.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001136.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001137.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001137.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001138.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001138.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001191.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001191.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001192.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001192.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001195.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001195.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001196.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001196.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001200.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001200.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001201.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001201.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001202.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001202.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001204.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001204.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001205.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001205.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001209.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001209.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001210.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001210.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001211.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001211.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001212.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001212.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001213.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001213.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001214.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001214.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001215.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001215.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001216.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001216.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001217.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001217.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001218.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001218.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001219.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001219.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001220.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001220.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001221.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001221.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001222.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001222.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001223.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001223.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001224.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001224.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001225.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001225.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/biwi_eth_val/frame_001226.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/biwi_eth_val/frame_001226.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000718.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000718.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000737.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000737.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000738.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000738.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000739.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000739.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000740.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000740.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000741.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000741.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000742.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000742.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000743.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000743.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000744.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000744.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000745.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000745.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000746.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000746.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000747.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000747.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000748.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000748.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000749.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000749.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000750.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000750.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000751.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000751.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000752.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000752.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000753.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000753.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000754.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000754.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000755.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000755.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000756.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000756.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000757.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000757.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000758.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000758.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000759.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000759.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000760.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000760.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000761.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000761.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000762.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000762.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000763.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000763.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000764.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000764.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000765.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000765.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000766.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000766.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000767.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000767.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000768.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000768.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000769.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000769.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000770.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000770.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000771.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000771.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000772.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000772.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000773.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000773.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000774.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000774.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000775.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000775.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000776.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000776.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000777.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000777.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000778.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000778.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000779.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000779.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000780.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000780.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000781.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000781.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000782.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000782.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000783.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000783.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000784.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000784.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000785.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000785.npz"
+    },
+    {
+      "arrays_bitwise_equal": true,
+      "new_path": "experiments/stage7p4/cache/execution_v2/validation_predictions/hotel/crowds_zara01_val/frame_000786.npz",
+      "old_path": "experiments/stage7p4/cache/validation_predictions/hotel/crowds_zara01_val/frame_000786.npz"
+    }
+  ],
+  "unchanged_fields": [
+    "history",
+    "truth",
+    "samples",
+    "person_ids"
+  ],
+  "windows": 100
+}

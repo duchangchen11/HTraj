@@ -1,0 +1,17 @@
+{
+  "MKL_NUM_THREADS": "1",
+  "OMP_NUM_THREADS": "1",
+  "cuda": "12.4",
+  "execution_flags_from_frozen_entrypoint": {
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": true,
+    "cudnn_enabled": true,
+    "torch_threads": 1
+  },
+  "numpy": "1.26.4",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.10.21",
+  "scipy": "1.14.1",
+  "source_commit": "fe1dfe0fcd47f60bd6e8e5589d1413ac6a82130a",
+  "torch": "2.5.1+cu124"
+}
