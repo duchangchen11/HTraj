@@ -1,0 +1,2 @@
+# Preserve official YAML byte-for-byte, including upstream trailing blank lines.
+*.yml -whitespace

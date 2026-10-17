@@ -1,0 +1,6 @@
+{
+  "first_attempt": "blocked by git diff --cached --check before git commit was invoked",
+  "reason": "upstream YAML blank lines at EOF",
+  "resolution": "new scoped .gitattributes; original YAML bytes and SHA remain unchanged",
+  "inference_started_before_success": false
+}

@@ -1,0 +1,104 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3080, 10240 MiB, 570.133.07",
+  "cases": [
+    {
+      "candidate_frame_slots": 1142,
+      "exact_CVAE_tensor_equality": true,
+      "fold": "eth",
+      "loader_log": "loading model from checkpoint: results/eth_agentformer_pre/models/model_0030.p\n\n-------------------------- loading test data --------------------------\n\n-------------------------- loading test data --------------------------\nloading sequence biwi_eth ...\nloading sequence biwi_eth ...\ntotal num samples: 1142\ntotal num samples: 1142\n------------------------------ done --------------------------------\n\n------------------------------ done --------------------------------\n\n",
+      "model_parameters_including_unregistered_CVAE": 7089794,
+      "seed": 1,
+      "sequences": [
+        "biwi_eth"
+      ],
+      "strict_CVAE": true,
+      "strict_DLow": true,
+      "test_errors_read": false,
+      "test_predictions": 0,
+      "traj_scale": 2
+    },
+    {
+      "candidate_frame_slots": 1788,
+      "exact_CVAE_tensor_equality": true,
+      "fold": "hotel",
+      "loader_log": "loading model from checkpoint: results/hotel_agentformer_pre/models/model_0050.p\n\n-------------------------- loading test data --------------------------\n\n-------------------------- loading test data --------------------------\nloading sequence biwi_hotel ...\nloading sequence biwi_hotel ...\ntotal num samples: 1788\ntotal num samples: 1788\n------------------------------ done --------------------------------\n\n------------------------------ done --------------------------------\n\n",
+      "model_parameters_including_unregistered_CVAE": 6563970,
+      "seed": 1,
+      "sequences": [
+        "biwi_hotel"
+      ],
+      "strict_CVAE": true,
+      "strict_DLow": true,
+      "test_errors_read": false,
+      "test_predictions": 0,
+      "traj_scale": 1
+    },
+    {
+      "candidate_frame_slots": 947,
+      "exact_CVAE_tensor_equality": true,
+      "fold": "univ",
+      "loader_log": "loading model from checkpoint: results/univ_agentformer_pre/models/model_0070.p\n\n-------------------------- loading test data --------------------------\n\n-------------------------- loading test data --------------------------\nloading sequence students001 ...\nloading sequence students001 ...\nloading sequence students003 ...\nloading sequence students003 ...\ntotal num samples: 947\ntotal num samples: 947\n------------------------------ done --------------------------------\n\n------------------------------ done --------------------------------\n\n",
+      "model_parameters_including_unregistered_CVAE": 6563970,
+      "seed": 1,
+      "sequences": [
+        "students001",
+        "students003"
+      ],
+      "strict_CVAE": true,
+      "strict_DLow": true,
+      "test_errors_read": false,
+      "test_predictions": 0,
+      "traj_scale": 1
+    },
+    {
+      "candidate_frame_slots": 883,
+      "exact_CVAE_tensor_equality": true,
+      "fold": "zara1",
+      "loader_log": "loading model from checkpoint: results/zara1_agentformer_pre/models/model_0100.p\n\n-------------------------- loading test data --------------------------\n\n-------------------------- loading test data --------------------------\nloading sequence crowds_zara01 ...\nloading sequence crowds_zara01 ...\ntotal num samples: 883\ntotal num samples: 883\n------------------------------ done --------------------------------\n\n------------------------------ done --------------------------------\n\n",
+      "model_parameters_including_unregistered_CVAE": 6563970,
+      "seed": 1,
+      "sequences": [
+        "crowds_zara01"
+      ],
+      "strict_CVAE": true,
+      "strict_DLow": true,
+      "test_errors_read": false,
+      "test_predictions": 0,
+      "traj_scale": 1
+    },
+    {
+      "candidate_frame_slots": 1033,
+      "exact_CVAE_tensor_equality": true,
+      "fold": "zara2",
+      "loader_log": "loading model from checkpoint: results/zara2_agentformer_pre/models/model_0070.p\n\n-------------------------- loading test data --------------------------\n\n-------------------------- loading test data --------------------------\nloading sequence crowds_zara02 ...\nloading sequence crowds_zara02 ...\ntotal num samples: 1033\ntotal num samples: 1033\n------------------------------ done --------------------------------\n\n------------------------------ done --------------------------------\n\n",
+      "model_parameters_including_unregistered_CVAE": 6563970,
+      "seed": 1,
+      "sequences": [
+        "crowds_zara02"
+      ],
+      "strict_CVAE": true,
+      "strict_DLow": true,
+      "test_errors_read": false,
+      "test_predictions": 0,
+      "traj_scale": 1
+    }
+  ],
+  "compatibility": "Runtime _LinearWithBias alias and np.int alias only; no source/core changes",
+  "cuda": "12.4",
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": false,
+  "cudnn_version": 90100,
+  "inputs": {
+    "checkpoint_and_config_files": 20,
+    "data_files": 74,
+    "execution_files": 10,
+    "official_source_files": 43,
+    "verified": true
+  },
+  "no_optimizer": true,
+  "no_test_errors": true,
+  "numpy": "1.26.4",
+  "official_source_unchanged": true,
+  "python": "3.10.21",
+  "torch": "2.5.1+cu124"
+}

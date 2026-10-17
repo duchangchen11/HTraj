@@ -1,0 +1,11 @@
+{
+  "free_bytes_before": 1415987200,
+  "prediction_files_expected": 73656,
+  "prediction_rows_expected": 9018504,
+  "conservative_bytes_per_row": 64,
+  "block_slack_bytes_per_file": 4096,
+  "conservative_output_estimate_bytes": 878879232,
+  "reserve_bytes": 134217728,
+  "fits_with_reserve": true,
+  "rule": "Never delete previous checkpoints/data to create space; stop on write failure and preserve outputs"
+}

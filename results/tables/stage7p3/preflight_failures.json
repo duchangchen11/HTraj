@@ -1,0 +1,14 @@
+{
+  "failures": [
+    {
+      "stage": "preflight metadata serialization",
+      "exception": "TypeError: Object of type int64 is not JSON serializable",
+      "log": "results/tables/stage7p3/preflight_execution.txt",
+      "cause": "official loader candidate frame slot count is np.int64",
+      "fix": "cast bookkeeping count to Python int; no official source/model/data/config changes",
+      "test_predictions": 0,
+      "test_errors_read": false
+    }
+  ],
+  "retry": "same original five pairs, no input changes"
+}

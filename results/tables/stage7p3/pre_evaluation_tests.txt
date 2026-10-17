@@ -1,0 +1,3 @@
+............                                                             [100%]
+- generated xml file: /home/lrj/HTraj/results/tables/stage7p3/pre_evaluation_tests.xml -
+12 passed in 0.15s
