@@ -1,0 +1,19 @@
+{
+  "base":"d9bfed15abf32c9004b82bc41862f20f955dd8a2",
+  "model":"Full Resonance; feature128,partitions8,Kc20,Haar/Haar,waypoints2_5_8_11,noise_depth16,move100,K=K_train=1",
+  "models":["A","B","C"],"seed":42,"new_branch_seed":4201,
+  "batch_size":128,"optimizer":"Adam","lr":0.0001,"scheduler":"constant (none)","gradient_clipping":null,
+  "augmentation":"none; original move preprocessing only","loss":"Original Qpid ADE_2D best-of20 mean Euclidean; all full12 labels, unit loss weights",
+  "B":"R_native + sector_mean(Linear128_32_noBias-Tanh-Linear32_128_noBias([ce(d,theta),h]))",
+  "C":"R_native + W(mean(Ug*Vh)-mean(Ug)*mean(Vh)); rank32, all three linear maps bias-free; covariance zero when count<=1",
+  "new_parameter_count_B":8192,"new_parameter_count_C":8192,
+  "candidate_epochs_descending":[200,120,80,40],"timing_updates_per_model":50,
+  "GPU_budget_seconds":43200,"safety_margin_fraction":0.2,
+  "model_selection":"fixed common final epoch only; no validation accuracy until epoch budget committed",
+  "validation_cadence":"final only; train loss curve each epoch; periodic checkpoints every20 epochs and final",
+  "sampler":"identical target permutation from numpy default_rng(9000+epoch), all29676 targets per epoch; batch128 including remainder",
+  "validation_rng":"same sorted target order/batch128; torch seed from SHA256 of batch stable IDs, first8hex, modulo2^31; same seed for A/B/C",
+  "groups":"Stage8 thresholds same sector, external neighbor pair radialgap>=0.5m, historical velocitygap>=0.3m/s",
+  "C_GO":"window and source-person equal ADE lower B by >=max(0.005,1% of B); FDE worsening <=max(0.005,1% of B) under both weights; >=2 sources lower ADE; ambiguity group lower ADE and no other group ADE/FDE worsening >max(0.02m,5% of B group); capacity/data/budget gates pass",
+  "no_test_access":true,"automatic_push":false,"formal_training_authorized":true
+}

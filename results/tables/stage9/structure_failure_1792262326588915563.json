@@ -1,0 +1,4 @@
+{
+  "error": "('B', 1.1920928955078125e-07)",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lrj/HTraj/scripts/stage9/structure.py\", line 72, in <module>\n    try:setup();run()\n  File \"/home/lrj/HTraj/scripts/stage9/structure.py\", line 61, in run\n    d=float((r1-r2).abs().max());assert d<1e-5 if k=='A' else d>1e-5,(k,d)\nAssertionError: ('B', 1.1920928955078125e-07)\n"
+}

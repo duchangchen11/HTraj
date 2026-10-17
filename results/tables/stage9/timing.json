@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "GPU": "NVIDIA GeForce RTX 3080",
+    "cuda": "12.4",
+    "device_memory_bytes": 10366025728,
+    "executable": "/home/lrj/HTraj/experiments/stage8/cache/venv/bin/python",
+    "numpy": "1.26.4",
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124"
+  },
+  "models": [
+    {
+      "P50": 0.06872428947826847,
+      "P90": 0.08487618938670494,
+      "P99": 0.23696105157723593,
+      "allocated": 397172224,
+      "max_context": 57,
+      "mean": 0.07249150532064959,
+      "model": "A",
+      "parameters": 3149192,
+      "reserved": 469762048,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.814140089962166,
+      "updates": 50,
+      "validation_error_computed": false,
+      "validation_forward_seconds_128": 0.01593798497924581
+    },
+    {
+      "P50": 0.07227464797324501,
+      "P90": 0.09386129356571474,
+      "P99": 0.10575599519885144,
+      "allocated": 481440768,
+      "max_context": 57,
+      "mean": 0.07174445543671026,
+      "model": "B",
+      "parameters": 3157384,
+      "reserved": 545259520,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.67153807298746,
+      "updates": 50,
+      "validation_error_computed": false,
+      "validation_forward_seconds_128": 0.016919181973207742
+    },
+    {
+      "P50": 0.07423651148565114,
+      "P90": 0.09272640540148132,
+      "P99": 0.10286987747182139,
+      "allocated": 516586496,
+      "max_context": 57,
+      "mean": 0.0738176136603579,
+      "model": "C",
+      "parameters": 3157384,
+      "reserved": 585105408,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.804476570978295,
+      "updates": 50,
+      "validation_error_computed": false,
+      "validation_forward_seconds_128": 0.01806784200016409
+    }
+  ],
+  "seconds": 15.152774490008596,
+  "validation_accuracy_seen": false,
+  "weights_discarded_for_formal": true
+}

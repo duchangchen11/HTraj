@@ -1,0 +1,44 @@
+{
+  "alternatives": [
+    {
+      "epochs": 200,
+      "fits": true,
+      "io_seconds": 930,
+      "safety_factor": 1.2,
+      "total_projected_seconds": 16259.835062881479,
+      "training_seconds": 12595.924419621007,
+      "validation_seconds": 2.2223445660201833
+    },
+    {
+      "epochs": 120,
+      "fits": true,
+      "io_seconds": 870,
+      "safety_factor": 1.2,
+      "total_projected_seconds": 10141.791393535386,
+      "training_seconds": 7557.554651772604,
+      "validation_seconds": 2.2223445660201833
+    },
+    {
+      "epochs": 80,
+      "fits": true,
+      "io_seconds": 840,
+      "safety_factor": 1.2,
+      "total_projected_seconds": 7082.769586364354,
+      "training_seconds": 5038.369767848402,
+      "validation_seconds": 2.2223445660201833
+    },
+    {
+      "epochs": 40,
+      "fits": true,
+      "io_seconds": 810,
+      "safety_factor": 1.2,
+      "total_projected_seconds": 4023.7477710113044,
+      "training_seconds": 2519.184883924201,
+      "validation_seconds": 2.2223445660201833
+    }
+  ],
+  "chosen_epochs": 200,
+  "method": "50 updates/model; P90 for all future steps +20% safety +explicit I/O/validation reserve; no validation error used",
+  "steps_per_epoch": 232,
+  "total_targets_per_epoch": 29676
+}

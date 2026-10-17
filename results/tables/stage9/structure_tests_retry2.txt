@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage9/structure.py", line 72, in <module>
+    try:setup();run()
+  File "/home/lrj/HTraj/scripts/stage9/structure.py", line 61, in run
+    d=float((r1-r2).abs().max());assert d<1e-5 if k=='A' else d>1e-5,(k,d)
+AssertionError: ('B', 1.1920928955078125e-07)

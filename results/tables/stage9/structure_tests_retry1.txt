@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage9/structure.py", line 72, in <module>
+    try:setup();run()
+  File "/home/lrj/HTraj/scripts/stage9/structure.py", line 35, in run
+    if kind!='A':assert new_grad and all(v>0 and np.isfinite(v) for v in new_grad.values()),new_grad
+AssertionError: {'rc.pos.weight': 0.0, 'rc.motion.weight': 0.0, 'rc.cross.weight': 0.0}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage9/structure.py", line 74, in <module>
+    json_new(OUT/'structure_failure.json',dict(error=str(e),traceback=traceback.format_exc()));raise
+  File "/home/lrj/HTraj/src/socialvae_baseline/artifacts.py", line 12, in json_new
+    with path.open('x',encoding='utf-8') as f:f.write(text)
+  File "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileExistsError: [Errno 17] File exists: '/home/lrj/HTraj/results/tables/stage9/structure_failure.json'

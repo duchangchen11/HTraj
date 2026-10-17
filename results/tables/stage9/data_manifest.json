@@ -1,0 +1,92 @@
+{
+  "eligibility": "Official complete20 IDs as both targets and contexts; all N, ego included in native Re context, padded to57 without truncation; context positions relative to target last history. No future coordinates in model arguments.",
+  "files": {
+    "biwi_eth_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_train.txt",
+      "sha256": "a3e5d7f7c741c4a4cfbd968136cef0b3945580921775c6af90424862bf1a3357",
+      "split": "train"
+    },
+    "biwi_eth_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "split": "val"
+    },
+    "crowds_zara01_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara01_train.txt",
+      "sha256": "63af0422336bcafcbcfb78538fcfb49cd043211f5fe7ac6a21e18a3c245d65a2",
+      "split": "train"
+    },
+    "crowds_zara01_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b",
+      "split": "val"
+    },
+    "crowds_zara02_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara02_train.txt",
+      "sha256": "4f524a0ac447567e942faa21d1aafbf363d12cb1a49fcbd6590035b003b3548a",
+      "split": "train"
+    },
+    "crowds_zara02_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39",
+      "split": "val"
+    },
+    "crowds_zara03_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "split": "train"
+    },
+    "crowds_zara03_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "split": "val"
+    },
+    "students001_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_train.txt",
+      "sha256": "2d4f442346b1c5f62a748a53c20918511faddeed4955ba73a4de95a2e04f0ae1",
+      "split": "train"
+    },
+    "students001_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "split": "val"
+    },
+    "students003_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students003_train.txt",
+      "sha256": "8d36ffdeae8f33e827bbaf4845cd0069e9c26af5057cf9b44ccf4424869ebfa8",
+      "split": "train"
+    },
+    "students003_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784",
+      "split": "val"
+    },
+    "uni_examples_train": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "split": "train"
+    },
+    "uni_examples_val": {
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "split": "val"
+    }
+  },
+  "history_grid": 0.4,
+  "splits": {
+    "train": {
+      "cache_SHA": "fa5f9da2ef7c28eeb40b12f159a82e47249275cd34f44a6517332f651cf53c85",
+      "manifest_SHA": "5d40243e89e2072d7b4d2e292ab69a50e16eab19c2fedf8af4882876e8eadc42",
+      "max_context": 57,
+      "targets": 29676,
+      "windows": 3118
+    },
+    "val": {
+      "cache_SHA": "e48b2a31725d85e68454fe86fd4b910b2ab3356fa11259caebaa481defa36064",
+      "manifest_SHA": "f1d3a1d3f2d8d93347f63281e2f6665fbada2408c448eb678fa52450f58e19ae",
+      "max_context": 42,
+      "targets": 5203,
+      "windows": 688
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "base": "d9bfed15abf32c9004b82bc41862f20f955dd8a2",
+  "environment": {
+    "GPU": "NVIDIA GeForce RTX 3080",
+    "cuda": "12.4",
+    "device_memory_bytes": 10366025728,
+    "executable": "/home/lrj/HTraj/experiments/stage8/cache/venv/bin/python",
+    "numpy": "1.26.4",
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124"
+  },
+  "repositories": [
+    {
+      "commit": "7358b3d4fd3fcf160c18be9425445a67ee8211ee",
+      "path": "experiments/stage8/cache/Re",
+      "status": ""
+    },
+    {
+      "commit": "c7233b3f7e7305294b1d5644e695b44727ac0bea",
+      "path": "experiments/stage8/cache/Re/qpid",
+      "status": ""
+    },
+    {
+      "commit": "b25d44354a75f7652c25c37aa9c16b353578ad79",
+      "path": "experiments/stage8/cache/Re/dataset_original",
+      "status": ""
+    }
+  ]
+}

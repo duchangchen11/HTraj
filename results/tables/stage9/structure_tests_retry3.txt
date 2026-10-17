@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "parameters": {
+    "A": 3149192,
+    "B": 3157384,
+    "C": 3157384
+  },
+  "pairing_witness": [
+    {
+      "model": "A",
+      "aggregation_max_difference": 7.450580596923828e-09,
+      "distinguishes_pairing": false
+    },
+    {
+      "model": "B",
+      "aggregation_max_difference": 0.00012096762657165527,
+      "distinguishes_pairing": true
+    },
+    {
+      "model": "C",
+      "aggregation_max_difference": 0.0006597936153411865,
+      "distinguishes_pairing": true
+    }
+  ]
+}

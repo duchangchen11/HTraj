@@ -1,0 +1,62 @@
+{
+  "chosen_epochs": 200,
+  "timings": [
+    {
+      "model": "A",
+      "parameters": 3149192,
+      "updates": 50,
+      "P50": 0.06872428947826847,
+      "P90": 0.08487618938670494,
+      "P99": 0.23696105157723593,
+      "mean": 0.07249150532064959,
+      "max_context": 57,
+      "validation_forward_seconds_128": 0.01593798497924581,
+      "validation_error_computed": false,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.814140089962166,
+      "allocated": 397172224,
+      "reserved": 469762048
+    },
+    {
+      "model": "B",
+      "parameters": 3157384,
+      "updates": 50,
+      "P50": 0.07227464797324501,
+      "P90": 0.09386129356571474,
+      "P99": 0.10575599519885144,
+      "mean": 0.07174445543671026,
+      "max_context": 57,
+      "validation_forward_seconds_128": 0.016919181973207742,
+      "validation_error_computed": false,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.67153807298746,
+      "allocated": 481440768,
+      "reserved": 545259520
+    },
+    {
+      "model": "C",
+      "parameters": 3157384,
+      "updates": 50,
+      "P50": 0.07423651148565114,
+      "P90": 0.09272640540148132,
+      "P99": 0.10286987747182139,
+      "mean": 0.0738176136603579,
+      "max_context": 57,
+      "validation_forward_seconds_128": 0.01806784200016409,
+      "validation_error_computed": false,
+      "restore_model_optimizer_exact": true,
+      "seconds": 4.804476570978295,
+      "allocated": 516586496,
+      "reserved": 585105408
+    }
+  ],
+  "budget": {
+    "epochs": 200,
+    "training_seconds": 12595.924419621007,
+    "validation_seconds": 2.2223445660201833,
+    "io_seconds": 930,
+    "safety_factor": 1.2,
+    "total_projected_seconds": 16259.835062881479,
+    "fits": true
+  }
+}
