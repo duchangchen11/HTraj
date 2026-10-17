@@ -1,0 +1,10 @@
+loading results from /home/lrj/HTraj/experiments/stage7p2/cache/evaluation_equivalence_v2/samples
+loading GT from datasets/eth_ucy/hotel
+
+
+number of sequences to evaluate is 7
+evaluating seq crowds_zara02_val, forecasting frame 000850 to 000861 ADE: 0.4709 (0.4709) FDE: 1.0578 (1.0578)
+------------------------------ STATS ------------------------------
+10 ADE: 0.4709
+10 FDE: 1.0578
+-------------------------------------------------------------------

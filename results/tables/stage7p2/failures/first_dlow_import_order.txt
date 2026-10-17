@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage7p2/check_weights.py", line 91, in <module>
+    main()
+  File "/home/lrj/HTraj/scripts/stage7p2/check_weights.py", line 21, in main
+    from model.dlow import DLow
+  File "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py", line 8, in <module>
+    from . import model_lib
+  File "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/model_lib.py", line 2, in <module>
+    from model.dlow import DLow
+ImportError: cannot import name 'DLow' from partially initialized module 'model.dlow' (most likely due to a circular import) (/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py)

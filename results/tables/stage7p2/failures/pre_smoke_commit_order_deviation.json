@@ -1,0 +1,833 @@
+{
+  "ETH_test_scores_computed": false,
+  "action": "SIGSTOP own smoke process, normalize only new log terminal whitespace, commit evidence, then SIGCONT same process; no restart, deletion, or budget addition",
+  "completed_cases_before_pause": [
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 99,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "hotel",
+      "last_observed_frame": 87,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 1,
+      "pretrained_initialization": false,
+      "sequence": "biwi_eth_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424479637472,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "fc42e1df6b085e569903a0a6b986532737dafcc5dab95b933543dc3a4a80dad4",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case0_pre/models/model_0001.p",
+          "checkpoint_sha256": "28f1269eec113dfa71df750a9396c80fa13433a178729a460a0711fb47b6397c",
+          "complete_epochs": 0,
+          "gradient_L2": 2581.7847262253413,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 364.3714599609375,
+          "model_context_people": 1,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 166053376,
+            "peak_reserved_bytes": 171966464,
+            "seconds": 1.9453440480283462,
+            "whole_card_memory_samples": 11,
+            "whole_card_sampled_peak_MiB": 804,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 185.02325439453125,
+            "sample": 177.34820556640625
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 185.02325439453125,
+            "sample": 177.34820556640625
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case0_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "28f1269eec113dfa71df750a9396c80fa13433a178729a460a0711fb47b6397c",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_0.pth",
+          "checkpoint_sha256": "6e3d1ab4fe0bc6115b6aac5571120f553faf0a4737cff7a315cb638b181e932b",
+          "complete_epochs": 0,
+          "gradient_L2": 3160.868032773951,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 1095.502197265625,
+          "model_context_people": 1,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 84717056,
+            "peak_reserved_bytes": 90177536,
+            "seconds": 1.5328541669878177,
+            "whole_card_memory_samples": 9,
+            "whole_card_sampled_peak_MiB": 745,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999294281005859,
+            "kld": 209.04087829589844,
+            "recon": 881.4620361328125
+          },
+          "unweighted": {
+            "diverse": 0.9998588562011719,
+            "kld": 2090.40869140625,
+            "recon": 176.2924041748047
+          }
+        }
+      },
+      "start_frame": 80,
+      "target_ids": "[2]"
+    },
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 102,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "hotel",
+      "last_observed_frame": 90,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 2,
+      "pretrained_initialization": false,
+      "sequence": "biwi_eth_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424880975784,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "dcfee01e071a78cebbf68eb4c423aa6675fb0d9fc03df3fb0867c387747ce1df",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case1_pre/models/model_0001.p",
+          "checkpoint_sha256": "84c7ad6a28f893a6293f4bee346900381747563aba6e87b18b3a78402911d9c6",
+          "complete_epochs": 0,
+          "gradient_L2": 2540.311196818936,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 404.93365478515625,
+          "model_context_people": 2,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 169803776,
+            "peak_reserved_bytes": 176160768,
+            "seconds": 1.4434481780044734,
+            "whole_card_memory_samples": 8,
+            "whole_card_sampled_peak_MiB": 809,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 203.59600830078125,
+            "sample": 199.33763122558594
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 203.59600830078125,
+            "sample": 199.33763122558594
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case1_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "84c7ad6a28f893a6293f4bee346900381747563aba6e87b18b3a78402911d9c6",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_1.pth",
+          "checkpoint_sha256": "723849d2bfc85c27eeee9587f061916c83a7567cd949992105a5ab9be6fe36e8",
+          "complete_epochs": 0,
+          "gradient_L2": 1905.0062712667639,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 1164.581298828125,
+          "model_context_people": 2,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 88483840,
+            "peak_reserved_bytes": 98566144,
+            "seconds": 1.46630308998283,
+            "whole_card_memory_samples": 8,
+            "whole_card_sampled_peak_MiB": 753,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999298095703125,
+            "kld": 208.46678161621094,
+            "recon": 951.115234375
+          },
+          "unweighted": {
+            "diverse": 0.999859631061554,
+            "kld": 2084.667724609375,
+            "recon": 190.22305297851562
+          }
+        }
+      },
+      "start_frame": 83,
+      "target_ids": "[2, 3]"
+    },
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 19,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "hotel",
+      "last_observed_frame": 7,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 57,
+      "pretrained_initialization": false,
+      "sequence": "students001_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424483055144,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "36d8d06ffc09d01c7374b3d055931b47dd236618a2e19775035c0920d1e519da",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case2_pre/models/model_0001.p",
+          "checkpoint_sha256": "73fe15cebc43d47849d49c8d8680c19b3759e15ca7f6a674a03fadde7293c2d7",
+          "complete_epochs": 0,
+          "gradient_L2": 479.57034178920424,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 80.19882202148438,
+          "model_context_people": 57,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 6404441088,
+            "peak_reserved_bytes": 9567207424,
+            "seconds": 2.152258690970484,
+            "whole_card_memory_samples": 14,
+            "whole_card_sampled_peak_MiB": 9744,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 40.971866607666016,
+            "sample": 37.22695541381836
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 40.971866607666016,
+            "sample": 37.22695541381836
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_hotel_case2_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "73fe15cebc43d47849d49c8d8680c19b3759e15ca7f6a674a03fadde7293c2d7",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_2.pth",
+          "checkpoint_sha256": "99280f8502e3cc29b453917defede103b4ebd7271f41e1782893a7bfc79b16bd",
+          "complete_epochs": 0,
+          "gradient_L2": 543.3818386214708,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara02_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4349\n------------------------------ done --------------------------------\n\n",
+          "loss": 403.5085144042969,
+          "model_context_people": 57,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4349,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 3913573376,
+            "peak_reserved_bytes": 9527361536,
+            "seconds": 2.130945425014943,
+            "whole_card_memory_samples": 14,
+            "whole_card_sampled_peak_MiB": 6598,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999233245849609,
+            "kld": 208.22666931152344,
+            "recon": 190.28260803222656
+          },
+          "unweighted": {
+            "diverse": 0.9998466968536377,
+            "kld": 2082.2666015625,
+            "recon": 38.056522369384766
+          }
+        }
+      },
+      "start_frame": 0,
+      "target_ids": "[1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 54, 55, 56, 59, 60, 61, 62, 63, 64, 65, 66, 82, 83, 401, 402]"
+    },
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 99,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "zara2",
+      "last_observed_frame": 87,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 1,
+      "pretrained_initialization": false,
+      "sequence": "biwi_eth_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424479637472,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "fc42e1df6b085e569903a0a6b986532737dafcc5dab95b933543dc3a4a80dad4",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case3_pre/models/model_0001.p",
+          "checkpoint_sha256": "28f1269eec113dfa71df750a9396c80fa13433a178729a460a0711fb47b6397c",
+          "complete_epochs": 0,
+          "gradient_L2": 2581.7847262253413,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 364.3714599609375,
+          "model_context_people": 1,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 166053376,
+            "peak_reserved_bytes": 171966464,
+            "seconds": 1.4034108439809643,
+            "whole_card_memory_samples": 8,
+            "whole_card_sampled_peak_MiB": 806,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 185.02325439453125,
+            "sample": 177.34820556640625
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 185.02325439453125,
+            "sample": 177.34820556640625
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case3_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "28f1269eec113dfa71df750a9396c80fa13433a178729a460a0711fb47b6397c",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_3.pth",
+          "checkpoint_sha256": "49125ab2eeebbf054b58738e1487b34057c5d3dd8b8de4e27c77e4608f218e37",
+          "complete_epochs": 0,
+          "gradient_L2": 3160.868032773951,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 1095.502197265625,
+          "model_context_people": 1,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 84717056,
+            "peak_reserved_bytes": 90177536,
+            "seconds": 1.3758674369892105,
+            "whole_card_memory_samples": 9,
+            "whole_card_sampled_peak_MiB": 745,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999294281005859,
+            "kld": 209.04087829589844,
+            "recon": 881.4620361328125
+          },
+          "unweighted": {
+            "diverse": 0.9998588562011719,
+            "kld": 2090.40869140625,
+            "recon": 176.2924041748047
+          }
+        }
+      },
+      "start_frame": 80,
+      "target_ids": "[2]"
+    },
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 102,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "zara2",
+      "last_observed_frame": 90,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 2,
+      "pretrained_initialization": false,
+      "sequence": "biwi_eth_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424880975784,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "dcfee01e071a78cebbf68eb4c423aa6675fb0d9fc03df3fb0867c387747ce1df",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case4_pre/models/model_0001.p",
+          "checkpoint_sha256": "84c7ad6a28f893a6293f4bee346900381747563aba6e87b18b3a78402911d9c6",
+          "complete_epochs": 0,
+          "gradient_L2": 2540.311196818936,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 404.93365478515625,
+          "model_context_people": 2,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 169803776,
+            "peak_reserved_bytes": 176160768,
+            "seconds": 1.3612408699700609,
+            "whole_card_memory_samples": 8,
+            "whole_card_sampled_peak_MiB": 818,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 203.59600830078125,
+            "sample": 199.33763122558594
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 203.59600830078125,
+            "sample": 199.33763122558594
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case4_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "84c7ad6a28f893a6293f4bee346900381747563aba6e87b18b3a78402911d9c6",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_4.pth",
+          "checkpoint_sha256": "1345f03d927ffceefe1a108ebf2be606a6585cd67d12d81edea1b885d57000a4",
+          "complete_epochs": 0,
+          "gradient_L2": 1905.0062712667639,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 1164.581298828125,
+          "model_context_people": 2,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 88483840,
+            "peak_reserved_bytes": 98566144,
+            "seconds": 1.4267523679882288,
+            "whole_card_memory_samples": 9,
+            "whole_card_sampled_peak_MiB": 749,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999298095703125,
+            "kld": 208.46678161621094,
+            "recon": 951.115234375
+          },
+          "unweighted": {
+            "diverse": 0.999859631061554,
+            "kld": 2084.667724609375,
+            "recon": 190.22305297851562
+          }
+        }
+      },
+      "start_frame": 83,
+      "target_ids": "[2, 3]"
+    },
+    {
+      "complete_epochs": 0,
+      "context_truncated": false,
+      "end_frame": 19,
+      "execution_commit": "c28350f2e4eb78c6128f1c08410baabbcb48803f",
+      "fold": "zara2",
+      "last_observed_frame": 7,
+      "optimizer_updates": 2,
+      "passed": true,
+      "people": 57,
+      "pretrained_initialization": false,
+      "sequence": "students001_train",
+      "stages": {
+        "CVAE": {
+          "after_state": {
+            "parameter_L2": 301.8424483055144,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.000100016593933,
+            "parameter_state_sha256": "36d8d06ffc09d01c7374b3d055931b47dd236618a2e19775035c0920d1e519da",
+            "parameters_finite": true
+          },
+          "before_state": {
+            "parameter_L2": 301.8423971676194,
+            "parameter_count": 5972098,
+            "parameter_max_abs": 1.0,
+            "parameter_state_sha256": "8b9cfef6fc821e459abf43d0379d6ebef0cfc3ec82950092899365cf09701b54",
+            "parameters_finite": true
+          },
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case5_pre/models/model_0001.p",
+          "checkpoint_sha256": "73fe15cebc43d47849d49c8d8680c19b3759e15ca7f6a674a03fadde7293c2d7",
+          "complete_epochs": 0,
+          "gradient_L2": 479.57034178920424,
+          "gradient_parameters": 5972098,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 80.19882202148438,
+          "model_context_people": 57,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 6404441088,
+            "peak_reserved_bytes": 9567207424,
+            "seconds": 2.1623712590080686,
+            "whole_card_memory_samples": 13,
+            "whole_card_sampled_peak_MiB": 7538,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "restored_optimizer_state_entries": 134,
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 10,
+            "verbose": false
+          },
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "kld": 2.0,
+            "mse": 40.971866607666016,
+            "sample": 37.22695541381836
+          },
+          "unweighted": {
+            "kld": 2.0,
+            "mse": 40.971866607666016,
+            "sample": 37.22695541381836
+          }
+        },
+        "DLow": {
+          "base_CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/results/stage7p2_zara2_case5_pre/models/model_0001.p",
+          "base_CVAE_checkpoint_sha256": "73fe15cebc43d47849d49c8d8680c19b3759e15ca7f6a674a03fadde7293c2d7",
+          "base_CVAE_parameters_unchanged": true,
+          "checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/smoke_workspace/dlow_case_5.pth",
+          "checkpoint_sha256": "08b32d5bc2ef45e6a2f08ec0053205754bfe548207584509fdef16c10b0eeb01",
+          "complete_epochs": 0,
+          "gradient_L2": 543.3818386214708,
+          "gradient_parameters": 591872,
+          "gradients_finite": true,
+          "loader_log": "\n-------------------------- loading train data --------------------------\nloading sequence biwi_eth_train ...\nloading sequence biwi_hotel_train ...\nloading sequence crowds_zara01_train ...\nloading sequence crowds_zara03_train ...\nloading sequence students001_train ...\nloading sequence students003_train ...\nloading sequence uni_examples_train ...\ntotal num samples: 4948\n------------------------------ done --------------------------------\n\n",
+          "loss": 403.5085144042969,
+          "model_context_people": 57,
+          "optimizer_updates": 1,
+          "original_candidate_frame_slots": 4948,
+          "original_train_function_SHA256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853",
+          "prediction_restore_max_difference": 0.0,
+          "processed_frame_slots": 1,
+          "registered_parameters": 591872,
+          "resource": {
+            "OOM": false,
+            "peak_allocated_bytes": 3913573376,
+            "peak_reserved_bytes": 9527361536,
+            "seconds": 2.0705362840089947,
+            "whole_card_memory_samples": 13,
+            "whole_card_sampled_peak_MiB": 9191,
+            "whole_card_sampling_interval_seconds": 0.1
+          },
+          "scheduler_state": {
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+              0.0001
+            ],
+            "_step_count": 2,
+            "base_lrs": [
+              0.0001
+            ],
+            "gamma": 0.5,
+            "last_epoch": 1,
+            "step_size": 5,
+            "verbose": false
+          },
+          "separate_CVAE_parameters": 5972098,
+          "strict_model_optimizer_scheduler_restore": true,
+          "terms": {
+            "diverse": 4.999233245849609,
+            "kld": 208.22666931152344,
+            "recon": 190.28260803222656
+          },
+          "unweighted": {
+            "diverse": 0.9998466968536377,
+            "kld": 2082.2666015625,
+            "recon": 38.056522369384766
+          }
+        }
+      },
+      "start_frame": 0,
+      "target_ids": "[1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 54, 55, 56, 59, 60, 61, 62, 63, 64, 65, 66, 82, 83, 401, 402]"
+    }
+  ],
+  "formal_epochs": 0,
+  "invalid_claim_to_avoid": "Do not claim complete protocol+evaluation evidence was committed before every engineering update",
+  "reason": "Pre-smoke complete-data/evaluator commit blocked by trailing blank lines in newly generated loader logs; engineering smoke was started before checking that commit result. Initial benchmark protocol c28350f WAS committed, but full evidence commit WAS NOT.",
+  "underlying_model_data_and_evaluation_rules_unchanged": true,
+  "utc": "2026-10-17T07:08:44.195968+00:00"
+}

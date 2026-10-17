@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage7p2/check_evaluation.py", line 118, in <module>
+    main()
+  File "/home/lrj/HTraj/scripts/stage7p2/check_evaluation.py", line 101, in main
+    assert weighted == expected
+AssertionError

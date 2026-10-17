@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage7p2/audit_data.py", line 109, in <module>
+    main()
+  File "/home/lrj/HTraj/scripts/stage7p2/audit_data.py", line 43, in main
+    rows.append(dict(fold=key[0], sequence=key[1], **w, target_ids=json.dumps(w['target_ids'])))
+TypeError: dict() got multiple values for keyword argument 'target_ids'

@@ -1,0 +1,14 @@
+{
+  "DLow_base": "Independent one-update engineering CVAE checkpoint per case; not a trained official epoch",
+  "ETH_test_scores_computed": false,
+  "case_count": 6,
+  "case_inventory": "results/tables/stage7p2/official_data_audit.json",
+  "complete_epochs": 0,
+  "max_optimizer_updates": 12,
+  "no_context_truncation": true,
+  "official_train_function": true,
+  "original_Adam_and_losses": true,
+  "pretrained_initialization": false,
+  "seed": 17,
+  "stop_on_first_smoke_failure": true
+}

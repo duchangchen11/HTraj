@@ -1,0 +1,27 @@
+{
+  "academic_MCP_available": false,
+  "metadata_route": "Author arXiv pages and repository/paper primary sources; no institutional login needed",
+  "papers": [
+    {
+      "model": "PECNet",
+      "url": "https://arxiv.org/pdf/2004.02025v3",
+      "path": "experiments/stage7p2/cache/papers/PECNet.pdf",
+      "sha256": "c696d567844358b8e568630d913e0fb79f204704d3ec9db7412385e13c7d5cb5",
+      "status": "open_access_downloaded"
+    },
+    {
+      "model": "SGCN",
+      "url": "https://arxiv.org/pdf/2104.01528v1",
+      "path": "experiments/stage7p2/cache/papers/SGCN.pdf",
+      "sha256": "5f72756b9d67ac6d820a18308b04a416b249894990b8f982b5ed2ab764225e03",
+      "status": "open_access_downloaded"
+    },
+    {
+      "model": "SocialSTGCNN",
+      "url": "https://arxiv.org/pdf/2002.11927",
+      "path": "experiments/stage7p2/cache/papers/SocialSTGCNN.pdf",
+      "sha256": "5b8cf9c0e5d8153ee165c736bd75486faa34944996d20502995c1f806e50416b",
+      "status": "open_access_downloaded"
+    }
+  ]
+}

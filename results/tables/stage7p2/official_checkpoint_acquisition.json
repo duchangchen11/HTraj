@@ -1,0 +1,110 @@
+{
+  "Baidu_alternate": "Author README provides a public alternative; not used when Drive succeeds; no account credentials requested",
+  "author_public_url": "https://drive.google.com/uc?export=download&id=1-pJrGPCcbaiCpENss5jYzRF_ZFJncFJB",
+  "available": true,
+  "download_steps": [
+    {
+      "bytes": 2470,
+      "content_type": "text/html; charset=utf-8",
+      "endpoint": 1,
+      "html_title": "Google Drive - Virus scan warning",
+      "status": 200
+    },
+    {
+      "archive": "experiments/stage7p2/cache/pretrained/agentformer_models.zip",
+      "bytes": 517512541,
+      "content_type": "application/octet-stream",
+      "endpoint": 2,
+      "sha256": "f192aa9596c25ec115dbf646f96a03f5b17e2c969016cd1b9c7e753db30941f0",
+      "status": 200
+    }
+  ],
+  "files": [
+    {
+      "archive_path": "results/nuscenes_5sample_agentformer/models/model_0035.p",
+      "bytes": 4150151,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/nuscenes_5sample_agentformer/models/model_0035.p",
+      "sha256": "0790e292383e2e5343341d3bbe7eb6c61ad0c6e17f9cfb6437edf3a8404848dd"
+    },
+    {
+      "archive_path": "results/zara2_agentformer/models/model_0025.p",
+      "bytes": 7110791,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer/models/model_0025.p",
+      "sha256": "214717ebb465261a7c3ee09f9a82ee7770add1df45a83b0e0b23e8dbc31577d1"
+    },
+    {
+      "archive_path": "results/eth_agentformer/models/model_0005.p",
+      "bytes": 7110791,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/eth_agentformer/models/model_0005.p",
+      "sha256": "1c6b2b01ec236863e44798a65d6c1ba137712695b914fbf1bdc9d8cf100fae79"
+    },
+    {
+      "archive_path": "results/hotel_agentformer_pre/models/model_0050.p",
+      "bytes": 72421676,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer_pre/models/model_0050.p",
+      "sha256": "d30954995ec972843b85a58418dfca62f1e27fceb583ae70502cad14c2ca5a99"
+    },
+    {
+      "archive_path": "results/zara1_agentformer/models/model_0040.p",
+      "bytes": 7110791,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara1_agentformer/models/model_0040.p",
+      "sha256": "c3619e1ebb44e6af9098e3c1b57a1843de56b93e810c279cad0179ce608a4103"
+    },
+    {
+      "archive_path": "results/eth_agentformer_pre/models/model_0030.p",
+      "bytes": 78740036,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/eth_agentformer_pre/models/model_0030.p",
+      "sha256": "a9a08412034c62d4521c763f28e57c07e471b3a7a41c9f54bfecd2e44c122fa0"
+    },
+    {
+      "archive_path": "results/hotel_agentformer/models/model_0050.p",
+      "bytes": 7110791,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer/models/model_0050.p",
+      "sha256": "537edd5ca1b8149bdbf786ecedb7bb0c01dfa3da6c0a6456b4d77949022da715"
+    },
+    {
+      "archive_path": "results/zara1_agentformer_pre/models/model_0100.p",
+      "bytes": 72421676,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara1_agentformer_pre/models/model_0100.p",
+      "sha256": "775d7663cb9f663fa3937effe91896042e671a21b74bce1b5f223245ab8403f1"
+    },
+    {
+      "archive_path": "results/nuscenes_5sample_agentformer_pre/models/model_0100.p",
+      "bytes": 76650982,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/nuscenes_5sample_agentformer_pre/models/model_0100.p",
+      "sha256": "7cb1cb4f2af5a9655b7ad76cee5c8f020c0376bbb31fac2a1cf54e26f6d85501"
+    },
+    {
+      "archive_path": "results/univ_agentformer/models/model_0015.p",
+      "bytes": 7110791,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/univ_agentformer/models/model_0015.p",
+      "sha256": "09d2bd05cb3f018ed09d58a061ca26bb38cc98fcf6ad135e8c975014e2f7e2d7"
+    },
+    {
+      "archive_path": "results/nuscenes_10sample_agentformer_pre/models/model_0090.p",
+      "bytes": 76650982,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/nuscenes_10sample_agentformer_pre/models/model_0090.p",
+      "sha256": "f99b11c39bb5126599c9893da0183a98898229bf695eece5835101f24a3f8fd6"
+    },
+    {
+      "archive_path": "results/zara2_agentformer_pre/models/model_0070.p",
+      "bytes": 72421676,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer_pre/models/model_0070.p",
+      "sha256": "e6497fb522960f624b5b6d3ea50fcc8dbf8103e9c4822030c358d8cd10c54fa5"
+    },
+    {
+      "archive_path": "results/nuscenes_10sample_agentformer/models/model_0015.p",
+      "bytes": 5137031,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/nuscenes_10sample_agentformer/models/model_0015.p",
+      "sha256": "744d1b491246b7b7822f85a8b533a950211b797233c482edcac1ec00e8a05ab4"
+    },
+    {
+      "archive_path": "results/univ_agentformer_pre/models/model_0070.p",
+      "bytes": 72421676,
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/univ_agentformer_pre/models/model_0070.p",
+      "sha256": "615fa6a407e76ec1e5d99c69599478ba4907e061994ea6e7c4477623856b487d"
+    }
+  ],
+  "no_evaluation_performed": true,
+  "seconds": 145.96744242997374
+}

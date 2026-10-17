@@ -1,0 +1,23 @@
+{
+  "ETH_test_scores_computed": false,
+  "GT_reconstruction_directory_excluded": true,
+  "candidates": 20,
+  "evaluator_SHA256": "d70fb55a3c7d8ead593fdd2663da0ff46a66bfc3dd116f71c2aedfb9f4af6a27",
+  "five_fold_aggregation": "Unweighted mean of five scene metrics, not pooled target mean",
+  "future_model_scoring_started": false,
+  "independent_ADE_FDE_winners_verified": true,
+  "official_eval_CLI_passed": true,
+  "official_original_cli_returncode": 0,
+  "official_serializer_and_real_GT_alignment": true,
+  "only_samples_evaluated": true,
+  "original_eval_formulas_equal": true,
+  "people": 10,
+  "real_engineering_sequence": "crowds_zara02_val",
+  "serialization_rounding_error_m": 7.2768622498387e-05,
+  "serializer_source_SHA256": "acdbd9b3d3d867e555416457893ccc3f0d665e8ec4e0dea6eb5ff0a7e2792685",
+  "source_SHA256": "05da7f939a4884bdcf6e98f86f3f6a661c82c8e92de9ca0d93b65d9916a0525e",
+  "synthetic_ADE_winner": 0,
+  "synthetic_FDE_winner": 1,
+  "trajectories_are": "CV plus fixed offsets, evaluator engineering check only; not model benchmark scores",
+  "unit": "target-window, target-weighted within fold; UNIV two sequences pooled by target count"
+}

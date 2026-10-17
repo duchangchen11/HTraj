@@ -1,0 +1,6 @@
+
+-------------------------- loading test data --------------------------
+loading sequence students001 ...
+loading sequence students003 ...
+total num samples: 947
+------------------------------ done --------------------------------
