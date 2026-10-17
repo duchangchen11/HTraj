@@ -1,0 +1,57 @@
+{
+  "GO": "Concrete supported issue + distinct mathematical idea + legal train/validation + fair controls + feasible hardware/budget + explicit failure rule; otherwise NO-GO",
+  "GPU_budget_seconds": 7200,
+  "K": 20,
+  "automatic_push": false,
+  "base_commit": "28a1c50482802ab0ea55a791b22cba56a8e5a6a4",
+  "branch": "feat/stage8-topic-and-backbone-selection",
+  "candidate_order": [
+    "cocoon2wong/Re",
+    "DSL-Lab/MoFlow"
+  ],
+  "engineering_gate": "Inspect protocol and specific falsifiable structural issue first; if neither problem nor fair protocol can be specified stop GPU probes",
+  "formal_training": false,
+  "hardware": "RTX3080 10GiB",
+  "historical_AgentFormer_route": "Terminated; existing author-checkpoint reproduction retained as benchmark",
+  "limits": "No third candidate, no new formal epoch, no test-driven hyperparameter changes, no truncation to hideOOM",
+  "literature": "Primary paper methods and fixed author source; lack of full text stays unverified",
+  "literature_only_comparators": [
+    "AgentFormer",
+    "TUTR",
+    "SocialCircle",
+    "Inter-GraphFormer",
+    "direct recent related work"
+  ],
+  "maximum_candidate_models": 2,
+  "new_modules": false,
+  "no_checkpoint_selection_by_test": true,
+  "permitted_probes": "Frozen original source; CPU structure/count; at most small synthetic/official train-or-validation forwards, original finite loss and one backward/update/checkpoint probe; not epochs",
+  "prediction_SHA_indices": [
+    {
+      "path": "results/tables/stage7p3/eth_prediction_file_SHA256.csv.gz",
+      "sha256": "85b082e2214ffbd6879608fead011871facbaae1e1605f10b3bf552f636f5740"
+    },
+    {
+      "path": "results/tables/stage7p3/hotel_prediction_file_SHA256.csv.gz",
+      "sha256": "03c62a58d8228757ab6aef2984ded4381228ddcd30ac87ff969307ddae9c68ca"
+    },
+    {
+      "path": "results/tables/stage7p3/univ_prediction_file_SHA256.csv.gz",
+      "sha256": "c339863e4fed4649e9221607bef3212d37f9934141ad605dea87aa5e13f46b41"
+    },
+    {
+      "path": "results/tables/stage7p3/zara1_prediction_file_SHA256.csv.gz",
+      "sha256": "327889c7d749955399479815e85ff5604705693efc092846515491ea5bdd7ef9"
+    },
+    {
+      "path": "results/tables/stage7p3/zara2_prediction_file_SHA256.csv.gz",
+      "sha256": "d79621f5661170f173e310375ed0c7aaa024bf1534abe9ec4ea1c618fcca4d25"
+    }
+  ],
+  "probe_seed": 17,
+  "protection_index": "configs/stage8/protected_files.csv.gz",
+  "protection_index_SHA256": "3699e8f131fa306a2d38e0b1c7118034851ab00713fbf7537ccb5a2b38ca22fc",
+  "standard_protocol": "Fivefold ETH/UCY,8/12,0.4s,metres,minADE20/minFDE20 independently; different cohorts never ranked",
+  "test_metrics_access": false,
+  "test_set_reevaluation": false
+}
