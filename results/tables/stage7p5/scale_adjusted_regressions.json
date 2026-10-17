@@ -1,0 +1,186 @@
+{
+  "hotel": {
+    "ADE_oracle_ADE": {
+      "coefficients": [
+        -2.4228936328565704,
+        0.3819526947667399,
+        0.517493775192298,
+        0.3748411855254012,
+        1.0889914750761354,
+        -0.2732648413653874,
+        -0.2754083772949209,
+        -0.10894139238307021,
+        0.07994551935669592,
+        0.22693347179576093,
+        -0.5980571855791227
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "crowds_zara01_val",
+        "crowds_zara02_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    },
+    "all_heads_ADE": {
+      "coefficients": [
+        -0.22812717247963532,
+        0.19446499712058624,
+        0.06101112940309005,
+        -0.05193086890021679,
+        0.6418908334223435,
+        -0.3581731394579307,
+        -0.21599728376567223,
+        -0.18678437750961147,
+        -0.05491040759825705,
+        0.00933774831873825,
+        -0.36192940339535495
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "crowds_zara01_val",
+        "crowds_zara02_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    },
+    "head0_ADE": {
+      "coefficients": [
+        -0.04809313496899383,
+        0.14324862641734154,
+        -0.2963026171461182,
+        -0.45112748687736276,
+        -0.018011605184684643,
+        0.33507890725061307,
+        0.16661839101050568,
+        0.18071224198157207,
+        0.5051092243641074,
+        0.430272564770196,
+        0.35728911179751394
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "crowds_zara01_val",
+        "crowds_zara02_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    }
+  },
+  "zara2": {
+    "ADE_oracle_ADE": {
+      "coefficients": [
+        -2.3448110754066787,
+        0.3165044342682004,
+        0.3653337567517166,
+        0.31774805421209473,
+        1.2414280321075433,
+        -0.074176808026519,
+        -0.20245069617923558,
+        -0.020502004144424726,
+        0.12850322442655152,
+        0.26358214411642067,
+        -0.5326517470459483
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "biwi_hotel_val",
+        "crowds_zara01_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    },
+    "all_heads_ADE": {
+      "coefficients": [
+        -0.4454944589467848,
+        0.22108646969487328,
+        0.13171374413050493,
+        0.060454468471320875,
+        0.7612885826392654,
+        0.001560219874421677,
+        -0.3569016080905556,
+        -0.16093141509148623,
+        0.029496174989192388,
+        0.05101403032349327,
+        -0.3456027527362508
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "biwi_hotel_val",
+        "crowds_zara01_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    },
+    "head0_ADE": {
+      "coefficients": [
+        -0.8241143008944964,
+        0.1605921744413203,
+        0.051490114963022186,
+        -0.013721104560875982,
+        0.6641590222250112,
+        0.36300931975250933,
+        -0.25689967036599176,
+        0.02793320064496698,
+        0.3273117839092461,
+        0.319670531916302,
+        -0.5305045111806845
+      ],
+      "interpretation": "Descriptive scale adjustment; future path is outcome-scale covariate, not an input/group. Sparse high-speed actors and exposed data limit conclusions",
+      "names": [
+        "intercept",
+        "log_GT_path_floor0.5",
+        "low_vs_stationary",
+        "normal_vs_stationary",
+        "fast_vs_stationary",
+        "biwi_hotel_val",
+        "crowds_zara01_val",
+        "crowds_zara03_val",
+        "students001_val",
+        "students003_val",
+        "uni_examples_val"
+      ],
+      "rank": 11
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "download_manifest.json": [
+    {
+      "name": "agentformer_pdf",
+      "url": "https://arxiv.org/pdf/2103.14023v3",
+      "resolved_url": "https://arxiv.org/pdf/2103.14023v3",
+      "status": "open_access_downloaded",
+      "path": "experiments/stage7p5/cache/literature/agentformer_pdf.pdf",
+      "sha256": "d1745893802cf8a353caf00c92239e8379c37a4908af657bdfb17b7d39a87541",
+      "bytes": 5324842,
+      "text_extraction_exit": 0,
+      "si_status": "not_requested"
+    },
+    {
+      "name": "tutr_pdf",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Trajectory_Unified_Transformer_for_Pedestrian_Trajectory_Prediction_ICCV_2023_paper.pdf",
+      "resolved_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Trajectory_Unified_Transformer_for_Pedestrian_Trajectory_Prediction_ICCV_2023_paper.pdf",
+      "status": "open_access_downloaded",
+      "path": "experiments/stage7p5/cache/literature/tutr_pdf.pdf",
+      "sha256": "e03647daf7353c3f9c5fb415c071154a66b4337c1c08703cbfae2c73e99b7a9a",
+      "bytes": 1512722,
+      "text_extraction_exit": 0,
+      "si_status": "not_requested"
+    },
+    {
+      "name": "moflow_pdf",
+      "url": "https://arxiv.org/pdf/2503.09950v2",
+      "resolved_url": "https://arxiv.org/pdf/2503.09950v2",
+      "status": "open_access_downloaded",
+      "path": "experiments/stage7p5/cache/literature/moflow_pdf.pdf",
+      "sha256": "626acce2eeeb5621d76cd61c29cb56d2ee1721e4882651239edd31b0c5cc9742",
+      "bytes": 10214287,
+      "text_extraction_exit": 0,
+      "si_status": "not_requested"
+    },
+    {
+      "name": "joint_metrics_pdf",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Weng_Joint_Metrics_Matter_A_Better_Standard_for_Trajectory_Forecasting_ICCV_2023_paper.pdf",
+      "resolved_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Weng_Joint_Metrics_Matter_A_Better_Standard_for_Trajectory_Forecasting_ICCV_2023_paper.pdf",
+      "status": "open_access_downloaded",
+      "path": "experiments/stage7p5/cache/literature/joint_metrics_pdf.pdf",
+      "sha256": "dbe673cc21fd911f4fdb7535a378f42943584eecf0e4c35ec0c470953c9fddc6",
+      "bytes": 1969094,
+      "text_extraction_exit": 0,
+      "si_status": "not_requested"
+    }
+  ],
+  "extra_download_manifest.json": [
+    {
+      "name": "socialcircle_pdf",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wong_SocialCircle_Learning_the_Angle-based_Social_Interaction_Representation_for_Pedestrian_Trajectory_CVPR_2024_paper.pdf",
+      "status": "open_access_downloaded",
+      "sha256": "0da8bbc1ecfad4f9d4092be3ffc15be3dd414f5c73c42780f9298c74d9c6c380",
+      "bytes": 4549656,
+      "si_status": "not_requested"
+    },
+    {
+      "name": "perreg_pdf",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Messaoud_Towards_Generalizable_Trajectory_Prediction_using_Dual-Level_Representation_Learning_and_Adaptive_CVPR_2025_paper.pdf",
+      "status": "open_access_downloaded",
+      "sha256": "df0665b82d58cabf38bd069df89cb09f8837822edfa91a4b075130c0b0620e01",
+      "bytes": 890451,
+      "si_status": "not_requested"
+    }
+  ],
+  "repository_manifest.json": [
+    {
+      "repo": "lssiair/TUTR",
+      "status": "unavailable",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "XiaodZhao/SocialTrans",
+      "status": "unavailable",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "status": "unavailable",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "ericaweng/joint-metrics-matter",
+      "status": "unavailable",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ],
+  "git_repository_manifest.json": [
+    {
+      "repo": "lssiair/TUTR",
+      "status": "git_HEAD_frozen",
+      "commit": "655a756af8e961598a1a22a07cb48eb8534c722a",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/lssiair/TUTR/655a756af8e961598a1a22a07cb48eb8534c722a/README.md",
+          "sha256": "d211100567d3037f3df2ed4220252adb5dd9f115ea684528481e44bba0209027"
+        },
+        {
+          "path": "model.py",
+          "url": "https://raw.githubusercontent.com/lssiair/TUTR/655a756af8e961598a1a22a07cb48eb8534c722a/model.py",
+          "sha256": "00cd5640c8344d9bf3f5fa605d09d62f39a091d70824a3a753e4b448b439c8f1"
+        },
+        {
+          "path": "train.py",
+          "url": "https://raw.githubusercontent.com/lssiair/TUTR/655a756af8e961598a1a22a07cb48eb8534c722a/train.py",
+          "sha256": "087ddc08d56986cdb60fdff69ee80badba6a662d398fbe30607d41804bc7eff2"
+        },
+        {
+          "path": "utils.py",
+          "url": "https://raw.githubusercontent.com/lssiair/TUTR/655a756af8e961598a1a22a07cb48eb8534c722a/utils.py",
+          "sha256": "944996575f15f222091c62a7e1ed85268a4e1f0ecea7b830fc449586114f8d2c"
+        }
+      ]
+    },
+    {
+      "repo": "XiaodZhao/SocialTrans",
+      "status": "git_unavailable",
+      "stderr": "fatal: could not read Username for 'https://github.com': No such device or address\n"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "status": "git_HEAD_frozen",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/README.md",
+          "sha256": "095ca457bb2ce17ff3955e55f6a44dc52903d7e6f1ac686b5b83a7f3b2c03ff4"
+        },
+        {
+          "path": "model.py",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "train.py",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "utils.py",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "repo": "ericaweng/joint-metrics-matter",
+      "status": "git_HEAD_frozen",
+      "commit": "894182b5ea7dac3c93bbe0bcc18c156c932398b7",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ericaweng/joint-metrics-matter/894182b5ea7dac3c93bbe0bcc18c156c932398b7/README.md",
+          "sha256": "2b86c7a98ad9d76590e8f846f6f5919ed00a029468421f002cee881aeb64c0fc"
+        },
+        {
+          "path": "model.py",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "train.py",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "utils.py",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    }
+  ],
+  "crossref_manifest.json": [
+    {
+      "doi": "10.1016/j.physa.2025.130435",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1145)>"
+    },
+    {
+      "doi": "10.1016/j.physa.2026.131566",
+      "path": "experiments/stage7p5/cache/literature/crossref_131566.json",
+      "sha256": "605aa6418d1a6bcc1f8bdec9af7c0c92f75a3319d63926264423c82bc09773b2",
+      "title": [
+        "Inter-GraphFormer: A spatial–temporal graph transformer-based method for pedestrian trajectory prediction"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "links": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S037843712600302X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S037843712600302X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ],
+  "moflow_source_manifest.json": [
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "file": "models/backbone_eth_ucy.py",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/models/backbone_eth_ucy.py",
+      "sha256": "5887235073a5fce2ec2d73c370c94ef89272d0ba44cdebfb5f99fabf0661badf"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "file": "models/context_encoder/eth_encoder.py",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/models/context_encoder/eth_encoder.py",
+      "sha256": "0f9cdce87052a72bbe775dc444aa9e956c581b169c9b8e205d823a433109a3e8"
+    },
+    {
+      "file": "models/flow_matching.py",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/models/flow_matching.py",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1145)>"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "file": "eval_eth.py",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/eval_eth.py",
+      "sha256": "1a83897b29282a466c5805b3c28942e820811f7be0ed57e772525b076b0c9ec1"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "file": "fm_eth.py",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/fm_eth.py",
+      "sha256": "a1e109734784fe4e31da3fc1263c1722668d0cca94b0b8872d27021fbc8f3163"
+    },
+    {
+      "repo": "DSL-Lab/MoFlow",
+      "commit": "f1b89b0e80ce95646214923e271e3c280d305cfa",
+      "file": "cfg/eth_ucy/cor_fm.yml",
+      "url": "https://raw.githubusercontent.com/DSL-Lab/MoFlow/f1b89b0e80ce95646214923e271e3c280d305cfa/cfg/eth_ucy/cor_fm.yml",
+      "sha256": "f3f906581129a6bb794de4b446280a2eff187104f77fda79ceb8a4229a5b97a7"
+    }
+  ],
+  "inter_graphformer_fulltext_attempt.json": {
+    "url": "https://api.elsevier.com/content/article/PII:S037843712600302X?httpAccept=text/plain",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "search_log": {
+    "date": "2026-10-17",
+    "academic_MCP": "not mounted",
+    "queries": [
+      "TUTR trajectory prediction ICCV2023 official",
+      "SocialTrans pedestrian trajectory prediction 2025",
+      "MoFlow CVPR2025 trajectory prediction",
+      "Inter-GraphFormer 2026 trajectory prediction",
+      "AgentFormer DLow candidate redundancy 2024 2025",
+      "pedestrian trajectory multimodal diversity",
+      "SocialCircle CVPR2024 velocity distance direction",
+      "Towards Generalizable Trajectory Prediction CVPR2025"
+    ],
+    "deduplication": "Canonical paper title + DOI/arXiv identifier; excluded same-named molecular MoFlow and unrelated SocialCircle products",
+    "OpenAlex_stderr": "ERROR: OpenAlex returned HTTP 429: Too Many Requests (429 = rate-limited; retry later or lower --limit)\n",
+    "initial_fallback_failure": "System python3.8 cannot interpret list[dict] in skill helper; switched to isolated Python3.10; helper then reached OpenAlex and received429",
+    "OpenReview_pdf": "Browser verification challenge; no automated retry/bypass",
+    "publisher_pages": "ScienceDirect full pages403; indexed publisher method/experiment previews available",
+    "CVF_pdf": "web extraction sometimes403, public direct PDF fetch successful for TUTR/JointMetrics/SocialCircle/PerReg+",
+    "unverified_fulltext": [
+      "SocialTrans",
+      "Inter-GraphFormer"
+    ],
+    "no_claim_exhaustive": true,
+    "SocialCircle_git_HEAD": "383ff0671f011806a8da9422d4a3839206847b82"
+  }
+}

@@ -27,7 +27,7 @@ def readcsv(p):
 def summarize(rows, keys=None):
     if not rows: return dict(target_windows=0,persons=0,recordings=0)
     if keys is None:
-        keys=[k for k,v in rows[0].items() if isinstance(v,(float,int,np.floating)) and k not in ('frame','person_id','context_people')]
+        keys=sorted({k for r in rows for k,v in r.items() if isinstance(v,(float,int,np.floating))}-{ 'frame','person_id','context_people'})
     groups=collections.defaultdict(list)
     for r in rows:groups[(r['sequence'],r['person_id'])].append(r)
     result=dict(target_windows=len(rows),persons=len(groups),recordings=len({r['sequence'] for r in rows}),window={},person_equal={},valid_counts={})

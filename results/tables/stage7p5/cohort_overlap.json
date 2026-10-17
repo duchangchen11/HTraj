@@ -1,0 +1,203 @@
+{
+  "all_shared_history_GT_equal": true,
+  "fast_persons": {
+    "hotel": [
+      [
+        "biwi_eth_val",
+        257
+      ],
+      [
+        "biwi_eth_val",
+        258
+      ],
+      [
+        "biwi_eth_val",
+        259
+      ],
+      [
+        "biwi_eth_val",
+        260
+      ],
+      [
+        "biwi_eth_val",
+        261
+      ],
+      [
+        "biwi_eth_val",
+        263
+      ],
+      [
+        "biwi_eth_val",
+        264
+      ],
+      [
+        "biwi_eth_val",
+        265
+      ],
+      [
+        "biwi_eth_val",
+        267
+      ],
+      [
+        "biwi_eth_val",
+        268
+      ],
+      [
+        "biwi_eth_val",
+        303
+      ],
+      [
+        "biwi_eth_val",
+        327
+      ],
+      [
+        "biwi_eth_val",
+        328
+      ],
+      [
+        "biwi_eth_val",
+        329
+      ],
+      [
+        "biwi_eth_val",
+        331
+      ],
+      [
+        "biwi_eth_val",
+        342
+      ],
+      [
+        "biwi_eth_val",
+        348
+      ],
+      [
+        "biwi_eth_val",
+        350
+      ],
+      [
+        "biwi_eth_val",
+        353
+      ],
+      [
+        "biwi_eth_val",
+        355
+      ],
+      [
+        "biwi_eth_val",
+        359
+      ]
+    ],
+    "zara2": [
+      [
+        "biwi_eth_val",
+        257
+      ],
+      [
+        "biwi_eth_val",
+        258
+      ],
+      [
+        "biwi_eth_val",
+        259
+      ],
+      [
+        "biwi_eth_val",
+        260
+      ],
+      [
+        "biwi_eth_val",
+        261
+      ],
+      [
+        "biwi_eth_val",
+        263
+      ],
+      [
+        "biwi_eth_val",
+        264
+      ],
+      [
+        "biwi_eth_val",
+        265
+      ],
+      [
+        "biwi_eth_val",
+        267
+      ],
+      [
+        "biwi_eth_val",
+        268
+      ],
+      [
+        "biwi_eth_val",
+        303
+      ],
+      [
+        "biwi_eth_val",
+        327
+      ],
+      [
+        "biwi_eth_val",
+        328
+      ],
+      [
+        "biwi_eth_val",
+        329
+      ],
+      [
+        "biwi_eth_val",
+        331
+      ],
+      [
+        "biwi_eth_val",
+        342
+      ],
+      [
+        "biwi_eth_val",
+        348
+      ],
+      [
+        "biwi_eth_val",
+        350
+      ],
+      [
+        "biwi_eth_val",
+        353
+      ],
+      [
+        "biwi_eth_val",
+        355
+      ],
+      [
+        "biwi_eth_val",
+        359
+      ]
+    ]
+  },
+  "independent_folds": false,
+  "shared_target_windows": 3944,
+  "source_counts": {
+    "hotel": {
+      "biwi_eth_val": 99,
+      "crowds_zara01_val": 337,
+      "crowds_zara02_val": 1259,
+      "crowds_zara03_val": 708,
+      "students001_val": 1887,
+      "students003_val": 834,
+      "uni_examples_val": 79
+    },
+    "zara2": {
+      "biwi_eth_val": 99,
+      "biwi_hotel_val": 318,
+      "crowds_zara01_val": 337,
+      "crowds_zara03_val": 708,
+      "students001_val": 1887,
+      "students003_val": 834,
+      "uni_examples_val": 79
+    }
+  },
+  "unique_source_persons": {
+    "hotel": 249,
+    "zara2": 237
+  }
+}

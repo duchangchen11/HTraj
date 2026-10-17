@@ -58,3 +58,18 @@ def test_social_grouping_cannot_read_future():
 def test_nonfinite_or_incomplete_rejected():
     with pytest.raises(ValueError): motion_metrics(np.zeros((7,2)),np.zeros((12,2)),np.zeros((12,2)))
     with pytest.raises(ValueError): motion_metrics(np.zeros((8,2)),np.full((12,2),np.nan),np.zeros((12,2)))
+
+
+def test_nullable_outcomes_and_categorical_csv(tmp_path,monkeypatch):
+    from pathlib import Path
+    monkeypatch.syspath_prepend(str(Path(__file__).resolve().parents[1]/'scripts'))
+    from stage7p5_analyze import summarize
+    from stage7p5_complete_statistics import read
+    from src.socialvae_causal.io import csv_new
+    rows=[dict(sequence='example_val',person_id=1,density_group='0',angle=None),
+          dict(sequence='example_val',person_id=2,density_group='1-3',angle=.2)]
+    assert summarize(rows)['valid_counts']['angle']==1
+    path=tmp_path/'mixed.csv.gz';csv_new(path,rows)
+    loaded=read(path)
+    assert loaded[0]['density_group']=='0'
+    assert loaded[1]['angle']==.2

@@ -1,0 +1,17 @@
+{
+  "values": {
+    "window": {
+      "ADE_oracle_ADE": 0.19733586034703052,
+      "FDE_oracle_FDE": 0.33816378907008693,
+      "ADE_oracle_speed_bias_mps": -0.021746772200580966,
+      "all_heads_speed_bias_mps": 0.009249495257306752
+    },
+    "person_equal": {
+      "ADE_oracle_ADE": 0.2792818592378342,
+      "FDE_oracle_FDE": 0.516333833138832,
+      "ADE_oracle_speed_bias_mps": -0.05118354075891522,
+      "all_heads_speed_bias_mps": -0.14765579148489855
+    }
+  },
+  "warning": "Two overlapping validation weight-folds; descriptive macro only, not two independent replications"
+}

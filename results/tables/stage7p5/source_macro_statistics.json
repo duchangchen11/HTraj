@@ -1,0 +1,14 @@
+{
+  "hotel": {
+    "ADE_oracle_ADE": 0.21699426055211088,
+    "ADE_oracle_speed_bias_mps": -0.03552853450854975,
+    "FDE_oracle_FDE": 0.39816893293236694,
+    "all_heads_speed_bias_mps": -0.08514267064680021
+  },
+  "zara2": {
+    "ADE_oracle_ADE": 0.21664403754126874,
+    "ADE_oracle_speed_bias_mps": -0.03578530902809649,
+    "FDE_oracle_FDE": 0.38250779009169505,
+    "all_heads_speed_bias_mps": -0.07720021032258251
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "failure": "Generic CSV numeric inference converted density label 0 into a number, while other density labels remained strings; mixed-type mean rejected",
+  "stage": "supplementary nullable-field aggregation, before producing supplementary results",
+  "repair": "Explicit categorical schema; initial nullable-field aggregator also changed to collect numeric keys across all rows",
+  "original_target_metrics_unchanged": true,
+  "model_protocol_and_group_thresholds_unchanged": true
+}

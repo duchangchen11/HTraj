@@ -1,0 +1,780 @@
+{
+  "base_commit": "50cbb13b8f2d4eff84eccf4c25025398b4ef3ed2",
+  "analysis_execution_commit": "350acebcab569d68d93cda00ee638195152c52bd",
+  "frozen_protocol_commit": "034727969d0892632889bf5e038c0fac5f892d53",
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "author_pairs": [
+    {
+      "CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer_pre/models/model_0050.p",
+      "CVAE_checkpoint_index": 50,
+      "CVAE_config": "hotel_agentformer_pre",
+      "CVAE_config_sha256": "2a36b3b4e43a9246199d5ac4771da97f8496f43d083a70756b047695bcb4f228",
+      "CVAE_parameters": 5972098,
+      "CVAE_sha256": "d30954995ec972843b85a58418dfca62f1e27fceb583ae70502cad14c2ca5a99",
+      "CVAE_state_keys": 137,
+      "DLow_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer/models/model_0050.p",
+      "DLow_checkpoint_index": 50,
+      "DLow_config": "hotel_agentformer",
+      "DLow_config_sha256": "4d0f341b686dec24123dd9eceb1cd98ea47de96d9207479f7eadf3b24705cfbe",
+      "DLow_registered_parameters": 591872,
+      "DLow_sha256": "537edd5ca1b8149bdbf786ecedb7bb0c01dfa3da6c0a6456b4d77949022da715",
+      "DLow_state_keys": 8,
+      "ETH_evaluated": false,
+      "both_parts_required": true,
+      "constructor_log": "loading model from checkpoint: results/hotel_agentformer_pre/models/model_0050.p\n",
+      "fold": "hotel",
+      "full_parameters_including_external_CVAE": 6563970,
+      "strict": true,
+      "wrapped_CVAE_is_not_in_DLow_state_dict": true
+    },
+    {
+      "CVAE_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer_pre/models/model_0070.p",
+      "CVAE_checkpoint_index": 70,
+      "CVAE_config": "zara2_agentformer_pre",
+      "CVAE_config_sha256": "3c5681eb7528366a8261fb6bbd195afad6edb1d6f76e673d9ced026a4b2e0bcd",
+      "CVAE_parameters": 5972098,
+      "CVAE_sha256": "e6497fb522960f624b5b6d3ea50fcc8dbf8103e9c4822030c358d8cd10c54fa5",
+      "CVAE_state_keys": 137,
+      "DLow_checkpoint": "/home/lrj/HTraj/experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer/models/model_0025.p",
+      "DLow_checkpoint_index": 25,
+      "DLow_config": "zara2_agentformer",
+      "DLow_config_sha256": "085e327b0c4fb2f6883006f1ba08eb3a17e8d06fdb2f8ac66ed0b2b753d0f5b6",
+      "DLow_registered_parameters": 591872,
+      "DLow_sha256": "214717ebb465261a7c3ee09f9a82ee7770add1df45a83b0e0b23e8dbc31577d1",
+      "DLow_state_keys": 8,
+      "ETH_evaluated": false,
+      "both_parts_required": true,
+      "constructor_log": "loading model from checkpoint: results/zara2_agentformer_pre/models/model_0070.p\n",
+      "fold": "zara2",
+      "full_parameters_including_external_CVAE": 6563970,
+      "strict": true,
+      "wrapped_CVAE_is_not_in_DLow_state_dict": true
+    }
+  ],
+  "frozen_data_and_model_files": [
+    {
+      "git_blob": "8e4d6fac1b9f1fb73f701f7bd1d3d3777e4e2339",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/LICENSE",
+      "sha256": "808d71e8d18819253c49327df4a323bc90bd79555a26659931286cab2783211d"
+    },
+    {
+      "git_blob": "c7fff3f74ea07fab58cdeae49b9666a8bb3bbe74",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/README.md",
+      "sha256": "ad32f7cf59f6387f8189738942c77812c7071b73f65816c5399bb96253a4c62e"
+    },
+    {
+      "git_blob": "27a75c7c83eee7d7477a5786cd39491e80fc5b61",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/eth/eth_agentformer.yml",
+      "sha256": "c7fc1445366080b0be1790ed43e416f38b295b5843ced16a7fa59eda21270784"
+    },
+    {
+      "git_blob": "8b929d3b5640c826300145975e9c17032e7832fd",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/eth/eth_agentformer_pre.yml",
+      "sha256": "6ed9658281306148bd87feaa2129b6a676ec6ff360bf1517cca7378a9dc45002"
+    },
+    {
+      "git_blob": "27a75c7c83eee7d7477a5786cd39491e80fc5b61",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/eth/user_eth_agentformer.yml",
+      "sha256": "c7fc1445366080b0be1790ed43e416f38b295b5843ced16a7fa59eda21270784"
+    },
+    {
+      "git_blob": "8b929d3b5640c826300145975e9c17032e7832fd",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/eth/user_eth_agentformer_pre.yml",
+      "sha256": "6ed9658281306148bd87feaa2129b6a676ec6ff360bf1517cca7378a9dc45002"
+    },
+    {
+      "git_blob": "02902361c5f9cbae6d054e8a3ed885118deffd0e",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/hotel/hotel_agentformer.yml",
+      "sha256": "4d0f341b686dec24123dd9eceb1cd98ea47de96d9207479f7eadf3b24705cfbe"
+    },
+    {
+      "git_blob": "f29f2544c2b8a195f137e091b63fa958500b9b7b",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/hotel/hotel_agentformer_pre.yml",
+      "sha256": "2a36b3b4e43a9246199d5ac4771da97f8496f43d083a70756b047695bcb4f228"
+    },
+    {
+      "git_blob": "de28b88fd032a1095e880220be66e2706bff3be9",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/univ/univ_agentformer.yml",
+      "sha256": "54102ed160c89b4d5e14ed9d3e319e6adfbc5590f62f85ce5dbe4bfdf0d5d318"
+    },
+    {
+      "git_blob": "a7d4981fdbb9ae4992273a211edab4fe9db42b04",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/univ/univ_agentformer_pre.yml",
+      "sha256": "27bf18f25471119cd2b848cbb2829e3d08e2df56a314bcb79fb1115096da278e"
+    },
+    {
+      "git_blob": "a334a7796866dacd43165a2fedf506f15ac66e4a",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/zara1/zara1_agentformer.yml",
+      "sha256": "2210c0fa699035c1e2f60b52f1bd209180e9a60c06dd4796749e1ed0e8479e14"
+    },
+    {
+      "git_blob": "3c1b0188ef893a804e2b9cef39b1cf871ef5ff27",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/zara1/zara1_agentformer_pre.yml",
+      "sha256": "4aaca6572e8938d942be9a0508514e3e03e89399ce4408e6c969c14bc0dda4dc"
+    },
+    {
+      "git_blob": "65159d6c811efc95f03c764e1ff56493f4172da9",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/zara2/zara2_agentformer.yml",
+      "sha256": "085e327b0c4fb2f6883006f1ba08eb3a17e8d06fdb2f8ac66ed0b2b753d0f5b6"
+    },
+    {
+      "git_blob": "7dd7d8730b677294ff7f9f3026e9e5cb514fbb06",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/eth_ucy/zara2/zara2_agentformer_pre.yml",
+      "sha256": "3c5681eb7528366a8261fb6bbd195afad6edb1d6f76e673d9ced026a4b2e0bcd"
+    },
+    {
+      "git_blob": "d34f456492a3cfda4305050fa2274310d7a5c704",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/10_sample/nuscenes_10sample_agentformer_pre.yml",
+      "sha256": "8ae01792fa4792a218dde2f91446d16475c037354b30ffbbe07a8710bd476f2f"
+    },
+    {
+      "git_blob": "f9e94891d1781ec258ca305e49b33b828d604f01",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/5_sample/nuscenes_5sample_agentformer.yml",
+      "sha256": "d783a9613bcf4f89634042ef6bbdfd578f218394e344d0959906898ab0abb228"
+    },
+    {
+      "git_blob": "0c83ded98852e2fc5d9ccd4cc4c53cc2c487e720",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/5_sample/nuscenes_5sample_agentformer_pre.yml",
+      "sha256": "6d1a858ea3f4368d6ad3da2954571d81fbf1c08131dcc6e723ae95e9e75e2e5b"
+    },
+    {
+      "git_blob": "1a0447be555c9e9e0210ad4bb9d6ca860feaaa4c",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/convert_ethucy.py",
+      "sha256": "fef2949804ed67bc3bd175cb9742021469d7667cd2144499fe6acd84fc32f717"
+    },
+    {
+      "git_blob": "6d04a65f0ab46d469cd6e362e00a3c3c8f312be9",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/ethucy_split.py",
+      "sha256": "d8afd937c7f9b7f47a61223c8906d578a3b50b0593c000793f255e8a8f0265f4"
+    },
+    {
+      "git_blob": "fe8bb3b211820523586b6767eb03b0938b578ba4",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/map.py",
+      "sha256": "3e21e0e7c4ffcfd898646d76c51d434793339d413dd6dc7092a7f81967bf0f57"
+    },
+    {
+      "git_blob": "072dc62172924c09a6f697ad0ed5b13f5223a96a",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/nuscenes_pred_split.py",
+      "sha256": "dd698cba16babcc3ed15d57d7ab28c474ba4f74c6950d90b4dea068b6231cb2b"
+    },
+    {
+      "git_blob": "25fad427911110e83653c6571fc448f002cd35c2",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/preprocessor.py",
+      "sha256": "dfea67e46f6d4718f9be8b7fa71af7e7a468671ccd06e48c319c756bddb212ca"
+    },
+    {
+      "git_blob": "e94e484c95657ec0f17b0312e48353191d1bccfd",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/process_nuscenes.py",
+      "sha256": "71140b427cd97b9862b32e34d7e94fc51bffb10fbe03fb7aa2fd7115c68daf12"
+    },
+    {
+      "git_blob": "fd071e5d12cff8a6b1f53e89297272952efe617d",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+      "sha256": "d70fb55a3c7d8ead593fdd2663da0ff46a66bfc3dd116f71c2aedfb9f4af6a27"
+    },
+    {
+      "git_blob": "5e25be7f2ab51d75882d65cb2c423da55637dfcc",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "sha256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f"
+    },
+    {
+      "git_blob": "11c0ea791957ab9b5e2c58682e0eb092919fbf76",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer_lib.py",
+      "sha256": "f7106a98da0037757f078c2ca1259dd7fab4df1252c31f643485356bd9cecd37"
+    },
+    {
+      "git_blob": "e1c23113a10ac4fbdc98b67c738bde74bbd4a5af",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer_loss.py",
+      "sha256": "4a314fb4165c35ef819fd11ef5d5fe3194b6cab2956570c5c7f890aeb3e2d95b"
+    },
+    {
+      "git_blob": "5a73e9269a0aa7bc260f72a27621b705adbddab6",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/common/dist.py",
+      "sha256": "6e594caff1b0954c1bc190ea84bf6554305f092e623045da72ac8b809d037fc0"
+    },
+    {
+      "git_blob": "4e941b6ac2709488b02dc4c066f19a2a162695c0",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/common/mlp.py",
+      "sha256": "4bf2f6839a274199e095b1748c4fb40a9ea6453cad955f5582d3dc6e81911b51"
+    },
+    {
+      "git_blob": "a99eca750510f126bfadffa3ece14ff047aac09b",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/common/resnet.py",
+      "sha256": "efabe24405a7428f5f9a3a7c4aafee44d36855342e0762402228237804360e1c"
+    },
+    {
+      "git_blob": "c0bcea3f3f5923f621abe9ae1a75aec4eb7a8069",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py",
+      "sha256": "2b50ff1fd272124958ab95f541b1f35656db4836d0adcb5ebf0ce6f510975043"
+    },
+    {
+      "git_blob": "182cbdb7c635c499dfdc411336063ca31124d67f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/map_cnn.py",
+      "sha256": "79437e17d7a0ae66bb924e39188354955ef1f7d2f25d3f0fb7a3cd5d311d7ab5"
+    },
+    {
+      "git_blob": "466e0fc454334d57aacdfe6634774e8130a244c2",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/map_encoder.py",
+      "sha256": "331123d759d3175eca69cc3c242b85cc83759f2bf95384fb6247b9792f6ce776"
+    },
+    {
+      "git_blob": "b94016b01456c5a42d52bac999c3caa4c1bf4f9e",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/model_lib.py",
+      "sha256": "d3b157f1188906cbc57bf36ea619eb72155987c2cac9f1c39540e350de32bc99"
+    },
+    {
+      "git_blob": "12ade13eb03a15a1c86b1fbd58501e9a68c35614",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/requirements.txt",
+      "sha256": "a48c6ef565d9dba255c243eeffd44f43c4db4aa665d5373a7524ec840b037c50"
+    },
+    {
+      "git_blob": "31c77e3107fd3affd8474550d5d9b9ba37de6a9c",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/test.py",
+      "sha256": "acdbd9b3d3d867e555416457893ccc3f0d665e8ec4e0dea6eb5ff0a7e2792685"
+    },
+    {
+      "git_blob": "8298ce1af13d42768f5f11047a9d197b5333dbc4",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/train.py",
+      "sha256": "5774ccaca4043b67e80fa35a5651be7397a6a0fc1de4e2d61dc6c92cdfff4853"
+    },
+    {
+      "git_blob": "18947eef533654c2a24a3b9f9024e97848d768aa",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/utils/config.py",
+      "sha256": "7913b8e754232092496a25493a7655b1b92b0affbde767b6542cf20e7c86723c"
+    },
+    {
+      "git_blob": "cbd18697b011780f738a9aeb901a63b07a0317ad",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/utils/torch.py",
+      "sha256": "909bb4c38deb566d14bd549d23a5b6b5a056ca1a9f7dfa768f634295bb978379"
+    },
+    {
+      "git_blob": "8245c3ff08707e86627b8f9ce6ded28adc40145f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/utils/utils.py",
+      "sha256": "8641e1d6025089a8aff75d8c4c6f54ab6446793ddebf080c38b7c2425c2c651f"
+    },
+    {
+      "git_blob": "32e169ea2e7b6e8275824120b091ccc9460b4382",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/cfg/nuscenes/10_sample/nuscenes_10sample_agentformer.yml",
+      "sha256": "9462213d8aea7b920f5b58483e04bfefc69fc0473e7dc85509f1ad70772fafa2"
+    },
+    {
+      "git_blob": "353a6b005764b7cbd4989ab972ff979737254ce0",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/dataloader.py",
+      "sha256": "4c166b27ddb623ca42774835457bf846df648fc53af427b578c79f6b52581428"
+    },
+    {
+      "git_blob": "2677983309f78848ce3b0297d5bbcc9f6c91793b",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/homography_warper.py",
+      "sha256": "ecb0d00574241d620056dac81e8314248d7fece8e0406de94d090b26e09e56ee"
+    },
+    {
+      "git_blob": "8e00a34c935ca1572e96c6b5423a2460f97d267b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/biwi_eth.txt",
+      "sha256": "d7cdcedd6472ebaa794bc56e037542e350dfe2ee992f818ab8c417e9fc2a17ad",
+      "upstream_path": "datasets/eth_ucy/eth/biwi_eth.txt"
+    },
+    {
+      "git_blob": "c6f95837862c1d480a549fff56d2bd4f2743547c",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/biwi_hotel_train.txt",
+      "sha256": "96d87e6f6afa542397a88ecccd06192a968ed555f0da936b3e50bc9fd0aaa2a3",
+      "upstream_path": "datasets/eth_ucy/eth/biwi_hotel_train.txt"
+    },
+    {
+      "git_blob": "b1798a6edff73c4373bddab5950e30b0436f9e71",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/biwi_hotel_val.txt",
+      "sha256": "79b941918e48aa984b42081865f9a6cffdf2e1be5cdd8eddb44004d8da0e99e8",
+      "upstream_path": "datasets/eth_ucy/eth/biwi_hotel_val.txt"
+    },
+    {
+      "git_blob": "c11f4799d5edfbc9e1a0e71579c7c588394cb484",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara01_train.txt",
+      "sha256": "63af0422336bcafcbcfb78538fcfb49cd043211f5fe7ac6a21e18a3c245d65a2",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara01_train.txt"
+    },
+    {
+      "git_blob": "69885b4dd10619dfbb51f4799d6110f7cd72ef7d",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara01_val.txt"
+    },
+    {
+      "git_blob": "634a9792c83e3cec3b0ffebdbc20c07abc3daba9",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara02_train.txt",
+      "sha256": "4f524a0ac447567e942faa21d1aafbf363d12cb1a49fcbd6590035b003b3548a",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara02_train.txt"
+    },
+    {
+      "git_blob": "64b0ec519245c50f9f027837d24350a3f4b17d6e",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara02_val.txt"
+    },
+    {
+      "git_blob": "afacb0099a85fc812c5d8d79bdb1e89863fbd52b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara03_train.txt"
+    },
+    {
+      "git_blob": "b9b60f7c08c7aefd9dfa96aac95b8f8a41e587ac",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "upstream_path": "datasets/eth_ucy/eth/crowds_zara03_val.txt"
+    },
+    {
+      "git_blob": "e7f695fc0f927007a827ff27b61e9c6efa62df85",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/students001_train.txt",
+      "sha256": "2d4f442346b1c5f62a748a53c20918511faddeed4955ba73a4de95a2e04f0ae1",
+      "upstream_path": "datasets/eth_ucy/eth/students001_train.txt"
+    },
+    {
+      "git_blob": "130536ca7b129bd8bbc95cd6d5e09c6f678cc7d5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "upstream_path": "datasets/eth_ucy/eth/students001_val.txt"
+    },
+    {
+      "git_blob": "06a03fe57def426938a8f6276f8ca5e6f26b37b1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/students003_train.txt",
+      "sha256": "8d36ffdeae8f33e827bbaf4845cd0069e9c26af5057cf9b44ccf4424869ebfa8",
+      "upstream_path": "datasets/eth_ucy/eth/students003_train.txt"
+    },
+    {
+      "git_blob": "990aca5109817c9649c5c43060828711eddde571",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784",
+      "upstream_path": "datasets/eth_ucy/eth/students003_val.txt"
+    },
+    {
+      "git_blob": "d5267966bf420d6f3ac71030f55f332a0fa7b16f",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "upstream_path": "datasets/eth_ucy/eth/uni_examples_train.txt"
+    },
+    {
+      "git_blob": "c4675caa1c5ac7a46ac3c35a85e0c5ebfd7305b5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "upstream_path": "datasets/eth_ucy/eth/uni_examples_val.txt"
+    },
+    {
+      "git_blob": "9944c0ee54f591ee43826c4ace2051cad34a36ff",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_train.txt",
+      "sha256": "a3e5d7f7c741c4a4cfbd968136cef0b3945580921775c6af90424862bf1a3357",
+      "upstream_path": "datasets/eth_ucy/hotel/biwi_eth_train.txt"
+    },
+    {
+      "git_blob": "ddb1653c92823c2a42dbb88a2e32305c978473e1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "upstream_path": "datasets/eth_ucy/hotel/biwi_eth_val.txt"
+    },
+    {
+      "git_blob": "87d7d64064a4149ef3ef065f6dc428ee7e18f5f3",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/biwi_hotel.txt",
+      "sha256": "90c4b0f7514b307b53481d8e2e23f9ba1ea9202d732634291c01267742d66746",
+      "upstream_path": "datasets/eth_ucy/hotel/biwi_hotel.txt"
+    },
+    {
+      "git_blob": "c11f4799d5edfbc9e1a0e71579c7c588394cb484",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara01_train.txt",
+      "sha256": "63af0422336bcafcbcfb78538fcfb49cd043211f5fe7ac6a21e18a3c245d65a2",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara01_train.txt"
+    },
+    {
+      "git_blob": "69885b4dd10619dfbb51f4799d6110f7cd72ef7d",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara01_val.txt"
+    },
+    {
+      "git_blob": "634a9792c83e3cec3b0ffebdbc20c07abc3daba9",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara02_train.txt",
+      "sha256": "4f524a0ac447567e942faa21d1aafbf363d12cb1a49fcbd6590035b003b3548a",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara02_train.txt"
+    },
+    {
+      "git_blob": "64b0ec519245c50f9f027837d24350a3f4b17d6e",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara02_val.txt"
+    },
+    {
+      "git_blob": "afacb0099a85fc812c5d8d79bdb1e89863fbd52b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara03_train.txt"
+    },
+    {
+      "git_blob": "b9b60f7c08c7aefd9dfa96aac95b8f8a41e587ac",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "upstream_path": "datasets/eth_ucy/hotel/crowds_zara03_val.txt"
+    },
+    {
+      "git_blob": "e7f695fc0f927007a827ff27b61e9c6efa62df85",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_train.txt",
+      "sha256": "2d4f442346b1c5f62a748a53c20918511faddeed4955ba73a4de95a2e04f0ae1",
+      "upstream_path": "datasets/eth_ucy/hotel/students001_train.txt"
+    },
+    {
+      "git_blob": "130536ca7b129bd8bbc95cd6d5e09c6f678cc7d5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "upstream_path": "datasets/eth_ucy/hotel/students001_val.txt"
+    },
+    {
+      "git_blob": "06a03fe57def426938a8f6276f8ca5e6f26b37b1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students003_train.txt",
+      "sha256": "8d36ffdeae8f33e827bbaf4845cd0069e9c26af5057cf9b44ccf4424869ebfa8",
+      "upstream_path": "datasets/eth_ucy/hotel/students003_train.txt"
+    },
+    {
+      "git_blob": "990aca5109817c9649c5c43060828711eddde571",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784",
+      "upstream_path": "datasets/eth_ucy/hotel/students003_val.txt"
+    },
+    {
+      "git_blob": "d5267966bf420d6f3ac71030f55f332a0fa7b16f",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "upstream_path": "datasets/eth_ucy/hotel/uni_examples_train.txt"
+    },
+    {
+      "git_blob": "c4675caa1c5ac7a46ac3c35a85e0c5ebfd7305b5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/hotel/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "upstream_path": "datasets/eth_ucy/hotel/uni_examples_val.txt"
+    },
+    {
+      "git_blob": "9944c0ee54f591ee43826c4ace2051cad34a36ff",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/biwi_eth_train.txt",
+      "sha256": "a3e5d7f7c741c4a4cfbd968136cef0b3945580921775c6af90424862bf1a3357",
+      "upstream_path": "datasets/eth_ucy/univ/biwi_eth_train.txt"
+    },
+    {
+      "git_blob": "ddb1653c92823c2a42dbb88a2e32305c978473e1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "upstream_path": "datasets/eth_ucy/univ/biwi_eth_val.txt"
+    },
+    {
+      "git_blob": "c6f95837862c1d480a549fff56d2bd4f2743547c",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/biwi_hotel_train.txt",
+      "sha256": "96d87e6f6afa542397a88ecccd06192a968ed555f0da936b3e50bc9fd0aaa2a3",
+      "upstream_path": "datasets/eth_ucy/univ/biwi_hotel_train.txt"
+    },
+    {
+      "git_blob": "b1798a6edff73c4373bddab5950e30b0436f9e71",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/biwi_hotel_val.txt",
+      "sha256": "79b941918e48aa984b42081865f9a6cffdf2e1be5cdd8eddb44004d8da0e99e8",
+      "upstream_path": "datasets/eth_ucy/univ/biwi_hotel_val.txt"
+    },
+    {
+      "git_blob": "c11f4799d5edfbc9e1a0e71579c7c588394cb484",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara01_train.txt",
+      "sha256": "63af0422336bcafcbcfb78538fcfb49cd043211f5fe7ac6a21e18a3c245d65a2",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara01_train.txt"
+    },
+    {
+      "git_blob": "69885b4dd10619dfbb51f4799d6110f7cd72ef7d",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara01_val.txt"
+    },
+    {
+      "git_blob": "634a9792c83e3cec3b0ffebdbc20c07abc3daba9",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara02_train.txt",
+      "sha256": "4f524a0ac447567e942faa21d1aafbf363d12cb1a49fcbd6590035b003b3548a",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara02_train.txt"
+    },
+    {
+      "git_blob": "64b0ec519245c50f9f027837d24350a3f4b17d6e",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara02_val.txt"
+    },
+    {
+      "git_blob": "afacb0099a85fc812c5d8d79bdb1e89863fbd52b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara03_train.txt"
+    },
+    {
+      "git_blob": "b9b60f7c08c7aefd9dfa96aac95b8f8a41e587ac",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "upstream_path": "datasets/eth_ucy/univ/crowds_zara03_val.txt"
+    },
+    {
+      "git_blob": "d34b61ad0837e0395585234114deac17b9ed251d",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/students001.txt",
+      "sha256": "4071b40e8d23b485efc8376f697c66753df102903e2923092ab17694c0183249",
+      "upstream_path": "datasets/eth_ucy/univ/students001.txt"
+    },
+    {
+      "git_blob": "076fe702c224a6ac8bed5418f691faf772f8b8d2",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/students003.txt",
+      "sha256": "3a46399a7c5dc27b95e69c8cc75fa824494e69c0c317c0790a69bca5d5ee3a14",
+      "upstream_path": "datasets/eth_ucy/univ/students003.txt"
+    },
+    {
+      "git_blob": "d5267966bf420d6f3ac71030f55f332a0fa7b16f",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "upstream_path": "datasets/eth_ucy/univ/uni_examples_train.txt"
+    },
+    {
+      "git_blob": "c4675caa1c5ac7a46ac3c35a85e0c5ebfd7305b5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/univ/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "upstream_path": "datasets/eth_ucy/univ/uni_examples_val.txt"
+    },
+    {
+      "git_blob": "9944c0ee54f591ee43826c4ace2051cad34a36ff",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/biwi_eth_train.txt",
+      "sha256": "a3e5d7f7c741c4a4cfbd968136cef0b3945580921775c6af90424862bf1a3357",
+      "upstream_path": "datasets/eth_ucy/zara1/biwi_eth_train.txt"
+    },
+    {
+      "git_blob": "ddb1653c92823c2a42dbb88a2e32305c978473e1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "upstream_path": "datasets/eth_ucy/zara1/biwi_eth_val.txt"
+    },
+    {
+      "git_blob": "c6f95837862c1d480a549fff56d2bd4f2743547c",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/biwi_hotel_train.txt",
+      "sha256": "96d87e6f6afa542397a88ecccd06192a968ed555f0da936b3e50bc9fd0aaa2a3",
+      "upstream_path": "datasets/eth_ucy/zara1/biwi_hotel_train.txt"
+    },
+    {
+      "git_blob": "b1798a6edff73c4373bddab5950e30b0436f9e71",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/biwi_hotel_val.txt",
+      "sha256": "79b941918e48aa984b42081865f9a6cffdf2e1be5cdd8eddb44004d8da0e99e8",
+      "upstream_path": "datasets/eth_ucy/zara1/biwi_hotel_val.txt"
+    },
+    {
+      "git_blob": "ce541a1e0aa5316d1d495a14bee9afdf0d3b8dbe",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/crowds_zara01.txt",
+      "sha256": "7d2c9a70e33594dbaf3142ec97ade2bc07f41ea681cf0e399057c8fa1da0f5f8",
+      "upstream_path": "datasets/eth_ucy/zara1/crowds_zara01.txt"
+    },
+    {
+      "git_blob": "634a9792c83e3cec3b0ffebdbc20c07abc3daba9",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/crowds_zara02_train.txt",
+      "sha256": "4f524a0ac447567e942faa21d1aafbf363d12cb1a49fcbd6590035b003b3548a",
+      "upstream_path": "datasets/eth_ucy/zara1/crowds_zara02_train.txt"
+    },
+    {
+      "git_blob": "64b0ec519245c50f9f027837d24350a3f4b17d6e",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/crowds_zara02_val.txt",
+      "sha256": "8eb0602829a3ae7c74b660b756aaf629e06920573af8880c36b3ee3a13d9bb39",
+      "upstream_path": "datasets/eth_ucy/zara1/crowds_zara02_val.txt"
+    },
+    {
+      "git_blob": "afacb0099a85fc812c5d8d79bdb1e89863fbd52b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "upstream_path": "datasets/eth_ucy/zara1/crowds_zara03_train.txt"
+    },
+    {
+      "git_blob": "b9b60f7c08c7aefd9dfa96aac95b8f8a41e587ac",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "upstream_path": "datasets/eth_ucy/zara1/crowds_zara03_val.txt"
+    },
+    {
+      "git_blob": "e7f695fc0f927007a827ff27b61e9c6efa62df85",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/students001_train.txt",
+      "sha256": "2d4f442346b1c5f62a748a53c20918511faddeed4955ba73a4de95a2e04f0ae1",
+      "upstream_path": "datasets/eth_ucy/zara1/students001_train.txt"
+    },
+    {
+      "git_blob": "130536ca7b129bd8bbc95cd6d5e09c6f678cc7d5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "upstream_path": "datasets/eth_ucy/zara1/students001_val.txt"
+    },
+    {
+      "git_blob": "06a03fe57def426938a8f6276f8ca5e6f26b37b1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/students003_train.txt",
+      "sha256": "8d36ffdeae8f33e827bbaf4845cd0069e9c26af5057cf9b44ccf4424869ebfa8",
+      "upstream_path": "datasets/eth_ucy/zara1/students003_train.txt"
+    },
+    {
+      "git_blob": "990aca5109817c9649c5c43060828711eddde571",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784",
+      "upstream_path": "datasets/eth_ucy/zara1/students003_val.txt"
+    },
+    {
+      "git_blob": "d5267966bf420d6f3ac71030f55f332a0fa7b16f",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "upstream_path": "datasets/eth_ucy/zara1/uni_examples_train.txt"
+    },
+    {
+      "git_blob": "c4675caa1c5ac7a46ac3c35a85e0c5ebfd7305b5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara1/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "upstream_path": "datasets/eth_ucy/zara1/uni_examples_val.txt"
+    },
+    {
+      "git_blob": "9944c0ee54f591ee43826c4ace2051cad34a36ff",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/biwi_eth_train.txt",
+      "sha256": "a3e5d7f7c741c4a4cfbd968136cef0b3945580921775c6af90424862bf1a3357",
+      "upstream_path": "datasets/eth_ucy/zara2/biwi_eth_train.txt"
+    },
+    {
+      "git_blob": "ddb1653c92823c2a42dbb88a2e32305c978473e1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/biwi_eth_val.txt",
+      "sha256": "84edc9cf3ad0d649c01e05f0a535f2bd0f3def862bc7951db8e55c12b19c921b",
+      "upstream_path": "datasets/eth_ucy/zara2/biwi_eth_val.txt"
+    },
+    {
+      "git_blob": "c6f95837862c1d480a549fff56d2bd4f2743547c",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/biwi_hotel_train.txt",
+      "sha256": "96d87e6f6afa542397a88ecccd06192a968ed555f0da936b3e50bc9fd0aaa2a3",
+      "upstream_path": "datasets/eth_ucy/zara2/biwi_hotel_train.txt"
+    },
+    {
+      "git_blob": "b1798a6edff73c4373bddab5950e30b0436f9e71",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/biwi_hotel_val.txt",
+      "sha256": "79b941918e48aa984b42081865f9a6cffdf2e1be5cdd8eddb44004d8da0e99e8",
+      "upstream_path": "datasets/eth_ucy/zara2/biwi_hotel_val.txt"
+    },
+    {
+      "git_blob": "c11f4799d5edfbc9e1a0e71579c7c588394cb484",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/crowds_zara01_train.txt",
+      "sha256": "63af0422336bcafcbcfb78538fcfb49cd043211f5fe7ac6a21e18a3c245d65a2",
+      "upstream_path": "datasets/eth_ucy/zara2/crowds_zara01_train.txt"
+    },
+    {
+      "git_blob": "69885b4dd10619dfbb51f4799d6110f7cd72ef7d",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/crowds_zara01_val.txt",
+      "sha256": "a423dc489d48cff01595b441f441281925c4cacd909eedeb1a38b1ff5319566b",
+      "upstream_path": "datasets/eth_ucy/zara2/crowds_zara01_val.txt"
+    },
+    {
+      "git_blob": "19f856c245553c343960b976e7e30c02ecaed491",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/crowds_zara02.txt",
+      "sha256": "d085bffb646ff89afe5af7964feade56834a81197ba04f567db5a02fd607d4cf",
+      "upstream_path": "datasets/eth_ucy/zara2/crowds_zara02.txt"
+    },
+    {
+      "git_blob": "afacb0099a85fc812c5d8d79bdb1e89863fbd52b",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/crowds_zara03_train.txt",
+      "sha256": "7e640fd562e4ad56ef27a0a8a555a43443824a0834b83e1c3bbaefad97790ede",
+      "upstream_path": "datasets/eth_ucy/zara2/crowds_zara03_train.txt"
+    },
+    {
+      "git_blob": "b9b60f7c08c7aefd9dfa96aac95b8f8a41e587ac",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/crowds_zara03_val.txt",
+      "sha256": "5251c0c7c1685187626e1ea242166a1691ed91f84b6aca214b9379a722ab9268",
+      "upstream_path": "datasets/eth_ucy/zara2/crowds_zara03_val.txt"
+    },
+    {
+      "git_blob": "e7f695fc0f927007a827ff27b61e9c6efa62df85",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/students001_train.txt",
+      "sha256": "2d4f442346b1c5f62a748a53c20918511faddeed4955ba73a4de95a2e04f0ae1",
+      "upstream_path": "datasets/eth_ucy/zara2/students001_train.txt"
+    },
+    {
+      "git_blob": "130536ca7b129bd8bbc95cd6d5e09c6f678cc7d5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/students001_val.txt",
+      "sha256": "b2675a88c561b4090e019f7808e967421d7977afc91e7341df05dcf7afd97990",
+      "upstream_path": "datasets/eth_ucy/zara2/students001_val.txt"
+    },
+    {
+      "git_blob": "06a03fe57def426938a8f6276f8ca5e6f26b37b1",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/students003_train.txt",
+      "sha256": "8d36ffdeae8f33e827bbaf4845cd0069e9c26af5057cf9b44ccf4424869ebfa8",
+      "upstream_path": "datasets/eth_ucy/zara2/students003_train.txt"
+    },
+    {
+      "git_blob": "990aca5109817c9649c5c43060828711eddde571",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/students003_val.txt",
+      "sha256": "46183d3475c87590148ccfa84c395f36a54f8b4f45efa7df545e4671df1ef784",
+      "upstream_path": "datasets/eth_ucy/zara2/students003_val.txt"
+    },
+    {
+      "git_blob": "d5267966bf420d6f3ac71030f55f332a0fa7b16f",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/uni_examples_train.txt",
+      "sha256": "5124a997ccef4fe8589e510616d9d8c2adf6b3e254e34d1b5d2741879e8cec76",
+      "upstream_path": "datasets/eth_ucy/zara2/uni_examples_train.txt"
+    },
+    {
+      "git_blob": "c4675caa1c5ac7a46ac3c35a85e0c5ebfd7305b5",
+      "path": "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/zara2/uni_examples_val.txt",
+      "sha256": "acc920f245ba7e309c1ddf349eb6b956342b6c95346a3182be81d6d040fbc023",
+      "upstream_path": "datasets/eth_ucy/zara2/uni_examples_val.txt"
+    },
+    {
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer_pre/models/model_0050.p",
+      "sha256": "d30954995ec972843b85a58418dfca62f1e27fceb583ae70502cad14c2ca5a99"
+    },
+    {
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/hotel_agentformer/models/model_0050.p",
+      "sha256": "537edd5ca1b8149bdbf786ecedb7bb0c01dfa3da6c0a6456b4d77949022da715"
+    },
+    {
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer_pre/models/model_0070.p",
+      "sha256": "e6497fb522960f624b5b6d3ea50fcc8dbf8103e9c4822030c358d8cd10c54fa5"
+    },
+    {
+      "path": "experiments/stage7p2/cache/pretrained/extracted/results/zara2_agentformer/models/model_0025.p",
+      "sha256": "214717ebb465261a7c3ee09f9a82ee7770add1df45a83b0e0b23e8dbc31577d1"
+    },
+    {
+      "path": "configs/stage7p4/training/hotel_agentformer_pre.yml",
+      "sha256": "2a36b3b4e43a9246199d5ac4771da97f8496f43d083a70756b047695bcb4f228"
+    },
+    {
+      "path": "configs/stage7p4/training/hotel_agentformer.yml",
+      "sha256": "74f28fe977b367a81adaf5c4163426d9de9ba6e3bf37d3fddd0e5d34010e41dd"
+    },
+    {
+      "path": "configs/stage7p4/training/LICENSE",
+      "sha256": "808d71e8d18819253c49327df4a323bc90bd79555a26659931286cab2783211d"
+    },
+    {
+      "path": "configs/stage7p4/training/.gitattributes",
+      "sha256": "df25c15916ff3634dcdaee67fb012dafa64331fd39d1b07888677e8df1f5001a"
+    },
+    {
+      "path": "configs/stage7p4/train_windows.csv.gz",
+      "sha256": "b1575c5bc33266c4573b0bca623d0a3d6a98c445185910e6985677f9daf2b1c1"
+    },
+    {
+      "path": "configs/stage7p4/validation_windows.csv.gz",
+      "sha256": "1857362f92a79300fa96f7822ed7839d066d819784680d5961a7001b80c799c4"
+    }
+  ],
+  "supplementary_source_SHA256": {
+    "configs/stage7p5/protected_artifacts.json": "ce949879e1cf3c42a9d5420b6beead622a6eb31d90cd6c965911faaa1eca4b40",
+    "configs/stage7p5/protocol.json": "8125e6d1e3c164ac23f3f1dc7de02fa0476fc78717e80356f55a0de0b3b0bd5a",
+    "results/tables/stage7p5/failed_attempts.json": "421569eb46d7b6e234da94894eb4490197610c76dbb6ee76696974612485f325",
+    "scripts/stage7p5_analyze.py": "96a6b3bf878578cfe27f89e0b7896acd9ea38c8085750d64921d134d9ae9fe49",
+    "scripts/stage7p5_check_outputs.py": "f06d6ba32a6740bead1582af2a4ef9e64160797cfdc30975512b7ed1af68f654",
+    "scripts/stage7p5_complete_statistics.py": "40648bd43df609015c5e689969fcd333aba18d4b836c5680da7cf83dcc04ae3d",
+    "scripts/stage7p5_prepare.py": "46132c57361c7f2718fc4a89b96f23b4e22255f1d303fa0dc526d90b07d00dd0",
+    "scripts/stage7p5_reports.py": "9105eb356d3284ebfec52384ac713e72bbae1611a1f57d96345376e79314bc58",
+    "scripts/stage7p5_verify.py": "186d4d060ada1394aa292e8632be5edd002904d9f1e8a3d1124a8c831b3d9204",
+    "src/agentformer_innovation/__init__.py": "5ed07a6a4f8f932e439ad5ded03f28722569afadaa45c2b26dc3c623b2340c0b",
+    "src/agentformer_innovation/metrics.py": "fbbdd87ec793eff124e4b81492aa77a1756ed48545d42ff453738952c7ca1943",
+    "tests/test_agentformer_innovation.py": "f8655b66e515be3a3f94008f2c8a7028d6072cccff7cd9b4b2a1be14cbdeb916"
+  },
+  "validation_input_indices": [
+    {
+      "path": "results/tables/stage7p4/execution_v2/hotel_validation_prediction_SHA256.csv.gz",
+      "sha256": "f93151881bff80285f8d61b4731b947a5651d07db13d43c2d72b0a4ab300e1de"
+    },
+    {
+      "path": "results/tables/stage7p4/execution_v2/zara2_validation_prediction_SHA256.csv.gz",
+      "sha256": "ceb3f58adc22bf45cd1c3d632fa5549e4206398d4658e307b74b0847e289e953"
+    }
+  ],
+  "code_change_scope": "Only new stage diagnostics, tests and reports; official source unchanged"
+}

@@ -1,0 +1,22 @@
+{
+  "error": "CSV fieldnames inferred from first actor omitted unavailable directional outcomes; writer refused extra fields",
+  "repair": "Explicit union of all actor fields; missing outcomes kept blank",
+  "preserved_failed_outputs": [
+    {
+      "file": "complete_group_statistics.json",
+      "sha256": "47cc297084353726c25535f8d0ea7d7fd27265e772ddb18a31930236fc3a3c43",
+      "archived_path": "experiments/stage7p5/cache/failed_supplementary_attempt/complete_group_statistics.json"
+    },
+    {
+      "file": "source_by_speed_statistics.json",
+      "sha256": "0fa24abc356de3757f5e470eeeb65ffd117b6b8fb4f162f3a15db50f59b31428",
+      "archived_path": "experiments/stage7p5/cache/failed_supplementary_attempt/source_by_speed_statistics.json"
+    },
+    {
+      "file": "person_equal_metrics.csv.gz",
+      "sha256": "c79593a07dc4f27d38dd84b16aff32be39304330afe6ace44b63b06223d9b07e",
+      "archived_path": "experiments/stage7p5/cache/failed_supplementary_attempt/person_equal_metrics.csv.gz"
+    }
+  ],
+  "metric_or_model_changes": false
+}

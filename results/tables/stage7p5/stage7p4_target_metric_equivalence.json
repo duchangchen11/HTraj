@@ -1,0 +1,21 @@
+{
+  "SHA_schema_note": "Stage7.4 hashes dtype+shape+bytes; Stage7.5 target tables hash bare float32 bytes. Canonical Stage7.4 SHA reverified from every NPZ and saved in target_provenance.csv.gz. Different strings do not mean different GT.",
+  "checks": {
+    "hotel": {
+      "max_metric_difference": 7.105427357601002e-15,
+      "target_IDs_history_GT_exact": true,
+      "targets": 5203,
+      "twenty_heads_each_target": true,
+      "winner_credit_mass_conserved": true
+    },
+    "zara2": {
+      "max_metric_difference": 7.105427357601002e-15,
+      "target_IDs_history_GT_exact": true,
+      "targets": 4262,
+      "twenty_heads_each_target": true,
+      "winner_credit_mass_conserved": true
+    }
+  },
+  "first_integration_attempt": "Direct comparison of differently defined hash strings failed; no data difference. Repaired explicit schema-aware verification, without modifying either stage tables",
+  "passed": true
+}

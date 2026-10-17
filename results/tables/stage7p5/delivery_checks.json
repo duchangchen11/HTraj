@@ -1,0 +1,20 @@
+{
+  "staged_scope": "Only Stage7.5 paths, scripts, new module and tests",
+  "old_paths_modified": false,
+  "diff_check_passed": true,
+  "ignore_probes_passed": [
+    "data/raw",
+    "data/processed",
+    "experiments/**/cache",
+    "*.pth",
+    ".env"
+  ],
+  "sensitive_pattern_scan": "No private-key headers, GitHub personal tokens or AWS key patterns in text delivery files",
+  "largest_metric_tables_bytes": {
+    "hotel_heads.csv.gz": 16103181,
+    "zara2_heads.csv.gz": 13410760
+  },
+  "large_file_exception": "User-required per-head derived scalar metrics, compressed; no raw trajectory coordinate files or checkpoint",
+  "unit_tests_final_passed": 433,
+  "automatic_push": false
+}

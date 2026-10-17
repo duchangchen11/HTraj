@@ -1,0 +1,16 @@
+{
+  "duration_seconds": 111.56691662798403,
+  "new_inference": false,
+  "new_training": false,
+  "numpy": "1.26.4",
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "prediction_windows": 1278,
+  "protocol_SHA256": "8125e6d1e3c164ac23f3f1dc7de02fa0476fc78717e80356f55a0de0b3b0bd5a",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "source_commit": "350acebcab569d68d93cda00ee638195152c52bd",
+  "targets": {
+    "hotel": 5203,
+    "zara2": 4262
+  },
+  "test_errors_read": false
+}

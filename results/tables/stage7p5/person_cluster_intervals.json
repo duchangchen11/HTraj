@@ -1,0 +1,226 @@
+{
+  "hotel": {
+    "all": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.06560872643148923,
+        0.07756712668985428
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.09133129301628681,
+        0.11140354038890525
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.06571397265423543,
+        -0.04392884300777938
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.024609383354557323,
+        -0.00020659940352120537
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.17130350694237267,
+        -0.11582395651341654
+      ]
+    },
+    "fast": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.05827225184930588,
+        0.07536889237917177
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.04311920567397933,
+        0.09746264502332119
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.3971632030658367,
+        -0.20770346362029757
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.06730036250269976,
+        0.008591228009035685
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.9653694222974266,
+        -0.6591427026071537
+      ]
+    },
+    "low": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.12031855777672099,
+        0.14719343493340764
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.15639929889271806,
+        0.21987319561812024
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.06824769585605359,
+        -0.026495164934343257
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.01641582663644966,
+        0.04719025873800395
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.05306131957115007,
+        0.06351622513487414
+      ]
+    },
+    "normal": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.06542455273654846,
+        0.07872871249344321
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.08691470030383927,
+        0.10560896835548955
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.03715230194004196,
+        -0.01953944902668517
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.02337910143529623,
+        -0.0024503931330502955
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.11388505205883162,
+        -0.06406110793624721
+      ]
+    },
+    "stationary": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.10252477833736391,
+        0.12471759485943852
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.22090077908032899,
+        0.30420032980305134
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.048061288080440925,
+        -0.021465339889061776
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.08976553556914119,
+        0.07608205268592137
+      ],
+      "all_heads_speed_bias_mps": [
+        0.07743262298303308,
+        0.17255406786025645
+      ]
+    }
+  },
+  "zara2": {
+    "all": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.06796770164754813,
+        0.07953330903480878
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.098098581169596,
+        0.12050036142917572
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.05956004882079271,
+        -0.034315557852764814
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.030159175524675425,
+        -0.005181252632285844
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.17703389407492492,
+        -0.12305886037851735
+      ]
+    },
+    "fast": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.06330298950361304,
+        0.08369051171485246
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.06900969758123006,
+        0.11127307756506744
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.3562512810809238,
+        -0.17254836928542253
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.09418921064110297,
+        -0.021053328132968657
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.951799078798256,
+        -0.6377555782319224
+      ]
+    },
+    "low": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.12673387805566239,
+        0.15348614128569368
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.18530491541217425,
+        0.2835248556223322
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.05470412954120046,
+        -0.024630436076042195
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.020644495728047163,
+        0.07043205082953038
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.004300115463477733,
+        0.08177858622443587
+      ]
+    },
+    "normal": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.06494279940250768,
+        0.0785017739019948
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.08536849682215743,
+        0.10761969369039083
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.03007544458986066,
+        -0.014535957362151757
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        -0.027708736652713294,
+        -0.006067755584490748
+      ],
+      "all_heads_speed_bias_mps": [
+        -0.11562349406464352,
+        -0.06680903471355444
+      ]
+    },
+    "stationary": {
+      "ADE_oracle_ADE_over_GT_path_floor0.5": [
+        0.12101834519779589,
+        0.14458924510180596
+      ],
+      "ADE_oracle_abs_heading_error_rad": [
+        0.24584678738426158,
+        0.3637525231350755
+      ],
+      "ADE_oracle_speed_bias_mps": [
+        -0.06842582223449677,
+        -0.03647127726676086
+      ],
+      "ADE_oracle_turn_magnitude_bias_rad": [
+        0.012065217941263418,
+        0.13383503811299371
+      ],
+      "all_heads_speed_bias_mps": [
+        0.0390418674514305,
+        0.13373057538198574
+      ]
+    }
+  }
+}

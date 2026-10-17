@@ -1,0 +1,10 @@
+{
+  "failures": [],
+  "old_test_metrics_parsed": false,
+  "old_test_prediction_files_bytes_only": 73656,
+  "passed": true,
+  "protected_file_entries": 12924,
+  "seconds": 48.73100724595133,
+  "statement": "Old test files hashed as opaque bytes for preservation only; no test errors read or recomputed",
+  "total_SHA_checks": 87992
+}

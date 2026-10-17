@@ -1,0 +1,8 @@
+{
+  "canonical": "complete_group_statistics.json",
+  "metrics_or_protocol_change": false,
+  "original_files_preserved": true,
+  "original_target_and_head_metrics_unchanged": true,
+  "reason": "Initial aggregator inferred columns from first row; nullable direction/turn outcomes could be omitted when first row has no reliable direction",
+  "supersedes": "group_statistics.json"
+}
