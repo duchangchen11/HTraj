@@ -1,0 +1,1 @@
+Shared actors [('biwi_eth', 10), ('crowds_zara01', 6), ('crowds_zara02', 14), ('crowds_zara03', 2), ('students001', 56), ('students003', 22), ('uni_examples', 2)] ; duplicate20 collisions 0

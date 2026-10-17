@@ -1,0 +1,21 @@
+{
+  "A_updates_repeated": 0,
+  "OOM": false,
+  "additional_non_experimental_errors": [
+    "Report command used system Python3.8 with Python3.10 NumPy binary; corrected environment, no experiment update",
+    "Supplemental JSON export initially used numpy.int64 IDs; converted to native int, no model or data change",
+    "One poll targeted an already-completed monitor cell; no training-process effect"
+  ],
+  "all_formal_runs_completed": true,
+  "final_unit_suite_passed": 458,
+  "formal_A_completed_before_device_check_error": true,
+  "nonfinite_formal_training": false,
+  "note": "This is a descriptive resolution summary of observed tool/run failures, not newly executed tests. Raw structural logs and A completion/restore traceback retained.",
+  "original_unit_suite_passed": 455,
+  "real_failure_records": [
+    "results/tables/stage9/structure_failure.json",
+    "results/tables/stage9/structure_failure_1792262326588915563.json",
+    "results/tables/stage9/train_failure_1792265580625233536.json"
+  ],
+  "restoration_fix_commit": "837da7b"
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "tests": 458,
+  "GPU_charged_seconds": 9474.849674730167,
+  "decision": "NO-GO: stop explicit cross-statistic hypothesis"
+}

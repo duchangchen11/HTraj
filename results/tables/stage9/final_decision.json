@@ -1,0 +1,57 @@
+{
+  "comparison_order": [
+    "B vs A",
+    "C vs B"
+  ],
+  "decision": "NO-GO: stop explicit cross-statistic hypothesis",
+  "gates": {
+    "GPU_under12hours": true,
+    "ambiguity_ADE_improves": true,
+    "at_least_two_sources": true,
+    "capacity_matched": true,
+    "cohort_GT_paired": true,
+    "no_severe_group_degradation": false,
+    "person_ADE_threshold": false,
+    "person_FDE_tolerance": false,
+    "window_ADE_threshold": false,
+    "window_FDE_tolerance": true
+  },
+  "improved_sources": [
+    "biwi_eth",
+    "crowds_zara01",
+    "crowds_zara02",
+    "students001",
+    "uni_examples"
+  ],
+  "interpretation": "Equal nominal added weights does not equal function class; single HOTEL fold/overlapping windows not independent confirmation; standard Re performance reproduction not claimed.",
+  "new_models_or_seeds_authorized": false,
+  "severe_group_degradation": [
+    {
+      "delta": 0.027554320613139227,
+      "group": "ambiguous",
+      "metric": "person_FDE"
+    },
+    {
+      "delta": 0.02161816322067045,
+      "group": "non_ambiguous",
+      "metric": "person_FDE"
+    },
+    {
+      "delta": 0.028003261185800432,
+      "group": "no_external_neighbors",
+      "metric": "person_FDE"
+    },
+    {
+      "delta": 0.04876071028095069,
+      "group": "one_external_neighbor",
+      "metric": "person_FDE"
+    },
+    {
+      "delta": 0.024880138379071826,
+      "group": "multiple_external_neighbors",
+      "metric": "person_FDE"
+    }
+  ],
+  "single_seed_development_only": true,
+  "test_errors_used": false
+}

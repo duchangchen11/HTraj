@@ -1,0 +1,9 @@
+{
+  "Adam_values_exact": true,
+  "RNG_exact": true,
+  "checkpoint_SHA": "47a337d4463264d1c780232583cf376751861a80bf39ef1bde2bb67ce3c91237",
+  "no_additional_optimizer_update": true,
+  "passed": true,
+  "source_SHA": "1a05a96f2e29bebdbae199b64384b5cb92a92d00737aef75fdbc5ccc5adb0bce",
+  "strict": true
+}

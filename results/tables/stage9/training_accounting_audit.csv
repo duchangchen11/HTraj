@@ -1,0 +1,4 @@
+model,epochs,updates,target_visits,step_loss_curve_consistent,checkpoint_SHA_verified
+A,200,46400,5935200,True,True
+B,200,46400,5935200,True,True
+C,200,46400,5935200,True,True

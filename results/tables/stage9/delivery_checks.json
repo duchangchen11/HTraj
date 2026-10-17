@@ -1,0 +1,20 @@
+{
+  "GPU_charged_seconds": 9474.849674730167,
+  "base_commit": "d9bfed15abf32c9004b82bc41862f20f955dd8a2",
+  "config_unchanged_between_runs": true,
+  "decision": "NO-GO: stop explicit cross-statistic hypothesis",
+  "final_index_scope": "All Stage9 owned deliverables except delivery_SHA256.csv itself",
+  "final_seal_after_verifier_log_closed": true,
+  "full_tests_passed": 458,
+  "historical_SHA_checks": 87721,
+  "initial_freeze_commit": "c5d2fb2",
+  "local_commit_only": true,
+  "model_code_unchanged_between_runs": true,
+  "no_extra_models_seeds_or_epochs": true,
+  "no_push": true,
+  "no_test_metrics": true,
+  "passed": true,
+  "reports": 9,
+  "restoration_fix_commit": "837da7b",
+  "source_snapshot_scope": "code_and_config_SHA256.csv is pre-evaluation snapshot; final delivery index also covers post-hoc reporting helpers"
+}

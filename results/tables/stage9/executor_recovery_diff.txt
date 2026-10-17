@@ -1,0 +1,31 @@
+diff --git a/scripts/stage9/execute.py b/scripts/stage9/execute.py
+index ecd6479..07d0a6f 100644
+--- a/scripts/stage9/execute.py
++++ b/scripts/stage9/execute.py
+@@ -16 +16 @@ def restore(m,opt,p):
+-    state=torch.load(p,map_location='cuda',weights_only=False);m.load_state_dict(state['model'],strict=True);opt.load_state_dict(state['optimizer'])
++    state=torch.load(p,map_location='cpu',weights_only=False);m.load_state_dict(state['model'],strict=True);opt.load_state_dict(state['optimizer'])
+@@ -81 +81 @@ def timing():
+-def train():
++def train(completed_prefix=None):
+@@ -88 +88,5 @@ def train():
+-    stage_start=time.monotonic();already=used();data=dataset('train');n=len(data['hist']);summary=[];checkpoints=[]
++    stage_start=time.monotonic();already=used();data=dataset('train');n=len(data['hist']);summary=list(completed_prefix or []);checkpoints=[]
++    for item in summary:
++        with (OUT/(item['model']+'_training_curve.csv')).open() as f:
++            for row in csv.DictReader(f):
++                if row['checkpoint']:checkpoints.append(dict(model=item['model'],epoch=int(row['epoch']),path=row['checkpoint'],sha256=row['checkpoint_SHA'],final=int(row['epoch'])==cfg['epochs']))
+@@ -89,0 +94 @@ def train():
++        if any(item['model']==kind for item in summary):continue
+@@ -95 +100 @@ def train():
+-            writer=csv.DictWriter(ff,fieldnames=['epoch','step','loss','gradient_norm','seconds','targets']);writer.writeheader()
++            writer=csv.DictWriter(ff,fieldnames=['epoch','step','loss','gradient_norm','seconds','targets'],lineterminator='\n');writer.writeheader()
+@@ -121 +126 @@ def train():
+-                    jw=csv.DictWriter(journal,fieldnames=list(row))
++                    jw=csv.DictWriter(journal,fieldnames=list(row),lineterminator="\n")
+@@ -137 +142 @@ def train():
+-    csv_new(OUT/'checkpoint_index.csv',checkpoints);json_new(OUT/'training_summary.json',dict(models=summary,seconds=time.monotonic()-stage_start,code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),config_SHA=sha(config)))
++    csv_new(OUT/'checkpoint_index.csv',checkpoints);json_new(OUT/'training_summary.json',dict(models=summary,seconds=sum(r['seconds'] for r in summary),continuation_wall_seconds=time.monotonic()-stage_start,code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),config_SHA=sha(config)))
+@@ -145 +150 @@ def evaluate():
+-        state=torch.load(p,map_location='cuda',weights_only=False);m.load_state_dict(state['model'],strict=True);m.eval()
++        state=torch.load(p,map_location='cpu',weights_only=False);m.load_state_dict(state['model'],strict=True);m.eval()

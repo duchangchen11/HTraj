@@ -1,0 +1,6 @@
+{
+  "note": "Existing CUDA metric regression included; full test wall is an upper bound on GPU context lifetime. No research optimizer updates from tests.",
+  "returncode": 0,
+  "wall_seconds": 18.187089876038954,
+  "whole_test_wall_charged": true
+}

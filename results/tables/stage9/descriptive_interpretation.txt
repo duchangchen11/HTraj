@@ -1,0 +1,1 @@
+Descriptive interpretation appended; selectors unchanged; total charged GPU hours 2.6319026874250464

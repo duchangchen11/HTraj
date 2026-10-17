@@ -1,0 +1,48 @@
+{
+  "FPC": false,
+  "K": 20,
+  "checkpoint": "common final epoch only",
+  "metrics": "separate min of complete-trajectory ADE and endpoint FDE; never per-time head selection",
+  "models": [
+    {
+      "allocated": 89588224,
+      "candidates": 20,
+      "checkpoint_SHA": "47a337d4463264d1c780232583cf376751861a80bf39ef1bde2bb67ce3c91237",
+      "model": "A",
+      "path": "experiments/stage9/cache/A_validation_predictions.npz",
+      "reserved": 123731968,
+      "seconds": 1.0378663599840365,
+      "sha256": "4fc2a735ca5682753941b670d3f6251fad15694e36968767a0b3156db1937fae",
+      "target_manifest_SHA": "f1d3a1d3f2d8d93347f63281e2f6665fbada2408c448eb678fa52450f58e19ae",
+      "targets": 5203,
+      "whole_card": "808, 2, 116.14"
+    },
+    {
+      "allocated": 102227968,
+      "candidates": 20,
+      "checkpoint_SHA": "1ae7c7dd7eb20458ec878434398458b05f134041985b1eebfeba0f85d2429d9b",
+      "model": "B",
+      "path": "experiments/stage9/cache/B_validation_predictions.npz",
+      "reserved": 136314880,
+      "seconds": 0.8446039039990865,
+      "sha256": "450dd524a7df3acbdadccf86b189efcefad0bf1cbb48ba8249dc799eae7544ce",
+      "target_manifest_SHA": "f1d3a1d3f2d8d93347f63281e2f6665fbada2408c448eb678fa52450f58e19ae",
+      "targets": 5203,
+      "whole_card": "818, 3, 117.98"
+    },
+    {
+      "allocated": 114867712,
+      "candidates": 20,
+      "checkpoint_SHA": "4cac73fd64b2f2ff597e1b74995ad36df8536ae633d91962cec0ffc81a181a80",
+      "model": "C",
+      "path": "experiments/stage9/cache/C_validation_predictions.npz",
+      "reserved": 148897792,
+      "seconds": 0.9252110900124535,
+      "sha256": "7a18f8bf0a28d2920c4226a17e83909f253dd7b3eaf9bdf1849d2dc4ab16fa9b",
+      "target_manifest_SHA": "f1d3a1d3f2d8d93347f63281e2f6665fbada2408c448eb678fa52450f58e19ae",
+      "targets": 5203,
+      "whole_card": "834, 4, 120.38"
+    }
+  ],
+  "test_metrics_accessed": false
+}

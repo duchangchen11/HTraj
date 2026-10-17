@@ -1,0 +1,9 @@
+{
+  "cudnn_allow_tf32": true,
+  "cudnn_benchmark": false,
+  "deterministic_algorithms": false,
+  "matmul_allow_tf32": false,
+  "note": "Backend defaults unchanged; seeded parameter initialization/order/RNG; no cross-hardware bitwise claim.",
+  "optimizer_defaults": "Adam betas0.9/0.999 eps1e-8 weight_decay0; no AMP/no clipping",
+  "torch_version": "2.5.1+cu124"
+}

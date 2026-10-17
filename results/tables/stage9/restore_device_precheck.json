@@ -1,0 +1,9 @@
+{
+  "CPU_map_restore_step_device": "cpu",
+  "cuda_map_loaded_Adam_step_device": "cuda:0",
+  "issue": "torch.equal rejects CPU-vs-CUDA Adam step tensors. Verification must align devices or load packet to CPU before load_state_dict. Model weights and optimizer values are intact.",
+  "optimizer_updates": 0,
+  "passed": true,
+  "saved_Adam_step_device": "cpu",
+  "step_values_equal_after_device_alignment": true
+}

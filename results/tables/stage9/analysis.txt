@@ -1,0 +1,88 @@
+{
+  "summary": [
+    {
+      "model": "A",
+      "target_windows": 5203,
+      "source_persons": 249,
+      "window_ADE": 0.19846925429982198,
+      "window_FDE": 0.3351359241791744,
+      "person_ADE": 0.2736140010858811,
+      "person_FDE": 0.46242775122363994
+    },
+    {
+      "model": "B",
+      "target_windows": 5203,
+      "source_persons": 249,
+      "window_ADE": 0.19912287657004685,
+      "window_FDE": 0.33806700650526395,
+      "person_ADE": 0.270441036520481,
+      "person_FDE": 0.45726002693875983
+    },
+    {
+      "model": "C",
+      "target_windows": 5203,
+      "source_persons": 249,
+      "window_ADE": 0.1973596962230947,
+      "window_FDE": 0.33916147679457936,
+      "person_ADE": 0.2770119102921645,
+      "person_FDE": 0.4873695105906654
+    }
+  ],
+  "decision": {
+    "decision": "NO-GO: stop explicit cross-statistic hypothesis",
+    "gates": {
+      "window_ADE_threshold": false,
+      "window_FDE_tolerance": true,
+      "person_ADE_threshold": false,
+      "person_FDE_tolerance": false,
+      "at_least_two_sources": true,
+      "ambiguity_ADE_improves": true,
+      "no_severe_group_degradation": false,
+      "capacity_matched": true,
+      "cohort_GT_paired": true,
+      "GPU_under12hours": true
+    },
+    "improved_sources": [
+      "biwi_eth",
+      "crowds_zara01",
+      "crowds_zara02",
+      "students001",
+      "uni_examples"
+    ],
+    "severe_group_degradation": [
+      {
+        "group": "ambiguous",
+        "metric": "person_FDE",
+        "delta": 0.027554320613139227
+      },
+      {
+        "group": "non_ambiguous",
+        "metric": "person_FDE",
+        "delta": 0.02161816322067045
+      },
+      {
+        "group": "no_external_neighbors",
+        "metric": "person_FDE",
+        "delta": 0.028003261185800432
+      },
+      {
+        "group": "one_external_neighbor",
+        "metric": "person_FDE",
+        "delta": 0.04876071028095069
+      },
+      {
+        "group": "multiple_external_neighbors",
+        "metric": "person_FDE",
+        "delta": 0.024880138379071826
+      }
+    ],
+    "comparison_order": [
+      "B vs A",
+      "C vs B"
+    ],
+    "new_models_or_seeds_authorized": false,
+    "test_errors_used": false,
+    "single_seed_development_only": true,
+    "interpretation": "Equal nominal added weights does not equal function class; single HOTEL fold/overlapping windows not independent confirmation; standard Re performance reproduction not claimed."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "basis": "Conservative sum including held-CUDA CPU/I-O and failed probes; overlaps double charged. Some explicitly marked conservative upper bounds.",
+  "charged_GPU_task_wall_seconds": 9474.849674730167,
+  "epochs_not_extended": true,
+  "maximum_seconds": 43200,
+  "passed": true
+}

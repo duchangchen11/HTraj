@@ -1,0 +1,52 @@
+{
+  "code_commit": "d2308d500a4d6c3b655a5af9628a644eae52f9c7",
+  "config_SHA": "e86f985aafa4f14ea5fc593fb64c08fa1be46ac632fe80d4db77d05cd60c68c8",
+  "continuation_wall_seconds": 6338.404717614001,
+  "models": [
+    {
+      "allocated": 377464832,
+      "epochs": 200,
+      "final_SHA": "47a337d4463264d1c780232583cf376751861a80bf39ef1bde2bb67ce3c91237",
+      "final_checkpoint": "experiments/stage9/cache/checkpoints/A_epoch200.pt",
+      "initial_SHA": "57a4021cc39c13c3715eaa851f83daca864d96cd24d35c79091091a41cebc513",
+      "model": "A",
+      "parameters": 3149192,
+      "reserved": 450887680,
+      "restoration_verified_after_device_fix": true,
+      "restored_model_optimizer_RNG": true,
+      "seconds": 3035.1176437599934,
+      "seconds_basis": "Original complete A process wall including failed device-only comparison; preserved, no repeated updates",
+      "target_visits": 5935200,
+      "updates": 46400
+    },
+    {
+      "allocated": 396833792,
+      "epochs": 200,
+      "final_SHA": "1ae7c7dd7eb20458ec878434398458b05f134041985b1eebfeba0f85d2429d9b",
+      "final_checkpoint": "experiments/stage9/cache/checkpoints/B_epoch200.pt",
+      "initial_SHA": "cde4a6292d6a7d7dcdb4249b60810c861d0d56076c2afe9eb9338da4f542436c",
+      "model": "B",
+      "parameters": 3157384,
+      "reserved": 463470592,
+      "restored_model_optimizer_RNG": true,
+      "seconds": 3092.0185462409863,
+      "target_visits": 5935200,
+      "updates": 46400
+    },
+    {
+      "allocated": 419672576,
+      "epochs": 200,
+      "final_SHA": "4cac73fd64b2f2ff597e1b74995ad36df8536ae633d91962cec0ffc81a181a80",
+      "final_checkpoint": "experiments/stage9/cache/checkpoints/C_epoch200.pt",
+      "initial_SHA": "fd7c97225b2c1e5630ce4c405a5c9856d90f1bd913446f760605a0b4eed31854",
+      "model": "C",
+      "parameters": 3157384,
+      "reserved": 486539264,
+      "restored_model_optimizer_RNG": true,
+      "seconds": 3245.7006682569627,
+      "target_visits": 5935200,
+      "updates": 46400
+    }
+  ],
+  "seconds": 9372.836858257942
+}

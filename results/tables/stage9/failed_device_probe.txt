@@ -1,0 +1,4 @@
+Extra zero-update portability probe raised:
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument other in method wrapper_CUDA__equal)
+
+This was tensor verification, not a corrupt checkpoint. The independent restore audit confirms model/Adam values and CPU-map restoration. No new optimizer update, no validation error was computed. Raw error also appeared in execution tool output. Conservatively charge 5 seconds for this failed probe in gpu_usage.csv.

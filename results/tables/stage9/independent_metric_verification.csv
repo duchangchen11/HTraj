@@ -1,0 +1,4 @@
+model,targets,K,all_target_GT_SHA_match,independent_float64_ADE_max_difference,independent_float64_FDE_max_difference
+A,5203,20,True,1.8828749182020488e-07,3.318204822022608e-07
+B,5203,20,True,1.4876909837369112e-07,2.4100727991083204e-07
+C,5203,20,True,2.9133737600162135e-07,4.42871177064319e-07

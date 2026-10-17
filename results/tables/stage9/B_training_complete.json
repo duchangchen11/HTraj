@@ -1,0 +1,14 @@
+{
+  "allocated": 396833792,
+  "epochs": 200,
+  "final_SHA": "1ae7c7dd7eb20458ec878434398458b05f134041985b1eebfeba0f85d2429d9b",
+  "final_checkpoint": "experiments/stage9/cache/checkpoints/B_epoch200.pt",
+  "initial_SHA": "cde4a6292d6a7d7dcdb4249b60810c861d0d56076c2afe9eb9338da4f542436c",
+  "model": "B",
+  "parameters": 3157384,
+  "reserved": 463470592,
+  "restored_model_optimizer_RNG": true,
+  "seconds": 3092.0185462409863,
+  "target_visits": 5935200,
+  "updates": 46400
+}

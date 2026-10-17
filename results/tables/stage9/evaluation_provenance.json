@@ -1,0 +1,27 @@
+{
+  "analysis_SHA": "ae1f20be2d2f8b144bae365d5090e50bb47fcba16d18d4fbf48f7f4d891a1f5a",
+  "author_weights_used_for_initialization": false,
+  "executor_SHA": "1a05a96f2e29bebdbae199b64384b5cb92a92d00737aef75fdbc5ccc5adb0bce",
+  "manifest_SHA": "67b09f0ebecf260d32eaf133d060a880dce9f313837c96a5049f244aa3dde348",
+  "model_code_SHA": "cda61450bcca701955c0e104cd599cea314138a7d1324b2d05d3daabad709e37",
+  "official_source_commits": [
+    {
+      "commit": "7358b3d4fd3fcf160c18be9425445a67ee8211ee",
+      "path": "experiments/stage8/cache/Re",
+      "status": ""
+    },
+    {
+      "commit": "c7233b3f7e7305294b1d5644e695b44727ac0bea",
+      "path": "experiments/stage8/cache/Re/qpid",
+      "status": ""
+    },
+    {
+      "commit": "b25d44354a75f7652c25c37aa9c16b353578ad79",
+      "path": "experiments/stage8/cache/Re/dataset_original",
+      "status": ""
+    }
+  ],
+  "pre_evaluation_commit": "d2308d500a4d6c3b655a5af9628a644eae52f9c7",
+  "test_files_or_scores_used_for_model_selection": false,
+  "training_config_SHA": "e86f985aafa4f14ea5fc593fb64c08fa1be46ac632fe80d4db77d05cd60c68c8"
+}

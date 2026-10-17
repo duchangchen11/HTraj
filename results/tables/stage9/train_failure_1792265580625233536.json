@@ -1,0 +1,4 @@
+{
+  "error": "Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument other in method wrapper_CUDA__equal)",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lrj/HTraj/scripts/stage9/execute.py\", line 171, in <module>\n    elif a.mode=='train':train()\n  File \"/home/lrj/HTraj/scripts/stage9/execute.py\", line 133, in train\n    if isinstance(v,torch.Tensor):assert torch.equal(v,opt2.state[p2][k])\nRuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument other in method wrapper_CUDA__equal)\n"
+}

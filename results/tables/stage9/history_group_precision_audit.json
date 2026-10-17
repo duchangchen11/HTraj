@@ -1,0 +1,6 @@
+{
+  "all_target_keys_match": true,
+  "differing_group_membership": [],
+  "no_validation_errors_read": true,
+  "reason": "Same thresholds; Stage8 float64 raw vs Stage9 float32 model-aligned historical coordinates; rules fixed before validation errors"
+}

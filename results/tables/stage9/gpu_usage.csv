@@ -5,3 +5,10 @@ pretraining_structure_tests,3.663819829991553
 pretraining_structure_tests,3.0456543740001507
 timing,15.800494061026257
 data_preparation_conservative_wall_from_file_timestamps,22.228291273117065
+restore_device_precheck_fixed,1.8217764819855802
+failed_device_comparison_probe_upper_bound,5.0
+pretraining_full_test_suite_conservative_wall,16.686
+train,3035.1176437599934
+formal_B_C_continuation_and_restoration,6340.324876333005
+evaluate,8.777680227998644
+final_full_test_suite_conservative_wall,18.187089876038954

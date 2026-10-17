@@ -1,0 +1,16 @@
+{
+  "allocated": 377464832,
+  "epochs": 200,
+  "final_SHA": "47a337d4463264d1c780232583cf376751861a80bf39ef1bde2bb67ce3c91237",
+  "final_checkpoint": "experiments/stage9/cache/checkpoints/A_epoch200.pt",
+  "initial_SHA": "57a4021cc39c13c3715eaa851f83daca864d96cd24d35c79091091a41cebc513",
+  "model": "A",
+  "parameters": 3149192,
+  "reserved": 450887680,
+  "restoration_verified_after_device_fix": true,
+  "restored_model_optimizer_RNG": true,
+  "seconds": 3035.1176437599934,
+  "seconds_basis": "Original complete A process wall including failed device-only comparison; preserved, no repeated updates",
+  "target_visits": 5935200,
+  "updates": 46400
+}

@@ -38,7 +38,7 @@ def run():
     frozen_cfg=subprocess.check_output(['git','show','c5d2fb2:configs/stage9/training.json'],cwd=ROOT)
     assert hashlib.sha256(frozen_model).hexdigest()==sha(ROOT/'scripts/stage9/common.py')
     assert hashlib.sha256(frozen_cfg).hexdigest()==sha(ROOT/'configs/stage9/training.json')
-    (OUT/'executor_recovery_diff.txt').write_bytes(subprocess.check_output(['git','diff','c5d2fb2','837da7b','--','scripts/stage9/execute.py'],cwd=ROOT))
+    (OUT/'executor_recovery_diff.txt').write_bytes(subprocess.check_output(['git','diff','--unified=0','c5d2fb2','837da7b','--','scripts/stage9/execute.py'],cwd=ROOT))
     sources=json.loads((OUT/'source_versions.json').read_text())
     for r in sources['repositories']:
         assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT/r['path'],text=True).strip()==r['commit']

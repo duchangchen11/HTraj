@@ -1,0 +1,59 @@
+{
+  "A_extra_fraction": 0.0026013021752881375,
+  "BC_parameter_difference_fraction": 0.0,
+  "limits": "Same trainable count not same function class. Gradient evidence is in structure_tests.json. No randomly initialized inactive dummy weights.",
+  "models": [
+    {
+      "initial_checkpoint_SHA": "57a4021cc39c13c3715eaa851f83daca864d96cd24d35c79091091a41cebc513",
+      "model": "A",
+      "new_weight_count": 0,
+      "new_weight_shapes": {},
+      "shared_state_tensors": 306,
+      "shared_tensors_bitwise_equal": true
+    },
+    {
+      "initial_checkpoint_SHA": "cde4a6292d6a7d7dcdb4249b60810c861d0d56076c2afe9eb9338da4f542436c",
+      "model": "B",
+      "new_weight_count": 8192,
+      "new_weight_shapes": {
+        "rc.joint.0.weight": [
+          32,
+          128
+        ],
+        "rc.joint.2.weight": [
+          128,
+          32
+        ]
+      },
+      "shared_state_tensors": 306,
+      "shared_tensors_bitwise_equal": true
+    },
+    {
+      "initial_checkpoint_SHA": "fd7c97225b2c1e5630ce4c405a5c9856d90f1bd913446f760605a0b4eed31854",
+      "model": "C",
+      "new_weight_count": 8192,
+      "new_weight_shapes": {
+        "rc.cross.weight": [
+          128,
+          32
+        ],
+        "rc.motion.weight": [
+          32,
+          64
+        ],
+        "rc.pos.weight": [
+          32,
+          64
+        ]
+      },
+      "shared_state_tensors": 306,
+      "shared_tensors_bitwise_equal": true
+    }
+  ],
+  "nominal_params": {
+    "A": 3149192,
+    "B": 3157384,
+    "C": 3157384
+  },
+  "passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "failures": [
+    {"phase":"synthetic structure attempt1","issue":"torch.full empty-neighbor tensor inferred int64","resolution":"Explicit float32 input","evidence":"structure_tests.txt"},
+    {"phase":"synthetic structure attempt2","issue":"Test incorrectly required nonzero centered covariance gradient with single neighbor","resolution":"Require nonzero new-branch gradient at N57; preserve true zero at count<=1","evidence":"structure_tests_retry1.txt"},
+    {"phase":"synthetic structure attempt3","issue":"ReLU joint MLP was locally linear on fixed pairing witness","resolution":"Before training/validation precision use Tanh nonlinear MLP, same weights/count","evidence":"structure_tests_retry2.txt"},
+    {"phase":"budget report command","issue":"System Python3.8 cannot import Python3.10 NumPy binary; no model execution","resolution":"Use isolated Stage8 Python3.10, never change old environment","evidence":"reports/stage9/03_TRAINING_BUDGET.md"},
+    {"phase":"extra checkpoint portability probe","issue":"CPU-CUDA torch.equal rejects different-device Adam step tensors","resolution":"Values identical after device alignment; CPU-map strict restoration verified","evidence":"restore_device_precheck.json"}
+  ],
+  "no_hyperparameter_or_validation_accuracy_search":true,
+  "no_OOM_or_nonfinite_training_recorded_at_catalogue_creation":true
+}

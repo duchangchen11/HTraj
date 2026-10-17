@@ -1,0 +1,1 @@
+Actual initial shared tensors bitwise identical; B/C both extra8192; provenance saved
