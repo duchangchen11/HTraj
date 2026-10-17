@@ -1,0 +1,49 @@
+{
+  "ETH_rule": "Replaced by official five-fold split; ETH test scores never used for tuning; no ETH model evaluation in this preparation stage",
+  "automatic_push": false,
+  "base_commit": "81a2e239e8ee79c07d19e319401c0f96c0b5e7ec",
+  "context_rule": "Unmodified official preprocessor, min_past_frames=8 and min_future_frames=12",
+  "coordinate_unit": "m",
+  "dt_seconds": 0.4,
+  "expected_recordings": [
+    "biwi_eth",
+    "biwi_hotel",
+    "crowds_zara01",
+    "crowds_zara02",
+    "crowds_zara03",
+    "students001",
+    "students003",
+    "uni_examples"
+  ],
+  "folds": [
+    "eth",
+    "hotel",
+    "univ",
+    "zara1",
+    "zara2"
+  ],
+  "formal_epochs": 0,
+  "highest_density_OOM": "Persist failure; no deleting actors or retuning core; declare resource gate failed unless a separately frozen non-truncating execution plan is validated",
+  "inference": "CVAE prior or full CVAE+DLow infer; never reconstruction; samples only",
+  "maximum_smoke_optimizer_updates": 12,
+  "metrics": "Per target-window minADE@20 and minFDE@20 independently; target-weighted within fold; unweighted five-fold mean",
+  "model_core_changes": false,
+  "obs_len": 8,
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "official_repository": "https://github.com/Khrylx/AgentFormer",
+  "original_losses": true,
+  "pred_len": 12,
+  "pretrained_download_attempts": "Author Drive link and one alternate download endpoint; Baidu landing metadata only, no credential requests",
+  "previous_strict_history_neighbor_protocol": "Preserved, not imposed on official AgentFormer and never ranked together",
+  "protocol": "HTraj-AgentFormer-OfficialETHUCY8x12-K20-v1",
+  "sample_k": 20,
+  "smoke_budget": "At most six scene cases and one Adam update per stage (CVAE and DLow) per case; no epoch",
+  "smoke_case_rule": "First single, first multiple, largest complete20 context from official training pool, deduplicated; never truncate context",
+  "smoke_folds": [
+    "hotel",
+    "zara2"
+  ],
+  "smoke_seed": 17,
+  "strict_checkpoint_loading": true,
+  "user_authorized_protocol_transition": true
+}
