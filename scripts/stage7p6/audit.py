@@ -191,9 +191,13 @@ def analyze():
         'results/tables/stage7p4/execution_v2/CVAE_epoch.json','results/tables/stage7p4/execution_v2/DLow_epoch.json',
         'results/tables/stage7p4/execution_v2/compute_budget.json',
         'configs/stage5p1/manifests/biwi_hotel/B.json','configs/stage5p1/manifests/crowds_zara02/B.json']
-    sources += [str(p.relative_to(ROOT)) for p in (ROOT/'experiments/stage7p6/cache/literature').rglob('*') if p.is_file()]
+    sources += [str(p.relative_to(ROOT)) for p in (ROOT/'experiments/stage7p6/cache/literature').rglob('*')
+                if p.is_file() and '.git' not in p.parts]
     sources += ['experiments/stage7/cache/AgentFormer/'+OFFICIAL+'/'+p for p in
         ('data/preprocessor.py','model/agentformer.py','model/agentformer_loss.py','model/dlow.py','model/agentformer_lib.py')]
+    sources += ['results/tables/stage7p2/official_data_audit.json', 'configs/stage7p2/benchmark_protocol.json',
+        'experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/data.py',
+        'experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/social_vae.py']
     csv_new(OUT/'evidence_SHA256.csv', [dict(path=p, sha256=digest(ROOT/p), bytes=(ROOT/p).stat().st_size)
                                     for p in sorted(sources)])
     json_new(OUT/'execution_record.json', dict(base_commit=BASE,

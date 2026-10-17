@@ -1,0 +1,42 @@
+{
+  "examples": [
+    {
+      "ELBO": -1.7655121234846454,
+      "KL_s": 0.09657359027997264,
+      "KL_u": 0.0,
+      "gap": 0.2972674459459177,
+      "log_evidence": -1.4682446775387277,
+      "noise_variance": 1.0,
+      "q_s_mu": 0.0,
+      "q_s_variance": 0.5,
+      "true_posterior_u_mu": 0.0,
+      "y": 0.0
+    },
+    {
+      "ELBO": -3.4550044205920885,
+      "KL_s": 1.1048616998896104,
+      "KL_u": 0.0,
+      "gap": 1.2779205214503384,
+      "log_evidence": -2.17708389914175,
+      "noise_variance": 0.5,
+      "q_s_mu": 1.3333333333333333,
+      "q_s_variance": 0.3333333333333333,
+      "true_posterior_u_mu": 0.8,
+      "y": 2.0
+    },
+    {
+      "ELBO": -13.239320895834108,
+      "KL_s": 7.355972429787615,
+      "KL_u": 0.0,
+      "gap": 8.139889880740938,
+      "log_evidence": -5.09943101509317,
+      "noise_variance": 0.1,
+      "q_s_mu": 3.6363636363636362,
+      "q_s_variance": 0.09090909090909091,
+      "true_posterior_u_mu": 1.9047619047619047,
+      "y": 4.0
+    }
+  ],
+  "kind": "Analytic toy Gaussian, no forecast",
+  "no_model_import_or_execution": true
+}

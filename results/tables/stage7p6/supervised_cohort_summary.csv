@@ -1,0 +1,5 @@
+fold,split,supervised_windows,context_node_windows,supervised_target_windows,incomplete_future_node_windows,mixed_label_windows,no_future_node_windows,partial_history_excluded,max_context
+biwi_hotel,train,2121,37502,27145,10357,1818,893,12235,73
+biwi_hotel,validation,94,713,318,395,94,37,506,15
+crowds_zara02,train,1684,32920,23545,9375,1440,832,11555,73
+crowds_zara02,validation,172,1486,1092,394,123,33,443,13

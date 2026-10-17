@@ -1,0 +1,176 @@
+{
+  "new_inference": false,
+  "scope": "Strict-history adapter prior tests, not proof official complete20 eligibility is causal",
+  "tests": [
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "990281d2b58036c7ce81419f6406bc146634c1b4546b4c5bb4c4d642b81a6496",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/future_only_actor.txt",
+      "source": "results/tables/stage7p1/counterfactuals/biwi_hotel_future_only_actor.json",
+      "source_SHA256": "4620b8d3b49a0abda8c178da9b57b19260868cb873c0c9bb574f1e1ee49647b6"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "0ac0879a0e0301fd6b790913f6249503f98aa9812355be3ea3ef01f31cdc6db9",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/future_positions.txt",
+      "source": "results/tables/stage7p1/counterfactuals/biwi_hotel_future_positions.json",
+      "source_SHA256": "f3f6f17c7f6f2fdd8da97e489419a5735afa3b466ca59949e77561b13398753c"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "88fa2c638f53616e9d1ef44fe03f62cead3b2c16b5e2b981a903875d50fecd18",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/neighbor_future_deleted.txt",
+      "source": "results/tables/stage7p1/counterfactuals/biwi_hotel_neighbor_future_deleted.json",
+      "source_SHA256": "fdff70338ed2f247ff9a6f541c51ba6d3c730b96461a074a8c75c142d57a7b63"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "88fa2c638f53616e9d1ef44fe03f62cead3b2c16b5e2b981a903875d50fecd18",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/neighbor_future_shortened.txt",
+      "source": "results/tables/stage7p1/counterfactuals/biwi_hotel_neighbor_future_shortened.json",
+      "source_SHA256": "4d826655ff8a88275a15d17c4b0c8d91b87c292b5b44d2811b711991287ae212"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "b9f7f78abe5c1b5b1f101a7fcfa65945240ba268810e2187b83841de42d06136",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/biwi_hotel/non_target_future_changed.txt",
+      "source": "results/tables/stage7p1/counterfactuals/biwi_hotel_non_target_future_changed.json",
+      "source_SHA256": "df5fb491fe51c030d2e6b460cae0ddf8e048eb8bc1169fdb41eb472ac2ab6e1e"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "d3d51dfb2beb907bce466c783790ac686a0db740b3ce932d2cd358d4799c5575",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/future_only_actor.txt",
+      "source": "results/tables/stage7p1/counterfactuals/crowds_zara02_future_only_actor.json",
+      "source_SHA256": "5b12f3bb080bce71e09f980d5d1d36b00dda5c47eb83fcd41115f82e3623dfa9"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "aa3f4a7ec47e6636315082fd0638fe80d63e1966cccfb8f7cd79f78780bc6216",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/future_positions.txt",
+      "source": "results/tables/stage7p1/counterfactuals/crowds_zara02_future_positions.json",
+      "source_SHA256": "b7ad1735e75488d10209074fe43031f4be20c738480342bd8ca769018fcf34d3"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "08f7e3e89c6c1b6ca2153de6c3b032a67de1f10dfd5787c14540c43a3e365de3",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/neighbor_future_deleted.txt",
+      "source": "results/tables/stage7p1/counterfactuals/crowds_zara02_neighbor_future_deleted.json",
+      "source_SHA256": "a061a369653002fdba61ce481098b7a303c91cf8af8059bca32a0394818c27a5"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "65202017a9df84279d0af4cd20b32473119a48be99e3a5c646ede4c9d21cdab0",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/neighbor_future_shortened.txt",
+      "source": "results/tables/stage7p1/counterfactuals/crowds_zara02_neighbor_future_shortened.json",
+      "source_SHA256": "502a158b273cfd07cc8363fe36d7e68d5f4c9a88b6643cf66b9b59d8fed76707"
+    },
+    {
+      "K1_max_difference": 0.0,
+      "K20_max_difference": 0.0,
+      "checks": {
+        "K1_historical_model_fingerprints_equal": true,
+        "K1_prediction_equal": true,
+        "K20_historical_model_fingerprints_equal": true,
+        "K20_prediction_equal": true,
+        "context_ids_equal": true,
+        "history_sha_equal": true,
+        "partial_ids_equal": true
+      },
+      "raw_SHA256": "818b09ca2e925349a6a9c608627fda827be08e029b474fbdbe9ed37a3c0e8a7c",
+      "raw_path": "experiments/stage7p1/cache/raw_counterfactuals/crowds_zara02/non_target_future_changed.txt",
+      "source": "results/tables/stage7p1/counterfactuals/crowds_zara02_non_target_future_changed.json",
+      "source_SHA256": "f9c312038c1099b3cdcb402ef5a39e592b7a7a771c2382be6aa76f1bd5b98fb3"
+    }
+  ]
+}

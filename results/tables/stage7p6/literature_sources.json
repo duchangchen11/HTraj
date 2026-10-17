@@ -1,0 +1,331 @@
+{
+  "additional_retrievals": [
+    {
+      "bytes": 5401,
+      "path": "experiments/stage7p6/cache/literature/UniTraj_README.md",
+      "sha256": "b878b13c955e1ae839a6b5d03a43bfe95fee9e4b9c0c25f71a5876d5649430d6",
+      "url": "https://raw.githubusercontent.com/colorfulfuture/UniTraj-pytorch/bfebe75c863fddff535ac4e381246d997f554db1/README.md"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378437125000871"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.sciencedirect.com/science/article/pii/S037843712600302X"
+    }
+  ],
+  "limitations": [
+    "OpenAlex fallback HTTP429; no academic MCP available",
+    "SocialTrans and Inter-GraphFormer publisher fetch403; prior OpenReview browser challenge not bypassed",
+    "No full-method novelty certification for these two papers",
+    "Guessed TranSPORTmer/U2Diff repository URLs unavailable; not evidence no public source exists",
+    "GMC-VRNN TPAMI2025 early online /2026issue metadata found, full code/method unresolved; not used to claim exact solution"
+  ],
+  "misleading_repository_redirect": {
+    "actual_readme_title": "Sports-Traj, ICLR2025; not a verified GMC-VRNN implementation",
+    "commit": "bfebe75c863fddff535ac4e381246d997f554db1",
+    "repo": "colorfulfuture/UniTraj-pytorch"
+  },
+  "no_training_or_downloaded_source_execution": true,
+  "pdf_manifest": [
+    {
+      "bytes": 8481952,
+      "name": "transportmer",
+      "path": "experiments/stage7p6/cache/literature/transportmer.pdf",
+      "sha256": "ebf1b86a7b3d86b1903dda80ec20dde9a87bc43028fec0e3c0b7d81a3b3006c2",
+      "text_path": "experiments/stage7p6/cache/literature/transportmer.txt",
+      "text_sha256": "dfab638d3d9852a8528add7c18cba6328cd40bd3fd3bceb436e05e106bf371a4",
+      "url": "https://arxiv.org/pdf/2410.17785v2"
+    },
+    {
+      "bytes": 4261314,
+      "name": "ms_tip",
+      "path": "experiments/stage7p6/cache/literature/ms_tip.pdf",
+      "sha256": "eeb60725fbc8b568ef1e0f6d8063a787a119b01efc04d29a1fe6b8e6ff6c050c",
+      "text_path": "experiments/stage7p6/cache/literature/ms_tip.txt",
+      "text_sha256": "4ef8b27f19b6a5ef664532a3049a082cd5da325072f763af78a0cf2a90c8e6d3",
+      "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chib24a/chib24a.pdf"
+    },
+    {
+      "bytes": 2002347,
+      "name": "gc_vrnn",
+      "path": "experiments/stage7p6/cache/literature/gc_vrnn.pdf",
+      "sha256": "5758812dd6f840c47d6255370b42406b559e7abb21c2c12a390195b3421a0b2b",
+      "text_path": "experiments/stage7p6/cache/literature/gc_vrnn.txt",
+      "text_sha256": "c3020e8028a96e1426d91b51ac2c7a93611d2e2cde010c8320e326ed10eb17c7",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Uncovering_the_Missing_Pattern_Unified_Framework_Towards_Trajectory_Imputation_and_CVPR_2023_paper.pdf"
+    },
+    {
+      "bytes": 4085607,
+      "name": "posterior_matching",
+      "path": "experiments/stage7p6/cache/literature/posterior_matching.pdf",
+      "sha256": "782adcec53a049beb3cf5b784a300f5bd8bd64c33afe148d0913da275c2ee7bd",
+      "text_path": "experiments/stage7p6/cache/literature/posterior_matching.txt",
+      "text_sha256": "bc1439deaa7c9b4160b949eb6d0c9f27aa2f24ea09c7d4d2a6df42886bd27adc",
+      "url": "https://arxiv.org/pdf/2201.12414"
+    },
+    {
+      "bytes": 4909926,
+      "name": "u2diff",
+      "path": "experiments/stage7p6/cache/literature/u2diff.pdf",
+      "sha256": "db1b77268b417a9e1ce50d081c57f3e19256eeaf0f534829b4b2879a9cab81b3",
+      "text_path": "experiments/stage7p6/cache/literature/u2diff.txt",
+      "text_sha256": "80c229b14032133f55664a446c6c0baa52dc918d1e7cb3e2f6821515fcb505ce",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Capellera_Unified_Uncertainty-Aware_Diffusion_for_Multi-Agent_Trajectory_Modeling_CVPR_2025_paper.pdf"
+    },
+    {
+      "bytes": 10032523,
+      "name": "socialvae",
+      "path": "experiments/stage7p6/cache/literature/socialvae.pdf",
+      "sha256": "5e3b65f0b3d10c8a8e0087abd469a4c16245cb011d310553cca363c990f84d4c",
+      "text_path": "experiments/stage7p6/cache/literature/socialvae.txt",
+      "text_sha256": "7b8f1d44f50d09c586fb4e9c68b0b70b4a3b73dc38d77379c6af727fdea69391",
+      "url": "https://arxiv.org/pdf/2203.08207"
+    }
+  ],
+  "queries": [
+    "partial observation trajectory prediction",
+    "missing trajectory supervision",
+    "dynamic agent set forecasting",
+    "causal pedestrian trajectory forecasting",
+    "masked conditional variational autoencoder",
+    "variable pedestrian population forecasting"
+  ],
+  "queries_coverage": "Author/arXiv/CVF/PMLR/publisher/GitHub; older foundational precedents retained",
+  "repository_manifest": [
+    {
+      "commit": "1031c7bd1a444273af378c1ec1dcca907ba59830",
+      "files": [
+        {
+          "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1145)>",
+          "url": "https://raw.githubusercontent.com/StanfordASL/Trajectron-plus-plus/1031c7bd1a444273af378c1ec1dcca907ba59830/README.md"
+        },
+        {
+          "bytes": 11047,
+          "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/model/dataset/preprocessing.py",
+          "sha256": "691c0f286e35c1a3082c4d90c0a156b5bc6b0f893223e32dd957400cfb6a2921",
+          "url": "https://raw.githubusercontent.com/StanfordASL/Trajectron-plus-plus/1031c7bd1a444273af378c1ec1dcca907ba59830/trajectron/model/dataset/preprocessing.py"
+        },
+        {
+          "bytes": 58313,
+          "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/model/mgcvae.py",
+          "sha256": "1fad98ec8ae3873a32d3d93f8f4c4d6a06cceeb277169e2ad49e602ad3ccfe6c",
+          "url": "https://raw.githubusercontent.com/StanfordASL/Trajectron-plus-plus/1031c7bd1a444273af378c1ec1dcca907ba59830/trajectron/model/mgcvae.py"
+        },
+        {
+          "bytes": 9509,
+          "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/environment/scene.py",
+          "sha256": "fe105e4cd43f9e6c6ceab116b1283a8a1530435ba81e0161d9a3ef85967fbf86",
+          "url": "https://raw.githubusercontent.com/StanfordASL/Trajectron-plus-plus/1031c7bd1a444273af378c1ec1dcca907ba59830/trajectron/environment/scene.py"
+        },
+        {
+          "bytes": 19384,
+          "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/environment/scene_graph.py",
+          "sha256": "f7cca2ffec1a0b166a99764211168c1d2d3dc40c766adb5776b1effc20a45079",
+          "url": "https://raw.githubusercontent.com/StanfordASL/Trajectron-plus-plus/1031c7bd1a444273af378c1ec1dcca907ba59830/trajectron/environment/scene_graph.py"
+        }
+      ],
+      "repo": "StanfordASL/Trajectron-plus-plus",
+      "status": "version_frozen"
+    },
+    {
+      "error": "fatal: could not read Username for 'https://github.com': No such device or address\n",
+      "repo": "guillem-cf/TranSPORTmer",
+      "status": "not_accessible"
+    },
+    {
+      "error": "fatal: could not read Username for 'https://github.com': No such device or address\n",
+      "repo": "guillem-cf/U2Diff",
+      "status": "not_accessible"
+    },
+    {
+      "commit": "888a95f828ef516a803e4a6e00ad45b219c9b938",
+      "files": [
+        {
+          "bytes": 1838,
+          "path": "experiments/stage7p6/cache/literature/MS-TIP/README.md",
+          "sha256": "8330232656b76b222b2cc1b723b58f6301eaab6ce4248175825972bd26c9bff0",
+          "url": "https://raw.githubusercontent.com/Pranav-chib/MS-TIP/888a95f828ef516a803e4a6e00ad45b219c9b938/README.md"
+        },
+        {
+          "bytes": 14690,
+          "path": "experiments/stage7p6/cache/literature/MS-TIP/train.py",
+          "sha256": "546103525d61e96af0df6c34ec9b0f39fc86ec962537f0b2550a8ef2dc4237d7",
+          "url": "https://raw.githubusercontent.com/Pranav-chib/MS-TIP/888a95f828ef516a803e4a6e00ad45b219c9b938/train.py"
+        },
+        {
+          "error": "HTTP Error 404: Not Found",
+          "url": "https://raw.githubusercontent.com/Pranav-chib/MS-TIP/888a95f828ef516a803e4a6e00ad45b219c9b938/utils/utils.py"
+        }
+      ],
+      "repo": "Pranav-chib/MS-TIP",
+      "status": "version_frozen"
+    }
+  ],
+  "rows": [
+    {
+      "code_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+      "code_url": "https://github.com/Khrylx/AgentFormer",
+      "dynamic_population": "Variable N across scenes; not a birth/death forecast",
+      "history_only_context": "Prior input uses history after selection; selection uses future existence",
+      "incomplete_future_context": "No: frozen complete20 loader excludes them",
+      "name": "AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting",
+      "paper_url": "https://arxiv.org/abs/2103.14023",
+      "posterior_treatment": "12C future tokens, allC KL; loss mask is not posterior mask",
+      "relation_to_proposal": "Specific implementation incompatibility demonstrated; not a general CVAE impossibility",
+      "review_scope": "Stage7.1/7.2 source and this static reread; original paper reused",
+      "standard_ETH_UCY_targets": "Official original fivefold yes",
+      "venue": "ICCV",
+      "year": 2021
+    },
+    {
+      "code_commit": "1031c7bd1a444273af378c1ec1dcca907ba59830",
+      "code_url": "https://github.com/StanfordASL/Trajectron-plus-plus",
+      "dynamic_population": "Dynamic scene graph, variable neighbors; no assertion of full unseen-agent generation",
+      "history_only_context": "Neighbor feature slice is historical; precomputed graph t_fut can use future adjacency, so not end-to-end causal certified",
+      "incomplete_future_context": "Yes in target-centric representation: neighbors are not full-future supervision targets",
+      "name": "Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data",
+      "paper_url": "https://arxiv.org/abs/2001.03093",
+      "posterior_treatment": "Target own future encoder; neighbors contribute to historical x, not required as future tokens",
+      "relation_to_proposal": "C/S separation is prior art; not an identical joint AgentFormer posterior",
+      "review_scope": "Fixed preprocessing.py/mgcvae.py/scene.py/scene_graph.py; foundational precedent outside2022-2026",
+      "standard_ETH_UCY_targets": "ETH/UCY supported; exact evaluator/objects not revalidated this stage",
+      "venue": "ECCV",
+      "year": 2020
+    },
+    {
+      "code_commit": "eb23cbae562bac2c2dcf0d81529e6ab2ac280962",
+      "code_url": "https://github.com/xupei0610/SocialVAE",
+      "dynamic_population": "Per-time neighbor mask allows appearing/disappearing context; no novel-agent birth distribution claimed",
+      "history_only_context": "Inference can use historical features; raw official union-of20 eligibility not certified causal here",
+      "incomplete_future_context": "Yes: target complete20, other actors may lack observations/future; sentinel and distance validity",
+      "name": "SocialVAE: Human Trajectory Prediction using Timewise Latents",
+      "paper_url": "https://arxiv.org/abs/2203.08207",
+      "posterior_treatment": "Training backward RNN uses AVAILABLE neighbor future features too; missing future contributions masked by validity/radius",
+      "relation_to_proposal": "Direct precedent for incomplete-neighbor context; not proof original AgentFormer rectangular posterior already solved",
+      "review_scope": "Full open paper and data.py/social_vae.py at frozen commit",
+      "standard_ETH_UCY_targets": "ETH/UCY8/12 supported; FPC/evaluator differ from AgentFormer",
+      "venue": "ECCV",
+      "year": 2022
+    },
+    {
+      "code_commit": "08a355ddd22d0cfb14287e02bf30b439c21a0058",
+      "code_url": "https://github.com/lupalab/posterior-matching",
+      "dynamic_population": "Not studied",
+      "history_only_context": "Observed-feature masks, not pedestrian context rules",
+      "incomplete_future_context": "Not a pedestrian-future task; arbitrary conditioning supported",
+      "name": "Posterior Matching for Arbitrary Conditioning",
+      "paper_url": "https://arxiv.org/abs/2201.12414",
+      "posterior_treatment": "Partial posterior learned by matching full posterior samples; base training still uses complete x",
+      "relation_to_proposal": "General masked/partial posterior is established; does not prove naturally absent future labels handled under MNAR",
+      "review_scope": "Full paper Sec3/4 and AppendixE; models/vae.py",
+      "standard_ETH_UCY_targets": "No",
+      "venue": "NeurIPS",
+      "year": 2022
+    },
+    {
+      "code_commit": "b0bcad969616a575567dee90a88daba59ddcbcd7",
+      "code_url": "https://github.com/colorfulfuture/GC-VRNN",
+      "dynamic_population": "Simulates camera visibility/entry/exit over fixed agents; not automatically variable future identity set",
+      "history_only_context": "Handles incomplete past; does not certify causal C/S rule",
+      "incomplete_future_context": "Not established for naturally absent future labels: Eq1 future y and Eq19 all-agent prediction likelihood",
+      "name": "Uncovering the Missing Pattern: Unified Framework Towards Trajectory Imputation and Prediction",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Uncovering_the_Missing_Pattern_Unified_Framework_Towards_Trajectory_Imputation_and_CVPR_2023_paper.html",
+      "posterior_treatment": "Conditional VRNN prior/posterior, imputation+prediction sequential ELBO, temporal decay",
+      "relation_to_proposal": "Related missing observation work; not identical missing future supervision",
+      "review_scope": "Full paper Sec3/4/5; repository contains README and supplement, not released implementation",
+      "standard_ETH_UCY_targets": "Basketball-TIP/Football-TIP/Vehicle-TIP; not standard ETH main evaluation",
+      "venue": "CVPR",
+      "year": 2023
+    },
+    {
+      "code_commit": "888a95f828ef516a803e4a6e00ad45b219c9b938",
+      "code_url": "https://github.com/Pranav-chib/MS-TIP",
+      "dynamic_population": "Missing past coordinates, not explicit unseen future agent generation",
+      "history_only_context": "Artificial and native missing-history masks; history context qualification not fully code-audited",
+      "incomplete_future_context": "Not demonstrated: Eq22/23 use future control-point GT; not inferred from history-imputation title",
+      "name": "MS-TIP: Imputation Aware Pedestrian Trajectory Prediction",
+      "paper_url": "https://proceedings.mlr.press/v235/chib24a.html",
+      "posterior_treatment": "Not an AgentFormer CVAE; imputation plus GMM/control-point/refinement objectives",
+      "relation_to_proposal": "Partial-history problem is well studied; future-unlabeled joint posterior remains a different question",
+      "review_scope": "Full paper Sec3.1/3.2/3.6/4.1; frozen README/train.py",
+      "standard_ETH_UCY_targets": "ETH/UCY8/12 andSDD,20 samples; exact cohort equivalence not demonstrated",
+      "venue": "ICML/PMLR235",
+      "year": 2024
+    },
+    {
+      "code_commit": "not_frozen",
+      "code_url": "Unverified author code location",
+      "dynamic_population": "Variable length/N padding supported; sports roster and full birth/death are different",
+      "history_only_context": "Arbitrary conditioning mask supports forecast; other tasks intentionally allow future conditioning",
+      "incomplete_future_context": "Yes at masking/missing-training level: unavailable goalkeeper observations ignored; NOT a CVAE proof",
+      "name": "TranSPORTmer: A Holistic Approach to Trajectory Understanding in Multi-Agent Sports",
+      "paper_url": "https://arxiv.org/abs/2410.17785",
+      "posterior_treatment": "Deterministic Set Attention; observation/prediction mask plus distinct NaN-mask, no CVAE KL",
+      "relation_to_proposal": "Direct precedent for separate observation/label-validity masks; general mask engineering cannot be claimed new",
+      "review_scope": "Full v2 paper Sec4.1-4.3; supplementSec4 andSec6",
+      "standard_ETH_UCY_targets": "SupplementSec6 ETH/UCY8/12/2.5Hz deterministic comparison; not AgentFormerK20 matched cohort",
+      "venue": "ACCV",
+      "year": 2024
+    },
+    {
+      "code_commit": "not_frozen",
+      "code_url": "Unverified author implementation location",
+      "dynamic_population": "Variable agent/time attention axes; no assertion of online birth/death handling",
+      "history_only_context": "History-only is a possible mask; task also permits other temporal conditioning",
+      "incomplete_future_context": "Arbitrary completion conditioning; naturally absent supervised labels not established by conditioning mask alone",
+      "name": "Unified Uncertainty-Aware Diffusion for Multi-Agent Trajectory Modeling",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Capellera_Unified_Uncertainty-Aware_Diffusion_for_Multi-Agent_Trajectory_Modeling_CVPR_2025_paper.html",
+      "posterior_treatment": "Diffusion variational objective, not AgentFormer learned CVAE posterior",
+      "relation_to_proposal": "Related arbitrary-mask generative modeling, not an authorized new diffusion route",
+      "review_scope": "Full paper Sec4/5, not code executed",
+      "standard_ETH_UCY_targets": "Four sports datasets, no standard ETH/UCY table in inspected main protocol",
+      "venue": "CVPR",
+      "year": 2025
+    },
+    {
+      "code_commit": "not_obtained",
+      "code_url": "https://github.com/XiaodZhao/SocialTrans",
+      "dynamic_population": "State tensors adjusted to varying pedestrian counts; within-window future validity not established",
+      "history_only_context": "Unknown: claims variable number of neighbors, not proof of missing future labels",
+      "incomplete_future_context": "Unknown",
+      "name": "SocialTrans: Transformer based social intentions interaction for pedestrian trajectory prediction",
+      "paper_url": "https://doi.org/10.1016/j.physa.2025.130435",
+      "posterior_treatment": "Unknown masks, objective, posterior details",
+      "relation_to_proposal": "SIE/NPIE parallel state-intention processing, trajectory optimizer/clustering. Missing-label novelty unresolved",
+      "review_scope": "Publisher Introduction/Proposed approach/Conclusion indexed text; full equations unavailable",
+      "standard_ETH_UCY_targets": "ETH/UCY+SDD claimed; exact K/cohort not verified",
+      "venue": "PhysicaA663:130435",
+      "year": 2025
+    },
+    {
+      "code_commit": "not_obtained",
+      "code_url": "Author source not located",
+      "dynamic_population": "Unknown; directed sparse interaction graph is not a dynamic population guarantee",
+      "history_only_context": "Unknown",
+      "incomplete_future_context": "Unknown",
+      "name": "Inter-GraphFormer: A spatial-temporal graph transformer-based method for pedestrian trajectory prediction",
+      "paper_url": "https://doi.org/10.1016/j.physa.2026.131566",
+      "posterior_treatment": "CVAE reported; posterior token validity, KL and reconstruction denominators unknown",
+      "relation_to_proposal": "Directed weighted+sparse graph, parallel spatial/temporal Transformer, dualGLU, graphTransformer decoder; no verified C/S mechanism",
+      "review_scope": "Publisher detailed Introduction/contributions and CrossRef metadata; full equations unavailable",
+      "standard_ETH_UCY_targets": "ETH/UCY+SDD claimed; exact cohort/K not verified",
+      "venue": "PhysicaA694:131566",
+      "year": 2026
+    }
+  ],
+  "scope": "Focused reproducible search, not exhaustive systematic review",
+  "search_date": "2026-10-17",
+  "skill": "nature-academic-search multi-source workflow; OA primary PDFs only",
+  "successful_extra_repositories": [
+    {
+      "commit": "08a355ddd22d0cfb14287e02bf30b439c21a0058",
+      "repo": "lupalab/posterior-matching"
+    },
+    {
+      "commit": "b0bcad969616a575567dee90a88daba59ddcbcd7",
+      "repo": "colorfulfuture/GC-VRNN"
+    }
+  ]
+}

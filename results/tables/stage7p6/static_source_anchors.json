@@ -1,0 +1,141 @@
+{
+  "anchors": [
+    {
+      "claim": "get_valid_id requires past AND future existence",
+      "end_line": 88,
+      "file_SHA256": "dfea67e46f6d4718f9be8b7fa71af7e7a468671ccd06e48c319c756bddb212ca",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/data/preprocessor.py",
+      "selected_lines_SHA256": "f4221f063cfa1b3c7356936aa0dbfa0dd09126889d893da8eeb5933a8f65b142",
+      "start_line": 80
+    },
+    {
+      "claim": "generate_mask assumes same agent_num",
+      "end_line": 35,
+      "file_SHA256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "selected_lines_SHA256": "231d394a7ee222a458dd2bc262105f0461e4a3035b1d955705a48fc4a8da92a9",
+      "start_line": 26
+    },
+    {
+      "claim": "ContextEncoder historical scene_norm/velocity",
+      "end_line": 168,
+      "file_SHA256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "selected_lines_SHA256": "8f8f459bdc9daecc5433b11eac9f34a56786e4226dbdcfa621f76a151e47a506",
+      "start_line": 103
+    },
+    {
+      "claim": "FutureEncoder 12C tokens; fut_mask not used",
+      "end_line": 257,
+      "file_SHA256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "selected_lines_SHA256": "13e9ae2cfd04e21c88927f2e46b9bf795a998529ea2e56ec5bc9b821e76092ac",
+      "start_line": 171
+    },
+    {
+      "claim": "Learned prior history only, posterior latent only in training",
+      "end_line": 427,
+      "file_SHA256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "selected_lines_SHA256": "c2689526b18540de3127e34b7235702e56556092442c83cf2399a60ea3efe588",
+      "start_line": 395
+    },
+    {
+      "claim": "scene origin depends selected historical population",
+      "end_line": 526,
+      "file_SHA256": "0f3f40b683ae00909fbd30c88667e1fdca92f14e3ceb221962274aa1a5bd754f",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer.py",
+      "selected_lines_SHA256": "dfe20138ce8462a95a6db7545a9be515ebe3dcee537267920c1c9621525d8200",
+      "start_line": 522
+    },
+    {
+      "claim": "Reconstruction mask is not KL or posterior mask; normalize by C",
+      "end_line": 46,
+      "file_SHA256": "4a314fb4165c35ef819fd11ef5d5fe3194b6cab2956570c5c7f890aeb3e2d95b",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/agentformer_loss.py",
+      "selected_lines_SHA256": "4a314fb4165c35ef819fd11ef5d5fe3194b6cab2956570c5c7f890aeb3e2d95b",
+      "start_line": 1
+    },
+    {
+      "claim": "DLow KL/diversity/reconstruction have different GT dependencies",
+      "end_line": 50,
+      "file_SHA256": "2b50ff1fd272124958ab95f541b1f35656db4836d0adcb5ebf0ce6f510975043",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py",
+      "selected_lines_SHA256": "e8fae6955d5e6ead6383c54b13509a57f97fb8611736af5b47e7fd743fb40559",
+      "start_line": 11
+    },
+    {
+      "claim": "DLow mean=True deterministic latent heads from historical context",
+      "end_line": 130,
+      "file_SHA256": "2b50ff1fd272124958ab95f541b1f35656db4836d0adcb5ebf0ce6f510975043",
+      "path": "experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py",
+      "selected_lines_SHA256": "8dd4e07b8ffbf657b959886c2f00ec6e8995ab92e4d7d219cd8cad638eb02079",
+      "start_line": 97
+    },
+    {
+      "claim": "Complete target + potentially incomplete neighbor positions",
+      "end_line": 227,
+      "file_SHA256": "9f50b036168bb7c7de9408049d293646a63cee9720e0535cfca6ea9a9a50440d",
+      "path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/data.py",
+      "selected_lines_SHA256": "d3d4546ecae6ab86b88b94658a44f5812301a669458d584b209aa89d8a148fe0",
+      "start_line": 195
+    },
+    {
+      "claim": "Posterior uses available neighbor future; inference does not take y",
+      "end_line": 225,
+      "file_SHA256": "2582714db40220bc03946feeb132841655cd2941f4dff19602e40d0f46f2528f",
+      "path": "experiments/stage5/cache/socialvae/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/social_vae.py",
+      "selected_lines_SHA256": "4cc263fedb849e34c25c812ced9cbb42a14eaadbffbedfc5986e3a1e2280e38c",
+      "start_line": 170
+    },
+    {
+      "claim": "Target future separately; neighbor feature history slice",
+      "end_line": 150,
+      "file_SHA256": "691c0f286e35c1a3082c4d90c0a156b5bc6b0f893223e32dd957400cfb6a2921",
+      "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/model/dataset/preprocessing.py",
+      "selected_lines_SHA256": "f57eb73c5f7ae019eb66c0ca1ea84ae8b8006ab0a95cf1cb45a93d75d680a950",
+      "start_line": 88
+    },
+    {
+      "claim": "Target min_future not a direct full-future-neighbor filter",
+      "end_line": 240,
+      "file_SHA256": "691c0f286e35c1a3082c4d90c0a156b5bc6b0f893223e32dd957400cfb6a2921",
+      "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/model/dataset/preprocessing.py",
+      "selected_lines_SHA256": "ad1c0187e00d474ae2e50cd063c0582be533eb2169c49f318d281a8618ff5106",
+      "start_line": 212
+    },
+    {
+      "claim": "Target future encoder for posterior",
+      "end_line": 680,
+      "file_SHA256": "1fad98ec8ae3873a32d3d93f8f4c4d6a06cceeb277169e2ad49e602ad3ccfe6c",
+      "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/model/mgcvae.py",
+      "selected_lines_SHA256": "357474966539332768dc45d3d18b7457a64c11ede65df78b7771ae34763576e1",
+      "start_line": 658
+    },
+    {
+      "claim": "Precomputed graph passes positive t_fut addition-filter length",
+      "end_line": 86,
+      "file_SHA256": "fe105e4cd43f9e6c6ceab116b1283a8a1530435ba81e0161d9a3ef85967fbf86",
+      "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/environment/scene.py",
+      "selected_lines_SHA256": "c404118d85e8971b185ead406a97ebbd7422db959db6b88f338d617cbe109aaf",
+      "start_line": 51
+    },
+    {
+      "claim": "Graph slices can aggregate adjacency after current t; no blanket causal certification",
+      "end_line": 223,
+      "file_SHA256": "f7cca2ffec1a0b166a99764211168c1d2d3dc40c766adb5776b1effc20a45079",
+      "path": "experiments/stage7p6/cache/literature/Trajectron-plus-plus/trajectron/environment/scene_graph.py",
+      "selected_lines_SHA256": "32e932df8977e0ea96228896448c6fe4e47994d34814f41f6ef9c6d852056f2f",
+      "start_line": 204
+    },
+    {
+      "claim": "Full x VAE training and separately masked partial posterior; not naturally missing-label proof",
+      "end_line": 150,
+      "file_SHA256": "47166d9d55b42fbe95ed659dc05b63885a13caf0a64966e115743ffe74e92146",
+      "path": "experiments/stage7p6/cache/literature/posterior-matching/posterior_matching/models/vae.py",
+      "selected_lines_SHA256": "5e6638347b6206f772f3c125335e2e861cde8be159934d5fccd3ad961af91fec",
+      "start_line": 116
+    }
+  ],
+  "code_executed": false
+}

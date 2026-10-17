@@ -1,0 +1,27 @@
+{
+  "automatic_push": false,
+  "base_commit": "a00c9a38793135b77635ee4f99862f1f017eee23",
+  "decision": "NO-GO",
+  "diff_check_passed": true,
+  "execution_head_commit": "a27cf62a99eafc75c20ab6811e286a7f7d87f31a",
+  "ignored_inputs": [
+    "experiments/stage7p6/cache/literature/transportmer.pdf",
+    "experiments/stage7p6/cache/literature/posterior-matching/README.md",
+    "data/raw/agentformer_official/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eth/biwi_eth.txt",
+    "experiments/stage4/venv/bin/python"
+  ],
+  "new_model_design_or_training": false,
+  "new_predictive_ADE_FDE": false,
+  "no_sensitive_or_large_artifacts": true,
+  "old_SHA_checks": 86685,
+  "old_SHA_unchanged": true,
+  "paired_counts_verified": true,
+  "protocol_freeze_commit": "a27cf62",
+  "regression_scope": "Full pre-existing suite includes artificial forwards/backwards/optimizer unit tests; not new research training or data inference",
+  "reports": 7,
+  "self_containing_final_commit": "Final local commit recorded by git log at delivery; no self-referential SHA",
+  "source_and_data_SHA_recorded": true,
+  "test_metrics_recomputed": false,
+  "unit_tests_failed": 0,
+  "unit_tests_passed": 442
+}

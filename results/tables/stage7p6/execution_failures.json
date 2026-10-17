@@ -1,0 +1,17 @@
+{
+  "historical_negative_probes": "negative_probe_reuse.json; preserved as original failed mask-only tests, not new failures",
+  "limitations": "SocialTrans/Inter-GraphFormer full methods not obtained; no novelty approval",
+  "new_inference_failures": [],
+  "report_build_failures": [
+    {
+      "attempt": 1,
+      "error": "SyntaxError: unmatched ')' at first source row",
+      "models_executed": false,
+      "resolution": "Removed duplicated closing delimiters; compilation and execution passed",
+      "results_created_before_failure": false,
+      "script": "scripts/stage7p6/complete.py"
+    }
+  ],
+  "research_training_failures": [],
+  "retrieval_failures": "literature_sources.json / additional_retrievals.json: HTTP429/403 and unverified repository paths retained"
+}

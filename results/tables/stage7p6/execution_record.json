@@ -1,0 +1,12 @@
+{
+  "ETH_metrics_read": false,
+  "analysis_commit": "a27cf62a99eafc75c20ab6811e286a7f7d87f31a",
+  "base_commit": "a00c9a38793135b77635ee4f99862f1f017eee23",
+  "command": "experiments/stage4/venv/bin/python scripts/stage7p6/audit.py analyze",
+  "evidence_only": true,
+  "formal_training": false,
+  "new_model_forward": false,
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "source_sha256": "11246b41435becfe050b571ca5f56b993edd244a8d6f9bc94da1b464f57d61b2",
+  "total_saved_windows": 4501
+}

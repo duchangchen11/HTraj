@@ -1,0 +1,56 @@
+{
+  "N73_prior_inference_only": {
+    "OOM": false,
+    "peak_allocated_bytes": 2684130304,
+    "peak_reserved_bytes": 9512681472,
+    "seconds": 0.39976575603941455,
+    "whole_card_memory_samples": 3,
+    "whole_card_sampled_peak_MiB": 9315,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "N73_training_tested": false,
+  "attention_ratio_squared": 1.6401969836872883,
+  "caveat": "Scenarios, not measured73 training or rigorous bounds; new official causal context population unknown. Full model contains nonquadratic terms. Allocation != reserved != whole-card.",
+  "current_storage": {
+    "free_bytes": 157728563200,
+    "training_started": false
+  },
+  "illustrative_linear_CVAE_allocated_bytes": 8288645362.526316,
+  "illustrative_quadratic_CVAE_allocated_bytes": 10615282657.270544,
+  "measured_CVAE": {
+    "OOM": false,
+    "peak_allocated_bytes": 6471955968,
+    "peak_reserved_bytes": 9590276096,
+    "seconds": 509.88280144898454,
+    "whole_card_memory_samples": 3745,
+    "whole_card_sampled_peak_MiB": 9677,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "measured_DLow": {
+    "OOM": false,
+    "peak_allocated_bytes": 3982871040,
+    "peak_reserved_bytes": 9642704896,
+    "seconds": 307.3549300620216,
+    "whole_card_memory_samples": 2260,
+    "whole_card_sampled_peak_MiB": 8982,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "measured_reference": "Stage7.4 original complete20 HOTEL, one epoch each",
+  "original_CVAE100_DLow50_hours": 18.432229624444314,
+  "original_fivefold_hours": {
+    "fivefold_high_hours": 129.51579888389452,
+    "fivefold_low_hours": 60.04466239427401,
+    "fivefold_point_hours": 86.03893095374457
+  },
+  "permission": "Budget only; no100+50epoch run authorized/executed",
+  "ratio_73_to_57": 1.280701754385965,
+  "single_attention_matrix_FP32_bytes": {
+    "57": 299427840,
+    "73": 491120640
+  },
+  "time_scenarios_same_window_count_hours": [
+    18.432229624444314,
+    23.606188817270787,
+    30.232487432645044
+  ]
+}

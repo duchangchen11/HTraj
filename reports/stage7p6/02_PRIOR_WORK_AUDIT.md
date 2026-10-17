@@ -1,0 +1,47 @@
+# 近年论文、源码与重合审查
+
+结论：上下文/监督集合分离、观测与标签有效性分离、带缺失掩码的生成推断均已有实质先例；不能把这些常规做法宣布为新算法。尚未核实到“与本草案完全相同的AgentFormer联合潜变量处理”不构成新颖性证据。
+
+检索日期2026-10-17。按nature-academic-search多源流程，对2022—2026六组用户指定关键词检索作者/arXiv/CVF/PMLR/出版社/GitHub，并保留2020/2021基础工作。OpenAlex备用脚本HTTP429；本轮用一手源补充，非穷尽性系统综述。6篇开放全文PDF取得并阅读方法/实验；原始PDF只放忽略缓存，发布SHA、来源与原创分析。并发PDF抽取曾报告xref修复提示，6份文本均成功提取；日志未逐文件分离警告，故不推定具体文件。关键公式按论文上下文核对，不把抽取错误当方法结论。
+
+以下逐篇回答用户要求的五个资格问题。“未知”不能改成“没有”，论文支持8/12或ETH/UCY不代表测试目标、预处理和K20完全相同。
+
+|论文|未来缺标签邻居|仅历史上下文|后验处理|动态人数|标准ETH/UCY目标|判定|
+|---|---|---|---|---|---|---|
+|[AgentFormer: Agent-Aware Transformers for Socio-Temporal Multi-Agent Forecasting](https://arxiv.org/abs/2103.14023) 2021|No: frozen complete20 loader excludes them|Prior input uses history after selection; selection uses future existence|12C future tokens, allC KL; loss mask is not posterior mask|Variable N across scenes; not a birth/death forecast|Official original fivefold yes|Specific implementation incompatibility demonstrated; not a general CVAE impossibility|
+|[Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/abs/2001.03093) 2020|Yes in target-centric representation: neighbors are not full-future supervision targets|Neighbor feature slice is historical; precomputed graph t_fut can use future adjacency, so not end-to-end causal certified|Target own future encoder; neighbors contribute to historical x, not required as future tokens|Dynamic scene graph, variable neighbors; no assertion of full unseen-agent generation|ETH/UCY supported; exact evaluator/objects not revalidated this stage|C/S separation is prior art; not an identical joint AgentFormer posterior|
+|[SocialVAE: Human Trajectory Prediction using Timewise Latents](https://arxiv.org/abs/2203.08207) 2022|Yes: target complete20, other actors may lack observations/future; sentinel and distance validity|Inference can use historical features; raw official union-of20 eligibility not certified causal here|Training backward RNN uses AVAILABLE neighbor future features too; missing future contributions masked by validity/radius|Per-time neighbor mask allows appearing/disappearing context; no novel-agent birth distribution claimed|ETH/UCY8/12 supported; FPC/evaluator differ from AgentFormer|Direct precedent for incomplete-neighbor context; not proof original AgentFormer rectangular posterior already solved|
+|[Posterior Matching for Arbitrary Conditioning](https://arxiv.org/abs/2201.12414) 2022|Not a pedestrian-future task; arbitrary conditioning supported|Observed-feature masks, not pedestrian context rules|Partial posterior learned by matching full posterior samples; base training still uses complete x|Not studied|No|General masked/partial posterior is established; does not prove naturally absent future labels handled under MNAR|
+|[Uncovering the Missing Pattern: Unified Framework Towards Trajectory Imputation and Prediction](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Uncovering_the_Missing_Pattern_Unified_Framework_Towards_Trajectory_Imputation_and_CVPR_2023_paper.html) 2023|Not established for naturally absent future labels: Eq1 future y and Eq19 all-agent prediction likelihood|Handles incomplete past; does not certify causal C/S rule|Conditional VRNN prior/posterior, imputation+prediction sequential ELBO, temporal decay|Simulates camera visibility/entry/exit over fixed agents; not automatically variable future identity set|Basketball-TIP/Football-TIP/Vehicle-TIP; not standard ETH main evaluation|Related missing observation work; not identical missing future supervision|
+|[MS-TIP: Imputation Aware Pedestrian Trajectory Prediction](https://proceedings.mlr.press/v235/chib24a.html) 2024|Not demonstrated: Eq22/23 use future control-point GT; not inferred from history-imputation title|Artificial and native missing-history masks; history context qualification not fully code-audited|Not an AgentFormer CVAE; imputation plus GMM/control-point/refinement objectives|Missing past coordinates, not explicit unseen future agent generation|ETH/UCY8/12 andSDD,20 samples; exact cohort equivalence not demonstrated|Partial-history problem is well studied; future-unlabeled joint posterior remains a different question|
+|[TranSPORTmer: A Holistic Approach to Trajectory Understanding in Multi-Agent Sports](https://arxiv.org/abs/2410.17785) 2024|Yes at masking/missing-training level: unavailable goalkeeper observations ignored; NOT a CVAE proof|Arbitrary conditioning mask supports forecast; other tasks intentionally allow future conditioning|Deterministic Set Attention; observation/prediction mask plus distinct NaN-mask, no CVAE KL|Variable length/N padding supported; sports roster and full birth/death are different|SupplementSec6 ETH/UCY8/12/2.5Hz deterministic comparison; not AgentFormerK20 matched cohort|Direct precedent for separate observation/label-validity masks; general mask engineering cannot be claimed new|
+|[Unified Uncertainty-Aware Diffusion for Multi-Agent Trajectory Modeling](https://openaccess.thecvf.com/content/CVPR2025/html/Capellera_Unified_Uncertainty-Aware_Diffusion_for_Multi-Agent_Trajectory_Modeling_CVPR_2025_paper.html) 2025|Arbitrary completion conditioning; naturally absent supervised labels not established by conditioning mask alone|History-only is a possible mask; task also permits other temporal conditioning|Diffusion variational objective, not AgentFormer learned CVAE posterior|Variable agent/time attention axes; no assertion of online birth/death handling|Four sports datasets, no standard ETH/UCY table in inspected main protocol|Related arbitrary-mask generative modeling, not an authorized new diffusion route|
+|[SocialTrans: Transformer based social intentions interaction for pedestrian trajectory prediction](https://doi.org/10.1016/j.physa.2025.130435) 2025|Unknown|Unknown: claims variable number of neighbors, not proof of missing future labels|Unknown masks, objective, posterior details|State tensors adjusted to varying pedestrian counts; within-window future validity not established|ETH/UCY+SDD claimed; exact K/cohort not verified|SIE/NPIE parallel state-intention processing, trajectory optimizer/clustering. Missing-label novelty unresolved|
+|[Inter-GraphFormer: A spatial-temporal graph transformer-based method for pedestrian trajectory prediction](https://doi.org/10.1016/j.physa.2026.131566) 2026|Unknown|Unknown|CVAE reported; posterior token validity, KL and reconstruction denominators unknown|Unknown; directed sparse interaction graph is not a dynamic population guarantee|ETH/UCY+SDD claimed; exact cohort/K not verified|Directed weighted+sparse graph, parallel spatial/temporal Transformer, dualGLU, graphTransformer decoder; no verified C/S mechanism|
+
+
+## 最直接的源码和方法证据
+
+Trajectron++固定`1031c7b…`：`preprocessing.py:88–150`为目标取未来标签，但从scene_graph取得的其他邻居只读取[t-max_ht,t]；`mgcvae.py:658–680`用目标未来构造q。因此“监督目标完整而邻居不必完整”本身并不新。**未认证整个官方入口严格因果**：`scene.py:82–85`对预计算图传入正t_fut，`scene_graph.py:204–219`会对包含未来区间的adj_cube取max。该静态路径可能使用未来关系；是否触发取决于配置及图预计算，未运行反事实，不升级为全部实验已证实泄漏。可用该实现证明目标/上下文结构先例，不能用它宣称历史资格已通过本项目准入。[源码](https://github.com/StanfordASL/Trajectron-plus-plus/blob/1031c7bd1a444273af378c1ec1dcca907ba59830/trajectron/environment/scene_graph.py#L204)
+
+SocialVAE冻结`eb23cba…`：`data.py:195–227`保持完整目标，但对其他行人的缺测使用sentinel；`social_vae.py:170–225`训练时backward RNN还聚合**可用的邻居future**，并非后验完全不读邻居未来。推理y=None与训练后验必须分开。既有可用性mask不证明它与AgentFormer联合CVAE语义相同，也不能重新启动已经结束的SocialVAE结构路线。[源码](https://github.com/xupei0610/SocialVAE/blob/eb23cbae562bac2c2dcf0d81529e6ab2ac280962/social_vae.py#L170)
+
+TranSPORTmer §4.1–4.3有任务条件mask和独立NaN-mask；补充§4.1明确训练中忽略不可用门将观测，§4.2直接报告在原始不完整数据上训练。补充§6还有ETH/UCY8/12、2.5Hz的确定性实验。因此“允许缺失、分别mask输入/监督”已有直接方法先例。它是Set Attention确定性补全，不是本项目CVAE联合后验，不能据此宣称全部细节相同。未来条件在其补全任务中可以合法存在；换到forecast模式仍需单独限定只能条件于历史。[全文](https://arxiv.org/html/2410.17785v2)
+
+Posterior Matching §3与官方`models/vae.py:116–150`：完整x编码的样本用于训练另一个任意观测条件后验；AppendixE专门讨论直接零填充送原VAE的失败。它通常假定基模型完整训练数据/人工mask，不能拿来证明天然缺未来标签和非随机缺失已经解决。将任意mask后验、prior completion直接当新思想风险很高。[论文](https://arxiv.org/abs/2201.12414)；[冻结代码](https://github.com/lupalab/posterior-matching/tree/08a355ddd22d0cfb14287e02bf30b439c21a0058)
+
+GC-VRNN §4 Eq1把历史mask与未来y分开，但Eq19明确对未来预测计算likelihood，Eq20说明all-agent聚合；不能从“缺失轨迹”标题推导无GT未来邻居已被正确边缘化。作者仓库`b0bcad9…`目前只有README/补充PDF和legal-review说明，并非可从头训练代码。README转向的UniTraj-pytorch `bfebe75…`实际标题是**Sports-Traj(ICLR2025)**，不是已核实的GC-VRNN或GMC-VRNN权重复现。不得误认模型。
+
+MS-TIP §3.2补的是历史坐标；§3.6 Eq22/23仍使用GT控制点和轨迹监督。源码README/train已冻结，不声称通过全数据因果测试。U2Diff §4用可变条件mask完成多主体补全，§5以四个体育数据集为主；这是不同生成机制/输入任务，未证明天然缺标签时的训练likelihood可直接套用。上述方法足以否定宽泛的新颖性宣称，却不足以宣告所有动态缺标签问题均已彻底解决。
+
+## SocialTrans与Inter-GraphFormer补充到什么程度
+
+SocialTrans：出版社Introduction/Proposed approach/Conclusion可检索到的正文说明：目标和邻居组分别构造运动状态张量，以SIE与NPIE在各观测时刻并行提取意图，结果经交互decoder输出；优化器结合位置距离/相邻向量角度，并对多结果聚类。论文明确提到邻居数变化。**仍未取得后验token、缺失标签mask、损失分母的公式和可冻结作者源码**；不能将“任意人数”解释成“自然缺future标签已解决”。
+
+Inter-GraphFormer：出版社可获取Introduction包含有向加权且稀疏的空间图、并行时空Transformer、dual-GLU融合、CVAE潜空间及图Transformer未来decoder；2026年7月PhysicaA694:131566身份核实。**未取得完整后验/损失公式和作者代码**，不能判断C/S与本草案是否完全相同。
+
+两篇本轮出版社下载均HTTP403；此前OpenReview需浏览器验证，不绕过。只补充可合法获取的正文细节，不能写成已全文精读。来源与失败保存在`literature_sources.json`和忽略缓存。2026检索也定位GMC-VRNN(IEEE TPAMI，2025早期在线、2026卷48期3，[身份来源](https://pubmed.ncbi.nlm.nih.gov/41171661/))但全文/源码未完成核查，未用其摘要宣告相同问题已解决。此项文献盲区直接阻止“新颖性已通过”。
+
+## 重合判断
+
+已有方法实质覆盖：C与S分离；独立观测/GT有效性mask；缺失观测生成补全；部分条件后验。尚未证明覆盖：保持AgentFormer特定联合潜变量及DLow分布时，未知未来邻居对监督目标后验的精确或有效边缘化。后者只是待证研究空白，没有独特机制、预测收益和资源证据，不足以启动训练。
