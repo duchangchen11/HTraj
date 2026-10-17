@@ -1,0 +1,2 @@
+# Keep original upstream YAML formatting.
+*.yml -whitespace

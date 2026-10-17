@@ -1,0 +1,8 @@
+{
+  "free_bytes": 984186880,
+  "full_fivefold_checkpoint_space_must_be_estimated_from_actual_saved_files": true,
+  "minimum_free_bytes": 419430400,
+  "old_results_will_not_be_deleted": true,
+  "rough_stage_budget_bytes": 293601280,
+  "stage_fits": true
+}
