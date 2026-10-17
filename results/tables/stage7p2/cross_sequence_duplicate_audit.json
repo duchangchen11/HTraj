@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "fold": "eth",
+      "shared_exact20_moving_position_fingerprints": 0,
+      "source_train_moving_position_fingerprints": 26573,
+      "test_moving_position_fingerprints": 340
+    },
+    {
+      "fold": "hotel",
+      "shared_exact20_moving_position_fingerprints": 0,
+      "source_train_moving_position_fingerprints": 26332,
+      "test_moving_position_fingerprints": 603
+    },
+    {
+      "fold": "univ",
+      "shared_exact20_moving_position_fingerprints": 0,
+      "source_train_moving_position_fingerprints": 7595,
+      "test_moving_position_fingerprints": 22642
+    },
+    {
+      "fold": "zara1",
+      "shared_exact20_moving_position_fingerprints": 0,
+      "source_train_moving_position_fingerprints": 24849,
+      "test_moving_position_fingerprints": 2326
+    },
+    {
+      "fold": "zara2",
+      "shared_exact20_moving_position_fingerprints": 0,
+      "source_train_moving_position_fingerprints": 23935,
+      "test_moving_position_fingerprints": 3646
+    }
+  ],
+  "limits": "Exact duplicate screen only, not proof against all annotation overlap or common physical camera effects",
+  "method": "SHA256 of float32 20-step xy sequences, ID/frame-offset independent, complete continuity, net displacement>0.2m; excludes stationary coincidence",
+  "no_model_test_metrics": true
+}

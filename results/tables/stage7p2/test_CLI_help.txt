@@ -1,0 +1,11 @@
+usage: test.py [-h] [--cfg CFG] [--data_eval DATA_EVAL] [--epochs EPOCHS]
+               [--gpu GPU] [--cached] [--cleanup]
+
+options:
+  -h, --help            show this help message and exit
+  --cfg CFG
+  --data_eval DATA_EVAL
+  --epochs EPOCHS
+  --gpu GPU
+  --cached
+  --cleanup

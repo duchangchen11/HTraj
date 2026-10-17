@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "name": "AgentFormer_corrected",
+      "url": "https://arxiv.org/html/2103.14023",
+      "path": "experiments/stage7p2/cache/literature/AgentFormer_corrected.txt",
+      "sha256": "2747c788123bdcc9d4e89c0283c85f373704fedd769d192f96762d4eea5bb5cb",
+      "bytes": 330638,
+      "status": 200
+    },
+    {
+      "name": "AgentFormer_metadata",
+      "url": "https://arxiv.org/abs/2103.14023",
+      "path": "experiments/stage7p2/cache/literature/AgentFormer_metadata.txt",
+      "sha256": "ccf08343b2bae91432bd3f1b682893aae6bb739ca3275a011eb22a16446e36d4",
+      "bytes": 45596,
+      "status": 200
+    },
+    {
+      "name": "normalization_issue",
+      "url": "https://api.github.com/repos/Khrylx/AgentFormer/issues/5/comments",
+      "error": "HTTPError('403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Khrylx/AgentFormer/issues/5/comments')"
+    },
+    {
+      "name": "PECNet_ETH_notebook",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/notebooks/eth_pecnet_no_pooling.ipynb",
+      "path": "experiments/stage7p2/cache/literature/PECNet_ETH_notebook.txt",
+      "sha256": "25fccf81e726ae82607d72b5d0792d99f648436877d86879d7ecc93869a3998a",
+      "bytes": 117272,
+      "status": 200
+    },
+    {
+      "name": "SGCN_README",
+      "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/README.md",
+      "error": "HTTPError('404 Client Error: Not Found for url: https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/README.md')"
+    },
+    {
+      "name": "Social_STGCNN_README",
+      "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.md",
+      "error": "HTTPError('404 Client Error: Not Found for url: https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.md')"
+    }
+  ],
+  "all_model_papers_verified_by_primary_sources": true,
+  "author_reported_metrics_are_not_HTraj_reproductions": true
+}

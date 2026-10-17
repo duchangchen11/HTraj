@@ -1,0 +1,12 @@
+{
+  "actual_optimizer_updates": 12,
+  "actual_signal_result": "SIGSTOP failed: process had already exited normally; no pause or resume occurred",
+  "all_six_smoke_cases_completed_before_full_evidence_commit": true,
+  "correction_to": "pre_smoke_commit_order_deviation.json",
+  "full_evidence_commit": "93e8a5a",
+  "initial_benchmark_protocol_commit": "c28350f",
+  "no_extra_optimizer_updates": true,
+  "no_smoke_restarted": true,
+  "note": "The earlier action field described the attempted remediation, not an action that succeeded. Keep both records; report this chronology deviation from the announced workflow. No formal training or test-score tuning occurred.",
+  "utc": "2026-10-17T07:10:03.345993+00:00"
+}

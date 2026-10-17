@@ -1,0 +1,211 @@
+{
+  "all_other_baselines_this_stage": "Paper/source audit only; previous stage results preserved but not ranked",
+  "formal_metrics_executed": false,
+  "literature": {
+    "AgentFormer": {
+      "source": "https://arxiv.org/html/2103.14023#S4.T1",
+      "values": [
+        [
+          0.45,
+          0.75
+        ],
+        [
+          0.14,
+          0.22
+        ],
+        [
+          0.25,
+          0.45
+        ],
+        [
+          0.18,
+          0.3
+        ],
+        [
+          0.14,
+          0.24
+        ],
+        [
+          0.23,
+          0.39
+        ]
+      ],
+      "venue": "ICCV2021, corrected maintained results",
+      "year": 2021
+    },
+    "PECNet": {
+      "source": "https://arxiv.org/pdf/2004.02025v3",
+      "values": [
+        [
+          0.54,
+          0.87
+        ],
+        [
+          0.18,
+          0.24
+        ],
+        [
+          0.35,
+          0.6
+        ],
+        [
+          0.22,
+          0.39
+        ],
+        [
+          0.17,
+          0.3
+        ],
+        [
+          0.29,
+          0.48
+        ]
+      ],
+      "venue": "ECCV2020",
+      "year": 2020
+    },
+    "SGCN": {
+      "source": "https://arxiv.org/html/2104.01528v1#S4.T1",
+      "values": [
+        [
+          0.63,
+          1.03
+        ],
+        [
+          0.32,
+          0.55
+        ],
+        [
+          0.37,
+          0.7
+        ],
+        [
+          0.29,
+          0.53
+        ],
+        [
+          0.25,
+          0.45
+        ],
+        [
+          0.37,
+          0.65
+        ]
+      ],
+      "venue": "CVPR2021",
+      "year": 2021
+    },
+    "SocialSTGCNN": {
+      "source": "https://arxiv.org/html/2002.11927",
+      "values": [
+        [
+          0.64,
+          1.11
+        ],
+        [
+          0.49,
+          0.85
+        ],
+        [
+          0.44,
+          0.79
+        ],
+        [
+          0.34,
+          0.53
+        ],
+        [
+          0.3,
+          0.48
+        ],
+        [
+          0.44,
+          0.75
+        ]
+      ],
+      "venue": "CVPR2020",
+      "year": 2020
+    }
+  },
+  "models_actually_run_this_stage": [
+    "AgentFormer CVAE+DLow strict loading, real one-window training and checkpoint smoke"
+  ],
+  "paper_evidence": {
+    "academic_MCP_available": false,
+    "metadata_route": "Author arXiv pages and repository/paper primary sources; no institutional login needed",
+    "papers": [
+      {
+        "model": "PECNet",
+        "path": "experiments/stage7p2/cache/papers/PECNet.pdf",
+        "sha256": "c696d567844358b8e568630d913e0fb79f204704d3ec9db7412385e13c7d5cb5",
+        "status": "open_access_downloaded",
+        "url": "https://arxiv.org/pdf/2004.02025v3"
+      },
+      {
+        "model": "SGCN",
+        "path": "experiments/stage7p2/cache/papers/SGCN.pdf",
+        "sha256": "5f72756b9d67ac6d820a18308b04a416b249894990b8f982b5ed2ab764225e03",
+        "status": "open_access_downloaded",
+        "url": "https://arxiv.org/pdf/2104.01528v1"
+      },
+      {
+        "model": "SocialSTGCNN",
+        "path": "experiments/stage7p2/cache/papers/SocialSTGCNN.pdf",
+        "sha256": "5b8cf9c0e5d8153ee165c736bd75486faa34944996d20502995c1f806e50416b",
+        "status": "open_access_downloaded",
+        "url": "https://arxiv.org/pdf/2002.11927"
+      }
+    ]
+  },
+  "repository_evidence": {
+    "all_model_papers_verified_by_primary_sources": true,
+    "author_reported_metrics_are_not_HTraj_reproductions": true,
+    "sources": [
+      {
+        "bytes": 330638,
+        "name": "AgentFormer_corrected",
+        "path": "experiments/stage7p2/cache/literature/AgentFormer_corrected.txt",
+        "sha256": "2747c788123bdcc9d4e89c0283c85f373704fedd769d192f96762d4eea5bb5cb",
+        "status": 200,
+        "url": "https://arxiv.org/html/2103.14023"
+      },
+      {
+        "bytes": 45596,
+        "name": "AgentFormer_metadata",
+        "path": "experiments/stage7p2/cache/literature/AgentFormer_metadata.txt",
+        "sha256": "ccf08343b2bae91432bd3f1b682893aae6bb739ca3275a011eb22a16446e36d4",
+        "status": 200,
+        "url": "https://arxiv.org/abs/2103.14023"
+      },
+      {
+        "error": "HTTPError('403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Khrylx/AgentFormer/issues/5/comments')",
+        "name": "normalization_issue",
+        "url": "https://api.github.com/repos/Khrylx/AgentFormer/issues/5/comments"
+      },
+      {
+        "bytes": 117272,
+        "name": "PECNet_ETH_notebook",
+        "path": "experiments/stage7p2/cache/literature/PECNet_ETH_notebook.txt",
+        "sha256": "25fccf81e726ae82607d72b5d0792d99f648436877d86879d7ecc93869a3998a",
+        "status": 200,
+        "url": "https://raw.githubusercontent.com/HarshayuGirase/PECNet/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/notebooks/eth_pecnet_no_pooling.ipynb"
+      },
+      {
+        "error": "HTTPError('404 Client Error: Not Found for url: https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/README.md')",
+        "name": "SGCN_README",
+        "url": "https://raw.githubusercontent.com/shuaishiliu/SGCN/5153702d8ae32a2b0586b093d4e094aee08b0f9b/README.md"
+      },
+      {
+        "error": "HTTPError('404 Client Error: Not Found for url: https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.md')",
+        "name": "Social_STGCNN_README",
+        "url": "https://raw.githubusercontent.com/abduallahmohamed/Social-STGCNN/333d3a57b4d2705e129b21aefefa09c79b2b9ae1/README.md"
+      }
+    ]
+  },
+  "versions": {
+    "AgentFormer": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+    "PECNet": "a345ada1557f53dc2acb4c07f71d340d366980da",
+    "SGCN": "5153702d8ae32a2b0586b093d4e094aee08b0f9b",
+    "SocialSTGCNN": "333d3a57b4d2705e129b21aefefa09c79b2b9ae1"
+  }
+}

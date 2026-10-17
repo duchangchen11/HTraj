@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "dependencies_and_parser_passed": true,
+      "entry": "train.py",
+      "log": "results/tables/stage7p2/train_CLI_help.txt",
+      "returncode": 0
+    },
+    {
+      "dependencies_and_parser_passed": true,
+      "entry": "test.py",
+      "log": "results/tables/stage7p2/test_CLI_help.txt",
+      "returncode": 0
+    },
+    {
+      "dependencies_and_parser_passed": true,
+      "entry": "eval.py",
+      "log": "results/tables/stage7p2/eval_CLI_help.txt",
+      "returncode": 0
+    }
+  ],
+  "no_epochs_or_predictions_started": true,
+  "only_runtime_compatibility_shims": true
+}

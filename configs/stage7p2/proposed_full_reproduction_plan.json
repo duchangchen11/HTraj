@@ -1,0 +1,30 @@
+{
+  "CVAE_epochs": 100,
+  "CVAE_schedule": "StepLR step10 gamma0.5",
+  "DLow_epochs": 50,
+  "DLow_schedule": "StepLR step5 gamma0.5",
+  "complete_all_five_before_paper_comparison": true,
+  "folds": [
+    "hotel",
+    "zara2",
+    "eth",
+    "univ",
+    "zara1"
+  ],
+  "metrics": "Independent minADE20/minFDE20; auxiliary first candidate K1; serialize world coordinates at 3 decimals",
+  "not_a_measured_walltime_estimate": true,
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "optimizer": "Original Adam lr1e-4",
+  "original_ETH_scale_and_training_cap_retained": true,
+  "per_fold_maximum_resource_preflight": true,
+  "pretrained_reference": "Fixed author CVAE+DLow matched pairs, exact config/weights SHA, official seed, all fivefold evaluator; no checkpoint re-selection",
+  "protocol": "configs/stage7p2/benchmark_protocol.json",
+  "scratch_initialization": "Fresh per fold, no pretrained or smoke warm start",
+  "seeds": "Per-fold frozen official maintained config seed, not selected by test",
+  "selector": "Official val minADE20, tie earlier; CVAE every10 epochs, DLow every5; paired FDE same checkpoint",
+  "selector_difference_from_author": "Author train.py has no validation selection; explicit additional management rule",
+  "sequential_one_GPU": true,
+  "status": "PROPOSED_NOT_EXECUTED",
+  "stop": "Nonfinite, OOM or unexplained protocol/weight mismatch; no structure/loss/epoch search",
+  "total_scene_optimizer_updates_budget": 2203500
+}

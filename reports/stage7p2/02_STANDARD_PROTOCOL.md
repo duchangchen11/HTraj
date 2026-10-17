@@ -15,3 +15,7 @@
 **工程smoke冻结：** 仅HOTEL/ZARA2官方train池中首个单人、首个多人、最大N57场景，各一次原始CVAE train()受限调用及一次原DLow train()受限调用，共最多12优化器更新，无完整epoch。官方generator只将sample_list限定为预设一个frame；原train函数、模型、Adam、原loss、原调度器不改。DLow使用本次随机初始化并做1次更新的工程CVAE，不使用作者权重初始化；更改的仅是独立checkpoint引用/输出目录。该文件索引1不是完成1个正式epoch。若非有限或OOM保存现场并停，不削减人数/改loss/无限重试。
 
 本阶段不跑五折正式训练、不据smoke误差选模型。正式训练计划与验收GO/NO-GO在真实测试后独立交付；即使GO，也需下一阶段才执行完整训练。
+
+
+---
+执行顺序更正：上述规则/核验在smoke前已写成，但完整材料补充commit被新日志末尾空行检查拦住；6场景12工程更新结束后才进入93e8a5a。不得把标题的“smoke前冻结”解释为完整证据已预先入Git。初始预算协议c28350f已预提交；未运行正式epoch。详见06报告与commit_order_actual_outcome.json。

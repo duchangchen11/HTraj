@@ -1,0 +1,9 @@
+usage: eval.py [-h] [--dataset DATASET] [--results_dir RESULTS_DIR]
+               [--data DATA] [--log_file LOG_FILE]
+
+options:
+  -h, --help            show this help message and exit
+  --dataset DATASET
+  --results_dir RESULTS_DIR
+  --data DATA
+  --log_file LOG_FILE

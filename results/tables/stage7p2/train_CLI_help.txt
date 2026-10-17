@@ -1,0 +1,9 @@
+usage: train.py [-h] [--cfg CFG] [--start_epoch START_EPOCH] [--tmp]
+                [--gpu GPU]
+
+options:
+  -h, --help            show this help message and exit
+  --cfg CFG
+  --start_epoch START_EPOCH
+  --tmp
+  --gpu GPU

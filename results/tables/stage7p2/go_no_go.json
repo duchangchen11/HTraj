@@ -1,0 +1,51 @@
+{
+  "ETH_specific_maximum_DLow_GPU_training_verified": false,
+  "ETH_test_scores_computed": false,
+  "all_five_folds_required_before_standard_result_table": true,
+  "automatic_push": false,
+  "chronology_deviation_disclosed": true,
+  "decision": "GO_STAGED_OFFICIAL_BASELINE_REPRODUCTION",
+  "engineering_optimizer_updates": 12,
+  "first_formal_folds": [
+    "hotel",
+    "zara2"
+  ],
+  "formal_epochs_started": 0,
+  "from_scratch_convergence_demonstrated": false,
+  "full_fivefold_performance_reproduced": false,
+  "gates": [
+    {
+      "condition": "官方数据完整",
+      "status": "PASS: 74 files / 22 Git blobs / 8 recordings"
+    },
+    {
+      "condition": "官方划分对齐",
+      "status": "PASS: 15 loaders, 148 packet checks, no held recording in train/val"
+    },
+    {
+      "condition": "完整20帧资格明确",
+      "status": "PASS: min8/min12, N1 legal, future existence declared"
+    },
+    {
+      "condition": "minADE20/minFDE20评价复核",
+      "status": "PASS: independent winners, real serializer/GT/official eval CLI"
+    },
+    {
+      "condition": "真实单人/多人训练入口",
+      "status": "PASS: original train function, N1/2/57, 12 updates and restoration"
+    },
+    {
+      "condition": "CVAE与DLow配置关系",
+      "status": "PASS: fivefold strict two-part loading, sampler semantics explicit"
+    },
+    {
+      "condition": "GPU可执行方案",
+      "status": "PASS_FOR_STAGED_START: H/Z full N57 measured; remaining fold-specific preflights required"
+    },
+    {
+      "condition": "未说明数据/评价差异",
+      "status": "PASS_DISCLOSED: original selector unknown, metric/cohort and compatibility differences documented"
+    }
+  ],
+  "next_stage_protocol_must_be_committed_before_formal_training": true
+}

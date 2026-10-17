@@ -1,0 +1,42 @@
+{
+  "ETH_test_metrics_computed": false,
+  "author_weight_archive_sha256": "f192aa9596c25ec115dbf646f96a03f5b17e2c969016cd1b9c7e753db30941f0",
+  "automatic_push": false,
+  "chronology_deviation_disclosed": true,
+  "commit": "Containing final delivery Git commit; tested code closure to 93e8a5a recorded separately",
+  "complete_pre_smoke_evidence_commit_claim": false,
+  "decision": "GO_STAGED_OFFICIAL_BASELINE_REPRODUCTION",
+  "engineering_optimizer_updates": 12,
+  "evaluation_equivalence": true,
+  "full_epochs": 0,
+  "full_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 407
+  },
+  "historical_files_unchanged": 11182,
+  "official_data_files": 74,
+  "official_source_files": 43,
+  "proposed_plan_SHA256": "822e8f264b913c50af06d6a06279c1d8501d10be109dfad6f0eb03ced03b9f8a",
+  "real_smoke_cases": 6,
+  "size_and_sensitive_content_checks": true,
+  "source_SHA256": {
+    "scripts/stage7p2/audit_data.py": "2629885808c0b84895d100f8c3be75c6c41b2b913eef918f9a5c72aa63ab6a42",
+    "scripts/stage7p2/audit_preservation.py": "892218c326653fe46c9ac475fddefe4a607a41f9a18da5d60a5e594e76e4b0ca",
+    "scripts/stage7p2/check_evaluation.py": "05da7f939a4884bdcf6e98f86f3f6a661c82c8e92de9ca0d93b65d9916a0525e",
+    "scripts/stage7p2/check_weights.py": "db969a070d90b6c821f7fc85e74741734dab429999bf9b7a9c1c4ffe2ecfc7b8",
+    "scripts/stage7p2/fetch_data.py": "5633fc5d8c80c4da9873fc12bc48e2809c311a62f402de4a114915d8d08f253e",
+    "scripts/stage7p2/fetch_weights.py": "69a89f90a5b955d5b3f1584cde72d5b7fc45d27c8cd7953f29be7313b6cd3dd8",
+    "scripts/stage7p2/prepare.py": "771567133c6b55f4758bb065266de524bac7591e16d7928a2a99eabc6c2e86f7",
+    "scripts/stage7p2/smoke.py": "db3e5f8bc03f734798a0453ffb55bc405ad44374d71510e36d04592b7f4caf58",
+    "scripts/stage7p2/verify_delivery.py": "a57164cdd5b49d12f18e3b321fb33c13808a38aa5e17dc8301077c554a807be6",
+    "scripts/stage7p2/write_final_reports.py": "39f5a5652a2f1206692ac2dea584e3328d02f70a43f7ad6336e526734b9aa7f9",
+    "src/agentformer_benchmark/__init__.py": "808519f9cce3a61e9947ae88177b1a1c51047db857298a636c3367213ec9ca46",
+    "src/agentformer_benchmark/evaluation.py": "a8f7aa3ea9ce4d6f3a6bafa5c1ffbd2d63de890d97c9191c8081c8af610f5b85",
+    "src/agentformer_benchmark/official.py": "8a3ea995cd26286b6c4340ae6e695db75baf269ae0ec09e97f8af23a0c4fd41d",
+    "tests/test_agentformer_standard_benchmark.py": "c61d840124683927b76fa026181d3889fc0bf41371dfde3b7c425aaa4d9cf07a"
+  },
+  "standard_fivefold_performance_reproduced": false,
+  "strict_CVAE_DLow_fold_pairs": 5
+}
