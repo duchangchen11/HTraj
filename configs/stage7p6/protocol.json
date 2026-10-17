@@ -1,0 +1,44 @@
+{
+  "automatic_push": false,
+  "base_commit": "a00c9a38793135b77635ee4f99862f1f017eee23",
+  "branch": "feat/stage7p6-causal-context-research-decision",
+  "decision": "GO requires problem, novelty, consistent math, no fictitious GT, fair controls, resources, declared protocol all satisfied; otherwise NO-GO and stop this route",
+  "historical_test_metrics_access": false,
+  "limitations": "Stage7.1 cohort is Stage5.1 support, not official74-file benchmark prevalence",
+  "literature_window": "2022-2026 plus AgentFormer2021/Trajectron++2020 foundations",
+  "name": "Stage7.6 static C/S feasibility audit v1",
+  "new_model_code": false,
+  "new_model_inference": false,
+  "new_training": false,
+  "numerical_tests": "CPU analytic probability/budget/evidence checks; not predictive performance",
+  "official_commit": "e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5",
+  "official_protocol": "ETH/UCY fivefold complete20,8/12,0.4s,metres,DLow20,minADE/minFDE separately",
+  "old_counterfactuals": "Reuse Stage7.1 original raw-data tests, do not rerun or relabel as official-loader success",
+  "optimizer_updates": 0,
+  "prediction_SHA_indices": [
+    {
+      "path": "results/tables/stage7p3/eth_prediction_file_SHA256.csv.gz",
+      "sha256": "85b082e2214ffbd6879608fead011871facbaae1e1605f10b3bf552f636f5740"
+    },
+    {
+      "path": "results/tables/stage7p3/hotel_prediction_file_SHA256.csv.gz",
+      "sha256": "03c62a58d8228757ab6aef2984ded4381228ddcd30ac87ff969307ddae9c68ca"
+    },
+    {
+      "path": "results/tables/stage7p3/univ_prediction_file_SHA256.csv.gz",
+      "sha256": "c339863e4fed4649e9221607bef3212d37f9934141ad605dea87aa5e13f46b41"
+    },
+    {
+      "path": "results/tables/stage7p3/zara1_prediction_file_SHA256.csv.gz",
+      "sha256": "327889c7d749955399479815e85ff5604705693efc092846515491ea5bdd7ef9"
+    },
+    {
+      "path": "results/tables/stage7p3/zara2_prediction_file_SHA256.csv.gz",
+      "sha256": "d79621f5661170f173e310375ed0c7aaa024bf1534abe9ec4ea1c618fcca4d25"
+    }
+  ],
+  "prediction_files": "Hash opaque bytes for preservation only",
+  "protection_index": "configs/stage7p6/protected_files.csv.gz",
+  "protection_index_SHA256": "115dacd1a2bb2c0108a87aa9beb43a242ad6fd6110bb082be1a9d625f1fc3d38",
+  "source_priority": "Author/venue papers and fixed source; inaccessible methods remain unknown"
+}
