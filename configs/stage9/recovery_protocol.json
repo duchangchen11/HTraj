@@ -1,0 +1,25 @@
+{
+  "A_checkpoint_SHA": "47a337d4463264d1c780232583cf376751861a80bf39ef1bde2bb67ce3c91237",
+  "A_epochs": 200,
+  "A_training_repeated": false,
+  "changes": [
+    "CPU map checkpoint restoration (preserves scalar Adam step device)",
+    "Skip independently completed full A run; keep A final checkpoint and curve",
+    "LF serialization for new CSV journals"
+  ],
+  "config_SHA_unchanged": "e86f985aafa4f14ea5fc593fb64c08fa1be46ac632fe80d4db77d05cd60c68c8",
+  "evidence": [
+    "results/tables/stage9/train_failure_1792265580625233536.json"
+  ],
+  "model_code_SHA_unchanged": "cda61450bcca701955c0e104cd599cea314138a7d1324b2d05d3daabad709e37",
+  "no_new_seed_or_epoch": true,
+  "no_validation_error_seen": true,
+  "original_executor_SHA": "f2a7180a78c3a4d41397c39d417b04236d5d8179c7599a418ffc136ec91416a9",
+  "reason": "CPU/CUDA scalar Adam-step verification mismatch, not corrupt state or nonfinite training",
+  "remaining_runs": [
+    "B",
+    "C"
+  ],
+  "repaired_executor_SHA": "1a05a96f2e29bebdbae199b64384b5cb92a92d00737aef75fdbc5ccc5adb0bce",
+  "same_initialization": true
+}

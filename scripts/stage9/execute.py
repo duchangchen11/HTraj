@@ -13,7 +13,7 @@ def packet(m,opt,epoch,kind):
         code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),config_SHA=sha(ROOT/'configs/stage9/training.json'))
 
 def restore(m,opt,p):
-    state=torch.load(p,map_location='cuda',weights_only=False);m.load_state_dict(state['model'],strict=True);opt.load_state_dict(state['optimizer'])
+    state=torch.load(p,map_location='cpu',weights_only=False);m.load_state_dict(state['model'],strict=True);opt.load_state_dict(state['optimizer'])
     torch.set_rng_state(state['torch_rng'].cpu());torch.cuda.set_rng_state_all([r.cpu() for r in state['cuda_rng']]);np.random.set_state(state['numpy_rng']);random.setstate(state['python_rng'])
     return state
 
@@ -78,21 +78,26 @@ def timing():
     json_new(ROOT/'configs/stage9/training.json',frozen)
     print(json.dumps(dict(chosen_epochs=chosen['epochs'],timings=summaries,budget=chosen),indent=2),flush=True)
 
-def train():
+def train(completed_prefix=None):
     config=ROOT/'configs/stage9/training.json';cfg=json.loads(config.read_text())
     # Must be tracked exactly in a successful commit; no unfrozen code/config changes.
     for p in [config,ROOT/'scripts/stage9/common.py',Path(__file__)]:
         rel=str(p.relative_to(ROOT));frozen=subprocess.check_output(['git','show','HEAD:'+rel],cwd=ROOT)
         assert hashlib.sha256(frozen).hexdigest()==sha(p),('Uncommitted executable/config',rel)
     assert subprocess.check_output(['git','status','--porcelain','--',str(config),str(ROOT/'scripts/stage9')],cwd=ROOT,text=True).strip()==''
-    stage_start=time.monotonic();already=used();data=dataset('train');n=len(data['hist']);summary=[];checkpoints=[]
+    stage_start=time.monotonic();already=used();data=dataset('train');n=len(data['hist']);summary=list(completed_prefix or []);checkpoints=[]
+    for item in summary:
+        with (OUT/(item['model']+'_training_curve.csv')).open() as f:
+            for row in csv.DictReader(f):
+                if row['checkpoint']:checkpoints.append(dict(model=item['model'],epoch=int(row['epoch']),path=row['checkpoint'],sha256=row['checkpoint_SHA'],final=int(row['epoch'])==cfg['epochs']))
     for kind in 'ABC':
+        if any(item['model']==kind for item in summary):continue
         m=model(kind,'cuda');seed(42);opt=torch.optim.Adam(m.parameters(),lr=cfg['lr']);m.train()
         initial=CACHE/'checkpoints'/('formal_'+kind+'_initial.pt');torch.save(m.state_dict(),initial)
         curve=[];steps_total=0;start=time.monotonic();torch.cuda.reset_peak_memory_stats()
         stepfile=OUT/(kind+'_training_steps.csv.gz')
         with gzip.open(stepfile,'xt',newline='') as ff:
-            writer=csv.DictWriter(ff,fieldnames=['epoch','step','loss','gradient_norm','seconds','targets']);writer.writeheader()
+            writer=csv.DictWriter(ff,fieldnames=['epoch','step','loss','gradient_norm','seconds','targets'],lineterminator='\n');writer.writeheader()
             for epoch in range(1,cfg['epochs']+1):
                 e0=time.monotonic();loss_sum=0.;norm_sum=0.;seen=0;steps=0
                 permutation=np.random.default_rng(9000+epoch).permutation(n)
@@ -118,7 +123,7 @@ def train():
                 curve.append(row);ff.flush()
                 # Append-only journal for recoverable progress while long jobs run.
                 with (OUT/(kind+'_epoch_journal.csv')).open('a',newline='') as journal:
-                    jw=csv.DictWriter(journal,fieldnames=list(row))
+                    jw=csv.DictWriter(journal,fieldnames=list(row),lineterminator="\n")
                     if epoch==1:jw.writeheader()
                     jw.writerow(row)
                 print(json.dumps(row),flush=True)
@@ -134,7 +139,7 @@ def train():
         summary.append(dict(model=kind,epochs=cfg['epochs'],updates=steps_total,target_visits=n*cfg['epochs'],seconds=time.monotonic()-start,parameters=params(m),initial_SHA=sha(initial),final_checkpoint=str(last.relative_to(ROOT)),final_SHA=sha(last),restored_model_optimizer_RNG=True,allocated=torch.cuda.max_memory_allocated(),reserved=torch.cuda.max_memory_reserved()))
         json_new(OUT/(kind+'_training_complete.json'),summary[-1])
         del m,restored,opt,opt2;torch.cuda.empty_cache()
-    csv_new(OUT/'checkpoint_index.csv',checkpoints);json_new(OUT/'training_summary.json',dict(models=summary,seconds=time.monotonic()-stage_start,code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),config_SHA=sha(config)))
+    csv_new(OUT/'checkpoint_index.csv',checkpoints);json_new(OUT/'training_summary.json',dict(models=summary,seconds=sum(r['seconds'] for r in summary),continuation_wall_seconds=time.monotonic()-stage_start,code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),config_SHA=sha(config)))
 
 def evaluate():
     cfg=json.loads((ROOT/'configs/stage9/training.json').read_text());completed=json.loads((OUT/'training_summary.json').read_text())
@@ -142,7 +147,7 @@ def evaluate():
     data=dataset('val');manifest=rows('val');outputs=[];predictions=[]
     for kind in 'ABC':
         m=model(kind,'cuda');p=CACHE/'checkpoints'/(kind+'_epoch'+str(cfg['epochs'])+'.pt')
-        state=torch.load(p,map_location='cuda',weights_only=False);m.load_state_dict(state['model'],strict=True);m.eval()
+        state=torch.load(p,map_location='cpu',weights_only=False);m.load_state_dict(state['model'],strict=True);m.eval()
         before=time.monotonic();torch.cuda.reset_peak_memory_stats();records=[];allpred=[]
         for start in range(0,len(manifest),128):
             selected=manifest[start:start+128];ids='|'.join(f"{r['sequence']}:{r['frame']}:{r['person_id']}" for r in selected)

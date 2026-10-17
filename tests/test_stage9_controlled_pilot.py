@@ -67,3 +67,36 @@ def test_low_rank_cross_moment_and_permutation():
     np.testing.assert_allclose(projected,actual,atol=1e-12)
     order=[2,0,1]
     np.testing.assert_allclose(actual,((g[order]@u)*(h[order]@v)).mean(0)-(g[order]@u).mean(0)*(h[order]@v).mean(0),atol=1e-12)
+
+@pytest.mark.skipif(not (OUT/'training_summary.json').exists(),reason='formal runs not complete yet')
+def test_completed_training_accesses_and_initial_shared_weights():
+    import torch
+    cfg=json.loads((ROOT/'configs/stage9/training.json').read_text());summary=load('training_summary.json')
+    assert len(summary['models'])==3
+    for r in summary['models']:
+        assert r['epochs']==cfg['epochs'] and r['updates']==cfg['epochs']*232
+        assert r['target_visits']==cfg['epochs']*29676 and r['restored_model_optimizer_RNG']
+        path=ROOT/r['final_checkpoint']
+        assert len(r['final_SHA'])==64
+        if path.exists():assert hashlib.sha256(path.read_bytes()).hexdigest()==r['final_SHA']
+    cache=ROOT/'experiments/stage9/cache/checkpoints'
+    if not (cache/'formal_A_initial.pt').exists():return  # ignored local cache, metadata checks above remain active
+    initial=torch.load(cache/'formal_A_initial.pt',weights_only=True,map_location='cpu')
+    for k in 'BC':
+        other=torch.load(cache/('formal_'+k+'_initial.pt'),weights_only=True,map_location='cpu')
+        assert all(torch.equal(v,other[name]) for name,v in initial.items())
+
+@pytest.mark.skipif(not (OUT/'validation_execution.json').exists(),reason='final evaluation not executed yet')
+def test_final_validation_targets_and_noise_are_paired():
+    target_lists=[]
+    for k in 'ABC':
+        with gzip.open(OUT/(k+'_validation_targets.csv.gz'),'rt') as f:r=list(csv.DictReader(f))
+        target_lists.append([(x['sequence'],x['frame'],x['person_id'],x['history_SHA'],x['GT_SHA'],x['sample_seed']) for x in r])
+        assert len(r)==5203 and all(np.isfinite(float(x['ADE'])) and np.isfinite(float(x['FDE'])) for x in r)
+    assert target_lists[0]==target_lists[1]==target_lists[2]
+
+@pytest.mark.skipif(not (OUT/'final_decision.json').exists(),reason='final comparisons not yet executed')
+def test_final_decision_is_conjunction_of_frozen_gates():
+    d=load('final_decision.json')
+    assert d['decision'].startswith('GO:')==all(d['gates'].values())
+    assert not d['test_errors_used'] and d['single_seed_development_only']
