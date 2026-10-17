@@ -41,6 +41,12 @@ def run():
         for name in sorted({r['source'] for r in rows}):sources.append(dict(model=k,source=name,**aggregate([r for r in rows if r['source']==name])))
         for name,criterion in criteria.items():groups.append(dict(model=k,group=name,**aggregate([r for r in rows if criterion(r)])))
     csv_new(OUT/'overall_metrics.csv',summary);csv_new(OUT/'source_metrics.csv',sources);csv_new(OUT/'group_metrics.csv',groups)
+    cross=[]
+    for k,records in cohorts.items():
+        for source in sorted({r['source'] for r in records}):
+            for group,criterion in criteria.items():
+                cross.append(dict(model=k,source=source,group=group,**aggregate([r for r in records if r['source']==source and criterion(r)])))
+    csv_new(OUT/'source_group_metrics.csv',cross)
     for i,a in enumerate(cohorts['A']):
         b=cohorts['B'][i];c=cohorts['C'][i]
         paired.append(dict(sequence=a['sequence'],source=a['source'],frame=a['frame'],person_id=a['person_id'],history_SHA=a['history_SHA'],GT_SHA=a['GT_SHA'],ambiguity=a['ambiguity'],external_neighbors=a['external_neighbors'],
