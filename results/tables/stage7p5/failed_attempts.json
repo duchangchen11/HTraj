@@ -1,0 +1,11 @@
+[
+  {
+    "attempt": 1,
+    "source_commit": "034727969d0892632889bf5e038c0fac5f892d53",
+    "failure": "np.loadtxt attempted to parse all 17 columns, including the official Pedestrian string in column2",
+    "stage": "first raw validation source parse, before new target errors were calculated",
+    "repair": "Read only the four numeric columns0,1,13,15, identical to the frozen official reader format",
+    "protocol_or_model_change": false,
+    "results_produced": false
+  }
+]

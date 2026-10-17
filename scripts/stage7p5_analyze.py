@@ -87,8 +87,8 @@ def main():
             seq=row['sequence'];frame=int(row['frame'])
             if not seq.endswith('_val'):raise ValueError('Non-validation sequence forbidden')
             if seq not in raw_cache:
-                file_raw=official/fold/(seq+'.txt');raw=np.loadtxt(file_raw)
-                raw_cache[seq]=raw[:,[0,1,13,15]]
+                file_raw=official/fold/(seq+'.txt')
+                raw_cache[seq]=np.loadtxt(file_raw,usecols=(0,1,13,15))
             with np.load(file,allow_pickle=False) as a:
                 x,y,p,ids=[a[k].astype(float) for k in ('history','truth','samples','person_ids')]
             assert x.shape==(len(ids),8,2) and y.shape==(len(ids),12,2) and p.shape==(len(ids),20,12,2)
