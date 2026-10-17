@@ -1,0 +1,49 @@
+{
+  "all_five_passed": true,
+  "cases": [
+    {
+      "all_ID_frame_candidate_checks_passed": true,
+      "candidate_files": 5060,
+      "fold": "eth",
+      "predicted_points": 87360,
+      "target_windows": 364,
+      "windows": 253
+    },
+    {
+      "all_ID_frame_candidate_checks_passed": true,
+      "candidate_files": 8900,
+      "fold": "hotel",
+      "predicted_points": 287280,
+      "target_windows": 1197,
+      "windows": 445
+    },
+    {
+      "all_ID_frame_candidate_checks_passed": true,
+      "candidate_files": 18940,
+      "fold": "univ",
+      "predicted_points": 5840160,
+      "target_windows": 24334,
+      "windows": 947
+    },
+    {
+      "all_ID_frame_candidate_checks_passed": true,
+      "candidate_files": 14100,
+      "fold": "zara1",
+      "predicted_points": 565440,
+      "target_windows": 2356,
+      "windows": 705
+    },
+    {
+      "all_ID_frame_candidate_checks_passed": true,
+      "candidate_files": 19960,
+      "fold": "zara2",
+      "predicted_points": 1418400,
+      "target_windows": 5910,
+      "windows": 998
+    }
+  ],
+  "elapsed_seconds": 63.63243914197665,
+  "no_ADE_FDE_computed": true,
+  "no_candidate_reordering_or_selection": true,
+  "source_SHA256": "13600e0cbbd2c3a12581ca22ce8352adead931c0feeeb4fb7a878826b4e7fb89"
+}

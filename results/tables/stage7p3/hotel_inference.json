@@ -1,0 +1,28 @@
+{
+  "K": 20,
+  "checkpoint_CVAE_SHA256": "d30954995ec972843b85a58418dfca62f1e27fceb583ae70502cad14c2ca5a99",
+  "checkpoint_DLow_SHA256": "537edd5ca1b8149bdbf786ecedb7bb0c01dfa3da6c0a6456b4d77949022da715",
+  "fold": "hotel",
+  "freeze_commit": "f672731ecd625c39583100fc69be43ae0020ec99",
+  "model_call_seconds_max": 0.12000789603916928,
+  "model_call_seconds_min": 0.06310948898317292,
+  "model_only_seconds": 31.912046678946353,
+  "no_test_errors_yet": true,
+  "official_inference_log": "/home/lrj/HTraj/experiments/stage7p3/cache/hotel_official_inference.txt",
+  "official_inference_log_SHA256": "b75e95765c4c376ea0855d27c81483ca631ac6892c0772d699c41f211a4822b4",
+  "optimizer_updates": 0,
+  "output_directory": "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/hotel",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 113646080,
+    "peak_reserved_bytes": 161480704,
+    "seconds": 49.31796165602282,
+    "whole_card_memory_samples": 367,
+    "whole_card_sampled_peak_MiB": 776,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "success": true,
+  "targets": 1197,
+  "traj_scale": 1,
+  "windows": 445
+}

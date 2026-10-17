@@ -1,0 +1,24 @@
+{
+  "K": 20,
+  "K1_first_ADE": 1.4129052660432355,
+  "K1_first_FDE": 3.2921030904050737,
+  "SHA_index_rows": 9790,
+  "candidate_files": 8900,
+  "evaluator_max_difference_m": 1.5663570440693775e-10,
+  "fold": "hotel",
+  "full_alignment_passed": true,
+  "minADE20": 0.14207280944905312,
+  "minFDE20": 0.2246100583136877,
+  "official_CLI_4decimals": {
+    "minADE20": 0.1421,
+    "minFDE20": 0.2246
+  },
+  "official_full_precision": {
+    "minADE20": 0.14207280960568883,
+    "minFDE20": 0.22461005846394808
+  },
+  "samples_scored_only": true,
+  "scoring_seconds": 9.134282321028877,
+  "targets": 1197,
+  "windows": 445
+}

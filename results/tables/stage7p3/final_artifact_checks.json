@@ -1,0 +1,19 @@
+{
+  "all_files_ignored": true,
+  "all_passed": true,
+  "failures": 0,
+  "five_fold_equal_macro_verified": true,
+  "frozen_inputs": {
+    "checkpoint_and_config_files": 20,
+    "data_files": 74,
+    "execution_files": 10,
+    "official_source_files": 43,
+    "verified": true
+  },
+  "prediction_recon_GT_files_hash_verified": 73656,
+  "report_files": 7,
+  "target_weighted_aggregation_verified": true,
+  "target_window_uniqueness": true,
+  "test_suite_passed": 419,
+  "verifier_SHA256": "c0c9719d2939eb25e3c06c57200956ccedc24d34fbb959ad11b14ddfcf423c3c"
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "final artifact tooling, not model or evaluation",
+  "reason": "per-file git subprocess calls were unnecessarily slow",
+  "action": "SIGINT optional verifier only; preserve script/log; retry same checks with one git check-ignore --stdin -z batch",
+  "original_script_SHA256": "8c8e5987ff4d9992d95927fcfc848ab9d98f0a2504c2549a81926bc4ce82a065",
+  "interrupted_log": "results/tables/stage7p3/final_artifact_checks_execution.txt",
+  "prediction_outputs_changed": false,
+  "metrics_changed": false,
+  "model_inference_repeated": false
+}

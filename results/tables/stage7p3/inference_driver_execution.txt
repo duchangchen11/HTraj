@@ -1,0 +1,84 @@
+START serial inference eth expected 253 windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+eth: 50/253 windows, no errors scored
+eth: 100/253 windows, no errors scored
+eth: 150/253 windows, no errors scored
+eth: 200/253 windows, no errors scored
+eth: 250/253 windows, no errors scored
+DONE eth seconds 24.91
+START serial inference hotel expected 445 windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+hotel: 50/445 windows, no errors scored
+hotel: 100/445 windows, no errors scored
+hotel: 150/445 windows, no errors scored
+hotel: 200/445 windows, no errors scored
+hotel: 250/445 windows, no errors scored
+hotel: 300/445 windows, no errors scored
+hotel: 350/445 windows, no errors scored
+hotel: 400/445 windows, no errors scored
+DONE hotel seconds 49.32
+START serial inference univ expected 947 windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+univ: 50/947 windows, no errors scored
+univ: 100/947 windows, no errors scored
+univ: 150/947 windows, no errors scored
+univ: 200/947 windows, no errors scored
+univ: 250/947 windows, no errors scored
+univ: 300/947 windows, no errors scored
+univ: 350/947 windows, no errors scored
+univ: 400/947 windows, no errors scored
+univ: 450/947 windows, no errors scored
+univ: 500/947 windows, no errors scored
+univ: 550/947 windows, no errors scored
+univ: 600/947 windows, no errors scored
+univ: 650/947 windows, no errors scored
+univ: 700/947 windows, no errors scored
+univ: 750/947 windows, no errors scored
+univ: 800/947 windows, no errors scored
+univ: 850/947 windows, no errors scored
+univ: 900/947 windows, no errors scored
+DONE univ seconds 402.47
+START serial inference zara1 expected 705 windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+zara1: 50/705 windows, no errors scored
+zara1: 100/705 windows, no errors scored
+zara1: 150/705 windows, no errors scored
+zara1: 200/705 windows, no errors scored
+zara1: 250/705 windows, no errors scored
+zara1: 300/705 windows, no errors scored
+zara1: 350/705 windows, no errors scored
+zara1: 400/705 windows, no errors scored
+zara1: 450/705 windows, no errors scored
+zara1: 500/705 windows, no errors scored
+zara1: 550/705 windows, no errors scored
+zara1: 600/705 windows, no errors scored
+zara1: 650/705 windows, no errors scored
+zara1: 700/705 windows, no errors scored
+DONE zara1 seconds 81.51
+START serial inference zara2 expected 998 windows
+/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/model/dlow.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_cp = torch.load(cp_path, map_location='cpu')
+zara2: 50/998 windows, no errors scored
+zara2: 100/998 windows, no errors scored
+zara2: 150/998 windows, no errors scored
+zara2: 200/998 windows, no errors scored
+zara2: 250/998 windows, no errors scored
+zara2: 300/998 windows, no errors scored
+zara2: 350/998 windows, no errors scored
+zara2: 400/998 windows, no errors scored
+zara2: 450/998 windows, no errors scored
+zara2: 500/998 windows, no errors scored
+zara2: 550/998 windows, no errors scored
+zara2: 600/998 windows, no errors scored
+zara2: 650/998 windows, no errors scored
+zara2: 700/998 windows, no errors scored
+zara2: 750/998 windows, no errors scored
+zara2: 800/998 windows, no errors scored
+zara2: 850/998 windows, no errors scored
+zara2: 900/998 windows, no errors scored
+zara2: 950/998 windows, no errors scored
+DONE zara2 seconds 146.93

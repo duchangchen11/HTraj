@@ -1,0 +1,28 @@
+{
+  "K": 20,
+  "checkpoint_CVAE_SHA256": "615fa6a407e76ec1e5d99c69599478ba4907e061994ea6e7c4477623856b487d",
+  "checkpoint_DLow_SHA256": "09d2bd05cb3f018ed09d58a061ca26bb38cc98fcf6ad135e8c975014e2f7e2d7",
+  "fold": "univ",
+  "freeze_commit": "f672731ecd625c39583100fc69be43ae0020ec99",
+  "model_call_seconds_max": 0.4052037170040421,
+  "model_call_seconds_min": 0.06657838000683114,
+  "model_only_seconds": 138.09051087324042,
+  "no_test_errors_yet": true,
+  "official_inference_log": "/home/lrj/HTraj/experiments/stage7p3/cache/univ_official_inference.txt",
+  "official_inference_log_SHA256": "649c8c52ee9409524af4366f40f49d5c237e6ee8e1c1942f82e342f03dc2dcea",
+  "optimizer_updates": 0,
+  "output_directory": "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/univ",
+  "resource": {
+    "OOM": false,
+    "peak_allocated_bytes": 1735791104,
+    "peak_reserved_bytes": 8382316544,
+    "seconds": 402.47360146197025,
+    "whole_card_memory_samples": 2954,
+    "whole_card_sampled_peak_MiB": 8620,
+    "whole_card_sampling_interval_seconds": 0.1
+  },
+  "success": true,
+  "targets": 24334,
+  "traj_scale": 1,
+  "windows": 947
+}

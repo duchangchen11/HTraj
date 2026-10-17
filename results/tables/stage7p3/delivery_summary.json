@@ -1,0 +1,22 @@
+{
+  "automatic_push": false,
+  "freeze_commit": "f672731ecd625c39583100fc69be43ae0020ec99",
+  "macro": {
+    "K1_first_ADE": 0.9255520530626102,
+    "K1_first_FDE": 2.046761728458166,
+    "minADE20": 0.2330576832947886,
+    "minFDE20": 0.3933675954044588
+  },
+  "old_SHA_failures": [],
+  "optimizer_updates": 0,
+  "preliminary_reproduction_passed": true,
+  "protected_files": 11348,
+  "report_writer_SHA256": "36fc5f2766655664a05d88477b97eefb1c8dfceb07da95c13986b8210561250d",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 419
+  },
+  "training_epochs": 0
+}

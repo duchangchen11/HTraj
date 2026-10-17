@@ -1,0 +1,24 @@
+{
+  "K": 20,
+  "K1_first_ADE": 0.6655464274397213,
+  "K1_first_FDE": 1.4198992198129223,
+  "SHA_index_rows": 20834,
+  "candidate_files": 18940,
+  "evaluator_max_difference_m": 2.3405177795865484e-10,
+  "fold": "univ",
+  "full_alignment_passed": true,
+  "minADE20": 0.25423033780841686,
+  "minFDE20": 0.4539152982658666,
+  "official_CLI_4decimals": {
+    "minADE20": 0.2542,
+    "minFDE20": 0.4539
+  },
+  "official_full_precision": {
+    "minADE20": 0.2542303380214402,
+    "minFDE20": 0.45391529849991835
+  },
+  "samples_scored_only": true,
+  "scoring_seconds": 46.01110459701158,
+  "targets": 24334,
+  "windows": 947
+}

@@ -1,0 +1,24 @@
+{
+  "K": 20,
+  "K1_first_ADE": 0.8196063362947918,
+  "K1_first_FDE": 1.8801730480660193,
+  "SHA_index_rows": 15510,
+  "candidate_files": 14100,
+  "evaluator_max_difference_m": 1.7578549726948722e-10,
+  "fold": "zara1",
+  "full_alignment_passed": true,
+  "minADE20": 0.1774305863113869,
+  "minFDE20": 0.30438065874827075,
+  "official_CLI_4decimals": {
+    "minADE20": 0.1774,
+    "minFDE20": 0.3044
+  },
+  "official_full_precision": {
+    "minADE20": 0.177430586264815,
+    "minFDE20": 0.30438065892405625
+  },
+  "samples_scored_only": true,
+  "scoring_seconds": 11.176327218010556,
+  "targets": 2356,
+  "windows": 705
+}

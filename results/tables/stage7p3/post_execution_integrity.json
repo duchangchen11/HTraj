@@ -1,0 +1,25 @@
+{
+  "delivery_source_SHA256": {
+    "scripts/stage7p3/audit_outputs_before_metrics.py": "13600e0cbbd2c3a12581ca22ce8352adead931c0feeeb4fb7a878826b4e7fb89",
+    "scripts/stage7p3/post_execution_integrity.py": "25976b713b475f6e8f12bb5d2e13a25c500e71c7de781be992ba2eb576288cb4",
+    "scripts/stage7p3/preflight.py": "1e7d815c4907b4e735cccd4f6d254d5c7a60e85f43490b31d728fc896b6e5f1b",
+    "scripts/stage7p3/prepare.py": "1eb179ab893782754c118d560528d84fa444a36074cc6581490dfe7e53d5a0f0",
+    "scripts/stage7p3/run_evaluation.py": "c262ecd80fa6752d30627f9b82e04d2169cac0d691677237626bee90dd604951",
+    "scripts/stage7p3/verify_preservation.py": "84d83f309ae563fed2ecc432b0189a91f49e69d9d07b2ff7c9b69173722c4560",
+    "scripts/stage7p3/write_reports.py": "36fc5f2766655664a05d88477b97eefb1c8dfceb07da95c13986b8210561250d",
+    "src/agentformer_official_evaluation/__init__.py": "18a55338d13aaa724c791533f85e9a2fa5668327cdb8e933cc7a751a26c17d59",
+    "src/agentformer_official_evaluation/runtime.py": "d8452b1c9dd01c0eb19c78f22b365775b7298ad9bd1eef7fe5f6386028f13d22",
+    "tests/test_agentformer_official_evaluation.py": "951e483044de5f46324dd586313a26e89bc905f915a6a888b09ac73adbf19b1e"
+  },
+  "frozen_inputs": {
+    "checkpoint_and_config_files": 20,
+    "data_files": 74,
+    "execution_files": 10,
+    "official_source_files": 43,
+    "verified": true
+  },
+  "historical_SHA_failures": [],
+  "historical_files_checked": 11348,
+  "no_prior_stage_files_modified": true,
+  "seconds": 42.5491964360117
+}

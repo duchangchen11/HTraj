@@ -1,0 +1,29 @@
+{
+  "final_files_SHA256": {
+    "configs/stage7p3/official/LICENSE": "808d71e8d18819253c49327df4a323bc90bd79555a26659931286cab2783211d",
+    "reports/stage7p3/01_FROZEN_EVALUATION_PROTOCOL.md": "4c678de76aa067b6b12730b9ee28b991b526a90163f812e12f4a4902669bbe4d",
+    "reports/stage7p3/02_OFFICIAL_CHECKPOINT_VERIFICATION.md": "210695d59692a840c1b102836bd815958c76c5a37835d18d05cbe13b1d5eafb7",
+    "reports/stage7p3/03_FIVE_SCENE_EVALUATION.md": "2ff77e1a9f40066b72ce3e7b1fc29b1e925f26b6dbbfe429a1e276002a81a562",
+    "reports/stage7p3/04_AUTHOR_RESULT_COMPARISON.md": "1ca0b486b6c17a8fccf295665ffe115645d1b19214b312441aae90e1bb080dc1",
+    "reports/stage7p3/05_EVALUATION_REPRODUCIBILITY.md": "2f9015f032bad93e81a264d43f6fac181bfb4734add2ce3d0033cbd68826b6fd",
+    "reports/stage7p3/06_GO_NO_GO.md": "40f6b281cd4819854984f047f8bb4bbdae86dbba898ab582891de8c78e9a81f6",
+    "reports/stage7p3/STAGE7P3_REPORT.md": "6493064fdeb755a036698e9bd8d439941b238a734e0783bcc54bad1c1c56a8b8",
+    "scripts/stage7p3/README.md": "0e57cabd2ae9cc62b6fc90d2e58168cc60f7d6da5800581f38026c4e153a9765",
+    "scripts/stage7p3/audit_outputs_before_metrics.py": "13600e0cbbd2c3a12581ca22ce8352adead931c0feeeb4fb7a878826b4e7fb89",
+    "scripts/stage7p3/post_execution_integrity.py": "25976b713b475f6e8f12bb5d2e13a25c500e71c7de781be992ba2eb576288cb4",
+    "scripts/stage7p3/preflight.py": "1e7d815c4907b4e735cccd4f6d254d5c7a60e85f43490b31d728fc896b6e5f1b",
+    "scripts/stage7p3/prepare.py": "1eb179ab893782754c118d560528d84fa444a36074cc6581490dfe7e53d5a0f0",
+    "scripts/stage7p3/run_evaluation.py": "c262ecd80fa6752d30627f9b82e04d2169cac0d691677237626bee90dd604951",
+    "scripts/stage7p3/verify_preservation.py": "84d83f309ae563fed2ecc432b0189a91f49e69d9d07b2ff7c9b69173722c4560",
+    "scripts/stage7p3/verify_results.py": "8c8e5987ff4d9992d95927fcfc848ab9d98f0a2504c2549a81926bc4ce82a065",
+    "scripts/stage7p3/verify_results_batched.py": "c0c9719d2939eb25e3c06c57200956ccedc24d34fbb959ad11b14ddfcf423c3c",
+    "scripts/stage7p3/write_reports.py": "1a0b708eac4d315de702d241bd01c160accb6b4d61509f4f87970a689c3cba0a",
+    "src/agentformer_official_evaluation/__init__.py": "18a55338d13aaa724c791533f85e9a2fa5668327cdb8e933cc7a751a26c17d59",
+    "src/agentformer_official_evaluation/runtime.py": "d8452b1c9dd01c0eb19c78f22b365775b7298ad9bd1eef7fe5f6386028f13d22",
+    "tests/test_agentformer_official_evaluation.py": "951e483044de5f46324dd586313a26e89bc905f915a6a888b09ac73adbf19b1e"
+  },
+  "freeze_commit": "f672731ecd625c39583100fc69be43ae0020ec99",
+  "official_evaluation_execution_code_unchanged_since_freeze": true,
+  "report_updates": "Bookkeeping notes only after the executed metrics; no model/data/checkpoint/config changes",
+  "tooling_revision": "Batched Git ignore check supersedes interrupted per-file verifier; prediction/scoring source unchanged"
+}

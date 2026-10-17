@@ -1,0 +1,14 @@
+{
+  "formal_training_epochs": 0,
+  "freeze_commit": "f672731ecd625c39583100fc69be43ae0020ec99",
+  "git_clean_before_execution": true,
+  "optimizer_updates": 0,
+  "started_UTC": "2026-10-17T09:48:11Z",
+  "verified_inputs": {
+    "checkpoint_and_config_files": 20,
+    "data_files": 74,
+    "execution_files": 10,
+    "official_source_files": 43,
+    "verified": true
+  }
+}

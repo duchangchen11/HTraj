@@ -1,0 +1,1 @@
+Final artifact checks passed: 73656 output-file SHA verified; correct target and macro aggregation

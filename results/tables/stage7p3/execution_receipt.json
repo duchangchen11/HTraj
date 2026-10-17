@@ -1,0 +1,175 @@
+{
+  "GPU_resources": "Torch exact per-fold allocated/reserved peaks; whole-card nominal 0.1-second polling plus command overhead",
+  "K": 20,
+  "candidate_files": 66960,
+  "commands": [
+    {
+      "argv": [
+        "experiments/stage4/venv/bin/python",
+        "-u",
+        "scripts/stage7p3/run_evaluation.py",
+        "infer"
+      ],
+      "cwd": "/home/lrj/HTraj"
+    },
+    {
+      "argv": [
+        "experiments/stage4/venv/bin/python",
+        "scripts/stage7p3/audit_outputs_before_metrics.py"
+      ],
+      "cwd": "/home/lrj/HTraj"
+    },
+    {
+      "argv": [
+        "experiments/stage4/venv/bin/python",
+        "-u",
+        "scripts/stage7p3/run_evaluation.py",
+        "score"
+      ],
+      "cwd": "/home/lrj/HTraj"
+    },
+    {
+      "argv": [
+        "/home/lrj/HTraj/experiments/stage4/venv/bin/python",
+        "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+        "--dataset",
+        "eth",
+        "--data",
+        "test",
+        "--results_dir",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/eth/samples",
+        "--log_file",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/eth_official_eval_original.txt"
+      ],
+      "cwd": "/home/lrj/HTraj/experiments/stage7p3/cache/workspace"
+    },
+    {
+      "argv": [
+        "/home/lrj/HTraj/experiments/stage4/venv/bin/python",
+        "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+        "--dataset",
+        "hotel",
+        "--data",
+        "test",
+        "--results_dir",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/hotel/samples",
+        "--log_file",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/hotel_official_eval_original.txt"
+      ],
+      "cwd": "/home/lrj/HTraj/experiments/stage7p3/cache/workspace"
+    },
+    {
+      "argv": [
+        "/home/lrj/HTraj/experiments/stage4/venv/bin/python",
+        "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+        "--dataset",
+        "univ",
+        "--data",
+        "test",
+        "--results_dir",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/univ/samples",
+        "--log_file",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/univ_official_eval_original.txt"
+      ],
+      "cwd": "/home/lrj/HTraj/experiments/stage7p3/cache/workspace"
+    },
+    {
+      "argv": [
+        "/home/lrj/HTraj/experiments/stage4/venv/bin/python",
+        "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+        "--dataset",
+        "zara1",
+        "--data",
+        "test",
+        "--results_dir",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/zara1/samples",
+        "--log_file",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/zara1_official_eval_original.txt"
+      ],
+      "cwd": "/home/lrj/HTraj/experiments/stage7p3/cache/workspace"
+    },
+    {
+      "argv": [
+        "/home/lrj/HTraj/experiments/stage4/venv/bin/python",
+        "/home/lrj/HTraj/experiments/stage7/cache/AgentFormer/e4fe8dd6df3b3d2033665c5f8ac3544e81c44db5/eval.py",
+        "--dataset",
+        "zara2",
+        "--data",
+        "test",
+        "--results_dir",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/predictions/zara2/samples",
+        "--log_file",
+        "/home/lrj/HTraj/experiments/stage7p3/cache/zara2_official_eval_original.txt"
+      ],
+      "cwd": "/home/lrj/HTraj/experiments/stage7p3/cache/workspace"
+    }
+  ],
+  "environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "log_files": [
+    {
+      "bytes": 8142,
+      "path": "experiments/stage7p3/cache/inference_driver.txt",
+      "sha256": "bd397a43336485a3cc41ba005903cae0f928ecc6bb478962b31ec818ffc4f515"
+    },
+    {
+      "bytes": 13928,
+      "path": "experiments/stage7p3/cache/eth_official_inference.txt",
+      "sha256": "27f26491449259e07ffa4c4575827f44bd7b2c02fd712e8a13393a995cacbc2b"
+    },
+    {
+      "bytes": 25002,
+      "path": "experiments/stage7p3/cache/hotel_official_inference.txt",
+      "sha256": "b75e95765c4c376ea0855d27c81483ca631ac6892c0772d699c41f211a4822b4"
+    },
+    {
+      "bytes": 53626,
+      "path": "experiments/stage7p3/cache/univ_official_inference.txt",
+      "sha256": "649c8c52ee9409524af4366f40f49d5c237e6ee8e1c1942f82e342f03dc2dcea"
+    },
+    {
+      "bytes": 41421,
+      "path": "experiments/stage7p3/cache/zara1_official_inference.txt",
+      "sha256": "77f97ed5cb53faee935a9344b0b08be7f7167e3cbe12132fe0abfd9d9b68162e"
+    },
+    {
+      "bytes": 58417,
+      "path": "experiments/stage7p3/cache/zara2_official_inference.txt",
+      "sha256": "f44d0a91dc7252dd6b73a337c84da669543fa2765887de71945d88c1c66b5570"
+    },
+    {
+      "bytes": 26138,
+      "path": "experiments/stage7p3/cache/eth_official_eval_original.txt",
+      "sha256": "962088214c6f4fa1276484881265965e3a89e4794f848e1eb24af17639b79f97"
+    },
+    {
+      "bytes": 46618,
+      "path": "experiments/stage7p3/cache/hotel_official_eval_original.txt",
+      "sha256": "3d90fd696047bf684339edaeb20123ad3a2136c326105b79b0b622cf11ac22ea"
+    },
+    {
+      "bytes": 99773,
+      "path": "experiments/stage7p3/cache/univ_official_eval_original.txt",
+      "sha256": "ad13884b3ff9fb1c49d299134156a6535b1acb45a2ad8423e27b45c342182747"
+    },
+    {
+      "bytes": 75773,
+      "path": "experiments/stage7p3/cache/zara1_official_eval_original.txt",
+      "sha256": "b5655dcfc6244d6619034401ed88a771c093f1d5b11926bc2ed1b4e6b04e7462"
+    },
+    {
+      "bytes": 107124,
+      "path": "experiments/stage7p3/cache/zara2_official_eval_original.txt",
+      "sha256": "043a637a2b00ee301f5b54597f06f0f733afab3ed878a0297042762ef3d94789"
+    }
+  ],
+  "optimizer_updates": 0,
+  "overwrite_policy": "Existing artifacts are exclusive-created. Repeating requires a separate clean run copy; never overwrite existing results.",
+  "repeatability_boundary": "One complete official five-fold inference execution; independent re-scoring of same files, not a second five-fold inference rerun",
+  "total_inference_seconds": 705.1459612759645,
+  "total_model_call_seconds": 314.4099880832364,
+  "total_target_windows": 34161,
+  "total_windows": 3348
+}

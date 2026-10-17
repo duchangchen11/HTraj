@@ -1,0 +1,136 @@
+{
+  "all_five_completed": true,
+  "all_predictions_before_scoring": true,
+  "author_values_rounded_2decimals": true,
+  "failures": [],
+  "folds": [
+    {
+      "K": 20,
+      "K1_first_ADE": 1.0292387803845262,
+      "K1_first_FDE": 2.0271364736799815,
+      "SHA_index_rows": 5566,
+      "candidate_files": 5060,
+      "evaluator_max_difference_m": 1.3060846848489405e-09,
+      "fold": "eth",
+      "full_alignment_passed": true,
+      "minADE20": 0.4511493765672736,
+      "minFDE20": 0.7477058036735731,
+      "official_CLI_4decimals": {
+        "minADE20": 0.4511,
+        "minFDE20": 0.7477
+      },
+      "official_full_precision": {
+        "minADE20": 0.45114937765334456,
+        "minFDE20": 0.7477058023674884
+      },
+      "samples_scored_only": true,
+      "scoring_seconds": 5.145019945979584,
+      "targets": 364,
+      "windows": 253
+    },
+    {
+      "K": 20,
+      "K1_first_ADE": 1.4129052660432355,
+      "K1_first_FDE": 3.2921030904050737,
+      "SHA_index_rows": 9790,
+      "candidate_files": 8900,
+      "evaluator_max_difference_m": 1.5663570440693775e-10,
+      "fold": "hotel",
+      "full_alignment_passed": true,
+      "minADE20": 0.14207280944905312,
+      "minFDE20": 0.2246100583136877,
+      "official_CLI_4decimals": {
+        "minADE20": 0.1421,
+        "minFDE20": 0.2246
+      },
+      "official_full_precision": {
+        "minADE20": 0.14207280960568883,
+        "minFDE20": 0.22461005846394808
+      },
+      "samples_scored_only": true,
+      "scoring_seconds": 9.134282321028877,
+      "targets": 1197,
+      "windows": 445
+    },
+    {
+      "K": 20,
+      "K1_first_ADE": 0.6655464274397213,
+      "K1_first_FDE": 1.4198992198129223,
+      "SHA_index_rows": 20834,
+      "candidate_files": 18940,
+      "evaluator_max_difference_m": 2.3405177795865484e-10,
+      "fold": "univ",
+      "full_alignment_passed": true,
+      "minADE20": 0.25423033780841686,
+      "minFDE20": 0.4539152982658666,
+      "official_CLI_4decimals": {
+        "minADE20": 0.2542,
+        "minFDE20": 0.4539
+      },
+      "official_full_precision": {
+        "minADE20": 0.2542303380214402,
+        "minFDE20": 0.45391529849991835
+      },
+      "samples_scored_only": true,
+      "scoring_seconds": 46.01110459701158,
+      "targets": 24334,
+      "windows": 947
+    },
+    {
+      "K": 20,
+      "K1_first_ADE": 0.8196063362947918,
+      "K1_first_FDE": 1.8801730480660193,
+      "SHA_index_rows": 15510,
+      "candidate_files": 14100,
+      "evaluator_max_difference_m": 1.7578549726948722e-10,
+      "fold": "zara1",
+      "full_alignment_passed": true,
+      "minADE20": 0.1774305863113869,
+      "minFDE20": 0.30438065874827075,
+      "official_CLI_4decimals": {
+        "minADE20": 0.1774,
+        "minFDE20": 0.3044
+      },
+      "official_full_precision": {
+        "minADE20": 0.177430586264815,
+        "minFDE20": 0.30438065892405625
+      },
+      "samples_scored_only": true,
+      "scoring_seconds": 11.176327218010556,
+      "targets": 2356,
+      "windows": 705
+    },
+    {
+      "K": 20,
+      "K1_first_ADE": 0.7004634551507759,
+      "K1_first_FDE": 1.6144968103268313,
+      "SHA_index_rows": 21956,
+      "candidate_files": 19960,
+      "evaluator_max_difference_m": 3.2992172882551074e-10,
+      "fold": "zara2",
+      "full_alignment_passed": true,
+      "minADE20": 0.14040530633781265,
+      "minFDE20": 0.23622615802089625,
+      "official_CLI_4decimals": {
+        "minADE20": 0.1404,
+        "minFDE20": 0.2362
+      },
+      "official_full_precision": {
+        "minADE20": 0.1404053065141855,
+        "minFDE20": 0.23622615835081798
+      },
+      "samples_scored_only": true,
+      "scoring_seconds": 21.75619755301159,
+      "targets": 5910,
+      "windows": 998
+    }
+  ],
+  "macro": {
+    "K1_first_ADE": 0.9255520530626102,
+    "K1_first_FDE": 2.046761728458166,
+    "minADE20": 0.2330576832947886,
+    "minFDE20": 0.3933675954044588
+  },
+  "no_training": true,
+  "preliminary_reproduction_passed": true
+}
