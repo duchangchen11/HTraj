@@ -1,0 +1,44 @@
+{
+  "base_commit": "d8e753f718647db49202da3ac6d43e4b37cfc59b",
+  "execution_commit": "61ee113cdfd9110c644a72d46ed261d2985168b4",
+  "Snapshot": {
+    "commit": "704e93339c58e15740c786881add06de8a397ba3",
+    "license": "Apache-2.0",
+    "no_checkout": true,
+    "blobs": [
+      {
+        "repository": "https://github.com/TUMFTM/Snapshot",
+        "commit": "704e93339c58e15740c786881add06de8a397ba3",
+        "file": "utils/social_features.py",
+        "sha256": "428bfd6e853233c6f1dde617c653a51a2d98dce5a90de505987fdd14056d6dcf",
+        "url": "https://github.com/TUMFTM/Snapshot/blob/704e93339c58e15740c786881add06de8a397ba3/utils/social_features.py"
+      },
+      {
+        "repository": "https://github.com/TUMFTM/Snapshot",
+        "commit": "704e93339c58e15740c786881add06de8a397ba3",
+        "file": "config.yaml",
+        "sha256": "f2f80597af0d5bcddb7ae686421270fa0464e2794597e3f4e6f2cb153e3665f8",
+        "url": "https://github.com/TUMFTM/Snapshot/blob/704e93339c58e15740c786881add06de8a397ba3/config.yaml"
+      },
+      {
+        "repository": "https://github.com/TUMFTM/Snapshot",
+        "commit": "704e93339c58e15740c786881add06de8a397ba3",
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "url": "https://github.com/TUMFTM/Snapshot/blob/704e93339c58e15740c786881add06de8a397ba3/LICENSE"
+      }
+    ]
+  },
+  "local_reused_files": [
+    {
+      "path": "src/data/preprocessing.py",
+      "sha256": "074cf77cc3a9cdf2c9bba44989cbd29e1397d5877d4a1cce777b53f41b12923c"
+    },
+    {
+      "path": "src/socialvae_causal/data.py",
+      "sha256": "e253652a6f836fc3673a573c12d6a2df3fc96da73d3bad95c15d399c97e52301"
+    }
+  ],
+  "models_imported_from_vendors": [],
+  "older_frozen_sources_unchanged": "see history_before/after.json"
+}

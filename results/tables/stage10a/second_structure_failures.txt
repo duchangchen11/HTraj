@@ -9,7 +9,7 @@ _________________ test_r_d_distinct_direction_and_determinism __________________
         assert d['edge_mask'][0, -1, 0].tolist() == [False, True, False]
 >       assert r['edge_mask'][0, -1, 0].tolist() == [False, False, True]
 E       assert [False, True, False] == [False, False, True]
-E         
+E
 E         At index 1 diff: True != False
 E         Use -v to get more diff
 

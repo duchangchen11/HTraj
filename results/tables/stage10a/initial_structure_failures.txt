@@ -13,15 +13,15 @@ mode = 'S', n = 1
         p.requires_grad_(True)
 >       a = model(p, mask, ids)
 
-tests/test_stage10a_risk_graph.py:32: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:32:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806]],
 
@@ -104,15 +104,15 @@ mode = 'S', n = 2
         p.requires_grad_(True)
 >       a = model(p, mask, ids)
 
-tests/test_stage10a_risk_graph.py:32: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:32:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806],
           [ 0.3406,  0.3202]],
@@ -192,15 +192,15 @@ mode = 'S', n = 5
         p.requires_grad_(True)
 >       a = model(p, mask, ids)
 
-tests/test_stage10a_risk_graph.py:32: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:32:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806],
           [ 0.3406,  0.3202],
@@ -275,15 +275,15 @@ mode = 'S', n = 12
         p.requires_grad_(True)
 >       a = model(p, mask, ids)
 
-tests/test_stage10a_risk_graph.py:32: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:32:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806],
           [ 0.3406,  0.3202],
@@ -359,15 +359,15 @@ mode = 'S'
         model = RiskGraphModel(mode, 16, C).double()
 >       out = model(p, mask, ids, diagnostics=True)
 
-tests/test_stage10a_risk_graph.py:50: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:50:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806],
           [    nan,     nan],
@@ -444,8 +444,8 @@ mode = 'S'
         m = RiskGraphModel(mode, 16, C).double()
 >       g = build_graph(p, mask, ids, mode, C)
 
-tests/test_stage10a_risk_graph.py:75: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:75:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[-0.0117,  0.0806],
           [ 0.3406,  0.3202],
@@ -517,7 +517,7 @@ _________________ test_r_d_distinct_direction_and_determinism __________________
         assert d['edge_mask'][0, -1, 0].tolist() == [False, True, False]
 >       assert r['edge_mask'][0, -1, 0].tolist() == [False, False, True]
 E       assert [False, True, False] == [False, False, True]
-E         
+E
 E         At index 1 diff: True != False
 E         Use -v to get more diff
 
@@ -534,8 +534,8 @@ mode = 'S'
         conf = replace(C, max_neighbors=1)
 >       g = build_graph(p, mask, ids, mode, conf)['edge_mask']
 
-tests/test_stage10a_risk_graph.py:139: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:139:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[0., 0.],
           [0., 0.],
@@ -611,11 +611,11 @@ ____________ test_static_first_encounter_frozen_and_dynamic_updates ____________
         p[0, -1, 2, 0] = .1
 >       s, d = [build_graph(p, mask, ids, mode, conf) for mode in ('S', 'D')]
 
-tests/test_stage10a_risk_graph.py:151: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:151:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 tests/test_stage10a_risk_graph.py:151: in <listcomp>
     s, d = [build_graph(p, mask, ids, mode, conf) for mode in ('S', 'D')]
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[0.0000, 0.0000],
           [0.7200, 0.0000],
@@ -703,15 +703,15 @@ ________________ test_raw_future_counterfactual_not_tensor_only ________________
             b = {**other, 'position': other['position'].double()}
 >           assert torch.equal(m(**a), m(**b))
 
-tests/test_stage10a_risk_graph.py:198: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:198:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
     return self._call_impl(*args, **kwargs)
 experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
     return forward_call(*args, **kwargs)
 src/risk_dynamic_graph/model.py:26: in forward
     graph = build_graph(position, valid, ids, self.mode, self.config)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 position = tensor([[[[0.0000, 0.0000],
           [0.0000, 0.0000]],

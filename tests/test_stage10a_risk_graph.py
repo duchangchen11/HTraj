@@ -217,3 +217,74 @@ def test_invalid_inputs_rejected():
     p[0, 0, 0] = float('nan')
     with pytest.raises(ValueError):
         historical_motion(p, mask)
+
+
+@pytest.mark.parametrize('mode', ['E','S','D','R'])
+def test_all_missing_and_separate_scenes(mode):
+    p, mask, ids = data(5, batch=2)
+    m = RiskGraphModel(mode, 16, C).double()
+    p.requires_grad_(True)
+    a = m(p,mask,ids)
+    grad = torch.autograd.grad(a[0].sum(),p)[0]
+    assert grad[1].eq(0).all()
+    empty = torch.zeros_like(mask)
+    assert m(torch.full_like(p,float('nan')),empty,ids).eq(0).all()
+
+
+def test_current_position_only_new_sender_and_receiver():
+    p, mask, ids = data(2)
+    mask[:, :7, 1] = False
+    g = build_graph(p,mask,ids,'R',C)
+    # Both directions legal by shared visibility rule. Neither pair claims to
+    # have a valid relative velocity. Explicit bits distinguish missing/zero.
+    assert g['edge_mask'][0,-1,0,1] and g['edge_mask'][0,-1,1,0]
+    assert not g['velocity_known'][0,-1,0,1]
+    assert g['t_cpa'][0,-1,0,1] == 0.
+    assert g['features'][0,-1,0,1,4:6].tolist() == [1.,0.]
+    assert g['relative_velocity'][0,-1,0,1].eq(0).all()
+
+
+def test_checkpoint_exact_restore(tmp_path):
+    p,mask,ids = data(5)
+    m = RiskGraphModel('R',16,C).double()
+    a = m(p,mask,ids)
+    a.sum().backward()
+    path = tmp_path/'synthetic.pt'
+    torch.save(m.state_dict(),path)
+    restored = RiskGraphModel('R',16,C).double()
+    restored.load_state_dict(torch.load(path,weights_only=True),strict=True)
+    assert torch.equal(a,restored(p,mask,ids))
+
+
+@pytest.mark.parametrize('kind', ['parallel','opposing','crossing'])
+def test_explicit_motion_geometry(kind):
+    t=torch.arange(8,dtype=torch.float64)*.4
+    offset=t-t[-1]
+    p=torch.zeros(1,8,2,2,dtype=torch.float64)
+    p[0,:,0,0]=-1.+offset
+    if kind=='parallel':
+        p[0,:,1,0]=1.+offset
+    elif kind=='opposing':
+        p[0,:,1,0]=1.-offset
+    else:
+        p[0,:,1,1]=-1.+offset
+    g=build_graph(p,torch.ones(1,8,2,dtype=torch.bool),torch.tensor([[1,2]]),'R',C)
+    if kind=='parallel':
+        assert g['t_cpa'][0,-1,0,1]==0.
+        assert g['dca'][0,-1,0,1]==2.
+    else:
+        torch.testing.assert_close(g['t_cpa'][0,-1,0,1],torch.tensor(1.,dtype=p.dtype))
+        assert g['dca'][0,-1,0,1]<1e-12
+    assert g['edge_mask'][0,-1,0,1]
+
+
+def test_dynamic_enters_radius_static_does_not_reconsider():
+    p,mask,ids=data(2)
+    p.zero_()
+    p[0,:,1,0]=torch.linspace(5.,2.,8,dtype=p.dtype)
+    conf=replace(C,radius=3.)
+    d=build_graph(p,mask,ids,'D',conf)
+    s=build_graph(p,mask,ids,'S',conf)
+    assert not d['edge_mask'][0,0,0,1]
+    assert d['edge_mask'][0,-1,0,1]
+    assert not s['edge_mask'][0,:,0,1].any()

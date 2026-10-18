@@ -1,0 +1,18 @@
+[
+  {
+    "path": "initial_structure_failures.txt",
+    "raw_SHA256": "7dc98b0bc4ed377001b692366a76d9212283b340ca9732e4362f6dd80fd2f5a2",
+    "raw_gzip_path": "initial_structure_failures.txt.gz",
+    "raw_gzip_SHA256": "d937de54cda2322c6c353449a155025a0b773655d527892a462bcca248c34e20",
+    "normalized_txt_SHA256": "7673841efa9b152e2fa1572563377ceb2da5ccd60b8a5360b778ce1cf2e25269",
+    "changes": "trailing whitespace only"
+  },
+  {
+    "path": "second_structure_failures.txt",
+    "raw_SHA256": "b13ad3746a2f65fe56c17f386d773cfca6617dc55c65d789ac922a3f38d0d5ff",
+    "raw_gzip_path": "second_structure_failures.txt.gz",
+    "raw_gzip_SHA256": "fe4fab7a19872bb65ca399301fb296f37c317ca3dce1c6d9ae3321ffc0b8cccf",
+    "normalized_txt_SHA256": "daf299300a3c719a8b17667f61509e6309bd255b60a7ae9b788f46a3962d6678",
+    "changes": "trailing whitespace only"
+  }
+]

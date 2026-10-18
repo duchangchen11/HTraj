@@ -1,0 +1,11 @@
+{
+  "engineering_new_implementation": true,
+  "novel_core_risk_features": false,
+  "exact_end_to_end_equivalence_claimed": false,
+  "question_and_selector_overlap_with_Snapshot": true,
+  "preexisting_HTraj_CPA_ranking": "src/models/temporal_graph.py:select_candidates closest+0.05*distance",
+  "research_GO": false,
+  "reason": "No demonstrated predictive limitation or mathematically distinct contribution; conventional finite-horizon CPA ranking alone insufficient",
+  "implementation_success_not_prediction_success": true,
+  "formal_training_or_validation_error": false
+}

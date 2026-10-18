@@ -1,0 +1,637 @@
+{
+  "workflow": "multi-source-search",
+  "academic_mcp": "not mounted; public primary PDF/repository fallback",
+  "scope": "dynamic graph/risk/TTC/DCA/sparse/adaptive neighbor selection",
+  "exclusions": [
+    "unrelated guessed arXiv pages not treated as sources",
+    "search snippets alone do not establish novelty absence"
+  ],
+  "search_groups": [
+    {
+      "search_group": "web1",
+      "discovery_metadata": [
+        {
+          "title": "Dynamic graph transformer for pedestrian potential trajectory prediction under the world perspective - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0925231225027973"
+        },
+        {
+          "title": "Pedestrian trajectory prediction method based on social force – Dynamic risk field coupled graph attention network - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378437125006922"
+        },
+        {
+          "title": "SGCN: Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Shi_SGCN_Sparse_Graph_Convolution_Network_for_Pedestrian_Trajectory_Prediction_CVPR_2021_paper.pdf"
+        },
+        {
+          "title": "CVPR 2020 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.html"
+        },
+        {
+          "title": "Risk‐Aware Multi‐Modal Pedestrian Trajectory Prediction With Scene‐Attentive Social Attention - Meng - 2026 - IET Intelligent Transport Systems - Wiley Online Library",
+          "url": "https://doi.org/10.1049/itr2.70252"
+        },
+        {
+          "title": "Risk‐Aware Multi‐Modal Pedestrian Trajectory Prediction With Scene‐Attentive Social Attention - Meng - 2026 - IET Intelligent Transport Systems - Wiley Online Library",
+          "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/itr2.70252"
+        },
+        {
+          "title": "Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://openaccess.thecvf.com/content/WACV2025W/HAVI/papers/Uhlemann_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_WACVW_2025_paper.pdf"
+        },
+        {
+          "title": "Real-Time Pedestrian Trajectory Forecasting and Collision Risk Assessment at Urban Intersections Using Edge‑Aware Spatio‑Temporal Graph Convolutional Networks — FREEDERIA",
+          "url": "https://freederia.com/real-time-pedestrian-trajectory-forecasting-and-collision-risk-assessment-at-urban-intersections-using-edge-aware-spatio-temporal-graph-convolutional-networks"
+        },
+        {
+          "title": "## Dynamic Pedestrian Risk Assessment via Spatio-Temporal Graph Neural Networks and Adaptive Kalman Filtering — FREEDERIA",
+          "url": "https://freederia.com/dynamic-pedestrian-risk-assessment-via-spatio-temporal-graph-neural-networks-and-adaptive-kalman-filtering/"
+        },
+        {
+          "title": "A novel method of predictive collision risk area estimation for proactive pedestrian accident prevention system in urban surveillance infrastructure - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0968090X22000171"
+        },
+        {
+          "title": "Vision‑Based Pedestrian Trajectory Forecasting for Proactive Collision Avoidance in Occluded Urban Intersections — FREEDERIA",
+          "url": "https://freederia.com/vision-based-pedestrian-trajectory-forecasting-for-proactive-collision-avoidance-in-occluded-urban-intersections"
+        },
+        {
+          "title": "graph-based-deep-learning-literature/conference-publications/folders/years/2021/publications_cvpr21/README.md at master · naganandy/graph-based-deep-learning-literature · GitHub",
+          "url": "https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/folders/years/2021/publications_cvpr21/README.md"
+        },
+        {
+          "title": "A Multi-Fusion Early Warning Method for Vehicle–Pedestrian Collision Risk at Unsignalized Intersections",
+          "url": "https://www.mdpi.com/2032-6653/16/7/407"
+        },
+        {
+          "title": "Risk-aware trajectory forecasting via multi-modal knowledge distillation - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1474034626005264"
+        },
+        {
+          "title": "SGCN:Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+          "url": "https://arxiv.org/abs/2104.01528"
+        },
+        {
+          "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+          "url": "https://arxiv.org/abs/2002.11927"
+        },
+        {
+          "title": "BP-SGCN: Behavioral Pseudo-Label Informed Sparse Graph Convolution Network for Pedestrian and Heterogeneous Trajectory Prediction",
+          "url": "https://arxiv.org/abs/2502.14676"
+        },
+        {
+          "title": "Multiclass-SGCN: Sparse Graph-based Trajectory Prediction with Agent Class Embedding",
+          "url": "https://arxiv.org/abs/2206.15275"
+        }
+      ]
+    },
+    {
+      "search_group": "web2",
+      "discovery_metadata": [
+        {
+          "title": "A graph-based spatio-temporal framework for predicting safety-critical pedestrian–vehicle interactions at unsignalized crosswalks - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0001457526000187"
+        },
+        {
+          "title": "Prediction of Pedestrian Spatial-Temporal Risk Levels for Intelligent Vehicles: A Data- Driven Approach | IEEE Journals & Magazine | IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/document/10411094/"
+        },
+        {
+          "title": "Real-Time Pedestrian Crossing Intent Prediction and Risk Assessment Framework Using Skeleton Graph Convolutional Networks",
+          "url": "https://www.mdpi.com/2079-9292/15/18/4106"
+        },
+        {
+          "title": "Research on Pedestrian Trajectory Prediction Based on Density Perception and Causal Gated Spatiotemporal Graph Network",
+          "url": "https://eurekamag.com/research/107/865/107865288.php"
+        },
+        {
+          "title": "Research on Collision Risk Warning Methods for Vulnerable Road Users at Unsignalized Intersections - Cheng - 2026 - Journal of Advanced Transportation - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1155/atr/7113421"
+        },
+        {
+          "title": "Probabilistic spatio-temporal field: Capturing real-time vehicle-pedestrian interactions - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26002056"
+        },
+        {
+          "title": "(PDF) Pedestrian Behavior Prediction for Automated Driving: Requirements, Metrics, and Relevant Features",
+          "url": "https://www.researchgate.net/publication/347300700_Pedestrian_Behavior_Prediction_for_Automated_Driving_Requirements_Metrics_and_Relevant_Features"
+        },
+        {
+          "title": "This CVPR Workshop paper is the Open Access version, provided by the Computer Vision Foundation.",
+          "url": "https://www.openaccess.thecvf.com/content/CVPR2025W/ABAW/papers/Abdelrahman_VRU-CIPI_Crossing_Intention_Prediction_at_Intersections_for_Improving_Vulnerable_Road_CVPRW_2025_paper.pdf"
+        },
+        {
+          "title": "(PDF) Development of a Residential Road Collision Warning Service Based on Risk Assessment",
+          "url": "https://www.researchgate.net/publication/369324936_Development_of_a_Residential_Road_Collision_Warning_Service_Based_on_Risk_Assessment"
+        },
+        {
+          "title": "Real-time direction-aware time-to-collision reasoning with pose-guided light detection and ranging grounding for pedestrian safety on autonomous ground vehicles - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0952197626019445"
+        },
+        {
+          "title": "Volume",
+          "url": "https://pdfs.semanticscholar.org/2b82/bb3f01c9a3d9d6919e5171ab89b0d64aaa85.pdf"
+        },
+        {
+          "title": "Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks",
+          "url": "https://arxiv.org/abs/2308.06654"
+        },
+        {
+          "title": "End‑to‑End Multisensor Fusion with Temporal Graph Neural Networks for Predictive Avoidance of Unexpected Pedestrian Entrances at Urban Intersections — FREEDERIA",
+          "url": "https://freederia.com/end-to-end-multisensor-fusion-with-temporal-graph-neural-networks-for-predictive-avoidance-of-unexpected-pedestrian-entrances-at-urban-intersections/"
+        },
+        {
+          "title": "Uncertainty‑Aware Probabilistic Sensor Fusion for Pedestrian Crossing Detection in Urban Autonomous Driving · FREEDERIA",
+          "url": "https://freederia.com/uncertainty-aware-probabilistic-sensor-fusion-for-pedestrian-crossing-detection-in-urban-autonomous-driving/"
+        },
+        {
+          "title": "Vision‑Based Pedestrian Trajectory Forecasting for Proactive Collision Avoidance in Occluded Urban Intersections — FREEDERIA",
+          "url": "https://freederia.com/vision-based-pedestrian-trajectory-forecasting-for-proactive-collision-avoidance-in-occluded-urban-intersections"
+        },
+        {
+          "title": "Prediction of Pedestrian Spatiotemporal Risk Levels for Intelligent Vehicles: A Data-driven Approach",
+          "url": "https://arxiv.org/abs/2111.03822"
+        },
+        {
+          "title": "Toward Better Pedestrian Trajectory Predictions: The Role of Density and Time-to-Collision in Hybrid Deep-Learning Algorithms",
+          "url": "https://pdfs.semanticscholar.org/5c8c/4d4d7d3e6b4f366bc06c8683f668551ce16f.pdf"
+        },
+        {
+          "title": "Probabilistic Pedestrian Trajectory Prediction For Autonomous Vehicles In Crowded Environments",
+          "url": "https://khazna.ku.ac.ae/ws/portalfiles/portal/19099007/file"
+        },
+        {
+          "title": "Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://openaccess.thecvf.com/content/WACV2025W/HAVI/papers/Uhlemann_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_WACVW_2025_paper.pdf"
+        },
+        {
+          "title": "A Unified Environmental Network for Pedestrian Trajectory Prediction",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28301/28592"
+        }
+      ]
+    },
+    {
+      "search_group": "web3",
+      "discovery_metadata": [
+        {
+          "title": "GitHub - CorosRobotics/Trajectron-plus-plus-eccv20: Code accompanying the ECCV 2020 paper \"Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data\" by Tim Salzmann*, Boris Ivanovic*, Punarjay Chakravarty, and Marco Pavone (* denotes equal contribution). · GitHub",
+          "url": "https://github.com/CorosRobotics/Trajectron-plus-plus-eccv20"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data",
+          "url": "https://arxiv.org/abs/2001.03093"
+        },
+        {
+          "title": "GitHub - joyjitroy/Vehicle_Safety_Research: Technology Framework for Transportation Safety Analytics: SafeDriver-IQ · PRISM · PRISM-AR · CREST · GitHub",
+          "url": "https://github.com/joyjitroy/Vehicle_Safety_Research"
+        },
+        {
+          "title": "## Automated Neurodevelopmental Trajectory Prediction via Spatio-Temporal Graph Neural Networks on Human Brain Organoids — FREEDERIA",
+          "url": "https://freederia.com/automated-neurodevelopmental-trajectory-prediction-via-spatio-temporal-graph-neural-networks-on-human-brain-organoids/"
+        },
+        {
+          "title": "(PDF) OpenTraj: Assessing Prediction Complexity in Human Trajectories Datasets",
+          "url": "https://www.researchgate.net/publication/344468542_OpenTraj_Assessing_Prediction_Complexity_in_Human_Trajectories_Datasets"
+        },
+        {
+          "title": "Collision-Aware Graph Transformer for Trajectory Prediction | PDF | Prediction | Image Segmentation",
+          "url": "https://www.scribd.com/document/814744609/Yang-%E7%AD%89-2024-A-Multi-Task-Learning-Network-With-a-Collision-Aware-Graph-Transformer-for-Traffic-Agents-Trajectory"
+        },
+        {
+          "title": "The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs",
+          "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ivanovic_The_Trajectron_Probabilistic_Multi-Agent_Trajectory_Modeling_With_Dynamic_Spatiotemporal_Graphs_ICCV_2019_paper.pdf"
+        },
+        {
+          "title": "GitHub - waleed-Amjad/Leadtime-Traffic-Collision-Anticipation-Active-Learning-Engine: eal-time, on-device traffic collision anticipation system using computer vision, kinematic trajectory forecasting, Time-to-Collision (TTC), and active learning — running entirely in the browser with WebGL and no server-side video uploads. · GitHub",
+          "url": "https://github.com/waleed-Amjad/Leadtime-Traffic-Collision-Anticipation-Active-Learning-Engine"
+        },
+        {
+          "title": "Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context",
+          "url": "https://arxiv.org/abs/2609.29706"
+        },
+        {
+          "title": "DAGH-Net: A Density-Adaptive Gated Hybrid Knowledge Graph Network for Pedestrian Trajectory Prediction",
+          "url": "https://www.mdpi.com/2079-9292/15/8/1738"
+        },
+        {
+          "title": "RCN-MAMBA: Research on Pedestrian-Future-Trajectory-Prediction Methods for Occlusion Scenarios",
+          "url": "https://www.mdpi.com/1424-8220/26/18/5926"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction - Conftrace",
+          "url": "https://conftrace.com/papers/118848-higher-order-relational-reasoning-for-pedestrian-trajectory-prediction"
+        },
+        {
+          "title": "CN121170757A – Intelligent traffic scene context sensing multi-scale pedestrian trajectory prediction method and system | Patsnap Eureka",
+          "url": "https://eureka.patsnap.com/patent/CN121170757A"
+        },
+        {
+          "title": "Published as a conference paper at ICLR 2022",
+          "url": "https://openreview.net/pdf?id=POxF-LEqnF"
+        },
+        {
+          "title": "Local causal dynamic integrated global mode guidance transformer network for pedestrian trajectory prediction - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13094958/"
+        },
+        {
+          "title": "GitHub - shawnyuen/semantic_seg_paper_collection · GitHub",
+          "url": "https://github.itlym.cn/shawnyuen/semantic_seg_paper_collection"
+        },
+        {
+          "title": "UvA-DARE (Digital Academic Repository)",
+          "url": "https://pure.uva.nl/ws/files/206333310/1910.06673v1.pdf"
+        },
+        {
+          "title": "Valeo4Cast: A Modular Approach to End-to-End",
+          "url": "https://anr-multitrans.github.io/valeo4cast_ECCVW24.pdf"
+        },
+        {
+          "title": "A Virtual Reality Framework for Human-Driver Interaction",
+          "url": "https://durham-repository.worktribe.com/preview/2335333/2160689AAM.pdf"
+        },
+        {
+          "title": "The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs",
+          "url": "https://arxiv.org/abs/1810.05993"
+        },
+        {
+          "title": "Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks",
+          "url": "https://arxiv.org/abs/2308.06654"
+        },
+        {
+          "title": "Computer Vision for Driving Scene Understanding: from Autonomous Driving to Road Condition Assessment - Link to a free online lecture by the author in comments",
+          "url": "https://www.reddit.com/r/deeplearning/comments/ptip9m"
+        },
+        {
+          "title": "Computer Vision for Driving Scene Understanding: from Autonomous Driving to Road Condition Assessment - Link to a free online lecture by the author in comments",
+          "url": "https://www.reddit.com/r/SelfDrivingCars/comments/pr8upo"
+        },
+        {
+          "title": "Computer Vision for Driving Scene Understanding: from Autonomous Driving to Road Condition Assessment - Link to a free online lecture by the author in comments",
+          "url": "https://www.reddit.com/r/computervision/comments/qcmahv"
+        },
+        {
+          "title": "[News] ECCV 2020's Best Paper Award! A new architecture for Optical Flow, with code publicly available! (Video cover and demo)",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/inaq0v"
+        },
+        {
+          "title": "Computer Vision for Driving Scene Understanding: from Autonomous Driving to Road Condition Assessment - Link to a free online lecture by the author in comments",
+          "url": "https://www.reddit.com/r/learnmachinelearning/comments/pnodd4"
+        },
+        {
+          "title": "[News] ECCV 2020's Best Paper Award! A new architecture for Optical Flow, with code publicly available! (Video cover and demo)",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/imzl6x"
+        },
+        {
+          "title": "ECCV 2020's Best Paper Award! A new architecture for Optical Flow, with code publicly available! (Video cover and demo)",
+          "url": "https://www.reddit.com/r/artificial/comments/imzla5"
+        },
+        {
+          "title": "[News] ECCV 2020's Best Paper Award! A new architecture for Optical Flow, with code publicly available! (Video cover and demo)",
+          "url": "https://www.reddit.com/r/computervision/comments/inaqes"
+        },
+        {
+          "title": "One sentence highlight for every ECCV-2020 Paper, plus code for ~170 of them [R]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/iejbrw"
+        },
+        {
+          "title": "ECCV 2020's Best Paper Award! A new architecture for Optical Flow, with code publicly available! (Video cover and demo)",
+          "url": "https://www.reddit.com/r/deeplearning/comments/imzl8f/eccv_2020s_best_paper_award_a_new_architecture/"
+        }
+      ]
+    },
+    {
+      "search_group": "web4",
+      "discovery_metadata": [
+        {
+          "title": "CVPR 2024 Open Access Repository",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wong_SocialCircle_Learning_the_Angle-based_Social_Interaction_Representation_for_Pedestrian_Trajectory_CVPR_2024_paper.html"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "(PDF) Agent-Based Modeling for Predicting Pedestrian Trajectories Around an Autonomous Vehicle",
+          "url": "https://www.researchgate.net/publication/360034155_Agent-Based_Modeling_for_Predicting_Pedestrian_Trajectories_Around_an_Autonomous_Vehicle"
+        },
+        {
+          "title": "Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context",
+          "url": "https://arxiv.org/abs/2609.29706"
+        },
+        {
+          "title": "SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wong_SocialCircle_Learning_the_Angle-based_Social_Interaction_Representation_for_Pedestrian_Trajectory_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "GitHub - arvinth777/Trajectory_prediction-: predicts the trajectory of all the objects from the dataset · GitHub",
+          "url": "https://github.com/arvinth777/Trajectory_prediction-"
+        },
+        {
+          "title": "Hybrid Graph Neural Networks for Real‑Time Pedestrian Trajectory Prediction in Heterogeneous Urban Settings — FREEDERIA",
+          "url": "https://freederia.com/hybrid-graph-neural-networks-for-real-time-pedestrian-trajectory-prediction-in-heterogeneous-urban-settings/"
+        },
+        {
+          "title": "CN117077727A - Trajectory prediction method based on spatiotemporal attention mechanism and neural constant differential equation - Google Patents",
+          "url": "https://patents.google.com/patent/CN117077727A/en"
+        },
+        {
+          "title": "A graph-based spatio-temporal framework for predicting safety-critical pedestrian–vehicle interactions at unsignalized crosswalks - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0001457526000187"
+        },
+        {
+          "title": "Holistic Spatio-Temporal Graph Attention for Trajectory Prediction in Vehicle–Pedestrian Interactions - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490541/"
+        },
+        {
+          "title": "Predicting pedestrian trajectories at different densities: A multi-criteria empirical analysis",
+          "url": "https://arxiv.org/abs/2307.15442"
+        },
+        {
+          "title": "The Group Interaction Field for Learning and Explaining Pedestrian Anticipation - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S209580992300303X"
+        },
+        {
+          "title": "Vehicle Trajectory Prediction based Predictive Collision Risk Assessment for Autonomous Driving in Highway Scenarios",
+          "url": "https://arxiv.org/abs/2304.05610"
+        },
+        {
+          "title": "End‑to‑End Multisensor Fusion with Temporal Graph Neural Networks for Predictive Avoidance of Unexpected Pedestrian Entrances at Urban Intersections — FREEDERIA",
+          "url": "https://freederia.com/end-to-end-multisensor-fusion-with-temporal-graph-neural-networks-for-predictive-avoidance-of-unexpected-pedestrian-entrances-at-urban-intersections/"
+        },
+        {
+          "title": "Human centered artificial intelligence for smart city traffic coordination | Discover Artificial Intelligence | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s44163-026-02062-w"
+        },
+        {
+          "title": "This ICCV paper is the Open Access version, provided by the Computer Vision Foundation.",
+          "url": "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Wong_Resonance_Learning_to_Predict_Social-Aware_Pedestrian_Trajectories_as_Co-Vibrations_ICCV_2025_paper.pdf"
+        },
+        {
+          "title": "VectorNet based prediction of visitor trajectories in heritage sites using VR environmental perception | npj Heritage Science",
+          "url": "https://www.nature.com/articles/s40494-025-01922-5"
+        },
+        {
+          "title": "Prediction of Pedestrian Spatial-Temporal Risk Levels for Intelligent Vehicles: A Data- Driven Approach | IEEE Journals & Magazine | IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/document/10411094/"
+        },
+        {
+          "title": "Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks",
+          "url": "https://arxiv.org/abs/2308.06654"
+        },
+        {
+          "title": "Crosato, L., Wei, C., Ho, E. S. L. , Shum, H. P. H. and Sun, Y. (2024) A Virtual",
+          "url": "https://eprints.gla.ac.uk/317073/2/317073.pdf"
+        },
+        {
+          "title": "Available online at www.sciencedirect.com",
+          "url": "https://arts.units.it/retrieve/e2913fdf-3d71-f688-e053-3705fe0a67e0/1-s2.0-S2352146521009571-main.pdf"
+        },
+        {
+          "title": "It’s All About Your Sketch: Democratising Sketch Control in Diffusion Models",
+          "url": "https://arxiv.org/html/2403.07234v1"
+        }
+      ]
+    },
+    {
+      "search_group": "web5",
+      "discovery_metadata": [
+        {
+          "title": "Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://openaccess.thecvf.com/content/WACV2025W/HAVI/papers/Uhlemann_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_WACVW_2025_paper.pdf"
+        },
+        {
+          "title": "Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context",
+          "url": "https://arxiv.org/abs/2609.29706"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "GitHub - yftach-gil/Pedestrian_Trajectory_Prediction_TTC_Crossing_Zones: Deep Learning Based Pedestrian Trajectory Prediction In Urban Environment Using Time-To-Collision and Crossing Zones Indicators · GitHub",
+          "url": "https://github.com/yftach-gil/Pedestrian_Trajectory_Prediction_TTC_Crossing_Zones"
+        },
+        {
+          "title": "DAGH-Net: A Density-Adaptive Gated Hybrid Knowledge Graph Network for Pedestrian Trajectory Prediction",
+          "url": "https://doi.org/10.3390/electronics15081738"
+        },
+        {
+          "title": "Embodied cognition-driven interpretable trajectory prediction of autonomous systems | Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-75091-9"
+        },
+        {
+          "title": "Real-time direction-aware time-to-collision reasoning with pose-guided light detection and ranging grounding for pedestrian safety on autonomous ground vehicles - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0952197626019445"
+        },
+        {
+          "title": "PED23 - Program booklet",
+          "url": "https://corbetta.phys.tue.nl/publ/ped2023-program.pdf"
+        },
+        {
+          "title": "Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks",
+          "url": "https://arxiv.org/abs/2308.06654"
+        },
+        {
+          "title": "Modeling crash avoidance behaviors in vehicle-pedestrian near-miss scenarios: Curvilinear time-to-collision and Mamba-driven deep reinforcement learning - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0001457525000703"
+        },
+        {
+          "title": "Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context | Cool Papers - Immersive Paper Discovery",
+          "url": "https://papers.cool/arxiv/2609.29706"
+        },
+        {
+          "title": "opentraj/toolkit · master · Payal Kaklotar / Trajectory-Prediction-Pedestrian · GitLab",
+          "url": "https://registry.gitlab.tu-clausthal.de/pka20/Trajectory-Prediction-Pedestrian/-/tree/master/opentraj/toolkit?ref_type=heads"
+        },
+        {
+          "title": "(PDF) Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://www.researchgate.net/publication/383745228_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_Traffic_Environments"
+        },
+        {
+          "title": "MS - Development of pedestrian collision avoidance strategy based on the fusion of Markov and social force models",
+          "url": "https://ms.copernicus.org/articles/15/17/2024/"
+        },
+        {
+          "title": "Heterogeneous Multi-Agent Risk-Aware Graph Encoder with Continuous Parameterized Decoder for Autonomous Driving Trajectory Prediction",
+          "url": "https://www.mdpi.com/2079-9292/14/1/105"
+        },
+        {
+          "title": "Prediction of Pedestrian Spatial-Temporal Risk Levels for Intelligent Vehicles: A Data- Driven Approach - TRID",
+          "url": "https://trid.trb.org/View/2420125"
+        },
+        {
+          "title": "Modified Driving Safety Field Based on Trajectory Prediction Model for Pedestrian–Vehicle Collision",
+          "url": "https://ideas.repec.org/a/gam/jsusta/v11y2019i22p6254-d284623.html"
+        }
+      ]
+    },
+    {
+      "search_group": "webmethods",
+      "discovery_metadata": [
+        {
+          "title": "Interaction-enhanced lane-change early warning in congested traffic: a spatial risk propagation-aware approach - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1366554526005880"
+        },
+        {
+          "title": "SGCN:Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+          "url": "https://www.chengjianglong.com/publications/SGCN_CVPR.pdf"
+        },
+        {
+          "title": "SGCN: Sparse Graph Convolution Network for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Shi_SGCN_Sparse_Graph_Convolution_Network_for_Pedestrian_Trajectory_Prediction_CVPR_2021_paper.pdf"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf"
+        },
+        {
+          "title": "Breaking Consensus in Kinetic Opinion Formation Models on Graphons | Journal of Nonlinear Science | Springer Nature Link",
+          "url": "https://doi.org/10.1007/s00332-024-10060-4"
+        },
+        {
+          "title": "Proceedings of the IDETC-CIE 2024",
+          "url": "https://napier-repository.worktribe.com/OutputFile/3652787"
+        },
+        {
+          "title": "Higher-order Relational Reasoning for Pedestrian Trajectory Prediction — Lacuna",
+          "url": "https://lacuna.tiptreesystems.com/work/higher-order-relational-reasoning-for-pedestrian-trajectory-prediction/wrk_14575d5184ea466c76642f68273056c3"
+        },
+        {
+          "title": "Trend to Equilibrium for Run and Tumble Equations with Non-uniform Tumbling Kernels | Acta Applicandae Mathematicae | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s10440-024-00657-y"
+        },
+        {
+          "title": "TPCN: Temporal Point Cloud Networks for Motion Forecasting",
+          "url": "https://artefacts-discovery.researcher.life/full_text/DA-2/37/377986f9bd923a7aaf3a02a460eb3cf0/full_text/78cfbc3254590b1523f0f62a0afef361.pdf"
+        },
+        {
+          "title": "<table id=\"",
+          "url": "https://lzrbit.github.io/publications/J6/file.pdf"
+        },
+        {
+          "title": "Exact feature collisions in neural networks | Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-40605-4"
+        },
+        {
+          "title": "Solving the QCD effective kinetic theory with neural networks - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618447/"
+        },
+        {
+          "title": "On a novel gradient flow structure for the aggregation equation - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11636749/"
+        },
+        {
+          "title": "On a novel gradient flow structure for the aggregation equation | Calculus of Variations and Partial Differential Equations | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s00526-024-02692-x"
+        },
+        {
+          "title": "Non-Autoregressive Sparse Transformer Networks for Pedestrian Trajectory Prediction",
+          "url": "https://www.mdpi.com/2076-3417/13/5/3296"
+        },
+        {
+          "title": "Robust and Artefact‐Free Deformable Contact with Smooth Surface Representations - Du - 2024 - Computer Graphics Forum - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15187"
+        },
+        {
+          "title": "Weak convergence analysis for non-linear collisional induced breakage equation with singular kernel",
+          "url": "https://arxiv.org/abs/2412.01943"
+        },
+        {
+          "title": "Advancing pedestrian trajectory prediction with interaction-aware 3D-dual contextualized modeling - ScienceDirect",
+          "url": "https://doi.org/10.1016/j.eij.2025.100742"
+        },
+        {
+          "title": "Regularity for the Boltzmann Equation Conditional to Pressure and Moment Bounds - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222422/"
+        },
+        {
+          "title": "Mass-Conserving Weak Solutions to the Continuous Nonlinear Fragmentation Equation in the Presence of Mass Transfer",
+          "url": "https://arxiv.org/abs/2411.15561"
+        },
+        {
+          "title": "A Collision Operator for Describing Dissipation in Noncanonical Phase Space",
+          "url": "https://arxiv.org/abs/2401.15086"
+        },
+        {
+          "title": "Curvature-Enhanced Dynamics and Exponential Decay of the Non-Cutoff Boltzmann Equation on Riemannian Manifolds",
+          "url": "https://arxiv.org/abs/2412.05298"
+        },
+        {
+          "title": "Longitudinal changes in deep learning-estimated breast density and their impact on the risk of screen-detected breast cancer: The DeepJoint Algorithm",
+          "url": "https://arxiv.org/html/2403.13488v1"
+        }
+      ]
+    },
+    {
+      "search_group": "snapshotweb",
+      "discovery_metadata": [
+        {
+          "title": "Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://openaccess.thecvf.com/content/WACV2025W/HAVI/papers/Uhlemann_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_WACVW_2025_paper.pdf"
+        },
+        {
+          "title": "GitHub - TUMFTM/Snapshot: Model for real-world pedestrian trajectory prediction, including a dedicated benchmark · GitHub",
+          "url": "https://github.com/TUMFTM/Snapshot"
+        },
+        {
+          "title": "Snapshot: Towards Application-centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments",
+          "url": "https://arxiv.org/abs/2409.01971"
+        },
+        {
+          "title": "Snapshot: Towards Application-Centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments - Technische Universität München",
+          "url": "https://portal.fis.tum.de/de/publications/snapshot-towards-application-centered-models-for-pedestrian-traje/"
+        },
+        {
+          "title": "Snapshot: Towards Application-Centered Models for Pedestrian Trajectory Prediction in Urban Traffic Environments | Article Information | J-GLOBAL",
+          "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502254092270258"
+        },
+        {
+          "title": "GitHub - anbebe/Pedestrian-Trajectory-Prediction · GitHub",
+          "url": "https://github.com/anbebe/Pedestrian-Trajectory-Prediction"
+        },
+        {
+          "title": "ForecastLite/doc/FORECASTLITE_SELECTOR_MANUSCRIPT_DRAFT_2026-06-14.md at master · 2XUID/ForecastLite · GitHub",
+          "url": "https://github.com/2XUID/ForecastLite/blob/master/doc/FORECASTLITE_SELECTOR_MANUSCRIPT_DRAFT_2026-06-14.md"
+        },
+        {
+          "title": "Karthik Ramani · Demo Data from VLDB 2026",
+          "url": "https://taxoreview.com/v/1/lake/expert/dblp%3A01/6965"
+        },
+        {
+          "title": "Pedestrian trajectory prediction via physical-guided position association learning - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2215098625000631"
+        },
+        {
+          "title": "GitHub - Ruthvik9/IDD-PeD: This repo contains the implementation of the intention and trajectory baselines trained and evaluated on our IDD-PeD dataset, along with descriptions and visualizations of the data. · GitHub",
+          "url": "https://github.com/Ruthvik9/IDD-PeD"
+        },
+        {
+          "title": "Machine learning-based maritime collision risk assessment and avoidance for autonomous vessels using AIS data | WMU Journal of Maritime Affairs | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s13437-026-00433-9"
+        },
+        {
+          "title": "Smart City Gnosis",
+          "url": "https://smartcity.efri.uniri.hr/article.php?id=56197"
+        },
+        {
+          "title": "GitHub - Psychic-DL/Awesome-Traffic-Agent-Trajectory-Prediction: This is a list of papers related to traffic agent trajectory prediction. · GitHub",
+          "url": "https://github.com/Psychic-DL/Awesome-Traffic-Agent-Trajectory-Prediction"
+        },
+        {
+          "title": "Evaluating Pedestrian Trajectory Prediction Methods with Respect to Autonomous Driving",
+          "url": "https://arxiv.org/abs/2308.05194"
+        },
+        {
+          "title": "Social Force Model for Pedestrian Dynamics",
+          "url": "https://arxiv.org/abs/cond-mat/9805244"
+        }
+      ]
+    }
+  ],
+  "raw_results_cache": "experiments/stage10a/cache/raw_search_evidence.json.gz",
+  "raw_results_SHA256": "857547d27a287eb36e705a88312ad5b49bfcb0e730ce0924e3616a6ed2e218be",
+  "note": "Only bibliographic metadata published; full retrieved prose retained locally for verification, not redistributed"
+}

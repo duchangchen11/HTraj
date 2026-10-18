@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "unit_tests": 501,
+  "failures": 0,
+  "errors": 0,
+  "historical_files_verified": 87881,
+  "history_unchanged": true,
+  "stage10_only_paths": true,
+  "largest_file_bytes": 3811802,
+  "no_raw_data_weights_or_PDF_staged": true,
+  "ignored_samples": [
+    "experiments/stage10a/cache/papers/snapshot.pdf",
+    "experiments/stage9/cache/checkpoints/A_epoch200.pt",
+    "data/raw/eth_ucy/biwi_eth.txt"
+  ],
+  "formal_training": false,
+  "optimizer_updates": 0,
+  "new_validation_ADE_FDE": false,
+  "test_evaluation": false,
+  "config_frozen_commit": "61ee113cdfd9110c644a72d46ed261d2985168b4",
+  "sealing_execution_commit": "61ee113cdfd9110c644a72d46ed261d2985168b4",
+  "log_whitespace": "Raw failed pytest output compressed and hashed; txt trailing spaces normalized only",
+  "research_decision": "NO-GO for innovative Stage10B; engineering admission passed",
+  "push_authorization": "Stage10A explicitly requests push new branch, superseding earlier local-only preference"
+}

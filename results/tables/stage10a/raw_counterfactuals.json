@@ -1,0 +1,32 @@
+[
+  {
+    "fold": "biwi_hotel",
+    "sample_id": "biwi_hotel:14950",
+    "input_equal": true,
+    "all_graphs_equal": true,
+    "original_history_SHA": "2c69c951151eb07fb6c24fc65f25eae5cb1d0f3b203269e1fddd531ba06aadc0",
+    "mutated_history_SHA": "2c69c951151eb07fb6c24fc65f25eae5cb1d0f3b203269e1fddd531ba06aadc0",
+    "mutated_future_support": [
+      15030,
+      15140
+    ],
+    "intervention": "all future actor records removed; future-only ID999999 inserted",
+    "validation_predictions_computed": false,
+    "GT_errors_computed": false
+  },
+  {
+    "fold": "crowds_zara02",
+    "sample_id": "crowds_zara02:8620",
+    "input_equal": true,
+    "all_graphs_equal": true,
+    "original_history_SHA": "782b6b38f201d76dabcb65b1742db20ab9f9a2327931061f183f5168e606b4bd",
+    "mutated_history_SHA": "782b6b38f201d76dabcb65b1742db20ab9f9a2327931061f183f5168e606b4bd",
+    "mutated_future_support": [
+      8700,
+      8810
+    ],
+    "intervention": "all future actor records removed; future-only ID999999 inserted",
+    "validation_predictions_computed": false,
+    "GT_errors_computed": false
+  }
+]
