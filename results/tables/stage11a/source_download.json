@@ -1,0 +1,214 @@
+{
+  "repository": "https://github.com/HarshayuGirase/Human-Path-Prediction",
+  "commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "files": [
+    {
+      "path": "PECNet/README.md",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/README.md",
+      "git_blob_SHA1": "da2dc6545ec929ff6e6f6a9faccd6d4868204a21",
+      "sha256": "22e96c0359b234dd3e06ef675da83e163319cc7dd93aa3c6c486ed1823a9fb27",
+      "bytes": 5877,
+      "verified": true
+    },
+    {
+      "path": "PECNet/config/config_gen.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/config_gen.py",
+      "git_blob_SHA1": "001a10718212f5007f35c1f70b6aae7252743e27",
+      "sha256": "9d6a62d5f249088d5ec667ce7ab64a797e27172cc718f53aa57eabfa934d9077",
+      "bytes": 1614,
+      "verified": true
+    },
+    {
+      "path": "PECNet/config/optimal.yaml",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/config/optimal.yaml",
+      "git_blob_SHA1": "d5d64811439b7297755d599786b0ffd8249f0f66",
+      "sha256": "9941fde933fc9785648bc32e79261006379df87c875913e0a631f79e3d7704c1",
+      "bytes": 600,
+      "verified": true
+    },
+    {
+      "path": "PECNet/notebooks/eth_pecnet_no_pooling.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/notebooks/eth_pecnet_no_pooling.ipynb",
+      "git_blob_SHA1": "7484d51f57e299ca31604490433f2107605f120c",
+      "sha256": "25fccf81e726ae82607d72b5d0792d99f648436877d86879d7ecc93869a3998a",
+      "bytes": 117272,
+      "verified": true
+    },
+    {
+      "path": "PECNet/requirements.txt",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/requirements.txt",
+      "git_blob_SHA1": "3f4e8316de4847254eee0a0ddc2f3ecf80f09eb7",
+      "sha256": "8bbad2f6bd18e23739484b5d41a7a6eedc9bdc3172bb1f945f7eb8692b6b0046",
+      "bytes": 51,
+      "verified": true
+    },
+    {
+      "path": "PECNet/scripts/test_pretrained_model.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/test_pretrained_model.py",
+      "git_blob_SHA1": "f37f20f102754f8cb3ab1f8bc7fa47db69536d4d",
+      "sha256": "0334b0f164a00cd66937b98a396c966a0d162249bf400652597b530e46d224ad",
+      "bytes": 5058,
+      "verified": true
+    },
+    {
+      "path": "PECNet/scripts/training_loop.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/scripts/training_loop.py",
+      "git_blob_SHA1": "4f649f5145e1b22f74987cd632067b5041882232",
+      "sha256": "c4260fe09cebaf84881d963d4c7b9c95b1e87f1103f93e603b9489f341cb0a4f",
+      "bytes": 7299,
+      "verified": true
+    },
+    {
+      "path": "PECNet/utils/models.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/models.py",
+      "git_blob_SHA1": "a7aea68f8f13cae1b0d26d62653395055614bb43",
+      "sha256": "9dad7b9b10a2c6fad4c644939f8830389aa218e9ce7b01a25fe1347957949e11",
+      "bytes": 7035,
+      "verified": true
+    },
+    {
+      "path": "PECNet/utils/social_utils.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/PECNet/utils/social_utils.py",
+      "git_blob_SHA1": "d86e03e3c7c370d594c434b8748be070345cf1a3",
+      "sha256": "74987dd5626ea2e8e8b462ef3b06b23448b861e6f0fc6951fd3a5a4f18f7890c",
+      "bytes": 7072,
+      "verified": true
+    },
+    {
+      "path": "ynet/README.md",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/README.md",
+      "git_blob_SHA1": "8505ded61ab93c6ea8d7e5ea116a77b9357a5d31",
+      "sha256": "d2fdff1958910cbda04bae260e59533ff1b019a2d67756f749c908b4dda957da",
+      "bytes": 4092,
+      "verified": true
+    },
+    {
+      "path": "ynet/evaluate_SDD_longterm.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/evaluate_SDD_longterm.ipynb",
+      "git_blob_SHA1": "5e19c35bebafcedbf6ee9ff93d2fc23656a3deac",
+      "sha256": "348d8692398eb9db906ca00a82b9434d0e0024a60dde94b41230effcda5046be",
+      "bytes": 10246,
+      "verified": true
+    },
+    {
+      "path": "ynet/evaluate_SDD_trajnet.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/evaluate_SDD_trajnet.ipynb",
+      "git_blob_SHA1": "33794ac898efd093a7ea893bb1d464217c84b522",
+      "sha256": "b11a964a148f0e59548abf9bf0ac971284d054f1ecaddb0eff0d3eb018dec845",
+      "bytes": 9120,
+      "verified": true
+    },
+    {
+      "path": "ynet/evaluate_inD_longterm.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/evaluate_inD_longterm.ipynb",
+      "git_blob_SHA1": "385a97b30c3c9dd66dbe9978bff01c98aad7018c",
+      "sha256": "9267ebf1835597cfbe1317f7456ff5e0e1e1f2edf2913fb0e09fb6182dafa273",
+      "bytes": 10734,
+      "verified": true
+    },
+    {
+      "path": "ynet/model.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/model.py",
+      "git_blob_SHA1": "060d974aa0f2f7cbe45f49adf07ce82768b83597",
+      "sha256": "f905b1941673459747cbb0bc4bd0ebdee0335d3a49fa1d52530b54c442624d61",
+      "bytes": 17455,
+      "verified": true
+    },
+    {
+      "path": "ynet/requirements.txt",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/requirements.txt",
+      "git_blob_SHA1": "7585de578087a490f0ef5b8678c133cec6c4bd6f",
+      "sha256": "70d1356b357298780293f1f647858412fdca350f3eee1939d09c6d26ebf289f7",
+      "bytes": 207,
+      "verified": true
+    },
+    {
+      "path": "ynet/test.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/test.py",
+      "git_blob_SHA1": "17c0c573fc82b2ee24ef5d5bddddc786f83f67c8",
+      "sha256": "c43c426e2a5ee62e350232e78e378bd797f55a036896582d5ee666a115eff5b7",
+      "bytes": 10056,
+      "verified": true
+    },
+    {
+      "path": "ynet/train.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/train.py",
+      "git_blob_SHA1": "50a95060a5b27c39567753c1318adb02f4d66976",
+      "sha256": "af19bdfe40d53a7fab0f0d77273902738233d63642dad73b8d5f595a56f4831a",
+      "bytes": 4840,
+      "verified": true
+    },
+    {
+      "path": "ynet/train_SDD_longterm.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/train_SDD_longterm.ipynb",
+      "git_blob_SHA1": "b7c2f8e9c27c8f45e6aa55fb1ca66c54163f4d56",
+      "sha256": "abb83ac98e1e14f813c8d02136b95381603fff5e839c4ebbeb07e6863dbf894b",
+      "bytes": 3945,
+      "verified": true
+    },
+    {
+      "path": "ynet/train_SDD_trajnet.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/train_SDD_trajnet.ipynb",
+      "git_blob_SHA1": "f89a4bea010b5b4bda1474044378e25490e5b9e4",
+      "sha256": "4ffd9a8ac079bc06f7b5ba0ef119fea6e274c26776fd2e29f9aa7adb2536826f",
+      "bytes": 3941,
+      "verified": true
+    },
+    {
+      "path": "ynet/train_inD_longterm.ipynb",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/train_inD_longterm.ipynb",
+      "git_blob_SHA1": "103637555b43d3eefdb7d252589e9a6cf261f388",
+      "sha256": "e00d63591863024d53175f12d312aa09974c81f1a38a388a5575b1d57fc0d963",
+      "bytes": 4035,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/dataloader.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/dataloader.py",
+      "git_blob_SHA1": "8c17e7f316d325b50af938eaa21adce974685ed7",
+      "sha256": "bbce6b96259db1b077e76e7bf72a35c4fd4c185273dfbec73dad66cdcc6ed002",
+      "bytes": 1563,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/image_utils.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/image_utils.py",
+      "git_blob_SHA1": "4cdf515bbf4a36ee31de7e13d9ef55452768e982",
+      "sha256": "a9b4c286723a03df622f41692c410edf079fb582ffa1274a5102f3af2742360a",
+      "bytes": 5533,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/kmeans.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/kmeans.py",
+      "git_blob_SHA1": "9e8ef9d50ceee4e3fba9d6b3064910f863371e53",
+      "sha256": "ef76c293d3ffd9dcebc239f1975a6b987f358966e7b3bdf8c97746f28d4abc2a",
+      "bytes": 5194,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/preprocessing.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/preprocessing.py",
+      "git_blob_SHA1": "e26f7cad77f0b6407453c1d4db0bfc3a74d783fc",
+      "sha256": "022dc8c2b910fc19cebbf55feb7ea0d8c79d88f056e0a168452ad1681b70d390",
+      "bytes": 19190,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/preprocessing_inD.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/preprocessing_inD.py",
+      "git_blob_SHA1": "4f90a4f2528ca15c62aad8fb3c39c6d636c70711",
+      "sha256": "58e23ece302179150f69d7469acb56bd26dc0b43a39a81ce144d720add0975bf",
+      "bytes": 8868,
+      "verified": true
+    },
+    {
+      "path": "ynet/utils/softargmax.py",
+      "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/utils/softargmax.py",
+      "git_blob_SHA1": "59b5fbb70130c34028185f32eb8943140c2bf03d",
+      "sha256": "59fc91dc684f483089365108de49d68e807c6a4de4bba2139436ad0d7a99f881",
+      "bytes": 3244,
+      "verified": true
+    }
+  ]
+}

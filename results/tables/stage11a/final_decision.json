@@ -1,0 +1,29 @@
+{
+  "decision": "NO-GO formal Stage11B training and new algorithm development",
+  "conditional_baseline": "Y-Net once original resources, split and isolated compatibility verified",
+  "backup_reference": "PECNet; different inputs/evaluator, not independent semantic ablation",
+  "strongest_question": "Q2 semantic reliability impact on goals and constrained multimodal coverage, not yet a new mechanism",
+  "data_complete": false,
+  "official_semantics_available": false,
+  "precise_registration_proven": false,
+  "full_YNet_pipeline_passed": false,
+  "CPU_synthetic_core_passed": true,
+  "GPU_synthetic_core_forward_passed": true,
+  "formal_training": false,
+  "new_test_metrics": false,
+  "optimizer_updates": 0,
+  "proposal_models_implemented": 0,
+  "protocol_frozen": false,
+  "formal_training_GPU_hours": null,
+  "next_engineering_budget_ceiling_GPU_hours": 1,
+  "actual_core_GPU_probe": "gpu_probe.json; excludes segmentation/backward/TTST/CWS, not a full training estimate",
+  "unresolved_recent_full_texts": [
+    "CINet2025",
+    "McTrans2026",
+    "GDS-TGTF2026"
+  ],
+  "current_base_commit": "521c53a0d5f4ec2a76685c40ab519fc2ea3c8299",
+  "official_model_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "full_unit_tests": 516,
+  "history_protected_files": 88003
+}

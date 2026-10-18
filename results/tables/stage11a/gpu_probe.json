@@ -1,0 +1,52 @@
+{
+  "executed": true,
+  "rows": [
+    {
+      "batch": 1,
+      "H": 256,
+      "W": 384,
+      "core_forward_20_decoder_seconds": 0.6158174269949086,
+      "allocated_peak_bytes": 102778368,
+      "reserved_peak_bytes": 117440512,
+      "whole_card_before_MiB": "600",
+      "whole_card_after_MiB": "740",
+      "finite": true,
+      "OOM": false,
+      "weights_unchanged": true
+    },
+    {
+      "batch": 4,
+      "H": 256,
+      "W": 384,
+      "core_forward_20_decoder_seconds": 0.1737080019665882,
+      "allocated_peak_bytes": 393028096,
+      "reserved_peak_bytes": 444596224,
+      "whole_card_before_MiB": "636",
+      "whole_card_after_MiB": "1052",
+      "finite": true,
+      "OOM": false,
+      "weights_unchanged": true
+    },
+    {
+      "batch": 1,
+      "H": 512,
+      "W": 768,
+      "core_forward_20_decoder_seconds": 0.16986150399316102,
+      "allocated_peak_bytes": 393019904,
+      "reserved_peak_bytes": 471859200,
+      "whole_card_before_MiB": "636",
+      "whole_card_after_MiB": "1078",
+      "finite": true,
+      "OOM": false,
+      "weights_unchanged": true
+    }
+  ],
+  "GPU": "NVIDIA GeForce RTX 3080",
+  "torch": "2.5.1+cu124",
+  "optimizer_updates": 0,
+  "training": false,
+  "segmentation_included": false,
+  "author_config": false,
+  "TTST_CWS_included": false,
+  "note": "20 synthetic conditioned decoder calls are NOT official K20 generation; forward resource lower bound only. No full-epoch/gradient measurement."
+}

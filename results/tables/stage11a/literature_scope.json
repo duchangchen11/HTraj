@@ -1,0 +1,14 @@
+{
+  "papers": 10,
+  "not_full_methods": [
+    "CINet",
+    "McTrans",
+    "GDS-TGTF"
+  ],
+  "IAD_formal_version_equivalence": false,
+  "novelty_absence_claimed": false,
+  "Q1": "covered broadly by YNet/GoalGAN/semantic scene upgrades; SDD history-ambiguous subgroup independent gain not established locally",
+  "Q2": "specific robustness question worth diagnosing, close UATP prior; no proven new algorithm or SDD predictive failure",
+  "Q3": "compliance/goal constraints covered broadly; equal K and decoded-path FDE must be controlled",
+  "decision": "NO-GO new algorithm training; missing recent full texts and empirical semantic evidence"
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "unit_tests": 516,
+  "history_files": 88003,
+  "old_files_unchanged": true,
+  "stage11a_only": true,
+  "vendor_code_unchanged": true,
+  "raw_data_cache_ignored": true,
+  "no_checkpoints_or_secrets_for_git": true,
+  "largest_delivery_file_bytes": 3817398,
+  "all_failures_retained": [
+    "baseline_probe.json",
+    "paper_access.json",
+    "additional_paper_access.json",
+    "network_access.json",
+    "recent_preview_access.json",
+    "openalex_discovery_stderr.txt"
+  ],
+  "source_and_data_SHA_verified": true,
+  "model_training": false,
+  "test_evaluation": false
+}

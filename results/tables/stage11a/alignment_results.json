@@ -1,0 +1,320 @@
+{
+  "cases": [
+    {
+      "scene": "bookstore",
+      "video": "video0",
+      "image_width": 1424,
+      "image_height": 1088,
+      "annotation_rows": 100059,
+      "annotation_complete_file": false,
+      "classes": [
+        "Biker",
+        "Pedestrian",
+        "Skater"
+      ],
+      "pedestrian_rows": 72663,
+      "lost_rows": 33439,
+      "occluded_rows": 431,
+      "generated_rows": 98360,
+      "visible_centers": 66620,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 25,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 1,
+      "track_id": 2,
+      "first_history_frame": 6881,
+      "last_history_frame": 6965,
+      "resize_matrix": [
+        [
+          0.4002808988764045,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.39981617647058826,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 1.1368683772161603e-13,
+      "overlay_path": "results/tables/stage11a/alignment_figures/bookstore_video0.png",
+      "overlay_SHA": "32400cf8d6a12371f0fbcd5e14a5e44c9c5e728544e4954ad91dcfad65aafc9b",
+      "reference_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "annotation_SHA": "eab9bbd1ad1ee71a9598b3da6462519b4fd52d811ba6f200a822e9bd8d6eb9df",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    },
+    {
+      "scene": "coupa",
+      "video": "video0",
+      "image_width": 1980,
+      "image_height": 1093,
+      "annotation_rows": 98637,
+      "annotation_complete_file": false,
+      "classes": [
+        "Biker",
+        "Pedestrian"
+      ],
+      "pedestrian_rows": 81259,
+      "lost_rows": 23365,
+      "occluded_rows": 3980,
+      "generated_rows": 97359,
+      "visible_centers": 75272,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 5,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 1,
+      "track_id": 1,
+      "first_history_frame": 4030,
+      "last_history_frame": 4114,
+      "resize_matrix": [
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.39981701738334857,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 2.842170943040401e-14,
+      "overlay_path": "results/tables/stage11a/alignment_figures/coupa_video0.png",
+      "overlay_SHA": "4bfe8870e326b9624c3d90e2e9b9d5e984451c8012b063f1aa4b6b56af65a893",
+      "reference_SHA": "320099dd5ced7b94569e172d6c4ef358e625d5aeb7683bfedb66046ad24800aa",
+      "annotation_SHA": "29b60c9e72adbd1498b97ed489c008e77cbb917a4b2a0672b7bf058fd60ba26f",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    },
+    {
+      "scene": "deathCircle",
+      "video": "video0",
+      "image_width": 1630,
+      "image_height": 1948,
+      "annotation_rows": 102712,
+      "annotation_complete_file": false,
+      "classes": [
+        "Biker",
+        "Pedestrian",
+        "Skater"
+      ],
+      "pedestrian_rows": 29728,
+      "lost_rows": 48823,
+      "occluded_rows": 3153,
+      "generated_rows": 100529,
+      "visible_centers": 53889,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 0,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 1469,
+      "track_id": 1,
+      "first_history_frame": 9250,
+      "last_history_frame": 9334,
+      "resize_matrix": [
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.39989733059548255,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 2.2737367544323206e-13,
+      "overlay_path": "results/tables/stage11a/alignment_figures/deathCircle_video0.png",
+      "overlay_SHA": "78db81b7c98c36a422960b507946010c5e4b1d4dc9153ee3a7bcb1ed39e13424",
+      "reference_SHA": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2",
+      "annotation_SHA": "5384162fb636d2934d67dc75e0bfce7d3df07c2ca81d1b4cc077b25cdc411c4d",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    },
+    {
+      "scene": "gates",
+      "video": "video0",
+      "image_width": 1325,
+      "image_height": 1973,
+      "annotation_rows": 102527,
+      "annotation_complete_file": false,
+      "classes": [
+        "Biker",
+        "Car",
+        "Cart",
+        "Pedestrian",
+        "Skater"
+      ],
+      "pedestrian_rows": 39118,
+      "lost_rows": 45949,
+      "occluded_rows": 3245,
+      "generated_rows": 101291,
+      "visible_centers": 56578,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 2,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 1,
+      "track_id": 8,
+      "first_history_frame": 311,
+      "last_history_frame": 395,
+      "resize_matrix": [
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.3998986315255955,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 1.1368683772161603e-13,
+      "overlay_path": "results/tables/stage11a/alignment_figures/gates_video0.png",
+      "overlay_SHA": "e1e53a654c0534ccbcf7622d8cf86afefea52ecb6332dee8a39384ba4576d9cd",
+      "reference_SHA": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d",
+      "annotation_SHA": "a2b80c22f7e55faf55231e46544ef77179d0257e93e7f718fcd7c2371cceaf59",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    },
+    {
+      "scene": "hyang",
+      "video": "video0",
+      "image_width": 1455,
+      "image_height": 1925,
+      "annotation_rows": 100651,
+      "annotation_complete_file": false,
+      "classes": [
+        "Biker",
+        "Cart",
+        "Pedestrian"
+      ],
+      "pedestrian_rows": 62075,
+      "lost_rows": 30579,
+      "occluded_rows": 1,
+      "generated_rows": 98872,
+      "visible_centers": 70072,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 0,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 469,
+      "track_id": 0,
+      "first_history_frame": 11116,
+      "last_history_frame": 11200,
+      "resize_matrix": [
+        [
+          0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.4,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 1.1368683772161603e-13,
+      "overlay_path": "results/tables/stage11a/alignment_figures/hyang_video0.png",
+      "overlay_SHA": "d9f3549dd138458da987d4f0e1c2869f85493569eadaf820c2ef690b009c2b1c",
+      "reference_SHA": "6d67cb40df443abb6d2ac6a633457fd0ceafb963bed8847bc05c081d50d5047a",
+      "annotation_SHA": "1ca382ef769dca81755376b3c151c12b3f663b78cdf69de29750fef1368bad88",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    },
+    {
+      "scene": "little",
+      "video": "video0",
+      "image_width": 1417,
+      "image_height": 2019,
+      "annotation_rows": 51462,
+      "annotation_complete_file": true,
+      "classes": [
+        "Biker",
+        "Pedestrian"
+      ],
+      "pedestrian_rows": 23626,
+      "lost_rows": 26945,
+      "occluded_rows": 1148,
+      "generated_rows": 50639,
+      "visible_centers": 24517,
+      "visible_centers_outside": 0,
+      "near_boundary_visible_centers": 0,
+      "raw_frame_gap_min": 1,
+      "raw_frame_gap_max": 1,
+      "track_id": 0,
+      "first_history_frame": 391,
+      "last_history_frame": 475,
+      "resize_matrix": [
+        [
+          0.40014114326040934,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.4001981178801387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse_roundtrip_max_px": 2.2737367544323206e-13,
+      "overlay_path": "results/tables/stage11a/alignment_figures/little_video0.png",
+      "overlay_SHA": "3f3f09286faa66ea6fe51ba41c0be7bb921ae0ffed7771e38c3bc5e8216f941e",
+      "reference_SHA": "e7f6870761f6e62fbbb2ce284d880caa47b410a89e52e827eda09da87b866a20",
+      "annotation_SHA": "8da212a093d1c62103f163cfa3668fa446ffe967eed198e16f771657f1d3a9d8",
+      "original_video_available": false,
+      "reference_frame_id_known": false,
+      "semantic_alignment_verified": false,
+      "official_archive_identity_verified": false,
+      "geometric_audit_status": "PARTIAL"
+    }
+  ],
+  "real_cases": 6,
+  "exact_original_video_registration_proven": false,
+  "semantic_maps_available": false,
+  "note": "Bounds and resize identity are necessary checks, not proof of correct semantic or temporal registration; final visual fixture uses first complete history with >=20px net movement for legibility, not a model group"
+}

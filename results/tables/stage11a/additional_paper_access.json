@@ -1,0 +1,14 @@
+[
+  {
+    "name": "iad_arxiv",
+    "url": "https://arxiv.org/pdf/2508.07146",
+    "sha256": "4d58dad75e93edf5e33703049a6def6076aa028be5c67b2672c41ca26d4cc789",
+    "bytes": 9575291,
+    "format": "pdf"
+  },
+  {
+    "name": "semantic_upgrade_pmc",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870204/",
+    "error": "403 Client Error: Forbidden for url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9870204/"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "local_search_roots": [
+    "/home/lrj/HTraj",
+    "/home/lrj/datasets",
+    "/home/lrj/data0109",
+    "/home/lrj/Downloads",
+    "/home/lrj/trajectory_dataset_audit",
+    "/home/lrj/trajectory_research_audit"
+  ],
+  "local_search_method": "rg --files --hidden matching SDD/sdd/reference.jpg/annotations.txt/scales, exclude Git and Python environments",
+  "limitation": "Not a claim of exhaustive scan of every mounted volume. No old-project custom model or prediction reused.",
+  "preexisting_verified_SDD_assets_found": false,
+  "false_positive_audit": "/home/lrj/trajectory_dataset_audit/evidence/sdd_false_positive_audit.json; gate/quad code names are not SDD assets",
+  "official_original": {
+    "url": "https://cvgl.stanford.edu/projects/uav_data/",
+    "locations": 8,
+    "videos": 60,
+    "scene_counts": {
+      "gates": 9,
+      "little": 4,
+      "nexus": 12,
+      "coupa": 4,
+      "bookstore": 7,
+      "deathCircle": 5,
+      "quad": 4,
+      "hyang": 15
+    },
+    "license": "CC BY-NC-SA 3.0",
+    "archive_advertised_size": "approximately69GB",
+    "downloaded": false
+  },
+  "resources": [
+    {
+      "kind": "original video",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "not acquired"
+    },
+    {
+      "kind": "raw-format annotations",
+      "status": "PARTIAL",
+      "count": 6,
+      "complete_files": 1,
+      "prefix_files": 5,
+      "provenance": "UNVERIFIED against Stanford archive; mirror commit and available full-file blobs verified",
+      "training_ready": false
+    },
+    {
+      "kind": "reference RGB image",
+      "status": "PARTIAL",
+      "count": 6,
+      "provenance": "UNVERIFIED against Stanford archive; all six mirror Git blobs match",
+      "training_ready": false
+    },
+    {
+      "kind": "processed official YNet trajectory pool/split/config",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "author Google Drive page visible; package bytes/manifest not obtained"
+    },
+    {
+      "kind": "PECNet serialized trajectory pools",
+      "status": "UNVERIFIED",
+      "provenance": "official Git tree advertises binary pickle files; not materialized/unpickled or accepted as raw labelled corpus; test objects not inspected"
+    },
+    {
+      "kind": "manual semantic class maps",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "paper describes maps; actual mask files/palette not obtained"
+    },
+    {
+      "kind": "semantic network pretrained weights",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "external author bundle not obtained"
+    },
+    {
+      "kind": "YNet trained prediction weights",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "external author bundle not obtained"
+    },
+    {
+      "kind": "coordinate/world scale or homography",
+      "status": "UNAVAILABLE",
+      "count": 0,
+      "provenance": "no verified per-video world calibration or estimated_scales.yaml"
+    },
+    {
+      "kind": "YNet/PECNet official small code",
+      "status": "AVAILABLE",
+      "commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+      "provenance": "26 small code/notebook blobs plus MIT LICENSE verified to exact Git blob SHA1; no modified vendor code"
+    }
+  ],
+  "bounded_sample_download_bytes": 24313954,
+  "sample_budget_bytes": 44040192,
+  "large_video_or_author_bundle_downloaded": false,
+  "automatic_pseudo_labels": false,
+  "source_clone_caveat": "Initial partial Git metadata/size traversal populated about157MiB object cache including large published binary blobs; switched to no-size tree and bounded raw code fetch. No binary data pool unpickled or predictor weight loaded.",
+  "Semantic_Drone_Dataset_used": false,
+  "ETH_UCY_test_metrics_used": false,
+  "author_bundle_advertised_size": "949M on real download confirmation page; not downloaded, requires user approval for large resource"
+}

@@ -1,0 +1,43 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[
+  {
+    "batch": 1,
+    "H": 256,
+    "W": 384,
+    "core_forward_20_decoder_seconds": 0.6158174269949086,
+    "allocated_peak_bytes": 102778368,
+    "reserved_peak_bytes": 117440512,
+    "whole_card_before_MiB": "600",
+    "whole_card_after_MiB": "740",
+    "finite": true,
+    "OOM": false,
+    "weights_unchanged": true
+  },
+  {
+    "batch": 4,
+    "H": 256,
+    "W": 384,
+    "core_forward_20_decoder_seconds": 0.1737080019665882,
+    "allocated_peak_bytes": 393028096,
+    "reserved_peak_bytes": 444596224,
+    "whole_card_before_MiB": "636",
+    "whole_card_after_MiB": "1052",
+    "finite": true,
+    "OOM": false,
+    "weights_unchanged": true
+  },
+  {
+    "batch": 1,
+    "H": 512,
+    "W": 768,
+    "core_forward_20_decoder_seconds": 0.16986150399316102,
+    "allocated_peak_bytes": 393019904,
+    "reserved_peak_bytes": 471859200,
+    "whole_card_before_MiB": "636",
+    "whole_card_after_MiB": "1078",
+    "finite": true,
+    "OOM": false,
+    "weights_unchanged": true
+  }
+]

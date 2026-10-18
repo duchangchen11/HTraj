@@ -1,0 +1,36 @@
+[
+  {
+    "label": "Stanford_original",
+    "url": "https://vatic2.stanford.edu/stanford_campus_dataset.zip",
+    "error_type": "ReadTimeout",
+    "error": "HTTPSConnectionPool(host='vatic2.stanford.edu', port=443): Read timed out. (read timeout=8)",
+    "seconds": 8.008748613006901,
+    "body_downloaded": false
+  },
+  {
+    "label": "YNet_author_view",
+    "url": "https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view",
+    "status": 200,
+    "headers": {
+      "Content-Length": null,
+      "Content-Range": null,
+      "Content-Type": "text/html; charset=utf-8",
+      "Accept-Ranges": null
+    },
+    "seconds": 1.3432736780378036,
+    "body_downloaded": false
+  },
+  {
+    "label": "YNet_author_download",
+    "url": "https://drive.usercontent.google.com/download?id=1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa&export=download",
+    "status": 200,
+    "headers": {
+      "Content-Length": "2473",
+      "Content-Range": null,
+      "Content-Type": "text/html; charset=utf-8",
+      "Accept-Ranges": null
+    },
+    "seconds": 1.3312341429991648,
+    "body_downloaded": false
+  }
+]

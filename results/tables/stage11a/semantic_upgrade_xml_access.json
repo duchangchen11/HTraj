@@ -1,0 +1,7 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9870204/fullTextXML",
+  "status": 200,
+  "sha256": "8813e7d9240688ccc8fb30c9d915099b1083831beb61ba8b86aeeba062ae0525",
+  "bytes": 353284,
+  "actual_scope": "Full XML retrieved; methods and experiments read; not redistributed"
+}

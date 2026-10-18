@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/HarshayuGirase/Human-Path-Prediction/a345ada1557f53dc2acb4c07f71d340d366980da/LICENSE",
+  "git_blob_SHA1": "689a3f0b422baedef4bac74a3db1be47f01ac393",
+  "sha256": "e998f968c513a45fad98e70dafd54d3e7aae2f99d6807faaa7ba58d4953afd49",
+  "license": "MIT",
+  "applies_to": "official model code; not SDD dataset or paper PDFs"
+}

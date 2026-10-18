@@ -1,0 +1,23 @@
+[
+  {
+    "name": "cinet",
+    "url": "https://ieeexplore.ieee.org/document/10899874/",
+    "status": 202,
+    "bytes": 0,
+    "scope": "Publisher preview/abstract only; no full manuscript verified"
+  },
+  {
+    "name": "mctrans",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1047320326000180",
+    "status": 403,
+    "bytes": 832803,
+    "scope": "Publisher preview/abstract only; no full manuscript verified"
+  },
+  {
+    "name": "gds_tgtf",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0957417426036353",
+    "status": 403,
+    "bytes": 832803,
+    "scope": "Publisher preview/abstract only; no full manuscript verified"
+  }
+]

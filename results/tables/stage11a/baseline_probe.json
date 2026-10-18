@@ -1,0 +1,197 @@
+{
+  "environment": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "opencv-python": "4.10.0.84",
+    "matplotlib": "3.9.2",
+    "segmentation-models-pytorch": null
+  },
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "device": "cpu",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "semantic_backbone_weights_obtained": false,
+  "prediction_weights_loaded": false,
+  "author_config_available": false,
+  "optimizer_updates": 0,
+  "real_data_prediction": false,
+  "engineering_config": {
+    "obs_len": 8,
+    "pred_len": 12,
+    "semantic_classes": 6,
+    "segmentation_model_fp": null,
+    "encoder_channels": [
+      32,
+      32,
+      64,
+      64,
+      64
+    ],
+    "decoder_channels": [
+      64,
+      64,
+      64,
+      32,
+      32
+    ],
+    "waypoints": 1,
+    "meaning": "Author classes with an explicitly engineering-only config; not claimed exact pretrained configuration"
+  },
+  "failures": [
+    {
+      "stage": "full RGB segmentation pipeline import",
+      "type": "ModuleNotFoundError",
+      "message": "No module named 'segmentation_models_pytorch'"
+    },
+    {
+      "stage": "original ragged SceneDataset",
+      "type": "ValueError",
+      "message": "setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part."
+    }
+  ],
+  "CPU_import_passed": true,
+  "synthetic_interface_passed": true,
+  "parameters": 1641381,
+  "segmentation_parameters": 0,
+  "records": [
+    {
+      "batch": 1,
+      "input_shape": [
+        1,
+        14,
+        64,
+        96
+      ],
+      "feature_shapes": [
+        [
+          1,
+          32,
+          64,
+          96
+        ],
+        [
+          1,
+          32,
+          32,
+          48
+        ],
+        [
+          1,
+          64,
+          16,
+          24
+        ],
+        [
+          1,
+          64,
+          8,
+          12
+        ],
+        [
+          1,
+          64,
+          4,
+          6
+        ],
+        [
+          1,
+          64,
+          2,
+          3
+        ]
+      ],
+      "goal_shape": [
+        1,
+        12,
+        64,
+        96
+      ],
+      "trajectory_shape": [
+        1,
+        12,
+        64,
+        96
+      ],
+      "coordinate_shape": [
+        1,
+        12,
+        2
+      ],
+      "wall_seconds": 0.06807418598327786,
+      "finite": true
+    },
+    {
+      "batch": 2,
+      "input_shape": [
+        2,
+        14,
+        64,
+        96
+      ],
+      "feature_shapes": [
+        [
+          2,
+          32,
+          64,
+          96
+        ],
+        [
+          2,
+          32,
+          32,
+          48
+        ],
+        [
+          2,
+          64,
+          16,
+          24
+        ],
+        [
+          2,
+          64,
+          8,
+          12
+        ],
+        [
+          2,
+          64,
+          4,
+          6
+        ],
+        [
+          2,
+          64,
+          2,
+          3
+        ]
+      ],
+      "goal_shape": [
+        2,
+        12,
+        64,
+        96
+      ],
+      "trajectory_shape": [
+        2,
+        12,
+        64,
+        96
+      ],
+      "coordinate_shape": [
+        2,
+        12,
+        2
+      ],
+      "wall_seconds": 0.054685602022800595,
+      "finite": true
+    }
+  ],
+  "weights_unchanged": true,
+  "parameter_float32_bytes": 6565524,
+  "segmentation_dependency_import": false,
+  "original_ragged_scene_dataset_passed": false,
+  "frozen_source_unchanged": true,
+  "GPU_memory_measured": false,
+  "memory_estimate_limit": "Synthetic 64x96 CPU test cannot determine full-scene RTX3080 training memory or epoch time; segmentation and image size unresolved"
+}

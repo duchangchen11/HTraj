@@ -1,0 +1,52 @@
+[
+  {
+    "name": "ynet",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Mangalam_From_Goals_Waypoints__Paths_to_Long_Term_Human_Trajectory_ICCV_2021_paper.pdf",
+    "status": 200,
+    "sha256": "9bbb128c8c7d015c378aafd886f636da3abd1051c6ec073d3456d0da07465b7e",
+    "bytes": 7728864,
+    "text_extracted": true
+  },
+  {
+    "name": "pecnet",
+    "url": "https://arxiv.org/pdf/2004.02025",
+    "status": 200,
+    "sha256": "c696d567844358b8e568630d913e0fb79f204704d3ec9db7412385e13c7d5cb5",
+    "bytes": 8048385,
+    "text_extracted": true
+  },
+  {
+    "name": "iad",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38912/42874",
+    "error": "HTTPSConnectionPool(host='ojs.aaai.org', port=443): Max retries exceeded with url: /index.php/AAAI/article/download/38912/42874 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+  },
+  {
+    "name": "uatp",
+    "url": "https://arxiv.org/pdf/2603.29362",
+    "status": 200,
+    "sha256": "1c10cab2b174afa48d6be4bfa96fb49778119d4bcef5b298c020ee9725e375cd",
+    "bytes": 19506214,
+    "text_extracted": true
+  },
+  {
+    "name": "goalgan",
+    "url": "https://mediatum.ub.tum.de/doc/1690798/1690798.pdf",
+    "status": 200,
+    "sha256": "b6e9690cfc51879036269ad45866b7fc461ee9e1171dd8e1122f91e3ff2ceb29",
+    "bytes": 29777906,
+    "text_extracted": true
+  },
+  {
+    "name": "mggan",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Dendorfer_MG-GAN_A_Multi-Generator_Model_Preventing_Out-of-Distribution_Samples_in_Pedestrian_Trajectory_ICCV_2021_paper.pdf",
+    "status": 200,
+    "sha256": "4ccad98e5842fe18327bce50a46942f3652e7cfc6539d14af45a4ff7cea30bb2",
+    "bytes": 5835862,
+    "text_extracted": true
+  },
+  {
+    "name": "semantic_upgrade",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00138-022-01357-z.pdf",
+    "error": ""
+  }
+]

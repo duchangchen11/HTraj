@@ -1,0 +1,7 @@
+scene,video,visual_resize_x,visual_resize_y,scalar_author_style_resize,max_difference_vs_exact_rounded_dimension_ratio_px,note
+bookstore,video0,0.4002808988764045,0.39981617647058826,0.4,0.16829044117647,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
+coupa,video0,0.4,0.39981701738334857,0.4,0.00548947849954351,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
+deathCircle,video0,0.4,0.39989733059548255,0.4,0.1299281314168643,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
+gates,video0,0.4,0.3998986315255955,0.4,0.07704004054742475,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
+hyang,video0,0.4,0.4,0.4,0.0,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
+little,video0,0.40014114326040934,0.4001981178801387,0.4,0.2844972758791471,"Pixel-edge geometric convention vs scalar resize; subpixel rounding must be documented, not proof of original registration"
