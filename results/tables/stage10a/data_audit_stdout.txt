@@ -1,0 +1,79 @@
+[
+  {
+    "fold": "biwi_hotel",
+    "split": "train",
+    "windows": 2221,
+    "supervised_windows": 2121,
+    "targets": 27145,
+    "source_person_IDs": 892,
+    "max_windows_per_person": 432,
+    "context_N_quantiles": [
+      1.0,
+      12.0,
+      60.0,
+      79.0
+    ],
+    "unknown_velocity_positions": 50311,
+    "train_validation_recordings_disjoint": true,
+    "old_validation_promoted": false,
+    "target_identity_and_GT_equal_stage5p1": true
+  },
+  {
+    "fold": "biwi_hotel",
+    "split": "validation",
+    "windows": 149,
+    "supervised_windows": 94,
+    "targets": 318,
+    "source_person_IDs": 28,
+    "max_windows_per_person": 68,
+    "context_N_quantiles": [
+      3.0,
+      10.0,
+      20.0,
+      22.0
+    ],
+    "unknown_velocity_positions": 1548,
+    "train_validation_recordings_disjoint": true,
+    "old_validation_promoted": false,
+    "target_identity_and_GT_equal_stage5p1": true
+  },
+  {
+    "fold": "crowds_zara02",
+    "split": "train",
+    "windows": 1959,
+    "supervised_windows": 1684,
+    "targets": 23545,
+    "source_person_IDs": 833,
+    "max_windows_per_person": 307,
+    "context_N_quantiles": [
+      1.0,
+      11.0,
+      61.0,
+      79.0
+    ],
+    "unknown_velocity_positions": 46466,
+    "train_validation_recordings_disjoint": true,
+    "old_validation_promoted": false,
+    "target_identity_and_GT_equal_stage5p1": true
+  },
+  {
+    "fold": "crowds_zara02",
+    "split": "validation",
+    "windows": 172,
+    "supervised_windows": 172,
+    "targets": 1092,
+    "source_person_IDs": 35,
+    "max_windows_per_person": 154,
+    "context_N_quantiles": [
+      6.0,
+      11.0,
+      14.0,
+      15.0
+    ],
+    "unknown_velocity_positions": 1929,
+    "train_validation_recordings_disjoint": true,
+    "old_validation_promoted": false,
+    "target_identity_and_GT_equal_stage5p1": true
+  }
+]
+Frozen graph configuration {'radius': 3.0, 'max_neighbors': 8, 'horizon': 4.8, 'distance_scale': 0.5, 'dt': 0.4, 'speed_epsilon': 0.0001}

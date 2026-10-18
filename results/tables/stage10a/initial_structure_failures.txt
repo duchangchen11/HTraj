@@ -1,0 +1,795 @@
+.F...F...F...F...F..F...FF..F.F..                                        [100%]
+=================================== FAILURES ===================================
+_______________ test_permutation_value_gradient_translation[1-S] _______________
+
+mode = 'S', n = 1
+
+    @pytest.mark.parametrize('mode', ['E', 'S', 'D', 'R'])
+    @pytest.mark.parametrize('n', [1, 2, 5, 12])
+    def test_permutation_value_gradient_translation(mode, n):
+        p, mask, ids = data(n)
+        model = RiskGraphModel(mode, 16, C).double()
+        perm = torch.randperm(n, generator=torch.Generator().manual_seed(32))
+        p.requires_grad_(True)
+>       a = model(p, mask, ids)
+
+tests/test_stage10a_risk_graph.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806]],
+
+         [[ 0.0290,  0.1008]],
+
+         [[-0.0252,  0.1798]],
+
+         [[-0.0523,  0...,  0.2281]],
+
+         [[-0.1074,  0.1796]],
+
+         [[-0.0384,  0.1602]]]], dtype=torch.float64, requires_grad=True)
+valid = tensor([[[True],
+         [True],
+         [True],
+         [True],
+         [True],
+         [True],
+         [True],
+         [True]]])
+ids = tensor([[3]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+_______________ test_permutation_value_gradient_translation[2-S] _______________
+
+mode = 'S', n = 2
+
+    @pytest.mark.parametrize('mode', ['E', 'S', 'D', 'R'])
+    @pytest.mark.parametrize('n', [1, 2, 5, 12])
+    def test_permutation_value_gradient_translation(mode, n):
+        p, mask, ids = data(n)
+        model = RiskGraphModel(mode, 16, C).double()
+        perm = torch.randperm(n, generator=torch.Generator().manual_seed(32))
+        p.requires_grad_(True)
+>       a = model(p, mask, ids)
+
+tests/test_stage10a_risk_graph.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806],
+          [ 0.3406,  0.3202]],
+
+         [[-0.0658,  0.1596],
+          [ 0.3135,  0.336...78,  0.3277]],
+
+         [[-0.1103,  0.1469],
+          [ 0.5198,  0.2955]]]], dtype=torch.float64, requires_grad=True)
+valid = tensor([[[True, True],
+         [True, True],
+         [True, True],
+         [True, True],
+         [True, True],
+         [True, True],
+         [True, True],
+         [True, True]]])
+ids = tensor([[ 3, 10]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+_______________ test_permutation_value_gradient_translation[5-S] _______________
+
+mode = 'S', n = 5
+
+    @pytest.mark.parametrize('mode', ['E', 'S', 'D', 'R'])
+    @pytest.mark.parametrize('n', [1, 2, 5, 12])
+    def test_permutation_value_gradient_translation(mode, n):
+        p, mask, ids = data(n)
+        model = RiskGraphModel(mode, 16, C).double()
+        perm = torch.randperm(n, generator=torch.Generator().manual_seed(32))
+        p.requires_grad_(True)
+>       a = model(p, mask, ids)
+
+tests/test_stage10a_risk_graph.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806],
+          [ 0.3406,  0.3202],
+          [ 0.5458,  0.6790],
+          [ 0.8729,  0.9161]...4419,  0.7073],
+          [ 1.0783,  0.7159],
+          [ 0.9695,  1.0060]]]], dtype=torch.float64, requires_grad=True)
+valid = tensor([[[True, True, True, True, True],
+         [True, True, True, True, True],
+         [True, True, True, True, Tr...    [True, True, True, True, True],
+         [True, True, True, True, True],
+         [True, True, True, True, True]]])
+ids = tensor([[ 3, 10, 17, 24, 31]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+______________ test_permutation_value_gradient_translation[12-S] _______________
+
+mode = 'S', n = 12
+
+    @pytest.mark.parametrize('mode', ['E', 'S', 'D', 'R'])
+    @pytest.mark.parametrize('n', [1, 2, 5, 12])
+    def test_permutation_value_gradient_translation(mode, n):
+        p, mask, ids = data(n)
+        model = RiskGraphModel(mode, 16, C).double()
+        perm = torch.randperm(n, generator=torch.Generator().manual_seed(32))
+        p.requires_grad_(True)
+>       a = model(p, mask, ids)
+
+tests/test_stage10a_risk_graph.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806],
+          [ 0.3406,  0.3202],
+          [ 0.5458,  0.6790],
+          [ 0.8729,  0.9161]...6985,  2.4191],
+          [ 2.9000,  3.0502],
+          [ 3.4929,  3.3270]]]], dtype=torch.float64, requires_grad=True)
+valid = tensor([[[True, True, True, True, True, True, True, True, True, True, True,
+          True],
+         [True, True, Tru..., True,
+          True],
+         [True, True, True, True, True, True, True, True, True, True, True,
+          True]]])
+ids = tensor([[ 3, 10, 17, 24, 31, 38, 45, 52, 59, 66, 73, 80]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+_____________________ test_padding_missing_reset_no_nan[S] _____________________
+
+mode = 'S'
+
+    @pytest.mark.parametrize('mode', ['E', 'S', 'D', 'R'])
+    def test_padding_missing_reset_no_nan(mode):
+        p, mask, ids = data(4)
+        mask[:, :3, 1] = False
+        mask[:, 3:5, 2] = False
+        p[~mask] = float('nan')
+        model = RiskGraphModel(mode, 16, C).double()
+>       out = model(p, mask, ids, diagnostics=True)
+
+tests/test_stage10a_risk_graph.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806],
+          [    nan,     nan],
+          [ 0.5458,  0.6790],
+          [ 0.8729,  0.9161]...206],
+          [ 0.3594,  0.2973],
+          [ 0.5756,  0.7135],
+          [ 1.0414,  0.8507]]]], dtype=torch.float64)
+valid = tensor([[[ True, False,  True,  True],
+         [ True, False,  True,  True],
+         [ True, False,  True,  True],
+ ...
+         [ True,  True,  True,  True],
+         [ True,  True,  True,  True],
+         [ True,  True,  True,  True]]])
+ids = tensor([[ 3, 10, 17, 24]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+____________________________ test_causal_prefix[S] _____________________________
+
+mode = 'S'
+
+    @pytest.mark.parametrize('mode', ['S', 'D', 'R'])
+    def test_causal_prefix(mode):
+        p, mask, ids = data(6)
+        q = p.clone()
+        q[:, 4:] += 40.
+        m = RiskGraphModel(mode, 16, C).double()
+>       g = build_graph(p, mask, ids, mode, C)
+
+tests/test_stage10a_risk_graph.py:75: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[-0.0117,  0.0806],
+          [ 0.3406,  0.3202],
+          [ 0.5458,  0.6790],
+          [ 0.8729,  0.9161]...902],
+          [ 0.7833,  0.6513],
+          [ 1.0731,  1.1225],
+          [ 1.7094,  1.4854]]]], dtype=torch.float64)
+valid = tensor([[[True, True, True, True, True, True],
+         [True, True, True, True, True, True],
+         [True, True, Tr...rue, True, True, True],
+         [True, True, True, True, True, True],
+         [True, True, True, True, True, True]]])
+ids = tensor([[ 3, 10, 17, 24, 31, 38]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+_________________ test_r_d_distinct_direction_and_determinism __________________
+
+    def test_r_d_distinct_direction_and_determinism():
+        p, mask, ids = crossing()
+        conf = replace(C, max_neighbors=1)
+        d, r = [build_graph(p, mask, ids, mode, conf) for mode in ('D', 'R')]
+        assert d['edge_mask'][0, -1, 0].tolist() == [False, True, False]
+>       assert r['edge_mask'][0, -1, 0].tolist() == [False, False, True]
+E       assert [False, True, False] == [False, False, True]
+E         
+E         At index 1 diff: True != False
+E         Use -v to get more diff
+
+tests/test_stage10a_risk_graph.py:119: AssertionError
+_________________________ test_ties_stable_identity[S] _________________________
+
+mode = 'S'
+
+    @pytest.mark.parametrize('mode', ['S', 'D', 'R'])
+    def test_ties_stable_identity(mode):
+        p, mask, ids = data(5)
+        p[:] = 0.
+        ids = torch.tensor([[100, 40, 20, 90, 70]])
+        conf = replace(C, max_neighbors=1)
+>       g = build_graph(p, mask, ids, mode, conf)['edge_mask']
+
+tests/test_stage10a_risk_graph.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[0., 0.],
+          [0., 0.],
+          [0., 0.],
+          [0., 0.],
+          [0., 0.]],
+
+         [[0., 0...     [[0., 0.],
+          [0., 0.],
+          [0., 0.],
+          [0., 0.],
+          [0., 0.]]]], dtype=torch.float64)
+valid = tensor([[[True, True, True, True, True],
+         [True, True, True, True, True],
+         [True, True, True, True, Tr...    [True, True, True, True, True],
+         [True, True, True, True, True],
+         [True, True, True, True, True]]])
+ids = tensor([[100,  40,  20,  90,  70]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=1, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+____________ test_static_first_encounter_frozen_and_dynamic_updates ____________
+
+    def test_static_first_encounter_frozen_and_dynamic_updates():
+        p, mask, ids = crossing()
+        conf = replace(C, radius=10., max_neighbors=1)
+        p[0, -1, 1, 0] = 9.
+        p[0, -1, 2, 0] = .1
+>       s, d = [build_graph(p, mask, ids, mode, conf) for mode in ('S', 'D')]
+
+tests/test_stage10a_risk_graph.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_stage10a_risk_graph.py:151: in <listcomp>
+    s, d = [build_graph(p, mask, ids, mode, conf) for mode in ('S', 'D')]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[0.0000, 0.0000],
+          [0.7200, 0.0000],
+          [5.8000, 0.0000]],
+
+         [[0.0000, 0.0000],
+    ... 0.0000]],
+
+         [[0.0000, 0.0000],
+          [9.0000, 0.0000],
+          [0.1000, 0.0000]]]], dtype=torch.float64)
+valid = tensor([[[True, True, True],
+         [True, True, True],
+         [True, True, True],
+         [True, True, True],
+         [True, True, True],
+         [True, True, True],
+         [True, True, True],
+         [True, True, True]]])
+ids = tensor([[10, 20, 30]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=1, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+________________ test_raw_future_counterfactual_not_tensor_only ________________
+
+    def test_raw_future_counterfactual_not_tensor_only():
+        rec = raw_recording()
+        inp = inference_inputs(rec, 0)
+        changed = copy.deepcopy(rec)
+        for f in range(80, 200, 10):
+            changed.by_frame[f] = {1: np.array([1000., -300.], np.float32),
+                                   999: np.array([0., 0.], np.float32)}
+        # Removes neighbor future entirely, changes target future, adds future-only ID.
+        other = inference_inputs(changed, 0)
+        for key in inp:
+            assert torch.equal(inp[key], other[key])
+        for mode in ('S', 'D', 'R'):
+            m = RiskGraphModel(mode, 16, C).double()
+            a = {**inp, 'position': inp['position'].double()}
+            b = {**other, 'position': other['position'].double()}
+>           assert torch.equal(m(**a), m(**b))
+
+tests/test_stage10a_risk_graph.py:198: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1736: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+experiments/stage4/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1747: in _call_impl
+    return forward_call(*args, **kwargs)
+src/risk_dynamic_graph/model.py:26: in forward
+    graph = build_graph(position, valid, ids, self.mode, self.config)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+position = tensor([[[[0.0000, 0.0000],
+          [0.0000, 0.0000]],
+
+         [[0.2000, 0.0000],
+          [0.0000, 0.0000]],
+
+  ... 0.0000],
+          [1.0000, 0.6000]],
+
+         [[1.4000, 0.0000],
+          [1.0000, 0.7000]]]], dtype=torch.float64)
+valid = tensor([[[ True, False],
+         [ True, False],
+         [ True, False],
+         [ True,  True],
+         [ True,  True],
+         [ True,  True],
+         [ True,  True],
+         [ True,  True]]])
+ids = tensor([[1, 2]]), mode = 'S'
+config = GraphConfig(radius=10.0, max_neighbors=2, horizon=4.8, distance_scale=1.0, dt=0.4, speed_epsilon=0.0001)
+
+    def build_graph(position, valid, ids, mode='D', config=None):
+        c = config or GraphConfig()
+        if mode not in ('S', 'D', 'R', 'E'):
+            raise ValueError('Unknown graph rule')
+        p, v, vv = historical_motion(position, valid, c.dt)
+        b, t, n, _ = p.shape
+        if ids.shape != (b, n) or ids.dtype != torch.int64:
+            raise ValueError('Stable integer IDs[B,N] required')
+        # IDs are identifiers only: never neural inputs. Padding IDs must also be
+        # unique; no fallback to storage-index tie breaks.
+        if n > 1 and (ids.sort(-1).values[:, 1:] == ids.sort(-1).values[:, :-1]).any():
+            raise ValueError('Duplicate node IDs')
+        r, w, known = pair_features(p, v, vv)
+        geometry = closest_approach(r, w, known, c.horizon, c.distance_scale, c.speed_epsilon)
+        distance = torch.linalg.vector_norm(r, dim=-1)
+        visible = valid[..., :, None] & valid[..., None, :]
+        visible = visible & ~torch.eye(n, dtype=torch.bool, device=p.device)
+        candidate = visible & (distance <= c.radius)
+        first_distance = torch.zeros_like(distance)
+        if mode == 'S':
+            # Causal sticky static graph: each pair is considered at first joint
+            # observation only. Fill remaining K slots then freeze accepted edges;
+            # departures only mask them, never recycle capacity or reconsider pairs.
+            seen = torch.zeros((b, n, n), dtype=torch.bool, device=p.device)
+            admitted = torch.zeros_like(seen)
+            first = torch.zeros((b, n, n), dtype=p.dtype, device=p.device)
+            edges, pools = [], []
+            for step in range(t):
+                new = visible[:, step] & ~seen
+                first = torch.where(new, distance[:, step], first)
+                first_distance[:, step] = first
+                eligible = new & (first <= c.radius)
+                ranked = stable_select(first, eligible, ids, c.max_neighbors)
+                # Keep only as many ranked new entries as vacant permanent slots.
+                order = stable_select(first, eligible, ids, n)
+                order_ids = torch.argsort(ids, stable=True)[:, None, :].expand(b, n, n)
+                vals = torch.gather(torch.where(order, first, torch.inf), -1, order_ids)
+>               ix = torch.gather(order_ids, -1, vals.argsort(-1, stable=True))
+E               TypeError: argsort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+E                * (*, bool stable, int dim = -1, bool descending = False)
+E                * (int dim = -1, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+E                * (name dim, bool descending = False)
+E                     didn't match because some of the keywords were incorrect: stable
+
+src/risk_dynamic_graph/graph_builder.py:76: TypeError
+=========================== short test summary info ============================
+FAILED tests/test_stage10a_risk_graph.py::test_permutation_value_gradient_translation[1-S]
+FAILED tests/test_stage10a_risk_graph.py::test_permutation_value_gradient_translation[2-S]
+FAILED tests/test_stage10a_risk_graph.py::test_permutation_value_gradient_translation[5-S]
+FAILED tests/test_stage10a_risk_graph.py::test_permutation_value_gradient_translation[12-S]
+FAILED tests/test_stage10a_risk_graph.py::test_padding_missing_reset_no_nan[S]
+FAILED tests/test_stage10a_risk_graph.py::test_causal_prefix[S] - TypeError: ...
+FAILED tests/test_stage10a_risk_graph.py::test_r_d_distinct_direction_and_determinism
+FAILED tests/test_stage10a_risk_graph.py::test_ties_stable_identity[S] - Type...
+FAILED tests/test_stage10a_risk_graph.py::test_static_first_encounter_frozen_and_dynamic_updates
+FAILED tests/test_stage10a_risk_graph.py::test_raw_future_counterfactual_not_tensor_only
+10 failed, 23 passed in 1.03s

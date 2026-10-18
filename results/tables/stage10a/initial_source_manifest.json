@@ -1,0 +1,62 @@
+{
+  "execution_commit": "d8e753f718647db49202da3ac6d43e4b37cfc59b",
+  "files": [
+    {
+      "path": "src/risk_dynamic_graph/__init__.py",
+      "sha256": "73ad66f55857ea15629548d9054ec7c4dac7baca06f860b13d373d04548c3dfe"
+    },
+    {
+      "path": "src/risk_dynamic_graph/data.py",
+      "sha256": "d5f1fea03c9e980d801b9ef10072e58532471326a8012e88239f55363895b52b"
+    },
+    {
+      "path": "src/risk_dynamic_graph/graph_builder.py",
+      "sha256": "f2c9848fa5220d102156428b67e7e97dcee4363ee25f37483c4bfee238bf9d34"
+    },
+    {
+      "path": "src/risk_dynamic_graph/interaction_features.py",
+      "sha256": "52ebad5734619e3d3d9287ee7179da03d4eea0c73a88536c46b876831bb9b461"
+    },
+    {
+      "path": "src/risk_dynamic_graph/model.py",
+      "sha256": "1b045e3e2b63073817bbce0d14c46e90486313c9e0fed8fd145a412ec2043cc8"
+    },
+    {
+      "path": "src/risk_dynamic_graph/risk_estimator.py",
+      "sha256": "765dc60c885aa0496d0720923d8c892fe12d1fbe3c9e5540ceb2145d87be5ae1"
+    },
+    {
+      "path": "scripts/stage10a/audit_data.py",
+      "sha256": "e24d9edec2d706807c2cc9331b45286fd04614be7e745522c1dfb78c9c5f0f47"
+    },
+    {
+      "path": "scripts/stage10a/common.py",
+      "sha256": "ecacb398ffab298fedd8de78956caa8ead1228926e6d95fcfbbf0839da4126a6"
+    },
+    {
+      "path": "scripts/stage10a/freeze_protocol.py",
+      "sha256": "747a852954cd3afec39c11fba6d3c6c7472a6ddb2ac8d0034a02fe68d5c5c20d"
+    },
+    {
+      "path": "scripts/stage10a/protect.py",
+      "sha256": "e5917aea8d82a2f07d758da5dae9e59d7df23557e5ea41e5b661d6cb60f42595"
+    },
+    {
+      "path": "scripts/stage10a/resources.py",
+      "sha256": "d073cb244f6b65eec7fbf9103e82c129fda3519e4b2cfb22fb68a7259776b1cb"
+    },
+    {
+      "path": "configs/stage10a/graph.json",
+      "sha256": "daf9fd84f6de4b336dac863644d923dcf6563fa065942c0754b3c34a56680b84"
+    },
+    {
+      "path": "configs/stage10a/protected_files.csv.gz",
+      "sha256": "3aec0bda0ff9dac37b8eae4b3afd2c5ede8c641a4762e8fa771dd6a26e4c866c"
+    },
+    {
+      "path": "configs/stage10a/protocol.json",
+      "sha256": "397dee7cad950ff9c7ac7dc08e5c648c486040f912a72b1588680ade5f5e0d19"
+    }
+  ],
+  "command": "No training or validation metrics; engineering only"
+}

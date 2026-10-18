@@ -1,0 +1,56 @@
+[
+  {
+    "name": "snapshot",
+    "url": "https://openaccess.thecvf.com/content/WACV2025W/HAVI/papers/Uhlemann_Snapshot_Towards_Application-centered_Models_for_Pedestrian_Trajectory_Prediction_in_Urban_WACVW_2025_paper.pdf",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/snapshot.pdf",
+    "sha256": "77089ab3854f1fbf2399e16dd135df4aa41558e1348b2a1bff3fcec0b4c174db",
+    "bytes": 2987283,
+    "text_extracted": true
+  },
+  {
+    "name": "highgraph",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Higher-order_Relational_Reasoning_for_Pedestrian_Trajectory_Prediction_CVPR_2024_paper.pdf",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/highgraph.pdf",
+    "sha256": "9593940f1813e32723708179c5478e444a5656e1db66f8469a80423c1f73b7d4",
+    "bytes": 2006835,
+    "text_extracted": true
+  },
+  {
+    "name": "sgcn",
+    "url": "https://www.chengjianglong.com/publications/SGCN_CVPR.pdf",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/sgcn.pdf",
+    "sha256": "5c90ec485a64d2f1b0c99fda47f13872e363fe23a4c34dc9179a76d114b4d3ab",
+    "bytes": 1815262,
+    "text_extracted": true
+  },
+  {
+    "name": "social_stgcnn",
+    "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.pdf",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/social_stgcnn.pdf",
+    "sha256": "4439229ea8a776179ad16ceab147f96762c5339b8ea2b95e1009f488150c539b",
+    "bytes": 2770958,
+    "text_extracted": true
+  },
+  {
+    "name": "socialcircle",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wong_SocialCircle_Learning_the_Angle-based_Social_Interaction_Representation_for_Pedestrian_Trajectory_CVPR_2024_paper.pdf",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/socialcircle.pdf",
+    "sha256": "0da8bbc1ecfad4f9d4092be3ffc15be3dd414f5c73c42780f9298c74d9c6c380",
+    "bytes": 4549656,
+    "text_extracted": true
+  },
+  {
+    "name": "trajectron",
+    "url": "https://arxiv.org/pdf/2001.03093",
+    "status": 200,
+    "path": "experiments/stage10a/cache/papers/trajectron.pdf",
+    "sha256": "fe972cbd24b236ad01ca5fac6a5f412e56c5f44431667617a6077e3d47de09cd",
+    "bytes": 10153697,
+    "text_extracted": true
+  }
+]

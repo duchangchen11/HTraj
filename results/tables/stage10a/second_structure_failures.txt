@@ -1,0 +1,19 @@
+........................F........                                        [100%]
+=================================== FAILURES ===================================
+_________________ test_r_d_distinct_direction_and_determinism __________________
+
+    def test_r_d_distinct_direction_and_determinism():
+        p, mask, ids = crossing()
+        conf = replace(C, max_neighbors=1)
+        d, r = [build_graph(p, mask, ids, mode, conf) for mode in ('D', 'R')]
+        assert d['edge_mask'][0, -1, 0].tolist() == [False, True, False]
+>       assert r['edge_mask'][0, -1, 0].tolist() == [False, False, True]
+E       assert [False, True, False] == [False, False, True]
+E         
+E         At index 1 diff: True != False
+E         Use -v to get more diff
+
+tests/test_stage10a_risk_graph.py:119: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_stage10a_risk_graph.py::test_r_d_distinct_direction_and_determinism
+1 failed, 32 passed in 0.82s

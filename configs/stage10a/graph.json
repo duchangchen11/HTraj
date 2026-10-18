@@ -1,0 +1,8 @@
+{
+  "radius": 3.0,
+  "max_neighbors": 8,
+  "horizon": 4.8,
+  "distance_scale": 0.5,
+  "dt": 0.4,
+  "speed_epsilon": 0.0001
+}

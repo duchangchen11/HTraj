@@ -1,0 +1,158 @@
+{
+  "summary": [
+    {
+      "fold": "biwi_hotel",
+      "split": "train",
+      "windows": 2221,
+      "supervised_windows": 2121,
+      "targets": 27145,
+      "source_person_IDs": 892,
+      "max_windows_per_person": 432,
+      "context_N_quantiles": [
+        1.0,
+        12.0,
+        60.0,
+        79.0
+      ],
+      "unknown_velocity_positions": 50311,
+      "train_validation_recordings_disjoint": true,
+      "old_validation_promoted": false,
+      "target_identity_and_GT_equal_stage5p1": true
+    },
+    {
+      "fold": "biwi_hotel",
+      "split": "validation",
+      "windows": 149,
+      "supervised_windows": 94,
+      "targets": 318,
+      "source_person_IDs": 28,
+      "max_windows_per_person": 68,
+      "context_N_quantiles": [
+        3.0,
+        10.0,
+        20.0,
+        22.0
+      ],
+      "unknown_velocity_positions": 1548,
+      "train_validation_recordings_disjoint": true,
+      "old_validation_promoted": false,
+      "target_identity_and_GT_equal_stage5p1": true
+    },
+    {
+      "fold": "crowds_zara02",
+      "split": "train",
+      "windows": 1959,
+      "supervised_windows": 1684,
+      "targets": 23545,
+      "source_person_IDs": 833,
+      "max_windows_per_person": 307,
+      "context_N_quantiles": [
+        1.0,
+        11.0,
+        61.0,
+        79.0
+      ],
+      "unknown_velocity_positions": 46466,
+      "train_validation_recordings_disjoint": true,
+      "old_validation_promoted": false,
+      "target_identity_and_GT_equal_stage5p1": true
+    },
+    {
+      "fold": "crowds_zara02",
+      "split": "validation",
+      "windows": 172,
+      "supervised_windows": 172,
+      "targets": 1092,
+      "source_person_IDs": 35,
+      "max_windows_per_person": 154,
+      "context_N_quantiles": [
+        6.0,
+        11.0,
+        14.0,
+        15.0
+      ],
+      "unknown_velocity_positions": 1929,
+      "train_validation_recordings_disjoint": true,
+      "old_validation_promoted": false,
+      "target_identity_and_GT_equal_stage5p1": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "data/raw/eth_ucy/crowds_zara01.txt",
+      "sha256": "1147a1962a09abfb86f28c6cddcac862e095a0cf129b3016385b69eacdd09d85",
+      "bytes": 205711
+    },
+    {
+      "path": "data/raw/eth_ucy/crowds_zara02.txt",
+      "sha256": "8a649d0f8c9ae75c87c4d23a85f892786b0aa30266e996c7be03e69dafff22ff",
+      "bytes": 392227
+    },
+    {
+      "path": "data/raw/eth_ucy/students001.txt",
+      "sha256": "a6d87f278d94136fe39b8be91555487a29ac77259ae403b9dba2d5c18caf7b5b",
+      "bytes": 879714
+    },
+    {
+      "path": "data/raw/eth_ucy/students003.txt",
+      "sha256": "e25798b660634330aa89f8bb259425de720e84d0873902726c1d1f4ccff21d6c",
+      "bytes": 724279
+    },
+    {
+      "path": "data/raw/eth_ucy/biwi_hotel.txt",
+      "sha256": "9caa771bb9153d6b809dd0916b6f86761b641e6bbb15e766c1de3133fbbb7fcf",
+      "bytes": 143799
+    }
+  ],
+  "manifests": [
+    {
+      "path": "configs/stage5p1/manifests/biwi_hotel/B.json",
+      "sha256": "e3f444dd718d0c358b817d5350ebd29e8b91c302beb153929c0302a0ebeae9a1"
+    },
+    {
+      "path": "configs/stage5p1/manifests/crowds_zara02/B.json",
+      "sha256": "9ed3d7975b6288ec254de7152edbb166aa9d53f4fcbac9e51de43ada0bf13246"
+    }
+  ],
+  "threshold_basis": {
+    "source": "pooled unique SOURCE TRAIN histories only",
+    "unique_windows": 2781,
+    "nearest_distance_quantiles": [
+      0.5455406308174133,
+      0.7323932647705078,
+      1.079648494720459,
+      2.8109288215637207,
+      5.451199531555176
+    ],
+    "quantile_levels": [
+      0.25,
+      0.5,
+      0.75,
+      0.95,
+      0.99
+    ],
+    "radius_rule": "ceil(2*q95)/2 clipped [2,8]m",
+    "k_rule": "ceil(q75 visible source degrees within frozen radius) clipped[1,8]",
+    "scale_rule": "nearest distance median rounded to .5m clipped[.5,2]",
+    "degree_quantiles": [
+      0.0,
+      5.0,
+      8.0,
+      14.0,
+      29.0
+    ]
+  },
+  "graph_config": {
+    "radius": 3.0,
+    "max_neighbors": 8,
+    "horizon": 4.8,
+    "distance_scale": 0.5,
+    "dt": 0.4,
+    "speed_epsilon": 0.0001
+  },
+  "graph_config_SHA": "daf9fd84f6de4b336dac863644d923dcf6563fa065942c0754b3c34a56680b84",
+  "seconds": 8.259798810002394,
+  "no_prediction_error_computed": true,
+  "ETH_opened": false,
+  "execution_commit": "d8e753f718647db49202da3ac6d43e4b37cfc59b"
+}
