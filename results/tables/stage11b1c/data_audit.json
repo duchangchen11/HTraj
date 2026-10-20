@@ -1,0 +1,245 @@
+{
+  "passed": true,
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "source_manifest_SHA": "71d36755136cd8abf317b7077e3de9899ac03ad0f519c5a1490b0e3b36afbb12",
+  "artifacts": {
+    "train": {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+      "targets": 7496,
+      "recordings": 25,
+      "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    "validation": {
+      "path": "experiments/stage11b1/cache/validation_only.pkl",
+      "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+      "targets": 998,
+      "recordings": 5,
+      "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  },
+  "counts": {
+    "train": 7496,
+    "validation": 998,
+    "sealed_test": 2829
+  },
+  "scenes": {
+    "train": [
+      "bookstore_0",
+      "bookstore_1",
+      "bookstore_3",
+      "coupa_3",
+      "deathCircle_0",
+      "deathCircle_1",
+      "deathCircle_2",
+      "deathCircle_4",
+      "gates_0",
+      "gates_1",
+      "gates_3",
+      "gates_4",
+      "gates_5",
+      "gates_6",
+      "gates_8",
+      "hyang_4",
+      "hyang_5",
+      "hyang_6",
+      "hyang_9",
+      "nexus_0",
+      "nexus_1",
+      "nexus_3",
+      "nexus_7",
+      "nexus_8",
+      "nexus_9"
+    ],
+    "validation": [
+      "bookstore_2",
+      "deathCircle_3",
+      "gates_7",
+      "hyang_7",
+      "nexus_4"
+    ]
+  },
+  "reference": {
+    "bookstore_0": {
+      "sha256": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "height": 1088,
+      "width": 1424
+    },
+    "bookstore_1": {
+      "sha256": "9624812f0841c722722318585439356e8971df31ed45af8901c8948c45fe0037",
+      "height": 1079,
+      "width": 1422
+    },
+    "bookstore_3": {
+      "sha256": "7214db92b3432942fa43e8adb495018d47c534195bebdb24c36df653d7620479",
+      "height": 1079,
+      "width": 1322
+    },
+    "coupa_3": {
+      "sha256": "10760a7b2e0ca898daa5809ba6b1c4bbf3c221c6b82cf6bc126e21dd04bf5244",
+      "height": 1093,
+      "width": 1980
+    },
+    "deathCircle_0": {
+      "sha256": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2",
+      "height": 1948,
+      "width": 1630
+    },
+    "deathCircle_1": {
+      "sha256": "d5550786c2a4f3e192e89dd8c8e5fc5cbcd5416c3fa69e806757db9460e28ab0",
+      "height": 1916,
+      "width": 1409
+    },
+    "deathCircle_2": {
+      "sha256": "b3c1f81fab5552aba1fa7c0fa7b9a9c3ff738d348f02fd1550069242df02cead",
+      "height": 1959,
+      "width": 1436
+    },
+    "deathCircle_4": {
+      "sha256": "8256bef1ac3fa9edddfe089eb52b8459805f387627f65e6b490caada2c64787b",
+      "height": 1994,
+      "width": 1452
+    },
+    "gates_0": {
+      "sha256": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d",
+      "height": 1973,
+      "width": 1325
+    },
+    "gates_1": {
+      "sha256": "0b017eeb14ff2a231ee8d9654ea5c9f49ea84d711f9293e9b68283c810be4088",
+      "height": 1973,
+      "width": 1425
+    },
+    "gates_3": {
+      "sha256": "4b655fdb440bc6f9049ab096f5c6de11c6cb97aa214fe6df979253763e401e3d",
+      "height": 2002,
+      "width": 1432
+    },
+    "gates_4": {
+      "sha256": "77ea324d920cb2abd56362cf2d065e51ea9673633268fb10fb2b2ca2dc032e82",
+      "height": 1982,
+      "width": 1434
+    },
+    "gates_5": {
+      "sha256": "29db19cd14ba8b5bc76aa1bf6facfedc182590e9bd6871eb737830000469841f",
+      "height": 2011,
+      "width": 1426
+    },
+    "gates_6": {
+      "sha256": "6f8ec46d8da20e2676d43e214e2d3a7fc07357abf34a210b5bb414ee366363cf",
+      "height": 2011,
+      "width": 1326
+    },
+    "gates_8": {
+      "sha256": "b30ec2c62d22cfc2e091abb8298c31b5280789ee4e99987721bf5c500b1659c7",
+      "height": 1982,
+      "width": 1334
+    },
+    "hyang_4": {
+      "sha256": "22eb1abb075739ce26b179f8c0c917be0e2d281fa3cee5f6efbb74f7c31e21ee",
+      "height": 1730,
+      "width": 1340
+    },
+    "hyang_5": {
+      "sha256": "9d4cfe55f603e203a6dc45c804125c746df10936d0234663740c79b3579f1956",
+      "height": 1991,
+      "width": 1454
+    },
+    "hyang_6": {
+      "sha256": "a4dc8cedf947c9335d1a54c47e27033847809a8d0a2fbf4caf1fe2a4bfa32a22",
+      "height": 848,
+      "width": 1416
+    },
+    "hyang_9": {
+      "sha256": "0612bcfc69f680ea950fc7cfbc6e6835fc11b24d9b4a9b4d081bb934c16597ed",
+      "height": 1940,
+      "width": 1350
+    },
+    "nexus_0": {
+      "sha256": "49d2e5b288d906321df0f10cce73c61c999b66f81a4de1615e35b9444137b718",
+      "height": 1947,
+      "width": 1330
+    },
+    "nexus_1": {
+      "sha256": "62c33a0a1818c673486c336d9d3281983fbe810886494d3498e905ac511486af",
+      "height": 1947,
+      "width": 1430
+    },
+    "nexus_3": {
+      "sha256": "35f2e304eaef80341eb66b3d17ea8ae8d13a217e69c84ec6c9c25f6aa29caf74",
+      "height": 1759,
+      "width": 1184
+    },
+    "nexus_7": {
+      "sha256": "b39c8dd2c61647ebda496b454967870627bed27d220a0e0eb4256ea9fdc95faf",
+      "height": 1962,
+      "width": 1431
+    },
+    "nexus_8": {
+      "sha256": "02029d3fd6ee83c16538d16739714fd7f8e4df8e2e5fab79afa636361197b5b8",
+      "height": 1962,
+      "width": 1331
+    },
+    "nexus_9": {
+      "sha256": "1914cbf2b143290de7bc6c20cefd8a407d7a59a983bcd641c779e3895fd88cbc",
+      "height": 1980,
+      "width": 1411
+    },
+    "bookstore_2": {
+      "sha256": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4",
+      "height": 1079,
+      "width": 1422
+    },
+    "deathCircle_3": {
+      "sha256": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6",
+      "height": 1904,
+      "width": 1400
+    },
+    "gates_7": {
+      "sha256": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d",
+      "height": 1982,
+      "width": 1334
+    },
+    "hyang_7": {
+      "sha256": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18",
+      "height": 1940,
+      "width": 1450
+    },
+    "nexus_4": {
+      "sha256": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc",
+      "height": 1759,
+      "width": 1284
+    }
+  },
+  "baselines": {
+    "baseline_comparison.csv": {
+      "path": "results/tables/stage11b1/baseline_comparison.csv",
+      "sha256": "d5ccb30de399ca9dfcf7054c16013ef784ad42df4abb65ed5e22b0186af8702b"
+    },
+    "baseline_paired_errors.csv": {
+      "path": "results/tables/stage11b1/baseline_paired_errors.csv",
+      "sha256": "05f785c1486b049891d3f6638620584eb2ba75be4720001bd6bf86410fc3677f"
+    },
+    "baseline_scene_metrics.csv": {
+      "path": "results/tables/stage11b1/baseline_scene_metrics.csv",
+      "sha256": "eb08d1f2942ffdb282176bfcfaa82a2d5675dd7f861ad6ac1e15bcd3daf8d354"
+    },
+    "validation_target_manifest.csv": {
+      "path": "results/tables/stage11b1/validation_target_manifest.csv",
+      "sha256": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  },
+  "all8494_history_GT_SHA_verified": true,
+  "cross_split_recording_or_window_overlap": false,
+  "out_of_image_points_kept": 2,
+  "error_filtering": false,
+  "test_loaded": false,
+  "test_GPU_entry": false,
+  "limits": [
+    "SDD numeric semantic ID/name mapping unverified",
+    "Exact segmentation checkpoint training membership unverified",
+    "Original short-pool generation manifest partial",
+    "Carved validation may have semantic pretraining exposure"
+  ]
+}

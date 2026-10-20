@@ -1,0 +1,15 @@
+{
+  "hard_seconds": 28800,
+  "safety_seconds": 27000,
+  "process_charge": "Whole GPU worker wall including Python startup,loads,checks,train,val,checkpoints",
+  "final_cleanup_reserve_seconds": 120,
+  "planning_training_seconds_per_epoch": 453.825087123,
+  "planning_validation_seconds_per_target": 0.5178994235004211,
+  "planning_validation_overhead_factor": 1.1,
+  "planning_fixed_overhead_seconds": 600,
+  "before_epoch": "Reserve max(1.25x recent epoch seconds,previous reference) + due validation max(1.25x last full validation,reference)",
+  "per_batch_or_target_guard_seconds": 30,
+  "on_preestimate_over8hours": "Stop before formal training",
+  "on_safety_threshold": "Save boundary or failure checkpoint; stop without automatic restart",
+  "on_numeric_or_identity_or_repro_failure": "Stop related experiment; no numerical/hyperparameter repair mid-run"
+}

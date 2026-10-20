@@ -1,0 +1,73 @@
+{
+  "stage": "Stage11B-1C",
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "base": "ff56783d5b4f14f8a81074510b4bd7226245bb56",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "seed": 17,
+  "history": 8,
+  "future": 12,
+  "resize": 0.25,
+  "semantic_classes": 6,
+  "waypoints": [
+    11
+  ],
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "target_batch_size": 4,
+  "scene_batch_size": 1,
+  "max_epochs": 30,
+  "augmentation": false,
+  "AMP": false,
+  "gradient_clipping": null,
+  "scheduler": null,
+  "loss_scale": 1000,
+  "loss": "Original mean BCE(goal_logits,GT heatmap)*1000 + mean BCE(path_logits,GT heatmap)*1000",
+  "teacher_forcing": "Original training GT waypoint only; no validation GT input",
+  "prediction_initialization": "Random seed17, fresh empty optimizer; no author/smoke/one-pass predictor weights",
+  "segmentation_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "segmentation_requires_grad": false,
+  "segmentation_mode": "eval",
+  "segmentation_BN_frozen": true,
+  "expected_parameters": 53155339,
+  "expected_predictor_parameters": 1641381,
+  "scene_order": "Sorted25 recordings; torch.randperm with independent generator seed17+epoch-1",
+  "within_scene_order": "Unchanged source target row order",
+  "targets_per_epoch": 7496,
+  "steps_per_epoch": 1882,
+  "validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "best": "Minimum COMPLETE validation window-weighted minADE20, exact tie earlier epoch",
+  "save": "Initial + all completed epoch boundaries; best/last immutable-file references in manifest",
+  "TF32": false,
+  "deterministic_algorithms": true,
+  "artifacts": {
+    "train": {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+      "targets": 7496,
+      "recordings": 25,
+      "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    "validation": {
+      "path": "experiments/stage11b1/cache/validation_only.pkl",
+      "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+      "targets": 998,
+      "recordings": 5,
+      "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  },
+  "limits": [
+    "SDD numeric semantic ID/name mapping unverified",
+    "Exact segmentation checkpoint training membership unverified",
+    "Original short-pool generation manifest partial",
+    "Carved validation may have semantic pretraining exposure"
+  ]
+}
