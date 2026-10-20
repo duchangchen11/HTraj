@@ -1,0 +1,9 @@
+{
+  "full_tests": 532,
+  "full_test_seconds": 16.54,
+  "YNet_training": false,
+  "YNet_optimizer_updates": 0,
+  "legacy_toy_optimizer_tests_run": true,
+  "legacy_test_sources_unchanged": true,
+  "no_real_dataset_training": true
+}

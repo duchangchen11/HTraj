@@ -1,0 +1,42 @@
+{
+  "path": "config/sdd_trajnet.yaml",
+  "sha256": "c2c36b3d979762873ceab12b8a5450c9d7368eb182154b7caae912b08757dcfa",
+  "values": {
+    "resize": 0.25,
+    "batch_size": 8,
+    "viz_epoch": 10,
+    "learning_rate": 0.0001,
+    "num_epochs": 300,
+    "encoder_channels": [
+      32,
+      32,
+      64,
+      64,
+      64
+    ],
+    "decoder_channels": [
+      64,
+      64,
+      64,
+      32,
+      32
+    ],
+    "waypoints": [
+      11
+    ],
+    "temperature": 1.0,
+    "segmentation_model_fp": "segmentation_models/SDD_segmentation.pth",
+    "semantic_classes": 6,
+    "loss_scale": 1000,
+    "kernlen": 31,
+    "nsig": 4,
+    "use_features_only": false,
+    "unfreeze": 150,
+    "use_TTST": true,
+    "rel_threshold": 0.01,
+    "use_CWS": false,
+    "CWS_params": "None"
+  },
+  "obs_len_from_notebook": 8,
+  "pred_len_from_notebook": 12
+}

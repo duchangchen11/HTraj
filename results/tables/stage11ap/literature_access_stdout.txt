@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage11ap/literature_update.py", line 40, in <module>
+    if __name__=='__main__':main()
+  File "/home/lrj/HTraj/scripts/stage11ap/literature_update.py", line 25, in main
+    r=requests.get(f'https://api.github.com/repos/{repo}/git/trees/{head}?recursive=1',timeout=30);r.raise_for_status()
+  File "/home/lrj/HTraj/experiments/stage11ap/cache/venv/lib/python3.10/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Jayzhou3219/CINet-main/git/trees/3ef2ee76970cd6110e46284f70532bd60d7df4fe?recursive=1

@@ -1,0 +1,1722 @@
+{
+  "maps": [
+    {
+      "scene": "coupa_0",
+      "split": "test",
+      "width": 1980,
+      "height": 1093,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1297568,
+        10118,
+        473748,
+        112575,
+        270131
+      ],
+      "palette": null,
+      "semantic_SHA": "2179fa003ea23ea5e177d6b7b66558beb77c732ed5877528986f9ed43f192c38",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1980,
+        1093
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "320099dd5ced7b94569e172d6c4ef358e625d5aeb7683bfedb66046ad24800aa"
+    },
+    {
+      "scene": "coupa_1",
+      "split": "test",
+      "width": 1980,
+      "height": 1093,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1545662,
+        11857,
+        58852,
+        259007,
+        288762
+      ],
+      "palette": null,
+      "semantic_SHA": "f1258c2a6865d30686b85195a29ff650949707f50c9469b207047ad19480bebb",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1980,
+        1093
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "a39b026a083d7171765a0b164c13e9e44f1062a61941b64e411c62302f38a94a"
+    },
+    {
+      "scene": "gates_2",
+      "split": "test",
+      "width": 1325,
+      "height": 1973,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        987829,
+        503462,
+        619119,
+        503815
+      ],
+      "palette": null,
+      "semantic_SHA": "6472c2a42d435087b5e0eaaef8b78c78af6cb66a4e74ac51e9b1102977e26a57",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1325,
+        1973
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "a253511e03fd96b2d7540da5ee317b39e35bbd3977dc2dc38d64d7c35e5d4c30"
+    },
+    {
+      "scene": "hyang_0",
+      "split": "test",
+      "width": 1455,
+      "height": 1925,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        737760,
+        409817,
+        1616562,
+        36736
+      ],
+      "palette": null,
+      "semantic_SHA": "0f6b57aaf79e9e5b74b40bd5438f5db78dae3d5c1c0ba9a9329df474bed2e29b",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1455,
+        1925
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "6d67cb40df443abb6d2ac6a633457fd0ceafb963bed8847bc05c081d50d5047a"
+    },
+    {
+      "scene": "hyang_1",
+      "split": "test",
+      "width": 1445,
+      "height": 2002,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        958865,
+        445049,
+        1014383,
+        474593
+      ],
+      "palette": null,
+      "semantic_SHA": "353e307972faa80090eb3e8f0634ce3d2ea9fbdd6aad328b9d7d80e282d56b35",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1445,
+        2002
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "8e7765d7d26425023a5b93998c9265835d64b23ce71e25da24e4ea1747073cc2"
+    },
+    {
+      "scene": "hyang_3",
+      "split": "test",
+      "width": 1433,
+      "height": 741,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        225561,
+        23157,
+        298949,
+        165840,
+        348346
+      ],
+      "palette": null,
+      "semantic_SHA": "57e6d126f05f1eee181e4808982d1c5a6e3ac16fe4e5985cde508f3d07941416",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1433,
+        741
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "74df1f5a9cfe0e7934f3f0877ff6db2d203da3f8fc94ab4c91380783997b260a"
+    },
+    {
+      "scene": "hyang_8",
+      "split": "test",
+      "width": 1350,
+      "height": 1940,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1016441,
+        629739,
+        251707,
+        721113
+      ],
+      "palette": null,
+      "semantic_SHA": "9b157c0745698c677dc04bc83108cc96b9ddae6328340fca608e945d9c26d036",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1350,
+        1940
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "0793d69f5dfe06464413ba3d43c70424af9f354ffee23a9aaa7bdd0f193aab2a"
+    },
+    {
+      "scene": "little_0",
+      "split": "test",
+      "width": 1417,
+      "height": 2019,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        972496,
+        787962,
+        11175,
+        292073,
+        797217
+      ],
+      "palette": null,
+      "semantic_SHA": "4d55eb439b917896fa6c4cd01d35583ba6209693b51c5bf5c5dabf805ccbf30a",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1417,
+        2019
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "e7f6870761f6e62fbbb2ce284d880caa47b410a89e52e827eda09da87b866a20"
+    },
+    {
+      "scene": "little_1",
+      "split": "test",
+      "width": 1322,
+      "height": 1945,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        411339,
+        390663,
+        16771,
+        734932,
+        1017585
+      ],
+      "palette": null,
+      "semantic_SHA": "449694b0364d138787254b84092bac10d479f829b3fca7f2e5a333d928593706",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1322,
+        1945
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "3b3718856c47780247c4515097395128ce62eb95062e4a7f697421485d7d8ab1"
+    },
+    {
+      "scene": "little_2",
+      "split": "test",
+      "width": 1322,
+      "height": 1945,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        335453,
+        309011,
+        8252,
+        1918574
+      ],
+      "palette": null,
+      "semantic_SHA": "994caab0b473961135baffbc036f40220ccf3f41dd9226007037c3f2bd0a7496",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1322,
+        1945
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "fc8b3fd3d67a580474e16d9af724ebc463a7d2f7ec658a6a09711cee5d21d18a"
+    },
+    {
+      "scene": "little_3",
+      "split": "test",
+      "width": 1422,
+      "height": 1945,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        916122,
+        763969,
+        48508,
+        337439,
+        699752
+      ],
+      "palette": null,
+      "semantic_SHA": "24c06697a08b6596bec95b725c392edc117487c9c5426294929d9dad05cff1b2",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1422,
+        1945
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "6261120629919d2c1d836299cea077867505ad8ef86a5a31cd39719939b09a07"
+    },
+    {
+      "scene": "nexus_5",
+      "split": "test",
+      "width": 1184,
+      "height": 1759,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pixel_counts": [
+        373486,
+        440053,
+        1023813,
+        245304
+      ],
+      "palette": null,
+      "semantic_SHA": "65cdbed283af7b915d0e38c900882da5ac483de4fc9d59c0be24e6d791b96e52",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1184,
+        1759
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "26ec1d0cf37dc61f7a6cec9aa2055c00d10fccdd4620c47207694471c1c3dc26"
+    },
+    {
+      "scene": "nexus_6",
+      "split": "test",
+      "width": 1331,
+      "height": 1962,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        450645,
+        1076148,
+        934532,
+        150097
+      ],
+      "palette": null,
+      "semantic_SHA": "bffd8cfae608a44ae56cb7c5f6aaa05d5166c8b7be6d5dd24aba6464e8c030f9",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1331,
+        1962
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "d6763edb06e023a29a6c79db58f470944765f0b1b0d2ffbd3c98ca75b96a54a4"
+    },
+    {
+      "scene": "quad_0",
+      "split": "test",
+      "width": 1983,
+      "height": 1088,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1363392,
+        614,
+        353454,
+        764,
+        439280
+      ],
+      "palette": null,
+      "semantic_SHA": "dcb02b978fb733d41dc566df70f34e77acd039cb60a21e6183cd404411880456",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1983,
+        1088
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "da4301bce20ef64b7b38d1b837af214a6d7ebd4ebefda26481c6d37c3e917d68"
+    },
+    {
+      "scene": "quad_1",
+      "split": "test",
+      "width": 1983,
+      "height": 1088,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1619735,
+        3774,
+        124526,
+        5205,
+        404264
+      ],
+      "palette": null,
+      "semantic_SHA": "d2ed140bfc7bdbd265633dd0998c7e1d904878ab3384b8aeadf821b55c2bd410",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1983,
+        1088
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "c8892df3bb8b50f88211a3a9bc3f88ad26eb2b9811ef71bb91625fd648ea17d3"
+    },
+    {
+      "scene": "quad_2",
+      "split": "test",
+      "width": 1983,
+      "height": 1088,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        1401906,
+        436938,
+        318660
+      ],
+      "palette": null,
+      "semantic_SHA": "d4482c54b4b94de92e63125d13d905968489b63c26751a05aadbe5187740e686",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1983,
+        1088
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "11dcc33ca0624950444bc333fa52f72bbe1ca9273a0e1438b602c3e1590854bb"
+    },
+    {
+      "scene": "quad_3",
+      "split": "test",
+      "width": 1983,
+      "height": 1088,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        1707606,
+        66004,
+        383894
+      ],
+      "palette": null,
+      "semantic_SHA": "fbd61527a08d2d96e45059221df2bc8e4a18f06737b08369a4d4e9ef498de3d1",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1983,
+        1088
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "ff30cc7f13992694846c9e2e614cdfc48a1cff32e109410c8115c27a98261f91"
+    },
+    {
+      "scene": "bookstore_0",
+      "split": "train",
+      "width": 1424,
+      "height": 1088,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        251794,
+        963317,
+        117603,
+        124174,
+        92424
+      ],
+      "palette": null,
+      "semantic_SHA": "9edb6777270cab4914e8bdd5328e1fb12e003b4e9ec2d73422c22706f5dcc3bb",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1424,
+        1088
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc"
+    },
+    {
+      "scene": "bookstore_1",
+      "split": "train",
+      "width": 1422,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        346389,
+        791636,
+        221254,
+        26043,
+        149016
+      ],
+      "palette": null,
+      "semantic_SHA": "43e7af4d7bd3d24c05535c1a2809c0124f948e6b753264e78568cdf2b3061e63",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1422,
+        1079
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "9624812f0841c722722318585439356e8971df31ed45af8901c8948c45fe0037"
+    },
+    {
+      "scene": "bookstore_2",
+      "split": "train",
+      "width": 1422,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        162567,
+        709773,
+        90449,
+        466805,
+        104744
+      ],
+      "palette": null,
+      "semantic_SHA": "c3481b652973675b54e4259e8c49cf817b2d5eec210c9e6a86a184ea4cb9a874",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1422,
+        1079
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4"
+    },
+    {
+      "scene": "bookstore_3",
+      "split": "train",
+      "width": 1322,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        238108,
+        637571,
+        57078,
+        315552,
+        178129
+      ],
+      "palette": null,
+      "semantic_SHA": "59ac4642f64ac41c28f08e20dd3687433043d25d5586288dccf0faa2ab5d59db",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1322,
+        1079
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "7214db92b3432942fa43e8adb495018d47c534195bebdb24c36df653d7620479"
+    },
+    {
+      "scene": "bookstore_4",
+      "split": "train",
+      "width": 1322,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        100635,
+        151075,
+        617389,
+        200784,
+        356555
+      ],
+      "palette": null,
+      "semantic_SHA": "1802bf91f55e64bf1972708219bcc093e95ca86fbbf5016ad4e6d0bf0eb9f07b",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "bookstore_5",
+      "split": "train",
+      "width": 1322,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        241498,
+        79108,
+        695648,
+        1678,
+        408506
+      ],
+      "palette": null,
+      "semantic_SHA": "ae1ff0f5f13039cccfd15b025ee61cac69948682640068fa41fe43c86f98f95c",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "bookstore_6",
+      "split": "train",
+      "width": 1322,
+      "height": 1079,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        380705,
+        8140,
+        655805,
+        21541,
+        360247
+      ],
+      "palette": null,
+      "semantic_SHA": "7e4ff144a8b33369c2c855640bc54ab07d3e327f08e11b330b3cd0765806682e",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "coupa_2",
+      "split": "train",
+      "width": 1980,
+      "height": 1093,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1552540,
+        1176,
+        47041,
+        517018,
+        46365
+      ],
+      "palette": null,
+      "semantic_SHA": "40b5715cac42d13dc717eb2ef59aa18c66e7a8965d19e86feddf4d126c9c98a7",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "coupa_3",
+      "split": "train",
+      "width": 1980,
+      "height": 1093,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pixel_counts": [
+        1367316,
+        600745,
+        74868,
+        121211
+      ],
+      "palette": null,
+      "semantic_SHA": "097ccc929bcab442ffeeb3645142076eb1c754d12dcdb159cd02e661edaed8d8",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1980,
+        1093
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "10760a7b2e0ca898daa5809ba6b1c4bbf3c221c6b82cf6bc126e21dd04bf5244"
+    },
+    {
+      "scene": "deathCircle_0",
+      "split": "train",
+      "width": 1630,
+      "height": 1948,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        518807,
+        700552,
+        1302029,
+        173940,
+        479912
+      ],
+      "palette": null,
+      "semantic_SHA": "c126b62bfa76e839dd62f528767ada2d6df010624215d3eeeab94c99cddd5b58",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1630,
+        1948
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2"
+    },
+    {
+      "scene": "deathCircle_1",
+      "split": "train",
+      "width": 1409,
+      "height": 1916,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        412670,
+        706689,
+        903576,
+        88230,
+        588479
+      ],
+      "palette": null,
+      "semantic_SHA": "29e236b51c35ce0c7be1fd735cd0b2b2607a63523c1b2cc987c541fdd8a48563",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1409,
+        1916
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "d5550786c2a4f3e192e89dd8c8e5fc5cbcd5416c3fa69e806757db9460e28ab0"
+    },
+    {
+      "scene": "deathCircle_2",
+      "split": "train",
+      "width": 1436,
+      "height": 1959,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        417828,
+        866351,
+        1202258,
+        117845,
+        208842
+      ],
+      "palette": null,
+      "semantic_SHA": "f1d4c287d11938e5d61571b02ea1ee87f37f3f416535768fed76656f82d6409c",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1436,
+        1959
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "b3c1f81fab5552aba1fa7c0fa7b9a9c3ff738d348f02fd1550069242df02cead"
+    },
+    {
+      "scene": "deathCircle_3",
+      "split": "train",
+      "width": 1400,
+      "height": 1904,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        340159,
+        1072143,
+        529671,
+        11867,
+        711760
+      ],
+      "palette": null,
+      "semantic_SHA": "4b55f83da6b85bd3caa19c1fea53622777642069413ef90cb8149619b5d83c08",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1400,
+        1904
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6"
+    },
+    {
+      "scene": "deathCircle_4",
+      "split": "train",
+      "width": 1452,
+      "height": 1994,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        463471,
+        710289,
+        970789,
+        36858,
+        713881
+      ],
+      "palette": null,
+      "semantic_SHA": "82486d6cd0b784d8bb45220523cd63fe07994e9ddbf79ecb0a8282ef32cf37a8",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1452,
+        1994
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "8256bef1ac3fa9edddfe089eb52b8459805f387627f65e6b490caada2c64787b"
+    },
+    {
+      "scene": "gates_0",
+      "split": "train",
+      "width": 1325,
+      "height": 1973,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        615611,
+        459683,
+        1517739,
+        17849,
+        3343
+      ],
+      "palette": null,
+      "semantic_SHA": "bfc2d48c465a49a55739ad95840148200347061b46ebe93b90c9fc5befa7ecb6",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1325,
+        1973
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d"
+    },
+    {
+      "scene": "gates_1",
+      "split": "train",
+      "width": 1425,
+      "height": 1973,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        795296,
+        646230,
+        448080,
+        503711,
+        418208
+      ],
+      "palette": null,
+      "semantic_SHA": "50e146fd6a5accd6d73476a9341e43ac04ffad10ce30f5aa9d7e4ed08f715cb4",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1425,
+        1973
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "0b017eeb14ff2a231ee8d9654ea5c9f49ea84d711f9293e9b68283c810be4088"
+    },
+    {
+      "scene": "gates_3",
+      "split": "train",
+      "width": 1432,
+      "height": 2002,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        771677,
+        679847,
+        560252,
+        193012,
+        662076
+      ],
+      "palette": null,
+      "semantic_SHA": "7f78b613de7208aa3afc04c9bd2713e4ce40a75668589a65b032cc8e9faea27e",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1432,
+        2002
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "4b655fdb440bc6f9049ab096f5c6de11c6cb97aa214fe6df979253763e401e3d"
+    },
+    {
+      "scene": "gates_4",
+      "split": "train",
+      "width": 1434,
+      "height": 1982,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        708351,
+        575027,
+        330455,
+        720174,
+        508181
+      ],
+      "palette": null,
+      "semantic_SHA": "82c8477552968c91fc8fcb26561559c08dee6a08c2c11f5f17b183eaa0c3da1f",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1434,
+        1982
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "77ea324d920cb2abd56362cf2d065e51ea9673633268fb10fb2b2ca2dc032e82"
+    },
+    {
+      "scene": "gates_5",
+      "split": "train",
+      "width": 1426,
+      "height": 2011,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        1141196,
+        678982,
+        223330,
+        181614,
+        642564
+      ],
+      "palette": null,
+      "semantic_SHA": "e11109c3b4b7df38319da6a0f41148b44cffa91cea27a4d9bd01f44cff62ec24",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1426,
+        2011
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "29db19cd14ba8b5bc76aa1bf6facfedc182590e9bd6871eb737830000469841f"
+    },
+    {
+      "scene": "gates_6",
+      "split": "train",
+      "width": 1326,
+      "height": 2011,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        497487,
+        322199,
+        1117614,
+        216621,
+        512665
+      ],
+      "palette": null,
+      "semantic_SHA": "e8caa755e8d590ffdc484a649b406db9b455136147f20ddf0df01b69ea87b09c",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1326,
+        2011
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "6f8ec46d8da20e2676d43e214e2d3a7fc07357abf34a210b5bb414ee366363cf"
+    },
+    {
+      "scene": "gates_7",
+      "split": "train",
+      "width": 1334,
+      "height": 1982,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        852041,
+        1112199,
+        304065,
+        375683
+      ],
+      "palette": null,
+      "semantic_SHA": "81e15e24bb7a6943eb4ce8dc9fd2e1b8ae29abf8eb95dc16fb5116eba2bfd634",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1334,
+        1982
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d"
+    },
+    {
+      "scene": "gates_8",
+      "split": "train",
+      "width": 1334,
+      "height": 1982,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        670156,
+        165973,
+        1463304,
+        30759,
+        313796
+      ],
+      "palette": null,
+      "semantic_SHA": "9b84047c494b4ef1e27114b5477ece367e79622ea8febbba7a152da5ae036130",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1334,
+        1982
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "b30ec2c62d22cfc2e091abb8298c31b5280789ee4e99987721bf5c500b1659c7"
+    },
+    {
+      "scene": "hyang_10",
+      "split": "train",
+      "width": 1416,
+      "height": 748,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        276396,
+        200728,
+        438487,
+        143557
+      ],
+      "palette": null,
+      "semantic_SHA": "1aba91a7ba625c53ec119023f7c781c43a8c896a0a30225070fec4d38de11975",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_11",
+      "split": "train",
+      "width": 1416,
+      "height": 748,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        345950,
+        50672,
+        371077,
+        291469
+      ],
+      "palette": null,
+      "semantic_SHA": "0b6d393b5c537a3f46579aed2900210720f6b478936e121909180f4782ca28eb",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_12",
+      "split": "train",
+      "width": 1316,
+      "height": 848,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        247962,
+        612747,
+        18329,
+        236930
+      ],
+      "palette": null,
+      "semantic_SHA": "a8d2e73615f7b672f169e69c4db23424c6962dcdaf637b57880bf451316b31b7",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_13",
+      "split": "train",
+      "width": 1316,
+      "height": 748,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        104528,
+        855704,
+        24136
+      ],
+      "palette": null,
+      "semantic_SHA": "a521a9a6709784f06f1b744b825bfae51200ac36bd1ba2e392bb98308235d6dd",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_14",
+      "split": "train",
+      "width": 1316,
+      "height": 748,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        149315,
+        760610,
+        31476,
+        42967
+      ],
+      "palette": null,
+      "semantic_SHA": "085ec0155df9217618bc143dbb54b3fc18156ecd1fa02e22fca76aadc0e07a05",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_2",
+      "split": "train",
+      "width": 1433,
+      "height": 841,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        471141,
+        69558,
+        432264,
+        232190
+      ],
+      "palette": null,
+      "semantic_SHA": "57e01d4ac49586bed063022b6d63a3cb67ff7ba97d5e3f4b18a7ad86ddb951e4",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "hyang_4",
+      "split": "train",
+      "width": 1340,
+      "height": 1730,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4
+      ],
+      "pixel_counts": [
+        648892,
+        333129,
+        1336179
+      ],
+      "palette": null,
+      "semantic_SHA": "8d933e72f7bccffb2b6c794c427fe8f855f87b0f8c87beb7b1e567546ee8854f",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1340,
+        1730
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "22eb1abb075739ce26b179f8c0c917be0e2d281fa3cee5f6efbb74f7c31e21ee"
+    },
+    {
+      "scene": "hyang_5",
+      "split": "train",
+      "width": 1454,
+      "height": 1991,
+      "mode": "L",
+      "unique_values": [
+        1,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        805659,
+        1776406,
+        312849
+      ],
+      "palette": null,
+      "semantic_SHA": "f3a4789f85cae7a4fef809aaecefab34d3980a7e17561fc371b4529910bce760",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1454,
+        1991
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "9d4cfe55f603e203a6dc45c804125c746df10936d0234663740c79b3579f1956"
+    },
+    {
+      "scene": "hyang_6",
+      "split": "train",
+      "width": 1416,
+      "height": 848,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        452505,
+        51171,
+        554032,
+        143060
+      ],
+      "palette": null,
+      "semantic_SHA": "36c499338481602f534d8decb047ab8fd945b5d7d334525aeeeeb29aaee0d070",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1416,
+        848
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "a4dc8cedf947c9335d1a54c47e27033847809a8d0a2fbf4caf1fe2a4bfa32a22"
+    },
+    {
+      "scene": "hyang_7",
+      "split": "train",
+      "width": 1450,
+      "height": 1940,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        819321,
+        59940,
+        1583716,
+        350023
+      ],
+      "palette": null,
+      "semantic_SHA": "b7079f0273a2e0f3830fc7f1c4cf3c6aba6330ad0a4fcbad9006905d3a2b6ad5",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1450,
+        1940
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18"
+    },
+    {
+      "scene": "hyang_9",
+      "split": "train",
+      "width": 1350,
+      "height": 1940,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        575029,
+        1235704,
+        574729,
+        233538
+      ],
+      "palette": null,
+      "semantic_SHA": "37d9ffa61f0306eae36c36c4b06432b8cf0ee6772e74aa393956f3b03bffdd4d",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1350,
+        1940
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "0612bcfc69f680ea950fc7cfbc6e6835fc11b24d9b4a9b4d081bb934c16597ed"
+    },
+    {
+      "scene": "nexus_0",
+      "split": "train",
+      "width": 1330,
+      "height": 1947,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        623277,
+        1007929,
+        554647,
+        403657
+      ],
+      "palette": null,
+      "semantic_SHA": "195e2cdf29f37e59b860a9ec532322607ef2abc2551904bc330de11d58a1b0f7",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1330,
+        1947
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "49d2e5b288d906321df0f10cce73c61c999b66f81a4de1615e35b9444137b718"
+    },
+    {
+      "scene": "nexus_10",
+      "split": "train",
+      "width": 1311,
+      "height": 1980,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        438577,
+        864949,
+        959083,
+        333171
+      ],
+      "palette": null,
+      "semantic_SHA": "c592887813173c5afa10ac4fc6d047c778023d0ffa303df59adc6a9940954136",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "nexus_11",
+      "split": "train",
+      "width": 1311,
+      "height": 1980,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        268749,
+        531495,
+        1625509,
+        170027
+      ],
+      "palette": null,
+      "semantic_SHA": "23c881948c0bc32665ee4ad187e326a7358a31678a190b52be3a29cf9c128fc3",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "nexus_1",
+      "split": "train",
+      "width": 1430,
+      "height": 1947,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        830047,
+        711612,
+        970883,
+        271668
+      ],
+      "palette": null,
+      "semantic_SHA": "522630b2d5e07f03b2182a90a8576eb2b9a0b67b06c3db4f14aa04b82201aecc",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1430,
+        1947
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "62c33a0a1818c673486c336d9d3281983fbe810886494d3498e905ac511486af"
+    },
+    {
+      "scene": "nexus_2",
+      "split": "train",
+      "width": 1330,
+      "height": 1947,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        712166,
+        347703,
+        1315489,
+        214152
+      ],
+      "palette": null,
+      "semantic_SHA": "e13ecdf01b4d772658baef9a6fe23fa4cf8a194043890bdfdf1a894751e5169a",
+      "reference_exists": false,
+      "class_name_mapping": "UNVERIFIED"
+    },
+    {
+      "scene": "nexus_3",
+      "split": "train",
+      "width": 1184,
+      "height": 1759,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        361929,
+        749925,
+        863612,
+        107190
+      ],
+      "palette": null,
+      "semantic_SHA": "2ee1dd7bae2ba36f119aefaf935f8014c04b087f0632957973f6e7b9cb303877",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1184,
+        1759
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "35f2e304eaef80341eb66b3d17ea8ae8d13a217e69c84ec6c9c25f6aa29caf74"
+    },
+    {
+      "scene": "nexus_4",
+      "split": "train",
+      "width": 1284,
+      "height": 1759,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        872735,
+        132121,
+        832829,
+        207844,
+        213027
+      ],
+      "palette": null,
+      "semantic_SHA": "181de55c8ea1fed6517747df0550c4adc6e83c1250000ac5241baa76eea21412",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1284,
+        1759
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc"
+    },
+    {
+      "scene": "nexus_7",
+      "split": "train",
+      "width": 1431,
+      "height": 1962,
+      "mode": "L",
+      "unique_values": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        969389,
+        1023658,
+        606613,
+        207962
+      ],
+      "palette": null,
+      "semantic_SHA": "4de3494be0a31f71735ce235959c75df37959087c8c267e2bd71ca2305797d92",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1431,
+        1962
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "b39c8dd2c61647ebda496b454967870627bed27d220a0e0eb4256ea9fdc95faf"
+    },
+    {
+      "scene": "nexus_8",
+      "split": "train",
+      "width": 1331,
+      "height": 1962,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "pixel_counts": [
+        651287,
+        264991,
+        1308675,
+        386469
+      ],
+      "palette": null,
+      "semantic_SHA": "e41395f8c79be535fde7c331b417d0b607cbe76fe4ac3e0e6d5e41c7734111d8",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1331,
+        1962
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "02029d3fd6ee83c16538d16739714fd7f8e4df8e2e5fab79afa636361197b5b8"
+    },
+    {
+      "scene": "nexus_9",
+      "split": "train",
+      "width": 1411,
+      "height": 1980,
+      "mode": "L",
+      "unique_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pixel_counts": [
+        894757,
+        202805,
+        1203936,
+        133459,
+        358823
+      ],
+      "palette": null,
+      "semantic_SHA": "faa0f690793f92a4b370b6518e553269d88205c0c761d806213af18b27be3502",
+      "reference_exists": true,
+      "class_name_mapping": "UNVERIFIED",
+      "reference_dimensions": [
+        1411,
+        1980
+      ],
+      "dimensions_match": true,
+      "reference_SHA": "1914cbf2b143290de7bc6c20cefd8a407d7a59a983bcd641c779e3895fd88cbc"
+    }
+  ],
+  "total_maps": 60,
+  "id_name_mapping_verified": false,
+  "class_count_config": 6,
+  "manual_origin": "Author-provided maps; paper describes hand annotation, no per-file creation metadata",
+  "sixth_class_identity": "UNVERIFIED; do not assume background",
+  "semantic_pretraining_split_exposure": "UNVERIFIED"
+}

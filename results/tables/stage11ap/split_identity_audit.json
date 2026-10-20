@@ -1,0 +1,177 @@
+{
+  "author_train": {
+    "rows": 169880,
+    "targets": 8494,
+    "scenes": [
+      "bookstore_0",
+      "bookstore_1",
+      "bookstore_2",
+      "bookstore_3",
+      "coupa_3",
+      "deathCircle_0",
+      "deathCircle_1",
+      "deathCircle_2",
+      "deathCircle_3",
+      "deathCircle_4",
+      "gates_0",
+      "gates_1",
+      "gates_3",
+      "gates_4",
+      "gates_5",
+      "gates_6",
+      "gates_7",
+      "gates_8",
+      "hyang_4",
+      "hyang_5",
+      "hyang_6",
+      "hyang_7",
+      "hyang_9",
+      "nexus_0",
+      "nexus_1",
+      "nexus_3",
+      "nexus_4",
+      "nexus_7",
+      "nexus_8",
+      "nexus_9"
+    ],
+    "globals_allowed": [
+      [
+        "pandas.core.frame",
+        "DataFrame"
+      ],
+      [
+        "pandas.core.internals.managers",
+        "BlockManager"
+      ],
+      [
+        "pandas.core.indexes.base",
+        "_new_Index"
+      ],
+      [
+        "pandas.core.indexes.base",
+        "Index"
+      ],
+      [
+        "numpy.core.multiarray",
+        "_reconstruct"
+      ],
+      [
+        "numpy",
+        "ndarray"
+      ],
+      [
+        "numpy",
+        "dtype"
+      ],
+      [
+        "pandas.core.indexes.range",
+        "RangeIndex"
+      ],
+      [
+        "numpy.core.numeric",
+        "_frombuffer"
+      ],
+      [
+        "builtins",
+        "slice"
+      ]
+    ],
+    "outside_reference_points": 2,
+    "consecutive_window_start_steps": {},
+    "frame_support_check_passed": true
+  },
+  "author_test": {
+    "rows": 56580,
+    "targets": 2829,
+    "scenes": [
+      "coupa_0",
+      "coupa_1",
+      "gates_2",
+      "hyang_0",
+      "hyang_1",
+      "hyang_3",
+      "hyang_8",
+      "little_0",
+      "little_1",
+      "little_2",
+      "little_3",
+      "nexus_5",
+      "nexus_6",
+      "quad_0",
+      "quad_1",
+      "quad_2",
+      "quad_3"
+    ],
+    "globals_allowed": [
+      [
+        "pandas.core.frame",
+        "DataFrame"
+      ],
+      [
+        "pandas.core.internals.managers",
+        "BlockManager"
+      ],
+      [
+        "pandas.core.indexes.base",
+        "_new_Index"
+      ],
+      [
+        "pandas.core.indexes.base",
+        "Index"
+      ],
+      [
+        "numpy.core.multiarray",
+        "_reconstruct"
+      ],
+      [
+        "numpy",
+        "ndarray"
+      ],
+      [
+        "numpy",
+        "dtype"
+      ],
+      [
+        "pandas.core.indexes.range",
+        "RangeIndex"
+      ],
+      [
+        "numpy.core.numeric",
+        "_frombuffer"
+      ],
+      [
+        "builtins",
+        "slice"
+      ]
+    ],
+    "outside_reference_points": 0,
+    "consecutive_window_start_steps": {},
+    "frame_support_check_passed": true
+  },
+  "train_test_scene_intersection": [],
+  "exact_window_intersection": [],
+  "site_background_overlap": [
+    "coupa",
+    "gates",
+    "hyang",
+    "nexus"
+  ],
+  "track_numeric_id_reuse_is_not_same_person": true,
+  "identity_key": "scene + trackId + complete 20 frame support",
+  "test_metrics_calculated": false,
+  "training_validation_definition": "Official bundle has only train/test; author notebook uses test for checkpoint selection; forbidden in HTraj",
+  "candidate_val_scenes": [
+    "bookstore_2",
+    "deathCircle_3",
+    "gates_7",
+    "hyang_7",
+    "nexus_4"
+  ],
+  "candidate_counts": {
+    "development_train": 7496,
+    "development_validation": 998,
+    "sealed_test": 2829
+  },
+  "no_time_support_cross_split_overlap": true,
+  "original_raw_provenance": "Bound to author Drive archive; original video/complete annotation archive not acquired"
+}

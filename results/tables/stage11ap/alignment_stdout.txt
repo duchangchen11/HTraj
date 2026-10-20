@@ -1,0 +1,1 @@
+Real train RGB/mask/history/future alignment figures: 6

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "full_unit_tests": 532,
+  "historical_files": 88326,
+  "history_unchanged": true,
+  "official_source_unchanged": true,
+  "author_resources_SHA_verified": 151,
+  "alignment_real_train_cases": 6,
+  "actual_train_forward_passed": true,
+  "strict_load": true,
+  "predictor_checkpoint_keys": 776,
+  "GT_isolation_passed": true,
+  "no_YNet_train_or_test_metrics": true,
+  "no_YNet_optimizer_updates": true,
+  "legacy_toy_optimizer_unit_tests_run": true,
+  "protocol_status": "NOT_READY",
+  "decision": "NO-GO formal training/protocol freeze and novel algorithm development; real-input engineering PASS",
+  "research_claims": "No new model or claimed performance gain",
+  "push_authorization": "Current attachment explicitly requests pushing this new branch"
+}

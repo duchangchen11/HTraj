@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage11ap/literature_update.py", line 54, in <module>
+    if __name__=='__main__':main()
+  File "/home/lrj/HTraj/scripts/stage11ap/literature_update.py", line 46, in main
+    s=requests.get(url,timeout=20);s.raise_for_status();assert len(s.content)<262144
+AssertionError

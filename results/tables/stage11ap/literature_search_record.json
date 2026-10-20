@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-20 Asia/Shanghai",
+  "workflow": "multi-source-search",
+  "papers": [
+    "CINet2025",
+    "McTrans2026",
+    "GDS-TGTF2026"
+  ],
+  "queries": [
+    "\"Completed Interaction Networks\" pedestrian full paper pdf",
+    "\"Pedestrian trajectory prediction using multi-cue transformer\" pdf",
+    "\"Goal-Guided Dual-Stream\" trajectory full paper",
+    "\"Completed Interaction Networks\" arxiv",
+    "\"multi-cue transformer\" \"trajectory\" preprint OR github OR arxiv",
+    "\"GDS-TGTF\" code OR preprint OR github",
+    "\"SDD_semantic_maps\" \"unlabeled\"",
+    "\"Y-net\" \"semantic_classes\" \"6\""
+  ],
+  "primary_sources": [
+    "https://ieeexplore.ieee.org/document/10899874/",
+    "https://www.sciencedirect.com/science/article/pii/S1047320326000180",
+    "https://www.sciencedirect.com/science/article/pii/S0957417426036353",
+    "https://github.com/Jayzhou3219/CINet-main"
+  ],
+  "read_scope": "Publisher metadata/abstract/intro previews and specific CINet source files; no full method manuscripts acquired for three papers",
+  "forbidden_routes_used": false,
+  "arbitrary_scripts_executed": false,
+  "search_stopped_without_infinite_retry": true
+}

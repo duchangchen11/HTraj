@@ -1,0 +1,33 @@
+{
+  "file_id": "1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa",
+  "view_url": "https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view",
+  "download_url": "https://drive.usercontent.google.com/download?id=1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa&export=download",
+  "source_readme": "https://github.com/HarshayuGirase/Human-Path-Prediction/blob/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/README.md",
+  "authorized": true,
+  "advertised_size": "949M (not verified bytes)",
+  "disk_free_before": 153605922816,
+  "events": [
+    {
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "response_bytes": 2473,
+      "sha256": "585b536e6b87133951d2b1fa31e6a89561c0bf51db492e1fec612a168d2c9cdf",
+      "form_present": true
+    },
+    {
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "content_length": "791967658",
+      "content_disposition": "attachment; filename=\"ynet_additional_files.zip\""
+    }
+  ],
+  "success": true,
+  "resumed_interrupted_bytes": 203423744,
+  "bytes": 995391402,
+  "sha256": "3e4aa09c900c729711c37eb6e82f0eedf354798f70d67bbd3d6b444ba62fbc11",
+  "mime": "application/zip (PK signature + zipfile + CRC)",
+  "crc_passed": true,
+  "members": 220,
+  "uncompressed_bytes": 1213536694,
+  "elapsed_seconds": 219.74426963700003
+}

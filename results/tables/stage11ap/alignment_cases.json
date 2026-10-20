@@ -1,0 +1,465 @@
+{
+  "real_cases": 6,
+  "test_cases": 0,
+  "cases": [
+    {
+      "scene": "bookstore_0",
+      "video": "0",
+      "track_id": 100,
+      "meta_id": 0,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "semantic_SHA": "9edb6777270cab4914e8bdd5328e1fb12e003b4e9ec2d73422c22706f5dcc3bb",
+      "figure": "results/tables/stage11ap/alignment_figures/bookstore_0.png",
+      "figure_SHA": "8fd611a42df3a96760778d41ca5cd65efda3f6064ee44acbc87b30d7975350ad",
+      "image_size": [
+        1424,
+        1088
+      ],
+      "mask_size": [
+        1424,
+        1088
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    },
+    {
+      "scene": "coupa_3",
+      "video": "3",
+      "track_id": 59,
+      "meta_id": 2195,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "10760a7b2e0ca898daa5809ba6b1c4bbf3c221c6b82cf6bc126e21dd04bf5244",
+      "semantic_SHA": "097ccc929bcab442ffeeb3645142076eb1c754d12dcdb159cd02e661edaed8d8",
+      "figure": "results/tables/stage11ap/alignment_figures/coupa_3.png",
+      "figure_SHA": "11d8017ae104a06364c000ea9969f17193743a188edd069c0b56d3fb730e1b69",
+      "image_size": [
+        1980,
+        1093
+      ],
+      "mask_size": [
+        1980,
+        1093
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    },
+    {
+      "scene": "deathCircle_0",
+      "video": "0",
+      "track_id": 685,
+      "meta_id": 2834,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2",
+      "semantic_SHA": "c126b62bfa76e839dd62f528767ada2d6df010624215d3eeeab94c99cddd5b58",
+      "figure": "results/tables/stage11ap/alignment_figures/deathCircle_0.png",
+      "figure_SHA": "c070259008217752685bdbe528146439029fead12d708bf15df6da44bafae79d",
+      "image_size": [
+        1630,
+        1948
+      ],
+      "mask_size": [
+        1630,
+        1948
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    },
+    {
+      "scene": "gates_0",
+      "video": "0",
+      "track_id": 109,
+      "meta_id": 4730,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d",
+      "semantic_SHA": "bfc2d48c465a49a55739ad95840148200347061b46ebe93b90c9fc5befa7ecb6",
+      "figure": "results/tables/stage11ap/alignment_figures/gates_0.png",
+      "figure_SHA": "58ec4710946e9db5d7cbf92a36346290ad12825d7a24dc94a547a930e78b0b0f",
+      "image_size": [
+        1325,
+        1973
+      ],
+      "mask_size": [
+        1325,
+        1973
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    },
+    {
+      "scene": "hyang_4",
+      "video": "4",
+      "track_id": 7,
+      "meta_id": 5673,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "22eb1abb075739ce26b179f8c0c917be0e2d281fa3cee5f6efbb74f7c31e21ee",
+      "semantic_SHA": "8d933e72f7bccffb2b6c794c427fe8f855f87b0f8c87beb7b1e567546ee8854f",
+      "figure": "results/tables/stage11ap/alignment_figures/hyang_4.png",
+      "figure_SHA": "e29382fe67b717ad9ba27af8f7878412817086b4bcac5c0391835a062935d071",
+      "image_size": [
+        1340,
+        1730
+      ],
+      "mask_size": [
+        1340,
+        1730
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    },
+    {
+      "scene": "nexus_0",
+      "video": "0",
+      "track_id": 32,
+      "meta_id": 6520,
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "reference_SHA": "49d2e5b288d906321df0f10cce73c61c999b66f81a4de1615e35b9444137b718",
+      "semantic_SHA": "195e2cdf29f37e59b860a9ec532322607ef2abc2551904bc330de11d58a1b0f7",
+      "figure": "results/tables/stage11ap/alignment_figures/nexus_0.png",
+      "figure_SHA": "6836d9016b8e32b457cc59d4420d0f82a4e8dcb0ec9e6b2e95a02c03cbaa0009",
+      "image_size": [
+        1330,
+        1947
+      ],
+      "mask_size": [
+        1330,
+        1947
+      ],
+      "transform_RGB_to_semantic": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "inference_nominal_transform": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "GT_used_only_for_alignment": true,
+      "precise_original_video_registration": "UNVERIFIED: original video and reference frame ID not included"
+    }
+  ],
+  "semantic_names_verified": false,
+  "all_reference_mask_dimensions_match": true,
+  "raw_video_registration_proven": false
+}

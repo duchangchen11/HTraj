@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "sha256": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "params": 51513958,
+  "loader": "Restricted allowlist legacy loader; weights_only initial failure retained",
+  "initial_error": "Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\nPlease file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Only persistent_load of storage is allowed, but got module\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+  "encoder_class": "ResNetEncoder",
+  "segmentation_head": "SegmentationHead(\n  (0): Conv2d(16, 6, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (1): Identity()\n  (2): Activation(\n    (activation): Softmax(dim=1)\n  )\n)"
+}

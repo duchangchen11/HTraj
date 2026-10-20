@@ -1,0 +1,18 @@
+[
+  {
+    "paper": "McTrans",
+    "url": "https://api.elsevier.com/content/article/PII:S1047320326000180?httpAccept=text/xml",
+    "status": 200,
+    "bytes": 1840,
+    "content_type": "text/xml;charset=UTF-8",
+    "full_methods_obtained": false
+  },
+  {
+    "paper": "GDS_TGTF",
+    "url": "https://api.elsevier.com/content/article/PII:S0957417426036353?httpAccept=text/xml",
+    "status": 200,
+    "bytes": 1875,
+    "content_type": "text/xml;charset=UTF-8",
+    "full_methods_obtained": false
+  }
+]

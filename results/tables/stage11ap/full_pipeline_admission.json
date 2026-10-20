@@ -1,0 +1,2808 @@
+{
+  "source_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "device": "cuda:0",
+  "seed": 17,
+  "train_only": true,
+  "optimizer_updates": 0,
+  "loss_computed": false,
+  "metrics_computed": false,
+  "GT_provided_to_prediction": false,
+  "use_TTST": true,
+  "TTST_proposals": 10000,
+  "num_goals": 20,
+  "num_traj": 1,
+  "CWS": false,
+  "official_core_unchanged": true,
+  "official_evaluate_called": false,
+  "cases": [
+    {
+      "scene": "bookstore_0",
+      "meta_id": 0,
+      "person_id": 100,
+      "frame": 0,
+      "history_SHA": "90d41285854eedc46c53a74705007562db390df07957f066f4c90d868d07b950",
+      "reference_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        384
+      ],
+      "semantic_probability_sum_max_error": 2.980232238769531e-07,
+      "finite": true,
+      "seconds": 0.9287313849999919,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    },
+    {
+      "scene": "coupa_3",
+      "meta_id": 2195,
+      "person_id": 59,
+      "frame": 0,
+      "history_SHA": "856e6b812ff7a9e8901cf7c1eaec80ea4d9757a87cfc3c92aca417354f73fdae",
+      "reference_SHA": "10760a7b2e0ca898daa5809ba6b1c4bbf3c221c6b82cf6bc126e21dd04bf5244",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        512
+      ],
+      "semantic_probability_sum_max_error": 3.5762786865234375e-07,
+      "finite": true,
+      "seconds": 0.31095185799995306,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    },
+    {
+      "scene": "deathCircle_0",
+      "meta_id": 2834,
+      "person_id": 685,
+      "frame": 0,
+      "history_SHA": "53002bb8918eceadfe79a4d198f11367410da4ee0e4a4adf6ca6203c13bc3028",
+      "reference_SHA": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        416
+      ],
+      "semantic_probability_sum_max_error": 2.980232238769531e-07,
+      "finite": true,
+      "seconds": 0.3539630740000348,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    },
+    {
+      "scene": "gates_0",
+      "meta_id": 4730,
+      "person_id": 109,
+      "frame": 0,
+      "history_SHA": "730d0240bcd53188ab3f3cdb3c0a99d26a0e478f9ea5542275884ea56815d12f",
+      "reference_SHA": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_probability_sum_max_error": 2.980232238769531e-07,
+      "finite": true,
+      "seconds": 0.4135407269999405,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    },
+    {
+      "scene": "hyang_4",
+      "meta_id": 5673,
+      "person_id": 7,
+      "frame": 0,
+      "history_SHA": "7e0db4c6fc339d75c2dd14500edc5df9ee869c0088a4daefa454aaa7e46160cd",
+      "reference_SHA": "22eb1abb075739ce26b179f8c0c917be0e2d281fa3cee5f6efbb74f7c31e21ee",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        448,
+        352
+      ],
+      "semantic_probability_sum_max_error": 2.384185791015625e-07,
+      "finite": true,
+      "seconds": 0.35932260499998847,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    },
+    {
+      "scene": "nexus_0",
+      "meta_id": 6520,
+      "person_id": 32,
+      "frame": 0,
+      "history_SHA": "a4c68ba304f32953c063b491922003367d514b5a202a867a8b0705a2a9f99599",
+      "reference_SHA": "49d2e5b288d906321df0f10cce73c61c999b66f81a4de1615e35b9444137b718",
+      "path_shape": [
+        20,
+        1,
+        12,
+        2
+      ],
+      "goal_shape": [
+        20,
+        1,
+        1,
+        2
+      ],
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_probability_sum_max_error": 2.980232238769531e-07,
+      "finite": true,
+      "seconds": 0.31465818100002707,
+      "unit": "original reference pixels",
+      "source_resize": 0.25,
+      "GT_input": false
+    }
+  ],
+  "passed": true,
+  "weights_only_legacy_error": "Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\nPlease file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Only persistent_load of storage is allowed, but got module\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+  "strict_load": true,
+  "checkpoint_keys": 776,
+  "checkpoint_SHA": "4be566ba49c386892dd729c9ea3c634a9ca6b37c206d015c0c293fccf796982e",
+  "segmentation_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "parameters": 53155339,
+  "core_parameters": 1641381,
+  "segmentation_parameters": 51513958,
+  "parameter_shapes": {
+    "semantic_segmentation.encoder.conv1.weight": [
+      64,
+      3,
+      7,
+      7
+    ],
+    "semantic_segmentation.encoder.bn1.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.bn1.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.bn1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.bn1.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.0.conv1.weight": [
+      64,
+      64,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn1.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn1.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn1.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.0.conv2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn2.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn2.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn2.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn2.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.0.conv3.weight": [
+      256,
+      64,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn3.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn3.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn3.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn3.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.0.downsample.0.weight": [
+      256,
+      64,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.0.downsample.1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.downsample.1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.downsample.1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.downsample.1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.0.downsample.1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.1.conv1.weight": [
+      64,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn1.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn1.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn1.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.1.conv2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn2.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn2.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn2.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn2.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.1.conv3.weight": [
+      256,
+      64,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn3.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn3.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn3.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn3.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.1.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.2.conv1.weight": [
+      64,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn1.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn1.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn1.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.2.conv2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn2.weight": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn2.bias": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn2.running_mean": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn2.running_var": [
+      64
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer1.2.conv3.weight": [
+      256,
+      64,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn3.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn3.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn3.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn3.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer1.2.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.0.conv1.weight": [
+      128,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn1.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn1.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn1.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.0.conv2.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn2.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn2.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn2.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn2.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.0.conv3.weight": [
+      512,
+      128,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn3.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn3.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn3.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn3.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.0.downsample.0.weight": [
+      512,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.0.downsample.1.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.downsample.1.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.downsample.1.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.downsample.1.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.0.downsample.1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.1.conv1.weight": [
+      128,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn1.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn1.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn1.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.1.conv2.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn2.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn2.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn2.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn2.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.1.conv3.weight": [
+      512,
+      128,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn3.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn3.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn3.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn3.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.1.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.2.conv1.weight": [
+      128,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn1.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn1.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn1.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.2.conv2.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn2.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn2.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn2.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn2.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.2.conv3.weight": [
+      512,
+      128,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn3.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn3.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn3.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn3.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.2.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.3.conv1.weight": [
+      128,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn1.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn1.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn1.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.3.conv2.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn2.weight": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn2.bias": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn2.running_mean": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn2.running_var": [
+      128
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer2.3.conv3.weight": [
+      512,
+      128,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn3.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn3.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn3.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn3.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer2.3.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.0.conv1.weight": [
+      256,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.0.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.0.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.0.downsample.0.weight": [
+      1024,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.0.downsample.1.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.downsample.1.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.downsample.1.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.downsample.1.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.0.downsample.1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.1.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.1.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.1.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.1.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.2.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.2.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.2.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.2.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.3.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.3.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.3.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.3.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.4.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.4.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.4.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.4.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.5.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.5.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.5.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.5.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.6.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.6.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.6.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.6.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.7.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.7.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.7.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.7.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.8.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.8.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.8.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.8.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.9.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.9.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.9.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.9.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.10.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.10.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.10.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.10.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.11.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.11.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.11.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.11.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.12.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.12.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.12.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.12.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.13.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.13.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.13.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.13.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.14.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.14.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.14.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.14.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.15.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.15.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.15.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.15.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.16.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.16.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.16.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.16.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.17.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.17.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.17.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.17.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.18.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.18.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.18.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.18.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.19.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.19.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.19.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.19.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.20.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.20.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.20.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.20.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.21.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.21.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.21.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.21.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.22.conv1.weight": [
+      256,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn1.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn1.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn1.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.22.conv2.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn2.weight": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn2.bias": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn2.running_mean": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn2.running_var": [
+      256
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer3.22.conv3.weight": [
+      1024,
+      256,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn3.weight": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn3.bias": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn3.running_mean": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn3.running_var": [
+      1024
+    ],
+    "semantic_segmentation.encoder.layer3.22.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.0.conv1.weight": [
+      512,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn1.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn1.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn1.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn1.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.0.conv2.weight": [
+      512,
+      512,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn2.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn2.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn2.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn2.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.0.conv3.weight": [
+      2048,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn3.weight": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn3.bias": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn3.running_mean": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn3.running_var": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.0.downsample.0.weight": [
+      2048,
+      1024,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.0.downsample.1.weight": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.downsample.1.bias": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.downsample.1.running_mean": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.downsample.1.running_var": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.0.downsample.1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.1.conv1.weight": [
+      512,
+      2048,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn1.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn1.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn1.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn1.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.1.conv2.weight": [
+      512,
+      512,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn2.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn2.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn2.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn2.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.1.conv3.weight": [
+      2048,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn3.weight": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn3.bias": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn3.running_mean": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn3.running_var": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.1.bn3.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.2.conv1.weight": [
+      512,
+      2048,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn1.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn1.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn1.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn1.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn1.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.2.conv2.weight": [
+      512,
+      512,
+      3,
+      3
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn2.weight": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn2.bias": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn2.running_mean": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn2.running_var": [
+      512
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn2.num_batches_tracked": [],
+    "semantic_segmentation.encoder.layer4.2.conv3.weight": [
+      2048,
+      512,
+      1,
+      1
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn3.weight": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn3.bias": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn3.running_mean": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn3.running_var": [
+      2048
+    ],
+    "semantic_segmentation.encoder.layer4.2.bn3.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.0.conv1.0.weight": [
+      256,
+      3072,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv1.1.weight": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv1.1.bias": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv1.1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv1.1.running_var": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv1.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.0.conv2.0.weight": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv2.1.weight": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv2.1.bias": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv2.1.running_mean": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv2.1.running_var": [
+      256
+    ],
+    "semantic_segmentation.decoder.blocks.0.conv2.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.1.conv1.0.weight": [
+      128,
+      768,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv1.1.weight": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv1.1.bias": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv1.1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv1.1.running_var": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv1.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.1.conv2.0.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv2.1.weight": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv2.1.bias": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv2.1.running_mean": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv2.1.running_var": [
+      128
+    ],
+    "semantic_segmentation.decoder.blocks.1.conv2.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.2.conv1.0.weight": [
+      64,
+      384,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv1.1.weight": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv1.1.bias": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv1.1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv1.1.running_var": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv1.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.2.conv2.0.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv2.1.weight": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv2.1.bias": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv2.1.running_mean": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv2.1.running_var": [
+      64
+    ],
+    "semantic_segmentation.decoder.blocks.2.conv2.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.3.conv1.0.weight": [
+      32,
+      128,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv1.1.weight": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv1.1.bias": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv1.1.running_mean": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv1.1.running_var": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv1.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.3.conv2.0.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv2.1.weight": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv2.1.bias": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv2.1.running_mean": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv2.1.running_var": [
+      32
+    ],
+    "semantic_segmentation.decoder.blocks.3.conv2.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.4.conv1.0.weight": [
+      16,
+      32,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv1.1.weight": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv1.1.bias": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv1.1.running_mean": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv1.1.running_var": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv1.1.num_batches_tracked": [],
+    "semantic_segmentation.decoder.blocks.4.conv2.0.weight": [
+      16,
+      16,
+      3,
+      3
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv2.1.weight": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv2.1.bias": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv2.1.running_mean": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv2.1.running_var": [
+      16
+    ],
+    "semantic_segmentation.decoder.blocks.4.conv2.1.num_batches_tracked": [],
+    "semantic_segmentation.segmentation_head.0.weight": [
+      6,
+      16,
+      3,
+      3
+    ],
+    "semantic_segmentation.segmentation_head.0.bias": [
+      6
+    ],
+    "encoder.stages.0.0.weight": [
+      32,
+      14,
+      3,
+      3
+    ],
+    "encoder.stages.0.0.bias": [
+      32
+    ],
+    "encoder.stages.1.1.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "encoder.stages.1.1.bias": [
+      32
+    ],
+    "encoder.stages.1.3.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "encoder.stages.1.3.bias": [
+      32
+    ],
+    "encoder.stages.2.1.weight": [
+      64,
+      32,
+      3,
+      3
+    ],
+    "encoder.stages.2.1.bias": [
+      64
+    ],
+    "encoder.stages.2.3.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "encoder.stages.2.3.bias": [
+      64
+    ],
+    "encoder.stages.3.1.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "encoder.stages.3.1.bias": [
+      64
+    ],
+    "encoder.stages.3.3.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "encoder.stages.3.3.bias": [
+      64
+    ],
+    "encoder.stages.4.1.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "encoder.stages.4.1.bias": [
+      64
+    ],
+    "encoder.stages.4.3.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "encoder.stages.4.3.bias": [
+      64
+    ],
+    "goal_decoder.center.0.weight": [
+      128,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.center.0.bias": [
+      128
+    ],
+    "goal_decoder.center.2.weight": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "goal_decoder.center.2.bias": [
+      128
+    ],
+    "goal_decoder.upsample_conv.0.weight": [
+      64,
+      128,
+      3,
+      3
+    ],
+    "goal_decoder.upsample_conv.0.bias": [
+      64
+    ],
+    "goal_decoder.upsample_conv.1.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.upsample_conv.1.bias": [
+      32
+    ],
+    "goal_decoder.upsample_conv.2.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.upsample_conv.2.bias": [
+      32
+    ],
+    "goal_decoder.upsample_conv.3.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.upsample_conv.3.bias": [
+      32
+    ],
+    "goal_decoder.upsample_conv.4.weight": [
+      16,
+      32,
+      3,
+      3
+    ],
+    "goal_decoder.upsample_conv.4.bias": [
+      16
+    ],
+    "goal_decoder.decoder.0.0.weight": [
+      64,
+      128,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.0.0.bias": [
+      64
+    ],
+    "goal_decoder.decoder.0.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.0.2.bias": [
+      64
+    ],
+    "goal_decoder.decoder.1.0.weight": [
+      64,
+      96,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.1.0.bias": [
+      64
+    ],
+    "goal_decoder.decoder.1.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.1.2.bias": [
+      64
+    ],
+    "goal_decoder.decoder.2.0.weight": [
+      64,
+      96,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.2.0.bias": [
+      64
+    ],
+    "goal_decoder.decoder.2.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.2.2.bias": [
+      64
+    ],
+    "goal_decoder.decoder.3.0.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.3.0.bias": [
+      32
+    ],
+    "goal_decoder.decoder.3.2.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.3.2.bias": [
+      32
+    ],
+    "goal_decoder.decoder.4.0.weight": [
+      32,
+      48,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.4.0.bias": [
+      32
+    ],
+    "goal_decoder.decoder.4.2.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "goal_decoder.decoder.4.2.bias": [
+      32
+    ],
+    "goal_decoder.predictor.weight": [
+      12,
+      32,
+      1,
+      1
+    ],
+    "goal_decoder.predictor.bias": [
+      12
+    ],
+    "traj_decoder.center.0.weight": [
+      130,
+      65,
+      3,
+      3
+    ],
+    "traj_decoder.center.0.bias": [
+      130
+    ],
+    "traj_decoder.center.2.weight": [
+      130,
+      130,
+      3,
+      3
+    ],
+    "traj_decoder.center.2.bias": [
+      130
+    ],
+    "traj_decoder.upsample_conv.0.weight": [
+      65,
+      130,
+      3,
+      3
+    ],
+    "traj_decoder.upsample_conv.0.bias": [
+      65
+    ],
+    "traj_decoder.upsample_conv.1.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.upsample_conv.1.bias": [
+      32
+    ],
+    "traj_decoder.upsample_conv.2.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.upsample_conv.2.bias": [
+      32
+    ],
+    "traj_decoder.upsample_conv.3.weight": [
+      32,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.upsample_conv.3.bias": [
+      32
+    ],
+    "traj_decoder.upsample_conv.4.weight": [
+      16,
+      32,
+      3,
+      3
+    ],
+    "traj_decoder.upsample_conv.4.bias": [
+      16
+    ],
+    "traj_decoder.decoder.0.0.weight": [
+      64,
+      130,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.0.0.bias": [
+      64
+    ],
+    "traj_decoder.decoder.0.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.0.2.bias": [
+      64
+    ],
+    "traj_decoder.decoder.1.0.weight": [
+      64,
+      97,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.1.0.bias": [
+      64
+    ],
+    "traj_decoder.decoder.1.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.1.2.bias": [
+      64
+    ],
+    "traj_decoder.decoder.2.0.weight": [
+      64,
+      97,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.2.0.bias": [
+      64
+    ],
+    "traj_decoder.decoder.2.2.weight": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.2.2.bias": [
+      64
+    ],
+    "traj_decoder.decoder.3.0.weight": [
+      32,
+      65,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.3.0.bias": [
+      32
+    ],
+    "traj_decoder.decoder.3.2.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.3.2.bias": [
+      32
+    ],
+    "traj_decoder.decoder.4.0.weight": [
+      32,
+      49,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.4.0.bias": [
+      32
+    ],
+    "traj_decoder.decoder.4.2.weight": [
+      32,
+      32,
+      3,
+      3
+    ],
+    "traj_decoder.decoder.4.2.bias": [
+      32
+    ],
+    "traj_decoder.predictor.weight": [
+      12,
+      32,
+      1,
+      1
+    ],
+    "traj_decoder.predictor.bias": [
+      12
+    ]
+  },
+  "status": "REAL_TRAIN_INPUT_PIPELINE_PASS; NOT official benchmark performance reproduction",
+  "weights_unchanged": true,
+  "gpu_peak_allocated": 423427584,
+  "gpu_peak_reserved": 562036736,
+  "GPU_card_state": "NVIDIA GeForce RTX 3080, 10240 MiB, 1108 MiB",
+  "wall_seconds": 6.3710163040000225
+}

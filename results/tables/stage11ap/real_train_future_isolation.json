@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scene": "bookstore_0",
+  "meta_id": 0,
+  "future_only_mutation": true,
+  "future_values_sent_to_model": false,
+  "first_and_second_goals_identical": true,
+  "first_and_second_K20_paths_identical": true,
+  "max_abs_prediction_difference": 0.0,
+  "weights_unchanged": true,
+  "optimizer_updates": 0,
+  "future_mutation_used_for_metrics": false,
+  "torch_seed": 113,
+  "numpy_seed": 113,
+  "wall_seconds": 3.5410643279999476
+}

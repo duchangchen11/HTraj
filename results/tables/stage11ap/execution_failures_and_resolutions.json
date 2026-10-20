@@ -1,0 +1,47 @@
+[
+  {
+    "stage": "download_tool_install",
+    "error": "Default Tsinghua PyPI mirror TLS UNEXPECTED_EOF_WHILE_READING",
+    "resolution": "Installed from official PyPI into new venv; prior log retained"
+  },
+  {
+    "stage": "initial_download_form_inspection",
+    "error": "ModuleNotFoundError: No module named 'bs4' in old stage8 interpreter",
+    "resolution": "Downloader uses stdlib HTMLParser; new isolated gdown env contains bs4; no old packages changed"
+  },
+  {
+    "stage": "download",
+    "error": "Turn interrupted with 203423744 partial bytes; process no longer running on resume",
+    "resolution": "Single explicit HTTP206 byte resume; final ZIP CRC and SHA checked"
+  },
+  {
+    "stage": "CINet_api",
+    "error": "HTTP403 GitHub API rate limit exceeded",
+    "resolution": "git ls-remote + partial git tree; no API retry loop"
+  },
+  {
+    "stage": "CINet_code_selection",
+    "error": "Initial .txt filter included a few raw data files; stopped on source-size assertion",
+    "resolution": "Excluded all data/output paths, read small code only. Extra data never parsed for predictions/metrics, cached failure preserved"
+  },
+  {
+    "stage": "development_split_constructor",
+    "error": "Assertion for source site with only one training video (coupa_3)",
+    "resolution": "Deterministic rule now explicitly requires at least2 videos to hold one out. No error-based selection; initial failure retained"
+  },
+  {
+    "stage": "runtime_inventory",
+    "error": "timm0.1.20 import ModuleNotFoundError: No module named 'torch._six'",
+    "resolution": "Unused ResNet101 branch does not import timm. Recorded as unpassed optional branch; no arbitrary shim or different backbone"
+  },
+  {
+    "stage": "legacy_checkpoint",
+    "error": "weights_only=True: Only persistent_load of storage is allowed, but got module",
+    "resolution": "Verified author checkpoint only: restricted allowlist unpickler; full predictor state remains weights_only=True, strict=True"
+  },
+  {
+    "stage": "checkpoint_libraries",
+    "error": "12 of17 serialized library class sources differ",
+    "resolution": "Full static source diffs and warnings saved. Functional admission only; historical floating-point equivalence unverified"
+  }
+]

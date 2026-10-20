@@ -1,0 +1,30 @@
+Collecting segmentation-models-pytorch==0.1.0
+  Downloading segmentation_models_pytorch-0.1.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.6/42.6 kB 365.7 kB/s eta 0:00:00
+Collecting pretrainedmodels==0.7.4
+  Downloading pretrainedmodels-0.7.4.tar.gz (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 kB 127.0 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting efficientnet-pytorch==0.6.3
+  Downloading efficientnet_pytorch-0.6.3.tar.gz (16 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting timm==0.1.20
+  Downloading timm-0.1.20-py3-none-any.whl (161 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 161.2/161.2 kB 1.5 MB/s eta 0:00:00
+Building wheels for collected packages: pretrainedmodels, efficientnet-pytorch
+  Building wheel for pretrainedmodels (setup.py): started
+  Building wheel for pretrainedmodels (setup.py): finished with status 'done'
+  Created wheel for pretrainedmodels: filename=pretrainedmodels-0.7.4-py3-none-any.whl size=60992 sha256=97f9e2fd7d73e0ee3415b1118a0e0effa4953a668e873f8d05df688b459a67da
+  Stored in directory: /home/lrj/.cache/pip/wheels/35/cb/a5/8f534c60142835bfc889f9a482e4a67e0b817032d9c6883b64
+  Building wheel for efficientnet-pytorch (setup.py): started
+  Building wheel for efficientnet-pytorch (setup.py): finished with status 'done'
+  Created wheel for efficientnet-pytorch: filename=efficientnet_pytorch-0.6.3-py3-none-any.whl size=12454 sha256=68e2ae05e046ff173b20686f6248fcdde207948e3222dcff0dfb6fbe9affb824
+  Stored in directory: /home/lrj/.cache/pip/wheels/61/3a/b0/0b4c443c380bd934701b0a25e4aed76479e4fcaf1a6f955664
+Successfully built pretrainedmodels efficientnet-pytorch
+Installing collected packages: pretrainedmodels, timm, segmentation-models-pytorch, efficientnet-pytorch
+Successfully installed efficientnet-pytorch-0.6.3 pretrainedmodels-0.7.4 segmentation-models-pytorch-0.1.0 timm-0.1.20
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.1
+[notice] To update, run: /home/lrj/HTraj/experiments/stage11ap/cache/venv/bin/python -m pip install --upgrade pip

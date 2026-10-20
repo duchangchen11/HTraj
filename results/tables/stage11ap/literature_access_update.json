@@ -1,0 +1,273 @@
+{
+  "workflow": "multi-source-search",
+  "academic_MCP_available": false,
+  "primary_metadata_then_OA": true,
+  "attempts": [
+    {
+      "paper": "CINet2025",
+      "doi": "10.1109/TMM.2025.3542967",
+      "service": "crossref",
+      "url": "https://api.crossref.org/works/10.1109/TMM.2025.3542967",
+      "status": null,
+      "bytes": 9154,
+      "response_sha256": "7b9d18cb5f58d0b4bb985c16e87d6ebec69cd89f0f9dce2f1a54e215a7dde9b5",
+      "full_text_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/6046/10844992/10899874.pdf?arnumber=10899874",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "paper": "CINet2025",
+      "doi": "10.1109/TMM.2025.3542967",
+      "service": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1109/TMM.2025.3542967",
+      "status": null,
+      "bytes": 16065,
+      "response_sha256": "725e3d7422ebc38ea2a816780af5f636a325dd021579b1dce06c74ee3e3bb6b1",
+      "locations": [
+        {
+          "id": "doi:10.1109/tmm.2025.3542967",
+          "doi": "https://doi.org/10.1109/tmm.2025.3542967",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tmm.2025.3542967",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S137030581",
+            "display_name": "IEEE Transactions on Multimedia",
+            "issn_l": "1520-9210",
+            "issn": [
+              "1520-9210",
+              "1941-0077"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "ccf-a",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Multimedia",
+          "raw_type": "journal-article"
+        }
+      ]
+    },
+    {
+      "paper": "CINet2025",
+      "doi": "10.1109/TMM.2025.3542967",
+      "service": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/TMM.2025.3542967?fields=title,year,openAccessPdf,url,externalIds",
+      "status": null,
+      "bytes": 416,
+      "response_sha256": "04b8787e3b140d3f2130e7acb2dda7d8f859f3d75c6905bc07c45c0441d50db0",
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null
+      }
+    },
+    {
+      "paper": "McTrans2026",
+      "doi": "10.1016/j.jvcir.2026.104723",
+      "service": "crossref",
+      "url": "https://api.crossref.org/works/10.1016/j.jvcir.2026.104723",
+      "status": null,
+      "bytes": 31761,
+      "response_sha256": "68cfc3c85c45bfc4bdc915b9f3cf4014caadb63f42431d78fd5b9ad491277246",
+      "full_text_links": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1047320326000180?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1047320326000180?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "paper": "McTrans2026",
+      "doi": "10.1016/j.jvcir.2026.104723",
+      "service": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jvcir.2026.104723",
+      "status": null,
+      "bytes": 15838,
+      "response_sha256": "57c8fb2aded933d91a14c34f75207e305946548686910b125c22dc7a245bcd82",
+      "locations": [
+        {
+          "id": "doi:10.1016/j.jvcir.2026.104723",
+          "doi": "https://doi.org/10.1016/j.jvcir.2026.104723",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.jvcir.2026.104723",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S105424869",
+            "display_name": "Journal of Visual Communication and Image Representation",
+            "issn_l": "1047-3203",
+            "issn": [
+              "1047-3203",
+              "1095-9076"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "ccf-c",
+              "cwts-core",
+              "dongbi-c",
+              "jufo-2",
+              "norway-2",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Visual Communication and Image Representation",
+          "raw_type": "journal-article"
+        }
+      ]
+    },
+    {
+      "paper": "McTrans2026",
+      "doi": "10.1016/j.jvcir.2026.104723",
+      "service": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jvcir.2026.104723?fields=title,year,openAccessPdf,url,externalIds",
+      "status": null,
+      "bytes": 411,
+      "response_sha256": "342c2c35ff79dd7850123d674e07b47994f2feb59e993ce6f7190620309bb76c",
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      }
+    },
+    {
+      "paper": "GDS_TGTF2026",
+      "doi": "10.1016/j.eswa.2026.134731",
+      "service": "crossref",
+      "url": "https://api.crossref.org/works/10.1016/j.eswa.2026.134731",
+      "status": null,
+      "bytes": 0,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error_type": "JSONDecodeError",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "paper": "GDS_TGTF2026",
+      "doi": "10.1016/j.eswa.2026.134731",
+      "service": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.eswa.2026.134731",
+      "status": null,
+      "bytes": 15859,
+      "response_sha256": "d7a7c3c97bed43e794375a467218129d54076dd836fe19de65afa8e506a27337",
+      "locations": [
+        {
+          "id": "doi:10.1016/j.eswa.2026.134731",
+          "doi": "https://doi.org/10.1016/j.eswa.2026.134731",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.eswa.2026.134731",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S13144211",
+            "display_name": "Expert Systems with Applications",
+            "issn_l": "0957-4174",
+            "issn": [
+              "0957-4174",
+              "1873-6793"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-class-a",
+              "anvur-scientific",
+              "ccf-c",
+              "cwts-core",
+              "dongbi-c",
+              "doyens",
+              "fnege-3",
+              "jufo-2",
+              "ki-jl-2",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Expert Systems with Applications",
+          "raw_type": "journal-article"
+        }
+      ]
+    },
+    {
+      "paper": "GDS_TGTF2026",
+      "doi": "10.1016/j.eswa.2026.134731",
+      "service": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.eswa.2026.134731?fields=title,year,openAccessPdf,url,externalIds",
+      "status": null,
+      "bytes": 410,
+      "response_sha256": "a254c61bd0e9e29b21053b4917e03e5b5e2fb633607c2397fbf93eb9e96e41d0",
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null
+      }
+    }
+  ]
+}

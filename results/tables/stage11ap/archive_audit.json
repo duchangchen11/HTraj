@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "3e4aa09c900c729711c37eb6e82f0eedf354798f70d67bbd3d6b444ba62fbc11",
+  "members": 220,
+  "uncompressed_bytes": 1213536694,
+  "path_safety": true,
+  "abnormal_compression": false,
+  "extraction_policy": "Only named config, model, image and trajectory data assets; never execute scripts or unpickle during extraction",
+  "extracted": 151,
+  "skipped": []
+}

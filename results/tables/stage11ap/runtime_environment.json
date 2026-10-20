@@ -1,0 +1,65 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "executable": "/home/lrj/HTraj/experiments/stage11ap/cache/venv/bin/python",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": {
+      "version": "2.5.1+cu124",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/__init__.py",
+      "import_passed": true
+    },
+    "torchvision": {
+      "version": "0.20.1+cu124",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torchvision/__init__.py",
+      "import_passed": true
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/numpy/__init__.py",
+      "import_passed": true
+    },
+    "pandas": {
+      "version": "2.2.3",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/pandas/__init__.py",
+      "import_passed": true
+    },
+    "yaml": {
+      "version": "6.0.2",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/yaml/__init__.py",
+      "import_passed": true
+    },
+    "cv2": {
+      "version": "4.11.0",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/cv2/__init__.py",
+      "import_passed": true
+    },
+    "scipy": {
+      "version": "1.14.1",
+      "file": "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/scipy/__init__.py",
+      "import_passed": true
+    },
+    "segmentation_models_pytorch": {
+      "version": "0.1.0",
+      "file": "/home/lrj/HTraj/experiments/stage11ap/cache/venv/lib/python3.10/site-packages/segmentation_models_pytorch/__init__.py",
+      "import_passed": true
+    },
+    "timm": {
+      "import_passed": false,
+      "error": "No module named 'torch._six'",
+      "chosen_ResNet_branch_uses_this_package": false
+    },
+    "pretrainedmodels": {
+      "version": "0.7.4",
+      "file": "/home/lrj/HTraj/experiments/stage11ap/cache/venv/lib/python3.10/site-packages/pretrainedmodels/__init__.py",
+      "import_passed": true
+    },
+    "efficientnet_pytorch": {
+      "version": "0.6.3",
+      "file": "/home/lrj/HTraj/experiments/stage11ap/cache/venv/lib/python3.10/site-packages/efficientnet_pytorch/__init__.py",
+      "import_passed": true
+    }
+  },
+  "isolation": "New venv packages; read-only .pth for existing Torch/numerics in stage4; no prior packages installed/modified",
+  "model_dependencies_install_log": "experiments/stage11ap/cache/model_dependencies_install.txt",
+  "dependency_compatibility": "SMP0.1.0 matches pinned official requirement; Torch remains2.5.1. Historical cross-version numerical equivalence not proven"
+}

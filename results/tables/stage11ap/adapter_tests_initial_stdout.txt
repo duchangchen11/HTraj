@@ -1,0 +1,3 @@
+................                                                         [100%]
+- generated xml file: /home/lrj/HTraj/results/tables/stage11ap/adapter_tests_initial.xml -
+16 passed in 1.49s
