@@ -1,0 +1,108 @@
+{
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "freeze_commit": "5ace29112eb97e37f6720f62e3f3088de4886d23",
+  "train_config_SHA": "b617f37c3f2c1109b34adb5f0b258e53246486b62ddf03e6e1d40c17129feba7",
+  "evaluation_config_SHA": "1ca1730e1222506bcf80f2d2a8ffbcd2e106a228849acf39713aa2fe1af2e00f",
+  "budget_config_SHA": "4f5b315fa5b02d64d6ebfac3e19e645ad8b189cb8ba044f4ec8e5a056d81ed8a",
+  "sampler_protocol_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "data_manifest_SHA": {
+    "train": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+    "validation": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "source_manifest_SHA": "71d36755136cd8abf317b7077e3de9899ac03ad0f519c5a1490b0e3b36afbb12",
+  "executable_files": [
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1c/__init__.py",
+      "sha256": "ca080468736bfc0c6330dea02c514f304774342f76783763f1ad24a29ec55af6"
+    },
+    {
+      "path": "scripts/stage11b1c/common.py",
+      "sha256": "f60792b806f0986762004a0bda6edf054371b044b2133f04ceaca0f8e8096431"
+    },
+    {
+      "path": "scripts/stage11b1c/data.py",
+      "sha256": "dfea0a8d524050599343b86a6135122282a34044ba32cc5427d968c16fb698da"
+    },
+    {
+      "path": "scripts/stage11b1c/engine.py",
+      "sha256": "8ef0df0495c61b3099d628748e961a5a8aa02d8206370c96af9e541925dffea2"
+    },
+    {
+      "path": "scripts/stage11b1c/freeze.py",
+      "sha256": "632629461cbee80fb97b1b427673c662f5ab09ff0d6969070ac9b0c3792485ae"
+    },
+    {
+      "path": "scripts/stage11b1c/freeze_run.py",
+      "sha256": "2c16ec583d363f5ef5e5cf028563fc0ceeb74240aeed7e7c998bed0c007bc040"
+    },
+    {
+      "path": "scripts/stage11b1c/launch.py",
+      "sha256": "ba45e8b0c49c7da288281d336d82d0de7aae9c513111d9dfd78b0cdce39a174f"
+    },
+    {
+      "path": "scripts/stage11b1c/plot_results.py",
+      "sha256": "2ecc457ca77260f13567587b8fec756c70ead33b716c0238863870d1580c22e2"
+    },
+    {
+      "path": "scripts/stage11b1c/preflight.py",
+      "sha256": "b9e30943ab040b0372621a775aa7652aa2577d6e1f264ff3ecee7a67dc0fd71c"
+    },
+    {
+      "path": "scripts/stage11b1c/protect.py",
+      "sha256": "cd994301523db69c91f2c0a33f1324584dc3ea528d167ea1195a7a75c2057993"
+    },
+    {
+      "path": "scripts/stage11b1c/summarize.py",
+      "sha256": "154f435acde234a2489e5ce0d7820556f64c08175ec40c7482f5f7499cfff700"
+    },
+    {
+      "path": "scripts/stage11b1c/tests/test_integration.py",
+      "sha256": "56c13e9e8aa3f4c27a33ec10535a42faa333a9c49ab4f5fcc0946e91afc0c88e"
+    },
+    {
+      "path": "scripts/stage11b1c/train.py",
+      "sha256": "aac3a72d2f1632e100a9ec276e93f3fd6dd72b6ef7aeedaffe8c9c331bc4539a"
+    },
+    {
+      "path": "scripts/stage11b1c/validate.py",
+      "sha256": "e2e421774e6cc89b7e3e378d32309d214247f5f568cc26bc03729e3a904f5808"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    }
+  ],
+  "new_integration_GPU_gate_passed": true,
+  "training_approved": true,
+  "validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "code_not_tuned_to_validation_results": true,
+  "Python": "3.10.21",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.2",
+    "segmentation-models-pytorch": "0.1.0"
+  }
+}

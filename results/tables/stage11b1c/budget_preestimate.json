@@ -1,0 +1,13 @@
+{
+  "reference_training_epoch_seconds": 453.825087123,
+  "reference_K20_target_seconds": 0.5178994235004211,
+  "point_total_seconds": 18212.765140605337,
+  "planning_high_seconds": 24195.048023221723,
+  "already_used_GPU_seconds": 18.162617084002704,
+  "fit_30_epochs_and7_validations": true,
+  "assumptions": "Prior one full epoch; prior fixed20 target K20;10percent validation overhead; high case1.3training/1.25P90 validation+900s reserve",
+  "hard_seconds": 28800,
+  "safety_seconds": 27000,
+  "measured_new_training_epoch": false,
+  "measured_new_validation998": false
+}

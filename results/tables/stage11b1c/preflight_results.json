@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "formal_training": false,
+  "validation_or_test_metrics": false,
+  "random_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "loss_finite": true,
+  "backward": true,
+  "optimizer_step": true,
+  "segmentation_unchanged": true,
+  "teacher_forcing_checked": true,
+  "strict_checkpoint_restore_and_next_update_exact": true,
+  "K20_shared_validation_entry": true,
+  "K20_repeat_order_cache_bitwise": true,
+  "future_GT_counterfactual_bitwise": true,
+  "shape": [
+    20,
+    2,
+    12,
+    2
+  ],
+  "original_pixel_restoration": "Immutable Stage11B-1R /0.25; integrated synthetic formula test also required",
+  "preflight_checkpoint": {
+    "path": "experiments/stage11b1c/cache/checkpoints/preflight_after1.pt",
+    "sha256": "f99e73ad04b3a09936bba566fd684a1026b07eb893784bac097c429869ed6e27",
+    "bytes": 226574126,
+    "save_and_hash_seconds": 0.7105917330009106
+  },
+  "temporary_updates": 3,
+  "formal_model_uses_none_of_these_weights": true,
+  "GPU_cumulative_seconds": 17.38935345400023
+}

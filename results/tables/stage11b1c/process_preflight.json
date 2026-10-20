@@ -1,0 +1,10 @@
+{
+  "worker": "preflight",
+  "started_commit": "5ace29112eb97e37f6720f62e3f3088de4886d23",
+  "returncode": 0,
+  "wall_seconds": 18.162617084002704,
+  "prior_seconds": 0,
+  "cumulative_seconds": 18.162617084002704,
+  "hard_seconds": 28800,
+  "interpretation": "Whole GPU worker process wall, including import/load/save; final CPU-only reporting excluded"
+}
