@@ -1,0 +1,66 @@
+{
+  "stage": "Stage11B-1",
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "base_commit": "620532a2b70f6cc8c6a26f9b0e37ad57565763e9",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "seed": 17,
+  "history": 8,
+  "future": 12,
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "target_batch_size": 4,
+  "scene_batch_size": 1,
+  "max_epochs": 30,
+  "augmentation": false,
+  "resize": 0.25,
+  "waypoints": [
+    11
+  ],
+  "loss_scale": 1000,
+  "goal_loss": "Original mean BCE x1000",
+  "path_loss": "Original mean BCE x1000",
+  "teacher_forcing": "Training GT waypoint only",
+  "predictor_initialization": "Random seed17; no author/smoke/previous checkpoint",
+  "segmentation_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "segmentation_mode": "eval",
+  "segmentation_requires_grad": false,
+  "segmentation_BN_frozen": true,
+  "AMP": false,
+  "gradient_clipping": null,
+  "scheduler": null,
+  "deterministic_algorithms": true,
+  "TF32": false,
+  "scene_order": "Independent torch.Generator seed17+epoch-1; randperm of sorted25 recordings",
+  "within_scene_order": "Original source order; each target once",
+  "validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "best": "Lowest completed validation window-weighted minADE20; earlier exact tie",
+  "GPU_budget_seconds": 28800,
+  "safety_stop_seconds": 27000,
+  "on_preestimate_over_budget": "STOP BEFORE FORMAL TRAINING; request new budget",
+  "on_error": "Stop run and preserve failure/checkpoint; no hyperparameter retry",
+  "artifacts": {
+    "train": {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+      "targets": 7496,
+      "recordings": 25,
+      "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    "validation": {
+      "path": "experiments/stage11b1/cache/validation_only.pkl",
+      "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+      "targets": 998,
+      "recordings": 5,
+      "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  }
+}

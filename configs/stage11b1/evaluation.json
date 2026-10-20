@@ -1,0 +1,62 @@
+{
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "K": 20,
+  "TTST": true,
+  "TTST_proposals": 10000,
+  "temperature": 1.0,
+  "rel_threshold": 0.01,
+  "CWS": false,
+  "Ke": 20,
+  "Ka": 1,
+  "kmeans": {
+    "clusters": 19,
+    "tol": 0.001,
+    "iter_limit": 1000,
+    "function": "Unmodified author function"
+  },
+  "first_goal": "Softargmax goal; other19 original kmeans centers",
+  "seed_rule": "uint32 big-endian first4 SHA256('HTraj-YNet-SDD-Development-v1:17:'+sample_id)",
+  "per_target_inference": true,
+  "GT_in_predictor": false,
+  "scoring": "Only after all998 predictions complete",
+  "units": "Original SDD reference pixels",
+  "ADE1_FDE1": "Same first decoded complete path",
+  "minADE20_minFDE20": "Independent full-path oracles",
+  "GoalFDE1_minGoalFDE20": "Sampled goal vs GT endpoint, separate from decoded endpoint",
+  "report_weighting": [
+    "Target-window weighted",
+    "Five recordings equally weighted",
+    "Per recording"
+  ],
+  "exclude_bad_error_targets": false,
+  "test_evaluation": false,
+  "qualitative_selection": {
+    "low": "minADE20 nearest order-statistic quantiles .05,.10,.15",
+    "high": "minADE20 quantiles .85,.90,.95",
+    "large_goal": "minGoalFDE20 quantiles .85,.90,.95",
+    "rounding": "floor(q*(N-1)), stable sample_id tie order",
+    "allow_overlap": true,
+    "checkpoint": "Single best complete validation checkpoint",
+    "GT_used_only": "Offline metric and drawing"
+  },
+  "motion_baselines": [
+    "CV-Last2",
+    "OLS4",
+    "OLS8"
+  ],
+  "CV_comparison": "K1 compared to YNet ADE1/FDE1; K20 separately labeled different candidate budget",
+  "figure_contract": {
+    "conclusion": "Describe actual training evolution and representative errors; no claim before evidence",
+    "backend": "python",
+    "archetypes": [
+      "quantitative grid",
+      "image plate + quant"
+    ],
+    "outputs": [
+      "PNG",
+      "SVG"
+    ],
+    "integrity": "No interpolated epochs, no coordinate edits; IDs/checkpoint/SHA/units shown"
+  }
+}

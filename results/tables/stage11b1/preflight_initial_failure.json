@@ -1,0 +1,4 @@
+{
+  "cause": "Unrelated ROS pytest plugin auto-discovery imports missing lark",
+  "solution": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1, same isolated test selection; no model/environment modification"
+}

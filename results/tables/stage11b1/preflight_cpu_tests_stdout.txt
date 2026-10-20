@@ -1,0 +1,3 @@
+....                                                                     [100%]
+- generated xml file: /home/lrj/HTraj/results/tables/stage11b1/preflight_cpu_tests.xml -
+4 passed in 1.76s
