@@ -1,0 +1,11 @@
+item,passed,evidence
+A 数据身份与时间,True,SPLIT_IDENTITY_PASS；录像ID级支持隔离，不等于未知地点
+B 原损失正确性,True,原两个BCE×1000，teacher forcing只在训练
+C 随机预测核心更新,True,未加载作者预测权重，encoder/goal/path变化
+D 真实反向,True,真实训练批次loss/梯度有限
+E 完整遍历,True,"全部7,496目标一次，非26scene cap"
+F 预算,True,10GB batch4实测；正式多轮未批准
+G 语义类别映射,False,SEMANTIC_CLASS_MAPPING_UNVERIFIED
+H 分割预训练曝光,False,作者声明train-only已取得；当前权重成员/新val曝光未核实
+I 正式协议冻结,False,候选仍NOT_READY，训练预算/选模待批准
+J 独立创新,False,没有新算法或独立性能证据

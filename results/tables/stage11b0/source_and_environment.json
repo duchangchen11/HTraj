@@ -1,0 +1,97 @@
+{
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "training_source_commit": "6166eb7e220ea2fbdb9394b50e1ea7714057d504",
+  "official_files": [
+    {
+      "path": "ynet/README.md",
+      "sha256": "d2fdff1958910cbda04bae260e59533ff1b019a2d67756f749c908b4dda957da",
+      "bytes": 4092
+    },
+    {
+      "path": "ynet/evaluate_SDD_longterm.ipynb",
+      "sha256": "348d8692398eb9db906ca00a82b9434d0e0024a60dde94b41230effcda5046be",
+      "bytes": 10246
+    },
+    {
+      "path": "ynet/evaluate_SDD_trajnet.ipynb",
+      "sha256": "b11a964a148f0e59548abf9bf0ac971284d054f1ecaddb0eff0d3eb018dec845",
+      "bytes": 9120
+    },
+    {
+      "path": "ynet/evaluate_inD_longterm.ipynb",
+      "sha256": "9267ebf1835597cfbe1317f7456ff5e0e1e1f2edf2913fb0e09fb6182dafa273",
+      "bytes": 10734
+    },
+    {
+      "path": "ynet/model.py",
+      "sha256": "f905b1941673459747cbb0bc4bd0ebdee0335d3a49fa1d52530b54c442624d61",
+      "bytes": 17455
+    },
+    {
+      "path": "ynet/requirements.txt",
+      "sha256": "70d1356b357298780293f1f647858412fdca350f3eee1939d09c6d26ebf289f7",
+      "bytes": 207
+    },
+    {
+      "path": "ynet/test.py",
+      "sha256": "c43c426e2a5ee62e350232e78e378bd797f55a036896582d5ee666a115eff5b7",
+      "bytes": 10056
+    },
+    {
+      "path": "ynet/train.py",
+      "sha256": "af19bdfe40d53a7fab0f0d77273902738233d63642dad73b8d5f595a56f4831a",
+      "bytes": 4840
+    },
+    {
+      "path": "ynet/train_SDD_longterm.ipynb",
+      "sha256": "abb83ac98e1e14f813c8d02136b95381603fff5e839c4ebbeb07e6863dbf894b",
+      "bytes": 3945
+    },
+    {
+      "path": "ynet/train_SDD_trajnet.ipynb",
+      "sha256": "4ffd9a8ac079bc06f7b5ba0ef119fea6e274c26776fd2e29f9aa7adb2536826f",
+      "bytes": 3941
+    },
+    {
+      "path": "ynet/train_inD_longterm.ipynb",
+      "sha256": "e00d63591863024d53175f12d312aa09974c81f1a38a388a5575b1d57fc0d963",
+      "bytes": 4035
+    },
+    {
+      "path": "ynet/utils/dataloader.py",
+      "sha256": "bbce6b96259db1b077e76e7bf72a35c4fd4c185273dfbec73dad66cdcc6ed002",
+      "bytes": 1563
+    },
+    {
+      "path": "ynet/utils/image_utils.py",
+      "sha256": "a9b4c286723a03df622f41692c410edf079fb582ffa1274a5102f3af2742360a",
+      "bytes": 5533
+    },
+    {
+      "path": "ynet/utils/kmeans.py",
+      "sha256": "ef76c293d3ffd9dcebc239f1975a6b987f358966e7b3bdf8c97746f28d4abc2a",
+      "bytes": 5194
+    },
+    {
+      "path": "ynet/utils/preprocessing.py",
+      "sha256": "022dc8c2b910fc19cebbf55feb7ea0d8c79d88f056e0a168452ad1681b70d390",
+      "bytes": 19190
+    },
+    {
+      "path": "ynet/utils/preprocessing_inD.py",
+      "sha256": "58e23ece302179150f69d7469acb56bd26dc0b43a39a81ce144d720add0975bf",
+      "bytes": 8868
+    },
+    {
+      "path": "ynet/utils/softargmax.py",
+      "sha256": "59fc91dc684f483089365108de49d68e807c6a4de4bba2139436ad0d7a99f881",
+      "bytes": 3244
+    }
+  ],
+  "source_unchanged": true,
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "executable": "/home/lrj/HTraj/experiments/stage11ap/cache/venv/bin/python",
+  "segmentation_checkpoint_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "author_trajectory_weights_loaded_for_training": false,
+  "runtime_reused_read_only": "Stage11A+ isolated venv, no installs; modules copied to new stage namespace"
+}

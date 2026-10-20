@@ -1,0 +1,43 @@
+{
+  "status": "METRIC_FORMULAS_AND_CANDIDATE_RULES_FROZEN_ONLY",
+  "formal_training_selection_protocol": "PROPOSED_NOT_APPROVED",
+  "task": {
+    "history8": true,
+    "future12": true,
+    "step_seconds": 0.4,
+    "unit": "original SDD reference pixels"
+  },
+  "main_metrics": [
+    "ADE1 full path",
+    "FDE1 full-path endpoint",
+    "minADE20 full paths",
+    "minFDE20 full-path endpoints"
+  ],
+  "auxiliary_metrics": [
+    "GoalFDE1",
+    "minGoalFDE20",
+    "mean pairwise trajectory L2",
+    "mean pairwise endpoint L2"
+  ],
+  "K1": "First TTST candidate: predicted softargmax goal-conditioned decoded trajectory; not mathematical predictive mean",
+  "K20": {
+    "num_goals": 20,
+    "num_traj": 1,
+    "TTST": true,
+    "TTST_proposals": 10000,
+    "rel_threshold": 0.01,
+    "temperature": 1.0,
+    "CWS": false
+  },
+  "best_ADE_and_FDE_chosen_independently": true,
+  "GT_only_for_offline_error_oracle": true,
+  "GT_never_deployment_mode_selector": true,
+  "sampled_randomness": "Future planned stable sample_id SHA256-derived torch+NumPy seeds with base17; no GT-dependent subset selection",
+  "aggregate": "Same target set; window-weighted and scene-recording macro reported separately; no iid assumption for shared recordings or overlapping support",
+  "no_real_val_or_test_scores_in_stage11b0": true,
+  "scene_compliance": "Disabled until SDD-specific class, ignore and boundary rules are audited",
+  "future_model_selection_proposal": "Lowest source-train-only development validation minADE20, earliest epoch tie; paired FDE from same checkpoint; requires separate protocol/budget approval",
+  "checkpoint_budget": "No best checkpoint in this engineering stage; smoke and full-pass last/resume states only",
+  "different_Protocols_not_ranked": true,
+  "meters_not_claimed": true
+}

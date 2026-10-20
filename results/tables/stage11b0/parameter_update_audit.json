@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "segmentation_weights_and_buffers_exact": true,
+  "encoder_updated": true,
+  "goal_decoder_updated": true,
+  "path_decoder_updated": true,
+  "checkpoint_sha": "24fda7cb62a85910946cd7bb9524638450d6eb29931ecced19eac2f3bfc83c55",
+  "legacy_predictor_weights_loaded": false,
+  "CPU_only": true
+}

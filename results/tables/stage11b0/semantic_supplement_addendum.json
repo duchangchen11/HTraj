@@ -1,0 +1,36 @@
+{
+  "source_url": "https://www.openaccess.thecvf.com/content/ICCV2021/supplemental/Mangalam_From_Goals_Waypoints_ICCV_2021_supplemental.zip",
+  "PDF_path": "experiments/stage11b0/cache/supplement_02871-supp.pdf",
+  "PDF_SHA": "9d23d9dfbb56d65c6912ff0ff7abe2352c4dd11ab2b40e460039d3e2451a6b96",
+  "section": "4.1 Segmentation Model;4.2 Training, PDF page4",
+  "actual_read_scope": "Full4.1 and4.2 plus preprocessing2.1, no author trajectory metrics recomputed",
+  "primary_paper_assertions": {
+    "five_named_stuff_plus_dummy": true,
+    "dummy_purpose": "padding and black areas in inD dataset",
+    "segmentation_train_images": "Authors state corresponding trajectory train scenes only",
+    "imageNet_backbone": true,
+    "segmentation_loss": "Dice",
+    "segmentation_batch": 4,
+    "segmentation_lr": 0.0001,
+    "segmentation_lr_after1500": 1e-05,
+    "encoder_frozen_first_epochs": 200,
+    "trajectory_batch": 8,
+    "trajectory_lr": 0.0001,
+    "trajectory_augmentation_factor": 8,
+    "goal_path_BCE_weights": [
+      1,
+      1
+    ],
+    "overall_loss_scale": 1000,
+    "train_GT_goals_and_waypoints_teacher_forcing": true,
+    "inference_predicted_goal_and_waypoints": true
+  },
+  "distinctions": {
+    "method_level_no_test_segmentation_labels": "Author-stated; supported by paper",
+    "current_checkpoint_exact_training_membership": "SEGMENTATION_EXPOSURE_UNVERIFIED: no membership manifest/log binds those claims to this particular supplied file",
+    "new_HTraj_val": "Carved from original trajectory train scenes; semantic exposure remains possible under author stated pretraining",
+    "numeric_SDD_id_name_ignore": "SEMANTIC_CLASS_MAPPING_UNVERIFIED; dummy concept resolved but exact SDD mapping not specified",
+    "inD_table_not_treated_as_SDD_proof": true,
+    "class0_not_renamed_background": true
+  }
+}

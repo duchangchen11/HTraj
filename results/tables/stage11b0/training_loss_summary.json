@@ -1,0 +1,13 @@
+{
+  "weighted_mean_total": 27.827996931516882,
+  "weighted_mean_goal": 14.397479425242574,
+  "weighted_mean_path": 13.430517469952727,
+  "first50_mean_loss": 1026.0551323604584,
+  "last50_mean_loss": 0.0963302174554997,
+  "gradient_min": 0.1429891814900015,
+  "gradient_max": 6596.007370321314,
+  "gradient_p95": 21.33623375134742,
+  "all_losses_finite": true,
+  "no_convergence_claim": true,
+  "sparse_heatmap_BCE_decline_not_proof_of_localization_or_ADE_gain": true
+}

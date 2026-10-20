@@ -1,0 +1,14 @@
+{
+  "CPU_only": true,
+  "raw_targets": 7496,
+  "augmented_targets": 59968,
+  "raw_recordings": 25,
+  "augmented_scene_variants": 200,
+  "metadata_lengths20": true,
+  "image_and_trajectory_follow_original_transforms": true,
+  "target_batch4_steps": 15056,
+  "target_batch8_steps": 7568,
+  "GPU_augmented_training_executed": false,
+  "coordinate_convention": "Author uses W/2,H/2 continuous image-edge-centered transforms. At integer pixel-center indexing,90deg/flip can differ by1 pixel from W-1/H-1; original behavior preserved, not called exact pixel-center registration",
+  "transformed_outside_points_preserved": true
+}

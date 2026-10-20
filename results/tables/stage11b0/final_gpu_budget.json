@@ -1,0 +1,13 @@
+{
+  "limit_seconds": 3600,
+  "safe_close_rule_seconds": 3300,
+  "main_training_process_wall_seconds": 462.54099913400023,
+  "prior_preflight_all_attempts_wall_charge": 24.461,
+  "full_repository_tests_wall_charge": 24.092,
+  "conservative_total_charge_seconds": 511.0940000209997,
+  "training_GPU_event_span_sum_seconds": 447.3244070281982,
+  "budget_pass": true,
+  "budget_is_conservative_wall_upper_bound_not_pure_GPU_kernel_time": true,
+  "additional_augmented_GPU_training": false,
+  "CPU_post_audit": "CPU tensor/model comparison and image augmentation only, no extra CUDA tensor forward/backward"
+}

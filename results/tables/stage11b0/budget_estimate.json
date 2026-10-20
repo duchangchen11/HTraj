@@ -1,0 +1,95 @@
+{
+  "full_pass_completed": true,
+  "full_pass_targets": 7496,
+  "full_pass_steps": 1882,
+  "observed_full_pass_seconds": 453.82508712300023,
+  "all_train_steps_wall_sum": 446.13223497799754,
+  "all_train_GPU_event_span_seconds": 445.9084483184814,
+  "average_step_wall_seconds": 0.237052197119021,
+  "median_step_seconds": 0.25352892099999735,
+  "p90_step_seconds": 0.2887268750999282,
+  "p99_step_seconds": 0.31209656785987133,
+  "maximum_step_seconds": 0.3244576660003986,
+  "mean_excluding_first5_steps": 0.23693458786680724,
+  "total_loading_seconds": 0.5902082889992915,
+  "total_segmentation_seconds": 0.7578645549997407,
+  "allocated_peak_bytes": 2638485504,
+  "reserved_peak_bytes": 4919918592,
+  "checkpoint_bytes": 226575414,
+  "checkpoint_save_seconds": 0.6792405409996718,
+  "augmented_target_visits": 59968,
+  "augmented_steps": 15056,
+  "official_capped_epoch": "At most26 of200 augmented recording variants in this development pool; count depends on scene permutation/target counts. Not a complete epoch.",
+  "official_original_pool": "Original author30 recordings ->240 augmented variants; separate pool from this train-only25 recording subset",
+  "confidence": "One unaugmented full pass at seed17; no learning/validation convergence evidence, no direct augmented GPU measure",
+  "validation_TTST_evaluation_cost": "UNMEASURED; excluded from training estimates",
+  "checkpoint_storage_policy_suggestion": "Keep initial/last/best/periodic; original weights never overwritten",
+  "exclusion": "No author inference timings used for training extrapolation",
+  "estimates": [
+    {
+      "epochs": 30,
+      "unaugmented_training_only_hours": 3.7818757260250018,
+      "unaugmented_planning_range_hours": [
+        3.0255005808200015,
+        4.916438443832503
+      ],
+      "eightfold_augmented_linear_training_only_hours": 30.255005808200014,
+      "eightfold_augmented_planning_range_hours": [
+        24.204004646560012,
+        45.38250871230002
+      ],
+      "note": "Planning ranges are assumptions, not confidence intervals. Rotated padding/cache/thermal effects and later validation increase uncertainty."
+    },
+    {
+      "epochs": 50,
+      "unaugmented_training_only_hours": 6.30312621004167,
+      "unaugmented_planning_range_hours": [
+        5.042500968033337,
+        8.194064073054172
+      ],
+      "eightfold_augmented_linear_training_only_hours": 50.42500968033336,
+      "eightfold_augmented_planning_range_hours": [
+        40.34000774426669,
+        75.63751452050003
+      ],
+      "note": "Planning ranges are assumptions, not confidence intervals. Rotated padding/cache/thermal effects and later validation increase uncertainty."
+    },
+    {
+      "epochs": 100,
+      "unaugmented_training_only_hours": 12.60625242008334,
+      "unaugmented_planning_range_hours": [
+        10.085001936066673,
+        16.388128146108343
+      ],
+      "eightfold_augmented_linear_training_only_hours": 100.85001936066672,
+      "eightfold_augmented_planning_range_hours": [
+        80.68001548853339,
+        151.27502904100007
+      ],
+      "note": "Planning ranges are assumptions, not confidence intervals. Rotated padding/cache/thermal effects and later validation increase uncertainty."
+    },
+    {
+      "epochs": 300,
+      "unaugmented_training_only_hours": 37.81875726025002,
+      "unaugmented_planning_range_hours": [
+        30.255005808200014,
+        49.16438443832503
+      ],
+      "eightfold_augmented_linear_training_only_hours": 302.55005808200013,
+      "eightfold_augmented_planning_range_hours": [
+        242.0400464656001,
+        453.82508712300023
+      ],
+      "note": "Planning ranges are assumptions, not confidence intervals. Rotated padding/cache/thermal effects and later validation increase uncertainty."
+    }
+  ],
+  "26_scene_cap_target_range": [
+    224,
+    19400
+  ],
+  "26_scene_cap_step_range": [
+    66,
+    4860
+  ],
+  "26_scene_cap_expected_target_visits_under_uniform_scene_shuffle": 7795.84
+}

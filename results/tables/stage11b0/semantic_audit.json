@@ -1,0 +1,52 @@
+{
+  "primary_page": "https://openaccess.thecvf.com/content/ICCV2021/html/Mangalam_From_Goals_Waypoints__Paths_to_Long_Term_Human_Trajectory_ICCV_2021_paper.html",
+  "supplemental_link_verified_in_author_CVF_page": true,
+  "prior_canonical_ZIP_attempt": "SSLError UNEXPECTED_EOF_WHILE_READING; no verified PDF saved",
+  "attempts": [
+    {
+      "url": "https://www.openaccess.thecvf.com/content/ICCV2021/supplemental/Mangalam_From_Goals_Waypoints_ICCV_2021_supplemental.zip",
+      "status": 200,
+      "content_type": "application/zip",
+      "content_length": "10574905",
+      "bytes": 10574905,
+      "sha256": "d3af96037667f81f2fe3df08e197592c94e7f91e1329af9c12c70065ac133591",
+      "real_zip": true,
+      "members": [
+        {
+          "name": "supp_fig_2.gif",
+          "bytes": 2282801
+        },
+        {
+          "name": "02871-supp.pdf",
+          "bytes": 1689776
+        },
+        {
+          "name": "main_fig_7.gif",
+          "bytes": 6638939
+        }
+      ],
+      "extracted_PDF": {
+        "path": "experiments/stage11b0/cache/supplement_02871-supp.pdf",
+        "sha256": "9d23d9dfbb56d65c6912ff0ff7abe2352c4dd11ab2b40e460039d3e2451a6b96",
+        "bytes": 1689776
+      }
+    }
+  ],
+  "paper_SHA": "9bbb128c8c7d015c378aafd886f636da3abd1051c6ec073d3456d0da07465b7e",
+  "paper_read_scope": "Sections4.1/Implementation details: five named stuff, inD same class set, dataset-finetuned pretrained segmentation; ID/ignore/train-label membership not specified in these sections",
+  "masks_checked": 60,
+  "IDs_present": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "config_channels": 6,
+  "SDD_specific_mapping": "SEMANTIC_CLASS_MAPPING_UNVERIFIED",
+  "segmentation_pretraining": "SEGMENTATION_EXPOSURE_UNVERIFIED",
+  "inD_map_not_assumed_SDD_authority": true,
+  "class0_not_named_background": true,
+  "tree_terrain_not_assumed_obstacles": true,
+  "scope": "Train-only engineering with frozen author feature extractor allowed; no unseen-scene generalization claim"
+}

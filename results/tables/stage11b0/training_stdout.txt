@@ -1,0 +1,67 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+smoke step 1 bookstore_0 targets 1 loss 1376.5215 seconds 0.646 elapsed 4
+smoke step 2 bookstore_0 targets 4 loss 1375.405 seconds 0.24 elapsed 4
+smoke step 3 bookstore_0 targets 4 loss 1374.2484 seconds 0.183 elapsed 5
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+full_pass step 50 gates_1 targets 4 loss 4.2388 seconds 0.274 elapsed 19
+full_pass step 100 gates_3 targets 4 loss 1.2455 seconds 0.273 elapsed 33
+full_pass step 150 gates_3 targets 4 loss 0.8377 seconds 0.276 elapsed 47
+full_pass step 200 gates_8 targets 4 loss 0.2483 seconds 0.253 elapsed 61
+full_pass step 250 bookstore_3 targets 4 loss 0.4234 seconds 0.157 elapsed 71
+full_pass step 300 bookstore_3 targets 4 loss 0.4195 seconds 0.158 elapsed 79
+full_pass step 350 deathCircle_1 targets 4 loss 0.1352 seconds 0.24 elapsed 89
+full_pass step 400 deathCircle_1 targets 4 loss 0.153 seconds 0.24 elapsed 101
+full_pass step 450 deathCircle_1 targets 4 loss 0.1316 seconds 0.241 elapsed 113
+full_pass step 500 deathCircle_1 targets 4 loss 0.1398 seconds 0.24 elapsed 126
+full_pass step 550 nexus_9 targets 4 loss 0.1313 seconds 0.276 elapsed 139
+full_pass step 600 nexus_9 targets 4 loss 0.1118 seconds 0.285 elapsed 153
+full_pass step 650 deathCircle_0 targets 4 loss 0.0971 seconds 0.312 elapsed 168
+full_pass step 700 deathCircle_0 targets 4 loss 0.0918 seconds 0.311 elapsed 183
+full_pass step 750 deathCircle_0 targets 4 loss 0.1031 seconds 0.303 elapsed 199
+full_pass step 800 nexus_7 targets 4 loss 0.1094 seconds 0.288 elapsed 214
+full_pass step 850 nexus_7 targets 4 loss 0.1093 seconds 0.279 elapsed 228
+full_pass step 900 coupa_3 targets 4 loss 0.1488 seconds 0.215 elapsed 239
+full_pass step 950 coupa_3 targets 4 loss 0.1213 seconds 0.22 elapsed 250
+full_pass step 1000 coupa_3 targets 4 loss 0.1292 seconds 0.217 elapsed 261
+full_pass step 1050 bookstore_1 targets 4 loss 0.1801 seconds 0.179 elapsed 272
+full_pass step 1100 bookstore_1 targets 4 loss 0.1917 seconds 0.177 elapsed 281
+full_pass step 1150 bookstore_1 targets 4 loss 0.1554 seconds 0.173 elapsed 290
+full_pass step 1200 hyang_5 targets 4 loss 0.1063 seconds 0.278 elapsed 301
+full_pass step 1250 hyang_5 targets 4 loss 0.102 seconds 0.279 elapsed 316
+full_pass step 1300 bookstore_0 targets 4 loss 0.1744 seconds 0.178 elapsed 327
+full_pass step 1350 bookstore_0 targets 4 loss 0.1713 seconds 0.174 elapsed 336
+full_pass step 1400 bookstore_0 targets 4 loss 0.1578 seconds 0.172 elapsed 345
+full_pass step 1450 bookstore_0 targets 4 loss 0.1478 seconds 0.172 elapsed 354
+full_pass step 1500 nexus_0 targets 4 loss 0.1097 seconds 0.256 elapsed 364
+full_pass step 1550 nexus_8 targets 4 loss 0.1082 seconds 0.256 elapsed 378
+full_pass step 1600 nexus_8 targets 4 loss 0.1106 seconds 0.263 elapsed 391
+full_pass step 1650 hyang_6 targets 4 loss 0.2019 seconds 0.148 elapsed 399
+full_pass step 1700 gates_0 targets 4 loss 0.1098 seconds 0.256 elapsed 408
+full_pass step 1750 nexus_1 targets 4 loss 0.0982 seconds 0.278 elapsed 422
+full_pass step 1800 nexus_1 targets 4 loss 0.0934 seconds 0.28 elapsed 436
+full_pass step 1850 nexus_1 targets 4 loss 0.097 seconds 0.28 elapsed 450
+Finished: ENGINEERING_TRAINING_PASS steps 1887 GPU conservative seconds 487.002
