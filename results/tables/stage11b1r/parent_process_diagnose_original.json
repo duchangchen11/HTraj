@@ -1,0 +1,9 @@
+{
+  "worker": "diagnose_original",
+  "returncode": 0,
+  "wall_seconds": 11.342697390002286,
+  "cumulative_seconds": 11.342697390002286,
+  "hard_budget_seconds": 3600,
+  "stopped_before_seconds": 3300,
+  "code_commit": "b3d9cb5492cd93b54a819b1ab9a2edbe96cc347c"
+}

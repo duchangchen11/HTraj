@@ -1,0 +1,9 @@
+{
+  "worker": "run_checks",
+  "returncode": 0,
+  "wall_seconds": 65.72551250600009,
+  "cumulative_seconds": 77.06820989600237,
+  "hard_budget_seconds": 3600,
+  "stopped_before_seconds": 3300,
+  "code_commit": "2085d7bf581903850634025bbc378b686928008b"
+}

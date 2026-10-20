@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "strict_checkpoint_restore": true,
+  "targets": 3,
+  "all_probability_proposal_goal_path_SHA_equal": true,
+  "checkpoint_SHA": "282929604a9d6bc5721ca69430df5bf63e570a1bd37c89d5fbdcf3f1c98bce89",
+  "training_steps": 0,
+  "raw_pixel_restoration_independently_verified": true,
+  "interpretation": "Fresh interpreter on same hardware/library stack; not cross-version portability"
+}

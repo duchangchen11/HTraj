@@ -1,0 +1,47 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Primary 1 bookstore_0 CPU-sampler K20 0.4767 original 0.4748
+Primary 2 bookstore_1 CPU-sampler K20 0.4376 original 0.2837
+Primary 3 bookstore_3 CPU-sampler K20 0.9026 original 0.5639
+Primary 4 coupa_3 CPU-sampler K20 0.5219 original 0.4452
+Primary 5 deathCircle_0 CPU-sampler K20 0.5564 original 0.6597
+Primary 6 deathCircle_1 CPU-sampler K20 0.3774 original 0.3859
+Primary 7 deathCircle_2 CPU-sampler K20 0.6344 original 0.4647
+Primary 8 deathCircle_4 CPU-sampler K20 0.3894 original 0.5116
+Primary 9 gates_0 CPU-sampler K20 0.4858 original 0.5661
+Primary 10 gates_1 CPU-sampler K20 0.4466 original 0.359
+Primary 11 gates_3 CPU-sampler K20 0.4585 original 0.4835
+Primary 12 gates_4 CPU-sampler K20 0.5051 original 0.3607
+Primary 13 gates_5 CPU-sampler K20 0.4661 original 0.4257
+Primary 14 gates_6 CPU-sampler K20 0.5022 original 0.4158
+Primary 15 gates_8 CPU-sampler K20 0.4873 original 0.4342
+Primary 16 hyang_4 CPU-sampler K20 0.5714 original 0.6117
+Primary 17 hyang_5 CPU-sampler K20 0.5267 original 0.6585
+Primary 18 hyang_6 CPU-sampler K20 0.3917 original 0.4084
+Primary 19 hyang_9 CPU-sampler K20 0.678 original 0.4547
+Primary 20 nexus_0 CPU-sampler K20 0.5421 original 0.7851
+All real K20 checks bitwise PASS: 92

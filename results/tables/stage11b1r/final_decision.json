@@ -1,0 +1,21 @@
+{
+  "decision": "SAMPLER_ENGINEERING_GO",
+  "formal_training_authorized_by_this_stage": false,
+  "formal_training_started": false,
+  "repaired_sampler_bitwise_on_tested_stack": true,
+  "order_invariance": true,
+  "future_GT_counterfactual": true,
+  "cache_recompute": true,
+  "fresh_process": true,
+  "raw_pixel_restoration": true,
+  "distribution_sanity": true,
+  "CPU_GPU_sequences_identical_required": false,
+  "CPU_GPU_bitwise_claim": false,
+  "no_bitwise_claim_for_other_hardware_or_software": true,
+  "unit_tests": 561,
+  "history_unchanged": true,
+  "GPU_process_seconds": 88.17520837900156,
+  "conservative_charge_seconds": 126.67520837900156,
+  "no_new_prediction_performance_result": true,
+  "next_action": "Stop; subsequent training requires separate instruction/protocol freeze"
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "maps": [
+    {
+      "map": "uniform16x20",
+      "CPU_max_abs_frequency_error": 0.000808000000000017,
+      "GPU_max_abs_frequency_error": 0.0006120000000000153,
+      "CPU_GPU_max_abs_frequency_difference": 0.0012879999999999975,
+      "epsilon": 0.003528871310130436,
+      "CPU_GPU_tolerance": 0.007057742620260872,
+      "threshold_weights_bitwise_equal": true,
+      "nonzero_support_pass": true,
+      "passed": true
+    },
+    {
+      "map": "gradient16x20",
+      "CPU_max_abs_frequency_error": 0.001043168387952112,
+      "GPU_max_abs_frequency_error": 0.00045993968662761536,
+      "CPU_GPU_max_abs_frequency_difference": 0.0006680000000000019,
+      "epsilon": 0.003528871310130436,
+      "CPU_GPU_tolerance": 0.007057742620260872,
+      "threshold_weights_bitwise_equal": true,
+      "nonzero_support_pass": true,
+      "passed": true
+    },
+    {
+      "map": "sparse16x20",
+      "CPU_max_abs_frequency_error": 0.0006442492189931495,
+      "GPU_max_abs_frequency_error": 0.0008984984379862837,
+      "CPU_GPU_max_abs_frequency_difference": 0.0014780000000000001,
+      "epsilon": 0.003528871310130436,
+      "CPU_GPU_tolerance": 0.007057742620260872,
+      "threshold_weights_bitwise_equal": true,
+      "nonzero_support_pass": true,
+      "passed": true
+    },
+    {
+      "map": "first_real_train_goal_probability",
+      "CPU_max_abs_frequency_error": 0.0006726673953432738,
+      "GPU_max_abs_frequency_error": 0.00046056814776541943,
+      "CPU_GPU_max_abs_frequency_difference": 0.0007080000000000072,
+      "epsilon": 0.003528871310130436,
+      "CPU_GPU_tolerance": 0.007057742620260872,
+      "threshold_weights_bitwise_equal": true,
+      "nonzero_support_pass": true,
+      "passed": true
+    }
+  ],
+  "formula": "epsilon=sqrt(log(2*128/0.001)/(2*500000)); each device-to-expected<=epsilon; CPU-to-GPU<=2*epsilon",
+  "epsilon": 0.003528871310130436,
+  "familywise_alpha": 0.001,
+  "samples_per_map_device": 500000,
+  "total_draws": 4000000,
+  "trials_per_map_device": 50,
+  "configuration_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "threshold_modified_after_observation": false,
+  "results": "Finite Monte Carlo sanity checks, not equality of CPU/GPU sequences or bitwise equality between devices"
+}

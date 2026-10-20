@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="1.499" timestamp="2026-10-21T03:23:28.101827+08:00" hostname="lrj-System-Product-Name"><testcase classname="scripts.stage11b1r.tests.test_sampler" name="test_original_KMeans_empty_cluster_random_fallback_is_scoped" time="0.207" /></testsuite></testsuites>

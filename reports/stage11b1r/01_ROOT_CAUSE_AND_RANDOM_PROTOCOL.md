@@ -1,0 +1,13 @@
+# 根因与随机协议
+
+基础提交5c5b6cac4ac8839fd0cd7ff31578a89ac44c17b2；原Y-Net源码a345ada1557f53dc2acb4c07f71d340d366980da，MIT。旧evaluation.py/precheck.py/sampling_audit.py只读，Stage11B-1失败原件保留。先完成独立最小复现，再实现修复。原始函数未编辑、未monkeypatch。
+
+固定第一训练目标`SDD:bookstore_0:track100:frame0`，捕获概率图SHA `a6abdb6d9adc7f82ca0d7f187cc557c56687e5691482d4a2d5ca30c1aa7e2eea`，5次原GPU抽样前Python/NumPy/TorchCPU/CUDA RNG哈希均相同。概率图逐位一致，proposal仍不同，最大采样坐标差1.000000缩放像素。旧完整K20目标点最大差0.009033203125原像素。固定proposal后KMeans5次逐位一致，固定goals后解码5次逐位一致。最小案例张量与逐项SHA/RNG状态见minimal_original_case.json及其本地cache工件。
+
+因此证据将本次不一致定位至原CUDA categorical/multinomial抽样路径，而不是忘记重置NumPy或解码网络随机变化。Stage11B-1已记录Torch2.5 deterministic flag拒绝CUDA cumsum；本轮没有做低层kernel跟踪，不能把某个CUDA指令根因称为已被独立证明。
+
+KMeans仍有正常随机性：NumPy choice选择19个初始中心，空簇时CPU torch.randint补点。固定输入/状态时稳定；新包装为其建立独立、可恢复的随机作用域，不修改原KMeans算法。额外全重合proposal测试强制18个空簇，5次结果一致且调用者状态恢复。
+
+proposal种子为uint32大端SHA256前4字节，字符串`HTraj-YNet-SDD-Development-v1:17:`+sample_id；KMeans用`HTraj-YNet-K20-v2:kmeans:`+sample_id。禁止内置hash。每目标新建独立CPU Generator；KMeans作用域只设置所需NumPy/CPU状态并用fork_rng保存恢复CUDA状态。Python状态不触碰。92次真实修复调用均验证调用前后所有RNG状态相同。固定池32位种子碰撞统计在seed_identity_audit.json，不将有限审计写成一般无碰撞保证。
+
+限制：作用域锁只保护本适配器之间的串行调用；不能保证不遵守该锁的外部线程不会同时使用全局NumPy RNG。当前检查采用单进程串行。若改为并行，需要进程隔离或重新验证。

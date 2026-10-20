@@ -3,7 +3,7 @@ import numpy as np
 import pytest,torch
 from scripts.stage11b0.runtime import original_modules
 from scripts.stage11b1.evaluation import sample_seed,history_record
-from scripts.stage11b1r.sampler import sample_cpu,probability_weights,isolated_kmeans_rng
+from scripts.stage11b1r.sampler import sample_cpu,probability_weights,isolated_kmeans_rng,cluster_proposals
 from scripts.stage11b1r.predictor import Predictor
 
 def test_exact_author_CPU_semantics_and_indices():
@@ -51,3 +51,16 @@ def test_one_target_float32_and_future_free_API():
     raw=dict(sample_id='a',xy=torch.arange(40.).reshape(20,2));changed=dict(sample_id='a',xy=raw['xy'].clone())
     changed['xy'][8:]=1e6
     assert torch.equal(history_record(raw)[1],history_record(changed)[1])
+
+def test_original_KMeans_empty_cluster_random_fallback_is_scoped():
+    # All128 proposals coincide:18 of19 initial clusters are empty, forcing
+    # the author's torch.randint fallback while leaving centroids well-defined.
+    points=torch.zeros(128,2)
+    results=[]
+    for _ in range(5):
+        torch.rand(3);np.random.rand(3)  # Different caller states each time.
+        before_t=torch.get_rng_state().clone();before_n=np.random.get_state()
+        results.append(cluster_proposals(points,'empty-cluster-case'))
+        assert torch.equal(before_t,torch.get_rng_state())
+        assert np.array_equal(before_n[1],np.random.get_state()[1])
+    assert all(torch.equal(r,torch.zeros(19,2)) for r in results)

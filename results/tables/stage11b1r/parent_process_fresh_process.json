@@ -1,0 +1,9 @@
+{
+  "worker": "fresh_process",
+  "returncode": 0,
+  "wall_seconds": 8.285814075999951,
+  "cumulative_seconds": 85.35402397200232,
+  "hard_budget_seconds": 3600,
+  "stopped_before_seconds": 3300,
+  "code_commit": "81467e69c1185bb794661fa398c26f6c19bbbcf4"
+}

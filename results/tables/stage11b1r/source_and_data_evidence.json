@@ -1,0 +1,39 @@
+{
+  "base_commit": "5c5b6cac4ac8839fd0cd7ff31578a89ac44c17b2",
+  "protocol_freeze_commit": "b3d9cb5492cd93b54a819b1ab9a2edbe96cc347c",
+  "implementation_commit": "2085d7bf581903850634025bbc378b686928008b",
+  "fresh_restore_check_commit": "81467e69c1185bb794661fa398c26f6c19bbbcf4",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "official_repository": "https://github.com/HarshayuGirase/Human-Path-Prediction",
+  "license": "MIT; inherited verified author source",
+  "official_source_files_SHA_verified": 17,
+  "protocol_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "original_sampling_SHA": "a9b4c286723a03df622f41692c410edf079fb582ffa1274a5102f3af2742360a",
+  "original_KMeans_SHA": "ef76c293d3ffd9dcebc239f1975a6b987f358966e7b3bdf8c97746f28d4abc2a",
+  "stage11b1_failure_logs_unchanged": true,
+  "selected20_manifest_SHA": "1ec83c442e545498a3af678b42cff7745f6e08c58ee5ac3c1bb2750eb2e76b89",
+  "train_artifact": {
+    "path": "experiments/stage11b1/cache/train_only.pkl",
+    "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+    "targets": 7496,
+    "recordings": 25,
+    "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+  },
+  "history_files": 90361,
+  "history_unchanged": true,
+  "old_prediction_weights_loaded": false,
+  "segmentation_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "Python": "3.10.21",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "torchvision": "0.20.1+cu124",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "segmentation-models-pytorch": "0.1.0",
+    "pytest": "8.3.3"
+  },
+  "test_loaded": false,
+  "validation_loaded": false,
+  "new_predictive_ADE_FDE": false
+}

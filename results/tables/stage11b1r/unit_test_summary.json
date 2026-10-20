@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests": 561,
+  "suites": [
+    {
+      "file": "full_unit_tests.xml",
+      "tests": 560,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 24.149
+    },
+    {
+      "file": "empty_cluster_test.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 1.499
+    }
+  ],
+  "original_GPU_control_nonrepeatability": "Expected observed baseline failure,retained; not a failed repaired-sampler unit test"
+}

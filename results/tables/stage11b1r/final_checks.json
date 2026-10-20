@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "history_files": 90361,
+  "history_unchanged": true,
+  "official_sources_unchanged": true,
+  "unit_tests": 561,
+  "sampler_decision": "SAMPLER_ENGINEERING_GO",
+  "formal_training": false,
+  "new_ADE_FDE": false,
+  "allowed_new_paths": [
+    "configs/stage11b1r/",
+    "scripts/stage11b1r/",
+    "reports/stage11b1r/",
+    "results/tables/stage11b1r/"
+  ],
+  "data_checkpoints_ignored": true,
+  "sensitive_scan_passed": true,
+  "largest_tracked_delivery_bytes": 3920779,
+  "configuration_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "GPU_worker_seconds": 88.17520837900156,
+  "conservative_budget_charge_seconds": 126.67520837900156,
+  "hard_budget_seconds": 3600
+}

@@ -1,0 +1,9 @@
+{
+  "worker": "distribution",
+  "returncode": 0,
+  "wall_seconds": 2.8211844069992367,
+  "cumulative_seconds": 88.17520837900156,
+  "hard_budget_seconds": 3600,
+  "stopped_before_seconds": 3300,
+  "code_commit": "81467e69c1185bb794661fa398c26f6c19bbbcf4"
+}

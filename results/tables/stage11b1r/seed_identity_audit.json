@@ -1,0 +1,12 @@
+{
+  "train_targets": 7496,
+  "seed_bits": 32,
+  "collision_groups": {
+    "proposal": [],
+    "kmeans": []
+  },
+  "collision_free_for_audited_pool": true,
+  "rule": "uint32 first4 SHA256('HTraj-YNet-SDD-Development-v1:17:'+sample_id), big endian",
+  "kmeans_rule": "uint32 first4 SHA256('HTraj-YNet-K20-v2:kmeans:'+sample_id), big endian",
+  "scope": "Finite audited train pool; SHA truncation does not mathematically guarantee no future collisions"
+}

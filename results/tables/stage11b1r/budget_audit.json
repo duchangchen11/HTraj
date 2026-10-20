@@ -1,0 +1,71 @@
+{
+  "GPU_hard_seconds": 3600,
+  "GPU_safety_stop_seconds": 3300,
+  "GPU_worker_process_seconds": 88.17520837900156,
+  "complete_worker_timing_includes": "Python startup,model loading,all synthetic/real sampler tests,checkpoint save/load,hashing",
+  "processes": [
+    {
+      "worker": "diagnose_original",
+      "returncode": 0,
+      "wall_seconds": 11.342697390002286,
+      "cumulative_seconds": 11.342697390002286,
+      "hard_budget_seconds": 3600,
+      "stopped_before_seconds": 3300,
+      "code_commit": "b3d9cb5492cd93b54a819b1ab9a2edbe96cc347c"
+    },
+    {
+      "worker": "distribution",
+      "returncode": 0,
+      "wall_seconds": 2.8211844069992367,
+      "cumulative_seconds": 88.17520837900156,
+      "hard_budget_seconds": 3600,
+      "stopped_before_seconds": 3300,
+      "code_commit": "81467e69c1185bb794661fa398c26f6c19bbbcf4"
+    },
+    {
+      "worker": "fresh_process",
+      "returncode": 0,
+      "wall_seconds": 8.285814075999951,
+      "cumulative_seconds": 85.35402397200232,
+      "hard_budget_seconds": 3600,
+      "stopped_before_seconds": 3300,
+      "code_commit": "81467e69c1185bb794661fa398c26f6c19bbbcf4"
+    },
+    {
+      "worker": "run_checks",
+      "returncode": 0,
+      "wall_seconds": 65.72551250600009,
+      "cumulative_seconds": 77.06820989600237,
+      "hard_budget_seconds": 3600,
+      "stopped_before_seconds": 3300,
+      "code_commit": "2085d7bf581903850634025bbc378b686928008b"
+    }
+  ],
+  "full_and_extra_CPU_test_wall_seconds": 28.5,
+  "CPU_preflight_extra_conservative_seconds": 10,
+  "conservative_budget_charge_seconds": 126.67520837900156,
+  "budget_pass": true,
+  "optimizer_updates": 0,
+  "formal_training_epochs": 0,
+  "mean_new_K20_seconds": 0.5178994235004211,
+  "p90_new_K20_seconds": 0.6387296889024584,
+  "mean_original_GPU_K20_seconds": 0.4876503009498265,
+  "paired_mean_overhead_percent": 6.203035759780429,
+  "mean_CPU_sampling_seconds": 0.002749820200551767,
+  "mean_KMeans_seconds": 0.36307182834971174,
+  "mean_new_TTST_seconds": 0.3658216485502635,
+  "mean_decode20_seconds": 0.1370763088503736,
+  "twenty_targets_new_inference_seconds": 10.357988470008422,
+  "twenty_targets_cache_seconds": 1.2046510339969245,
+  "validation998_point_estimate_seconds": 517.1647874119194,
+  "validation998_with10percent_IO_reserve_seconds": 568.8812661531114,
+  "validation998_original_control_point_estimate_seconds": 486.97616310642604,
+  "peak_allocated_bytes": 527875072,
+  "peak_reserved_bytes": 652214272,
+  "GPU_peak_scope": "Shared worker with92 new forward calls and20 original controls; no training",
+  "card_memory_snapshot": "NVIDIA GeForce RTX 3080, 10240 MiB, 1267 MiB",
+  "card_snapshot_is_continuous_peak": false,
+  "CPU_occupancy_cores": 1.0039006084957947,
+  "host_peak_RSS_kib": 1953324,
+  "limitations": "20 fixed train targets,untrained random core; later heatmaps affect KMeans iterations; estimates are not measured validation runtime"
+}
