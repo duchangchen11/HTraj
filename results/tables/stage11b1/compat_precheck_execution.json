@@ -1,0 +1,19 @@
+{
+  "status": "K20_PREFLIGHT_FAILED",
+  "code_commit": "9266d0a1b867f3400e52281aa47c81699bac813e",
+  "no_validation_forward": true,
+  "no_error_metrics": true,
+  "no_optimizer_updates": true,
+  "random_predictor": true,
+  "old_predictor_weights_loaded": false,
+  "cases": [],
+  "initial_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "total_parameters": 53155339,
+  "trainable_parameters": 1641381,
+  "error_type": "AssertionError",
+  "error": "",
+  "wall_seconds": 4.651315264000004,
+  "cpu_process_seconds": 4.607169353,
+  "cpu_occupancy_process_cores": 0.9905084460705734,
+  "host_peak_RSS_kib": 1747168
+}

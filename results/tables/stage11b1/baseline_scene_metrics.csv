@@ -1,0 +1,16 @@
+model,scene,targets,ADE1,FDE1,unit
+CV-Last2,bookstore_2,423,16.98063528905535,33.51653004667669,original reference pixels
+CV-Last2,deathCircle_3,443,56.35786811283934,111.48417563884287,original reference pixels
+CV-Last2,gates_7,24,16.543530064827767,30.208769602723176,original reference pixels
+CV-Last2,hyang_7,45,18.90826739500775,42.09536715332317,original reference pixels
+CV-Last2,nexus_4,63,18.636341594262987,38.10553289224845,original reference pixels
+OLS4,bookstore_2,423,16.011345647114485,31.500286740864276,original reference pixels
+OLS4,deathCircle_3,443,55.91643362541597,110.01604640745657,original reference pixels
+OLS4,gates_7,24,14.943368573623928,29.37477151918833,original reference pixels
+OLS4,hyang_7,45,17.064346663701382,38.28055242092503,original reference pixels
+OLS4,nexus_4,63,21.481220449141894,42.802981775081136,original reference pixels
+OLS8,bookstore_2,423,16.880315473980755,32.850540904766675,original reference pixels
+OLS8,deathCircle_3,443,51.1681681015925,99.57135116045527,original reference pixels
+OLS8,gates_7,24,20.61203483237445,39.93572636618629,original reference pixels
+OLS8,hyang_7,45,17.772131061132157,39.09090449369323,original reference pixels
+OLS8,nexus_4,63,24.740838399764375,47.25560787858275,original reference pixels

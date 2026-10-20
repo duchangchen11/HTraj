@@ -1,0 +1,48 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Train-only K20 1 bookstore_0 0.55 TTST 0.384
+Train-only K20 2 bookstore_1 0.285 TTST 0.164
+Train-only K20 3 bookstore_3 0.587 TTST 0.445
+Train-only K20 4 coupa_3 0.476 TTST 0.322
+Train-only K20 5 deathCircle_0 0.695 TTST 0.511
+Train-only K20 6 deathCircle_1 0.417 TTST 0.253
+Train-only K20 7 deathCircle_2 0.486 TTST 0.311
+Train-only K20 8 deathCircle_4 0.531 TTST 0.378
+Train-only K20 9 gates_0 0.597 TTST 0.43
+Train-only K20 10 gates_1 0.369 TTST 0.216
+Train-only K20 11 gates_3 0.523 TTST 0.369
+Train-only K20 12 gates_4 0.373 TTST 0.219
+Train-only K20 13 gates_5 0.609 TTST 0.457
+Train-only K20 14 gates_6 0.421 TTST 0.276
+Train-only K20 15 gates_8 0.458 TTST 0.313
+Train-only K20 16 hyang_4 0.54 TTST 0.381
+Train-only K20 17 hyang_5 0.659 TTST 0.507
+Train-only K20 18 hyang_6 0.434 TTST 0.295
+Train-only K20 19 hyang_9 0.449 TTST 0.304
+Train-only K20 20 nexus_0 0.75 TTST 0.607
+K20_REPRODUCIBILITY_GATE_FAILED; TIMING_ONLY_COMPLETE seconds 16.644
+PROCESS_WALL_SECONDS=18.82

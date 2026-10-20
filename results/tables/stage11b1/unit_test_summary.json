@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "total_tests": 553,
+  "suites": [
+    {
+      "file": "full_unit_tests.xml",
+      "tests": 522,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 23.398
+    },
+    {
+      "file": "remaining_legacy_unit_tests.xml",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 1.79
+    }
+  ],
+  "separate_real_data_evaluator_gate": "FAILED",
+  "previous_unrelated_plugin_failure_retained": true
+}

@@ -1,0 +1,6 @@
+scene,status,targets_expected,targets_evaluated,ADE1,FDE1,minADE20,minFDE20
+bookstore_2,YNET_NOT_RUN,423,0,,,,
+deathCircle_3,YNET_NOT_RUN,443,0,,,,
+gates_7,YNET_NOT_RUN,24,0,,,,
+hyang_7,YNET_NOT_RUN,45,0,,,,
+nexus_4,YNET_NOT_RUN,63,0,,,,

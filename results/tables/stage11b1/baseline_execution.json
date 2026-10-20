@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "targets": 998,
+  "methods": [
+    "CV-Last2",
+    "OLS4",
+    "OLS8"
+  ],
+  "CPU_wall_seconds": 1.2804389610000726,
+  "validation_manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df",
+  "prediction_SHA": "3e77ac4c0a20fbfef59eae343d94a212f834c8e45d22626197bd3bcc332c4c26",
+  "prediction_completed_before_scoring": true,
+  "test_loaded": false,
+  "YNet_validation_prediction_run": false,
+  "formulas": {
+    "CV-Last2": "v=(x7-x6)/0.4; y[k]=x7+v*k*0.4",
+    "OLS4/8": "centered least-squares slope over last n history times; y[k]=x7+v*k*0.4"
+  },
+  "GT_used_only_for": "Identity check and offline metric after all paths completed"
+}

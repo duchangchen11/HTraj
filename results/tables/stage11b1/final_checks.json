@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "unit_tests": 553,
+  "real_K20_admission_passed": false,
+  "formal_training_epochs": 0,
+  "optimizer_steps": 0,
+  "old_files_SHA_pass": 90285,
+  "old_files_changed": false,
+  "new_paths_only": [
+    "configs/stage11b1/",
+    "scripts/stage11b1/",
+    "reports/stage11b1/",
+    "results/tables/stage11b1/"
+  ],
+  "raw_data_weights_caches_ignored": true,
+  "checkpoint_files_created": 0,
+  "secrets_scan_passed": true,
+  "largest_delivery_file_bytes": 3917388,
+  "protocol": "PROTOCOL_DEVELOPMENT_ONLY",
+  "decision": "NO_GO_EVALUATOR_REPRODUCIBILITY",
+  "no_test_data_loaded": true,
+  "no_fabricated_curves_or_metrics": true,
+  "push": "To be attempted after final commit; terminal log retained in ignored cache"
+}

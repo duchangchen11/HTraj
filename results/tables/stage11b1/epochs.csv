@@ -1,0 +1,1 @@
+epoch,global_step,train_loss,goal_loss,path_loss,learning_rate,epoch_seconds,gpu_memory,checkpoint_SHA

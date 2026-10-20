@@ -1,0 +1,37 @@
+{
+  "name": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "base_commit": "620532a2b70f6cc8c6a26f9b0e37ad57565763e9",
+  "configuration_freeze_commit": "58c5a7211f2fe7a12785fe1ee26ab844af43ca6c",
+  "sampler_compatibility_commit": "9266d0a1b867f3400e52281aa47c81699bac813e",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "train_config_SHA": "f32a56a42b396510bf49e9fd0d3cee3fb65ca11d8b78426958778989c5e93536",
+  "evaluation_config_SHA": "43ac6b224bf6e8c0445c88775c51e371de5847f00fa417ad3ca50f72b10ab4ac",
+  "config_unchanged_since_freeze": true,
+  "data_audit_SHA": "36b0281febd7b9c299edfa5f70a70172d013bc43df88a9a19b7aac66dde9b18f",
+  "source_manifest_SHA": "71d36755136cd8abf317b7077e3de9899ac03ad0f519c5a1490b0e3b36afbb12",
+  "artifacts": {
+    "train": {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+      "targets": 7496,
+      "recordings": 25,
+      "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    "validation": {
+      "path": "experiments/stage11b1/cache/validation_only.pkl",
+      "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+      "targets": 998,
+      "recordings": 5,
+      "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  },
+  "test_set_loaded": false,
+  "protocol_limitations": [
+    "SDD numeric semantic ID/name mapping unverified",
+    "Exact segmentation checkpoint training membership unverified",
+    "Original short-pool generation manifest partial",
+    "Carved validation may have semantic pretraining exposure"
+  ],
+  "training_admitted": false
+}

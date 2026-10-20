@@ -1,0 +1,19 @@
+{
+  "status": "NOT_STARTED_EVALUATOR_REPRODUCIBILITY_GATE_FAILED",
+  "completed_epochs": 0,
+  "optimizer_steps": 0,
+  "training_target_visits": 0,
+  "validation_YNet_targets_predicted": 0,
+  "best_epoch": null,
+  "last_epoch": null,
+  "checkpoints": [],
+  "YNet_ADE1": null,
+  "YNet_FDE1": null,
+  "YNet_minADE20": null,
+  "YNet_minFDE20": null,
+  "no_author_predictor_checkpoint": true,
+  "no_previous_training_weights_loaded": true,
+  "train_configuration_modified_from_validation": false,
+  "formal_training_admitted": false,
+  "reason": "Same history/probability/seed yielded different original CUDA proposals/goals; exact repeat/order gates failed"
+}

@@ -42,29 +42,36 @@ def main():
             if i==0:
                 # Same target/seed with recomputed vs cached semantics, and arbitrary future labels.
                 q,qg,rt=predictor.predict(sid,h,image=image)
-                assert torch.equal(p,q) and torch.equal(goals,qg)
+                cache_same=bool(torch.equal(p,q) and torch.equal(goals,qg))
                 changed=dict(sample_id=sid,xy=raw['xy'].copy());changed['xy'][8:]=1e6
                 cs,ch=history_record(changed)
                 z,zg,ct=predictor.predict(cs,ch,semantic=semantic)
-                assert torch.equal(p,z) and torch.equal(goals,zg)
-                log.update(real_shape_pass=True,pixel_restore_divisor=cfg['resize'],cache_equivalence_bitwise=True,
-                           same_checkpoint_repeat_bitwise=True,real_future_GT_counterfactual_bitwise=True,
+                counterfactual_same=bool(torch.equal(p,z) and torch.equal(goals,zg))
+                log.update(real_shape_pass=True,pixel_restore_divisor=cfg['resize'],
+                           same_checkpoint_repeat_bitwise=cache_same,real_future_GT_counterfactual_bitwise=counterfactual_same,
+                           cache_equivalence_bitwise=cache_same,
                            first_single_target_seconds=timing['total_seconds'],extra_gate_seconds=rt['total_seconds']+ct['total_seconds'])
             del image,semantic
             if time.perf_counter()-start>3000:raise TimeoutError('Precheck conservative50min stop; no training')
         # Reverse two distinct IDs to test identity RNG independently of call order.
+        order_same=True
         for r in selected[1::-1]:
             sid,h=history_record(records[r['sample_id']])
             p,g,tm=predictor.predict(sid,h,semantic=cache[r['scene']].cuda())
-            assert torch.equal(p,saved[sid][0]) and torch.equal(g,saved[sid][1])
+            order_same=order_same and bool(torch.equal(p,saved[sid][0]) and torch.equal(g,saved[sid][1]))
         assert frozen==state_digest(net.semantic_segmentation.state_dict())
-        log.update(status='TRAIN_ONLY_K20_PREFLIGHT_PASS',order_invariance_bitwise=True,
+        log.update(status='TRAIN_ONLY_K20_TIMING_COMPLETE',order_invariance_bitwise=order_same,
                    model_unchanged=True,first20_full_paths_shape=[20,20,12,2],
                    twenty_target_total_seconds=sum(r['total_seconds']+r['cache_load_segment_seconds'] for r in rows_time),
                    mean_target_seconds=float(np.mean([r['total_seconds'] for r in rows_time])),
                    p90_target_seconds=float(np.quantile([r['total_seconds'] for r in rows_time],.9)),
                    peak_allocated_bytes=torch.cuda.max_memory_allocated(),peak_reserved_bytes=torch.cuda.max_memory_reserved(),
                    GPU_card_state=subprocess.check_output(['nvidia-smi','--query-gpu=name,memory.total,memory.used','--format=csv,noheader'],text=True).strip())
+        log['reproducibility_gate_passed']=all(log[k] for k in ['same_checkpoint_repeat_bitwise','real_future_GT_counterfactual_bitwise','order_invariance_bitwise'])
+        probe=json.loads((OUT/'repeat_probe.json').read_text())
+        log['repeated_identical_history_probe_passed']=len({r['goal_SHA'] for r in probe['rows']})==1
+        log['formal_training_gate_passed']=log['reproducibility_gate_passed'] and log['repeated_identical_history_probe_passed']
+        if not log['formal_training_gate_passed']:log['status']='K20_REPRODUCIBILITY_GATE_FAILED; TIMING_ONLY_COMPLETE'
         cnew(OUT/'precheck_target_timing.csv',rows_time)
     except Exception as e:
         traceback.print_exc();log.update(status='K20_PREFLIGHT_FAILED',error_type=type(e).__name__,error=str(e))
