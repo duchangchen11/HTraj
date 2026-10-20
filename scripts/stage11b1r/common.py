@@ -12,7 +12,7 @@ def timed_run(name, operation):
     """Complete GPU-process timer, with a cumulative conservative55-minute stop."""
     import traceback
     start=time.perf_counter()
-    previous=sum(json.loads(p.read_text())['wall_seconds'] for p in OUT.glob('gpu_process_*.json'))
+    previous=sum(json.loads(p.read_text())['wall_seconds'] for p in OUT.glob('parent_process_*.json'))
     if previous>3000:raise TimeoutError('GPU process budget reserve exhausted')
     def guard(estimated_next=60):
         if previous+time.perf_counter()-start+estimated_next>=3300:
