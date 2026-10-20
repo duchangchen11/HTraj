@@ -47,7 +47,16 @@ class Predictor:
         logits=net.pred_goal(feats)[:,cfg['waypoints']]
         prob=net.sigmoid(logits/1.0)
         sync(); feature_seconds=time.perf_counter()-start-seg_seconds; t=time.perf_counter()
-        proposal=original_modules().image.sampling(prob[:,-1:],10000,replacement=True,rel_threshold=.01).permute(2,0,1,3)
+        # Torch2.5 rejects CUDA multinomial's internal cumsum under the global
+        # deterministic-algorithms flag. Execute the unchanged author sampler
+        # in a narrowly scoped compatibility exception; restore training's flag.
+        # Repeated seeded K20 output is checked bitwise by the real-data gate.
+        deterministic=torch.are_deterministic_algorithms_enabled()
+        try:
+            torch.use_deterministic_algorithms(False)
+            proposal=original_modules().image.sampling(prob[:,-1:],10000,replacement=True,rel_threshold=.01).permute(2,0,1,3)
+        finally:
+            torch.use_deterministic_algorithms(deterministic)
         # This is the unmodified author's function, including its CPU/GPU behavior.
         km=original_modules().model.evaluate.__globals__['kmeans']
         _,centers=km(X=proposal[:,0,0],num_clusters=19,distance='euclidean',device=device,

@@ -1,0 +1,9 @@
+{
+  "initial_error": "Torch2.5 deterministic flag rejects CUDA multinomial cumsum",
+  "change": "Only unchanged official sampling call temporarily disables deterministic-algorithms flag; flag restored immediately",
+  "parameters_changed": false,
+  "distribution_changed": false,
+  "train_deterministic_unchanged": true,
+  "requires_bitwise_repeat_and_order_tests": true,
+  "validation_results_seen": false
+}
