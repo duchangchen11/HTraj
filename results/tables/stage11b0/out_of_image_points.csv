@@ -1,0 +1,3 @@
+sample_id,split,scene,frame,x,y,width,height,rounded_scaled_x,rounded_scaled_y,padded_width,padded_height,within_padded_grid,clipped,kept
+SDD:nexus_0:track125:frame2688,development_train,nexus_0,2904,361.5,1950.5,1330,1947,90,488,352,512,True,False,True
+SDD:nexus_0:track125:frame2688,development_train,nexus_0,2916,367.5,1956.5,1330,1947,92,489,352,512,True,False,True

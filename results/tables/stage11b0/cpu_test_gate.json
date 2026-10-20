@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "final_tests": {
+    "file": "admission_cpu_tests_train_only.xml",
+    "tests": 12,
+    "errors": 0,
+    "failures": 0,
+    "seconds": 9.182
+  },
+  "all_attempts": [
+    {
+      "file": "admission_cpu_tests_initial.xml",
+      "tests": 12,
+      "errors": 7,
+      "failures": 0,
+      "seconds": 6.061
+    },
+    {
+      "file": "admission_cpu_tests.xml",
+      "tests": 12,
+      "errors": 0,
+      "failures": 0,
+      "seconds": 9.218
+    },
+    {
+      "file": "admission_cpu_tests_train_only.xml",
+      "tests": 12,
+      "errors": 0,
+      "failures": 0,
+      "seconds": 9.182
+    }
+  ],
+  "wall_seconds_conservative_GPU_budget_charge": 24.461,
+  "initial_failure": "Checkpoint metadata helper assumed repository path; temporary pytest path rejected. Fixed path reporting only; all failures retained.",
+  "model_structure_or_loss_changed": false
+}

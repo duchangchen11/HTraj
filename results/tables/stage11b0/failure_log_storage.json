@@ -1,0 +1,14 @@
+[
+  {
+    "original_name": "admission_cpu_tests_initial.xml",
+    "verbatim_gzip": "results/tables/stage11b0/admission_cpu_tests_initial.xml.gz",
+    "uncompressed_sha256": "4d6f8c2cb01932dcc02f0573ef556363b4fcf2ec50818ac118b3c0a208e27e82",
+    "raw_preserved": "experiments/stage11b0/cache/admission_cpu_tests_initial.xml"
+  },
+  {
+    "original_name": "admission_cpu_tests_initial_stdout.txt",
+    "verbatim_gzip": "results/tables/stage11b0/admission_cpu_tests_initial_stdout.txt.gz",
+    "uncompressed_sha256": "b8f5b73730f89ed3649c849929b2bcc0ae4c48167021590f15be2b994707f334",
+    "raw_preserved": "experiments/stage11b0/cache/admission_cpu_tests_initial_stdout.txt"
+  }
+]

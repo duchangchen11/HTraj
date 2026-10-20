@@ -1,0 +1,1 @@
+All12 pre-GPU CPU gates passed. Configuration fixed; 3 smoke updates and one unaugmented full pass only.
