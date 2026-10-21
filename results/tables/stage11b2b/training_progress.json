@@ -1,0 +1,38 @@
+{
+  "status": "RUNNING",
+  "started_commit": "84a2aa8b95bed356b6c72d8895622eb7b7095b48",
+  "completed_epochs": 50,
+  "global_step": 94100,
+  "seed": 17,
+  "optimizer_updates": 37640,
+  "training_started_from_random": false,
+  "old_predictor_checkpoint_loaded": true,
+  "resumed_original_epoch30": true,
+  "test_loaded": false,
+  "failures": [],
+  "restored": {
+    "model_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+    "optimizer_SHA": "0386098cda60d313edd254aa110b6a328d0caa7e3ff973da321483a325a87de1",
+    "RNG_SHA": "a67e582fedb2e8c2cec52cfde5d4203a9a2e4f1f524a0fce76396c41f4d73e86",
+    "optimizer_states": 90,
+    "Adam_steps": 56460,
+    "optimizer_parameter_order_SHA": "e01d0dbde38c3a24320913106b0ddf0643737c31b7df82176b20d251de60a19c"
+  },
+  "initial_segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "total_parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "latest_validation": {
+    "ADE1": 34.46467736590768,
+    "FDE1": 64.96010421682583,
+    "minADE20": 18.56266693114818,
+    "minFDE20": 29.347204490039676,
+    "GoalFDE1": 65.40957524022156,
+    "minGoalFDE20": 29.677148584250354,
+    "goal_path_gap1": 2.692303419113159,
+    "goal_path_gap_mean20": 2.9110851287841797,
+    "endpoint_diversity": 70.54981231689453,
+    "trajectory_diversity": 34.11178970336914,
+    "near_duplicate_endpoint_fraction": 0.00022676932812994407
+  },
+  "GPU_process_seconds": 10442.533890104984
+}

@@ -1,0 +1,30 @@
+{
+  "epoch30_train_loss": 0.0918513522021226,
+  "last_train_loss": 0.090619422060019,
+  "new_first5_train_loss_mean": 0.0917346728876185,
+  "new_last5_train_loss_mean": 0.09075529505831674,
+  "new_validation_minADE20_values": [
+    {
+      "epoch": 30,
+      "minADE20": 16.403135768685253
+    },
+    {
+      "epoch": 35,
+      "minADE20": 18.38153792530656
+    },
+    {
+      "epoch": 40,
+      "minADE20": 17.42574023852562
+    },
+    {
+      "epoch": 45,
+      "minADE20": 18.762893833931056
+    },
+    {
+      "epoch": 50,
+      "minADE20": 18.56266693114818
+    }
+  ],
+  "new_best_worse_than_epoch30": true,
+  "scope": "Descriptive convergence audit, not proof of sufficient convergence or cause of generalization degradation"
+}

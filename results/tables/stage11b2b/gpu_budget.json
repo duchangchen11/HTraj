@@ -1,0 +1,44 @@
+{
+  "processes": [
+    {
+      "worker": "admission",
+      "started_commit": "a2eb0a240959b02b71b77bb518252d084e6093e5",
+      "returncode": 0,
+      "wall_seconds": 19.018051072998787,
+      "prior_seconds": 7.9897008939879015,
+      "cumulative_seconds": 27.00775196698669,
+      "hard_seconds": 16200,
+      "safety_seconds": 15000,
+      "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+    },
+    {
+      "worker": "admission",
+      "started_commit": "1e44dbad2b4d238bdddfcb6c4fdee1fc2535f46c",
+      "returncode": 1,
+      "wall_seconds": 7.9897008939879015,
+      "prior_seconds": 0,
+      "cumulative_seconds": 7.9897008939879015,
+      "hard_seconds": 16200,
+      "safety_seconds": 15000,
+      "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+    },
+    {
+      "worker": "resume_train",
+      "started_commit": "84a2aa8b95bed356b6c72d8895622eb7b7095b48",
+      "returncode": 0,
+      "wall_seconds": 10416.715946313998,
+      "prior_seconds": 27.00775196698669,
+      "cumulative_seconds": 10443.723698280985,
+      "hard_seconds": 16200,
+      "safety_seconds": 15000,
+      "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+    }
+  ],
+  "new_GPU_seconds": 10443.723698280985,
+  "hard_seconds": 16200,
+  "safety_seconds": 15000,
+  "within_hard_limit": true,
+  "CPU_analysis_excluded": true,
+  "CUDA_initialized": false,
+  "charge": "Sum of whole GPU child process parent wall, including failed admission fixture"
+}

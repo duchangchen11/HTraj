@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "source_SHA": "805ac599c05c79a60360812233d39cf31ef6af6d487e19d7b7a71ddd22892fd2",
+  "complete_validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "independent_NumPy_metric_agreement_atol": 1e-08,
+  "old_metrics_not_modified": true,
+  "all_targets_kept": true,
+  "same_head_goal_path": true,
+  "source_commit": "84a2aa8b95bed356b6c72d8895622eb7b7095b48"
+}

@@ -13,3 +13,5 @@ GPU准入必须经原 `load_checkpoint` 同时恢复模型、Adam与Python/NumPy
 前置CPU审计补加优化器摘要时，两次独占写入触发 FileExistsError，未执行GPU或训练；失败日志原样保留 `prepare_recheck_stdout.txt`、`prepare_final_stdout.txt`。随后增加“已存在则校验完全相同”行为并重新通过，未修改旧文件或数值计算。
 
 第一次GPU准入恢复状态成功，随后额外teacher-forcing检查的合成GT被平移100000px，越过热图模板范围，触发旧代码Unrepresentable patch断言。未进行正式训练或Adam更新。失败进程耗时7.990秒纳入预算，原日志与admission记录保留failed01命名。仅将该训练用合成扰动改回旧准入的末点10px；历史预测接口的百万像素未来GT反事实仍保持。重新冻结代码和配置后复核，未改模型、loss、数据或正式训练数值。
+
+最终恢复结果：`RESTORE_ENGINEERING_GO`。模型状态SHA `62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741`；Adam摘要 `0386098cda60d313edd254aa110b6a328d0caa7e3ff973da321483a325a87de1`；RNG摘要 `a67e582fedb2e8c2cec52cfde5d4203a9a2e4f1f524a0fce76396c41f4d73e86`。下一场景顺序SHA `25ccc5816ad24fa8e8f149e18e4f448f27e8fdf7086da018880e2fffb8565dae`。实际验证参数量总计53,155,339、训练核心1,641,381；核心无BN/Dropout/RNN模式依赖层，train/eval输出及恢复后下一Adam更新逐位相同，K20重复/反序/缓存重算与百万像素未来GT反事实通过。完整记录见 resume_admission.json。

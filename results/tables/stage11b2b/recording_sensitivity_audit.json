@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_SHA": "154c7b2b83ae88816975183da3d7636f539b465e33b6b34682b0cbe3190d3427",
+  "table_SHA": "82e6b8c3f6f80a7e49478c8ab19c72364a6ff6df1f73d58e1c990fe34c61e27d",
+  "CPU_only": true,
+  "posthoc_descriptive": true,
+  "primary_H1_unchanged": true,
+  "no_checkpoint_selection": true,
+  "all998_retained_in_primary": true
+}

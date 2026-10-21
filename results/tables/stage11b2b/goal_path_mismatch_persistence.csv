@@ -1,0 +1,6 @@
+epoch,original_C7_recovered,original_C7_persistent,new_C_mismatch,current_C_mismatch,middle_mismatch
+30,0,7,0,7,7
+35,6,1,3,4,4
+40,5,2,5,7,6
+45,5,2,2,4,3
+50,5,2,0,2,1

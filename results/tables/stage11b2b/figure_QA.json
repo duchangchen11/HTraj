@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "PNG_SVG_pairs": 31,
+  "SVG_XML_parse": true,
+  "coordinate_roundtrip_test": true,
+  "visual_review": [
+    "31-figure Python contact sheet",
+    "training validation curve",
+    "four historical motion group panels",
+    "fixed original case overview"
+  ],
+  "all20_candidates_and_goals_retained": true,
+  "common_extent_for_each_epoch_pair": true,
+  "actual_final_epoch": 50,
+  "no_synthetic_data": true,
+  "no_GT_candidate_deployment": true,
+  "skipped_tests": [
+    {
+      "test": "test_deterministic_cuda_gaussian_integration",
+      "reason": "CUDA compatibility check"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "epochs": [
+    {
+      "epoch": 31,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.16946545774703867,
+      "gradient_norm_max": 0.8789388155723984
+    },
+    {
+      "epoch": 32,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.16287661228278053,
+      "gradient_norm_max": 0.8804175322863119
+    },
+    {
+      "epoch": 33,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.16151719854901983,
+      "gradient_norm_max": 1.2123012974925351
+    },
+    {
+      "epoch": 34,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.16088417104261818,
+      "gradient_norm_max": 1.7182474119357185
+    },
+    {
+      "epoch": 35,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.15417215392154204,
+      "gradient_norm_max": 1.195481878930909
+    },
+    {
+      "epoch": 36,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.1499338578472869,
+      "gradient_norm_max": 0.7951722785923602
+    },
+    {
+      "epoch": 37,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.15114780443032166,
+      "gradient_norm_max": 0.8663004413888806
+    },
+    {
+      "epoch": 38,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.14443707473268524,
+      "gradient_norm_max": 0.7134913239822757
+    },
+    {
+      "epoch": 39,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.14274076383176038,
+      "gradient_norm_max": 0.8814579698224402
+    },
+    {
+      "epoch": 40,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.14123494561679592,
+      "gradient_norm_max": 1.204321165570038
+    },
+    {
+      "epoch": 41,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.14172598683926005,
+      "gradient_norm_max": 0.8973770201393901
+    },
+    {
+      "epoch": 42,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.1400107639802807,
+      "gradient_norm_max": 1.5788206657006656
+    },
+    {
+      "epoch": 43,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.1396063477742295,
+      "gradient_norm_max": 0.905924495660527
+    },
+    {
+      "epoch": 44,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.13569702166217762,
+      "gradient_norm_max": 0.801493150379084
+    },
+    {
+      "epoch": 45,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.1350823273263387,
+      "gradient_norm_max": 0.9376048351281308
+    },
+    {
+      "epoch": 46,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.13601375430486592,
+      "gradient_norm_max": 0.8774400460043609
+    },
+    {
+      "epoch": 47,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.1338783356135085,
+      "gradient_norm_max": 1.18455353404457
+    },
+    {
+      "epoch": 48,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.13277325235158932,
+      "gradient_norm_max": 0.7900510556895984
+    },
+    {
+      "epoch": 49,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.13137369279196598,
+      "gradient_norm_max": 1.5177921401700467
+    },
+    {
+      "epoch": 50,
+      "steps": 1882,
+      "visits": 7496,
+      "unique_targets": 7496,
+      "finite": true,
+      "learning_rates": [
+        0.0001
+      ],
+      "gradient_norm_mean": 0.12967800128480825,
+      "gradient_norm_max": 0.6731759482473785
+    }
+  ],
+  "train_manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+  "validation_manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df",
+  "test_loaded": false
+}

@@ -1,0 +1,11 @@
+{
+  "worker": "resume_train",
+  "started_commit": "84a2aa8b95bed356b6c72d8895622eb7b7095b48",
+  "returncode": 0,
+  "wall_seconds": 10416.715946313998,
+  "prior_seconds": 27.00775196698669,
+  "cumulative_seconds": 10443.723698280985,
+  "hard_seconds": 16200,
+  "safety_seconds": 15000,
+  "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+}

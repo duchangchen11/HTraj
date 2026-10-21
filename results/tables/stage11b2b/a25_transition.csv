@@ -1,0 +1,11 @@
+epoch,comparison,reference_epoch,recovered,new_failures,persistent_failure,persistent_success
+30,vs_epoch30,30,0,0,164,834
+30,vs_previous_complete,30,0,0,164,834
+35,vs_epoch30,30,24,72,140,762
+35,vs_previous_complete,30,24,72,140,762
+40,vs_epoch30,30,27,71,137,763
+40,vs_previous_complete,35,58,54,154,732
+45,vs_epoch30,30,34,113,130,721
+45,vs_previous_complete,40,46,81,162,709
+50,vs_epoch30,30,31,77,133,757
+50,vs_previous_complete,45,85,52,158,703

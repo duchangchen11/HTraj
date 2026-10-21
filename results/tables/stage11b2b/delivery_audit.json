@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "source_commit": "84a2aa8b95bed356b6c72d8895622eb7b7095b48",
+  "frozen_runtime_SHA_unchanged": true,
+  "all_history_SHA_unchanged": true,
+  "old_epoch30_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "checkpoint_count": 20,
+  "completed_new_validations": [
+    35,
+    40,
+    45,
+    50
+  ],
+  "all_new_K20_reverse_cache_repeat_bitwise": true,
+  "all_prediction_GT_separation": true,
+  "all998_targets_kept": true,
+  "test_counts": {
+    "tests": 591,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "skipped_tests": [
+    {
+      "test": "test_deterministic_cuda_gaussian_integration",
+      "reason": "CUDA compatibility check"
+    }
+  ],
+  "files": 207,
+  "large_files": [],
+  "sensitive_or_weight_files": [],
+  "no_test_scoring": true,
+  "new_GPU_seconds": 10443.723698280985,
+  "scope": "Full protected file SHA + executable snapshot + complete checkpoint state + target/step/gate + test XML checks"
+}

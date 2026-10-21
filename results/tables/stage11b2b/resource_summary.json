@@ -1,0 +1,44 @@
+{
+  "total_parameters": 53155339,
+  "trainable_parameters": 1641381,
+  "epoch_count": 20,
+  "new_formal_optimizer_steps": 37640,
+  "formal_target_visits": 149920,
+  "epoch_seconds_mean": 461.37701308034883,
+  "epoch_seconds_min": 458.0912884040008,
+  "epoch_seconds_max": 464.63722830599,
+  "pytorch_peak_allocated_bytes": 2630690816,
+  "pytorch_peak_reserved_bytes": 3988783104,
+  "step_seconds_median": 0.2589817239932017,
+  "step_seconds_P90": 0.2904295341009856,
+  "step_seconds_P99": 0.3138084957217507,
+  "gradient_norm_min": 0.0055159876427767,
+  "gradient_norm_mean": 0.1447124761965437,
+  "gradient_norm_max": 1.7182474119357185,
+  "GPU_card_logs": [
+    {
+      "file": "GPU_card_admission.csv",
+      "samples": 2,
+      "card_memory_peak_MiB": 3108.0,
+      "card_utilization_mean_percent": 42.0,
+      "temperature_peak_C": 42.0
+    },
+    {
+      "file": "GPU_card_admission_failed01.csv",
+      "samples": 1,
+      "card_memory_peak_MiB": 381.0,
+      "card_utilization_mean_percent": 14.0,
+      "temperature_peak_C": 35.0
+    },
+    {
+      "file": "GPU_card_resume_train.csv",
+      "samples": 692,
+      "card_memory_peak_MiB": 4455.0,
+      "card_utilization_mean_percent": 84.90606936416185,
+      "temperature_peak_C": 75.0
+    }
+  ],
+  "no_OOM": true,
+  "finite_loss_and_gradient_checks_each_step": true,
+  "no_final_CPU_CUDA_initialization": true
+}

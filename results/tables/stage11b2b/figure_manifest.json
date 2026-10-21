@@ -1,0 +1,328 @@
+[
+  {
+    "figure": "01_training_validation",
+    "source_data": [
+      "epochs.csv",
+      "validation_metrics.csv",
+      "../stage11b1c/epochs.csv"
+    ],
+    "conclusion": "Recorded loss and actual validation nodes; no interpolated missing evaluations",
+    "PNG_SHA": "0777ca4d7936c391b36ecb7885dc455f42820914c99e0a036840912a645ed6b3",
+    "SVG_SHA": "fcefc5d2de598cb51d3f05d9e021d8d722d62252ac1d97e998a70d47733f5fe1"
+  },
+  {
+    "figure": "02_goal_miss_fractions",
+    "source_data": [
+      "validation_metrics.csv"
+    ],
+    "conclusion": "Strict > threshold failures, dynamic identities",
+    "PNG_SHA": "3e2bfb977acb26a6a8984f6ba089de43f0dfb5ac59960ee8ca77f4c05fa5f84e",
+    "SVG_SHA": "b757076e463a111f17f21f78fc1ceb3f3bc9cda29e168b3e4a3916d2c8050164"
+  },
+  {
+    "figure": "03_A25_error_contribution",
+    "source_data": [
+      "validation_metrics.csv"
+    ],
+    "conclusion": "Error contribution differs from cohort size",
+    "PNG_SHA": "6b5cef5e243376a3b1b05a226344b2055f62bf819f15ffdba747d80fea9a755f",
+    "SVG_SHA": "0799486b9834053b486855168b13ef992278b299595dae9e9673822c1ee778ec"
+  },
+  {
+    "figure": "04_fixed164_errors",
+    "source_data": [
+      "a25_fixed_cohort.csv",
+      "figure04_fixed_cohort_means.csv"
+    ],
+    "conclusion": "Fixed original failed identities, not the current dynamic cohort",
+    "PNG_SHA": "721b8e2bcc902e6a9b504cd1cad59dcaa0a4a18bfb19b62dc1c6812fdcefab61",
+    "SVG_SHA": "473a19e02041b77735882ced99f859fa18782b1ca6133eabb6f77ccb31143d73"
+  },
+  {
+    "figure": "05_cohort_transitions",
+    "source_data": [
+      "a25_transition.csv"
+    ],
+    "conclusion": "Recovery and new failures both retained",
+    "PNG_SHA": "10f50e6c83fc3b2e2c4549f98daf1b260a18c52d4bdd9ff7feda675987c4b3f7",
+    "SVG_SHA": "f27aa69c9a75e9b32e13e228e66981da2e8936b6f80bec8c6f956f490a8d8cc9"
+  },
+  {
+    "figure": "06_default_oracle_gap",
+    "source_data": [
+      "validation_metrics.csv"
+    ],
+    "conclusion": "K1 and oracle K20 are distinct evaluation budgets",
+    "PNG_SHA": "7bd7041bc1c11ce48655b207b600bb4cbb7829787c7a1876f08fdef14c2ff858",
+    "SVG_SHA": "7ba4c051c69d607eea3a449d0bfbbb9782174604726fcb597ac9dba601a2ef4d"
+  },
+  {
+    "figure": "07_recording_goal_coverage",
+    "source_data": [
+      "scene_metrics.csv"
+    ],
+    "conclusion": "Unequal scene counts; each curve is its own recording",
+    "PNG_SHA": "a83af0e47e16843f8c95109252d108660b3964ebb7716e7f12bd445fbae10748",
+    "SVG_SHA": "7ca6bf51bf42d1f906d4c17d75fc2143abff20e8cf56cba8219271144e05ac95"
+  },
+  {
+    "figure": "08_frozen_motion_strata",
+    "source_data": [
+      "motion_group_metrics.csv"
+    ],
+    "conclusion": "Prior-stage historical groups; descriptive association, overlapping windows",
+    "PNG_SHA": "1d8f604712db61a16620ceb8e55a7d6733bc8c7eb9c2d64a2991d41e8d9ad35c",
+    "SVG_SHA": "851ba6b556406ef1a24e4cf1d8d400f59f23286cd7d961e342e8e1954b73b4ac"
+  },
+  {
+    "figure": "09_goal_path_endpoint",
+    "source_data": [
+      "validation_metrics.csv"
+    ],
+    "conclusion": "Each minimum is independent; same-head pairs retained separately",
+    "PNG_SHA": "114988844195a5d0d205367eab2c3674ecd2c36e3fabb20b84f23a3dd718ee25",
+    "SVG_SHA": "7a4e5a998edea406913724da71e6f1f52e6d4aec9142fcb35542fd20fc782350"
+  },
+  {
+    "figure": "10_case_goal_miss25_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "63043652f43f96a34bceca615c321d42ed5ca65cf8f899b63e5a5afdb7b3bc68",
+    "SVG_SHA": "abc65621d532c9aec83dc56a0b1d778637e27640c687193beedc1edfee371893"
+  },
+  {
+    "figure": "10_case_goal_miss25_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "8df1d17068dbdae3f45305832d7d7367609003f75b946bfeb0f1a372075a3d99",
+    "SVG_SHA": "ed55e5bb3292a8088e6b29f316ca5776ee0f2ef3ec4e9f52bc5b6e50226588de"
+  },
+  {
+    "figure": "10_case_goal_miss25_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "f44832dcc8aca031d1c44463e77cd4d2c10cf99afa08c146a95c5c45f29145bc",
+    "SVG_SHA": "57bfb661dc4225dd0b9fd510d02f0516cc5a4ae4ac2be47c96a0cf1821094409"
+  },
+  {
+    "figure": "10_case_default_oracle_gap_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "c811da0ba7fa9e300530858a7d302c610c52f5c4d3dce77db35e44cc6c989bf8",
+    "SVG_SHA": "7cfa40c173bacfcd177e619ea8f6610a919eb5c8c648bfc639e1aa2daa71b510"
+  },
+  {
+    "figure": "10_case_default_oracle_gap_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "69b4be007b1e59eaf536a8119ee455a78127f30e5b27552760db6df7c8a5b515",
+    "SVG_SHA": "f82eef02dc19af2f620cc6988ae6c60239c4f651fd52bbf8e899700be20bde91"
+  },
+  {
+    "figure": "10_case_default_oracle_gap_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "448c90faf2dfa3661c8afaac71354d1aa67d51c0fa69c2d7a19bcb501450051f",
+    "SVG_SHA": "1f670056f2be08e300807ce670f6fb4545fe2e2a10f02a6d14ea9eb69e92d35a"
+  },
+  {
+    "figure": "10_case_goal_path_mismatch_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "3cc6aff868fb2707dd4860d456e6e2bd547ff3bc389ff73b2a21bc5483e6abac",
+    "SVG_SHA": "2941616a9176a0f4ba32118db448ec4e454d16605a41e17654ccfb8c02047784"
+  },
+  {
+    "figure": "10_case_goal_path_mismatch_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "f5ad2d44df05644ea28aeb217fbaa63385b43dfc2622b28f57cf692f5ad0400d",
+    "SVG_SHA": "f5f6083eef288f5b0105d194455c960ea960746e2dd8920e86728013c1eceddd"
+  },
+  {
+    "figure": "10_case_goal_path_mismatch_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "2b91ceb94a0955806d003ddb2e2bd2ebc46b5b5e26df30a1fc1d8c238e0fca82",
+    "SVG_SHA": "32bab68c2a1ee6fbeee9a2bbb8625481d6a0d470443235fffda834550691e8f4"
+  },
+  {
+    "figure": "10_case_history_straight_future_turn_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "6735a32062d45dabbbcbc05c655ac24c88245fb05f617deac4116869e99a572c",
+    "SVG_SHA": "8e0f9f6dee7ea596606fe5bcbcb7806be3f20d176fa0397b7fa644ea042ce922"
+  },
+  {
+    "figure": "10_case_history_straight_future_turn_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "3d3ee7849b098aa9511e5c7de2dbcd42d657c2136e4ed439c9336df8f261d14c",
+    "SVG_SHA": "5fff87f952c23cda4857422a57cdb1f41f26376b38159b2e559842d040c9663e"
+  },
+  {
+    "figure": "10_case_history_straight_future_turn_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "2547119bc9769abfe4d7f896d38f7564eee37cb49422ece5c4e75253d3ca54ab",
+    "SVG_SHA": "a8f62bfafa8778c2a724b01b61be0ba937f8ef5698815641d0a1b99368db7b35"
+  },
+  {
+    "figure": "10_case_geometry_anomaly_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "ae2552b892bc08ab8dc1a4330fbf328f523f73fcd2ce99920626880c13815da2",
+    "SVG_SHA": "f74e7a5b848c6aa74a267838dd3ae1905374db960276a9090083ece65084b2ae"
+  },
+  {
+    "figure": "10_case_geometry_anomaly_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "cdac4ce3c822a2c4062efb6f0dd23fba5ac2f41b86d7ab05f6459ee71b016b7f",
+    "SVG_SHA": "de09b2388b2dbf9afab12ed6915a13bc20461fad295fe08f15aabcbf34961a32"
+  },
+  {
+    "figure": "10_case_geometry_anomaly_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "0ee89d89e6ea67cf002fdd62f37ba98f62264d77f5cf1e28c88ca5cad8263e05",
+    "SVG_SHA": "cfb9e06617390bfd3bc52142ef42d878006fe3c0428c05a32c9a2f3e9ed45460"
+  },
+  {
+    "figure": "10_case_YNet_better_OLS8_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "1f51ba7d54e5e28e7b4f5a35e4e6b7d538c667fe8597781ed19b16935134e06b",
+    "SVG_SHA": "586750d0cfafcc0c5c8509262f33bb6b3342b0d1932ef8e756a2a7c75ba11db8"
+  },
+  {
+    "figure": "10_case_YNet_better_OLS8_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "4c9f4d3e73305344852a10da76102516e597be6c20bd640a7ad0b2cdc491616b",
+    "SVG_SHA": "dab56d0f96991fd0e522d42eb884d19cad83a6bdc0b3f1a23f6f8500d7dd67b8"
+  },
+  {
+    "figure": "10_case_YNet_better_OLS8_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "2e603529c983341f030b3db08677c0fe1e0dc2d0aff41d0eec0043017aed451e",
+    "SVG_SHA": "1518b51e14e40646a1f725933a1c97285a0227489cba5aa65b6b04a34387c6f3"
+  },
+  {
+    "figure": "10_case_YNet_worse_OLS8_1",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "a0aa4dce8f73b0a70ca46d32e0392e9b56f61555d737fa73b2e684a127a9de77",
+    "SVG_SHA": "a76a7597cebedf5a4dd16c17b69748a10570cbf078b7b3c46449e2cf68768704"
+  },
+  {
+    "figure": "10_case_YNet_worse_OLS8_2",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "bf28afcf0f62072b45b1034083e26ac7f62cc486c049be554a0a595909467238",
+    "SVG_SHA": "bc06538d3717883f3ec8a5ab3b7c0d5fb98941eaa940d5ab8a117e6d93e22ee3"
+  },
+  {
+    "figure": "10_case_YNet_worse_OLS8_3",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "Frozen case epoch30 vs actual epoch50; all20 paths/goals retained, oracle offline only",
+    "PNG_SHA": "6fbaf80dfa6bbf067fb24b43ca6973999a3134873a3fc11cba083ff831d98b5d",
+    "SVG_SHA": "1ef952c10f488fa632ab23b38ba1c893b400d1f96a6040861f92a3cdc8878ae6"
+  },
+  {
+    "figure": "10_fixed_case_overview",
+    "source_data": [
+      "fixed_case_prediction_coordinates.csv.gz",
+      "fixed_case_history_coordinates.csv",
+      "../stage11b2a/failure_case_manifest.csv"
+    ],
+    "conclusion": "First four frozen manifest rows, selected before extension; all21 pairs also supplied",
+    "PNG_SHA": "0ad7acfdcc08fb67105ee387fc0664868365119b8a229ed03442d275f8302eeb",
+    "SVG_SHA": "686d0c3aa226d4252ecb484befd22708fce1b917eb6c9a3485a0892be5f39b55"
+  }
+]
