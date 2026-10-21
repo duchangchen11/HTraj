@@ -1,0 +1,1 @@
+Data identities and frozen K1 baselines PASS; all targets retained; test sealed

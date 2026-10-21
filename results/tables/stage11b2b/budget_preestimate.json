@@ -1,0 +1,10 @@
+{
+  "reference_epoch_seconds": 461.9348,
+  "reference_validation_seconds": 568,
+  "point_seconds": 12110.696,
+  "conservative_seconds": 14988.369999999999,
+  "hard_seconds": 16200,
+  "safety_seconds": 15000,
+  "fit_extension": true,
+  "assumptions": "Prior same pipeline full epoch mean; conservativeTTST reference;1.25x +600s load/admission/save; guarded actuals supersede estimate"
+}

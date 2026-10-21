@@ -1,0 +1,10 @@
+{
+  "hard_seconds": 16200,
+  "safety_seconds": 15000,
+  "reserve_seconds": 120,
+  "training_reference_seconds": 461.9348,
+  "validation_reference_seconds": 568,
+  "estimate_factor": 1.25,
+  "preflight_plus_startup_reserve_seconds": 600,
+  "charge": "Whole parent-timed GPU subprocess wall including startup/load/save/checks/exit; CPU-only tests/reporting excluded"
+}

@@ -1,0 +1,50 @@
+{
+  "hypothesis": "H1: Goal coverage failure persists within this limited extension",
+  "support": {
+    "A25_fraction_min": 0.1,
+    "A25_error_share_min": 0.5
+  },
+  "weaken": {
+    "A25_fraction_exclusive_max": 0.05,
+    "A25_error_share_exclusive_max": 0.25
+  },
+  "strict_goal_miss": "minGoalFDE20 > threshold",
+  "threshold_pixels": [
+    10,
+    25,
+    50
+  ],
+  "mismatch": "exists same head GoalFDE<=10 AND full path ADE>=25",
+  "fixed_case_manifest": "results/tables/stage11b2a/failure_case_manifest.csv",
+  "frozen_motion_groups": "results/tables/stage11b2a/motion_features.csv",
+  "groups": [
+    "hist_speed_group",
+    "hist_turn_group",
+    "hist_speed_change_group",
+    "hist_stationary_group"
+  ],
+  "fixed_A25_epoch": 30,
+  "selection": "All COMPLETE old and new validations: min window minADE20, exact tie earlier epoch",
+  "plot_contract": {
+    "conclusion": "Measure actual goal coverage persistence through limited training, without asserting full convergence",
+    "evidence": "Actual epoch curves; fixed and dynamic cohorts; all five recordings; frozen real cases",
+    "archetypes": [
+      "quantitative grid",
+      "image plate + quant"
+    ],
+    "backend": "python",
+    "exports": [
+      "PNG",
+      "SVG",
+      "source CSV/JSON"
+    ],
+    "risks": [
+      "one seed",
+      "overlapping targets",
+      "semantic pretraining exposure",
+      "development only",
+      "oracle not deployable"
+    ],
+    "interpolation": false
+  }
+}
