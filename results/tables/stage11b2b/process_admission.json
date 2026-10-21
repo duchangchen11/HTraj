@@ -1,0 +1,11 @@
+{
+  "worker": "admission",
+  "started_commit": "a2eb0a240959b02b71b77bb518252d084e6093e5",
+  "returncode": 0,
+  "wall_seconds": 19.018051072998787,
+  "prior_seconds": 7.9897008939879015,
+  "cumulative_seconds": 27.00775196698669,
+  "hard_seconds": 16200,
+  "safety_seconds": 15000,
+  "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+}
