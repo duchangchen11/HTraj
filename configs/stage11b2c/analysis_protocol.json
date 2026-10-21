@@ -1,0 +1,130 @@
+{
+  "stage": "Stage11B-2C",
+  "purpose": "Frozen Epoch30 goal distribution -> original10000 proposals ->19KMeans+1softargmax audit; no training/new algorithm",
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "base": "e0c03d3cbabcf73286b34d1456b7dd59b1aa57ea",
+  "checkpoint": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "prediction_cache_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "targets": 998,
+  "recordings": [
+    "bookstore_2",
+    "deathCircle_3",
+    "gates_7",
+    "hyang_7",
+    "nexus_4"
+  ],
+  "seed": 17,
+  "history": 8,
+  "future": 12,
+  "resize": 0.25,
+  "units": "SDD reference pixels",
+  "K": 20,
+  "proposals": 10000,
+  "replacement": true,
+  "temperature": 1.0,
+  "rel_threshold": 0.01,
+  "kmeans": {
+    "clusters": 19,
+    "distance": "euclidean",
+    "tol": 0.001,
+    "iter_limit": 1000
+  },
+  "sampler": "Immutable Stage11B-1R sample_cpu and cluster_proposals,stable SHA sample_id seeds",
+  "head_order": "softargmax head0,KMeans centers heads1..19,unchanged",
+  "radii": [
+    10,
+    25,
+    50
+  ],
+  "cover": "distance<=r original pixels; miss strictly>r",
+  "p_mass": "float64 mathematical p=w_original_float32/sum_float64(w),offline analysis only; original weights/draws untouched",
+  "raw_probability": "Sigmoid is unnormalized weight; no calibrated uncertainty claim",
+  "hit_formula": "-expm1(10000*log1p(-P_mass)); mass0=>0,1=>1; iid replacement theoretical probability,not actual hit",
+  "low_mass_reference": "P_hit<0.5 analytic reference,not tuned to errors",
+  "events": {
+    "A": "P_mass>0",
+    "B": "ProposalMinDist<=r",
+    "C": "FinalMinDist20<=r"
+  },
+  "all_binary_event_combinations": true,
+  "named_types": {
+    "T1": "not A (may overlap T5)",
+    "T2": "A and not B (may overlap T5)",
+    "T3": "B and not C",
+    "T4": "B and C",
+    "T5": "not B and C",
+    "T6": "outside union T1..T5; impossible A0 B1 flagged"
+  },
+  "exclusive_categories": [
+    "zero_support_final_miss",
+    "positive_support_sampling_miss_final_miss",
+    "proposal_hit_final_miss",
+    "both_hit",
+    "proposal_miss_final_hit",
+    "other"
+  ],
+  "fixed_A25": "Original164 minGoalFDE20>25 IDs; same164 denominator at all radii",
+  "statistics": [
+    "all998 window weighted",
+    "each5 recording",
+    "deathCircle443",
+    "other4 pooled555",
+    "5recording equal-weight macro",
+    "frozen historical motion groups",
+    "reference diagonal normalized distances",
+    "no pvalues for overlapping windows"
+  ],
+  "groups": [
+    "hist_speed_group",
+    "hist_turn_group",
+    "hist_speed_change_group",
+    "hist_stationary_group"
+  ],
+  "case_selection": {
+    "radius": 25,
+    "rule": "Within each exclusive category sort sample_id; ranks floor(q*(N-1)) for q=.25,.5,.75; deduplicate ranks; absent types no case",
+    "no_aesthetic_replacement": true
+  },
+  "regression": {
+    "all998_original_5_SHA_bitwise_goals_paths": true,
+    "second_full998_reverse_order": true,
+    "all_exported_tensors_bitwise": true,
+    "precheck_training_targets": 2,
+    "precheck_repeats": 3,
+    "raw_future_counterfactual": true
+  },
+  "budget": {
+    "hard_seconds": 7200,
+    "safety_seconds": 6600,
+    "cleanup_seconds": 120,
+    "charge": "Whole parent-timed GPU process including imports,load,export,sampling,KMeans,decode,serialization,regression,exit"
+  },
+  "plot_contract": {
+    "backend": "python",
+    "formats": [
+      "PNG",
+      "SVG",
+      "source CSV/JSON"
+    ],
+    "conclusion": "Locate observed frozen-chain coverage changes without causal or novelty claims",
+    "archetypes": [
+      "quantitative grid",
+      "image plate + quant"
+    ],
+    "no_fabrication": true
+  },
+  "limitations": [
+    "one seed",
+    "5reused development recordings",
+    "overlapping targets not independent",
+    "no sealed test",
+    "semantic mapping/pretrain membership unresolved",
+    "group association not causal",
+    "centers and softargmax need not be samples",
+    "no automatic new algorithm/training"
+  ],
+  "mechanism_priority_rule": "Descriptive unique largest category among final A25 failures must also be unique largest in deathCircle and other4 pooled, and occur in>=3recordings; ties/mixed=>MECHANISM_INCONCLUSIVE. Not a statistical test or innovation GO."
+}

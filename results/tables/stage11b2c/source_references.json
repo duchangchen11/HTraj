@@ -1,0 +1,26 @@
+[
+  {
+    "title": "From Goals, Waypoints & Paths To Long Term Human Trajectory Forecasting",
+    "year": 2021,
+    "venue": "ICCV",
+    "paper": "https://arxiv.org/abs/2012.01526",
+    "official_code": "https://github.com/HarshayuGirase/Human-Path-Prediction/blob/a345ada1557f53dc2acb4c07f71d340d366980da/ynet/test.py",
+    "evidence": "Frozen local code inspected test.py99-122 and image_utils92-119; public GitHub same commit verified",
+    "access_limitation": "CVF paper URLs returned403 in this session; no new full-paper novelty audit claimed"
+  },
+  {
+    "title": "Trajectory Unified Transformer for Pedestrian Trajectory Prediction",
+    "year": 2023,
+    "venue": "ICCV",
+    "paper": "https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Trajectory_Unified_Transformer_for_Pedestrian_Trajectory_Prediction_ICCV_2023_paper.pdf",
+    "evidence": "Official paper introduction explicitly discusses clustering postprocessing cost/probability information; proposed parallel multimodal outputs; closest-line future review, no exact equivalence claimed"
+  },
+  {
+    "title": "DLow: Diversifying Latent Flows for Diverse Human Motion Prediction",
+    "year": 2020,
+    "venue": "ECCV",
+    "paper": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540324.pdf",
+    "official_code": "https://github.com/Khrylx/DLow",
+    "evidence": "Author paper and repository; diversity-oriented correlated latent sampling; originally3D motion, not an ETH/UCY exact goal compressor comparison"
+  }
+]
