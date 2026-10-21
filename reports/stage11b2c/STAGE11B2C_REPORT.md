@@ -29,3 +29,5 @@ Softargmax的作用依赖半径：10px下独立补救KMeans19遗漏14目标（�
 最终验收：全仓pytest为614 passed / 1 skipped，原CUDA专项跳过原因保留。首次全仓收集因与旧阶段测试文件同名而冲突，失败txt/xml保留，仅将新文件改为唯一名称后通过；没有修改旧测试。原始数据文件及派生纯历史输入的完整SHA索引另见data_provenance.json。
 
 资源测量：额外被动导出与SHA校验合并开销约0.0168秒/目标；纯概率图D2H未单独计时，未伪填独立数值。原Goal前向、采样、KMeans、完整20路径解码与缓存写入分别测量，完整范围见resource_summary.json。继承的父计时器通用文案虽列举train等阶段，本轮实际只有precheck/export/reverse regression，模型训练步和参数更新均为0。
+
+GitHub交付：研究成果已完成本地提交。对提交 `2c2e2e00fef16525a83f85fb36010a00d383b791` 的唯一一次正常HTTPS推送失败（exit128）：`fatal: could not read Username for 'https://github.com': terminal prompts disabled`。随后只读查询成功但未发现该远程分支。没有强推、修改凭据或自动重试；本地提交和完整研究结果保留。交付元数据见github_delivery.json；用户可在已配置凭据的终端执行 `git push -u origin feat/stage11b2c-goal-generation-audit`。本段与交付记录为Git元数据补记，不改变科学验收结果。
