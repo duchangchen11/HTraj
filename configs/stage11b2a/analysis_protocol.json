@@ -1,0 +1,176 @@
+{
+  "stage": "Stage11B-2A",
+  "base_commit": "e85e676af6004c495aec77387c243ddf1060d13b",
+  "scope": "DEVELOPMENT_POST_SELECTION_DESCRIPTIVE_ANALYSIS",
+  "dataset": "HTraj-YNet-SDD-Development-v1",
+  "targets": 998,
+  "recordings": [
+    "bookstore_2",
+    "deathCircle_3",
+    "gates_7",
+    "hyang_7",
+    "nexus_4"
+  ],
+  "checkpoint": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "prediction_cache": "experiments/stage11b1c/cache/predictions/epoch030.pt",
+  "prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "history": 8,
+  "future": 12,
+  "dt_seconds": 0.4,
+  "K": 20,
+  "coordinate_unit": "original SDD reference pixels",
+  "normalized_unit": "fraction of reference diagonal, NOT meters",
+  "hypotheses": [
+    "Goal coverage misses and same-candidate path errors may coexist; compare corresponding heads without additive causal decomposition",
+    "First-softargmax candidate can differ from GT oracle; SelectionGap is not ranking-head failure",
+    "Motion amplitude and turning may associate with error; compare raw, diagonal-normalized and future-path-normalized descriptions",
+    "Recording heterogeneity may persist after descriptive motion stratification; not a causal residual",
+    "Semantic unreliability causing errors remains UNVERIFIED absent semantic ID, GT and segmentation-error evidence"
+  ],
+  "metrics": {
+    "ADE": "Mean12 Euclidean distances",
+    "FDE": "Euclidean final position error",
+    "GoalFDE": "Euclidean sampled goal to GT final position",
+    "oracle": "ADE/FDE/Goal independently argmin across20 heads; exact ties smallest original index",
+    "selection_gap": "first full path error minus independently minimized full path error",
+    "relative_gap": "gap/max(first error,1 raw pixel)",
+    "goal_path_distance": "same-head sampled goal minus same-head decoded final position",
+    "direction": "angle between consecutive displacement vectors, both steps >=1 raw pixel; otherwise NaN",
+    "historical_duration": "7 intervals =2.8s",
+    "future_duration": "include last history position;12 intervals =4.8s",
+    "future_path_normalized_error": "error/max(GT future cumulative path length,1 raw pixel); OFFLINE_ONLY"
+  },
+  "thresholds": {
+    "goal_radii_pixels": [
+      10,
+      25,
+      50
+    ],
+    "high_gap_ADE_pixels": 25,
+    "large_default_ADE_pixels": 25,
+    "accurate_oracle_ADE_pixels": 10,
+    "taxonomy_B_gap_pixels": 15,
+    "taxonomy_B_relative_gap": 0.5,
+    "close_goal_pixels": 10,
+    "wrong_path_ADE_pixels": 25,
+    "mismatch_terminal_FDE_pixels": 25,
+    "mismatch_middle_FDE_max_pixels": 10,
+    "mismatch_middle_ADE_first11_pixels": 25,
+    "high_error_minADE_pixels": 25,
+    "reliable_direction_step_pixels": 1,
+    "stationary_step_max_pixels": 1,
+    "straight_max_turn_degrees": 15,
+    "straightness_min": 0.95,
+    "turning_min_turn_degrees": 30,
+    "stable_speed_CV_max": 0.15,
+    "variable_speed_CV_min": 0.4,
+    "CV_defined_mean_speed_min_pixels_s": 2.5,
+    "large_step": "max predicted step > max(50 pixels,4*max historical step); descriptive flag, not physical collision",
+    "weak_history_direction": "0 or1 reliable displacement among7; all histories still have8 observed positions"
+  },
+  "groups": {
+    "hist_speed": "Low/medium/high using source TRAIN7496 diagonal-normalized mean-speed terciles; np.quantile linear; ties go to higher bin",
+    "hist_motion_amplitude": "Source TRAIN7496 diagonal-normalized history cumulative-path terciles",
+    "hist_turn": [
+      "undefined_direction",
+      "straight",
+      "intermediate",
+      "turning_ge30deg"
+    ],
+    "hist_speed_change": [
+      "undefined_low_speed",
+      "stable_CVle0.15",
+      "intermediate",
+      "variable_CVge0.4"
+    ],
+    "hist_stationary": [
+      "all_steps_le1px",
+      "other"
+    ],
+    "hist_direction_evidence": [
+      "0_or1_reliable_steps",
+      "2_to7_reliable_steps"
+    ],
+    "future_amplitude": "OFFLINE_POSTHOC: pooled998 diagonal-normalized future path terciles, linear quantile; no use in model or sampler",
+    "future_turn": "OFFLINE_POSTHOC: same angle rules",
+    "future_speed_change": "OFFLINE_POSTHOC: same CV rules",
+    "future_net_displacement": "OFFLINE_POSTHOC: pooled998 diagonal-normalized net-displacement terciles"
+  },
+  "taxonomy": {
+    "A": "minGoalFDE20>10/25/50px, report all three; primary A25",
+    "B": "ADE1>=25 and minADE20<=10 and ADE gap>=15 and relative ADE gap>=.5",
+    "C": "At least one same candidate has GoalFDE<=10 and ADE>=25; also report closest-goal-only and terminal/middle subtypes",
+    "D": "minADE20>=25 AND (history turning OR variable history speed OR weak reliable history direction); association only",
+    "E": "Any predicted point outside reference OR large-step criterion; retain all outputs",
+    "overlap": "Nonexclusive; report per-recording counts, pairwise intersections and exact combinations; never sum rates as partition"
+  },
+  "statistics": {
+    "center": [
+      "mean",
+      "median"
+    ],
+    "quantiles": [
+      0.1,
+      0.25,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "units": [
+      "target_window",
+      "recording_macro",
+      "recording_specific"
+    ],
+    "correlations": "Spearman average ranks, finite pairs; pooled AND within recording; no p values",
+    "uncertainty": "No window bootstrap, no significance claims, no cluster bootstrap with only5 recordings",
+    "sensitivity": "Five leave-one-recording-out paired YNet-vs-CV/OLS comparisons; original full cohort always retained",
+    "motion_stratification": "Report every recording x each hist-speed and future-amplitude bin including empty groups; no imputation",
+    "amplitude_standardization": "Common pooled tercile weights only if all three bins exist in the recording; otherwise undefined",
+    "independent_score_tolerance_pixels": 1e-08,
+    "missing": "Undefined numeric values are empty/NaN, never zero; preserve targets"
+  },
+  "cases": {
+    "categories": [
+      "goal_miss25",
+      "default_oracle_gap",
+      "goal_path_mismatch",
+      "history_straight_future_turn",
+      "geometry_anomaly",
+      "YNet_better_OLS8",
+      "YNet_worse_OLS8"
+    ],
+    "scores": [
+      "minGoalFDE20",
+      "SelectionGap_ADE",
+      "closest_goal_ADE",
+      "future_max_turn_degrees",
+      "max_predicted_step_pixels",
+      "OLS8_ADE1_minus_YNet_ADE1",
+      "YNet_ADE1_minus_OLS8_ADE1"
+    ],
+    "rule": "Sort by category score ascending then sample_id; ranks floor(q*(n-1)), q=.25,.5,.75; deduplicate ranks, fill with first unused sorted ranks until min(3,n). No aesthetic reselection.",
+    "view": "Full reference view includes all coordinates; detail bounding box of history/GT/all20 paths/all20 goals/CV/OLS8 plus max(10% span,20px) margin",
+    "overlays": "Actual cached20 paths/goals; original history/GT; first path; ADE oracle OFFLINE_ONLY; CV-Last2 and OLS8 freshly calculated and checked vs frozen values"
+  },
+  "figures": {
+    "backend": "Python matplotlib Agg",
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "curves": "Only7 actual validation nodes; unsmoothed; no interpolated observations",
+    "axes": "Raw pixels and diagonal normalization separately labeled; marker counts and posthoc labels disclosed",
+    "SVG": "Remove trailing whitespace only after normalized XML equivalence assertion; no coordinate edits"
+  },
+  "outliers": "All998 retained, all20 heads retained, no winsorization; geometry flags do not exclude targets",
+  "execution": {
+    "CPU_only": true,
+    "no_model_forward": true,
+    "no_training": true,
+    "no_test": true,
+    "optional_GPU_limit_seconds": 600,
+    "planned_GPU_seconds": 0
+  },
+  "interpretation": "This cohort selected the checkpoint and has repeated development exposure. Freeze analysis rules prospectively for this audit, not independent confirmation."
+}

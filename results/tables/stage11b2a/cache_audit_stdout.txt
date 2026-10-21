@@ -1,0 +1,1 @@
+Frozen cache/data/paired metrics PASS;998 targets,20 paths/goals; no test or model execution

@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "status": "PASS",
+  "test_loaded": false,
+  "CPU_only": true,
+  "predictions": 998,
+  "K": 20,
+  "future_steps": 12,
+  "goals": 20,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "original_unit": "original reference pixels",
+  "all_history_GT_SHA_match": true,
+  "max_metric_differences": {
+    "ADE1": 1.1368683772161603e-13,
+    "FDE1": 1.1368683772161603e-13,
+    "minADE20": 1.1368683772161603e-13,
+    "minFDE20": 5.684341886080802e-14,
+    "GoalFDE1": 5.684341886080802e-14,
+    "minGoalFDE20": 2.842170943040401e-14
+  },
+  "tolerance_pixels": 1e-08,
+  "original_source_split_column": "train denotes author source pool; proposed_split=development_validation controls HTraj membership",
+  "references": {
+    "bookstore_2": {
+      "sha256": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4",
+      "height": 1079,
+      "width": 1422,
+      "diagonal": 1785.0280109847015
+    },
+    "deathCircle_3": {
+      "sha256": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6",
+      "height": 1904,
+      "width": 1400,
+      "diagonal": 2363.3061587530296
+    },
+    "gates_7": {
+      "sha256": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d",
+      "height": 1982,
+      "width": 1334,
+      "diagonal": 2389.1169916937934
+    },
+    "hyang_7": {
+      "sha256": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18",
+      "height": 1940,
+      "width": 1450,
+      "diagonal": 2422.003303053074
+    },
+    "nexus_4": {
+      "sha256": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc",
+      "height": 1759,
+      "width": 1284,
+      "diagonal": 2177.782587863169
+    }
+  },
+  "sources": {
+    "results/tables/stage11b1c/final_decision.json": "649a7095bcded83499314169a3cf7c20fbb1f348be415a78056a5556299325d1",
+    "results/tables/stage11b1c/paired_epoch030.csv": "db0013fd285df6ae474267b76a20de34571bddf94e862c28751546d219051a1b",
+    "results/tables/stage11b1c/best_paired_baseline_comparison.csv": "e57b513c09fd546e8df2f1125492e5eb69d58ae36f44706c16cce9802eead9ff",
+    "results/tables/stage11b1c/baseline_scene_comparison.csv": "95dcafb7dac35af62e4d6157ba797ad1df2435d019b6763e3b09e6ed1d9e6488",
+    "results/tables/stage11b1c/prediction_geometry_audit.csv": "f6fc90ea0bb7c86404fae32f31f0fef10f860a6e9b3662b01b4fcd20f67ae12f",
+    "results/tables/stage11b1c/validation_metrics.csv": "2cb5b3d6fd2b535d9d039551ff645216077765b134dc0ab139867f4a34a29572",
+    "results/tables/stage11b1c/qualitative_cases.json": "c06630a6bd974d54561561e57aa523a2dedf4d24c0006fd9d9fe5dbba197e604",
+    "results/tables/stage11b1c/validation_target_manifest.csv": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "source_data_artifact": {
+    "path": "experiments/stage11b1/cache/validation_only.pkl",
+    "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+    "targets": 998,
+    "recordings": 5,
+    "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "CUDA_initialized": false
+}
