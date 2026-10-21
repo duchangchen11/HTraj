@@ -1,0 +1,66 @@
+CPU_SCORE 100 /998
+CPU_SCORE 200 /998
+CPU_SCORE 300 /998
+CPU_SCORE 400 /998
+CPU_SCORE 500 /998
+CPU_SCORE 600 /998
+CPU_SCORE 700 /998
+CPU_SCORE 800 /998
+CPU_SCORE 900 /998
+{
+  "status": "COMPLETE",
+  "all998_regression_bitwise": true,
+  "analysis_targets": 998,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "radius": 25,
+  "proposal_covered": 920,
+  "proposal_coverage": 0.9218436873747495,
+  "final_covered": 834,
+  "final_coverage": 0.8356713426853707,
+  "final_A25_count": 164,
+  "final_fail_category_counts": {
+    "proposal_hit_final_miss": 86,
+    "zero_support_final_miss": 77,
+    "positive_support_sampling_miss_final_miss": 1
+  },
+  "final_fail_proposal_previously_covered": 86,
+  "all_targets_zero_mass": 77,
+  "final_fail_zero_mass": 77,
+  "positive_mass_actual_sampling_miss": 1,
+  "final_fail_positive_mass_sampling_miss": 1,
+  "compression_loss_count": 86,
+  "final_recovery_without_proposal_hit": 0,
+  "softargmax_rescues_KMeans25": 0,
+  "P_mass25_mean": 0.23531016626319967,
+  "P_mass25_median": 0.17348300904618713,
+  "low_mass_analytic_reference_count": 78,
+  "recording_mechanisms": [
+    {
+      "scope": "deathCircle",
+      "counts": {
+        "zero_support_final_miss": 67,
+        "proposal_hit_final_miss": 65,
+        "positive_support_sampling_miss_final_miss": 1
+      },
+      "largest": "zero_support_final_miss"
+    },
+    {
+      "scope": "other4",
+      "counts": {
+        "proposal_hit_final_miss": 21,
+        "zero_support_final_miss": 10
+      },
+      "largest": "proposal_hit_final_miss"
+    }
+  ],
+  "same_dominant_in_deathCircle_and_other4": false,
+  "recommendation": "MECHANISM_INCONCLUSIVE",
+  "mechanism_evidence": "PARTIALLY_SUPPORTED",
+  "algorithm_novelty": "UNVERIFIED",
+  "direct_semantic_causal_evidence": "UNVERIFIED",
+  "new_algorithm_GO": false,
+  "automatic_next_training_GO": false,
+  "GPU_seconds": 658.4699292129953,
+  "CPU_seconds": 16.811652661999688,
+  "scope": "Frozen seed17 Epoch30 reused development998; observational; no test or new performance result"
+}

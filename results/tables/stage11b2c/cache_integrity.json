@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "old_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "tensor_manifest_SHA": "c088675a80dc85fad3e6116d4c18a5d386a3c433744f3e3b533625f17a60b737",
+  "targets": 998,
+  "all_cached_files_SHA_verified": true,
+  "all_original_probability_weights_proposal_goal_path_SHA": true,
+  "all998_reverse_bitwise": true,
+  "original_miss_counts": {
+    "10": 489,
+    "25": 164,
+    "50": 99
+  },
+  "history_GT_identity_verified": true,
+  "original_goals_match_per_sample_atol": 1e-08,
+  "support_and_index_mapping_consistent": true,
+  "model_unchanged": true,
+  "generation_completed_before_GT_scoring": true,
+  "raw_dtype": "float32 logits/sigmoid/threshold/weights/xy;int64 indices; no quantization",
+  "offline_probability_float64_analysis_only": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "source_SHA": "89515f827206f3a28f3c018a2b568bfb305155ee4684a6f81388b6334252a24f"
+}

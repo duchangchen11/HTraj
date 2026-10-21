@@ -1,0 +1,76 @@
+{
+  "total_GPU_process_seconds": 658.4699292129953,
+  "budget_hard_seconds": 7200,
+  "safe_seconds": 6600,
+  "phase_timings": {
+    "feature_seconds": {
+      "mean": 0.007174263779711505,
+      "median": 0.00718557549407705,
+      "P90": 0.0078110018992447,
+      "sum": 7.159915252152082
+    },
+    "sampling_seconds": {
+      "mean": 0.002221108046877018,
+      "median": 0.0021887514958507,
+      "P90": 0.0023861044945078197,
+      "sum": 2.2166658307832643
+    },
+    "kmeans_seconds": {
+      "mean": 0.16126390179967215,
+      "median": 0.1474007720025838,
+      "P90": 0.24260459979705046,
+      "sum": 160.9413739960728
+    },
+    "decode20_seconds": {
+      "mean": 0.12439929323442331,
+      "median": 0.13027921249886276,
+      "P90": 0.1332466971958638,
+      "sum": 124.15049464795446
+    },
+    "extract_seconds": {
+      "mean": 0.3118600504869632,
+      "median": 0.2975398394992225,
+      "P90": 0.39750327830115567,
+      "sum": 311.2363303859893
+    },
+    "cache_seconds": {
+      "mean": 0.0026475803546807852,
+      "median": 0.0024658154943608497,
+      "P90": 0.0026359955008956404,
+      "sum": 2.6422851939714236
+    },
+    "combined_passive_export_and_SHA_seconds": {
+      "mean": 0.016799181994888394,
+      "median": 0.01871137099806225,
+      "sum": 16.765583630898618
+    }
+  },
+  "pure_probability_map_D2H_seconds": null,
+  "pure_export_time_not_separately_instrumented": true,
+  "export_timing_scope": "Observed extract_seconds minus original forward total includes passive export+SHA and synchronization overhead; not pure D2H latency",
+  "tensor_cache_files": 998,
+  "tensor_cache_bytes": 2565154764,
+  "dtype": "float32 maps and xy; int64 indices; no quantization",
+  "GPU_card": [
+    {
+      "file": "GPU_card_extract.csv",
+      "samples": 43,
+      "card_memory_peak_MiB": 1285.0,
+      "utilization_mean_percent": 36.13953488372093
+    },
+    {
+      "file": "GPU_card_precheck.csv",
+      "samples": 1,
+      "card_memory_peak_MiB": 308.0,
+      "utilization_mean_percent": 15.0
+    }
+  ],
+  "peak_allocated_bytes": 493272576,
+  "peak_reserved_bytes": 673185792,
+  "CPU_threads_for_GPU_worker": 1,
+  "training_steps": 0,
+  "optimizer_updates": 0,
+  "OOM": false,
+  "CPU_reporting_CUDA_initialized": false,
+  "source_SHA": "e0a7d5636f894f34af63e999ee2b60f261ad0a14eda2974d15af912a9bac9e37"
+}

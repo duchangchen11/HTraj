@@ -1,0 +1,1 @@
+Figures 19 all from actual tensors; CPU only

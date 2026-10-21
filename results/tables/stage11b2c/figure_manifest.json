@@ -1,0 +1,197 @@
+[
+  {
+    "figure": "01_goal_weights_and_probability",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Unnormalized weights and normalized sampling distribution are different quantities",
+    "PNG_SHA": "0711ddcbf5d20d3a139498f442553731cf062b499b109620acee860bf969cfb9",
+    "SVG_SHA": "2a3c2b2594f4c19bba55f1455cc9f4881cdcddb0fff8fdcaced288eddfb3d741"
+  },
+  {
+    "figure": "02_actual_10000_draw_density",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Actual draw histogram, not10000 distinct positions",
+    "PNG_SHA": "e923a0e27955245e90a979efdd290eea7b739b1b1dc2b68ec7cb0f642550f70e",
+    "SVG_SHA": "f54b39f9bf8360fbee6fc2b3a480b3bf6c7119bd8655537855d76e239278c56c"
+  },
+  {
+    "figure": "03_centers_softargmax_GT",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "tensor_manifest.csv"
+    ],
+    "claim": "19 centers +1 separate softargmax; GT only an offline annotation",
+    "PNG_SHA": "44006915c5ed2cd182c6b27449244afd39ea265f3fc10018c2fb8c57a3bdd8d8",
+    "SVG_SHA": "c0470cecd769fb8a469cf20c99e2418882b8429060acefd82f8eaa2a53457a8b"
+  },
+  {
+    "figure": "04_GT_neighborhood_mass_distribution",
+    "source_data": [
+      "probability_mass.csv"
+    ],
+    "claim": "Offline probability mass, not calibrated uncertainty",
+    "PNG_SHA": "e49b02004a00a19307b22f9d1ef201074b92c3ab5df160ad8f7b0e788cd1c117",
+    "SVG_SHA": "5a1abc97d21c013fa7da479f0cad5d555559792107f6618a765d7e7e89299f54"
+  },
+  {
+    "figure": "05_proposal_vs_final_coverage",
+    "source_data": [
+      "scene_mechanism_summary.csv"
+    ],
+    "claim": "Within-pipeline coverage comparison; not equal-budget model performance",
+    "PNG_SHA": "22850f7e365883d3adecc4f62c81439b0fb19b6e73982ec47a58dc98a7b5917a",
+    "SVG_SHA": "be885239494317c9f0f1b907cd6914e0f911c8c4f50b28a996e9b03848dd1670"
+  },
+  {
+    "figure": "06_final164_stage_events",
+    "source_data": [
+      "coverage_transition.csv",
+      "mechanism_type_summary.csv"
+    ],
+    "claim": "Observed coverage loss co-occurrence, not causal attribution of trajectory error",
+    "PNG_SHA": "51176ddf33d299a53f527261b3eb4df6133875d3cd56e1359908511e3f0fe07c",
+    "SVG_SHA": "02aae4d182e1d6d72b1fa9ba4638a5123a2dcf86c6785c3cef045474893ccf7a"
+  },
+  {
+    "figure": "07_softargmax_KMeans_contributions",
+    "source_data": [
+      "softargmax_kmeans_comparison.csv"
+    ],
+    "claim": "Descriptive subsets of same frozen collection, not retrained fair K comparisons",
+    "PNG_SHA": "cc6308b55493d6679c3226858f17256d9a88c8c9af88d50edd7a466a20382337",
+    "SVG_SHA": "6760b3099a22e9015de3773ef79c3f4c1982cba6966bc99c00ff298285a341fd"
+  },
+  {
+    "figure": "08_five_recording_coverage",
+    "source_data": [
+      "scene_mechanism_summary.csv"
+    ],
+    "claim": "Every recording retained; counts and equal-weight macro separately available",
+    "PNG_SHA": "c976656b030ab848b3de913fafb10847bfc7359ac09ba3ab5809250d5e5dc854",
+    "SVG_SHA": "6834a77b48a4ca1b3e2fbd3e27ec4f915a83f3ea84589ede58a274c24ca3740b"
+  },
+  {
+    "figure": "09_frozen_history_groups",
+    "source_data": [
+      "motion_mechanism_summary.csv"
+    ],
+    "claim": "Historical groups frozen before this audit; descriptive differences only",
+    "PNG_SHA": "72244ba1dc383d1703b918032fc7c168207d6bddedafcf9f0e55d05aa51dbba7",
+    "SVG_SHA": "3f3cda832179fafb5cbab7bc5d03dce9d1136d25f1254f27de6970548112ea95"
+  },
+  {
+    "figure": "10_case_zero_support_final_miss_19",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_zero_support_final_miss_19.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "a8617498db2843333458407fcb330130c6b86adcdd0d1ca747a6206c32836c53",
+    "SVG_SHA": "a0edf7df6cd6771a71d2ce28f46f5fa69e2c7f686dcf266423b55d6ceb9dfb67"
+  },
+  {
+    "figure": "10_case_zero_support_final_miss_38",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_zero_support_final_miss_38.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "a0ff634d32a84ce63d0748b2f61f45dbf3bab2ae4a4ba5d3254b61b4310a01c5",
+    "SVG_SHA": "1de09b1fe11b3a5ae20e6e4276873cb0789b41224de7bcea12da695e5e2ae86f"
+  },
+  {
+    "figure": "10_case_zero_support_final_miss_57",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_zero_support_final_miss_57.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "39854f701a57ba1d5f2cb1ec66835bb6508abdb5e84d68358cd8c554234c1bc6",
+    "SVG_SHA": "ddc4fcb23655660a9b8f030891257d384e3de1ab04e56bd8c64429372ef1a1db"
+  },
+  {
+    "figure": "10_case_positive_support_sampling_miss_final_miss_0",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_positive_support_sampling_miss_final_miss_0.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "962fa2a3ac562661ca6ae0e51acf6ae656c329b8239fa88b028a24fa4cdef59a",
+    "SVG_SHA": "452f05185b0b13b90739ba94ae6192b1412715f4f39aee352115d86ea28a4ce2"
+  },
+  {
+    "figure": "10_case_proposal_hit_final_miss_21",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_proposal_hit_final_miss_21.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "b2782fce3af5ee843b955e7300683df58a5f39d0b19d446682d5a5a23b93ce21",
+    "SVG_SHA": "f5e581e5ba98c5d518fc02b29cb37a91a8389b9bcb67edf4f4984ef4dc2ded2b"
+  },
+  {
+    "figure": "10_case_proposal_hit_final_miss_42",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_proposal_hit_final_miss_42.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "d66dba9d63e71318f492722a20412dac2a01cc70a333fe65dff95b28055ab26e",
+    "SVG_SHA": "e603bd6cd8995c467b99f05a9cf2ae0270ac3d2158f58ea7c582d5e42716da14"
+  },
+  {
+    "figure": "10_case_proposal_hit_final_miss_63",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_proposal_hit_final_miss_63.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "07e21ab73855b2abf7fb7148d1960b46ad550099d59d6d0ac66f24dd34725695",
+    "SVG_SHA": "b7214afaadae5ef1b3547823ca9daff0eaf9042fe56b2ac9ebf3190f84bff3dd"
+  },
+  {
+    "figure": "10_case_both_hit_208",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_both_hit_208.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "55a4cca55e01fd70e594a9f26e9fcd4323d715982450e106024d40c3822033bc",
+    "SVG_SHA": "fc820a936d1396809cf052a3e1f0a88d9f3c658a78dd5c0843c9d2106d463dee"
+  },
+  {
+    "figure": "10_case_both_hit_416",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_both_hit_416.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "23ec1af49154dbe068b1f5b64f81fede188d10b9da5be77dcb661df8ee14727e",
+    "SVG_SHA": "f5ce905ffe709dcb799a3f1555c5ee3ebff279f9ac2e09395d852eced75f6a90"
+  },
+  {
+    "figure": "10_case_both_hit_624",
+    "source_data": [
+      "mechanism_case_manifest.csv",
+      "case_both_hit_624.json",
+      "tensor_manifest.csv"
+    ],
+    "claim": "Frozen rank-selected real mechanism case; all20 paths retained",
+    "PNG_SHA": "ccaaee974b88dac8fab12465bdef10391c681258422a9cfd8750562fcdee1079",
+    "SVG_SHA": "c366996404789ce82c97131592778b3a1af91eaf133a9fded8315b341bfd6eda"
+  }
+]

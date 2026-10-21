@@ -1,0 +1,63 @@
+{
+  "source_SHA": "7193d43679f0fd140c0bcdc89cadd8d1638cf1a33fd01ec04e097a09e6937884",
+  "classification_thresholds_unchanged": true,
+  "primary_recommendation": "MECHANISM_INCONCLUSIVE",
+  "no_sampling_or_model_change": true,
+  "raw_support_summary": {
+    "actual_25px_zero_mass_targets": 77,
+    "raw_positive_neighborhood_removed_by_threshold": 77,
+    "raw_sigmoid_neighborhood_zero": 0,
+    "scope": "Ancillary decomposition of already frozen zero-support event; no threshold changed, no counterfactual resampling or causal claim",
+    "source_SHA": "4371b02c7cd7b08d3dcf4a5b4ddda81d7a98aea74a6061afc2a262a9a68b2c72"
+  },
+  "history_contrasts": [
+    {
+      "factor": "hist_speed_group",
+      "group": "low",
+      "targets": 266,
+      "compression_loss_fraction": 0.0075187969924812,
+      "support_zero_fraction": 0.03383458646616541,
+      "final_miss_fraction": 0.041353383458646586
+    },
+    {
+      "factor": "hist_speed_group",
+      "group": "high",
+      "targets": 497,
+      "compression_loss_fraction": 0.1267605633802817,
+      "support_zero_fraction": 0.10462776659959759,
+      "final_miss_fraction": 0.2334004024144869
+    },
+    {
+      "factor": "hist_turn_group",
+      "group": "straight",
+      "targets": 322,
+      "compression_loss_fraction": 0.0745341614906832,
+      "support_zero_fraction": 0.055900621118012424,
+      "final_miss_fraction": 0.13354037267080743
+    },
+    {
+      "factor": "hist_turn_group",
+      "group": "turning_ge30deg",
+      "targets": 270,
+      "compression_loss_fraction": 0.1333333333333333,
+      "support_zero_fraction": 0.14444444444444443,
+      "final_miss_fraction": 0.2777777777777778
+    },
+    {
+      "factor": "hist_speed_change_group",
+      "group": "stable_CVle0.15",
+      "targets": 394,
+      "compression_loss_fraction": 0.098984771573604,
+      "support_zero_fraction": 0.06091370558375635,
+      "final_miss_fraction": 0.1624365482233503
+    },
+    {
+      "factor": "hist_speed_change_group",
+      "group": "variable_CVge0.4",
+      "targets": 164,
+      "compression_loss_fraction": 0.0975609756097561,
+      "support_zero_fraction": 0.18292682926829268,
+      "final_miss_fraction": 0.2804878048780488
+    }
+  ]
+}

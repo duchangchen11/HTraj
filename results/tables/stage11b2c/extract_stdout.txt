@@ -1,0 +1,65 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+EXPORT 50 /998 seconds 16 GPU_total 35
+EXPORT 100 /998 seconds 31 GPU_total 50
+EXPORT 150 /998 seconds 46 GPU_total 65
+EXPORT 200 /998 seconds 61 GPU_total 80
+EXPORT 250 /998 seconds 75 GPU_total 94
+EXPORT 300 /998 seconds 90 GPU_total 109
+EXPORT 350 /998 seconds 105 GPU_total 124
+EXPORT 400 /998 seconds 119 GPU_total 138
+EXPORT 450 /998 seconds 135 GPU_total 154
+EXPORT 500 /998 seconds 150 GPU_total 169
+EXPORT 550 /998 seconds 168 GPU_total 187
+EXPORT 600 /998 seconds 184 GPU_total 203
+EXPORT 650 /998 seconds 203 GPU_total 222
+EXPORT 700 /998 seconds 220 GPU_total 239
+EXPORT 750 /998 seconds 237 GPU_total 256
+EXPORT 800 /998 seconds 255 GPU_total 274
+EXPORT 850 /998 seconds 272 GPU_total 291
+EXPORT 900 /998 seconds 289 GPU_total 308
+EXPORT 950 /998 seconds 306 GPU_total 325
+REVERSE_REGRESSION 50 /998 GPU_total 357
+REVERSE_REGRESSION 100 /998 GPU_total 373
+REVERSE_REGRESSION 150 /998 GPU_total 390
+REVERSE_REGRESSION 200 /998 GPU_total 407
+REVERSE_REGRESSION 250 /998 GPU_total 424
+REVERSE_REGRESSION 300 /998 GPU_total 442
+REVERSE_REGRESSION 350 /998 GPU_total 459
+REVERSE_REGRESSION 400 /998 GPU_total 477
+REVERSE_REGRESSION 450 /998 GPU_total 493
+REVERSE_REGRESSION 500 /998 GPU_total 510
+REVERSE_REGRESSION 550 /998 GPU_total 525
+REVERSE_REGRESSION 600 /998 GPU_total 540
+REVERSE_REGRESSION 650 /998 GPU_total 554
+REVERSE_REGRESSION 700 /998 GPU_total 569
+REVERSE_REGRESSION 750 /998 GPU_total 583
+REVERSE_REGRESSION 800 /998 GPU_total 597
+REVERSE_REGRESSION 850 /998 GPU_total 612
+REVERSE_REGRESSION 900 /998 GPU_total 627
+REVERSE_REGRESSION 950 /998 GPU_total 642
+GENERATION_FINISHED GENERATION_AND_FULL_REGRESSION_COMPLETE generated 998 reverse 998

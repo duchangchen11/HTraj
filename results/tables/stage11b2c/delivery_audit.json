@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "all_history_SHA_unchanged": true,
+  "history_files": 91092,
+  "all_frozen_numerical_files_unchanged": true,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "all998_cache_file_SHA_dtype_finite_and_old_goals_paths_verified": true,
+  "all998_reverse_bitwise": true,
+  "original_sampler_unchanged": true,
+  "training_steps": 0,
+  "test_scoring": false,
+  "new_GPU_seconds": 658.4699292129953,
+  "figure_pairs": 19,
+  "all_SVG_parse": true,
+  "tests": {
+    "tests": 615,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "skipped_tests": [
+    {
+      "test": "test_deterministic_cuda_gaussian_integration",
+      "reason": "CUDA compatibility check"
+    }
+  ],
+  "full_test_collection_error_preserved": "full_tests_failed_collection.txt/xml; resolved only by renaming new colliding test filename",
+  "no_large_cache_data_or_weights_in_delivery": true,
+  "free_disk_bytes": 134972760064,
+  "source_commit": "746d4e993a883ea7abc1b024cfe36cb3e4bc3eef"
+}

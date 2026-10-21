@@ -1,0 +1,99 @@
+{
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "checkpoint": {
+    "path": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+    "SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312"
+  },
+  "original_prediction": {
+    "path": "experiments/stage11b1c/cache/predictions/epoch030.pt",
+    "SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab"
+  },
+  "original_data_artifacts": {
+    "train": {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+      "targets": 7496,
+      "recordings": 25,
+      "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    "validation": {
+      "path": "experiments/stage11b1/cache/validation_only.pkl",
+      "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+      "targets": 998,
+      "recordings": 5,
+      "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    }
+  },
+  "all_source_artifact_SHA_verified_by_original_loader": true,
+  "input_export": {
+    "validation_history_only": {
+      "path": "experiments/stage11b2c/cache/validation_history_only.pt",
+      "sha256": "b484f5b320908e39ad56f91baf677f000afc8328984f31e72ab98f3a0e53c495"
+    },
+    "precheck_history_only": {
+      "path": "experiments/stage11b2c/cache/precheck_history_only.pt",
+      "sha256": "5d9b414569a957cc504246a1089729915f3f2ee7f864ebcc935921c6f260905c"
+    },
+    "counterfactual_history_only": {
+      "path": "experiments/stage11b2c/cache/counterfactual_history_only.pt",
+      "sha256": "d672066eb3512e038da749c88004c72636552ca80e5af1d648a428051b73fb34"
+    }
+  },
+  "validation_manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df",
+  "reference_images": {
+    "bookstore_0": {
+      "reference_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "height": 1088,
+      "width": 1424,
+      "resized_height": 272,
+      "resized_width": 356
+    },
+    "bookstore_2": {
+      "reference_SHA": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4",
+      "height": 1079,
+      "width": 1422,
+      "resized_height": 270,
+      "resized_width": 356
+    },
+    "deathCircle_3": {
+      "reference_SHA": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6",
+      "height": 1904,
+      "width": 1400,
+      "resized_height": 476,
+      "resized_width": 350
+    },
+    "gates_7": {
+      "reference_SHA": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d",
+      "height": 1982,
+      "width": 1334,
+      "resized_height": 496,
+      "resized_width": 334
+    },
+    "hyang_7": {
+      "reference_SHA": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18",
+      "height": 1940,
+      "width": 1450,
+      "resized_height": 485,
+      "resized_width": 362
+    },
+    "nexus_4": {
+      "reference_SHA": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc",
+      "height": 1759,
+      "width": 1284,
+      "resized_height": 440,
+      "resized_width": 321
+    }
+  },
+  "source_manifests": {
+    "development_source_manifest_SHA": "71d36755136cd8abf317b7077e3de9899ac03ad0f519c5a1490b0e3b36afbb12",
+    "author_source_train_SHA": "c09bacaf06cfdd336c61fb132e6cd61e1d6b2581f284f276f722155a0434cb01"
+  },
+  "original_evaluation_config_SHA": "1ca1730e1222506bcf80f2d2a8ffbcd2e106a228849acf39713aa2fe1af2e00f",
+  "sampling_protocol_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "author_model_config": {
+    "path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/config/sdd_trajnet.yaml",
+    "SHA": "c2c36b3d979762873ceab12b8a5450c9d7368eb182154b7caae912b08757dcfa"
+  },
+  "segmentation_checkpoint_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "test_loaded": false
+}

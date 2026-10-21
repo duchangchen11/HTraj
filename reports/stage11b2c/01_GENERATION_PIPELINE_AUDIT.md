@@ -15,3 +15,5 @@ Sigmoid不是全局概率；原float32归一化权重也可能因舍入使float6
 画布坐标按原实现 `x_original=x_network/.25`，padding仅在右/下方。概率质量和样点距离均在原像素域计算；单独记录原参考图、resize后尺寸、网络画布、padding概率质量和GT内外标记，不把padding称为真实场景。
 
 原始来源：冻结官方 `ynet/test.py:99-122`、`utils/image_utils.py:92-119`；维护仓库commit `a345ada1557f53dc2acb4c07f71d340d366980da`（MIT）；Stage11B-1R原adapter只读。
+
+原trace的probability_SHA命名沿用历史，它对应Sigmoid权重图而非全局概率。原阶段没有单独保存逐场景语义张量SHA，本阶段记录新语义缓存SHA，并以同一RGB/分割权重/预处理源码、完整998预测中间SHA及语义重算逐位一致共同核验输入一致性，不虚构不存在的旧语义缓存SHA。

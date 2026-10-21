@@ -1,0 +1,11 @@
+{
+  "worker": "extract",
+  "started_commit": "746d4e993a883ea7abc1b024cfe36cb3e4bc3eef",
+  "returncode": 0,
+  "wall_seconds": 645.6159832809935,
+  "prior_seconds": 12.853945932001807,
+  "cumulative_seconds": 658.4699292129953,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+}

@@ -1,0 +1,8 @@
+claim,status,evidence
+Original generation and all998 reverse outputs preserved,SUPPORTED,All tensor bitwise and five original SHA checks
+Original proposals hit25px but final goals lose coverage,SUPPORTED,86 targets
+One dominant bottleneck generalizes consistently across recordings,PARTIALLY_SUPPORTED,Pooled86 compression/77 zero support; deathCircle67 zero/65compression vs other4 10zero/21compression; mechanism inconclusive
+Finite random draws with positive support are the main observed failure source,NOT_SUPPORTED,Only1/164 final misses has positive mass but no proposal hit
+Semantic unreliability caused goal distribution errors,UNVERIFIED,No semantic ground truth or controlled semantic intervention
+Softargmax failures are proven to be caused by multimodal averaging,UNVERIFIED,No preregistered mode identification/intervention; softargmax uses distinct logit exponential weights
+Current evidence is sufficient to launch a novel algorithm,NOT_SUPPORTED,Mixed recording mechanisms; prior-art equivalence and new intervention benefits not established

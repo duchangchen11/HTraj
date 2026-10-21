@@ -1,0 +1,1 @@
+{'actual_25px_zero_mass_targets': 77, 'raw_positive_neighborhood_removed_by_threshold': 77, 'raw_sigmoid_neighborhood_zero': 0, 'scope': 'Ancillary decomposition of already frozen zero-support event; no threshold changed, no counterfactual resampling or causal claim', 'source_SHA': '4371b02c7cd7b08d3dcf4a5b4ddda81d7a98aea74a6061afc2a262a9a68b2c72'}

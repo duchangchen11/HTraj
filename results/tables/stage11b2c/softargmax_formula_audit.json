@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "Ancillary static-formula/float64 descriptive check; not bitwise recomputation of GPU reduction",
+  "targets": 998,
+  "source_SHA": "7ce30a5c5f37cbfd8c48bd2a9ebf2b3aab19e384afe67e117d4f9f07646d5592",
+  "native_formula_source": "experiments/stage11b0/cache/official/ynet/utils/softargmax.py",
+  "native_source_SHA": "59fc91dc684f483089365108de49d68e807c6a4de4bba2139436ad0d7a99f881",
+  "epsilon_unchanged": 1e-06,
+  "classification_thresholds_unchanged": true,
+  "max_float64_native_coordinate_difference_px": 0.00038768985759091515,
+  "mean_float64_native_coordinate_difference_px": 7.123578005857239e-05,
+  "sampling_and_softargmax_weights_not_identical_definition": true,
+  "multimodal_averaging_failure": "UNVERIFIED"
+}
