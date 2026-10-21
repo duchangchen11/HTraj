@@ -1,0 +1,96 @@
+{
+  "freeze_commit": "bc10478ff5dfcba750aee07cf6e1cdeffa3765aa",
+  "base": "e0c03d3cbabcf73286b34d1456b7dd59b1aa57ea",
+  "analysis_protocol_SHA": "beb5a0294eaad10b055fa63066a96c9a2b3a98ff691a12327bc42199804d4b0d",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "executable_files": [
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    },
+    {
+      "path": "scripts/stage11b2c/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/stage11b2c/adapter.py",
+      "sha256": "00047bc9517c73e7ea11a5f968b51495b68692bf43a47456011c1cfa4bc086b4"
+    },
+    {
+      "path": "scripts/stage11b2c/analysis.py",
+      "sha256": "89515f827206f3a28f3c018a2b568bfb305155ee4684a6f81388b6334252a24f"
+    },
+    {
+      "path": "scripts/stage11b2c/common.py",
+      "sha256": "17fa8beca2d92cad8de31aac3576f5ccca3cdec7e871da69e94c8178f0f1340d"
+    },
+    {
+      "path": "scripts/stage11b2c/extract.py",
+      "sha256": "0cfa4d897ff62cd7411743f7f0dbe7f7516887c63ddacc463d52bd565a514843"
+    },
+    {
+      "path": "scripts/stage11b2c/freeze.py",
+      "sha256": "5b4b48cc792add3fcf2c7ff82cbf9de3fff680e5db65ac74e0b89246eee46cb6"
+    },
+    {
+      "path": "scripts/stage11b2c/launch.py",
+      "sha256": "c2e7dffae9b8dfb76117b3de39aee060e26cb760f196db62a78978a5d6eb7ac9"
+    },
+    {
+      "path": "scripts/stage11b2c/math_audit.py",
+      "sha256": "dffe806e1a823c21c71beeab3319a9777124664925ecf80db0929809dcca05e1"
+    },
+    {
+      "path": "scripts/stage11b2c/precheck.py",
+      "sha256": "cf10e5407a9110a93368e666601554b8811e3c9ba68a28055f01da2155234e06"
+    },
+    {
+      "path": "scripts/stage11b2c/prepare.py",
+      "sha256": "67b4998dcb52b5a3fc77f2c7673a8d328857a06578afd6274b6f8ec0726fa428"
+    },
+    {
+      "path": "scripts/stage11b2c/protect.py",
+      "sha256": "599ff1bce914b360d98172cbac79d4254bd7c4b002f9a6adbef348584a2eb58d"
+    },
+    {
+      "path": "scripts/stage11b2c/protocol.py",
+      "sha256": "f15168c1c6f1dd7190bdab7161f55412dc497bc867618ef148095c9ed5a20dc0"
+    },
+    {
+      "path": "scripts/stage11b2c/tests/test_mechanism.py",
+      "sha256": "58658007e3ead9cc95eefc0831ff4223288a637a20729eee4342cc284f8d5dea"
+    },
+    {
+      "path": "scripts/stage11b2c/worker_common.py",
+      "sha256": "10eeb386a59dd522fe099c354fa40f1c619b59d82b01229f2f35186cc26227d3"
+    }
+  ],
+  "input_export_SHA": "5058b9a94417f7f6240c9d5ae9e4040e739ca3f05da77b0d4df5978a9e16cfb7",
+  "sampler_protocol_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "historical_motion_labels_SHA": "ef12c3fb87730daeb58dc855253e9c5ae3f328f251a004c96bc316687e371a70",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "Python": "3.10.21",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.2",
+    "segmentation-models-pytorch": "0.1.0"
+  },
+  "no_training": true,
+  "no_GT_in_GPU_inputs": true,
+  "all998_double_pass_required": true
+}
