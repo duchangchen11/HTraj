@@ -1,0 +1,31 @@
+{
+  "best_epoch": 30,
+  "best_at_training_boundary": true,
+  "unit": "original reference pixels",
+  "loss_epoch1": 27.827996931516882,
+  "loss_epoch25": 0.09213386730488743,
+  "loss_epoch30": 0.0918513522021226,
+  "minADE20_epoch25_to30": -0.48696766343720554,
+  "ADE1_epoch25_to30": 0.39856666576595146,
+  "FDE1_epoch25_to30": 0.8819482174784241,
+  "goal_coverage": {
+    "within_10px": 0.5100200400801603,
+    "within_25px": 0.8356713426853707,
+    "within_50px": 0.9008016032064128
+  },
+  "geometry": {
+    "outside_points": 51,
+    "total_predicted_points": 239520,
+    "max_step_pixels": 240.26193237304688
+  },
+  "peak_allocated_bytes": 2635040768,
+  "peak_reserved_bytes": 4412407808,
+  "train_epoch_seconds_mean": 461.93477556676663,
+  "K1_advantage_not_uniform_across_recordings": true,
+  "no_statistical_independence_claim": true,
+  "convergence": "Budget truncated; endpoint oracle still improves while K1 regresses fromepoch25 to30",
+  "baseline_engineering_GO": true,
+  "automatic_extension": false,
+  "semantic_innovation_GO": false,
+  "GPU_used_by_this_analysis": false
+}

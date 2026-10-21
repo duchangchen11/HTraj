@@ -1,0 +1,10 @@
+{
+  "worker": "train",
+  "started_commit": "6c9ed2413c0086df7d39b393e414460b671b6fe8",
+  "returncode": 0,
+  "wall_seconds": 16151.882225823,
+  "prior_seconds": 18.162617084002704,
+  "cumulative_seconds": 16170.044842907002,
+  "hard_seconds": 28800,
+  "interpretation": "Whole GPU worker process wall, including import/load/save; final CPU-only reporting excluded"
+}

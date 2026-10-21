@@ -1,0 +1,1 @@
+Post-run paired comparisons, geometry, convergence and budget accounting saved; CPU only

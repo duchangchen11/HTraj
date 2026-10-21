@@ -1,0 +1,8 @@
+{
+  "scope": "Post-training CPU-only audits and actual-data visualization; no model or experiment code changes",
+  "independent_scorer_tolerance_pixels": 1e-08,
+  "independent_scorer": "float64 NumPy Euclidean distances on all saved predictions",
+  "tolerance_fixed_before_audit": true,
+  "formal_executable_files_unchanged": true,
+  "run_completed_before_new_audit_scripts": true
+}

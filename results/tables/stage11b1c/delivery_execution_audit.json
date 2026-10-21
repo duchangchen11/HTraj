@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "completed_epochs": 30,
+  "total_optimizer_updates": 56460,
+  "total_training_target_visits": 224880,
+  "checkpoint_count": 31,
+  "checkpoint_states": [
+    {
+      "role": "best",
+      "epoch": 30,
+      "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+      "segmentation_bitwise_unchanged": true,
+      "updated_predictor_tensors": 90,
+      "Adam_state_tensors": 90,
+      "RNG_complete": true
+    },
+    {
+      "role": "last",
+      "epoch": 30,
+      "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+      "segmentation_bitwise_unchanged": true,
+      "updated_predictor_tensors": 90,
+      "Adam_state_tensors": 90,
+      "RNG_complete": true
+    }
+  ],
+  "predictions": [
+    {
+      "epoch": 1,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "8a209b7c75192466cf735fc65d70350c5ef15f679c44ccc4bf0e9336b1343ce9",
+      "checkpoint_SHA": "64a21cd761b9b960a1815c4fce8b7b4d4a330ef525b1506f6b62eb6d50e023c4",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 5,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "988ef723225109130391202b9f2bc1258a648f5616aabd4cc61ef9b945fa819d",
+      "checkpoint_SHA": "6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 10,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "a348ad6a0e403d5f9759d538b218aeb4ebfd8387a2bda5e7d6eb9127d5b681ea",
+      "checkpoint_SHA": "e5e17884ee21b509d35e9924c3f49ba25a01c65fd64b987408086a236a97c131",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 15,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "3c922dfd738a6d63617c378990c6ca634cbd014fd1efb7096b00f0c4e51fd1d0",
+      "checkpoint_SHA": "5a3f622625fa54a1df4157853fab61143194c9b3edfd5eefc1ca3082371d5847",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 20,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "446a6d98f1d48f73af479ac02e6fbf0e72e4b41367184db5924d38196806f50a",
+      "checkpoint_SHA": "dbca1b671a06c84227bcfaac2947245fe5b1256383cc1ad689363d752f4865fa",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 25,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "483427d1d14b8ae7ba468debd381f049af8aa56e36f9348b9ac8fdcf23c1a49c",
+      "checkpoint_SHA": "24cbc17d0ac5c6095c99a0f6821544be2c235e4bd3f25fc8cae5ad2517f6f2c2",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    },
+    {
+      "epoch": 30,
+      "targets": 998,
+      "K": 20,
+      "proposals": 10000,
+      "prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+      "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+      "runtime_reproducibility_gates": 6,
+      "finite": true,
+      "identity_GT_history_matched": true
+    }
+  ],
+  "independent_scorer": "NumPy float64 Euclidean distances; six main metrics, all998 targets, all7 validation epochs",
+  "prespecified_tolerance_pixels": 1e-08,
+  "source_freeze_unchanged": true,
+  "gradient_norm_min": 0.006233786303623713,
+  "gradient_norm_max": 6596.007370321314,
+  "gradient_norm_median": 0.23526300150426674,
+  "test_evaluated": false,
+  "audit_script_SHA": "6c18ac883ccef6b91ed3f7d52f0a377416e42c6893fece87345c29612a8bf3dc"
+}

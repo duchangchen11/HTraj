@@ -1,0 +1,21 @@
+{
+  "worker": "final_unit_tests",
+  "wall_seconds": 28.835189939993143,
+  "returncode": 0,
+  "command": [
+    "experiments/stage11ap/cache/venv/bin/python",
+    "-m",
+    "pytest",
+    "tests",
+    "scripts/stage11a/tests",
+    "scripts/stage11ap/tests",
+    "scripts/stage11b0/tests",
+    "scripts/stage11b1/tests",
+    "scripts/stage11b1r/tests",
+    "scripts/stage11b1c/tests",
+    "-q",
+    "--junitxml=results/tables/stage11b1c/full_unit_tests.xml"
+  ],
+  "scope": "Full regression process conservatively charged to GPU budget; some tests save CUDA RNG",
+  "actual_GPU_kernel_time_measured": false
+}

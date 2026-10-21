@@ -1,0 +1,1 @@
+Summary: COMPLETED_30_EPOCHS epochs 30 best 30 GPU 16198.88

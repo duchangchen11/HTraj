@@ -1,0 +1,113 @@
+{
+  "rule": "Bounding box of all existing history, GT,20 paths and20 goals, plus max(10% span,20px) per axis",
+  "cases": [
+    {
+      "case": "case_low_1",
+      "x_min": 11.235410000000002,
+      "x_max": 109.96363,
+      "y_min": 718.0926,
+      "y_max": 845.4821,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_low_2",
+      "x_min": 244.6667,
+      "x_max": 364.50922,
+      "y_min": 1168.6586,
+      "y_max": 1288.4406,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_low_3",
+      "x_min": 57.07785,
+      "x_max": 163.27689,
+      "y_min": 103.336784,
+      "y_max": 246.76358,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_high_1",
+      "x_min": 241.06415199999998,
+      "x_max": 486.994168,
+      "y_min": 8.348797999999995,
+      "y_max": 502.163222,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_high_2",
+      "x_min": 935.85303,
+      "x_max": 1423.61667,
+      "y_min": 925.6632199999999,
+      "y_max": 1212.80978,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_high_3",
+      "x_min": -30.80686,
+      "x_max": 693.23546,
+      "y_min": 173.01722199999998,
+      "y_max": 963.3143980000001,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_large_goal_1",
+      "x_min": 1013.02616,
+      "x_max": 1318.7122399999998,
+      "y_min": 810.8905,
+      "y_max": 1001.4495,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_large_goal_2",
+      "x_min": 126.5,
+      "x_max": 345.5,
+      "y_min": 756.27762,
+      "y_max": 1172.94618,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    },
+    {
+      "case": "case_large_goal_3",
+      "x_min": -21.965419999999995,
+      "x_max": 583.6196199999999,
+      "y_min": -8.491979,
+      "y_max": 182.0,
+      "paths": 20,
+      "goals": 20,
+      "all_coordinates_inside_view": true,
+      "coordinate_changes": false,
+      "image_adjustments": false
+    }
+  ]
+}

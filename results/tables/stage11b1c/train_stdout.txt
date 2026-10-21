@@ -1,0 +1,761 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+TRAIN epoch 1 step 100 scene gates_3 loss 1.817638 GPU_process_elapsed 52
+TRAIN epoch 1 step 200 scene gates_8 loss 0.232624 GPU_process_elapsed 80
+TRAIN epoch 1 step 300 scene bookstore_3 loss 0.29996 GPU_process_elapsed 98
+TRAIN epoch 1 step 400 scene deathCircle_1 loss 0.136575 GPU_process_elapsed 121
+TRAIN epoch 1 step 500 scene deathCircle_1 loss 0.12398 GPU_process_elapsed 146
+TRAIN epoch 1 step 600 scene nexus_9 loss 0.111603 GPU_process_elapsed 173
+TRAIN epoch 1 step 700 scene deathCircle_0 loss 0.098099 GPU_process_elapsed 204
+TRAIN epoch 1 step 800 scene nexus_7 loss 0.107858 GPU_process_elapsed 234
+TRAIN epoch 1 step 900 scene coupa_3 loss 0.119535 GPU_process_elapsed 260
+TRAIN epoch 1 step 1000 scene coupa_3 loss 0.145856 GPU_process_elapsed 283
+TRAIN epoch 1 step 1100 scene bookstore_1 loss 0.175999 GPU_process_elapsed 303
+TRAIN epoch 1 step 1200 scene hyang_5 loss 0.101275 GPU_process_elapsed 324
+TRAIN epoch 1 step 1300 scene bookstore_0 loss 0.158641 GPU_process_elapsed 350
+TRAIN epoch 1 step 1400 scene bookstore_0 loss 0.162949 GPU_process_elapsed 368
+TRAIN epoch 1 step 1500 scene nexus_0 loss 0.111965 GPU_process_elapsed 388
+TRAIN epoch 1 step 1600 scene nexus_8 loss 0.110113 GPU_process_elapsed 414
+TRAIN epoch 1 step 1700 scene gates_0 loss 0.102718 GPU_process_elapsed 431
+TRAIN epoch 1 step 1800 scene nexus_1 loss 0.086618 GPU_process_elapsed 459
+EPOCH_COMPLETE 1 loss 27.827997 seconds 460.29 checkpoint 64a21cd761b9b960a1815c4fce8b7b4d4a330ef525b1506f6b62eb6d50e023c4
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+VALIDATE epoch 1 target 50 /998 seconds 12
+VALIDATE epoch 1 target 100 /998 seconds 25
+VALIDATE epoch 1 target 150 /998 seconds 37
+VALIDATE epoch 1 target 200 /998 seconds 50
+VALIDATE epoch 1 target 250 /998 seconds 76
+VALIDATE epoch 1 target 300 /998 seconds 100
+VALIDATE epoch 1 target 350 /998 seconds 122
+VALIDATE epoch 1 target 400 /998 seconds 149
+VALIDATE epoch 1 target 450 /998 seconds 167
+VALIDATE epoch 1 target 500 /998 seconds 180
+VALIDATE epoch 1 target 550 /998 seconds 194
+VALIDATE epoch 1 target 600 /998 seconds 208
+VALIDATE epoch 1 target 650 /998 seconds 224
+VALIDATE epoch 1 target 700 /998 seconds 240
+VALIDATE epoch 1 target 750 /998 seconds 255
+VALIDATE epoch 1 target 800 /998 seconds 271
+VALIDATE epoch 1 target 850 /998 seconds 287
+VALIDATE epoch 1 target 900 /998 seconds 303
+VALIDATE epoch 1 target 950 /998 seconds 319
+VALIDATION_COMPLETE 1 ADE1 60.025676 FDE1 97.741915 minADE20 57.92123 minFDE20 94.178975 seconds 337.9
+TRAIN epoch 2 step 1900 scene nexus_1 loss 0.088565 GPU_process_elapsed 827
+TRAIN epoch 2 step 2000 scene nexus_1 loss 0.094858 GPU_process_elapsed 855
+TRAIN epoch 2 step 2100 scene bookstore_0 loss 0.135106 GPU_process_elapsed 879
+TRAIN epoch 2 step 2200 scene bookstore_0 loss 0.165444 GPU_process_elapsed 897
+TRAIN epoch 2 step 2300 scene nexus_0 loss 0.102277 GPU_process_elapsed 918
+TRAIN epoch 2 step 2400 scene nexus_8 loss 0.096637 GPU_process_elapsed 945
+TRAIN epoch 2 step 2500 scene hyang_5 loss 0.094099 GPU_process_elapsed 973
+TRAIN epoch 2 step 2600 scene hyang_4 loss 0.113458 GPU_process_elapsed 990
+TRAIN epoch 2 step 2700 scene nexus_7 loss 0.094174 GPU_process_elapsed 1018
+TRAIN epoch 2 step 2800 scene deathCircle_1 loss 0.112681 GPU_process_elapsed 1045
+TRAIN epoch 2 step 2900 scene deathCircle_1 loss 0.09554 GPU_process_elapsed 1070
+TRAIN epoch 2 step 3000 scene deathCircle_0 loss 0.087373 GPU_process_elapsed 1096
+TRAIN epoch 2 step 3100 scene deathCircle_0 loss 0.088303 GPU_process_elapsed 1127
+TRAIN epoch 2 step 3200 scene bookstore_1 loss 0.154411 GPU_process_elapsed 1150
+TRAIN epoch 2 step 3300 scene coupa_3 loss 0.103832 GPU_process_elapsed 1169
+TRAIN epoch 2 step 3400 scene coupa_3 loss 0.095057 GPU_process_elapsed 1191
+TRAIN epoch 2 step 3500 scene bookstore_3 loss 0.16128 GPU_process_elapsed 1210
+TRAIN epoch 2 step 3600 scene gates_1 loss 0.100349 GPU_process_elapsed 1232
+TRAIN epoch 2 step 3700 scene nexus_9 loss 0.084946 GPU_process_elapsed 1261
+EPOCH_COMPLETE 2 loss 0.113791 seconds 457.66 checkpoint 9a354b92015cfd6decc5f5e628538f8c8ae18c6e3f1c8be1ed64ba1c1bd0dbba
+TRAIN epoch 3 step 3800 scene nexus_1 loss 0.080989 GPU_process_elapsed 1290
+TRAIN epoch 3 step 3900 scene nexus_1 loss 0.086095 GPU_process_elapsed 1318
+TRAIN epoch 3 step 4000 scene nexus_8 loss 0.093649 GPU_process_elapsed 1345
+TRAIN epoch 3 step 4100 scene coupa_3 loss 0.096505 GPU_process_elapsed 1368
+TRAIN epoch 3 step 4200 scene deathCircle_1 loss 0.103518 GPU_process_elapsed 1391
+TRAIN epoch 3 step 4300 scene deathCircle_1 loss 0.099916 GPU_process_elapsed 1416
+TRAIN epoch 3 step 4400 scene nexus_0 loss 0.090534 GPU_process_elapsed 1441
+TRAIN epoch 3 step 4500 scene gates_5 loss 0.084518 GPU_process_elapsed 1469
+TRAIN epoch 3 step 4600 scene deathCircle_0 loss 0.070445 GPU_process_elapsed 1500
+TRAIN epoch 3 step 4700 scene bookstore_0 loss 0.146672 GPU_process_elapsed 1529
+TRAIN epoch 3 step 4800 scene bookstore_0 loss 0.138633 GPU_process_elapsed 1546
+TRAIN epoch 3 step 4900 scene hyang_6 loss 0.187028 GPU_process_elapsed 1564
+TRAIN epoch 3 step 5000 scene bookstore_3 loss 0.156174 GPU_process_elapsed 1579
+TRAIN epoch 3 step 5100 scene bookstore_1 loss 0.134055 GPU_process_elapsed 1596
+TRAIN epoch 3 step 5200 scene bookstore_1 loss 0.143657 GPU_process_elapsed 1614
+TRAIN epoch 3 step 5300 scene gates_3 loss 0.081338 GPU_process_elapsed 1640
+TRAIN epoch 3 step 5400 scene nexus_7 loss 0.082713 GPU_process_elapsed 1668
+TRAIN epoch 3 step 5500 scene gates_1 loss 0.073776 GPU_process_elapsed 1696
+TRAIN epoch 3 step 5600 scene hyang_5 loss 0.085867 GPU_process_elapsed 1724
+EPOCH_COMPLETE 3 loss 0.105092 seconds 458.19 checkpoint 9408d181d399bb2cd42888b1c17be2b9a9d99d472c7945a37105236db55dfa99
+TRAIN epoch 4 step 5700 scene nexus_1 loss 0.075657 GPU_process_elapsed 1753
+TRAIN epoch 4 step 5800 scene nexus_1 loss 0.083037 GPU_process_elapsed 1782
+TRAIN epoch 4 step 5900 scene hyang_5 loss 0.081144 GPU_process_elapsed 1810
+TRAIN epoch 4 step 6000 scene nexus_7 loss 0.086904 GPU_process_elapsed 1837
+TRAIN epoch 4 step 6100 scene nexus_0 loss 0.090826 GPU_process_elapsed 1865
+TRAIN epoch 4 step 6200 scene deathCircle_1 loss 0.090118 GPU_process_elapsed 1890
+TRAIN epoch 4 step 6300 scene hyang_6 loss 0.21946 GPU_process_elapsed 1914
+TRAIN epoch 4 step 6400 scene bookstore_1 loss 0.121669 GPU_process_elapsed 1931
+TRAIN epoch 4 step 6500 scene bookstore_1 loss 0.125738 GPU_process_elapsed 1949
+TRAIN epoch 4 step 6600 scene bookstore_3 loss 0.15133 GPU_process_elapsed 1974
+TRAIN epoch 4 step 6700 scene deathCircle_0 loss 0.077644 GPU_process_elapsed 1991
+TRAIN epoch 4 step 6800 scene deathCircle_0 loss 0.077606 GPU_process_elapsed 2023
+TRAIN epoch 4 step 6900 scene gates_0 loss 0.084377 GPU_process_elapsed 2051
+TRAIN epoch 4 step 7000 scene bookstore_0 loss 0.129258 GPU_process_elapsed 2069
+TRAIN epoch 4 step 7100 scene bookstore_0 loss 0.134567 GPU_process_elapsed 2087
+TRAIN epoch 4 step 7200 scene coupa_3 loss 0.099304 GPU_process_elapsed 2115
+TRAIN epoch 4 step 7300 scene coupa_3 loss 0.102525 GPU_process_elapsed 2137
+TRAIN epoch 4 step 7400 scene nexus_8 loss 0.08451 GPU_process_elapsed 2162
+TRAIN epoch 4 step 7500 scene gates_3 loss 0.086029 GPU_process_elapsed 2190
+EPOCH_COMPLETE 4 loss 0.101324 seconds 461.32 checkpoint 96005b728214126cc60f86541f20a801ec40aa77b2b4324c5a3f9e053077bf0c
+TRAIN epoch 5 step 7600 scene coupa_3 loss 0.091612 GPU_process_elapsed 2215
+TRAIN epoch 5 step 7700 scene hyang_5 loss 0.082576 GPU_process_elapsed 2238
+TRAIN epoch 5 step 7800 scene deathCircle_1 loss 0.079234 GPU_process_elapsed 2266
+TRAIN epoch 5 step 7900 scene deathCircle_1 loss 0.081318 GPU_process_elapsed 2291
+TRAIN epoch 5 step 8000 scene nexus_0 loss 0.088891 GPU_process_elapsed 2316
+TRAIN epoch 5 step 8100 scene gates_0 loss 0.088374 GPU_process_elapsed 2345
+TRAIN epoch 5 step 8200 scene nexus_8 loss 0.089861 GPU_process_elapsed 2372
+TRAIN epoch 5 step 8300 scene nexus_1 loss 0.076298 GPU_process_elapsed 2400
+TRAIN epoch 5 step 8400 scene nexus_3 loss 0.132003 GPU_process_elapsed 2428
+TRAIN epoch 5 step 8500 scene bookstore_3 loss 0.154424 GPU_process_elapsed 2446
+TRAIN epoch 5 step 8600 scene nexus_7 loss 0.082085 GPU_process_elapsed 2472
+TRAIN epoch 5 step 8700 scene nexus_9 loss 0.071413 GPU_process_elapsed 2499
+TRAIN epoch 5 step 8800 scene hyang_6 loss 0.167173 GPU_process_elapsed 2519
+TRAIN epoch 5 step 8900 scene bookstore_1 loss 0.1252 GPU_process_elapsed 2537
+TRAIN epoch 5 step 9000 scene gates_3 loss 0.083435 GPU_process_elapsed 2560
+TRAIN epoch 5 step 9100 scene deathCircle_0 loss 0.066662 GPU_process_elapsed 2590
+TRAIN epoch 5 step 9200 scene gates_5 loss 0.083547 GPU_process_elapsed 2621
+TRAIN epoch 5 step 9300 scene bookstore_0 loss 0.144444 GPU_process_elapsed 2640
+TRAIN epoch 5 step 9400 scene bookstore_0 loss 0.136721 GPU_process_elapsed 2658
+EPOCH_COMPLETE 5 loss 0.100536 seconds 461.89 checkpoint 6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8
+VALIDATE epoch 5 target 50 /998 seconds 15
+VALIDATE epoch 5 target 100 /998 seconds 30
+VALIDATE epoch 5 target 150 /998 seconds 44
+VALIDATE epoch 5 target 200 /998 seconds 59
+VALIDATE epoch 5 target 250 /998 seconds 74
+VALIDATE epoch 5 target 300 /998 seconds 88
+VALIDATE epoch 5 target 350 /998 seconds 103
+VALIDATE epoch 5 target 400 /998 seconds 118
+VALIDATE epoch 5 target 450 /998 seconds 133
+VALIDATE epoch 5 target 500 /998 seconds 147
+VALIDATE epoch 5 target 550 /998 seconds 163
+VALIDATE epoch 5 target 600 /998 seconds 179
+VALIDATE epoch 5 target 650 /998 seconds 197
+VALIDATE epoch 5 target 700 /998 seconds 216
+VALIDATE epoch 5 target 750 /998 seconds 233
+VALIDATE epoch 5 target 800 /998 seconds 252
+VALIDATE epoch 5 target 850 /998 seconds 271
+VALIDATE epoch 5 target 900 /998 seconds 287
+VALIDATE epoch 5 target 950 /998 seconds 304
+VALIDATION_COMPLETE 5 ADE1 50.086436 FDE1 98.430295 minADE20 36.511454 minFDE20 56.914994 seconds 322.89
+TRAIN epoch 6 step 9500 scene deathCircle_1 loss 0.084854 GPU_process_elapsed 3007
+TRAIN epoch 6 step 9600 scene deathCircle_1 loss 0.088529 GPU_process_elapsed 3031
+TRAIN epoch 6 step 9700 scene bookstore_3 loss 0.147516 GPU_process_elapsed 3054
+TRAIN epoch 6 step 9800 scene nexus_1 loss 0.0808 GPU_process_elapsed 3073
+TRAIN epoch 6 step 9900 scene nexus_1 loss 0.078534 GPU_process_elapsed 3102
+TRAIN epoch 6 step 10000 scene hyang_6 loss 0.171224 GPU_process_elapsed 3128
+TRAIN epoch 6 step 10100 scene coupa_3 loss 0.096467 GPU_process_elapsed 3145
+TRAIN epoch 6 step 10200 scene coupa_3 loss 0.089967 GPU_process_elapsed 3167
+TRAIN epoch 6 step 10300 scene gates_3 loss 0.081134 GPU_process_elapsed 3194
+TRAIN epoch 6 step 10400 scene bookstore_0 loss 0.130361 GPU_process_elapsed 3214
+TRAIN epoch 6 step 10500 scene bookstore_0 loss 0.134203 GPU_process_elapsed 3232
+TRAIN epoch 6 step 10600 scene nexus_8 loss 0.086736 GPU_process_elapsed 3257
+TRAIN epoch 6 step 10700 scene bookstore_1 loss 0.126794 GPU_process_elapsed 3276
+TRAIN epoch 6 step 10800 scene gates_1 loss 0.075928 GPU_process_elapsed 3300
+TRAIN epoch 6 step 10900 scene hyang_5 loss 0.080986 GPU_process_elapsed 3329
+TRAIN epoch 6 step 11000 scene nexus_9 loss 0.071206 GPU_process_elapsed 3357
+TRAIN epoch 6 step 11100 scene nexus_7 loss 0.07761 GPU_process_elapsed 3386
+TRAIN epoch 6 step 11200 scene deathCircle_0 loss 0.067616 GPU_process_elapsed 3416
+EPOCH_COMPLETE 6 loss 0.09994 seconds 461.61 checkpoint e1b06d1500943f8a3207ed6c14acb3206721786f94242dcc1914a273ffe506ab
+TRAIN epoch 7 step 11300 scene hyang_5 loss 0.07716 GPU_process_elapsed 3448
+TRAIN epoch 7 step 11400 scene hyang_4 loss 0.088663 GPU_process_elapsed 3476
+TRAIN epoch 7 step 11500 scene nexus_1 loss 0.075809 GPU_process_elapsed 3504
+TRAIN epoch 7 step 11600 scene bookstore_0 loss 0.129126 GPU_process_elapsed 3530
+TRAIN epoch 7 step 11700 scene bookstore_0 loss 0.134426 GPU_process_elapsed 3548
+TRAIN epoch 7 step 11800 scene nexus_3 loss 0.118008 GPU_process_elapsed 3567
+TRAIN epoch 7 step 11900 scene gates_4 loss 0.071874 GPU_process_elapsed 3584
+TRAIN epoch 7 step 12000 scene coupa_3 loss 0.090359 GPU_process_elapsed 3607
+TRAIN epoch 7 step 12100 scene deathCircle_1 loss 0.083318 GPU_process_elapsed 3630
+TRAIN epoch 7 step 12200 scene deathCircle_1 loss 0.09345 GPU_process_elapsed 3655
+TRAIN epoch 7 step 12300 scene bookstore_3 loss 0.139047 GPU_process_elapsed 3677
+TRAIN epoch 7 step 12400 scene gates_3 loss 0.076356 GPU_process_elapsed 3698
+TRAIN epoch 7 step 12500 scene bookstore_1 loss 0.121293 GPU_process_elapsed 3721
+TRAIN epoch 7 step 12600 scene nexus_0 loss 0.079204 GPU_process_elapsed 3741
+TRAIN epoch 7 step 12700 scene nexus_7 loss 0.072693 GPU_process_elapsed 3769
+TRAIN epoch 7 step 12800 scene deathCircle_0 loss 0.067404 GPU_process_elapsed 3800
+TRAIN epoch 7 step 12900 scene nexus_8 loss 0.078835 GPU_process_elapsed 3831
+TRAIN epoch 7 step 13000 scene gates_0 loss 0.080031 GPU_process_elapsed 3857
+TRAIN epoch 7 step 13100 scene gates_5 loss 0.085653 GPU_process_elapsed 3886
+EPOCH_COMPLETE 7 loss 0.097585 seconds 462.15 checkpoint 2da3af7c10cba83fc4794348d7914330bc8b4f2be37ab0fbaae2d83144fb204f
+TRAIN epoch 8 step 13200 scene gates_5 loss 0.082713 GPU_process_elapsed 3915
+TRAIN epoch 8 step 13300 scene nexus_8 loss 0.07664 GPU_process_elapsed 3943
+TRAIN epoch 8 step 13400 scene nexus_7 loss 0.078159 GPU_process_elapsed 3970
+TRAIN epoch 8 step 13500 scene nexus_9 loss 0.074794 GPU_process_elapsed 3998
+TRAIN epoch 8 step 13600 scene hyang_5 loss 0.077184 GPU_process_elapsed 4026
+TRAIN epoch 8 step 13700 scene deathCircle_2 loss 0.075473 GPU_process_elapsed 4055
+TRAIN epoch 8 step 13800 scene bookstore_3 loss 0.136784 GPU_process_elapsed 4072
+TRAIN epoch 8 step 13900 scene coupa_3 loss 0.102825 GPU_process_elapsed 4099
+TRAIN epoch 8 step 14000 scene coupa_3 loss 0.090107 GPU_process_elapsed 4121
+TRAIN epoch 8 step 14100 scene nexus_1 loss 0.070733 GPU_process_elapsed 4146
+TRAIN epoch 8 step 14200 scene nexus_1 loss 0.075975 GPU_process_elapsed 4175
+TRAIN epoch 8 step 14300 scene deathCircle_1 loss 0.089609 GPU_process_elapsed 4201
+TRAIN epoch 8 step 14400 scene deathCircle_1 loss 0.094007 GPU_process_elapsed 4226
+TRAIN epoch 8 step 14500 scene hyang_6 loss 0.167463 GPU_process_elapsed 4243
+TRAIN epoch 8 step 14600 scene bookstore_0 loss 0.128204 GPU_process_elapsed 4261
+TRAIN epoch 8 step 14700 scene bookstore_0 loss 0.127742 GPU_process_elapsed 4279
+TRAIN epoch 8 step 14800 scene deathCircle_0 loss 0.068526 GPU_process_elapsed 4309
+TRAIN epoch 8 step 14900 scene nexus_0 loss 0.083265 GPU_process_elapsed 4338
+TRAIN epoch 8 step 15000 scene bookstore_1 loss 0.120545 GPU_process_elapsed 4358
+EPOCH_COMPLETE 8 loss 0.0953 seconds 461.02 checkpoint 8fadc8b53d16c3f74e2ac9a6a2f9f30578423ddcdefd4e42976934bc627c73fb
+TRAIN epoch 9 step 15100 scene hyang_6 loss 0.163759 GPU_process_elapsed 4376
+TRAIN epoch 9 step 15200 scene nexus_8 loss 0.077377 GPU_process_elapsed 4398
+TRAIN epoch 9 step 15300 scene bookstore_3 loss 0.137285 GPU_process_elapsed 4423
+TRAIN epoch 9 step 15400 scene bookstore_0 loss 0.13032 GPU_process_elapsed 4440
+TRAIN epoch 9 step 15500 scene bookstore_0 loss 0.123122 GPU_process_elapsed 4458
+TRAIN epoch 9 step 15600 scene gates_0 loss 0.084085 GPU_process_elapsed 4477
+TRAIN epoch 9 step 15700 scene deathCircle_0 loss 0.067402 GPU_process_elapsed 4505
+TRAIN epoch 9 step 15800 scene deathCircle_0 loss 0.066093 GPU_process_elapsed 4535
+TRAIN epoch 9 step 15900 scene deathCircle_1 loss 0.09639 GPU_process_elapsed 4561
+TRAIN epoch 9 step 16000 scene deathCircle_1 loss 0.087185 GPU_process_elapsed 4586
+TRAIN epoch 9 step 16100 scene nexus_1 loss 0.069711 GPU_process_elapsed 4614
+TRAIN epoch 9 step 16200 scene bookstore_1 loss 0.124867 GPU_process_elapsed 4641
+TRAIN epoch 9 step 16300 scene bookstore_1 loss 0.120706 GPU_process_elapsed 4659
+TRAIN epoch 9 step 16400 scene gates_3 loss 0.070869 GPU_process_elapsed 4686
+TRAIN epoch 9 step 16500 scene nexus_7 loss 0.070725 GPU_process_elapsed 4715
+TRAIN epoch 9 step 16600 scene gates_1 loss 0.070867 GPU_process_elapsed 4744
+TRAIN epoch 9 step 16700 scene hyang_5 loss 0.079043 GPU_process_elapsed 4773
+TRAIN epoch 9 step 16800 scene coupa_3 loss 0.100273 GPU_process_elapsed 4799
+TRAIN epoch 9 step 16900 scene coupa_3 loss 0.091874 GPU_process_elapsed 4822
+EPOCH_COMPLETE 9 loss 0.094616 seconds 462.43 checkpoint b481c84a519433ab60593822985641904b6f49f865633f1811eb42f3f6b59ae5
+TRAIN epoch 10 step 17000 scene nexus_9 loss 0.071568 GPU_process_elapsed 4849
+TRAIN epoch 10 step 17100 scene coupa_3 loss 0.09596 GPU_process_elapsed 4874
+TRAIN epoch 10 step 17200 scene coupa_3 loss 0.089999 GPU_process_elapsed 4897
+TRAIN epoch 10 step 17300 scene gates_3 loss 0.076712 GPU_process_elapsed 4924
+TRAIN epoch 10 step 17400 scene bookstore_3 loss 0.142376 GPU_process_elapsed 4947
+TRAIN epoch 10 step 17500 scene deathCircle_1 loss 0.081362 GPU_process_elapsed 4967
+TRAIN epoch 10 step 17600 scene deathCircle_1 loss 0.093137 GPU_process_elapsed 4992
+TRAIN epoch 10 step 17700 scene gates_1 loss 0.074165 GPU_process_elapsed 5019
+TRAIN epoch 10 step 17800 scene deathCircle_0 loss 0.066553 GPU_process_elapsed 5048
+TRAIN epoch 10 step 17900 scene deathCircle_0 loss 0.06485 GPU_process_elapsed 5079
+TRAIN epoch 10 step 18000 scene bookstore_0 loss 0.125867 GPU_process_elapsed 5101
+TRAIN epoch 10 step 18100 scene bookstore_0 loss 0.124214 GPU_process_elapsed 5119
+TRAIN epoch 10 step 18200 scene hyang_5 loss 0.077097 GPU_process_elapsed 5145
+TRAIN epoch 10 step 18300 scene nexus_1 loss 0.068585 GPU_process_elapsed 5173
+TRAIN epoch 10 step 18400 scene nexus_1 loss 0.071463 GPU_process_elapsed 5202
+TRAIN epoch 10 step 18500 scene hyang_6 loss 0.167101 GPU_process_elapsed 5228
+TRAIN epoch 10 step 18600 scene nexus_7 loss 0.072084 GPU_process_elapsed 5247
+TRAIN epoch 10 step 18700 scene bookstore_1 loss 0.126496 GPU_process_elapsed 5272
+TRAIN epoch 10 step 18800 scene bookstore_1 loss 0.123735 GPU_process_elapsed 5290
+EPOCH_COMPLETE 10 loss 0.094279 seconds 464.05 checkpoint e5e17884ee21b509d35e9924c3f49ba25a01c65fd64b987408086a236a97c131
+VALIDATE epoch 10 target 50 /998 seconds 18
+VALIDATE epoch 10 target 100 /998 seconds 36
+VALIDATE epoch 10 target 150 /998 seconds 55
+VALIDATE epoch 10 target 200 /998 seconds 72
+VALIDATE epoch 10 target 250 /998 seconds 89
+VALIDATE epoch 10 target 300 /998 seconds 108
+VALIDATE epoch 10 target 350 /998 seconds 125
+VALIDATE epoch 10 target 400 /998 seconds 144
+VALIDATE epoch 10 target 450 /998 seconds 164
+VALIDATE epoch 10 target 500 /998 seconds 182
+VALIDATE epoch 10 target 550 /998 seconds 201
+VALIDATE epoch 10 target 600 /998 seconds 221
+VALIDATE epoch 10 target 650 /998 seconds 242
+VALIDATE epoch 10 target 700 /998 seconds 262
+VALIDATE epoch 10 target 750 /998 seconds 281
+VALIDATE epoch 10 target 800 /998 seconds 302
+VALIDATE epoch 10 target 850 /998 seconds 324
+VALIDATE epoch 10 target 900 /998 seconds 344
+VALIDATE epoch 10 target 950 /998 seconds 367
+VALIDATION_COMPLETE 10 ADE1 46.529424 FDE1 83.133074 minADE20 18.661609 minFDE20 26.695167 seconds 391.95
+TRAIN epoch 11 step 18900 scene bookstore_1 loss 0.132585 GPU_process_elapsed 5704
+TRAIN epoch 11 step 19000 scene bookstore_0 loss 0.143015 GPU_process_elapsed 5724
+TRAIN epoch 11 step 19100 scene bookstore_0 loss 0.129606 GPU_process_elapsed 5742
+TRAIN epoch 11 step 19200 scene nexus_3 loss 0.099598 GPU_process_elapsed 5760
+TRAIN epoch 11 step 19300 scene gates_1 loss 0.073962 GPU_process_elapsed 5788
+TRAIN epoch 11 step 19400 scene nexus_7 loss 0.071388 GPU_process_elapsed 5816
+TRAIN epoch 11 step 19500 scene nexus_9 loss 0.069701 GPU_process_elapsed 5834
+TRAIN epoch 11 step 19600 scene coupa_3 loss 0.095434 GPU_process_elapsed 5861
+TRAIN epoch 11 step 19700 scene coupa_3 loss 0.092022 GPU_process_elapsed 5883
+TRAIN epoch 11 step 19800 scene gates_3 loss 0.073714 GPU_process_elapsed 5910
+TRAIN epoch 11 step 19900 scene deathCircle_0 loss 0.064939 GPU_process_elapsed 5941
+TRAIN epoch 11 step 20000 scene nexus_0 loss 0.080803 GPU_process_elapsed 5971
+TRAIN epoch 11 step 20100 scene deathCircle_1 loss 0.083085 GPU_process_elapsed 5996
+TRAIN epoch 11 step 20200 scene deathCircle_1 loss 0.087168 GPU_process_elapsed 6022
+TRAIN epoch 11 step 20300 scene hyang_5 loss 0.070058 GPU_process_elapsed 6050
+TRAIN epoch 11 step 20400 scene nexus_8 loss 0.076504 GPU_process_elapsed 6077
+TRAIN epoch 11 step 20500 scene nexus_1 loss 0.073092 GPU_process_elapsed 6106
+TRAIN epoch 11 step 20600 scene bookstore_3 loss 0.148442 GPU_process_elapsed 6132
+TRAIN epoch 11 step 20700 scene gates_4 loss 0.070446 GPU_process_elapsed 6151
+EPOCH_COMPLETE 11 loss 0.093888 seconds 464.31 checkpoint 48f448c0cbdad9099ded3060a123a355cca649104604068db10e797379f18a5a
+TRAIN epoch 12 step 20800 scene bookstore_3 loss 0.137702 GPU_process_elapsed 6169
+TRAIN epoch 12 step 20900 scene deathCircle_0 loss 0.065289 GPU_process_elapsed 6199
+TRAIN epoch 12 step 21000 scene nexus_8 loss 0.068158 GPU_process_elapsed 6229
+TRAIN epoch 12 step 21100 scene gates_1 loss 0.07234 GPU_process_elapsed 6255
+TRAIN epoch 12 step 21200 scene nexus_1 loss 0.069173 GPU_process_elapsed 6283
+TRAIN epoch 12 step 21300 scene nexus_1 loss 0.070547 GPU_process_elapsed 6312
+TRAIN epoch 12 step 21400 scene deathCircle_1 loss 0.083241 GPU_process_elapsed 6338
+TRAIN epoch 12 step 21500 scene deathCircle_1 loss 0.087602 GPU_process_elapsed 6363
+TRAIN epoch 12 step 21600 scene coupa_3 loss 0.100346 GPU_process_elapsed 6386
+TRAIN epoch 12 step 21700 scene bookstore_1 loss 0.132477 GPU_process_elapsed 6408
+TRAIN epoch 12 step 21800 scene bookstore_1 loss 0.124472 GPU_process_elapsed 6426
+TRAIN epoch 12 step 21900 scene nexus_9 loss 0.068756 GPU_process_elapsed 6451
+TRAIN epoch 12 step 22000 scene hyang_6 loss 0.158998 GPU_process_elapsed 6470
+TRAIN epoch 12 step 22100 scene hyang_5 loss 0.068902 GPU_process_elapsed 6498
+TRAIN epoch 12 step 22200 scene bookstore_0 loss 0.124192 GPU_process_elapsed 6526
+TRAIN epoch 12 step 22300 scene bookstore_0 loss 0.120328 GPU_process_elapsed 6544
+TRAIN epoch 12 step 22400 scene nexus_7 loss 0.068184 GPU_process_elapsed 6563
+TRAIN epoch 12 step 22500 scene nexus_0 loss 0.081948 GPU_process_elapsed 6591
+EPOCH_COMPLETE 12 loss 0.093531 seconds 461.72 checkpoint 303e660a4c612508665bffcb7da6c5dace4d3cc0eeac4443ed2d1d6f04f12a48
+TRAIN epoch 13 step 22600 scene gates_3 loss 0.074511 GPU_process_elapsed 6619
+TRAIN epoch 13 step 22700 scene deathCircle_1 loss 0.083805 GPU_process_elapsed 6646
+TRAIN epoch 13 step 22800 scene deathCircle_1 loss 0.09902 GPU_process_elapsed 6671
+TRAIN epoch 13 step 22900 scene deathCircle_2 loss 0.08298 GPU_process_elapsed 6697
+TRAIN epoch 13 step 23000 scene deathCircle_0 loss 0.064842 GPU_process_elapsed 6726
+TRAIN epoch 13 step 23100 scene nexus_7 loss 0.074515 GPU_process_elapsed 6757
+TRAIN epoch 13 step 23200 scene hyang_6 loss 0.163101 GPU_process_elapsed 6782
+TRAIN epoch 13 step 23300 scene nexus_9 loss 0.072594 GPU_process_elapsed 6803
+TRAIN epoch 13 step 23400 scene nexus_1 loss 0.068595 GPU_process_elapsed 6831
+TRAIN epoch 13 step 23500 scene nexus_1 loss 0.074965 GPU_process_elapsed 6859
+TRAIN epoch 13 step 23600 scene bookstore_3 loss 0.134825 GPU_process_elapsed 6882
+TRAIN epoch 13 step 23700 scene bookstore_1 loss 0.120386 GPU_process_elapsed 6899
+TRAIN epoch 13 step 23800 scene hyang_5 loss 0.073522 GPU_process_elapsed 6918
+TRAIN epoch 13 step 23900 scene coupa_3 loss 0.107419 GPU_process_elapsed 6947
+TRAIN epoch 13 step 24000 scene coupa_3 loss 0.092137 GPU_process_elapsed 6969
+TRAIN epoch 13 step 24100 scene nexus_8 loss 0.079443 GPU_process_elapsed 6994
+TRAIN epoch 13 step 24200 scene gates_1 loss 0.072433 GPU_process_elapsed 7021
+TRAIN epoch 13 step 24300 scene bookstore_0 loss 0.123612 GPU_process_elapsed 7045
+TRAIN epoch 13 step 24400 scene bookstore_0 loss 0.126907 GPU_process_elapsed 7063
+EPOCH_COMPLETE 13 loss 0.093272 seconds 461.67 checkpoint 0e25798ccc6a1c81c43f1c50dd69232d6cd2a8da03661c86b6388e022549fc1f
+TRAIN epoch 14 step 24500 scene nexus_7 loss 0.069414 GPU_process_elapsed 7085
+TRAIN epoch 14 step 24600 scene nexus_0 loss 0.079366 GPU_process_elapsed 7113
+TRAIN epoch 14 step 24700 scene deathCircle_0 loss 0.067261 GPU_process_elapsed 7142
+TRAIN epoch 14 step 24800 scene deathCircle_0 loss 0.066084 GPU_process_elapsed 7173
+TRAIN epoch 14 step 24900 scene nexus_1 loss 0.07245 GPU_process_elapsed 7203
+TRAIN epoch 14 step 25000 scene nexus_1 loss 0.073004 GPU_process_elapsed 7232
+TRAIN epoch 14 step 25100 scene coupa_3 loss 0.091418 GPU_process_elapsed 7256
+TRAIN epoch 14 step 25200 scene coupa_3 loss 0.08995 GPU_process_elapsed 7279
+TRAIN epoch 14 step 25300 scene nexus_8 loss 0.075709 GPU_process_elapsed 7305
+TRAIN epoch 14 step 25400 scene bookstore_1 loss 0.122881 GPU_process_elapsed 7324
+TRAIN epoch 14 step 25500 scene deathCircle_1 loss 0.080618 GPU_process_elapsed 7345
+TRAIN epoch 14 step 25600 scene deathCircle_1 loss 0.081512 GPU_process_elapsed 7370
+TRAIN epoch 14 step 25700 scene bookstore_0 loss 0.136932 GPU_process_elapsed 7391
+TRAIN epoch 14 step 25800 scene bookstore_0 loss 0.132258 GPU_process_elapsed 7409
+TRAIN epoch 14 step 25900 scene hyang_6 loss 0.160297 GPU_process_elapsed 7425
+TRAIN epoch 14 step 26000 scene bookstore_3 loss 0.13653 GPU_process_elapsed 7444
+TRAIN epoch 14 step 26100 scene nexus_9 loss 0.075401 GPU_process_elapsed 7464
+TRAIN epoch 14 step 26200 scene hyang_5 loss 0.072266 GPU_process_elapsed 7493
+TRAIN epoch 14 step 26300 scene gates_3 loss 0.073812 GPU_process_elapsed 7522
+EPOCH_COMPLETE 14 loss 0.09318 seconds 460.91 checkpoint a31aae3dc1afaed8b5ce624020035f15517ffe5763c062f9188d84d1fedcc17b
+TRAIN epoch 15 step 26400 scene bookstore_1 loss 0.130339 GPU_process_elapsed 7546
+TRAIN epoch 15 step 26500 scene nexus_9 loss 0.06904 GPU_process_elapsed 7566
+TRAIN epoch 15 step 26600 scene bookstore_0 loss 0.125788 GPU_process_elapsed 7594
+TRAIN epoch 15 step 26700 scene bookstore_0 loss 0.120798 GPU_process_elapsed 7612
+TRAIN epoch 15 step 26800 scene bookstore_0 loss 0.122421 GPU_process_elapsed 7631
+TRAIN epoch 15 step 26900 scene hyang_5 loss 0.070551 GPU_process_elapsed 7659
+TRAIN epoch 15 step 27000 scene hyang_4 loss 0.085515 GPU_process_elapsed 7688
+TRAIN epoch 15 step 27100 scene deathCircle_1 loss 0.091819 GPU_process_elapsed 7713
+TRAIN epoch 15 step 27200 scene deathCircle_1 loss 0.088133 GPU_process_elapsed 7738
+TRAIN epoch 15 step 27300 scene nexus_8 loss 0.075789 GPU_process_elapsed 7765
+TRAIN epoch 15 step 27400 scene bookstore_3 loss 0.132838 GPU_process_elapsed 7787
+TRAIN epoch 15 step 27500 scene hyang_6 loss 0.164155 GPU_process_elapsed 7803
+TRAIN epoch 15 step 27600 scene nexus_1 loss 0.07545 GPU_process_elapsed 7826
+TRAIN epoch 15 step 27700 scene nexus_1 loss 0.069795 GPU_process_elapsed 7854
+TRAIN epoch 15 step 27800 scene coupa_3 loss 0.096128 GPU_process_elapsed 7877
+TRAIN epoch 15 step 27900 scene gates_3 loss 0.072766 GPU_process_elapsed 7901
+TRAIN epoch 15 step 28000 scene gates_1 loss 0.069566 GPU_process_elapsed 7930
+TRAIN epoch 15 step 28100 scene deathCircle_0 loss 0.066984 GPU_process_elapsed 7960
+TRAIN epoch 15 step 28200 scene nexus_3 loss 0.119118 GPU_process_elapsed 7990
+EPOCH_COMPLETE 15 loss 0.092907 seconds 462.81 checkpoint 5a3f622625fa54a1df4157853fab61143194c9b3edfd5eefc1ca3082371d5847
+VALIDATE epoch 15 target 50 /998 seconds 17
+VALIDATE epoch 15 target 100 /998 seconds 33
+VALIDATE epoch 15 target 150 /998 seconds 49
+VALIDATE epoch 15 target 200 /998 seconds 66
+VALIDATE epoch 15 target 250 /998 seconds 81
+VALIDATE epoch 15 target 300 /998 seconds 98
+VALIDATE epoch 15 target 350 /998 seconds 114
+VALIDATE epoch 15 target 400 /998 seconds 129
+VALIDATE epoch 15 target 450 /998 seconds 146
+VALIDATE epoch 15 target 500 /998 seconds 161
+VALIDATE epoch 15 target 550 /998 seconds 178
+VALIDATE epoch 15 target 600 /998 seconds 195
+VALIDATE epoch 15 target 650 /998 seconds 214
+VALIDATE epoch 15 target 700 /998 seconds 234
+VALIDATE epoch 15 target 750 /998 seconds 251
+VALIDATE epoch 15 target 800 /998 seconds 270
+VALIDATE epoch 15 target 850 /998 seconds 289
+VALIDATE epoch 15 target 900 /998 seconds 307
+VALIDATE epoch 15 target 950 /998 seconds 325
+VALIDATION_COMPLETE 15 ADE1 41.702237 FDE1 80.906966 minADE20 17.061053 minFDE20 26.355009 seconds 345.1
+TRAIN epoch 16 step 28300 scene gates_3 loss 0.07487 GPU_process_elapsed 8365
+TRAIN epoch 16 step 28400 scene hyang_6 loss 0.157169 GPU_process_elapsed 8382
+TRAIN epoch 16 step 28500 scene nexus_1 loss 0.070848 GPU_process_elapsed 8410
+TRAIN epoch 16 step 28600 scene gates_4 loss 0.072202 GPU_process_elapsed 8439
+TRAIN epoch 16 step 28700 scene nexus_9 loss 0.071387 GPU_process_elapsed 8467
+TRAIN epoch 16 step 28800 scene gates_8 loss 0.07763 GPU_process_elapsed 8495
+TRAIN epoch 16 step 28900 scene hyang_5 loss 0.070649 GPU_process_elapsed 8524
+TRAIN epoch 16 step 29000 scene gates_0 loss 0.078715 GPU_process_elapsed 8551
+TRAIN epoch 16 step 29100 scene bookstore_1 loss 0.11495 GPU_process_elapsed 8571
+TRAIN epoch 16 step 29200 scene coupa_3 loss 0.091222 GPU_process_elapsed 8591
+TRAIN epoch 16 step 29300 scene coupa_3 loss 0.092857 GPU_process_elapsed 8613
+TRAIN epoch 16 step 29400 scene deathCircle_0 loss 0.067273 GPU_process_elapsed 8640
+TRAIN epoch 16 step 29500 scene deathCircle_0 loss 0.068618 GPU_process_elapsed 8672
+TRAIN epoch 16 step 29600 scene deathCircle_1 loss 0.079205 GPU_process_elapsed 8697
+TRAIN epoch 16 step 29700 scene gates_6 loss 0.083712 GPU_process_elapsed 8722
+TRAIN epoch 16 step 29800 scene bookstore_0 loss 0.125151 GPU_process_elapsed 8741
+TRAIN epoch 16 step 29900 scene bookstore_0 loss 0.125356 GPU_process_elapsed 8759
+TRAIN epoch 16 step 30000 scene bookstore_3 loss 0.134805 GPU_process_elapsed 8775
+TRAIN epoch 16 step 30100 scene nexus_0 loss 0.076977 GPU_process_elapsed 8802
+EPOCH_COMPLETE 16 loss 0.092831 seconds 461.2 checkpoint 8d34267c1145c5bf857f675c725b4ef6c31996f93cf166ab0f646ea5c08d0d4e
+TRAIN epoch 17 step 30200 scene deathCircle_1 loss 0.079928 GPU_process_elapsed 8828
+TRAIN epoch 17 step 30300 scene deathCircle_1 loss 0.080979 GPU_process_elapsed 8854
+TRAIN epoch 17 step 30400 scene deathCircle_0 loss 0.065509 GPU_process_elapsed 8881
+TRAIN epoch 17 step 30500 scene deathCircle_0 loss 0.066985 GPU_process_elapsed 8912
+TRAIN epoch 17 step 30600 scene nexus_7 loss 0.073092 GPU_process_elapsed 8942
+TRAIN epoch 17 step 30700 scene gates_4 loss 0.078062 GPU_process_elapsed 8971
+TRAIN epoch 17 step 30800 scene bookstore_3 loss 0.13541 GPU_process_elapsed 8988
+TRAIN epoch 17 step 30900 scene nexus_1 loss 0.070123 GPU_process_elapsed 9015
+TRAIN epoch 17 step 31000 scene hyang_6 loss 0.159942 GPU_process_elapsed 9042
+TRAIN epoch 17 step 31100 scene nexus_8 loss 0.071219 GPU_process_elapsed 9061
+TRAIN epoch 17 step 31200 scene hyang_5 loss 0.070895 GPU_process_elapsed 9088
+TRAIN epoch 17 step 31300 scene gates_1 loss 0.072413 GPU_process_elapsed 9116
+TRAIN epoch 17 step 31400 scene coupa_3 loss 0.089114 GPU_process_elapsed 9140
+TRAIN epoch 17 step 31500 scene hyang_4 loss 0.085979 GPU_process_elapsed 9162
+TRAIN epoch 17 step 31600 scene bookstore_0 loss 0.124242 GPU_process_elapsed 9184
+TRAIN epoch 17 step 31700 scene bookstore_0 loss 0.124291 GPU_process_elapsed 9202
+TRAIN epoch 17 step 31800 scene nexus_9 loss 0.068544 GPU_process_elapsed 9226
+TRAIN epoch 17 step 31900 scene bookstore_1 loss 0.123299 GPU_process_elapsed 9249
+EPOCH_COMPLETE 17 loss 0.092654 seconds 461.94 checkpoint 90b2dfffc4adb89e813cda5273fc4634d52eac8d441384c07e7c745e27d50da9
+TRAIN epoch 18 step 32000 scene coupa_3 loss 0.091899 GPU_process_elapsed 9270
+TRAIN epoch 18 step 32100 scene coupa_3 loss 0.089813 GPU_process_elapsed 9292
+TRAIN epoch 18 step 32200 scene gates_0 loss 0.077161 GPU_process_elapsed 9317
+TRAIN epoch 18 step 32300 scene nexus_1 loss 0.069652 GPU_process_elapsed 9345
+TRAIN epoch 18 step 32400 scene gates_1 loss 0.074278 GPU_process_elapsed 9374
+TRAIN epoch 18 step 32500 scene nexus_7 loss 0.071987 GPU_process_elapsed 9403
+TRAIN epoch 18 step 32600 scene deathCircle_1 loss 0.082529 GPU_process_elapsed 9430
+TRAIN epoch 18 step 32700 scene deathCircle_1 loss 0.091641 GPU_process_elapsed 9455
+TRAIN epoch 18 step 32800 scene bookstore_0 loss 0.12027 GPU_process_elapsed 9476
+TRAIN epoch 18 step 32900 scene bookstore_0 loss 0.129053 GPU_process_elapsed 9495
+TRAIN epoch 18 step 33000 scene bookstore_1 loss 0.120139 GPU_process_elapsed 9514
+TRAIN epoch 18 step 33100 scene hyang_5 loss 0.073811 GPU_process_elapsed 9533
+TRAIN epoch 18 step 33200 scene nexus_0 loss 0.075638 GPU_process_elapsed 9561
+TRAIN epoch 18 step 33300 scene nexus_9 loss 0.068514 GPU_process_elapsed 9589
+TRAIN epoch 18 step 33400 scene hyang_6 loss 0.151062 GPU_process_elapsed 9608
+TRAIN epoch 18 step 33500 scene deathCircle_0 loss 0.064931 GPU_process_elapsed 9637
+TRAIN epoch 18 step 33600 scene nexus_8 loss 0.081218 GPU_process_elapsed 9667
+TRAIN epoch 18 step 33700 scene bookstore_3 loss 0.139509 GPU_process_elapsed 9691
+TRAIN epoch 18 step 33800 scene gates_3 loss 0.093125 GPU_process_elapsed 9709
+EPOCH_COMPLETE 18 loss 0.092613 seconds 464.16 checkpoint c5f5a16f002e38b56dc8bc172d6cf17e7ff2103493482b7ca77aca194a26d579
+TRAIN epoch 19 step 33900 scene hyang_6 loss 0.159882 GPU_process_elapsed 9736
+TRAIN epoch 19 step 34000 scene hyang_5 loss 0.074942 GPU_process_elapsed 9756
+TRAIN epoch 19 step 34100 scene gates_8 loss 0.074435 GPU_process_elapsed 9784
+TRAIN epoch 19 step 34200 scene coupa_3 loss 0.095623 GPU_process_elapsed 9807
+TRAIN epoch 19 step 34300 scene bookstore_0 loss 0.126123 GPU_process_elapsed 9830
+TRAIN epoch 19 step 34400 scene bookstore_0 loss 0.124809 GPU_process_elapsed 9848
+TRAIN epoch 19 step 34500 scene deathCircle_2 loss 0.07588 GPU_process_elapsed 9866
+TRAIN epoch 19 step 34600 scene nexus_1 loss 0.069397 GPU_process_elapsed 9895
+TRAIN epoch 19 step 34700 scene gates_1 loss 0.070696 GPU_process_elapsed 9924
+TRAIN epoch 19 step 34800 scene deathCircle_1 loss 0.083661 GPU_process_elapsed 9950
+TRAIN epoch 19 step 34900 scene deathCircle_1 loss 0.091138 GPU_process_elapsed 9975
+TRAIN epoch 19 step 35000 scene deathCircle_0 loss 0.065046 GPU_process_elapsed 10004
+TRAIN epoch 19 step 35100 scene bookstore_1 loss 0.126813 GPU_process_elapsed 10034
+TRAIN epoch 19 step 35200 scene bookstore_1 loss 0.123052 GPU_process_elapsed 10052
+TRAIN epoch 19 step 35300 scene nexus_9 loss 0.0733 GPU_process_elapsed 10076
+TRAIN epoch 19 step 35400 scene gates_3 loss 0.092774 GPU_process_elapsed 10104
+TRAIN epoch 19 step 35500 scene nexus_7 loss 0.0703 GPU_process_elapsed 10133
+TRAIN epoch 19 step 35600 scene bookstore_3 loss 0.136155 GPU_process_elapsed 10157
+TRAIN epoch 19 step 35700 scene nexus_8 loss 0.064829 GPU_process_elapsed 10177
+EPOCH_COMPLETE 19 loss 0.092541 seconds 460.98 checkpoint 5b6ef4821d89da3dc5c326d8a0039caafb4103d6feb90144753a21b125698f6b
+TRAIN epoch 20 step 35800 scene nexus_0 loss 0.077196 GPU_process_elapsed 10204
+TRAIN epoch 20 step 35900 scene deathCircle_1 loss 0.081582 GPU_process_elapsed 10230
+TRAIN epoch 20 step 36000 scene deathCircle_1 loss 0.082505 GPU_process_elapsed 10254
+TRAIN epoch 20 step 36100 scene bookstore_1 loss 0.122968 GPU_process_elapsed 10275
+TRAIN epoch 20 step 36200 scene nexus_3 loss 0.112762 GPU_process_elapsed 10296
+TRAIN epoch 20 step 36300 scene nexus_7 loss 0.075311 GPU_process_elapsed 10323
+TRAIN epoch 20 step 36400 scene coupa_3 loss 0.099947 GPU_process_elapsed 10347
+TRAIN epoch 20 step 36500 scene gates_3 loss 0.091147 GPU_process_elapsed 10370
+TRAIN epoch 20 step 36600 scene deathCircle_0 loss 0.065547 GPU_process_elapsed 10399
+TRAIN epoch 20 step 36700 scene deathCircle_0 loss 0.066352 GPU_process_elapsed 10430
+TRAIN epoch 20 step 36800 scene hyang_5 loss 0.073576 GPU_process_elapsed 10460
+TRAIN epoch 20 step 36900 scene nexus_8 loss 0.075838 GPU_process_elapsed 10487
+TRAIN epoch 20 step 37000 scene bookstore_0 loss 0.124659 GPU_process_elapsed 10508
+TRAIN epoch 20 step 37100 scene bookstore_0 loss 0.123522 GPU_process_elapsed 10526
+TRAIN epoch 20 step 37200 scene nexus_9 loss 0.069395 GPU_process_elapsed 10551
+TRAIN epoch 20 step 37300 scene gates_1 loss 0.07032 GPU_process_elapsed 10569
+TRAIN epoch 20 step 37400 scene nexus_1 loss 0.068855 GPU_process_elapsed 10598
+TRAIN epoch 20 step 37500 scene nexus_1 loss 0.069908 GPU_process_elapsed 10627
+TRAIN epoch 20 step 37600 scene bookstore_3 loss 0.140236 GPU_process_elapsed 10648
+EPOCH_COMPLETE 20 loss 0.092438 seconds 462.13 checkpoint dbca1b671a06c84227bcfaac2947245fe5b1256383cc1ad689363d752f4865fa
+VALIDATE epoch 20 target 50 /998 seconds 13
+VALIDATE epoch 20 target 100 /998 seconds 27
+VALIDATE epoch 20 target 150 /998 seconds 41
+VALIDATE epoch 20 target 200 /998 seconds 55
+VALIDATE epoch 20 target 250 /998 seconds 68
+VALIDATE epoch 20 target 300 /998 seconds 81
+VALIDATE epoch 20 target 350 /998 seconds 94
+VALIDATE epoch 20 target 400 /998 seconds 108
+VALIDATE epoch 20 target 450 /998 seconds 122
+VALIDATE epoch 20 target 500 /998 seconds 134
+VALIDATE epoch 20 target 550 /998 seconds 149
+VALIDATE epoch 20 target 600 /998 seconds 163
+VALIDATE epoch 20 target 650 /998 seconds 178
+VALIDATE epoch 20 target 700 /998 seconds 195
+VALIDATE epoch 20 target 750 /998 seconds 210
+VALIDATE epoch 20 target 800 /998 seconds 225
+VALIDATE epoch 20 target 850 /998 seconds 241
+VALIDATE epoch 20 target 900 /998 seconds 256
+VALIDATE epoch 20 target 950 /998 seconds 271
+VALIDATION_COMPLETE 20 ADE1 31.831383 FDE1 58.581346 minADE20 17.292528 minFDE20 26.584408 seconds 286.79
+TRAIN epoch 21 step 37700 scene deathCircle_0 loss 0.066112 GPU_process_elapsed 10961
+TRAIN epoch 21 step 37800 scene deathCircle_0 loss 0.066329 GPU_process_elapsed 10993
+TRAIN epoch 21 step 37900 scene gates_3 loss 0.074038 GPU_process_elapsed 11021
+TRAIN epoch 21 step 38000 scene bookstore_3 loss 0.13219 GPU_process_elapsed 11043
+TRAIN epoch 21 step 38100 scene hyang_6 loss 0.160986 GPU_process_elapsed 11059
+TRAIN epoch 21 step 38200 scene coupa_3 loss 0.092686 GPU_process_elapsed 11079
+TRAIN epoch 21 step 38300 scene hyang_5 loss 0.079925 GPU_process_elapsed 11102
+TRAIN epoch 21 step 38400 scene gates_1 loss 0.071701 GPU_process_elapsed 11130
+TRAIN epoch 21 step 38500 scene deathCircle_1 loss 0.083011 GPU_process_elapsed 11158
+TRAIN epoch 21 step 38600 scene deathCircle_1 loss 0.080258 GPU_process_elapsed 11183
+TRAIN epoch 21 step 38700 scene gates_8 loss 0.075409 GPU_process_elapsed 11208
+TRAIN epoch 21 step 38800 scene nexus_8 loss 0.077399 GPU_process_elapsed 11234
+TRAIN epoch 21 step 38900 scene bookstore_0 loss 0.127122 GPU_process_elapsed 11254
+TRAIN epoch 21 step 39000 scene bookstore_0 loss 0.124295 GPU_process_elapsed 11272
+TRAIN epoch 21 step 39100 scene bookstore_1 loss 0.127419 GPU_process_elapsed 11290
+TRAIN epoch 21 step 39200 scene nexus_9 loss 0.069119 GPU_process_elapsed 11313
+TRAIN epoch 21 step 39300 scene nexus_1 loss 0.069673 GPU_process_elapsed 11342
+TRAIN epoch 21 step 39400 scene nexus_1 loss 0.079021 GPU_process_elapsed 11370
+TRAIN epoch 21 step 39500 scene nexus_7 loss 0.072232 GPU_process_elapsed 11398
+EPOCH_COMPLETE 21 loss 0.092378 seconds 462.71 checkpoint b3925fc3d1d0d969ef53e2b71c1f2cdf351fa84abd198bbf1d20fa14e386015d
+TRAIN epoch 22 step 39600 scene nexus_1 loss 0.069127 GPU_process_elapsed 11428
+TRAIN epoch 22 step 39700 scene nexus_1 loss 0.07045 GPU_process_elapsed 11456
+TRAIN epoch 22 step 39800 scene nexus_7 loss 0.066873 GPU_process_elapsed 11483
+TRAIN epoch 22 step 39900 scene deathCircle_0 loss 0.065481 GPU_process_elapsed 11512
+TRAIN epoch 22 step 40000 scene deathCircle_0 loss 0.06607 GPU_process_elapsed 11543
+TRAIN epoch 22 step 40100 scene deathCircle_1 loss 0.080546 GPU_process_elapsed 11571
+TRAIN epoch 22 step 40200 scene deathCircle_1 loss 0.092282 GPU_process_elapsed 11596
+TRAIN epoch 22 step 40300 scene coupa_3 loss 0.091188 GPU_process_elapsed 11620
+TRAIN epoch 22 step 40400 scene coupa_3 loss 0.089865 GPU_process_elapsed 11642
+TRAIN epoch 22 step 40500 scene bookstore_1 loss 0.124495 GPU_process_elapsed 11661
+TRAIN epoch 22 step 40600 scene bookstore_3 loss 0.133257 GPU_process_elapsed 11681
+TRAIN epoch 22 step 40700 scene gates_1 loss 0.070349 GPU_process_elapsed 11700
+TRAIN epoch 22 step 40800 scene gates_0 loss 0.079746 GPU_process_elapsed 11728
+TRAIN epoch 22 step 40900 scene bookstore_0 loss 0.132575 GPU_process_elapsed 11746
+TRAIN epoch 22 step 41000 scene bookstore_0 loss 0.131889 GPU_process_elapsed 11764
+TRAIN epoch 22 step 41100 scene nexus_3 loss 0.104696 GPU_process_elapsed 11780
+TRAIN epoch 22 step 41200 scene hyang_5 loss 0.069927 GPU_process_elapsed 11808
+TRAIN epoch 22 step 41300 scene gates_4 loss 0.071254 GPU_process_elapsed 11836
+TRAIN epoch 22 step 41400 scene gates_3 loss 0.075328 GPU_process_elapsed 11864
+EPOCH_COMPLETE 22 loss 0.092341 seconds 461.34 checkpoint d104cdb75acc4768d7b7034c75937bfc4cecd87409a823bcaef15ec51b9e399a
+TRAIN epoch 23 step 41500 scene deathCircle_1 loss 0.083427 GPU_process_elapsed 11893
+TRAIN epoch 23 step 41600 scene deathCircle_1 loss 0.079338 GPU_process_elapsed 11918
+TRAIN epoch 23 step 41700 scene gates_1 loss 0.071139 GPU_process_elapsed 11944
+TRAIN epoch 23 step 41800 scene hyang_5 loss 0.070245 GPU_process_elapsed 11973
+TRAIN epoch 23 step 41900 scene bookstore_3 loss 0.135543 GPU_process_elapsed 11998
+TRAIN epoch 23 step 42000 scene bookstore_0 loss 0.128276 GPU_process_elapsed 12015
+TRAIN epoch 23 step 42100 scene bookstore_0 loss 0.123574 GPU_process_elapsed 12033
+TRAIN epoch 23 step 42200 scene gates_3 loss 0.072093 GPU_process_elapsed 12054
+TRAIN epoch 23 step 42300 scene bookstore_1 loss 0.122245 GPU_process_elapsed 12079
+TRAIN epoch 23 step 42400 scene nexus_7 loss 0.069665 GPU_process_elapsed 12097
+TRAIN epoch 23 step 42500 scene gates_8 loss 0.075963 GPU_process_elapsed 12126
+TRAIN epoch 23 step 42600 scene deathCircle_0 loss 0.0664 GPU_process_elapsed 12156
+TRAIN epoch 23 step 42700 scene gates_0 loss 0.076868 GPU_process_elapsed 12187
+TRAIN epoch 23 step 42800 scene nexus_8 loss 0.083102 GPU_process_elapsed 12212
+TRAIN epoch 23 step 42900 scene hyang_6 loss 0.159269 GPU_process_elapsed 12235
+TRAIN epoch 23 step 43000 scene coupa_3 loss 0.090045 GPU_process_elapsed 12254
+TRAIN epoch 23 step 43100 scene coupa_3 loss 0.098002 GPU_process_elapsed 12276
+TRAIN epoch 23 step 43200 scene nexus_1 loss 0.063293 GPU_process_elapsed 12303
+EPOCH_COMPLETE 23 loss 0.092271 seconds 462.31 checkpoint 62ab03a5bdade6928400802ecea2b6a9ed80925879f3ff11ed815a282894eaa6
+TRAIN epoch 24 step 43300 scene gates_5 loss 0.073494 GPU_process_elapsed 12333
+TRAIN epoch 24 step 43400 scene hyang_5 loss 0.069191 GPU_process_elapsed 12362
+TRAIN epoch 24 step 43500 scene gates_1 loss 0.070644 GPU_process_elapsed 12390
+TRAIN epoch 24 step 43600 scene coupa_3 loss 0.091436 GPU_process_elapsed 12417
+TRAIN epoch 24 step 43700 scene coupa_3 loss 0.08977 GPU_process_elapsed 12439
+TRAIN epoch 24 step 43800 scene bookstore_3 loss 0.139964 GPU_process_elapsed 12458
+TRAIN epoch 24 step 43900 scene nexus_1 loss 0.072753 GPU_process_elapsed 12480
+TRAIN epoch 24 step 44000 scene nexus_1 loss 0.06946 GPU_process_elapsed 12509
+TRAIN epoch 24 step 44100 scene bookstore_0 loss 0.122613 GPU_process_elapsed 12533
+TRAIN epoch 24 step 44200 scene bookstore_0 loss 0.123687 GPU_process_elapsed 12551
+TRAIN epoch 24 step 44300 scene nexus_8 loss 0.071449 GPU_process_elapsed 12572
+TRAIN epoch 24 step 44400 scene hyang_6 loss 0.156913 GPU_process_elapsed 12597
+TRAIN epoch 24 step 44500 scene deathCircle_0 loss 0.067707 GPU_process_elapsed 12618
+TRAIN epoch 24 step 44600 scene deathCircle_0 loss 0.068335 GPU_process_elapsed 12649
+TRAIN epoch 24 step 44700 scene deathCircle_1 loss 0.081252 GPU_process_elapsed 12677
+TRAIN epoch 24 step 44800 scene deathCircle_1 loss 0.087145 GPU_process_elapsed 12701
+TRAIN epoch 24 step 44900 scene bookstore_1 loss 0.1211 GPU_process_elapsed 12724
+TRAIN epoch 24 step 45000 scene bookstore_1 loss 0.122661 GPU_process_elapsed 12742
+TRAIN epoch 24 step 45100 scene nexus_9 loss 0.073363 GPU_process_elapsed 12770
+EPOCH_COMPLETE 24 loss 0.09219 seconds 461.64 checkpoint cef725bc013a54a287c63aed00775f2217e1a03070bfea39e0d46fd3a6639ce6
+TRAIN epoch 25 step 45200 scene bookstore_3 loss 0.144332 GPU_process_elapsed 12799
+TRAIN epoch 25 step 45300 scene bookstore_3 loss 0.139378 GPU_process_elapsed 12816
+TRAIN epoch 25 step 45400 scene nexus_7 loss 0.071118 GPU_process_elapsed 12844
+TRAIN epoch 25 step 45500 scene deathCircle_1 loss 0.084471 GPU_process_elapsed 12872
+TRAIN epoch 25 step 45600 scene deathCircle_1 loss 0.080578 GPU_process_elapsed 12897
+TRAIN epoch 25 step 45700 scene deathCircle_0 loss 0.069065 GPU_process_elapsed 12923
+TRAIN epoch 25 step 45800 scene deathCircle_0 loss 0.065008 GPU_process_elapsed 12954
+TRAIN epoch 25 step 45900 scene bookstore_0 loss 0.123025 GPU_process_elapsed 12980
+TRAIN epoch 25 step 46000 scene bookstore_0 loss 0.122812 GPU_process_elapsed 12998
+TRAIN epoch 25 step 46100 scene bookstore_1 loss 0.120209 GPU_process_elapsed 13016
+TRAIN epoch 25 step 46200 scene hyang_5 loss 0.073077 GPU_process_elapsed 13034
+TRAIN epoch 25 step 46300 scene hyang_6 loss 0.160296 GPU_process_elapsed 13062
+TRAIN epoch 25 step 46400 scene gates_3 loss 0.074745 GPU_process_elapsed 13080
+TRAIN epoch 25 step 46500 scene nexus_9 loss 0.070445 GPU_process_elapsed 13108
+TRAIN epoch 25 step 46600 scene nexus_1 loss 0.06951 GPU_process_elapsed 13137
+TRAIN epoch 25 step 46700 scene nexus_1 loss 0.077614 GPU_process_elapsed 13165
+TRAIN epoch 25 step 46800 scene nexus_8 loss 0.077328 GPU_process_elapsed 13192
+TRAIN epoch 25 step 46900 scene coupa_3 loss 0.089908 GPU_process_elapsed 13214
+TRAIN epoch 25 step 47000 scene hyang_4 loss 0.085438 GPU_process_elapsed 13238
+EPOCH_COMPLETE 25 loss 0.092134 seconds 461.2 checkpoint 24cbc17d0ac5c6095c99a0f6821544be2c235e4bd3f25fc8cae5ad2517f6f2c2
+VALIDATE epoch 25 target 50 /998 seconds 14
+VALIDATE epoch 25 target 100 /998 seconds 28
+VALIDATE epoch 25 target 150 /998 seconds 41
+VALIDATE epoch 25 target 200 /998 seconds 55
+VALIDATE epoch 25 target 250 /998 seconds 69
+VALIDATE epoch 25 target 300 /998 seconds 82
+VALIDATE epoch 25 target 350 /998 seconds 95
+VALIDATE epoch 25 target 400 /998 seconds 109
+VALIDATE epoch 25 target 450 /998 seconds 123
+VALIDATE epoch 25 target 500 /998 seconds 136
+VALIDATE epoch 25 target 550 /998 seconds 152
+VALIDATE epoch 25 target 600 /998 seconds 166
+VALIDATE epoch 25 target 650 /998 seconds 183
+VALIDATE epoch 25 target 700 /998 seconds 199
+VALIDATE epoch 25 target 750 /998 seconds 215
+VALIDATE epoch 25 target 800 /998 seconds 231
+VALIDATE epoch 25 target 850 /998 seconds 247
+VALIDATE epoch 25 target 900 /998 seconds 262
+VALIDATE epoch 25 target 950 /998 seconds 277
+VALIDATION_COMPLETE 25 ADE1 31.694533 FDE1 59.657073 minADE20 16.890103 minFDE20 26.156431 seconds 294.15
+TRAIN epoch 26 step 47100 scene hyang_6 loss 0.162127 GPU_process_elapsed 13554
+TRAIN epoch 26 step 47200 scene bookstore_3 loss 0.141465 GPU_process_elapsed 13571
+TRAIN epoch 26 step 47300 scene bookstore_0 loss 0.125841 GPU_process_elapsed 13589
+TRAIN epoch 26 step 47400 scene bookstore_0 loss 0.123359 GPU_process_elapsed 13607
+TRAIN epoch 26 step 47500 scene nexus_7 loss 0.070821 GPU_process_elapsed 13631
+TRAIN epoch 26 step 47600 scene nexus_1 loss 0.074996 GPU_process_elapsed 13659
+TRAIN epoch 26 step 47700 scene nexus_1 loss 0.072752 GPU_process_elapsed 13688
+TRAIN epoch 26 step 47800 scene nexus_8 loss 0.075366 GPU_process_elapsed 13714
+TRAIN epoch 26 step 47900 scene gates_3 loss 0.074495 GPU_process_elapsed 13742
+TRAIN epoch 26 step 48000 scene coupa_3 loss 0.089012 GPU_process_elapsed 13766
+TRAIN epoch 26 step 48100 scene nexus_0 loss 0.079671 GPU_process_elapsed 13789
+TRAIN epoch 26 step 48200 scene hyang_5 loss 0.069409 GPU_process_elapsed 13818
+TRAIN epoch 26 step 48300 scene bookstore_1 loss 0.115773 GPU_process_elapsed 13838
+TRAIN epoch 26 step 48400 scene gates_1 loss 0.070359 GPU_process_elapsed 13861
+TRAIN epoch 26 step 48500 scene nexus_9 loss 0.077895 GPU_process_elapsed 13890
+TRAIN epoch 26 step 48600 scene deathCircle_1 loss 0.082321 GPU_process_elapsed 13915
+TRAIN epoch 26 step 48700 scene deathCircle_1 loss 0.08454 GPU_process_elapsed 13940
+TRAIN epoch 26 step 48800 scene deathCircle_0 loss 0.064201 GPU_process_elapsed 13968
+TRAIN epoch 26 step 48900 scene deathCircle_0 loss 0.064498 GPU_process_elapsed 14000
+EPOCH_COMPLETE 26 loss 0.092099 seconds 464.68 checkpoint 04e56693c2dc39b0f5439f0229c86d6c0acc64b9505866a6dffa2916290701e9
+TRAIN epoch 27 step 49000 scene bookstore_1 loss 0.121754 GPU_process_elapsed 14024
+TRAIN epoch 27 step 49100 scene deathCircle_0 loss 0.064743 GPU_process_elapsed 14046
+TRAIN epoch 27 step 49200 scene deathCircle_0 loss 0.063734 GPU_process_elapsed 14077
+TRAIN epoch 27 step 49300 scene gates_3 loss 0.070444 GPU_process_elapsed 14107
+TRAIN epoch 27 step 49400 scene gates_1 loss 0.072055 GPU_process_elapsed 14135
+TRAIN epoch 27 step 49500 scene hyang_5 loss 0.071391 GPU_process_elapsed 14164
+TRAIN epoch 27 step 49600 scene deathCircle_1 loss 0.079785 GPU_process_elapsed 14190
+TRAIN epoch 27 step 49700 scene deathCircle_1 loss 0.087006 GPU_process_elapsed 14215
+TRAIN epoch 27 step 49800 scene nexus_1 loss 0.06951 GPU_process_elapsed 14243
+TRAIN epoch 27 step 49900 scene gates_4 loss 0.070178 GPU_process_elapsed 14271
+TRAIN epoch 27 step 50000 scene nexus_8 loss 0.067262 GPU_process_elapsed 14298
+TRAIN epoch 27 step 50100 scene hyang_6 loss 0.16521 GPU_process_elapsed 14322
+TRAIN epoch 27 step 50200 scene nexus_9 loss 0.069097 GPU_process_elapsed 14342
+TRAIN epoch 27 step 50300 scene bookstore_0 loss 0.120561 GPU_process_elapsed 14366
+TRAIN epoch 27 step 50400 scene bookstore_0 loss 0.125485 GPU_process_elapsed 14384
+TRAIN epoch 27 step 50500 scene nexus_7 loss 0.072643 GPU_process_elapsed 14407
+TRAIN epoch 27 step 50600 scene bookstore_3 loss 0.141528 GPU_process_elapsed 14429
+TRAIN epoch 27 step 50700 scene coupa_3 loss 0.089928 GPU_process_elapsed 14448
+TRAIN epoch 27 step 50800 scene coupa_3 loss 0.09171 GPU_process_elapsed 14470
+EPOCH_COMPLETE 27 loss 0.092095 seconds 463.97 checkpoint a91593ebc16ab4030bd285f3dbb329dacfbfc03fbe6eeac64cc6e342ac91c0bd
+TRAIN epoch 28 step 50900 scene deathCircle_0 loss 0.065789 GPU_process_elapsed 14502
+TRAIN epoch 28 step 51000 scene gates_0 loss 0.075035 GPU_process_elapsed 14532
+TRAIN epoch 28 step 51100 scene nexus_9 loss 0.069366 GPU_process_elapsed 14560
+TRAIN epoch 28 step 51200 scene nexus_8 loss 0.074263 GPU_process_elapsed 14587
+TRAIN epoch 28 step 51300 scene deathCircle_1 loss 0.08335 GPU_process_elapsed 14612
+TRAIN epoch 28 step 51400 scene deathCircle_1 loss 0.082294 GPU_process_elapsed 14637
+TRAIN epoch 28 step 51500 scene bookstore_1 loss 0.122796 GPU_process_elapsed 14658
+TRAIN epoch 28 step 51600 scene gates_3 loss 0.091372 GPU_process_elapsed 14679
+TRAIN epoch 28 step 51700 scene gates_1 loss 0.071351 GPU_process_elapsed 14708
+TRAIN epoch 28 step 51800 scene bookstore_0 loss 0.134714 GPU_process_elapsed 14731
+TRAIN epoch 28 step 51900 scene bookstore_0 loss 0.129291 GPU_process_elapsed 14748
+TRAIN epoch 28 step 52000 scene nexus_1 loss 0.072077 GPU_process_elapsed 14772
+TRAIN epoch 28 step 52100 scene nexus_1 loss 0.069196 GPU_process_elapsed 14801
+TRAIN epoch 28 step 52200 scene coupa_3 loss 0.089789 GPU_process_elapsed 14825
+TRAIN epoch 28 step 52300 scene nexus_7 loss 0.070221 GPU_process_elapsed 14847
+TRAIN epoch 28 step 52400 scene hyang_4 loss 0.086804 GPU_process_elapsed 14875
+TRAIN epoch 28 step 52500 scene bookstore_3 loss 0.13436 GPU_process_elapsed 14892
+TRAIN epoch 28 step 52600 scene hyang_5 loss 0.074334 GPU_process_elapsed 14909
+EPOCH_COMPLETE 28 loss 0.092024 seconds 462.2 checkpoint ff0a527408f9ea3434bd5edf4d89d872cfd5072a47c82c00134d092e896831d1
+TRAIN epoch 29 step 52700 scene hyang_4 loss 0.085167 GPU_process_elapsed 14938
+TRAIN epoch 29 step 52800 scene bookstore_0 loss 0.122608 GPU_process_elapsed 14958
+TRAIN epoch 29 step 52900 scene bookstore_0 loss 0.122985 GPU_process_elapsed 14976
+TRAIN epoch 29 step 53000 scene nexus_9 loss 0.067942 GPU_process_elapsed 15002
+TRAIN epoch 29 step 53100 scene coupa_3 loss 0.089791 GPU_process_elapsed 15027
+TRAIN epoch 29 step 53200 scene gates_8 loss 0.081792 GPU_process_elapsed 15049
+TRAIN epoch 29 step 53300 scene deathCircle_0 loss 0.064383 GPU_process_elapsed 15079
+TRAIN epoch 29 step 53400 scene gates_0 loss 0.074684 GPU_process_elapsed 15110
+TRAIN epoch 29 step 53500 scene gates_1 loss 0.080618 GPU_process_elapsed 15139
+TRAIN epoch 29 step 53600 scene deathCircle_1 loss 0.084511 GPU_process_elapsed 15166
+TRAIN epoch 29 step 53700 scene deathCircle_1 loss 0.08691 GPU_process_elapsed 15191
+TRAIN epoch 29 step 53800 scene nexus_8 loss 0.077618 GPU_process_elapsed 15216
+TRAIN epoch 29 step 53900 scene nexus_1 loss 0.069211 GPU_process_elapsed 15244
+TRAIN epoch 29 step 54000 scene nexus_1 loss 0.068943 GPU_process_elapsed 15272
+TRAIN epoch 29 step 54100 scene bookstore_3 loss 0.141601 GPU_process_elapsed 15294
+TRAIN epoch 29 step 54200 scene bookstore_1 loss 0.123513 GPU_process_elapsed 15311
+TRAIN epoch 29 step 54300 scene hyang_5 loss 0.077457 GPU_process_elapsed 15331
+TRAIN epoch 29 step 54400 scene gates_3 loss 0.083763 GPU_process_elapsed 15359
+TRAIN epoch 29 step 54500 scene hyang_6 loss 0.161238 GPU_process_elapsed 15384
+EPOCH_COMPLETE 29 loss 0.091917 seconds 462.02 checkpoint 7c46714e63ba286a1030ec1dc94d37c9414ff33bc348906c8934351b9f93557e
+TRAIN epoch 30 step 54600 scene gates_0 loss 0.076389 GPU_process_elapsed 15405
+TRAIN epoch 30 step 54700 scene nexus_9 loss 0.068867 GPU_process_elapsed 15433
+TRAIN epoch 30 step 54800 scene hyang_5 loss 0.070063 GPU_process_elapsed 15460
+TRAIN epoch 30 step 54900 scene nexus_8 loss 0.074588 GPU_process_elapsed 15488
+TRAIN epoch 30 step 55000 scene hyang_6 loss 0.160387 GPU_process_elapsed 15508
+TRAIN epoch 30 step 55100 scene deathCircle_0 loss 0.064424 GPU_process_elapsed 15535
+TRAIN epoch 30 step 55200 scene nexus_0 loss 0.079946 GPU_process_elapsed 15566
+TRAIN epoch 30 step 55300 scene gates_3 loss 0.07277 GPU_process_elapsed 15594
+TRAIN epoch 30 step 55400 scene coupa_3 loss 0.092105 GPU_process_elapsed 15617
+TRAIN epoch 30 step 55500 scene bookstore_0 loss 0.122427 GPU_process_elapsed 15639
+TRAIN epoch 30 step 55600 scene bookstore_0 loss 0.1286 GPU_process_elapsed 15657
+TRAIN epoch 30 step 55700 scene bookstore_3 loss 0.134484 GPU_process_elapsed 15675
+TRAIN epoch 30 step 55800 scene deathCircle_1 loss 0.079766 GPU_process_elapsed 15693
+TRAIN epoch 30 step 55900 scene deathCircle_1 loss 0.081617 GPU_process_elapsed 15719
+TRAIN epoch 30 step 56000 scene gates_4 loss 0.070237 GPU_process_elapsed 15744
+TRAIN epoch 30 step 56100 scene bookstore_1 loss 0.12173 GPU_process_elapsed 15763
+TRAIN epoch 30 step 56200 scene gates_1 loss 0.075935 GPU_process_elapsed 15787
+TRAIN epoch 30 step 56300 scene nexus_1 loss 0.075739 GPU_process_elapsed 15816
+TRAIN epoch 30 step 56400 scene nexus_7 loss 0.068655 GPU_process_elapsed 15845
+EPOCH_COMPLETE 30 loss 0.091851 seconds 463.52 checkpoint 0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312
+VALIDATE epoch 30 target 50 /998 seconds 15
+VALIDATE epoch 30 target 100 /998 seconds 29
+VALIDATE epoch 30 target 150 /998 seconds 43
+VALIDATE epoch 30 target 200 /998 seconds 58
+VALIDATE epoch 30 target 250 /998 seconds 71
+VALIDATE epoch 30 target 300 /998 seconds 86
+VALIDATE epoch 30 target 350 /998 seconds 99
+VALIDATE epoch 30 target 400 /998 seconds 113
+VALIDATE epoch 30 target 450 /998 seconds 127
+VALIDATE epoch 30 target 500 /998 seconds 142
+VALIDATE epoch 30 target 550 /998 seconds 158
+VALIDATE epoch 30 target 600 /998 seconds 174
+VALIDATE epoch 30 target 650 /998 seconds 191
+VALIDATE epoch 30 target 700 /998 seconds 207
+VALIDATE epoch 30 target 750 /998 seconds 223
+VALIDATE epoch 30 target 800 /998 seconds 240
+VALIDATE epoch 30 target 850 /998 seconds 256
+VALIDATE epoch 30 target 900 /998 seconds 272
+VALIDATE epoch 30 target 950 /998 seconds 288
+VALIDATION_COMPLETE 30 ADE1 32.0931 FDE1 60.539021 minADE20 16.403136 minFDE20 25.634029 seconds 305.37
+RUN_FINISHED COMPLETED_30_EPOCHS epochs 30 best 30 GPU 16169.23

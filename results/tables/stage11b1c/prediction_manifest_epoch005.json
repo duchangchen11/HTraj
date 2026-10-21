@@ -1,0 +1,12 @@
+{
+  "path": "experiments/stage11b1c/cache/predictions/epoch005.pt",
+  "sha256": "988ef723225109130391202b9f2bc1258a648f5616aabd4cc61ef9b945fa819d",
+  "targets": 998,
+  "K": 20,
+  "TTST_proposals": 10000,
+  "checkpoint_SHA": "6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8",
+  "all_predictions_completed_before_GT_scoring": true,
+  "prediction_seconds": 321.48576986199987,
+  "trace_SHA": "74fd85699595a3bb4e013d56e4c257182f0da0886843150aa9cff7e4630a845c",
+  "scope": "validation"
+}

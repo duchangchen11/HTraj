@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_freeze_commit": "5ace29112eb97e37f6720f62e3f3088de4886d23",
+  "actual_training_commit": "6c9ed2413c0086df7d39b393e414460b671b6fe8",
+  "postrun_CPU_audits_separate": true,
+  "history_protected_files": 90429,
+  "history_changed_files": [],
+  "old_git_paths_changed": false,
+  "frozen_executable_SHA_unchanged": true,
+  "full_pytest_passed": 565,
+  "full_pytest_warnings": 25,
+  "full_pytest_failures": 0,
+  "training_coverage_audit": true,
+  "independent_numpy_all_metrics_passed": true,
+  "test_evaluated": false,
+  "checkpoint_and_prediction_cache_ignored": true,
+  "secrets_pattern_scan_passed": true,
+  "maximum_new_file_bytes": 6180377,
+  "photos_and_semantics_not_used_to_infer_collision": true,
+  "additional_training_started": false
+}

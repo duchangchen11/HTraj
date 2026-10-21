@@ -1,0 +1,294 @@
+{
+  "status": "COMPLETED_30_EPOCHS",
+  "started_commit": "6c9ed2413c0086df7d39b393e414460b671b6fe8",
+  "completed_epochs": 30,
+  "global_step": 56460,
+  "seed": 17,
+  "optimizer_updates": 56460,
+  "training_started_from_random": true,
+  "old_predictor_checkpoint_loaded": false,
+  "test_loaded": false,
+  "failures": [],
+  "initial_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "initial_segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "total_parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "best_epoch": 30,
+  "best_metrics": {
+    "ADE1": 32.093099789516174,
+    "FDE1": 60.539020848913005,
+    "minADE20": 16.403135768685257,
+    "minFDE20": 25.634029077877226,
+    "GoalFDE1": 60.614378876707825,
+    "minGoalFDE20": 25.749052506850116,
+    "goal_path_gap1": 2.2993292808532715,
+    "goal_path_gap_mean20": 2.6797075271606445,
+    "endpoint_diversity": 69.56623077392578,
+    "trajectory_diversity": 33.15062713623047,
+    "near_duplicate_endpoint_fraction": 0.00022676932812994407
+  },
+  "last_complete_validation_epoch": 30,
+  "GPU_process_seconds": 16168.762268908002,
+  "completed_validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "checkpoints": [
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/initial.pt",
+      "sha256": "dc428446a5c0fafdf86b0fb6ffe405d60975a7ac8a3ba86e2c621dc6b43fab43",
+      "bytes": 213360734,
+      "save_and_hash_seconds": 0.6280778200016357,
+      "epoch": 0,
+      "role": "initial"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_001.pt",
+      "sha256": "64a21cd761b9b960a1815c4fce8b7b4d4a330ef525b1506f6b62eb6d50e023c4",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6766543949997867,
+      "epoch": 1,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_002.pt",
+      "sha256": "9a354b92015cfd6decc5f5e628538f8c8ae18c6e3f1c8be1ed64ba1c1bd0dbba",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6938997029974416,
+      "epoch": 2,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_003.pt",
+      "sha256": "9408d181d399bb2cd42888b1c17be2b9a9d99d472c7945a37105236db55dfa99",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6954474419981125,
+      "epoch": 3,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_004.pt",
+      "sha256": "96005b728214126cc60f86541f20a801ec40aa77b2b4324c5a3f9e053077bf0c",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6728593100015132,
+      "epoch": 4,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_005.pt",
+      "sha256": "6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6789104769995902,
+      "epoch": 5,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_006.pt",
+      "sha256": "e1b06d1500943f8a3207ed6c14acb3206721786f94242dcc1914a273ffe506ab",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6785201599996071,
+      "epoch": 6,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_007.pt",
+      "sha256": "2da3af7c10cba83fc4794348d7914330bc8b4f2be37ab0fbaae2d83144fb204f",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6730619849986397,
+      "epoch": 7,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_008.pt",
+      "sha256": "8fadc8b53d16c3f74e2ac9a6a2f9f30578423ddcdefd4e42976934bc627c73fb",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6793513509983313,
+      "epoch": 8,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_009.pt",
+      "sha256": "b481c84a519433ab60593822985641904b6f49f865633f1811eb42f3f6b59ae5",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6950186719986959,
+      "epoch": 9,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_010.pt",
+      "sha256": "e5e17884ee21b509d35e9924c3f49ba25a01c65fd64b987408086a236a97c131",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.7021928330032097,
+      "epoch": 10,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_011.pt",
+      "sha256": "48f448c0cbdad9099ded3060a123a355cca649104604068db10e797379f18a5a",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6850617599993711,
+      "epoch": 11,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_012.pt",
+      "sha256": "303e660a4c612508665bffcb7da6c5dace4d3cc0eeac4443ed2d1d6f04f12a48",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.67669643300178,
+      "epoch": 12,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_013.pt",
+      "sha256": "0e25798ccc6a1c81c43f1c50dd69232d6cd2a8da03661c86b6388e022549fc1f",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6990264959968044,
+      "epoch": 13,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_014.pt",
+      "sha256": "a31aae3dc1afaed8b5ce624020035f15517ffe5763c062f9188d84d1fedcc17b",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6809052460012026,
+      "epoch": 14,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_015.pt",
+      "sha256": "5a3f622625fa54a1df4157853fab61143194c9b3edfd5eefc1ca3082371d5847",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6786067560024094,
+      "epoch": 15,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_016.pt",
+      "sha256": "8d34267c1145c5bf857f675c725b4ef6c31996f93cf166ab0f646ea5c08d0d4e",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6924949710009969,
+      "epoch": 16,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_017.pt",
+      "sha256": "90b2dfffc4adb89e813cda5273fc4634d52eac8d441384c07e7c745e27d50da9",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6750460090042907,
+      "epoch": 17,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_018.pt",
+      "sha256": "c5f5a16f002e38b56dc8bc172d6cf17e7ff2103493482b7ca77aca194a26d579",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6784369649976725,
+      "epoch": 18,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_019.pt",
+      "sha256": "5b6ef4821d89da3dc5c326d8a0039caafb4103d6feb90144753a21b125698f6b",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6984738419996575,
+      "epoch": 19,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_020.pt",
+      "sha256": "dbca1b671a06c84227bcfaac2947245fe5b1256383cc1ad689363d752f4865fa",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6979789420001907,
+      "epoch": 20,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_021.pt",
+      "sha256": "b3925fc3d1d0d969ef53e2b71c1f2cdf351fa84abd198bbf1d20fa14e386015d",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6753453779965639,
+      "epoch": 21,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_022.pt",
+      "sha256": "d104cdb75acc4768d7b7034c75937bfc4cecd87409a823bcaef15ec51b9e399a",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6785540749988286,
+      "epoch": 22,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_023.pt",
+      "sha256": "62ab03a5bdade6928400802ecea2b6a9ed80925879f3ff11ed815a282894eaa6",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6757216929981951,
+      "epoch": 23,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_024.pt",
+      "sha256": "cef725bc013a54a287c63aed00775f2217e1a03070bfea39e0d46fd3a6639ce6",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.7000188620004337,
+      "epoch": 24,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_025.pt",
+      "sha256": "24cbc17d0ac5c6095c99a0f6821544be2c235e4bd3f25fc8cae5ad2517f6f2c2",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6952786859983462,
+      "epoch": 25,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_026.pt",
+      "sha256": "04e56693c2dc39b0f5439f0229c86d6c0acc64b9505866a6dffa2916290701e9",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6786786890006624,
+      "epoch": 26,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_027.pt",
+      "sha256": "a91593ebc16ab4030bd285f3dbb329dacfbfc03fbe6eeac64cc6e342ac91c0bd",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6766965839997283,
+      "epoch": 27,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_028.pt",
+      "sha256": "ff0a527408f9ea3434bd5edf4d89d872cfd5072a47c82c00134d092e896831d1",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.7243792810040759,
+      "epoch": 28,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_029.pt",
+      "sha256": "7c46714e63ba286a1030ec1dc94d37c9414ff33bc348906c8934351b9f93557e",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6967699770029867,
+      "epoch": 29,
+      "role": "epoch_boundary"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+      "sha256": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+      "bytes": 226570538,
+      "save_and_hash_seconds": 0.6785813929964206,
+      "epoch": 30,
+      "role": "epoch_boundary"
+    }
+  ],
+  "initialization_checkpoint_loaded": false,
+  "validation_GT_used_in_prediction": false,
+  "final_segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83"
+}

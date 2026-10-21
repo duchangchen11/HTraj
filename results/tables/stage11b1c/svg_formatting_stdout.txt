@@ -1,0 +1,1 @@
+SVG whitespace cleanup PASS; unchanged normalized XML: 25 files

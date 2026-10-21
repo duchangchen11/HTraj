@@ -1,0 +1,30 @@
+{
+  "status": "RUNNING",
+  "started_commit": "6c9ed2413c0086df7d39b393e414460b671b6fe8",
+  "completed_epochs": 30,
+  "global_step": 56460,
+  "seed": 17,
+  "optimizer_updates": 56460,
+  "training_started_from_random": true,
+  "old_predictor_checkpoint_loaded": false,
+  "test_loaded": false,
+  "failures": [],
+  "initial_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "initial_segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "total_parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "latest_validation": {
+    "ADE1": 32.093099789516174,
+    "FDE1": 60.539020848913005,
+    "minADE20": 16.403135768685257,
+    "minFDE20": 25.634029077877226,
+    "GoalFDE1": 60.614378876707825,
+    "minGoalFDE20": 25.749052506850116,
+    "goal_path_gap1": 2.2993292808532715,
+    "goal_path_gap_mean20": 2.6797075271606445,
+    "endpoint_diversity": 69.56623077392578,
+    "trajectory_diversity": 33.15062713623047,
+    "near_duplicate_endpoint_fraction": 0.00022676932812994407
+  },
+  "GPU_process_seconds": 16168.762063557006
+}

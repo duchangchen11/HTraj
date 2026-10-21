@@ -1,0 +1,1 @@
+Supplementary actual-loss axis views saved; no data smoothing or GPU use
