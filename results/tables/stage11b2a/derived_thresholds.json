@@ -1,0 +1,24 @@
+{
+  "source_training_targets": 7496,
+  "source_history_terciles": {
+    "hist_speed_diag": [
+      0.004074125043548972,
+      0.01396354217997486
+    ],
+    "hist_path_diag": [
+      0.011407550121937123,
+      0.03909791810392961
+    ]
+  },
+  "future_posthoc_terciles": {
+    "future_path_diag": [
+      0.03747831195038096,
+      0.08090906942858146
+    ],
+    "future_net_diag": [
+      0.02900997565258371,
+      0.0783200956212104
+    ]
+  },
+  "method": "Frozen linear quantiles; ties enter higher bin; all thresholds descriptive and not independent confirmation"
+}

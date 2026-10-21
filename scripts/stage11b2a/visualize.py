@@ -1,0 +1,168 @@
+"""Actual-data Python figures; no predictor calls or trajectory modification."""
+from .common import *
+import numpy as np,pandas as pd,cv2
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import xml.etree.ElementTree as ET
+from scripts.stage11b0.common import RES
+from scripts.stage11b1.baselines import predict as baseline_path
+COLORS=['#366883','#B47450','#608B73','#977CA2','#9F933C']
+NAMES=['GOAL_COVERAGE_MISS','DEFAULT_ORACLE_GAP','GOAL_PATH_MISMATCH','MOTION_EXTRAPOLATION_DIFFICULTY','GEOMETRIC_ANOMALY']
+SHORT=['A25 Goal miss','B Default gap','C Goal/path','D Motion assoc.','E Geometry']
+FOOT='Y-Net a345ada | Development analysis | seed17 | epoch30 | K20 | errors: raw pixels unless labeled'
+
+def signature(n):return(n.tag,tuple(sorted((k,' '.join(v.split())) for k,v in n.attrib.items())),
+    ' '.join((n.text or '').split()),tuple(signature(x) for x in n))
+def save(fig,name,bottom=.075):
+    fig.text(.01,.012,FOOT+'\nCheckpoint SHA: '+CK,fontsize=6)
+    fig.tight_layout(rect=(0,bottom,1,1));fig.savefig(FIG/(name+'.png'),dpi=180,bbox_inches='tight')
+    p=FIG/(name+'.svg');fig.savefig(p,bbox_inches='tight');plt.close(fig)
+    t=p.read_text();clean='\n'.join(x.rstrip(' \t\r') for x in t.splitlines())+'\n'
+    assert signature(ET.fromstring(t))==signature(ET.fromstring(clean));p.write_text(clean)
+
+def display_case(ax,record,detail=True,legend=True,compact=False):
+    h,y,p,g,cv,ols,r,image=record
+    ax.imshow(image)
+    for k,a in enumerate(p):ax.plot(*a.T,color='#8B9EB7',alpha=.55,lw=.7,label='All20 predictions' if k==0 else None)
+    ax.plot(*h.T,'-o',ms=2,lw=1.4,color='#222222',label='History8')
+    ax.plot(*y.T,'-o',ms=2,lw=1.7,color='#C46649',label='GT future12')
+    ax.plot(*p[0].T,lw=1.8,color='#AA8333',label='First path (softargmax goal)')
+    ax.plot(*p[int(r.best_ADE_head)].T,lw=2,color='#247C78',label='ADE oracle (offline GT)')
+    ax.plot(*p[int(r.closest_goal_head)].T,'--',lw=1.4,color='#875379',label='Closest-goal path (offline GT)')
+    ax.plot(*cv.T,'--',lw=1.2,color='#697C2C',label='CV-Last2 K1')
+    ax.plot(*ols.T,':',lw=1.4,color='#4E4897',label='OLS8 K1')
+    ax.scatter(*g.T,marker='x',s=15,color='#896099',label='All20 sampled goals')
+    ax.scatter(*y[-1],marker='*',s=80,color='#F4BD54',edgecolor='black',zorder=10,label='GT endpoint')
+    xy=np.vstack([h,y,p.reshape(-1,2),g,cv,ols]);lo=xy.min(0);hi=xy.max(0);pad=np.maximum((hi-lo)*.1,20)
+    if not detail:lo=np.minimum(lo,[-.5,-.5]);hi=np.maximum(hi,[image.shape[1]-.5,image.shape[0]-.5])
+    lo-=pad;hi+=pad;ax.set_xlim(lo[0],hi[0]);ax.set_ylim(hi[1],lo[1])
+    ax.set(xlabel='Reference x (px)',ylabel='Reference y (px)')
+    if legend:ax.legend(fontsize=5 if compact else 6,loc='best',framealpha=.8)
+    ax.set_title(f"{r.scene} | {r.sample_id}\nADE1={r.ADE1:.2f}, oracle ADE={r.minADE20:.2f} px",fontsize=6 if compact else 9)
+    if compact:ax.tick_params(labelsize=6);ax.set_xlabel('x (px)',fontsize=6);ax.set_ylabel('y (px)',fontsize=6)
+
+def main():
+    cpu_guard();plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False,'legend.frameon':False})
+    f=pd.read_csv(OUT/'motion_features.csv');cand=pd.read_csv(OUT/'goal_path_decomposition.csv')
+    #1 All998 empirical distributions; symlog keeps zeros and all outliers.
+    fig,ax=plt.subplots(1,2,figsize=(10,3.5))
+    for a,keys,title in zip(ax,[['ADE1','minADE20'],['FDE1','minFDE20']],['ADE','FDE']):
+        for key,color in zip(keys,COLORS):x=np.sort(f[key]);a.step(x,np.arange(1,999)/998,where='post',label=key,color=color)
+        a.set(xscale='symlog',xlabel='Error (px; symlog, linear near0)',ylabel='Empirical fraction of998 targets',title=title+' K1 vs K20 oracle');a.legend()
+    save(fig,'01_K1_K20_distributions')
+    #2 Same candidate relationships and matched closest-goal path.
+    fig,ax=plt.subplots(1,2,figsize=(10,3.7))
+    hb=ax[0].hexbin(cand.GoalFDE,cand.FDE,gridsize=45,mincnt=1,bins='log',cmap='Blues');fig.colorbar(hb,ax=ax[0],label='Candidate count (log color)')
+    maximum=max(cand.GoalFDE.max(),cand.FDE.max());ax[0].plot([0,maximum],[0,maximum],':',color='.5');ax[0].set(xlabel='Same-head goal FDE (px)',ylabel='Same-head path FDE (px)',title='All19960 matched candidates')
+    ax[1].scatter(f.closest_goal_ADE,f.minADE20,s=6,alpha=.5,rasterized=True,color=COLORS[0]);m=max(f.closest_goal_ADE.max(),f.minADE20.max())
+    ax[1].plot([0,m],[0,m],':',color='.5');ax[1].set(xlabel='ADE of closest-goal head (px)',ylabel='Best full-path ADE@20 (px)',title='998 target-level matched comparisons')
+    save(fig,'02_goal_path_relationship')
+    #3 Coverage and conditional errors: all targets, no exclusions.
+    fig,ax=plt.subplots(1,2,figsize=(10,3.7));x=np.arange(3)
+    ax[0].bar(x,[(~f[f'goal_miss{t}']).mean()*100 for t in [10,25,50]],color=COLORS[:3]);ax[0].set(xticks=x,xticklabels=['10px','25px','50px'],ylim=(0,105),ylabel='Goal coverage (%)',title='At least one of20 goals within radius')
+    for j,t in enumerate([10,25,50]):
+        for sign,flag,color in [(-1,False,COLORS[0]),(1,True,COLORS[1])]:
+            s=f[f[f'goal_miss{t}']==flag];xx=j+sign*.18;ax[1].bar(xx,s.minADE20.mean(),.34,color=color,label=('Covered' if not flag else 'Missed') if j==0 else None)
+            ax[1].text(xx,s.minADE20.mean(),f'n={len(s)}',ha='center',va='bottom',fontsize=6)
+    ax[1].set(xticks=x,xticklabels=['10px','25px','50px'],ylabel='Mean minADE20 (px)',title='Conditional association, not causal');ax[1].legend()
+    save(fig,'03_goal_coverage_error')
+    #4 Normalized historical amplitude and all historical speed groups.
+    fig,ax=plt.subplots(1,2,figsize=(10,3.7))
+    for color,(scene,s) in zip(COLORS,f.groupby('scene')):ax[0].scatter(s.hist_path_diag,s.minADE20_diag,s=7,alpha=.5,label=scene,color=color,rasterized=True)
+    ax[0].set(xscale='symlog',yscale='symlog',xlabel='History path / image diagonal',ylabel='minADE20 / image diagonal',title='Input-observable motion amplitude');ax[0].legend(fontsize=6)
+    groups=pd.read_csv(OUT/'motion_error_groups.csv');g=groups[groups.family=='history_speed'].set_index('group').loc[['low','medium','high']]
+    ax[1].bar(range(3),g.minADE20,color=COLORS[:3]);ax[1].set(xticks=range(3),xticklabels=[f'{k}\n(n={int(g.loc[k,"targets"])})' for k in g.index],ylabel='Mean minADE20 (px)',title='Source-history normalized-speed terciles')
+    save(fig,'04_history_motion_error')
+    #5 Undefined directions are kept, not reassigned to straight.
+    fig,ax=plt.subplots(1,2,figsize=(11,3.7));levels=['undefined_direction','straight','intermediate','turning_ge30deg']
+    for a,fam,title in zip(ax,['history_turn','future_turn'],['History turn: input observable','Future turn: GT posthoc only']):
+        s=groups[groups.family==fam].set_index('group').loc[levels];a.bar(range(4),s.minADE20,color=COLORS[:4]);a.set(xticks=range(4),xticklabels=[f'{k.replace("_"," ")}\n(n={int(s.loc[k,"targets"])})' for k in levels],ylabel='Mean minADE20 (px)',title=title);a.tick_params(axis='x',labelsize=6)
+    save(fig,'05_turning_error')
+    #6 Raw vs geometric scaling and future motion amplitude.
+    scenes=pd.read_csv(OUT/'scene_normalized_analysis.csv');fig,ax=plt.subplots(1,3,figsize=(13,3.7));x=np.arange(5)
+    for a,col,title,ylabel in zip(ax,['minADE20','minADE20_diag','future_path_diag_mean'],['Oracle path error','Image-diagonal normalization','Future motion amplitude (GT posthoc)'],['minADE20 (px)','minADE20 / diagonal','Future path / diagonal']):
+        a.bar(x,scenes[col],color=COLORS);a.set(xticks=x,xticklabels=[f'{r.scene}\n(n={r.targets})' for r in scenes.itertuples()],ylabel=ylabel,title=title);a.tick_params(axis='x',rotation=40,labelsize=6)
+    save(fig,'06_recording_motion_comparison')
+    #7 Nonexclusive taxonomy and all intersections.
+    fig,ax=plt.subplots(1,2,figsize=(11,4.4));counts=[int(f[k].sum()) for k in NAMES]
+    ax[0].barh(SHORT,counts,color=COLORS);ax[0].invert_yaxis();ax[0].set(xlabel='Targets (labels overlap)',title='Frozen descriptive failure definitions')
+    for i,n in enumerate(counts):ax[0].text(n,i,' '+str(n),va='center',fontsize=8)
+    matrix=np.array([[int((f[a]&f[b]).sum()) for b in NAMES] for a in NAMES]);im=ax[1].imshow(matrix,cmap='Blues')
+    for i in range(5):
+        for j in range(5):ax[1].text(j,i,str(matrix[i,j]),ha='center',va='center',fontsize=8,color='white' if matrix[i,j]>80 else 'black')
+    ax[1].set(xticks=range(5),yticks=range(5),xticklabels=['A25','B','C','D','E'],yticklabels=['A25','B','C','D','E'],title='Intersection target counts');fig.colorbar(im,ax=ax[1],label='Targets')
+    save(fig,'07_failure_types_and_overlap')
+    #8 Every paired delta; no confidence interval treating windows as independent.
+    fig,ax=plt.subplots(1,2,figsize=(10,3.7))
+    for a,key,title in zip(ax,['YNet_ADE1_minus_OLS8_ADE1','YNet_FDE1_minus_OLS8_FDE1'],['Paired ADE1 difference','Paired FDE1 difference']):
+        x=np.sort(f[key]);a.step(x,np.arange(1,999)/998,where='post',color=COLORS[0]);a.axvline(0,color='.5',linestyle=':');a.set(xscale='symlog',xlabel='Y-Net minus OLS8 (px; negative improves)',ylabel='Empirical target fraction',title=title)
+    save(fig,'08_paired_OLS8_error')
+    #9 Seven existing nodes only, including all recording curves.
+    curves=pd.read_csv(OUT/'frozen_validation_trends.csv');allc=curves[curves.scene=='ALL_WINDOWS'];fig,ax=plt.subplots(2,3,figsize=(13,7))
+    for color,(scene,s) in zip(COLORS,curves[curves.scene!='ALL_WINDOWS'].groupby('scene')):
+        ax[0,0].plot(s.epoch,s.minADE20,'-o',ms=3,label=scene,color=color);ax[0,1].plot(s.epoch,s.minFDE20,'-o',ms=3,label=scene,color=color)
+    ax[0,0].set(ylabel='minADE20 (px)',title='Recording-specific oracle ADE');ax[0,0].legend(fontsize=5)
+    ax[0,1].set(ylabel='minFDE20 (px)',title='Recording-specific oracle FDE')
+    for k in ['ADE1','FDE1']:ax[0,2].plot(allc.epoch,allc[k],'-o',ms=3,label=k)
+    ax[0,2].set(ylabel='First path error (px)',title='Window-weighted K1');ax[0,2].legend(fontsize=7)
+    for k in ['GoalFDE1','minGoalFDE20','minFDE20']:ax[1,0].plot(allc.epoch,allc[k],'-o',ms=3,label=k)
+    ax[1,0].set(ylabel='Error (px)',title='Goals and decoded endpoints');ax[1,0].legend(fontsize=6)
+    for t in [10,25,50]:ax[1,1].plot(allc.epoch,allc[f'within_{t}px']*100,'-o',ms=3,label=f'{t}px')
+    ax[1,1].set(ylabel='Goal coverage (%)',title='Frozen endpoint radii');ax[1,1].legend(fontsize=7)
+    for k in ['endpoint_diversity','trajectory_diversity','goal_path_gap_mean20']:ax[1,2].plot(allc.epoch,allc[k],'-o',ms=3,label=k)
+    ax[1,2].set(ylabel='Geometric distance (px)',title='Candidate geometry');ax[1,2].legend(fontsize=5)
+    for a in ax.flat:a.set_xlabel('Actual completed epoch');a.set_xticks([1,5,10,15,20,25,30])
+    save(fig,'09_frozen_validation_trends')
+    # Cases: selection by frozen quantile rule; no error-based reselection later.
+    pack,h,y,identity=frozen();paths=pack['paths'].numpy();goals=pack['goals'].numpy();index={s:i for i,s in enumerate(pack['sample_ids'])}
+    definitions=[('goal_miss25',f.goal_miss25,'minGoalFDE20'),('default_oracle_gap',f.DEFAULT_ORACLE_GAP,'SelectionGap_ADE'),
+        ('goal_path_mismatch',f.GOAL_PATH_MISMATCH,'closest_goal_ADE'),('history_straight_future_turn',f.history_straight_future_turn,'future_max_turn_degrees'),
+        ('geometry_anomaly',f.GEOMETRIC_ANOMALY,'max_predicted_step_pixels'),('YNet_better_OLS8',f.YNet_ADE1_minus_OLS8_ADE1<0,'OLS8_ADE1_minus_YNet_ADE1'),
+        ('YNet_worse_OLS8',f.YNet_ADE1_minus_OLS8_ADE1>0,'YNet_ADE1_minus_OLS8_ADE1')]
+    manifest=[];coords=[];records={};category_members={}
+    for category,mask,score in definitions:
+        available=f[mask].sort_values([score,'sample_id']);n=len(available);ranks=[]
+        for q in [.25,.5,.75]:
+            rank=int(np.floor(q*max(0,n-1)))
+            if n and rank not in ranks:ranks.append(rank)
+        for rank in range(n):
+            if len(ranks)>=min(3,n):break
+            if rank not in ranks:ranks.append(rank)
+        category_members[category]=[]
+        for order,rank in enumerate(ranks,1):
+            r=available.iloc[rank];i=index[r.sample_id];key=f'{category}_{order}';category_members[category].append(key)
+            cv=baseline_path(h[i],'CV-Last2');ols=baseline_path(h[i],'OLS8')
+            for name,a in [('CV-Last2',cv),('OLS8',ols)]:
+                dist=np.linalg.norm(a-y[i],axis=-1);assert abs(dist.mean()-r[name+'_ADE1'])<=1e-8 and abs(dist[-1]-r[name+'_FDE1'])<=1e-8
+            path=RES/'data/SDD/train'/r.scene/'reference.jpg';assert sha(path)==r.reference_SHA
+            image=cv2.cvtColor(cv2.imread(str(path)),cv2.COLOR_BGR2RGB);record=(h[i],y[i],paths[:,i],goals[:,i],cv,ols,r,image);records[key]=record
+            row=dict(case=key,category=category,rank=rank,eligible_targets=n,selection_score=score,selection_value=float(r[score]),
+                **{k:r[k] for k in ['sample_id','scene','checkpoint_SHA','reference_SHA','history_SHA','GT_SHA','ADE1','FDE1','minADE20','minFDE20',
+                'GoalFDE1','minGoalFDE20','hist_mean_speed','hist_max_turn_degrees','hist_speed_CV','future_max_turn_degrees','future_path_length']},
+                failure_types=';'.join(k for k in NAMES if r[k]))
+            manifest.append(row)
+            for view in ['full','detail']:
+                fig,aa=plt.subplots(figsize=(8,6.8));display_case(aa,record,detail=view=='detail')
+                fig.text(.01,.087,f"{key} | FDE1/minFDE20={r.FDE1:.2f}/{r.minFDE20:.2f} px; GoalFDE1/minGoal={r.GoalFDE1:.2f}/{r.minGoalFDE20:.2f} px",fontsize=7)
+                save(fig,'case_'+key+'_'+view,bottom=.16)
+            def add(kind,head,array):
+                for t,(xv,yv) in enumerate(array):coords.append(dict(case=key,sample_id=r.sample_id,kind=kind,head=head,step=12 if kind=='goal' else t+1,x=float(xv),y=float(yv)))
+            add('history',-1,h[i]);add('GT_future',-1,y[i]);add('CV-Last2',-1,cv);add('OLS8',-1,ols)
+            for k in range(20):add('prediction',k,paths[k,i]);add('goal',k,goals[k,i:i+1])
+    pd.DataFrame(manifest).to_csv(OUT/'failure_case_manifest.csv',index=False);pd.DataFrame(coords).to_csv(OUT/'failure_case_coordinates.csv',index=False)
+    writej(OUT/'failure_case_selection.json',dict(categories=category_members,
+        repeated_sample_ids={s:[r['case'] for r in manifest if r['sample_id']==s] for s in set(r['sample_id'] for r in manifest) if sum(r['sample_id']==s for r in manifest)>1},
+        rule=protocol()['cases'],full20_paths_kept=True,GT_only_offline=True))
+    fig,ax=plt.subplots(2,4,figsize=(15,10))
+    for a,(category,keys) in zip(ax.flat,category_members.items()):
+        if not keys:a.text(.5,.5,category+'\nNO QUALIFYING TARGET',ha='center');a.axis('off');continue
+        key=keys[len(keys)//2];display_case(a,records[key],detail=True,legend=False,compact=True);a.set_title(category+'\n'+a.get_title(),fontsize=6)
+    ax.flat[-1].axis('off');ax.flat[-1].text(0,.9,'Actual frozen cases\nAll20 paths +20 goals\nFirst path and ADE oracle differ\nOracle requires offline GT\nCV and OLS8 are K1\nNo semantic collision claims',fontsize=9,va='top')
+    save(fig,'10_real_failure_case_composite')
+    cpu_guard();writej(OUT/'figure_generation.json',dict(passed=True,CPU_only=True,CUDA_initialized=False,quantitative_figures=10,
+        case_views=2*len(manifest),case_selections=len(manifest),unique_targets=len(set(r['sample_id'] for r in manifest)),
+        coordinate_source_SHA=PSHA,all20_candidates_kept=True,all_CV_OLS8_case_metrics_match_frozen=True,
+        SVG_whitespace_only_normalized_XML_unchanged=True,source_script_SHA=sha(Path(__file__))))
+    print('Real-data figures and frozen-quantile cases complete:',len(manifest),'selections',flush=True)
+if __name__=='__main__':main()

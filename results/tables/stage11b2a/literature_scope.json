@@ -1,0 +1,35 @@
+{
+  "scope": "Potential-overlap check only; historical full-method audits reused, no new systematic literature review",
+  "inherited_audits": [
+    {
+      "path": "reports/stage11a/06_NOVELTY_AUDIT.md",
+      "sha256": "1ba4edc10116a98a82af219fc4e98910ea81ed7203a5e36e2f24382cff306a11"
+    },
+    {
+      "path": "reports/stage11ap/07_NOVELTY_GAP_UPDATE.md",
+      "sha256": "03c75c2e84bb26f6bbfeab81d1664bb3366f2c6dc3c91b06be8bf651dbcfdf9d"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Mangalam_From_Goals_Waypoints__Paths_to_Long_Term_Human_Trajectory_ICCV_2021_paper.html",
+      "status": "403 Forbidden",
+      "new_full_text_read": false
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Dendorfer_MG-GAN_A_Multi-Generator_Model_Preventing_Out-of-Distribution_Samples_in_Pedestrian_Trajectory_ICCV_2021_paper.html",
+      "status": "403 Forbidden",
+      "new_full_text_read": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29362",
+      "status": "Accessible author preprint metadata and abstract",
+      "title": "Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties",
+      "date": "2026-03-31",
+      "publication_status": "arXiv preprint; no newly verified journal/conference acceptance",
+      "new_full_text_read": false,
+      "overlap_risk": "Joint positional and semantic uncertainty theme already publicly stated; abstract cannot establish exact mathematical equivalence"
+    }
+  ],
+  "conclusion": "No novelty claim; semantic causation and literature gaps remain unverified"
+}

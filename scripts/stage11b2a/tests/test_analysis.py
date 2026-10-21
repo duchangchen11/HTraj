@@ -47,3 +47,10 @@ def test_linear_quantile_bin_boundary_and_rank_ties():
     assert tercile(1,[1,2])=='medium' and tercile(2,[1,2])=='high'
     rho,n=spearman([0,0,1,2,np.nan],[0,0,2,3,4]);assert n==4 and np.isclose(rho,1)
     rho,n=spearman([0,0,0],[1,2,3]);assert np.isnan(rho) and n==3
+
+def test_case_coordinate_CSV_roundtrip_preserves_cached_float32_exactly(tmp_path):
+    import pandas as pd
+    a=np.array([np.pi,1/7,1234.5678,-.00012345],dtype=np.float32).astype(float)
+    p=tmp_path/'coords.csv';pd.DataFrame({'x':a}).to_csv(p,index=False)
+    b=pd.read_csv(p,float_precision='round_trip').x.to_numpy()
+    assert np.array_equal(a,b)

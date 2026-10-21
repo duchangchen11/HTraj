@@ -1,0 +1,266 @@
+{
+  "passed": true,
+  "initial_issue": "Case caption overlapped x-axis label in first render",
+  "original_example_retained": "experiments/stage11b2a/cache/visual_QA/before_caption_overlap.png",
+  "case_coordinate_SHA_unchanged": "2f5ac3c2150f96d41db0db5340d4d4c5a3354a2f1e08a9b2a5f80dc91f45cf3f",
+  "sample_selection_unchanged": true,
+  "all_cached_paths_exactly_match_CSV": true,
+  "figures": [
+    {
+      "figure": "case_goal_miss25_1_full",
+      "original_PNG_SHA": "663ee0bf6f200dbb5d67c4138c87b88d932f00f5b59dd4d95001bb2d5999dc36",
+      "final_PNG_SHA": "fd54757d4cb02cbb9d666af86d9bf95f6896ab28ab3a9ad0d90ee4ca0f0008fa",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_miss25_1_detail",
+      "original_PNG_SHA": "dc6689cdfb71e19b3f2f1d3cea3e3528e77b1026a39a58b542e4aa6b2572a96c",
+      "final_PNG_SHA": "7e0fd441b8118b09d611ccd725102b9b1c8553463e09ac427dcf72a8e4a229af",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_miss25_2_full",
+      "original_PNG_SHA": "af1c8ad3ec1ee203f414c54f069bd6595ab4539da6fadf47006df460237c9a0c",
+      "final_PNG_SHA": "acf9fdedf88e6251e138f3ecee41e8c06c0b3537653123114aaca6be7f1bae7d",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_miss25_2_detail",
+      "original_PNG_SHA": "bfc046d0fb92f899d53e7118dd7c7b03019d69a626d5d6a6d67d537fb587012b",
+      "final_PNG_SHA": "ae7ae7aa72b0f9ddde67087f50053e044877fddf107689a926bc4cea091f1a90",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_miss25_3_full",
+      "original_PNG_SHA": "b871d39b9ecf50637d817db07945dd83e447c05a90c354de36f8d29f9887487e",
+      "final_PNG_SHA": "41e1868819ea0a1f61b3a5fa8696a9428bdc94ea00f005d53d7259cd9c999312",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_miss25_3_detail",
+      "original_PNG_SHA": "3b843a7af9fe79e3af40f4b9550d6d5cfabe515372db840f76600d0df2f04572",
+      "final_PNG_SHA": "047cb1cab0fce35e27a6a8ee7b1abb2cc216f1c0053bdae9e9d6487fc881297d",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_1_full",
+      "original_PNG_SHA": "f68a784e13e33a3c826f84af9af840f259aa9acf8f824af640d5c9a91dc0fb57",
+      "final_PNG_SHA": "dfabe5b471f149730702f281f86eae6730dcacd1020ce227e6cd34aea0d18949",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_1_detail",
+      "original_PNG_SHA": "92382138bc673e80c86b499873929f18a01ee6593e7ff6fdd9cbb57de4768c64",
+      "final_PNG_SHA": "eb3e8ae2a03d51e8c5a0bad7b7a6446443b65d211ffbfacbc9d5706885a0393d",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_2_full",
+      "original_PNG_SHA": "fd213d08ebe2d9270f6f4e72fa4c07564cbc7b236667fe50936408ff5c8dae5a",
+      "final_PNG_SHA": "2107165c87e470aa8a8cebb9afe62aed554089884ef20f5c03c069f09f4b2dbc",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_2_detail",
+      "original_PNG_SHA": "3cb72c97e2fbd86f70aac809f286d87e46cf153b58d968fc543910c9e6ad9a67",
+      "final_PNG_SHA": "1c03dc722be56250df8cbccf66cf7d0858c99ae43d076dfea3d935cdc53c68b0",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_3_full",
+      "original_PNG_SHA": "0c4df6670869ce6715b167d8e8e162bd8a51eaaa7698898cb2dc76b748c02ad6",
+      "final_PNG_SHA": "52eade675b50c784d0d35992c095fdecda2d585ddbbe19c1ffa11e97e206f2da",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_default_oracle_gap_3_detail",
+      "original_PNG_SHA": "3b8284caa0bdbe0ba8d6709eafb284b4e84ab53983a6869b0acd6424e9892bf2",
+      "final_PNG_SHA": "a2720c2b970baa6405bcc810a47243d1a8e875fa4296a1b3ea5b1ccc7559f77f",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_1_full",
+      "original_PNG_SHA": "a9614ac683af02e8346bf86e8aa4787219f2add2d4fbb538cfc23183868d3011",
+      "final_PNG_SHA": "eb3234a1b742c177a4c9cb7cc3cffb726eb29416d0292c0f25f617aaa2f9289a",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_1_detail",
+      "original_PNG_SHA": "31ffcb6b073ac3ba96eb53144b0e096fa87baabd8a57e605f25c805b90f0c890",
+      "final_PNG_SHA": "37350d15a71c0209dd8c9413e5a565fe218a0087260bd562ed43322a4e3489fc",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_2_full",
+      "original_PNG_SHA": "bbeca268ab19b8c7c4460e6e15beaa283f0cd3a8681463cb7312484d52d6e194",
+      "final_PNG_SHA": "cbc6fbfe5c785e8304cbd0c1f8d292f08bb5de43e9c971c77d463d68f80f93d2",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_2_detail",
+      "original_PNG_SHA": "d77ff2208f019979c667f18854494907788c68d9ec131a3047661c6e416121e3",
+      "final_PNG_SHA": "cd54f37ef8fed4943e3764f6f4c03d91fa0480676806d44a725f7c5ea8fb1fee",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_3_full",
+      "original_PNG_SHA": "bab2da25a385c1fe760a30fb94f96ceeb97076a86c1021964fb369c6868e5e7a",
+      "final_PNG_SHA": "2e918fd12763f29ff24bba222be1493ce85c94313cc9b5b746fbd2d7ce5f211b",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_goal_path_mismatch_3_detail",
+      "original_PNG_SHA": "ba172e153064fa8f326c045eda950150de4e6f575e57d986a013b0930b2b9098",
+      "final_PNG_SHA": "bc9ab2c873e9afe1b3f8d48b5c21a1d32d1abf3168825ba5de47b03bf8af1cee",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_1_full",
+      "original_PNG_SHA": "cc26ab9cef2a2cf3c21c9e30a5fda9f4f3820a44eef4b3a4d7ecee4c5e84604d",
+      "final_PNG_SHA": "cf0dcbb8d28d112359155380ce414a1f4bfb8dbe48a9a709c7abd042e4811881",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_1_detail",
+      "original_PNG_SHA": "69e67fc1dc7e877260ac27691df7c591d57166bdcad76b7a9c386a99de79c577",
+      "final_PNG_SHA": "b13d568196b62ddddb5c96128618dd5e9cf6a9a794653b031d6a6e6d7139c7b2",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_2_full",
+      "original_PNG_SHA": "3535666433d1ff79307950476efa82f25464b49c5513ce5a05eb01cc0a17c736",
+      "final_PNG_SHA": "8204fab72801da5ee624f944d5d6d6fbffac74463af442d74b96f6b0b9cb597d",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_2_detail",
+      "original_PNG_SHA": "950659b67da2d309a941adb25780c5e21a3ecade08d4b59718128b8a2532c0f6",
+      "final_PNG_SHA": "15a903aea148e160937daa5ab002387f0c1e256bd893fcb0b957b5ad04f8c1de",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_3_full",
+      "original_PNG_SHA": "5f46ca37b7397e08273d17810f1aa24b752e7f2f549d01817e3c5391991b9e2d",
+      "final_PNG_SHA": "d270b4d6396a41c80599bba18c1cb8ed2df7623eb9f11268b4734692a59bec96",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_history_straight_future_turn_3_detail",
+      "original_PNG_SHA": "0e0663cff7a71aa66df34df6088dcdb31e34c7bd0693dac972da10c3f3ff7865",
+      "final_PNG_SHA": "93bbee9dc30cd522b51702be92f6ec617de6bea76cca3918202704e76ad83c60",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_1_full",
+      "original_PNG_SHA": "947d6e06cd3a89ebd9cefc3bd7d66c0aaf0d14f7a240b3f4a018f5fa888dfe46",
+      "final_PNG_SHA": "978e4e82d200cda0bb8614bae8affaa35c5d5768af64662b998a6f4006659b26",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_1_detail",
+      "original_PNG_SHA": "999fc6b86ccf88003f1caa2861603d979e1826c3b7f5bb40f3b05f26b6421d58",
+      "final_PNG_SHA": "27509dddb13af2bcc08cf6ffe19db36d0bf3d6304b10845761dd1bebeb34b50d",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_2_full",
+      "original_PNG_SHA": "763c4266b0a439dbd6dc0f5828be6b07a91bf3f15198d865675f4ce34ca560ce",
+      "final_PNG_SHA": "1101cdbf5a324ad0b249931d5dc7e2adab62334427a1085a4cb90feb88ac1f34",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_2_detail",
+      "original_PNG_SHA": "1d3a42f901e8ead8f88be705355e859ca862bca01ad1f7a98c1011e3e64adb98",
+      "final_PNG_SHA": "a41562dd148352a7e48ebfb44289456a85ee59ec42474e8d3cf54936d2a5b1d3",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_3_full",
+      "original_PNG_SHA": "e90afc5ec11d7d76166bf6fc687f0061f32256fa077476806fa516f7d52a503e",
+      "final_PNG_SHA": "88ed0ebe557719956c40cfa9e5858ce66123ff3e5222f9ebac23919bfa188ff9",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_geometry_anomaly_3_detail",
+      "original_PNG_SHA": "edc8bd8d89c7dcb1ad2a963e5333d0a6741a81916ef7f1c66edcd61d75930463",
+      "final_PNG_SHA": "775baeb1fc4c66d53b7998f5bf9ec22c5b32b92c57b92185964c619525a0e031",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_1_full",
+      "original_PNG_SHA": "a7ca833a258c23d10a7eb4744d42db6e15b30414556e2f08800bb927dc101a72",
+      "final_PNG_SHA": "65dfbef8a155b321eeec9a273d92db43370b2bc9ac5ae077dab2a5761e5c43ea",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_1_detail",
+      "original_PNG_SHA": "0dc1a18287fc08d41dd7f76a04770a790162f37f31217c09a039374eaa663341",
+      "final_PNG_SHA": "19e033d66f2b15719653c8c81447645493eea836b11f023c6e7a1b59945adcd3",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_2_full",
+      "original_PNG_SHA": "3e889f6e5c71b131a6cfa2f730b9a551e1e109d0e1196d76cb761768eb63a4e8",
+      "final_PNG_SHA": "6d95e2b7e4fe95ec65ee28774860dc71e75a5dfa5e331a51b99e72ae083f54be",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_2_detail",
+      "original_PNG_SHA": "941f791778d2b0028893223967f1fb8b46538cdfee44a49bae3f907b9852915d",
+      "final_PNG_SHA": "9960cbb161b242930b48a28cebe083615ce1968789639846a31a635ca60f152a",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_3_full",
+      "original_PNG_SHA": "6a016196340dc2adbc0890b5560882bfafbe70b642fdccce6f13bb201ca934f5",
+      "final_PNG_SHA": "0dc899521a529f73752229c6a9b351e55d4beeee121c84c00f19b0566ce6f97e",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_better_OLS8_3_detail",
+      "original_PNG_SHA": "7dd46766b7daf29c898b78587a1af54f5fe6e3860917cf42a6f4cab64d4c4df6",
+      "final_PNG_SHA": "a690e6d0b6660ff4b78a36df61bbad450f00df639985e659a6c320eb10484bab",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_1_full",
+      "original_PNG_SHA": "6fc6407c0ec24be221a962409af99e5c4b56bea04006596066ead8ab1dc366fe",
+      "final_PNG_SHA": "4dd52c924d271442065656bec01ff2b48da4a6cab34c1b746cedf149e774c5fd",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_1_detail",
+      "original_PNG_SHA": "13d78b101c9c638d71a1245f8d4d439f9d749bad1d0b0a72b6728057d49e185c",
+      "final_PNG_SHA": "f029a27d58314a45fd8585598b01276d370613bddf9f73af0619276c2a02ffa7",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_2_full",
+      "original_PNG_SHA": "1a9e0d565a5fbf11dc77ee6e5b7fe6ec8ab1daea418a4f93335f7e44f5ad08fb",
+      "final_PNG_SHA": "0eaf849bf54dc91d41e7a6122dacafb27e862bf80fbfbd0aac9dd9495dca3d31",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_2_detail",
+      "original_PNG_SHA": "59791d1c80621787439b7250790836bddd1e114c64d678419e22264550c14b2a",
+      "final_PNG_SHA": "7907b924f63b0fcd7bba0ed9b7cabf3b7c9d323672d600415bf7d14732edf076",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_3_full",
+      "original_PNG_SHA": "dceef959c3e29c55450f73981a683c105d2444c09b443bf00c33563190d4ec15",
+      "final_PNG_SHA": "b0ddf2b8d0eb1352d787c74578b262f0667ff9e20c65324fd3f90e5847bc2db5",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    },
+    {
+      "figure": "case_YNet_worse_OLS8_3_detail",
+      "original_PNG_SHA": "2125671cfa64425b4e950021788bb3f8d11a1f70d63cd27cffc2edeec7369398",
+      "final_PNG_SHA": "1d0c47ff45e41b831002f30e16d0a075c91518c2f1902b16fdeffa0e6b8dfd01",
+      "reason": "Reserve footer space; show corresponding closest-goal path explicitly; same fixed IDs and all20 path coordinates"
+    }
+  ],
+  "source_script_SHA": "0d65e7dd7fd98aa9fc44747ce9f19f23f92f320441c4647db0b1c100a146b0e0",
+  "original_example_committed": "results/tables/stage11b2a/qa_evidence/before_caption_overlap.png",
+  "CSV_precision_failure_log": "results/tables/stage11b2a/layout_fix_stdout.txt",
+  "CSV_roundtrip_fix_attempt_log": "results/tables/stage11b2a/layout_fix_attempt2_stdout.txt"
+}

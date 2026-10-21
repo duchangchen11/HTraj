@@ -1,0 +1,10 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "torch": "2.5.1+cu124",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "matplotlib": "3.9.2",
+  "CUDA_VISIBLE_DEVICES": "",
+  "CUDA_initialized": false,
+  "GPU_seconds": 0
+}

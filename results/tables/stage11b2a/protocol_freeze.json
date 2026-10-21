@@ -1,0 +1,15 @@
+{
+  "commit": "db88936f33529f91ae50260f0b7e2fda33574d1e",
+  "protocol_SHA": "0f8e1b1b3d55d406a0d1985d6ce56dc0b4c102835efde8334877da633de81dcf",
+  "stage": "Stage11B-2A",
+  "analysis_started": false,
+  "source_SHA": {
+    "scripts/stage11b2a/__init__.py": "dba2567b8f7fd7e3390af79de99a8f9e8676b3d2b07dbfa435716ad9b9693088",
+    "scripts/stage11b2a/analysis.py": "2a95f4c0d4d62f4858c178e820a3fff5c3db75e837469a041667061583f65065",
+    "scripts/stage11b2a/audit.py": "6b5c0d181435ae77bb6ce906ca20b23127684b993fc998d95a231d7b901464fe",
+    "scripts/stage11b2a/common.py": "2357ad6770f5f827f0c6352a48decd406be326a1f3035ab963ae14e5a71f9431",
+    "scripts/stage11b2a/features.py": "aedc1c0b486a1a99b3683f997a53fc82a9164ebd669cc11fbc9f55a55b725334",
+    "scripts/stage11b2a/protect.py": "437dd9d2e5b71b1e53f94d114eb6aa1b833d3274874be7a6e2aa586f62416d29"
+  },
+  "scope": "Rules frozen before any subgroup computation; cohort previously used for model selection, not independent preregistration"
+}

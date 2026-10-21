@@ -1,0 +1,1 @@
+Fixed42 case layouts; same21 fixed IDs and exact cached coordinates; no model or metric changes

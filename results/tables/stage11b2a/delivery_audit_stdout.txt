@@ -1,0 +1,1 @@
+Delivery audit PASS: all998/19960 paired rows,21 cases/6384 coordinates, frozen source identity,572 tests+1 CPU-environment skip

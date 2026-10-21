@@ -1,0 +1,11 @@
+question,status,answer
+Q1 当前主导误差,SUPPORTED,A25少数目标集中贡献61.08% oracle ADE误差；是共现的主要误差群体，不是因果分解
+Q2 覆盖失败是否普遍,SUPPORTED,25px为16.43%，其中81.10%来自deathCircle_3；10/50px结论随阈值变化，非多数目标普遍失败
+Q3 K1/K20差距是否值得研究,PARTIALLY_SUPPORTED,gap真实且较大，但没有证明可在线识别oracle；不是排序头失效或新颖性证据
+Q4 deathCircle_3能否由尺度/运动解释,PARTIALLY_SUPPORTED,尺度和运动分布能解释部分表面差异；粗分层后仍高，不能认定剩余为语义作用
+Q5 goal与path是否不同失效,SUPPORTED,覆盖失败164例与对应goal正确中段偏离7例不同；不能将二者加总分解原因
+Q6 语义可靠性方向有直接证据吗,UNVERIFIED,类别、语义GT和分割错误/校准均未核实；没有证明语义导致预测误差
+Q7 是否先延长训练,PARTIALLY_SUPPORTED,值得另行申请一次固定有限延长以判别持续瓶颈；未执行，不能保证提高
+Q8 只做一个下一阶段实验,PARTIALLY_SUPPORTED,优先固定协议的Epoch30到最多50收敛诊断，先排除预算截断；需要另行批准
+Q9 是否满足创新模块开发门槛,NOT_SUPPORTED,没有语义因果证据、机制创新或公平新算法消融，不具备开发条件
+Q10 是否调整小论文问题,PARTIALLY_SUPPORTED,暂以goal覆盖/路径形状瓶颈及收敛验证替代已确定的语义因果叙事；不自动换模型或立项

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "quantitative_figures": 10,
+  "case_views": 42,
+  "case_selections": 21,
+  "unique_targets": 21,
+  "coordinate_source_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "all20_candidates_kept": true,
+  "all_CV_OLS8_case_metrics_match_frozen": true,
+  "SVG_whitespace_only_normalized_XML_unchanged": true,
+  "source_script_SHA": "57e82fa602b3bbe696a8123f9ecb68e6b492edaf98802a3397ee6a43bb618113"
+}

@@ -1,0 +1,11 @@
+scene,factor,all_three_bins_present,standardized_minADE20_diag,rule,pooled_low_weight,pooled_medium_weight,pooled_high_weight
+bookstore_2,hist_speed_group,True,0.004374163996424603,Common pooled target weights; no missing-bin imputation,0.2665330661322645,0.23547094188376755,0.49799599198396793
+bookstore_2,future_amplitude_group,True,0.0043070443034977385,Common pooled target weights; no missing-bin imputation,0.3336673346693387,0.33266533066132264,0.3336673346693387
+deathCircle_3,hist_speed_group,True,0.011447299858201268,Common pooled target weights; no missing-bin imputation,0.2665330661322645,0.23547094188376755,0.49799599198396793
+deathCircle_3,future_amplitude_group,True,0.010755326550006173,Common pooled target weights; no missing-bin imputation,0.3336673346693387,0.33266533066132264,0.3336673346693387
+gates_7,hist_speed_group,True,0.0029052134001897063,Common pooled target weights; no missing-bin imputation,0.2665330661322645,0.23547094188376755,0.49799599198396793
+gates_7,future_amplitude_group,True,0.003114586865419518,Common pooled target weights; no missing-bin imputation,0.3336673346693387,0.33266533066132264,0.3336673346693387
+hyang_7,hist_speed_group,True,0.0037661211594460973,Common pooled target weights; no missing-bin imputation,0.2665330661322645,0.23547094188376755,0.49799599198396793
+hyang_7,future_amplitude_group,True,0.0041471203654205435,Common pooled target weights; no missing-bin imputation,0.3336673346693387,0.33266533066132264,0.3336673346693387
+nexus_4,hist_speed_group,True,0.0035367206191803733,Common pooled target weights; no missing-bin imputation,0.2665330661322645,0.23547094188376755,0.49799599198396793
+nexus_4,future_amplitude_group,True,0.004630089831674367,Common pooled target weights; no missing-bin imputation,0.3336673346693387,0.33266533066132264,0.3336673346693387

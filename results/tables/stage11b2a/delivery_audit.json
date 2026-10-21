@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "targets": 998,
+  "candidate_pairs": 19960,
+  "case_selections": 21,
+  "case_coordinate_rows": 6384,
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "original_checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "protocol_unchanged": true,
+  "frozen_analysis_sources_unchanged": true,
+  "history_protected_files": 90656,
+  "old_files_changed": [],
+  "all_outputs_numerically_verified": true,
+  "max_sample_metric_difference": 0.0,
+  "full_tests_passed": 572,
+  "full_tests_skipped": 1,
+  "skipped_reason": "Historical CUDA compatibility test, CPU-only stage",
+  "GPU_seconds": 0,
+  "new_model_forward_calls": 0,
+  "new_formal_training_steps": 0,
+  "new_test_scores": false,
+  "large_or_sensitive_artifacts_found": false,
+  "raw_failure_logs_preserved": [
+    "layout_fix_stdout.txt",
+    "source_snapshots/layout_fix_attempt1.py.txt",
+    "qa_evidence/before_caption_overlap.png"
+  ],
+  "analysis_class": "EXPLORATORY_DEVELOPMENT_ANALYSIS",
+  "scientific_thresholds_changed_after_freeze": false
+}

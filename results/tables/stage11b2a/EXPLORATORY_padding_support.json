@@ -1,0 +1,11 @@
+{
+  "analysis_class": "EXPLORATORY_PADDING_SUPPORT_AUDIT",
+  "new_model_calls": 0,
+  "GPU_seconds": 0,
+  "points": 51,
+  "points_inside_padded_decoder_canvas": 51,
+  "points_beyond_resized_original_pixel_centers": 51,
+  "source_image_utils_SHA": "a9b4c286723a03df622f41692c410edf079fb582ffa1274a5102f3af2742360a",
+  "source_adapter_SHA": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f",
+  "interpretation": "Spatial support is compatible with right/bottom padding. This does not causally prove padding caused predictions or exclude semantic/model effects; no output clipping or metric changes."
+}

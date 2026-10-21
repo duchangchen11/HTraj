@@ -1,0 +1,65 @@
+{
+  "categories": {
+    "goal_miss25": [
+      "goal_miss25_1",
+      "goal_miss25_2",
+      "goal_miss25_3"
+    ],
+    "default_oracle_gap": [
+      "default_oracle_gap_1",
+      "default_oracle_gap_2",
+      "default_oracle_gap_3"
+    ],
+    "goal_path_mismatch": [
+      "goal_path_mismatch_1",
+      "goal_path_mismatch_2",
+      "goal_path_mismatch_3"
+    ],
+    "history_straight_future_turn": [
+      "history_straight_future_turn_1",
+      "history_straight_future_turn_2",
+      "history_straight_future_turn_3"
+    ],
+    "geometry_anomaly": [
+      "geometry_anomaly_1",
+      "geometry_anomaly_2",
+      "geometry_anomaly_3"
+    ],
+    "YNet_better_OLS8": [
+      "YNet_better_OLS8_1",
+      "YNet_better_OLS8_2",
+      "YNet_better_OLS8_3"
+    ],
+    "YNet_worse_OLS8": [
+      "YNet_worse_OLS8_1",
+      "YNet_worse_OLS8_2",
+      "YNet_worse_OLS8_3"
+    ]
+  },
+  "repeated_sample_ids": {},
+  "rule": {
+    "categories": [
+      "goal_miss25",
+      "default_oracle_gap",
+      "goal_path_mismatch",
+      "history_straight_future_turn",
+      "geometry_anomaly",
+      "YNet_better_OLS8",
+      "YNet_worse_OLS8"
+    ],
+    "scores": [
+      "minGoalFDE20",
+      "SelectionGap_ADE",
+      "closest_goal_ADE",
+      "future_max_turn_degrees",
+      "max_predicted_step_pixels",
+      "OLS8_ADE1_minus_YNet_ADE1",
+      "YNet_ADE1_minus_OLS8_ADE1"
+    ],
+    "rule": "Sort by category score ascending then sample_id; ranks floor(q*(n-1)), q=.25,.5,.75; deduplicate ranks, fill with first unused sorted ranks until min(3,n). No aesthetic reselection.",
+    "view": "Full reference view includes all coordinates; detail bounding box of history/GT/all20 paths/all20 goals/CV/OLS8 plus max(10% span,20px) margin",
+    "overlays": "Actual cached20 paths/goals; original history/GT; first path; ADE oracle OFFLINE_ONLY; CV-Last2 and OLS8 freshly calculated and checked vs frozen values"
+  },
+  "full20_paths_kept": true,
+  "GT_only_offline": true
+}

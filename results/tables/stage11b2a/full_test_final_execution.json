@@ -1,0 +1,22 @@
+{
+  "command": [
+    "experiments/stage11ap/cache/venv/bin/python",
+    "-m",
+    "pytest",
+    "tests",
+    "scripts/stage11a/tests",
+    "scripts/stage11ap/tests",
+    "scripts/stage11b0/tests",
+    "scripts/stage11b1/tests",
+    "scripts/stage11b1r/tests",
+    "scripts/stage11b1c/tests",
+    "scripts/stage11b2a/tests",
+    "-q",
+    "--junitxml=results/tables/stage11b2a/full_unit_tests_final.xml"
+  ],
+  "returncode": 0,
+  "wall_seconds": 28.045713597995928,
+  "CUDA_VISIBLE_DEVICES": "",
+  "GPU_seconds": 0,
+  "reason": "Added exact CSV-coordinate round-trip regression after visual QA; original run retained"
+}
