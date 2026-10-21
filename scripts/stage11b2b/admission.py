@@ -57,7 +57,7 @@ def main():
         assert torch.equal(ea,ta)
         assert all(not m.training for m in net.semantic_segmentation.modules())
         original=training_loss(net,coords[:4].cuda(),semantic,cfg,templates,True)
-        changed=coords[:4].cuda().clone();changed[:,8:]+=100000
+        changed=coords[:4].cuda().clone();changed[:,-1,0]+=10
         other=training_loss(net,changed,semantic,cfg,templates,True)
         assert torch.equal(original['goal_logits'],other['goal_logits'])
         assert not torch.equal(original['path_logits'],other['path_logits'])

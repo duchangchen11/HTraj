@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "status": "BLOCKED_RESTORE",
+  "formal_training": false,
+  "test_loaded": false,
+  "error_type": "AssertionError",
+  "error": "Unrepresentable patch: retained sample, fail instead of drop/clip",
+  "GPU_cumulative_seconds": 7.2307066439971095
+}

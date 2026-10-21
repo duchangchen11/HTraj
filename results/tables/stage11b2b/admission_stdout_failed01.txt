@@ -1,0 +1,47 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/scripts/stage11b2b/admission.py", line 61, in main
+    other=training_loss(net,changed,semantic,cfg,templates,True)
+  File "/home/lrj/HTraj/scripts/stage11b0/training_adapter.py", line 47, in training_loss
+    target=trajectory_maps(truth,H,W,gaussian)
+  File "/home/lrj/HTraj/scripts/stage11b0/training_adapter.py", line 38, in trajectory_maps
+    assert all(p.shape==(H,W) for p in patches), 'Unrepresentable patch: retained sample, fail instead of drop/clip'
+AssertionError: Unrepresentable patch: retained sample, fail instead of drop/clip
+RESTORE_ADMISSION False 7.231
+Traceback (most recent call last):
+  File "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/lrj/HTraj/scripts/stage11b2b/admission.py", line 98, in <module>
+    if __name__=='__main__':main()
+  File "/home/lrj/HTraj/scripts/stage11b2b/admission.py", line 61, in main
+    other=training_loss(net,changed,semantic,cfg,templates,True)
+  File "/home/lrj/HTraj/scripts/stage11b0/training_adapter.py", line 47, in training_loss
+    target=trajectory_maps(truth,H,W,gaussian)
+  File "/home/lrj/HTraj/scripts/stage11b0/training_adapter.py", line 38, in trajectory_maps
+    assert all(p.shape==(H,W) for p in patches), 'Unrepresentable patch: retained sample, fail instead of drop/clip'
+AssertionError: Unrepresentable patch: retained sample, fail instead of drop/clip

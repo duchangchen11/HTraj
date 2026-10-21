@@ -11,3 +11,5 @@ GPU准入必须经原 `load_checkpoint` 同时恢复模型、Adam与Python/NumPy
 训练上限Epoch50，新增20轮/37640步，累计94100步。仅在35/40/45/50各全量998目标K20验证，原7次完整验证参与相同minADE20选模。H1阈值严格按 `configs/stage11b2b/analysis.json` 固定；新增GPU进程累计硬限16200秒、安全阈值15000秒，含启动、加载、检查、验证、保存与退出。
 
 前置CPU审计补加优化器摘要时，两次独占写入触发 FileExistsError，未执行GPU或训练；失败日志原样保留 `prepare_recheck_stdout.txt`、`prepare_final_stdout.txt`。随后增加“已存在则校验完全相同”行为并重新通过，未修改旧文件或数值计算。
+
+第一次GPU准入恢复状态成功，随后额外teacher-forcing检查的合成GT被平移100000px，越过热图模板范围，触发旧代码Unrepresentable patch断言。未进行正式训练或Adam更新。失败进程耗时7.990秒纳入预算，原日志与admission记录保留failed01命名。仅将该训练用合成扰动改回旧准入的末点10px；历史预测接口的百万像素未来GT反事实仍保持。重新冻结代码和配置后复核，未改模型、loss、数据或正式训练数值。
