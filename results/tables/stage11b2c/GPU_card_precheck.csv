@@ -1,0 +1,2 @@
+elapsed_seconds,timestamp,index,name,memory_used_MiB,memory_total_MiB,utilization_gpu_percent,temperature_C,power_W
+0.10524998800246976,2026/10/22 02:55:43.451, 0, NVIDIA GeForce RTX 3080, 308, 10240, 15, 34, 26.20

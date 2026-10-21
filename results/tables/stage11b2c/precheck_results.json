@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "training_steps": 0,
+  "GT_scoring": false,
+  "validation_generation": false,
+  "test_loaded": false,
+  "bitwise_vs_original": true,
+  "three_repeats_and_reverse_order_bitwise": true,
+  "raw_future_counterfactual_and_semantic_recompute_bitwise": true,
+  "parameter_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "parameters_unchanged": true,
+  "total_parameters": 53155339,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "expected_two_pass_GPU_seconds_high": 2524.46853973097,
+  "estimated_cache_bytes_high": 4024067736,
+  "free_disk_bytes": 137590951936,
+  "normalization_float32_original": true,
+  "CPU_export_original_precision": true,
+  "budget_fit": true,
+  "GPU_cumulative_seconds": 12.11193241100409
+}

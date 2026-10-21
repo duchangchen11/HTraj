@@ -1,0 +1,11 @@
+{
+  "worker": "precheck",
+  "started_commit": "d00d0a7e20eda18605f7bd9fdc45e940eb4270ed",
+  "returncode": 0,
+  "wall_seconds": 12.853945932001807,
+  "prior_seconds": 0,
+  "cumulative_seconds": 12.853945932001807,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "interpretation": "Whole GPU process including Python startup/load/checks/train/validation/save/exit; CPU-only reporting excluded"
+}
