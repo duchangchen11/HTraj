@@ -29,3 +29,5 @@
 本阶段不构成新算法，不证明充分收敛或语义因果，不自动启动任何后续训练。下一阶段至多建议在批准后进行覆盖机制与新颖性审查。
 
 最终核验：完整pytest为590 passed / 1 skipped（原CUDA专项保留跳过）；生成31组PNG/SVG（9类定量图、21个固定案例对及1张案例总览），坐标与缓存逐项核对。deathCircle_3仍是主要失败来源（143/210），窗口加权H1不等同所有录像一致成立；录像等权A25误差份额为48.83%，详见04报告及事后逐录像敏感性表。
+
+Git交付：正常push因HTTPS认证缺失失败（could not read Username），本地提交和全部实验成果已保留。失败记录见results/tables/stage11b2b/github_delivery.json，原始日志位于忽略的实验缓存。用户可在有认证的终端执行 `git push -u origin feat/stage11b2b-convergence-extension`。无强制推送、历史覆盖或认证配置改动。

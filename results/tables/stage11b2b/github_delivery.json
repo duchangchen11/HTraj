@@ -1,0 +1,13 @@
+{
+  "branch": "feat/stage11b2b-convergence-extension",
+  "attempted_commit": "795c4987e9f3b9b58c652b1110b9b78d22575220",
+  "push_success": false,
+  "exit_code": 128,
+  "error": "fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+  "remote_branch_found_after_attempt": false,
+  "local_results_preserved": true,
+  "force_push": false,
+  "authentication_not_changed": true,
+  "raw_log": "experiments/stage11b2b/cache/github_push.txt",
+  "manual_command": "git push -u origin feat/stage11b2b-convergence-extension"
+}
