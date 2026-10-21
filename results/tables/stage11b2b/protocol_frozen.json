@@ -1,0 +1,104 @@
+{
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "CONVERGENCE_DIAGNOSTIC_ONLY",
+  "base": "4b47dcb5773ab1f334a27deac9403b79a85b3ab8",
+  "freeze_commit": "49338a967a9146cef100c18dad12f8c5ef026ae8",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "executable_files": [
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1c/data.py",
+      "sha256": "dfea0a8d524050599343b86a6135122282a34044ba32cc5427d968c16fb698da"
+    },
+    {
+      "path": "scripts/stage11b1c/engine.py",
+      "sha256": "8ef0df0495c61b3099d628748e961a5a8aa02d8206370c96af9e541925dffea2"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    },
+    {
+      "path": "scripts/stage11b2b/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/stage11b2b/admission.py",
+      "sha256": "58cb27aa5689c1e9c3ebb987ffceb055f5a35cca4c509c2a4a3a96dda52c7808"
+    },
+    {
+      "path": "scripts/stage11b2b/common.py",
+      "sha256": "06a7b9e0ef79235264fbed07ad2669325ec448af034790ee2e6671e4a232758f"
+    },
+    {
+      "path": "scripts/stage11b2b/data_audit.py",
+      "sha256": "dfea0a8d524050599343b86a6135122282a34044ba32cc5427d968c16fb698da"
+    },
+    {
+      "path": "scripts/stage11b2b/freeze.py",
+      "sha256": "1d0e4aa2128ce17f60e9be0a3d0bc33d2260f8dcd60c0a9912afff213533c066"
+    },
+    {
+      "path": "scripts/stage11b2b/launch.py",
+      "sha256": "f4868b8b26c36a4e98fd785bd1ea4a7e215d702a56664eb4cec81b0764a26765"
+    },
+    {
+      "path": "scripts/stage11b2b/metrics.py",
+      "sha256": "413667e40640fcc78491aafc6bc2eac25720b6668b441f214d3f331729207ca4"
+    },
+    {
+      "path": "scripts/stage11b2b/prepare.py",
+      "sha256": "f848748c32676e273f91ef5d4ca38b5a00e2bbdca101728b9c8625911a235b2f"
+    },
+    {
+      "path": "scripts/stage11b2b/protect.py",
+      "sha256": "0d499be617c9e00653bbc4be550474d8aee0d63f00bd48dba321c2cd4d131de5"
+    },
+    {
+      "path": "scripts/stage11b2b/resume_train.py",
+      "sha256": "8dafe5908689cabf891b12c2a9fd5578e2d2cd852283f3d346dfdc665fa9e77a"
+    },
+    {
+      "path": "scripts/stage11b2b/tests/test_extension.py",
+      "sha256": "e713a4a15223f17ff4ef5a83e04e84d614b46f4f05ddca84d3e4d04e77ce4748"
+    },
+    {
+      "path": "scripts/stage11b2b/validate.py",
+      "sha256": "4e4dc9983b168c1ff183c1cca07beae5e75e57d7d377ace5fa5cb3163b71e9b5"
+    }
+  ],
+  "train_config_SHA": "ec9bf9dd436bd67691a93fbcadbeb594a21f18e7c527aeb456ad6f9ba56aeb68",
+  "evaluation_config_SHA": "1ca1730e1222506bcf80f2d2a8ffbcd2e106a228849acf39713aa2fe1af2e00f",
+  "analysis_config_SHA": "d4574bd83d4b98c6efbe55b470053a5f431ea736ad592cc8142e3881f8630900",
+  "budget_config_SHA": "7b8b7fe8dbd0ca191be0baa281966f79ecc5be7dc8b55f0859fdb2a7641b0719",
+  "data_manifest_SHA": {
+    "train": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+    "validation": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "frozen_analysis_sources": {
+    "results/tables/stage11b2a/motion_features.csv": "ef12c3fb87730daeb58dc855253e9c5ae3f328f251a004c96bc316687e371a70",
+    "results/tables/stage11b2a/failure_case_manifest.csv": "2b6f5b2cb4b1badb295df1e4a40ec6c44340e314609ed194da33dd20e924fe4d"
+  },
+  "max_epoch": 50,
+  "validation_epochs": [
+    35,
+    40,
+    45,
+    50
+  ],
+  "seed": 17,
+  "no_test": true,
+  "no_hyperparameter_change": true
+}
