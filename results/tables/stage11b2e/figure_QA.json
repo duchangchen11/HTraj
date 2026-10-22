@@ -1,0 +1,9 @@
+{
+  "checked": true,
+  "actual_PNG_SVG_pairs": 6,
+  "source_data": "figure_manifest.json;case_plot_data.json",
+  "review": "Actual rendered figures inspected; figure5 negative annotation moved away from y labels; no numeric changes",
+  "case_selection": "fixed median ID in four paired outcomes",
+  "inference": "none; offline visualization only",
+  "source_units": "original SDD reference pixels"
+}

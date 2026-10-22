@@ -1,0 +1,123 @@
+{
+  "stage": "Stage11B-2E",
+  "scope": "CONTROL_EXPERIMENT_ONLY",
+  "base_commit": "c3e5d09354130bc51d22bfa325342ae6a0831de6",
+  "freeze_commit": "d221b22279731d94655c1cba5134efc9876f2b0b",
+  "numeric_execution_commit": "c90bd50978c4234f6daf2d7f5db9d00cbbc2a02c",
+  "delivery_provenance": "Final delivery commit in Git; source SHAs authoritative for report/plot postprocessing",
+  "official_YNet_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "source_files": [
+    {
+      "path": "scripts/stage11b2e/__init__.py",
+      "sha256": "b3943b10cf83fa660df56ed108c7df0e9b993e7f3c80b552de5402f5517c9c68"
+    },
+    {
+      "path": "scripts/stage11b2e/common.py",
+      "sha256": "f38353cbb23e66449ada0e1980677d829a5f8925cbdc211f8adf129c5b5f225e"
+    },
+    {
+      "path": "scripts/stage11b2e/decoder.py",
+      "sha256": "5826d0195a0cb50d80ee5075a0f68f22f3543cdf6a2b869c6ed12e9505361e21"
+    },
+    {
+      "path": "scripts/stage11b2e/delivery_audit.py",
+      "sha256": "56aacb6aea53990cfbdd3be1fb5b9f0b768c8eadc1e0d28f333d50068a3114e9"
+    },
+    {
+      "path": "scripts/stage11b2e/freeze.py",
+      "sha256": "ab0ac74fe4c572e6d7876fb64e7b298d8c6eb2ea8ea2a912783e1ca8a25bc3f0"
+    },
+    {
+      "path": "scripts/stage11b2e/launch.py",
+      "sha256": "b356de81ce50ec42235709b87740e1d3081563f5e0a74963f6c0a174b59de3ad"
+    },
+    {
+      "path": "scripts/stage11b2e/metrics.py",
+      "sha256": "fbe2fe8fd76d6d60e6fddc736541ceab0a6335174d0da3e4da996b76a936df95"
+    },
+    {
+      "path": "scripts/stage11b2e/plot.py",
+      "sha256": "0a9786679656cda0104388771e1aeb9fe38a7ed47a9d1115515351b5881874fa"
+    },
+    {
+      "path": "scripts/stage11b2e/protect.py",
+      "sha256": "f9ccec65d5c64a29248ab8f338a303b5054a231cd30102bd2a9975f989260f96"
+    },
+    {
+      "path": "scripts/stage11b2e/report.py",
+      "sha256": "37b4caebae1ec3a72979999f97b9523dd518aab7aafc0f247d6769b4a338806a"
+    },
+    {
+      "path": "scripts/stage11b2e/representative.py",
+      "sha256": "bc9652fc2d59a05eb670b61710bee2c15335f601f121decdc8ebf761f01bb745"
+    },
+    {
+      "path": "scripts/stage11b2e/score.py",
+      "sha256": "58daa7913f146e1b51199cbe1fc72f2a3fd61288e22d5ebac6071dd6d8eea70d"
+    },
+    {
+      "path": "scripts/stage11b2e/select.py",
+      "sha256": "cde74a3ec5072bb28e6f8b65d8dcae8e4d94cd874fd2fa6493181be8192f6812"
+    },
+    {
+      "path": "scripts/stage11b2e/tests/test_control_metrics.py",
+      "sha256": "17608d8766d3b3e9018fcb5905c3cb021f3bc9482bd338c434827cf197e9dfb6"
+    },
+    {
+      "path": "scripts/stage11b2e/tests/test_representative_control.py",
+      "sha256": "183290ee3adaa2df945a6263619670436f64ae9c24f515cc1a6afff8111a4c01"
+    },
+    {
+      "path": "scripts/stage11b2e/tests/test_stage11b2e_delivery.py",
+      "sha256": "dda1493ccbfb6b263a00d7b9882bf4576a4ddbb40779d707babf3ee1deee44b0"
+    },
+    {
+      "path": "scripts/stage11b2e/worker.py",
+      "sha256": "ca6784a1df5df6b00f6a2b707cac7a070a842bfd48e43ee02da587209375d4e3"
+    }
+  ],
+  "protocol_SHA": "b4624f73f33e82050025e59bf0a03c53d694537fe048d8c9887e48b715103d9a",
+  "generation_config_SHA": "bd9f176936414aee41b880063cd44b561b0b3db462626e24bf78b702c5c8ac22",
+  "source_data_records": [
+    {
+      "path": "results/tables/stage11b2c/tensor_manifest.csv",
+      "sha256": "c088675a80dc85fad3e6116d4c18a5d386a3c433744f3e3b533625f17a60b737"
+    },
+    {
+      "path": "results/tables/stage11b2d/cluster_diagnostics.csv",
+      "sha256": "0ca264ec0d9f331468e8d10bcded99499b63f2db790b9937afb00a20ab5f7329"
+    },
+    {
+      "path": "results/tables/stage11b2d/target_diagnostics.csv",
+      "sha256": "7566cdf178a0c004d7042d6cfa031c1fd408698e514234ea117a5c7d06b3d829"
+    },
+    {
+      "path": "results/tables/stage11b1c/validation_target_manifest.csv",
+      "sha256": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    },
+    {
+      "path": "results/tables/stage11b2c/data_provenance.json",
+      "sha256": "a6462574430f01bb494502afb63258ad63d71deb16064af0d2a9baea17bc8e69"
+    },
+    {
+      "path": "results/tables/stage11b2c/input_export.json",
+      "sha256": "5058b9a94417f7f6240c9d5ae9e4040e739ca3f05da77b0d4df5978a9e16cfb7"
+    },
+    {
+      "path": "results/tables/stage11b2c/generation_execution.json",
+      "sha256": "b9175a61940476d591d6e4005922e763d30ff54a58bd2998f915d06b69190596"
+    }
+  ],
+  "new_goal_file_SHA": "be0bfed0d70f1fea3749465d9d1a29fbdc0016c8e2c64d15b759acc45ecf00a0",
+  "new_path_file_SHA": "fa3befae6118c186144a2f7185506d9b85a592ab154c828dbea24d33ba1310e0",
+  "score_identity": "same998 history/GT_SHA in paired_goal_metrics.csv and paired_path_metrics.csv",
+  "original_tensor_files": "all998 SHA in protected_files.csv.gz and stage11b2c/tensor_manifest.csv",
+  "GT_first_read": "score.py only after all998 new paths saved and all head0 verified",
+  "training_steps": 0,
+  "new_sampling": 0,
+  "new_kmeans": 0,
+  "test_data_access": false,
+  "environment": "environment.json"
+}

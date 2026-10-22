@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "historical_files_unchanged": 92362,
+  "numerical_frozen_code_unchanged": true,
+  "original_checkpoint_and_prediction_SHA_unchanged": true,
+  "all998_original_tensors_unchanged": true,
+  "all998_new_paths_really_decoded": true,
+  "all998_head0_goals_paths_bitwise": true,
+  "tests": {
+    "tests": 653,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "tests_passed": 652,
+  "tests_skipped": [
+    {
+      "test": "tests.test_graph_attribution.test_deterministic_cuda_gaussian_integration",
+      "reason": "CUDA compatibility check"
+    }
+  ],
+  "figures": 6,
+  "tests_failed": 0,
+  "training_steps": 0,
+  "new_sampling": 0,
+  "new_kmeans": 0,
+  "sealed_test_used": false,
+  "scope": "CONTROL_EXPERIMENT_ONLY",
+  "decision": "CONTROL_NO_GO",
+  "Git_scope": "only five new Stage11B-2E source/config/report/table/figure directories",
+  "ignore_rules": "existing rules sufficient; datasets, environments, weights and new tensor caches not staged",
+  "largest_file": {
+    "path": "results/tables/stage11b2e/paired_head_metrics.csv",
+    "bytes": 5821970
+  },
+  "sensitive_scan": "PASS",
+  "source_code_SHA": "56aacb6aea53990cfbdd3be1fb5b9f0b768c8eadc1e0d28f333d50068a3114e9",
+  "audit_source_commit": "c90bd50978c4234f6daf2d7f5db9d00cbbc2a02c"
+}

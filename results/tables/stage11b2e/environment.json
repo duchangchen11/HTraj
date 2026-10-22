@@ -1,0 +1,12 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "torch": "2.5.1+cu124",
+  "torch_CUDA_build": "12.4",
+  "CPU_analysis_CUDA_visible": "",
+  "GPU": "NVIDIA GeForce RTX 3080, 10240MiB; actual monitor samples in GPU_card_*.csv",
+  "isolated_python": "experiments/stage11ap/cache/venv/bin/python",
+  "test_plugins": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1"
+}

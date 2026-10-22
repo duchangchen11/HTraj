@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all998_ID_GT_history_manifest_matched": true,
+  "complete_generation_before_actual_GT_loaded": true,
+  "all998_head0_bitwise": true,
+  "original_goal_path_cache_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "predictions_from_actual_new_decoder": true,
+  "no_test_data": true,
+  "no_GT_in_representatives": true,
+  "actual_score_CPU_seconds": 37.33630130600068
+}

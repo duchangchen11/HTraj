@@ -1,0 +1,5 @@
+sample_id,scene,outcome,eligible_targets,rank
+SDD:bookstore_2:track418:frame13116,bookstore_2,lost,5,2
+SDD:deathCircle_3:track402:frame3000,deathCircle_3,recovered,2,0
+SDD:deathCircle_3:track208:frame6456,deathCircle_3,stayed_cover,829,414
+SDD:deathCircle_3:track470:frame1200,deathCircle_3,stayed_fail,162,80

@@ -1,0 +1,47 @@
+CPU_SCORE 200 /998
+CPU_SCORE 400 /998
+CPU_SCORE 600 /998
+CPU_SCORE 800 /998
+{
+  "status": "CONTROL_NO_GO",
+  "conditions": {
+    "macro_GoalCover25_gain_ge1pp": false,
+    "macro_minADE20_drop_ge1pct": false,
+    "macro_minFDE20_degradation_le1pct": true,
+    "other4_GoalCover25_strict_gain": false
+  },
+  "measurements": {
+    "macro_GoalCover25_gain": -0.0014184397163121698,
+    "macro_minADE20_relative_drop": -0.0003260738524909395,
+    "macro_minFDE20_relative_degradation": 0.00051212499154379,
+    "other4_GoalCover25_gain": -0.005405405405405461
+  },
+  "scope": "CONTROL_EXPERIMENT_ONLY",
+  "targets": 998,
+  "all_head0_goals_paths_bitwise": true,
+  "baseline_A25_covered": 834,
+  "alternative_A25_covered": 831,
+  "original86_recovered": 2,
+  "original86_still_fail": 84,
+  "original86_minADE20_original": 24.90736969585255,
+  "original86_minADE20_alternative": 24.860720804142026,
+  "original86_minFDE20_original": 39.90048792859045,
+  "original86_minFDE20_alternative": 39.955815256368616,
+  "lost_originally_covered": 5,
+  "recovered_all_original_fail": 2,
+  "zero77_final_covered": 0,
+  "zero77_support_unchanged": true,
+  "goal_heads_changed": 18961,
+  "unchanged20goal_targets": 0,
+  "decoder_map_centers_changed": 761,
+  "path_heads_changed": 761,
+  "unchanged20path_targets": 518,
+  "mean_goal_displacement_all20": 1.5310958334970257,
+  "novelty_GO": false,
+  "training_steps": 0,
+  "new_sampling": 0,
+  "new_kmeans": 0,
+  "test_set_used": false,
+  "source_commit": "c90bd50978c4234f6daf2d7f5db9d00cbbc2a02c",
+  "within_original86_local_count_ADEdelta_Spearman_descriptive": -0.25864746520106524
+}

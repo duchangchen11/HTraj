@@ -1,0 +1,11 @@
+{
+  "worker": "regression",
+  "returncode": 0,
+  "wall_seconds": 8.035310857987497,
+  "prior_seconds": 0,
+  "cumulative_seconds": 8.035310857987497,
+  "hard_seconds": 3600,
+  "safety_seconds": 3300,
+  "source_commit": "c90bd50978c4234f6daf2d7f5db9d00cbbc2a02c",
+  "scope": "Entire child process including startup/imports/model load/regression or all-target decode/save and exit; monitor shutdown included"
+}

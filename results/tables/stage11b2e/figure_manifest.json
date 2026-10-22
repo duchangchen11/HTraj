@@ -1,0 +1,56 @@
+[
+  {
+    "name": "01_goal_coverage",
+    "PNG_SHA": "e8fdeb33face0085d6aafd52be31144ba4c1b583a71af4475da7afdcdd732efb",
+    "SVG_SHA": "3366709aa4e02a2244fc85f3e36cd68c730f626cb8a1f6fae60e21cbc531fdbf",
+    "source_data": "scene_comparison.csv",
+    "claim": "Fixed same K20 and target set; show all three frozen radii and both aggregations",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  },
+  {
+    "name": "02_path_metrics",
+    "PNG_SHA": "e476602c02a237a335a2ec403fdf34b184b78be205c7e47f4ce37126db34d595",
+    "SVG_SHA": "04c9ed469d6c02b92973b2094e288442bfe608280f4fe849f60be74a22a31df1",
+    "source_data": "scene_comparison.csv",
+    "claim": "Actual redecoded full paths; ADE and FDE minima can come from different heads",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  },
+  {
+    "name": "03_original86_recovery",
+    "PNG_SHA": "b798b41e7ece60a3bd61433a48fa529c801bfd54537acac534293157a27c8d91",
+    "SVG_SHA": "2ed5473fdabbb3ed3b4825b7494e61ebde3de0f6ef0c428e23f88d318d69169f",
+    "source_data": "failure_recovery.csv",
+    "claim": "Recovery is evaluated on the original86 identities, never redefined",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  },
+  {
+    "name": "04_original_success_regression",
+    "PNG_SHA": "2510caa67cae0bad69b24d756e2cf8bfb019ebe30dd407c0a0f0b006e045da18",
+    "SVG_SHA": "ae59e718b51523f5c8678d6a3be0fe53d870d978f947aa0cb6c7be53bf11a425",
+    "source_data": "failure_recovery.csv",
+    "claim": "New failures are retained in the comparison, not hidden by recoveries",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  },
+  {
+    "name": "05_five_recording_goal_change",
+    "PNG_SHA": "43a49dc6396f3c0c72f34a4a9013e815dbe6daf075e95b934f413ec1fde5c9f2",
+    "SVG_SHA": "f84f5ddce4003599ee3311e9ae4b4fbab8ab604a72a8cc64c5c8d661944a0a7b",
+    "source_data": "scene_comparison.csv",
+    "claim": "All five reused recordings, including small groups and zero/negative gains",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  },
+  {
+    "name": "06_real_paired_cases",
+    "PNG_SHA": "870f21c86d5671f974e0920dc8c431772843df796a57fe9cedc099b665ba0a9f",
+    "SVG_SHA": "800fca174d2f8632dcf373efa8a18db1f41c7f8d285bab212a3e195791a463d2",
+    "source_data": "case_manifest.csv;case_plot_data.json",
+    "claim": "Fixed median-ID case for each paired outcome; all20 original and newly decoded paths shown; exact overlaps possible",
+    "unit": "original SDD reference pixels; coverage fraction or counts labeled",
+    "statistics": "paired descriptive means; overlapping windows; no independent-sample CI"
+  }
+]
