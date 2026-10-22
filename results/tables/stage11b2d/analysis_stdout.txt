@@ -1,0 +1,81 @@
+CPU geometry 200 /998
+CPU geometry 400 /998
+CPU geometry 600 /998
+CPU geometry 800 /998
+{
+  "scope": "EXPLORATORY_DEVELOPMENT_ANALYSIS",
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "new_model_inference": 0,
+  "new_training_steps": 0,
+  "assignment": "FINAL_CENTER_VORONOI_ASSIGNMENT",
+  "targets": 998,
+  "clusters": 18962,
+  "local_assignment_rows": 6050,
+  "failure_targets": 86,
+  "failure_count25": {
+    "mean": 70.34883720930233,
+    "median": 50.0,
+    "p90": 176.0,
+    "max": 323.0
+  },
+  "success_count25": {
+    "mean": 2807.39448441247,
+    "median": 2299.0,
+    "p90": 5969.0,
+    "max": 6874.0
+  },
+  "failure_le10": 7,
+  "failure_le100": 67,
+  "failure_single_touched_cluster": 34,
+  "failure_dominant80": 50,
+  "failure_large_cluster_local_fraction": {
+    "mean": 0.19501534132816453,
+    "median": 0.0,
+    "p90": 0.8732539682539683,
+    "max": 1.0
+  },
+  "failure_minority_cluster_local_fraction": {
+    "mean": 0.45911223225941544,
+    "median": 0.25003228722717297,
+    "p90": 1.0,
+    "max": 1.0
+  },
+  "failure_local_assignment_distance": {
+    "mean": 29.769606691804892,
+    "median": 27.620131223490986,
+    "p90": 41.67417932939985,
+    "max": 59.5274653042821
+  },
+  "failure_assigned_cluster_population": {
+    "mean": 359.1360813549577,
+    "median": 343.0,
+    "p90": 528.9573643410853,
+    "max": 954.0
+  },
+  "failure_assigned_radiusP90": {
+    "mean": 31.33918410374023,
+    "median": 29.046136146910694,
+    "p90": 41.241659923720974,
+    "max": 141.67793791381897
+  },
+  "empty_cluster_count": 0,
+  "max_final_center_to_empirical_mean": 0.6523580529800621,
+  "zero_support_rawmass_quantiles": {
+    "0": 1.7393456675989263e-23,
+    "0.1": 1.7233450617489904e-09,
+    "0.25": 5.615000790201224e-06,
+    "0.5": 7.732951176183884e-05,
+    "0.75": 0.0005131272474945498,
+    "0.9": 0.0009142026831271915,
+    "1": 0.0028658572172024638
+  },
+  "zero_support_max_ratio_max": 0.009723640427732631,
+  "figures_case_ids": [
+    "SDD:deathCircle_3:track260:frame1536",
+    "SDD:deathCircle_3:track497:frame5004",
+    "SDD:deathCircle_3:track742:frame2316"
+  ],
+  "analysis_seconds": 32.187110314989695,
+  "code_commit": "ef66d85c47862f3cf5049224e152c5435011afd8"
+}

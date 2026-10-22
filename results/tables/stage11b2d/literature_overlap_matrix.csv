@@ -1,0 +1,7 @@
+direction,proposal,closest_work,same_problem,similar_objective,mathematical_prior,deployment_input,change_YNet,fixed_K20_fair,extra_training,current_evidence,innovation_risk,minimum_falsifiable_control
+A,直接替换KMeans19,YNet;LRVQ2024;HYPER,YES,YES,k-means/medoid/FPS是常规方法,EXISTING_CACHE,不改网络；改变Goal需重解码,YES,NO,86有失覆盖；不证明替代有效,HIGH,固定分区内已有样本代表点对照
+B,增加候选多样性,DLow;DPP;NPSN;AgentFormer,YES,YES,DPP/RBF距离/低差异采样已有,HISTORY_AND_PREDICTIONS,通常改变采样或训练,YES,方法相关,几何离散度不等于性能收益,HIGH,同K同时检查覆盖与完整路径，不新增K
+C,按概率质量调整代表性,DenseTNT;GMM2026;TUTR,YES,YES,概率加权集合误差/weighted KMeans已有,PREDICTED_PROBABILITY,可只改后处理,YES,可不训练,低质量局部被遗漏；未证明权重重复使用合理,HIGH,比较经验频数权重与显式概率，防二次加权
+D,高低概率区域代表性,DPP;NPSN;HYPER;DenseTNT,RELATED,RELATED,覆盖/质量-多样性取舍已有,PREDICTED_PROBABILITY,可只改后处理,YES,可不训练,失败组低局部质量；保护所有尾部可能保噪声,HIGH,与普通覆盖选择同预算比较；不是新机制准入
+E,历史运动条件压缩,NPSN;TUTR;LRVQ2024,YES_RELATED,YES_RELATED,历史条件采样/实例码本已有,HISTORY_ONLY,需额外条件函数或规则,YES,取决于方法,仅有事后分组关联，未证独立收益,HIGH,先按录像复核条件关联；不直接加新模块
+F,语义可靠性候选生成,YNet;GoalFlow2025,RELATED_NOT_IDENTICAL,UNVERIFIED,场景Goal已有；可靠性因果机制未核实,SCENE_HISTORY,会改变输入/Goal或选择,YES,可能,本阶段没有语义致错直接证据,UNKNOWN,须先验证语义反事实；当前不准入

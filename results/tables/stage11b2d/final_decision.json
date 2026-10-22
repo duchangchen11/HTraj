@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "scope": "EXPLORATORY_DEVELOPMENT_ANALYSIS",
+  "compression_targets_analyzed": 86,
+  "all_targets": 998,
+  "historical_prediction_unchanged": true,
+  "zero_support_targets": 77,
+  "new_GPU_seconds": 0,
+  "new_training_steps": 0,
+  "new_model_inference": 0,
+  "assignment": "FINAL_CENTER_VORONOI_ASSIGNMENT",
+  "primary_observation": "low local draw mass and broader local assigned-cell radii coexist with loss",
+  "universal_large_dense_cluster_absorption": "NOT_SUPPORTED",
+  "mechanism_interpretation": "INFERRED_NOT_CAUSAL",
+  "novelty_risk": "HIGH",
+  "new_original_algorithm_GO": false,
+  "Stage11C_GO": false,
+  "ordinary_control": "PROPOSAL_ONLY_REQUIRES_NEW_APPROVAL",
+  "recommendation": "NO_GO_INNOVATION; optional single conventional representative control may falsify support-projection explanation",
+  "original_Stage2C_decision": "MECHANISM_INCONCLUSIVE unchanged",
+  "source_commit": "ef66d85c47862f3cf5049224e152c5435011afd8"
+}

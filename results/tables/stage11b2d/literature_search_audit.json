@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-22",
+  "workflow": "multi-source-search",
+  "academic_MCP": "NOT_MOUNTED",
+  "fallback": [
+    "primary CVF/arXiv/author web search",
+    "OpenAlex discovery script"
+  ],
+  "failures": [
+    "system Python3.8 incompatible with skill type annotations; retried using existing Python3.10",
+    "OpenAlex HTTP429; no repeated retry; primary papers accessible"
+  ],
+  "fulltext_reviewed": 12,
+  "recent": [
+    "LRVQ2024",
+    "GoalFlow2025",
+    "GMM2026"
+  ],
+  "queries": [
+    "goal candidate compression probability coverage trajectory",
+    "KMeans trajectory postprocessing",
+    "probability weighted representative selection k-center k-medoids farthest point DPP",
+    "fixed K trajectory coverage quantization rate distortion"
+  ],
+  "additional_queries": [
+    "trajectory prediction farthest point sampling",
+    "trajectory prediction weighted clustering 2025",
+    "Rethinking Training Inference Forecasting 2026",
+    "Non-Probability Sampling Network",
+    "trajectory prediction k-medoids"
+  ],
+  "duplicate_handling": "deduplicated by arXiv ID/title; preprint and conference counted once; DLow != DPP",
+  "excluded_ambiguity": "Search found two different SIPTraj descriptions. Downloaded arXiv2608.00779 is map-free autonomous driving and not evidence for the thesis weighted-FPS claim; no conflation.",
+  "literature_limit": "Not exhaustive; no proof of originality; no patent freedom-to-operate opinion",
+  "new_models_run": 0,
+  "model_code_unchanged": true
+}

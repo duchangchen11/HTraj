@@ -1,0 +1,32 @@
+{
+  "initial_git_diff_check_exit": 2,
+  "reason": "matplotlib SVG trailing whitespace",
+  "correction": "trim end-of-line whitespace only in new stage SVG; normalized path commands and PNG hashes unchanged",
+  "files": [
+    {
+      "path": "results/figures/stage11b2d/01_local_draw_counts.svg",
+      "lines_trimmed": 1001,
+      "path_geometry_unchanged": true
+    },
+    {
+      "path": "results/figures/stage11b2d/02_final_cluster_structure.svg",
+      "lines_trimmed": 2484,
+      "path_geometry_unchanged": true
+    },
+    {
+      "path": "results/figures/stage11b2d/03_frozen_spatial_cases.svg",
+      "lines_trimmed": 159,
+      "path_geometry_unchanged": true
+    },
+    {
+      "path": "results/figures/stage11b2d/04_recording_contrasts.svg",
+      "lines_trimmed": 194,
+      "path_geometry_unchanged": true
+    },
+    {
+      "path": "results/figures/stage11b2d/05_zero_support_raw_mass.svg",
+      "lines_trimmed": 168,
+      "path_geometry_unchanged": true
+    }
+  ]
+}

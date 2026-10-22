@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files": 92248,
+  "changed": [],
+  "seconds": 99.6421689830022,
+  "scope": "after final pytest / only byte hashes of historical artifacts; no test-set parsing or scoring"
+}

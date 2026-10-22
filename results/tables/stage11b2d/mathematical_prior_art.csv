@@ -1,0 +1,6 @@
+method,objective,prior,official_link,direct_trajectory_use,limit
+k-center / FPS,min_C max_j min_c ||P_j-c||,HYPER §IV-D uses endpoint FPS in trajectory selection,https://arxiv.org/abs/2110.02344,YES,worst-case geometric coverage != GT hit/ADE; FPS2-approx requires metric and suitable domain
+k-medoids,"min_{c in observed samples} sum_j min_c distance(P_j,c)","Kaufman & Rousseeuw, Finding Groups in Data (1990), partitioning around medoids",https://doi.org/10.1002/9780470316801,NOT_CLAIMED_FROM_THIS_REFERENCE,unsquared and squared objectives differ; no originality claim
+probability-weighted representative set,sum_x p(x) min_c ||x-c||,DenseTNT Eq6/Algorithm1,https://arxiv.org/abs/2108.09640,YES,prior predicted p may be miscalibrated; does not guarantee local GT coverage
+DPP quality/diversity,L=Diag(r) S Diag(r); expected-cardinality diversity objective,Yuan & Kitani ICLR2020 §4,https://arxiv.org/abs/1907.04967,YES,quality of minor modes already discussed; not a new name for FPS
+quantization / rate-distortion,KMeans empirical E[min ||P-c||^2] vs radius coverage E[1(min ||P-c||<=r)],"Lloyd, Least Squares Quantization in PCM, IEEE TIT 1982; connection is mathematical background",https://doi.org/10.1109/TIT.1982.1056489,LRVQ2024 uses quantization and KMeans; not this classic alone,not an information-theoretic rate-distortion theorem for this YNet experiment

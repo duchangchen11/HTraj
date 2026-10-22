@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/lrj/.codex/skills/nature-academic-search/scripts/academic_search.py", line 96, in <module>
+    def _cluster_summary(results: list[dict]) -> list[dict]:
+TypeError: 'type' object is not subscriptable

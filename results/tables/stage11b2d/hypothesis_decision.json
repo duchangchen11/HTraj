@@ -1,0 +1,61 @@
+{
+  "hypotheses": [
+    {
+      "phase": "PROPOSAL_ONLY_NOT_EXECUTED",
+      "name": "Fixed-Voronoi observed-sample representative control",
+      "hypothesis": "At fixed draw cloud, partition, K and network, replacing continuous cluster means with a within-cell observed representative may change coverage and downstream paths; effect unverified",
+      "candidate_count": 20,
+      "head0": "original frozen Softargmax unchanged",
+      "other_heads": 19,
+      "partitions": "freeze final-center Voronoi assignment of original10000 draws; no reclustering",
+      "representative": "argmin_{p in assigned existing draws} sum_{q in same cell} ||q-p||^2; ties lowest original draw index",
+      "empty_cell": "retain original center; current final-cell audit has zero empty cells",
+      "duplicates": "retain repeated draws and duplicate representatives; report effective distinct goals; no ad hoc filling",
+      "deploy_inputs": [
+        "existing10000 proposals",
+        "frozen19 centers",
+        "frozen Softargmax",
+        "original history and semantics only for frozen decoder"
+      ],
+      "GT_for_selection": false,
+      "new_training": false,
+      "changes_loss": false,
+      "novelty": "ordinary squared-medoid control; NOT a proposed original algorithm",
+      "fairness": "same998 IDs/history/GT/weights/K20/head0; baseline original cache immutable; alternative output in separate directory",
+      "decode": "Any changed Goal MUST be sent through frozen original Path Decoder; old20 paths cannot stand in for changed Goals",
+      "metrics": [
+        "GoalCover10/25/50",
+        "GoalFDE20",
+        "minADE20",
+        "minFDE20",
+        "goal pairwise dispersion",
+        "empirical squared distortion",
+        "radius mass coverage under fixed p",
+        "CPU wall",
+        "GPU wall",
+        "memory"
+      ],
+      "analysis": [
+        "all998 windows",
+        "five-recording macro",
+        "each recording",
+        "deathCircle versus other4",
+        "all frozen history groups"
+      ],
+      "provisional_success_rule": {
+        "macro_cover25_gain_pp_min": 1.0,
+        "macro_minADE20_relative_improvement_min": 0.01,
+        "macro_minFDE20_relative_degradation_max": 0.01,
+        "OTHER4_cover25_gain": "strictly positive",
+        "interpretation": "development engineering gate only, not original-method or independent-generalization proof"
+      },
+      "failure_rule": "If these fail, reject this single representative-control hypothesis; no medoid/FPS/radius/seed sweep or additional training",
+      "confirmation": "Before any SCI claim reserve genuinely unaccessed source recording(s), disjoint from baseline training/development and sealed test. Metadata-only feasibility check first; if unavailable report limitation. Do not repurpose sealed test autonomously.",
+      "approval": "Requires a new user instruction and separate frozen protocol before execution",
+      "costs": "No training; CPU representative control not measured. Priorstage decoder mean0.124399s/target (~124.15s/998), excludes startup/I/O; not a new timing result."
+    }
+  ],
+  "maximum_two": true,
+  "innovation_admission": false,
+  "reason": "Only a conventional control is justified; no distinct new mathematics or independent confirmation evidence"
+}

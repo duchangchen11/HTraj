@@ -1,0 +1,150 @@
+{
+  "MCP_status": "academic-search MCP tools not mounted; primary web search and public fulltext fallback",
+  "records": [
+    {
+      "paper": "YNet",
+      "url": "https://arxiv.org/pdf/2012.01526",
+      "status": 200,
+      "bytes": 13691428,
+      "seconds": 14.883601458015619,
+      "PDF_SHA": "d34b27260d53c9ac345f25efaa4383aa170a3d03f44654a6be9a5ac748b7cdcd",
+      "text_SHA": "0e1d064cd90d04f6c355b9646936bb9bab8757320b22717989213a0f9fe7c207",
+      "text_chars": 78399,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "PECNet",
+      "url": "https://arxiv.org/pdf/2004.02025",
+      "status": 200,
+      "bytes": 8048385,
+      "seconds": 13.162557679985184,
+      "PDF_SHA": "c696d567844358b8e568630d913e0fb79f204704d3ec9db7412385e13c7d5cb5",
+      "text_SHA": "140893e624ffd8048e62b1a5fe939c0fce32d3153c55a090a8c331f5af7eef2a",
+      "text_chars": 54332,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "DLow",
+      "url": "https://arxiv.org/pdf/2003.08386",
+      "status": 200,
+      "bytes": 9959452,
+      "seconds": 5.353294673986966,
+      "PDF_SHA": "514460e98931fa5d1d7d2bc96ff516e4246c7f62cd6a9e8e28c1c338bb71b05b",
+      "text_SHA": "e84df90ea84396b88f0eea127d622e2d2fca2891c8fb0f78083bbac53a3b4cca",
+      "text_chars": 66258,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "AgentFormer",
+      "url": "https://arxiv.org/pdf/2103.14023",
+      "status": 200,
+      "bytes": 5324842,
+      "seconds": 5.108056080993265,
+      "PDF_SHA": "d1745893802cf8a353caf00c92239e8379c37a4908af657bdfb17b7d39a87541",
+      "text_SHA": "56ad361d25ff4b383269e86a47bbee2a416c4360ee155c47725e3d168d38447b",
+      "text_chars": 95426,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "TUTR",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Trajectory_Unified_Transformer_for_Pedestrian_Trajectory_Prediction_ICCV_2023_paper.pdf",
+      "status": 200,
+      "bytes": 1512722,
+      "seconds": 10.748824797978159,
+      "PDF_SHA": "e03647daf7353c3f9c5fb415c071154a66b4337c1c08703cbfae2c73e99b7a9a",
+      "text_SHA": "28c2ca217e12f99be27106eabcf2380bc734b18ac2c6e4441b4b83d483ff9233",
+      "text_chars": 74661,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "DPP",
+      "url": "https://arxiv.org/pdf/1907.04967",
+      "status": 200,
+      "bytes": 7624278,
+      "seconds": 3.216421958000865,
+      "PDF_SHA": "99e9774b445fbc9f4f989f53881ed367216be28d2d2d3a68aeeb66efbcb023d9",
+      "text_SHA": "8bfa1c5813ca7978549865a6ddf6bc2c5ce9f59bd503037dd8da4849c83840a4",
+      "text_chars": 61641,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "DenseTNT",
+      "url": "https://arxiv.org/pdf/2108.09640",
+      "status": 200,
+      "bytes": 3058247,
+      "seconds": 1.8431044039898552,
+      "PDF_SHA": "642e822645576fc3dc3eb1dfaa9b87e6139758d21f52df16ed225ca432528a76",
+      "text_SHA": "db7d819711944c88a96064277cf65fc8fbb162a8ca5af26bfe398f7bd29c0111",
+      "text_chars": 87149,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "NPSN",
+      "url": "https://arxiv.org/pdf/2203.13471",
+      "status": 200,
+      "bytes": 2571313,
+      "seconds": 2.378331646003062,
+      "PDF_SHA": "b3bd5dcc87c9bf6454c5ca222440bfcf06a55d13dfb27aff9a2e215f7962f2cd",
+      "text_SHA": "8f4fa89d7269678539476ee98413fe9dc5ff41885be80e336633e195887abe5d",
+      "text_chars": 81246,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "HYPER",
+      "url": "https://arxiv.org/pdf/2110.02344",
+      "status": 200,
+      "bytes": 1849837,
+      "seconds": 1.8440090049989522,
+      "PDF_SHA": "1b8deeb12c507c035f798252f5b94b8ec4537bc855284ca2ac39497aa7a37d33",
+      "text_SHA": "1bb927a3f906738c8ae74ee55f79385c2872e082818b304241017f647c4fc822",
+      "text_chars": 66388,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "LRVQ2024",
+      "url": "https://arxiv.org/pdf/2405.20743",
+      "status": 200,
+      "bytes": 2751606,
+      "seconds": 2.1190581720147748,
+      "PDF_SHA": "119c31a97fb20dbece0a8b44a783adb6f312feec717d3ea787fa5425652cca41",
+      "text_SHA": "c3ba023e94cce6c562708aa518cbad3c7dfaf63d5ccf8dc70b2fb9c297893d73",
+      "text_chars": 48557,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "GoalFlow2025",
+      "url": "https://arxiv.org/pdf/2503.05689",
+      "status": 200,
+      "bytes": 5747566,
+      "seconds": 3.461484002007637,
+      "PDF_SHA": "4206cc1b3aa41828c00cdbba7567732b190b05c9b599be9f6a7664e198585e0d",
+      "text_SHA": "880fe6fe60505b34f27d397fd9ff3dc3a3071081dbf181be69b3defc9be9b64c",
+      "text_chars": 66388,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "GMM2026",
+      "url": "https://arxiv.org/pdf/2606.26424",
+      "status": 200,
+      "bytes": 4524946,
+      "seconds": 2.8410106289957184,
+      "PDF_SHA": "be42eaa6e7fe1a97d6ca7d3bb43560e13a0ad59baedfd01cc6dd3f81de89a9d0",
+      "text_SHA": "1c426d7a6e950c411a5138a76a4860bc2ffe47a525dd72d2c197fbb3fae591e4",
+      "text_chars": 54114,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    },
+    {
+      "paper": "SIPTraj2026",
+      "url": "https://arxiv.org/pdf/2608.00779",
+      "status": 200,
+      "bytes": 5043574,
+      "seconds": 3.3381317440071143,
+      "PDF_SHA": "238a59830dd6330f5449acf62b33d7cefbe7d069b4a89ea556e39a107c4cfc25",
+      "text_SHA": "97365ce2c7e76ee7abe6f6c065c5927baa904fcd288dbdd2745c8356cc1313e1",
+      "text_chars": 80522,
+      "evidence": "FULLTEXT_AVAILABLE_NOT_YET_REVIEWED"
+    }
+  ],
+  "source_version": "ef66d85c47862f3cf5049224e152c5435011afd8",
+  "CPU_ONLY": true
+}

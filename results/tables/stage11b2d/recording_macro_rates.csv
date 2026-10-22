@@ -1,0 +1,3 @@
+metric,recordings,mean,definition
+compression_loss_rate_all,5,0.0631836027880886,equal recording weight; all5 incl zero counts
+compression_loss_rate_proposal_hit,5,0.06886109542631279,equal recording weight; all5 incl zero counts

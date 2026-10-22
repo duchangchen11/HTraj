@@ -1,0 +1,6 @@
+{
+  "LRVQ_venue": "ICPR2024 per official README https://github.com/aimagelab/LRVQ; provisional ECCV assumption rejected",
+  "GMM2026_datasets": "§6 explicitly nuScenes and WOMD; Argoverse reference not experiment evidence",
+  "GMM2026_EM": "§5.2 Eq9-10 uses training GT for M-step. Only §5.1 merging is training-free.",
+  "review_scope": "Manual fulltext checks; preliminary metadata corrected before final reports"
+}

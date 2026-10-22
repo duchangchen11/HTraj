@@ -1,0 +1,42 @@
+[
+  {
+    "name": "01_local_draw_counts",
+    "PNG_SHA": "1b55fd331c2894bdbc92f46b93020e72ae0b1c62c8a4c53ab10c493bac3d324a",
+    "SVG_SHA": "ae9c5c536bb74acff5d1a8db1b9f979f87fc33339d847f4e31f535564c248e96",
+    "source_data": "target_diagnostics.csv",
+    "claim": "Lost-coverage targets have fewer local draws; not a causal group comparison",
+    "scope": "descriptive posthoc groups; overlapping targets; no significance test"
+  },
+  {
+    "name": "02_final_cluster_structure",
+    "PNG_SHA": "35da20d5ce20cd1d244aa388d28452b3e597247daf1edeaeaf1d53076dc06018",
+    "SVG_SHA": "8178e1edaa23ccbbadc429e522453076ab291d1e73f4e09b0e02b125e67ec4fe",
+    "source_data": "target_diagnostics.csv;cluster_diagnostics.csv",
+    "claim": "The loss group is not generally absorbed by the largest clusters",
+    "scope": "descriptive posthoc groups; overlapping targets; no significance test"
+  },
+  {
+    "name": "03_frozen_spatial_cases",
+    "PNG_SHA": "41f2ad01c9b4a3b446109467e4202c778ee6ed02b0c0e1b9551ddf74e34a9539",
+    "SVG_SHA": "e95fb0bd91cc0b85fa453fa8bb4cf368ec8b8b00b02f2dd4ec59922e757fc9e0",
+    "source_data": "frozen_case_data.json; original cache files via SHA",
+    "claim": "Three preregistered cases, including a large-cluster exception; no coordinate movement",
+    "scope": "descriptive posthoc groups; overlapping targets; no significance test"
+  },
+  {
+    "name": "04_recording_contrasts",
+    "PNG_SHA": "8c505423cd72b884510d5376773bb81728f54db2b33fb12011816b4c165caf90",
+    "SVG_SHA": "778924c6e23157aaab5fd9f8fe9fc08582ae97b94982563d91a303fdbf3f3ca5",
+    "source_data": "recording_comparison.csv;target_diagnostics.csv",
+    "claim": "All five recordings retained; small counts outside deathCircle limit generalization",
+    "scope": "descriptive posthoc groups; overlapping targets; no significance test"
+  },
+  {
+    "name": "05_zero_support_raw_mass",
+    "PNG_SHA": "ec725d20fce0fd668ff08bff73c4a68339a2e02ee9bb5ae965de7542087c82c2",
+    "SVG_SHA": "742ef31383dace510f06d8dba0306c745a72aa70936cb67e02a5d7e605ee64e9",
+    "source_data": "threshold_support_review.csv",
+    "claim": "All77 raw neighborhoods positive but below fixed relative threshold; no counterfactual sampling",
+    "scope": "descriptive posthoc groups; overlapping targets; no significance test"
+  }
+]

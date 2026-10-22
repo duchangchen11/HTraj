@@ -1,0 +1,33 @@
+{
+  "source_path": "configs/stage11b2a/analysis_protocol.json",
+  "source_SHA": "0f8e1b1b3d55d406a0d1985d6ce56dc0b4c102835efde8334877da633de81dcf",
+  "source_frozen_labels_path": "results/tables/stage11b2a/motion_features.csv",
+  "scope": "Source definitions only, labels unchanged; no future grouping used",
+  "speed": "Low/medium/high using source TRAIN7496 diagonal-normalized mean-speed terciles; np.quantile linear; ties go to higher bin",
+  "turn": [
+    "undefined_direction",
+    "straight",
+    "intermediate",
+    "turning_ge30deg"
+  ],
+  "speed_change": [
+    "undefined_low_speed",
+    "stable_CVle0.15",
+    "intermediate",
+    "variable_CVge0.4"
+  ],
+  "stationary": [
+    "all_steps_le1px",
+    "other"
+  ],
+  "history_thresholds": {
+    "reliable_direction_step_pixels": 1,
+    "stationary_step_max_pixels": 1,
+    "straight_max_turn_degrees": 15,
+    "straightness_min": 0.95,
+    "turning_min_turn_degrees": 30,
+    "stable_speed_CV_max": 0.15,
+    "variable_speed_CV_min": 0.4,
+    "CV_defined_mean_speed_min_pixels_s": 2.5
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "historical_files_unchanged": 92248,
+  "numerical_frozen_code_unchanged": true,
+  "cache_identity_verified": true,
+  "targets": 998,
+  "compression_targets": 86,
+  "zero_support": 77,
+  "final_voronoi_cells": 18962,
+  "local_draw_assignments": 6050,
+  "figures": 5,
+  "tests": {
+    "tests": 630,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "CPU_only": true,
+  "new_GPU_seconds": 0,
+  "new_frozen_model_inference": 0,
+  "training_steps": 0,
+  "test_set_scoring": false,
+  "no_original_algorithm_implemented": true,
+  "source_code_SHA": "d869b3cc5ba9cd4ed819522a63786ece0fd888e456fb11bc076ba713982dcfc8",
+  "code_commit": "ef66d85c47862f3cf5049224e152c5435011afd8",
+  "large_tables": "cluster_diagnostics.csv is a required derived scalar table, <10 MiB; tensors/PDF/weights remain ignored",
+  "old_results_modified": false,
+  "sensitive_file_check": "PASS",
+  "Git_scope": "only Stage11B-2D new directories",
+  "final_history_file": "history_final.json",
+  "final_history_files_unchanged": 92248,
+  "final_full_tests_file": "full_tests_final.xml",
+  "final_test_counts": {
+    "tests": 630,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "SVG_geometry_and_PNG_unchanged_by_whitespace_fix": true,
+  "Git_diff_check": "PASS after new SVG end-of-line whitespace cleanup; initial diagnostic preserved losslessly"
+}
