@@ -60,3 +60,5 @@ deathCircle65/443失覆盖，其他4合计21/555；窗口加权8.6172%，五录�
 最终测试：629 passed、1 skipped、25 warnings（27.97秒）；跳过原CUDA专项，原因为CUDA compatibility check。本轮15项新增测试全数通过。原有pickle SourceChangeWarning等完整保留。报告生成曾遇到Python3.10 f-string语法问题，失败日志保留，修复只作用于新报告脚本。论文元数据的ICPR来源及EM训练GT语义均已按原文核查更正。
 
 交付终检：SVG仅清理行尾空格，路径指令与PNG SHA保持一致；原Git诊断以无损gzip保留。格式修复后的完整测试见full_tests_final.txt/xml：629通过、1跳过，27.83秒；测试后再次核验历史92,248文件SHA全部未变（history_final.json）。
+
+GitHub交付：对本地研究提交 `4bab716a2dbfb0f9541fd789a706eedebaf0bd37` 的一次正常HTTPS推送失败（exit128）：`fatal: could not read Username for 'https://github.com': terminal prompts disabled`。只读远程查询成功但未发现本阶段分支。没有强推、修改凭据或重复重试。完整本地成果已保留，用户终端命令为 `git push -u origin feat/stage11b2d-compression-novelty-audit`。详见github_delivery.json；该补记只涉及Git交付，不改变科学结果。
