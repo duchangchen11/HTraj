@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "GT_loaded": false,
+  "test_loaded": false,
+  "training_steps": 0,
+  "comparisons": 18,
+  "all20paths_repeat_reverse_bitwise": true,
+  "future_prefix_projection_unchanged": true,
+  "parameters_unchanged": true,
+  "model_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "peak_allocated_bytes": 460916224,
+  "peak_reserved_bytes": 673185792,
+  "GPU_cumulative_at_log": 1516.629688994988
+}

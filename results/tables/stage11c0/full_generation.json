@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "mode": "full",
+  "generated": 2994,
+  "training_steps": 0,
+  "GT_loaded": false,
+  "test_loaded": false,
+  "groups": [
+    {
+      "condition": "S1",
+      "path": "experiments/stage11c0/cache/S1_full.pt",
+      "sha256": "ecfe2d3e4e704bb43b67ba3f9f176c6625dc24bcbf01b4601d4cb001c52ab0d8",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "manifest_SHA": "3314aa44fc01987d0ba9b4a1422769b89f16f5368b9f4451758ee23c129df66b"
+    },
+    {
+      "condition": "S2",
+      "path": "experiments/stage11c0/cache/S2_full.pt",
+      "sha256": "30a6130a1db3d2760c7a327cdb85da2bf2e5784732c08b7aecd9981494bb20cc",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "manifest_SHA": "4ff0172669deb5a6c3faf1b70edbf6b2c2afb23fd1809ed732cd3f403ffcc762"
+    },
+    {
+      "condition": "S3",
+      "path": "experiments/stage11c0/cache/S3_full.pt",
+      "sha256": "f7e76d1172d5d2a2aeaa0690dc0d59650ee9f649115bfdf7c476e291a3fabfa4",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "manifest_SHA": "178a91520428fa1775b08d2966242e04511366ae99f7d5d71c86bc554d1c275f"
+    }
+  ],
+  "history_heatmap_unchanged": true,
+  "all_actual_full_predictions": true,
+  "parameters_unchanged": true,
+  "model_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "model_parameters": 53155339,
+  "segmentation_eval": true,
+  "model_load_seconds": 3.3274269120011013,
+  "semantic_read_H2D_seconds": 0.28901514600147493,
+  "peak_allocated_bytes": 551165440,
+  "peak_reserved_bytes": 914358272,
+  "source_commit": "1a9bf5e2b5ddca6d8a0c02dd4577a5ebe44bf54a",
+  "GPU_cumulative_at_log": 1115.1319036209898
+}

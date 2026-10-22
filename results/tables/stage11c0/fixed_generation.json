@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "mode": "fixed",
+  "generated": 2994,
+  "training_steps": 0,
+  "GT_loaded": false,
+  "test_loaded": false,
+  "groups": [
+    {
+      "condition": "S1_FIXED_GOAL",
+      "path": "experiments/stage11c0/cache/S1_fixed.pt",
+      "sha256": "f2d6a7581483855cdcce192db3bbd293440d8aab62f6278b83137ce54955f541",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "all_paths_really_decoded": true,
+      "all_goals_S0_bitwise": true
+    },
+    {
+      "condition": "S2_FIXED_GOAL",
+      "path": "experiments/stage11c0/cache/S2_fixed.pt",
+      "sha256": "dfd37200a5deb5afc46a28c617b119fda2630373b384b2f734bfbc64233f140e",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "all_paths_really_decoded": true,
+      "all_goals_S0_bitwise": true
+    },
+    {
+      "condition": "S3_FIXED_GOAL",
+      "path": "experiments/stage11c0/cache/S3_fixed.pt",
+      "sha256": "e8978714a9114d816c1721d080c8a2a9f8cb73fdb75c47e4708ada4c96e807dd",
+      "targets": 998,
+      "goals_shape": [
+        20,
+        998,
+        2
+      ],
+      "paths_shape": [
+        20,
+        998,
+        12,
+        2
+      ],
+      "all_paths_really_decoded": true,
+      "all_goals_S0_bitwise": true
+    }
+  ],
+  "history_heatmap_unchanged": true,
+  "parameters_unchanged": true,
+  "model_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "model_parameters": 53155339,
+  "segmentation_eval": true,
+  "model_load_seconds": 3.5066747599921655,
+  "semantic_read_H2D_seconds": 0.25920222103013657,
+  "peak_allocated_bytes": 549511680,
+  "peak_reserved_bytes": 929038336,
+  "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+  "GPU_cumulative_at_log": 1508.1692618559755
+}

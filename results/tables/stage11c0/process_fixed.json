@@ -1,0 +1,11 @@
+{
+  "worker": "fixed",
+  "returncode": 0,
+  "wall_seconds": 393.0593971420021,
+  "prior_seconds": 1115.8069614019769,
+  "cumulative_seconds": 1508.866358543979,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+  "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+}

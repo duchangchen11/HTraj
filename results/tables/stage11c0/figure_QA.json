@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "backend": "Python matplotlib only",
+  "rendered_figures_inspected": 10,
+  "editable_SVG_text": true,
+  "unknown_semantic_channels_not_named": true,
+  "same_semantic_color_range_0_1": true,
+  "actual_goal_probability_source": true,
+  "goal_map_visual_log_floor": 1e-08,
+  "zero_goal_weights_masked": true,
+  "quantification_from_unmodified_full_weights": true,
+  "all_five_recordings_displayed": true,
+  "all_frozen_history_groups_displayed": true,
+  "recoveries_and_new_losses_both_displayed": true,
+  "cases": "frozen median IDs, 12 paired outcome examples; all20 actual paths",
+  "source_arrays": "six channel JSON.gz and five probability-grid JSON.gz plus actual case JSON; not raw images or model weights",
+  "statistics": "descriptive paired means/ECDFs, overlapping windows not independent scenes, no p-values",
+  "notes": "Global maxima separated from means of per-target maxima; graph styles and colors do not change inference"
+}

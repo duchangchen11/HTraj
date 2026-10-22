@@ -1,0 +1,75 @@
+{
+  "actual_GPU_process_seconds": 1517.3017737619812,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "within_budget": true,
+  "processes": [
+    {
+      "worker": "fixed",
+      "returncode": 0,
+      "wall_seconds": 393.0593971420021,
+      "prior_seconds": 1115.8069614019769,
+      "cumulative_seconds": 1508.866358543979,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+      "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+    },
+    {
+      "worker": "full",
+      "returncode": 0,
+      "wall_seconds": 1085.4326054489939,
+      "prior_seconds": 30.374355952983024,
+      "cumulative_seconds": 1115.8069614019769,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "1a9bf5e2b5ddca6d8a0c02dd4577a5ebe44bf54a",
+      "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+    },
+    {
+      "worker": "full",
+      "returncode": 1,
+      "wall_seconds": 6.3304359650064725,
+      "prior_seconds": 24.04391998797655,
+      "cumulative_seconds": 30.374355952983024,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+      "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+    },
+    {
+      "worker": "precheck",
+      "returncode": 0,
+      "wall_seconds": 14.202409041987266,
+      "prior_seconds": 0,
+      "cumulative_seconds": 14.202409041987266,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
+      "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+    },
+    {
+      "worker": "regression",
+      "returncode": 0,
+      "wall_seconds": 9.841510945989285,
+      "prior_seconds": 14.202409041987266,
+      "cumulative_seconds": 24.04391998797655,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+      "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+    },
+    {
+      "worker": "fixed_repeat_reverse",
+      "returncode": 0,
+      "wall_seconds": 8.435415218002163,
+      "prior_seconds": 1508.866358543979,
+      "cumulative_seconds": 1517.3017737619812,
+      "hard_seconds": 7200,
+      "safety_seconds": 6600,
+      "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+      "scope": "entire engineering child startup/load/repeat/reverse/save/exit"
+    }
+  ],
+  "training_seconds": 0
+}

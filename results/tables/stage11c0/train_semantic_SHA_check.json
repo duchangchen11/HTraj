@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "sample_id": "SDD:bookstore_0:track100:frame0",
+      "semantic_SHA": "4f7a8b641bd82b49376a9ac18d08100590f42758bf21384f7ff7074eff73c265",
+      "old_same": true
+    },
+    {
+      "sample_id": "SDD:bookstore_0:track129:frame0",
+      "semantic_SHA": "4f7a8b641bd82b49376a9ac18d08100590f42758bf21384f7ff7074eff73c265",
+      "old_same": true
+    }
+  ],
+  "GT_read": false,
+  "new_GPU_work": false
+}

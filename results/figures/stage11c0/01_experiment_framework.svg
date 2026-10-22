@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="572.4pt" height="236.16pt" viewBox="0 0 572.4 236.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T01:36:11.570267</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 236.16
+L 572.4 236.16
+L 572.4 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 16.5 99.45216
+L 114.15 99.45216
+Q 117.87 99.45216 117.87 95.904
+L 117.87 33.8112
+Q 117.87 30.26304 114.15 30.26304
+L 16.5 30.26304
+Q 12.78 30.26304 12.78 33.8112
+L 12.78 95.904
+Q 12.78 99.45216 16.5 99.45216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 146.7 99.45216
+L 244.35 99.45216
+Q 248.07 99.45216 248.07 95.904
+L 248.07 33.8112
+Q 248.07 30.26304 244.35 30.26304
+L 146.7 30.26304
+Q 142.98 30.26304 142.98 33.8112
+L 142.98 95.904
+Q 142.98 99.45216 146.7 99.45216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 276.9 99.45216
+L 379.2 99.45216
+Q 382.92 99.45216 382.92 95.904
+L 382.92 33.8112
+Q 382.92 30.26304 379.2 30.26304
+L 276.9 30.26304
+Q 273.18 30.26304 273.18 33.8112
+L 273.18 95.904
+Q 273.18 99.45216 276.9 99.45216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 411.75 99.45216
+L 537.3 99.45216
+Q 541.02 99.45216 541.02 95.904
+L 541.02 33.8112
+Q 541.02 30.26304 537.3 30.26304
+L 411.75 30.26304
+Q 408.03 30.26304 408.03 33.8112
+L 408.03 95.904
+Q 408.03 99.45216 411.75 99.45216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 276.9 210.33216
+L 379.2 210.33216
+Q 382.92 210.33216 382.92 206.784
+L 382.92 144.6912
+Q 382.92 141.14304 379.2 141.14304
+L 276.9 141.14304
+Q 273.18 141.14304 273.18 144.6912
+L 273.18 206.784
+Q 273.18 210.33216 276.9 210.33216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 411.75 210.33216
+L 537.3 210.33216
+Q 541.02 210.33216 541.02 206.784
+L 541.02 144.6912
+Q 541.02 141.14304 537.3 141.14304
+L 411.75 141.14304
+Q 408.03 141.14304 408.03 144.6912
+L 408.03 206.784
+Q 408.03 210.33216 411.75 210.33216
+z
+" clip-path="url(#p74b71f7036)" style="fill: #e3e7ea; stroke: #888888; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(34.643125 58.10685)">Frozen history8</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(16.37875 67.0651)">+ six semantic channels</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(22.494375 76.02335)">S0 / zero / mean / flip</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(153.153125 58.10685)">Frozen Y-Net encoder</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(147.890625 67.0651)">Same history heatmaps</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(159.704375 76.02335)">Same parameters</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(301.523125 58.10685)">A: Goal logits</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(296.1225 67.0651)">CPU TTST10000</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(277.668125 76.02335)">19 centers + Softargmax</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(433.488125 58.10685)">Frozen path decoder</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(458.083125 67.0651)">K20 x12</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(420.46375 76.02335)">A: new goals, new features</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(289.475625 168.98685)">B: original S0 goals</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(303.07125 177.9451)">No sampling</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(297.534375 186.90335)">No reclustering</text>
+   </g>
+   <g id="text_6">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(433.488125 168.98685)">Frozen path decoder</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(458.083125 177.9451)">K20 x12</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(418.890625 186.90335)">B: fixed goals, new features</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 120.800885 64.8576
+Q 130.425499 64.8576 138.93208 64.8576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+    <path d="M 135.73208 63.2576
+L 138.93208 64.8576
+L 135.73208 66.4576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 251.000885 64.8576
+Q 260.625499 64.8576 269.13208 64.8576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+    <path d="M 265.93208 63.2576
+L 269.13208 64.8576
+L 265.93208 66.4576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 385.850885 64.8576
+Q 395.475499 64.8576 403.98208 64.8576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+    <path d="M 400.78208 63.2576
+L 403.98208 64.8576
+L 400.78208 66.4576
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 246.200109 87.789877
+Q 325.72324 120.296881 404.211463 152.380841
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+    <path d="M 401.854795 149.68898
+L 404.211463 152.380841
+L 400.643974 152.651059
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 385.850885 175.7376
+Q 395.475499 175.7376 403.98208 175.7376
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+    <path d="M 400.78208 174.1376
+L 403.98208 175.7376
+L 400.78208 177.3376
+" style="fill: none; stroke: #666666; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(21.15 182.2147)">All predictions saved before GT scoring.</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(21.15 191.17295)">No training / no class relabeling / no test access.</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(21.15 200.1312)">Same sample seeds; changed categorical distributions.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p74b71f7036">
+   <rect x="7.2" y="7.2" width="558" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

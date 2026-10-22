@@ -6,6 +6,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 from matplotlib.patches import FancyBboxPatch
+from matplotlib.lines import Line2D
 
 COLORS=['#777777','#B16A58','#4F8198','#A18A4A'];CONDS=['S0','S1','S2','S3']
 def main():
@@ -73,7 +74,7 @@ def main():
             ax.scatter(*(truth[sid][-1]*.25),marker='*',c='white',edgecolors='.4',s=20,lw=.4)
             ax.set_xticks([]);ax.set_yticks([]);ax.set_title(f'{scene} | {c}',fontsize=7)
     fig.colorbar(im,ax=axs.ravel().tolist(),shrink=.5,label='Actual postthreshold normalized categorical probability; log scale')
-    save(fig,'03_real_goal_probability_maps',sources,'Five fixed median-ID cases, same map scale; GT star is offline only; zero weights masked')
+    save(fig,'03_real_goal_probability_maps',sources,'Five fixed median-ID cases, same log map scale with visual floor1e-8; GT star is offline only; zero weights masked; raw weights unmodified')
     fig,axs=plt.subplots(1,2,figsize=(8.5,3.3),layout='constrained')
     for ax,scope in zip(axs,['ALL998','FIVE_RECORDING_MACRO']):
         q=full[full.scope==scope].set_index('condition').loc[CONDS];bars=ax.bar(CONDS,q.GoalCover25*100,color=COLORS);ax.bar_label(bars,fmt='%.2f',fontsize=7,padding=2)
@@ -130,6 +131,10 @@ def main():
             ax.set_aspect('equal',adjustable='datalim');ax.invert_yaxis();ax.set_title(f'{c} {outcome}\n{sid.replace("SDD:","")}',fontsize=6);ax.set_xlabel('x (px)');ax.set_ylabel('y (px)')
             raw.append(dict(sample_id=sid,condition=c,outcome=outcome,eligible=int(case.eligible),rank=int(case['rank']),
                 original_goals=og.tolist(),alternative_goals=ag.tolist(),original_paths=op.tolist(),alternative_paths=ap.tolist(),history=h.tolist(),GT=y.tolist()))
+    fig.legend(handles=[Line2D([],[],color=COLORS[0],marker='x',label='S0 paths / goals')]+
+        [Line2D([],[],color=COLORS[i],ls='--',marker='+',label=c+' paths / goals') for i,c in enumerate(CONDS) if i>0]+
+        [Line2D([],[],color='black',label='GT (offline)'),Line2D([],[],color='#4F8198',label='History')],
+        loc='outside upper center',ncol=6,fontsize=7)
     source=export('10_real_paired_cases.json',raw);save(fig,'10_real_goal_path_cases',source,'Fixed median-ID for each paired outcome; all20 paths shown, no GT-based head correspondence')
     (OUT/'figure_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
     print('FIGURES',len(manifest),'PNG/SVG pairs; real source arrays exported',flush=True)

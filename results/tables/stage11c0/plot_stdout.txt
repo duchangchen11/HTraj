@@ -1,0 +1,1 @@
+FIGURES 10 PNG/SVG pairs; real source arrays exported

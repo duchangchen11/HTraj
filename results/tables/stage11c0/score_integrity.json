@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all998_targets_and_GT_SHA_matched": true,
+  "original164_failure_IDs_unchanged": true,
+  "all_six_generated_groups_before_GT_read": true,
+  "fixed_all_goals_bitwise": true,
+  "CPU_seconds": 55.74380271899281,
+  "baseline_exact_recomputed": true,
+  "original_checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab"
+}

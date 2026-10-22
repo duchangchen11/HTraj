@@ -1,0 +1,143 @@
+[
+  {
+    "name": "01_experiment_framework",
+    "PNG_SHA": "f6fb2569fc9d84decf0e0927bbf9cb835622f004b2e62d4323d70550406fce4a",
+    "SVG_SHA": "315b47717a687a38ea4e5cd127e9a3c03c01e462187e67ad49f6d52a4f44a995",
+    "source": "configs/stage11c0/experiment_protocol.json",
+    "claim": "Separate full-chain sensitivity from path sensitivity given identical goals",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "02_real_semantic_inputs",
+    "PNG_SHA": "75f82ed4b695b2311a8713933618d671167baff2b6f0a6d41349f7bbc405d13a",
+    "SVG_SHA": "63c19931a595070b82e6fd56a8fcf9638a21f7d85c290576c2f80eef6f74077d",
+    "source": [
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel0.json.gz",
+        "sha256": "b87030a44cc7ff3bd5fa06906157c83aedc2df35bc538721a69bf58fcafbceec",
+        "bytes": 3141961
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel1.json.gz",
+        "sha256": "20879a4805969abd8145be0dd8b92f074fbb3f63aed99efef3c0bfdaadb4daf2",
+        "bytes": 3069836
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel2.json.gz",
+        "sha256": "5edeeb7e981c193e5c6bd08d89ff17e0615b211835646da5bad593e04cf31bcc",
+        "bytes": 2946664
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel3.json.gz",
+        "sha256": "c78841dea200c3e934d1fa9e34f3ec2ad97e1dbc0b6e0e81e913aa3f94837a66",
+        "bytes": 3019605
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel4.json.gz",
+        "sha256": "2d092d260ed34dca3b024fb112e1db0b81019937d939e5117aa16f3de41f9ea8",
+        "bytes": 3142942
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/02_channel5.json.gz",
+        "sha256": "608d68ba91a729d91bb5174373663fb57cfa5f734cda194fbd19094f56fac93d",
+        "bytes": 3025074
+      }
+    ],
+    "claim": "Original/zero/valid spatial mean/valid horizontal flip; dotted valid boundaries; actual padding retained in S2/S3",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "03_real_goal_probability_maps",
+    "PNG_SHA": "5eda77cc4d3020f3ceb43d66727f0ca572f8a0ba47237c8d508fb2771b1cf980",
+    "SVG_SHA": "30ddf1ce2c4277905f42d7a7a33cbe052147c63d5033af1d3b328d0e4a5944bf",
+    "source": [
+      {
+        "path": "results/figures/stage11c0/source_data/03_bookstore_2.json.gz",
+        "sha256": "9abd97a9a81eaf75c212bd521d25d073d9141d967e94325cc17a6287f5b91ad9",
+        "bytes": 90626
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/03_deathCircle_3.json.gz",
+        "sha256": "aae3d0000e23a18bc5145ba5f30409b3dfda04305f55e196cde6398dd2d3d003",
+        "bytes": 132665
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/03_gates_7.json.gz",
+        "sha256": "aab9e4cfe2904d66b7c9ae6250245d8374cccd74d5ccbf91c1ef2889770d678f",
+        "bytes": 101060
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/03_hyang_7.json.gz",
+        "sha256": "352fce3d36c6aa91dae6763602c4f22985b0a85a6047a7744d26431396138c48",
+        "bytes": 95754
+      },
+      {
+        "path": "results/figures/stage11c0/source_data/03_nexus_4.json.gz",
+        "sha256": "7204b1a8b89cb9c52a396de7e06f472dc4be0e0373ad166cf47e27ac2fc97378",
+        "bytes": 107662
+      }
+    ],
+    "claim": "Five fixed median-ID cases, same log map scale with visual floor1e-8; GT star is offline only; zero weights masked; raw weights unmodified",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "04_goal_coverage25",
+    "PNG_SHA": "3aeb54abcfbb603976f6fd7e4b964efa1e9bd0b2a14cbcf4514d80b7bcf42d64",
+    "SVG_SHA": "0462da606d75293f62ba7c5ce2894ccc5ace354cdf97b0d304f67f43e4c152d5",
+    "source": "results/tables/stage11c0/scene_comparison.csv",
+    "claim": "Full prediction only; fixed sample and radius; window and equal-recording macro kept separate",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "05_full_path_errors",
+    "PNG_SHA": "a3e4caab93752da1de58cf064c133af51e54569a8ee4d28b477dccd63ea863a8",
+    "SVG_SHA": "9eb1770c8e3e84475a5701156f8838e92abce924a00695a3d601b3d15dc86795",
+    "source": "results/tables/stage11c0/scene_comparison.csv",
+    "claim": "Actual K20 full-chain errors; minADE and minFDE may choose different oracle heads",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "06_fixed_goal_path_displacement",
+    "PNG_SHA": "f7032f66727725c7d2c276bcf42b38e18c322f6a749cba60d9867136f482194b",
+    "SVG_SHA": "500843c6cc3037ac8a06eba36829a01f40887419d35ee2008fb9969f4c436817",
+    "source": "results/tables/stage11c0/fixed_goal_path_metrics.csv",
+    "claim": "Same20 goals and head identities; movement is sensitivity, not an improvement metric",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "07_recording_sensitivity",
+    "PNG_SHA": "922cfdc32b567965f36a8df1ae4e37aedf4a92497fea2de7d557a43315d42e9b",
+    "SVG_SHA": "2887a8bb805dedff9dae62e6b8c2f814e4ca107213c989dfb70017bd3d8fe40a",
+    "source": "results/tables/stage11c0/scene_comparison.csv",
+    "claim": "All five reused recordings, no independent-scene generalization claim",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "08_history_group_sensitivity",
+    "PNG_SHA": "e6a6cc24420ff5b213a8fd2acd88a97d26707f17da6a6e2ba45334eabfddaaac",
+    "SVG_SHA": "c75dd5d73856a1aa82461dc3c7f99689db748eb592695ef74b58eee7395e1677",
+    "source": "results/tables/stage11c0/motion_group_comparison.csv",
+    "claim": "All frozen history groups; means reflect recording composition, not causal motion dependence",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "09_failure_recovery_and_new_failures",
+    "PNG_SHA": "817d002a1427775ab415260a3ac90104e31fe26560f9230a6081a6714cecd8cb",
+    "SVG_SHA": "0de91321e9e5ef15be4e80d676be76ca91f2398e34809adec9bbb0ce4cb20a0b",
+    "source": "results/tables/stage11c0/a25_transition_summary.csv",
+    "claim": "Fixed original164 failures and834 successes; recoveries always shown with new losses",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  },
+  {
+    "name": "10_real_goal_path_cases",
+    "PNG_SHA": "0a5762d2b1fb49280bfc46b1887d61fa8732a8442e53911f0f6bac02ded39586",
+    "SVG_SHA": "3da9616ff35155be800ae5cdf9f1cdc3431bb5fee141e0f0e89048c782a945f9",
+    "source": {
+      "path": "results/figures/stage11c0/source_data/10_real_paired_cases.json",
+      "sha256": "145451220a5d605d7fd5fb20574dfde476040d93b888f8d4e6edd77aa03e7ba1",
+      "bytes": 503660
+    },
+    "claim": "Fixed median-ID for each paired outcome; all20 paths shown, no GT-based head correspondence",
+    "statistics": "descriptive same-target comparisons; repeated development data, overlapping windows, no independent-scene p-values"
+  }
+]

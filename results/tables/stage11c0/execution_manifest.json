@@ -1,0 +1,94 @@
+{
+  "stage": "Stage11C-0",
+  "base_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
+  "freeze_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+  "metadata_fix_commit": "1a9bf5e2b5ddca6d8a0c02dd4577a5ebe44bf54a",
+  "numeric_execution_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+  "source_files": [
+    {
+      "path": "scripts/stage11c0/__init__.py",
+      "sha256": "85fa307b794dee549c82bea7a69a9b446a913d15039b76d4f64ff0e8eca44d90"
+    },
+    {
+      "path": "scripts/stage11c0/common.py",
+      "sha256": "9f301b31d5999c465aa6c09ccc5f277ca19d47a89ae2e5dbcc652f323770dfc1"
+    },
+    {
+      "path": "scripts/stage11c0/delivery_audit.py",
+      "sha256": "e33bac575dcca35ea1b6690aed4e683c96c1a6b81156b29204436ef5e5c5cc8c"
+    },
+    {
+      "path": "scripts/stage11c0/freeze.py",
+      "sha256": "cdf49f04481bfb5d2948d4b75e3757df675781799bd01eb9060c906ce8c32adb"
+    },
+    {
+      "path": "scripts/stage11c0/interventions.py",
+      "sha256": "e54d94995f840a98bc0bfb446265fea83f588fc6b58b09ff3badf68f738454d6"
+    },
+    {
+      "path": "scripts/stage11c0/launch.py",
+      "sha256": "26a883bbef5b192aa986bcfde6705396ed1d03eab27d58e73dc753cc59f4f25b"
+    },
+    {
+      "path": "scripts/stage11c0/plot.py",
+      "sha256": "1848bf7e97312e4d36c1bab5ac3e57643c873ec7494be312b5eb595463f240bb"
+    },
+    {
+      "path": "scripts/stage11c0/prepare.py",
+      "sha256": "2f10dcb7ff07f38a479f0daf80aaa538f144d7a0275b253964c902b65f94fa33"
+    },
+    {
+      "path": "scripts/stage11c0/protect.py",
+      "sha256": "d416993d254db81951b4b01ccefded2d35a4f84efd2c659c2d9d8327384aee07"
+    },
+    {
+      "path": "scripts/stage11c0/report.py",
+      "sha256": "4239831dfebcd4118b99b904ceb9b42201b9226e3eb29e0c77622f46db6da71b"
+    },
+    {
+      "path": "scripts/stage11c0/score.py",
+      "sha256": "b157a4be446ca1a669ca387480109e653bd7edfd82a8eeec12ca5fb36606295a"
+    },
+    {
+      "path": "scripts/stage11c0/statistics.py",
+      "sha256": "58135d42717bf6914e93e1facfc61aeb7a1a64b6de2a924f02ce2f65189250ed"
+    },
+    {
+      "path": "scripts/stage11c0/tests/test_manifest_logging.py",
+      "sha256": "e5fde37815ffe703f9dab43d292c817f572041c4adeed4094670ca415c30d74e"
+    },
+    {
+      "path": "scripts/stage11c0/tests/test_semantic_interventions.py",
+      "sha256": "798dff5841bf54a49b13b5c64f368d67195698e3a33dcd51e337c81ecb1b4938"
+    },
+    {
+      "path": "scripts/stage11c0/tests/test_sensitivity_statistics.py",
+      "sha256": "8202ad3d03fe9d748356d8df51a46c6bd193752c0189e9c07efcc4519e66e214"
+    },
+    {
+      "path": "scripts/stage11c0/tests/test_stage11c0_delivery.py",
+      "sha256": "a6a6d408e1e53e5be84dec8403363e07fc6bec3e91dbcd5dd30893ac870de72a"
+    },
+    {
+      "path": "scripts/stage11c0/verify_fixed.py",
+      "sha256": "6594d1668b0946574490da929c0346d208639bcdcf82e14aaa90214d3befd77f"
+    },
+    {
+      "path": "scripts/stage11c0/worker.py",
+      "sha256": "2491a5d11038ce03c09b1b0f51eaeefdf73a2541ddd9c31f9c7508e406822bde"
+    }
+  ],
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "protocol_SHA": "ba06d9d35bbafa77fe4bee459927e26e35fa0ae7c787023288bd178f33c08bbd",
+  "generation_config_SHA": "7c9cc17db359faa9c3a1c9275ac4182120159da0f744cc74c3fdab53592851a5",
+  "validation_manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df",
+  "source_provenance": "stage11b2c/data_provenance.json; all source files inherited SHA protected",
+  "training_steps": 0,
+  "test_access": false,
+  "semantic_caches_original_unmodified": true,
+  "complete_generation_before_actual_GT": true,
+  "failed_attempt_preserved": true,
+  "GPU_process_wall_including_failure": 1517.3017737619812,
+  "environment": "environment.json"
+}

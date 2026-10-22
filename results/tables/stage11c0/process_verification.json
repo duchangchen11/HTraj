@@ -1,0 +1,11 @@
+{
+  "worker": "fixed_repeat_reverse",
+  "returncode": 0,
+  "wall_seconds": 8.435415218002163,
+  "prior_seconds": 1508.866358543979,
+  "cumulative_seconds": 1517.3017737619812,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca",
+  "scope": "entire engineering child startup/load/repeat/reverse/save/exit"
+}

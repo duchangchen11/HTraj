@@ -1,0 +1,45 @@
+{
+  "scope": "FROZEN_MODEL_SEMANTIC_INTERVENTION_ONLY",
+  "execution": "COMPLETE",
+  "hypotheses": {
+    "H1": "SUPPORTED",
+    "H2": "SUPPORTED",
+    "H3": "SUPPORTED",
+    "H4": "SUPPORTED",
+    "H5": "UNVERIFIED",
+    "H6": "UNVERIFIED"
+  },
+  "spatial_condition_median_JS_nats": [
+    0.044493514893290606,
+    0.02510315644530546
+  ],
+  "spatial_condition_median_goal_match_px": [
+    20.436493470772128,
+    16.19710880402755
+  ],
+  "fixed_condition_median_path_move_px": [
+    14.904061998799355,
+    2.7696877256275743,
+    1.5540422535749543
+  ],
+  "condition_mean_absolute_paired_ADE_delta_px": [
+    14.0766646977159,
+    3.2573066861039246,
+    2.8322984775116655
+  ],
+  "research_recommendation": "MATCHED_NO_SEMANTIC_TRAINING_CONTROL_WORTH_PROPOSING",
+  "semantic_quality_correctness": "UNVERIFIED; no class map or ground truth segmentation",
+  "semantic_benefit_independently_proven": false,
+  "semantic_error_causes_failure_proven": false,
+  "novel_algorithm_GO": false,
+  "reliability_gate_GO": false,
+  "automatic_next_experiment": false,
+  "training_steps": 0,
+  "test_loaded": false,
+  "GT_in_generation": false,
+  "generation_before_GT_scoring": true,
+  "targets": 998,
+  "full_groups": 3,
+  "fixed_groups": 3,
+  "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca"
+}

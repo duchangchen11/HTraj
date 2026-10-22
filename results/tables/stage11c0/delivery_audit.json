@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "old_historical_files_unchanged": 92464,
+  "original_checkpoint_and_prediction_SHA_unchanged": true,
+  "original_semantic_caches_and_sampling_code_unchanged": true,
+  "all_frozen_numerical_code_SHA_unchanged": true,
+  "actual_new_full_groups": 3,
+  "actual_new_fixed_goal_groups": 3,
+  "targets_per_group": 998,
+  "model_parameters_unchanged": true,
+  "all_Goal_and_Path_shapes_verified": true,
+  "GT_only_after_complete_generation": true,
+  "training_steps": 0,
+  "test_access": false,
+  "GPU_process_seconds": 1517.3017737619812,
+  "failed_attempt_preserved_and_charged": true,
+  "failed_first_prediction_equals_resumed_bitwise": true,
+  "tests": {
+    "tests": 672,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "skips": [
+    {
+      "test": "tests.test_graph_attribution.test_deterministic_cuda_gaussian_integration",
+      "reason": "CUDA compatibility check"
+    }
+  ],
+  "actual_figures": 10,
+  "sensitive_scan": "PASS",
+  "large_model_data_cache_ignored": true,
+  "stage_scope": "only five new Stage11C-0 directories",
+  "source_code_SHA": "e33bac575dcca35ea1b6690aed4e683c96c1a6b81156b29204436ef5e5c5cc8c",
+  "source_commit": "0f530f6c2f013f1f2b496eab8f6b7f2f2ef871ca"
+}
