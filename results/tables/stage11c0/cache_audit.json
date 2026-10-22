@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "targets": 998,
+  "all998_original_tensor_file_SHA": true,
+  "five_existing_semantics_verified": true,
+  "validation_segmentation_recomputed": false,
+  "semantic_channels": 6,
+  "history_channels": 8,
+  "resize": 0.25,
+  "padding_divisor": 32,
+  "model_parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "reference_and_RGB_padding_matched": true,
+  "GT_read": false,
+  "test_read": false
+}

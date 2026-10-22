@@ -1,0 +1,57 @@
+[
+  {
+    "scene": "bookstore_2",
+    "preprocessed_RGB_SHA": "fcb6131df46e62b2bb51ccb947853c65135267baa1be74597420083d0eb91fef",
+    "shape": [
+      1,
+      3,
+      288,
+      384
+    ],
+    "pipeline": "cv2 BGR read; INTER_AREA x0.25; bottom/right zero border to32; author SMP resnet101/imagenet preprocess; CHW float32"
+  },
+  {
+    "scene": "deathCircle_3",
+    "preprocessed_RGB_SHA": "d022b614a821eac55300a3085b0b37622a7df63c20c5c9d8524950b362f78c95",
+    "shape": [
+      1,
+      3,
+      480,
+      352
+    ],
+    "pipeline": "cv2 BGR read; INTER_AREA x0.25; bottom/right zero border to32; author SMP resnet101/imagenet preprocess; CHW float32"
+  },
+  {
+    "scene": "gates_7",
+    "preprocessed_RGB_SHA": "f5e30fc049f18774073a703128936fbf1873044416ec94b789e09927ae18ccec",
+    "shape": [
+      1,
+      3,
+      512,
+      352
+    ],
+    "pipeline": "cv2 BGR read; INTER_AREA x0.25; bottom/right zero border to32; author SMP resnet101/imagenet preprocess; CHW float32"
+  },
+  {
+    "scene": "hyang_7",
+    "preprocessed_RGB_SHA": "2b3f0c51442888ddaee2dc5bc9363270fb44c6c96355cf8884973b3c5919b5a5",
+    "shape": [
+      1,
+      3,
+      512,
+      384
+    ],
+    "pipeline": "cv2 BGR read; INTER_AREA x0.25; bottom/right zero border to32; author SMP resnet101/imagenet preprocess; CHW float32"
+  },
+  {
+    "scene": "nexus_4",
+    "preprocessed_RGB_SHA": "81834a8f195f9078830c6017c1373a5e825b66fbd95b85482a71e12ea8b85cf7",
+    "shape": [
+      1,
+      3,
+      448,
+      352
+    ],
+    "pipeline": "cv2 BGR read; INTER_AREA x0.25; bottom/right zero border to32; author SMP resnet101/imagenet preprocess; CHW float32"
+  }
+]

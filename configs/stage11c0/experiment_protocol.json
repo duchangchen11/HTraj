@@ -1,0 +1,165 @@
+{
+  "stage": "Stage11C-0",
+  "scope": "FROZEN_MODEL_SEMANTIC_INTERVENTION_ONLY",
+  "base_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "data": {
+    "targets": 998,
+    "recordings": [
+      "bookstore_2",
+      "deathCircle_3",
+      "gates_7",
+      "hyang_7",
+      "nexus_4"
+    ],
+    "history": 8,
+    "future": 12,
+    "interval_seconds": 0.4,
+    "units": "original SDD reference pixels",
+    "independent_confirmation": false,
+    "test_access": false,
+    "original_manifest": "results/tables/stage11b1c/validation_target_manifest.csv",
+    "original_manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "conditions": {
+    "S0": "Original six-channel semantic tensor, bitwise cache reuse",
+    "S1": "all six channels and padding zero",
+    "S2": "per-channel float32 CPU spatial mean of valid RGB-resized region; padding original",
+    "S3": "six channels same horizontal flip inside valid RGB-resized region; padding original; no interpolation"
+  },
+  "class_map": "UNVERIFIED: channel0..channel5 only",
+  "valid_region": "cv2 INTER_AREA fx=fy=.25 actual shape; top-left original image, right/bottom padding to32",
+  "full_prediction": {
+    "conditions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "pipeline": "unchanged stage11b2c.AuditPredictor using stage11b1r CPU sampler and original KMeans",
+    "K": 20,
+    "proposals": 10000,
+    "replacement": true,
+    "relative_threshold": 0.01,
+    "kmeans_centers": 19,
+    "temperature": 1.0,
+    "categorical_seed": "first4 SHA256 bytes big endian of HTraj-YNet-SDD-Development-v1:17:+sample_id",
+    "kmeans_seed": "first4 SHA256 bytes big endian of HTraj-YNet-K20-v2:kmeans:+sample_id",
+    "same_seed_across_conditions": true,
+    "head_order": "original1 Softargmax +19 KMeans in returned order, no GT reorder"
+  },
+  "fixed_goal_prediction": {
+    "conditions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "goals": "S0 original20 goals, all998 bitwise",
+    "pipeline": "unchanged stage11b2e goal-conditioned decoder math",
+    "sampler_calls": 0,
+    "new_clustering": 0,
+    "actual_path_decodes": 59880
+  },
+  "generation_order": [
+    "training-only precheck",
+    "this freeze commit",
+    "S0 regression3x2",
+    "all S1/S2/S3 full groups",
+    "all S1/S2/S3 fixed-goal groups",
+    "all-six integrity gates",
+    "separate CPU GT score"
+  ],
+  "regression_indices": [
+    0,
+    499,
+    997
+  ],
+  "regression_required": "all cached logits/sigmoid/threshold_weights/normalized_weights/indices/proposals/centers/Softargmax/goals/paths bitwise, repeat reverse",
+  "metrics": {
+    "goal_radii": [
+      10,
+      25,
+      50
+    ],
+    "paths": [
+      "ADE1",
+      "FDE1",
+      "minADE20",
+      "minFDE20"
+    ],
+    "ADE_FDE_independent_min_heads": true,
+    "JS": "natural log; original and intervention ACTUAL postthreshold float32 categorical weights normalized mathematically in float64 for analysis; zero terms0",
+    "entropy": "natural log on same full padded-grid categorical distribution, not calibrated uncertainty",
+    "support": "positive categorical pixels; raw-coordinate grid-area=count*16px², not true segmentation area",
+    "set_distance": "Euclidean Hungarian minimum-sum all20 goals; also Chamfer/Hausdorff; head0 separate; no head index mode correspondence",
+    "fixed_path_difference": "same frozen goal/head: all20x12 Euclidean raw-pixel point differences and exact bitwise counts"
+  },
+  "sensitivity_reporting": {
+    "numerical_only_scale_px": 0.0001,
+    "descriptive_practical_scale_px": 1.0,
+    "additional_scales_px": [
+      5.0,
+      25.0
+    ],
+    "H1": "SUPPORTED if max median spatial Goal Hungarian or fixed Path mean displacement >=1px, else PARTIALLY_SUPPORTED",
+    "H2": "SUPPORTED if S2 or S3 median JS>=.001nats AND median Goal Hungarian>=1px, else PARTIALLY_SUPPORTED",
+    "H3": "SUPPORTED if any fixed-goal condition median point displacement>=1px, else PARTIALLY_SUPPORTED",
+    "H4": "SUPPORTED if any condition mean absolute paired minADE20 delta>=1px, else PARTIALLY_SUPPORTED",
+    "H5": "UNVERIFIED: frozen OOD ablations cannot prove trained semantic benefit",
+    "H6": "UNVERIFIED: no semantic GT or reliable six-channel names",
+    "recommendation": "propose matched-budget no-semantic training control if H2 or H3 supported; no automatic training or new module"
+  },
+  "group_factors": [
+    "hist_speed_group",
+    "hist_turn_group",
+    "hist_speed_change_group",
+    "hist_stationary_group"
+  ],
+  "group_source": "frozen Stage11B-2A motion_features.csv; historical inputs only; all groups and empty cells retained",
+  "aggregations": [
+    "same998 windows",
+    "each5 recordings",
+    "five-recording equal macro",
+    "deathCircle separately",
+    "other4 pooled"
+  ],
+  "statistics": "descriptive paired; only5 recordings; no998 independent-scene p-values; group/scene confounding explicit",
+  "fixed_original_failure_cohort": "original164 A25 failures,834 successes; never redefine by interventions",
+  "case_rule": "per recording lexicographic median sample_id; additionally for each condition and A25 outcome recovered/lost/stayed_fail/stayed_cover lexicographic median; absent groups explicit absence",
+  "figure_contract": {
+    "backend": "python",
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "archetypes": [
+      "schematic-led composite",
+      "quantitative grid",
+      "image plate plus quant"
+    ],
+    "claim": "report real sensitivity, beneficial or harmful changes separately; no semantic correctness inference",
+    "data": "same actual caches/paired tables; GT only offline; no fictional heatmaps or paths",
+    "integrity": "no inferred channel labels; global range per channel/scene across inputs, same probability color scale across four conditions"
+  },
+  "restrictions": [
+    "no training",
+    "no network/loss/decoder/threshold/K/KMeans change",
+    "no GT in generation",
+    "no sealed test",
+    "no fifth intervention",
+    "no extra sampling strategy"
+  ],
+  "GPU": {
+    "hard_seconds": 7200,
+    "safety_seconds": 6600,
+    "full_process_meter": true,
+    "precheck_seconds": 14.202409041987266,
+    "precheck_high_estimate_seconds": 4445.464325880417
+  },
+  "storage": {
+    "estimated_high_bytes": 10376099684,
+    "free_bytes": 134638551040
+  }
+}

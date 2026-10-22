@@ -1,0 +1,88 @@
+{
+  "protocol_SHA": "ba06d9d35bbafa77fe4bee459927e26e35fa0ae7c787023288bd178f33c08bbd",
+  "generation_config_SHA": "7c9cc17db359faa9c3a1c9275ac4182120159da0f744cc74c3fdab53592851a5",
+  "executable_files": [
+    {
+      "path": "scripts/stage11c0/__init__.py",
+      "sha256": "85fa307b794dee549c82bea7a69a9b446a913d15039b76d4f64ff0e8eca44d90"
+    },
+    {
+      "path": "scripts/stage11c0/common.py",
+      "sha256": "9f301b31d5999c465aa6c09ccc5f277ca19d47a89ae2e5dbcc652f323770dfc1"
+    },
+    {
+      "path": "scripts/stage11c0/freeze.py",
+      "sha256": "cdf49f04481bfb5d2948d4b75e3757df675781799bd01eb9060c906ce8c32adb"
+    },
+    {
+      "path": "scripts/stage11c0/interventions.py",
+      "sha256": "e54d94995f840a98bc0bfb446265fea83f588fc6b58b09ff3badf68f738454d6"
+    },
+    {
+      "path": "scripts/stage11c0/launch.py",
+      "sha256": "26a883bbef5b192aa986bcfde6705396ed1d03eab27d58e73dc753cc59f4f25b"
+    },
+    {
+      "path": "scripts/stage11c0/prepare.py",
+      "sha256": "2f10dcb7ff07f38a479f0daf80aaa538f144d7a0275b253964c902b65f94fa33"
+    },
+    {
+      "path": "scripts/stage11c0/protect.py",
+      "sha256": "d416993d254db81951b4b01ccefded2d35a4f84efd2c659c2d9d8327384aee07"
+    },
+    {
+      "path": "scripts/stage11c0/score.py",
+      "sha256": "b157a4be446ca1a669ca387480109e653bd7edfd82a8eeec12ca5fb36606295a"
+    },
+    {
+      "path": "scripts/stage11c0/statistics.py",
+      "sha256": "58135d42717bf6914e93e1facfc61aeb7a1a64b6de2a924f02ce2f65189250ed"
+    },
+    {
+      "path": "scripts/stage11c0/worker.py",
+      "sha256": "26293569eefea34607a43c4ec348e09e21953055bd56c297e025ab14f8a97f72"
+    },
+    {
+      "path": "scripts/stage11b2e/common.py",
+      "sha256": "f38353cbb23e66449ada0e1980677d829a5f8925cbdc211f8adf129c5b5f225e"
+    },
+    {
+      "path": "scripts/stage11b2e/decoder.py",
+      "sha256": "5826d0195a0cb50d80ee5075a0f68f22f3543cdf6a2b869c6ed12e9505361e21"
+    },
+    {
+      "path": "scripts/stage11b2e/metrics.py",
+      "sha256": "fbe2fe8fd76d6d60e6fddc736541ceab0a6335174d0da3e4da996b76a936df95"
+    },
+    {
+      "path": "scripts/stage11b2c/adapter.py",
+      "sha256": "00047bc9517c73e7ea11a5f968b51495b68692bf43a47456011c1cfa4bc086b4"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1/evaluation.py",
+      "sha256": "6f97d42dcfaf7c77290a1fcf39372c354d62cba3f6e971ae3547318adc146e8a"
+    },
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1/common.py",
+      "sha256": "18de7296cf2563fde35133442320e28ea891c52ea2f35d157d12257002d8e228"
+    }
+  ],
+  "pre_freeze_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
+  "required_successful_commit_before_S0_regression": true
+}

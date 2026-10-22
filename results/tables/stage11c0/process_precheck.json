@@ -1,0 +1,11 @@
+{
+  "worker": "precheck",
+  "returncode": 0,
+  "wall_seconds": 14.202409041987266,
+  "prior_seconds": 0,
+  "cumulative_seconds": 14.202409041987266,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "source_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
+  "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+}

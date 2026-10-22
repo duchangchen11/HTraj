@@ -1,0 +1,9 @@
+{
+  "class_name": "Unet",
+  "head_repr": "SegmentationHead(\n  (0): Conv2d(16, 6, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (1): Identity()\n  (2): Activation(\n    (activation): Softmax(dim=1)\n  )\n)",
+  "training": false,
+  "state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "segmentation_file_SHA": "75a728536ac766175019b9c352986f2aea55e776e5a3098ed0e4f0fdfe272194",
+  "no_parameters_require_grad": true,
+  "class_labels": "UNVERIFIED; only channel0..channel5; source constructor documentation is not a checkpoint class map"
+}

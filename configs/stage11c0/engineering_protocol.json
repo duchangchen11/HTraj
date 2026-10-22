@@ -1,0 +1,41 @@
+{
+  "scope": "TWO_TRAIN_HISTORY_ONLY_SMOKE_NO_GT_NO_SCORES",
+  "config_SHA": "7c9cc17db359faa9c3a1c9275ac4182120159da0f744cc74c3fdab53592851a5",
+  "engineering_test_XML_SHA": "d37913f1ea37173ecfc1be7e3e413adbbf413954e3d7ff5c6b01eb3a6f4ba756",
+  "source_files": [
+    {
+      "path": "scripts/stage11c0/__init__.py",
+      "sha256": "85fa307b794dee549c82bea7a69a9b446a913d15039b76d4f64ff0e8eca44d90"
+    },
+    {
+      "path": "scripts/stage11c0/common.py",
+      "sha256": "9f301b31d5999c465aa6c09ccc5f277ca19d47a89ae2e5dbcc652f323770dfc1"
+    },
+    {
+      "path": "scripts/stage11c0/interventions.py",
+      "sha256": "e54d94995f840a98bc0bfb446265fea83f588fc6b58b09ff3badf68f738454d6"
+    },
+    {
+      "path": "scripts/stage11c0/launch.py",
+      "sha256": "26a883bbef5b192aa986bcfde6705396ed1d03eab27d58e73dc753cc59f4f25b"
+    },
+    {
+      "path": "scripts/stage11c0/prepare.py",
+      "sha256": "2f10dcb7ff07f38a479f0daf80aaa538f144d7a0275b253964c902b65f94fa33"
+    },
+    {
+      "path": "scripts/stage11c0/protect.py",
+      "sha256": "d416993d254db81951b4b01ccefded2d35a4f84efd2c659c2d9d8327384aee07"
+    },
+    {
+      "path": "scripts/stage11c0/worker.py",
+      "sha256": "26293569eefea34607a43c4ec348e09e21953055bd56c297e025ab14f8a97f72"
+    }
+  ],
+  "original_validation_semantics": "reuse only, no new segmentation",
+  "training_semantic": "bookstore_0 only, missing persisted cache, original tensors must match Stage2C",
+  "budget_hard": 7200,
+  "budget_safe": 6600,
+  "training_steps": 0,
+  "validation_metrics": false
+}
