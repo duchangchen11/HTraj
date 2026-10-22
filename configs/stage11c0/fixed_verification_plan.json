@@ -1,0 +1,24 @@
+{
+  "scope": "PRE_SCORE_FIXED_GOAL_ENGINEERING_ONLY",
+  "source_SHA": "6594d1668b0946574490da929c0346d208639bcdcf82e14aaa90214d3befd77f",
+  "config_SHA": "7c9cc17db359faa9c3a1c9275ac4182120159da0f744cc74c3fdab53592851a5",
+  "groups": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "indices": [
+    0,
+    499,
+    997
+  ],
+  "repeats": 2,
+  "second_order": "reverse",
+  "noise_or_hyperparameter_changes": false,
+  "GT_read": false,
+  "conditions_added": 0,
+  "real_performance_scored": false,
+  "check": "same fixed20 goals; compare exact saved predictions; history prefix projection with dummy future0 vs1e6",
+  "GPU_time_in_shared_budget": true,
+  "required_commit_before_execution": true
+}
