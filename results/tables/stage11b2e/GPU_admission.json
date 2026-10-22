@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "engineering_tests": 18,
+  "engineering_test_XML_SHA": "5e9f0809c4ceab6116466b481df4ecebe083ae6ef0da7889a686a1ccdf90518f",
+  "selection_cache_SHA": "be0bfed0d70f1fea3749465d9d1a29fbdc0016c8e2c64d15b759acc45ecf00a0",
+  "protocol_SHA": "b4624f73f33e82050025e59bf0a03c53d694537fe048d8c9887e48b715103d9a",
+  "all998_GT_isolated": true,
+  "original_decoder_inner_math_test_passed": true,
+  "hard_GPU_seconds": 3600,
+  "safety_GPU_seconds": 3300,
+  "pre_execution_commit": "d221b22279731d94655c1cba5134efc9876f2b0b"
+}

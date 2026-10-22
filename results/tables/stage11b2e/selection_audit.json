@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "targets": 998,
+  "all_provenance_and_population_verified": true,
+  "new_goals_path": "experiments/stage11b2e/cache/alternative_goals.pt",
+  "new_goals_file_SHA": "be0bfed0d70f1fea3749465d9d1a29fbdc0016c8e2c64d15b759acc45ecf00a0",
+  "goals_shape": [
+    20,
+    998,
+    2
+  ],
+  "all998_reverse_bitwise": true,
+  "GT_counterfactual": [
+    {
+      "sample_id": "SDD:bookstore_2:track17:frame0",
+      "raw_record_future_tags_changed": true,
+      "selection_inputs_bitwise": true,
+      "representatives_bitwise": true
+    },
+    {
+      "sample_id": "SDD:deathCircle_3:track289:frame1440",
+      "raw_record_future_tags_changed": true,
+      "selection_inputs_bitwise": true,
+      "representatives_bitwise": true
+    },
+    {
+      "sample_id": "SDD:nexus_4:track44:frame828",
+      "raw_record_future_tags_changed": true,
+      "selection_inputs_bitwise": true,
+      "representatives_bitwise": true
+    }
+  ],
+  "actual_GT_loaded": false,
+  "no_sampler_or_kmeans_called": true,
+  "all_head0_bitwise": true,
+  "all_coordinates_from_original_cell": true,
+  "algorithm_seconds": 16.055696605995763,
+  "reverse_and_counterfactual_seconds": 9.571269069012487,
+  "save_seconds": 0.00869177098502405,
+  "cache_bytes": 626062,
+  "assignment_seconds": 5.277787192579126,
+  "representative_seconds": 2.403197526728036,
+  "total_process_seconds": 25.82152413300355,
+  "CUDA_initialized": false,
+  "source_commit": "d221b22279731d94655c1cba5134efc9876f2b0b"
+}
