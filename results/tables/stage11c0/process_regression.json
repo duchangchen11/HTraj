@@ -1,0 +1,11 @@
+{
+  "worker": "regression",
+  "returncode": 0,
+  "wall_seconds": 9.841510945989285,
+  "prior_seconds": 14.202409041987266,
+  "cumulative_seconds": 24.04391998797655,
+  "hard_seconds": 7200,
+  "safety_seconds": 6600,
+  "source_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+  "scope": "whole child process including startup/imports/load/inference/sampling/KMeans/save/exit; monitor exit included"
+}

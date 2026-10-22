@@ -1,0 +1,45 @@
+{
+  "error": "TypeError: duplicate semantic_SHA in CSV row dict",
+  "stage": "first full-group target metadata serialization",
+  "actual_GT_read": false,
+  "validation_metrics_read": false,
+  "model_math_changed": false,
+  "intervention_changed": false,
+  "sampler_changed": false,
+  "source_before_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+  "preserved": [
+    {
+      "original_path": "results/tables/stage11c0/process_full.json",
+      "preserved_path": "results/tables/stage11c0/process_full_failed_attempt1.json",
+      "sha256": "1fd92797bc9d8b6cf31f00c150a10f05c04f24099de43c4e44c673fc72563308"
+    },
+    {
+      "original_path": "results/tables/stage11c0/full_generation.json",
+      "preserved_path": "results/tables/stage11c0/full_generation_failed_attempt1.json",
+      "sha256": "2d3495dbd943b66a83a1daaaf5555eec9f739746abf172885753209533c6df1b"
+    },
+    {
+      "original_path": "results/tables/stage11c0/full_stdout.txt",
+      "preserved_path": "results/tables/stage11c0/full_stdout_failed_attempt1.txt",
+      "sha256": "a5a3ad99a40be356453487655de97f92af9bab01d35edd5d4699b594e22aeb6b"
+    },
+    {
+      "original_path": "results/tables/stage11c0/GPU_card_full.csv",
+      "preserved_path": "results/tables/stage11c0/GPU_card_full_failed_attempt1.csv",
+      "sha256": "333a31043d2e6c9aeab9189656c9ed02b2a17baed2e3f31d56f4b81910c1f342"
+    },
+    {
+      "original_path": "results/tables/stage11c0/protocol_frozen.json",
+      "preserved_path": "results/tables/stage11c0/protocol_frozen_failed_attempt1.json",
+      "sha256": "5484013125b335846847e3a2d7a611de6df128eb61eca0e522e5d23f0ac75752"
+    },
+    {
+      "preserved_path": "experiments/stage11c0/cache/S1_failed_attempt1/tensors/2f87db8d151f35b770920472cc24a65d030556a09f64a715c58e305c8eb70696.pt",
+      "sha256": "1fdad13fd8e4c925d72dd2ce9cad6e46c6b7afe750110b3e4c3c435ae7ed74a3"
+    }
+  ],
+  "patch_scope": "one duplicate keyword removed and trace/actual SHA equality asserted",
+  "failed_GPU_process_seconds": 6.3304359650064725,
+  "failed_time_in_cumulative_budget": true,
+  "rerun_admission": "full numerical/engineering unit tests and new commit, same frozen config"
+}

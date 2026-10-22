@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "mode": "full",
+  "generated": 0,
+  "training_steps": 0,
+  "GT_loaded": false,
+  "test_loaded": false,
+  "error_type": "TypeError",
+  "error": "dict() got multiple values for keyword argument 'semantic_SHA'",
+  "GPU_cumulative_at_log": 29.694391583965626
+}

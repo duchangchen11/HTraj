@@ -133,8 +133,9 @@ def main():
                     file=CACHE/condition/'tensors'/cache_name(sid);t=time.perf_counter()
                     torch.save(dict(sample_id=sid,scene=scene,condition=condition,tensors=x,checkpoint_SHA=CK,
                         history_SHA=digest(h),semantic_SHA=digest(v)),file)
+                    assert tr['semantic_SHA']==digest(v)
                     row=dict(sample_id=sid,scene=scene,condition=condition,path=str(file.relative_to(ROOT)),sha256=sha(file),
-                        cache_seconds=time.perf_counter()-t,history_SHA=digest(h),semantic_SHA=digest(v),**tr)
+                        cache_seconds=time.perf_counter()-t,history_SHA=digest(h),**tr)
                     manifest.append(row);paths.append(p[:,0]);goals.append(g[:,0]);log['generated']+=1
                     if (i+1)%100==0:
                         csvnew(OUT/f'partial_{condition}_{i+1:04}.csv',manifest)

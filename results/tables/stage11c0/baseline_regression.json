@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "mode": "regression",
+  "generated": 0,
+  "training_steps": 0,
+  "GT_loaded": false,
+  "test_loaded": false,
+  "full_original_prediction_bitwise": true,
+  "logits_sigmoid_weights_proposals_centers_softargmax_goals_paths_bitwise": true,
+  "repeats": 2,
+  "real_targets": 3,
+  "history_heatmap_unchanged": true,
+  "parameters_unchanged": true,
+  "model_state_SHA": "62453170be18a7ecea3948a921954004e86dc950fe1a91dba1d91997aacfc741",
+  "model_parameters": 53155339,
+  "segmentation_eval": true,
+  "model_load_seconds": 3.431657378998352,
+  "semantic_read_H2D_seconds": 0.045654177985852584,
+  "peak_allocated_bytes": 469107200,
+  "peak_reserved_bytes": 645922816,
+  "source_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+  "GPU_cumulative_at_log": 23.3718350759882
+}

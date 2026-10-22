@@ -40,7 +40,7 @@
     },
     {
       "path": "scripts/stage11c0/worker.py",
-      "sha256": "26293569eefea34607a43c4ec348e09e21953055bd56c297e025ab14f8a97f72"
+      "sha256": "2491a5d11038ce03c09b1b0f51eaeefdf73a2541ddd9c31f9c7508e406822bde"
     },
     {
       "path": "scripts/stage11b2e/common.py",
@@ -83,6 +83,7 @@
       "sha256": "18de7296cf2563fde35133442320e28ea891c52ea2f35d157d12257002d8e228"
     }
   ],
-  "pre_freeze_commit": "579e4f744dd06e2ec610debf2671ddcb0b3ea716",
-  "required_successful_commit_before_S0_regression": true
+  "pre_freeze_commit": "cbe69cc220894960f0c051c26b0c98e5feefb026",
+  "required_successful_commit_before_S0_regression": true,
+  "engineering_revision": "metadata-only duplicate semantic_SHA keyword removed; assert inherited trace SHA matches actual semantic"
 }
