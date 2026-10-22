@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "targets": 998,
+  "all_proposal_order_coordinate_and_SHA": true,
+  "all19centers_softargmax_20goals_paths_bitwise": true,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "all_source_populations_nonempty": true,
+  "GT_not_loaded": true,
+  "CUDA_initialized": false,
+  "expected_regression_ids": [
+    "SDD:bookstore_2:track17:frame0",
+    "SDD:deathCircle_3:track289:frame1440",
+    "SDD:nexus_4:track44:frame828"
+  ],
+  "original_goals_shape": [
+    20,
+    998,
+    2
+  ],
+  "original_paths_shape": [
+    20,
+    998,
+    12,
+    2
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "protocol_SHA": "b4624f73f33e82050025e59bf0a03c53d694537fe048d8c9887e48b715103d9a",
+  "generation_config_SHA": "bd9f176936414aee41b880063cd44b561b0b3db462626e24bf78b702c5c8ac22",
+  "executable_files": [
+    {
+      "path": "scripts/stage11b2e/__init__.py",
+      "sha256": "b3943b10cf83fa660df56ed108c7df0e9b993e7f3c80b552de5402f5517c9c68"
+    },
+    {
+      "path": "scripts/stage11b2e/common.py",
+      "sha256": "f38353cbb23e66449ada0e1980677d829a5f8925cbdc211f8adf129c5b5f225e"
+    },
+    {
+      "path": "scripts/stage11b2e/decoder.py",
+      "sha256": "5826d0195a0cb50d80ee5075a0f68f22f3543cdf6a2b869c6ed12e9505361e21"
+    },
+    {
+      "path": "scripts/stage11b2e/freeze.py",
+      "sha256": "ab0ac74fe4c572e6d7876fb64e7b298d8c6eb2ea8ea2a912783e1ca8a25bc3f0"
+    },
+    {
+      "path": "scripts/stage11b2e/launch.py",
+      "sha256": "b356de81ce50ec42235709b87740e1d3081563f5e0a74963f6c0a174b59de3ad"
+    },
+    {
+      "path": "scripts/stage11b2e/metrics.py",
+      "sha256": "fbe2fe8fd76d6d60e6fddc736541ceab0a6335174d0da3e4da996b76a936df95"
+    },
+    {
+      "path": "scripts/stage11b2e/protect.py",
+      "sha256": "f9ccec65d5c64a29248ab8f338a303b5054a231cd30102bd2a9975f989260f96"
+    },
+    {
+      "path": "scripts/stage11b2e/representative.py",
+      "sha256": "bc9652fc2d59a05eb670b61710bee2c15335f601f121decdc8ebf761f01bb745"
+    },
+    {
+      "path": "scripts/stage11b2e/score.py",
+      "sha256": "58daa7913f146e1b51199cbe1fc72f2a3fd61288e22d5ebac6071dd6d8eea70d"
+    },
+    {
+      "path": "scripts/stage11b2e/select.py",
+      "sha256": "cde74a3ec5072bb28e6f8b65d8dcae8e4d94cd874fd2fa6493181be8192f6812"
+    },
+    {
+      "path": "scripts/stage11b2e/worker.py",
+      "sha256": "ca6784a1df5df6b00f6a2b707cac7a070a842bfd48e43ee02da587209375d4e3"
+    },
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1/common.py",
+      "sha256": "18de7296cf2563fde35133442320e28ea891c52ea2f35d157d12257002d8e228"
+    },
+    {
+      "path": "scripts/stage11b2c/adapter.py",
+      "sha256": "00047bc9517c73e7ea11a5f968b51495b68692bf43a47456011c1cfa4bc086b4"
+    }
+  ],
+  "pre_freeze_commit": "c3e5d09354130bc51d22bfa325342ae6a0831de6",
+  "required_freeze_commit_before_execution": true
+}
