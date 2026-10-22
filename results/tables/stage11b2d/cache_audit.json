@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "targets": 998,
+  "identities": {
+    "both_hit": 834,
+    "proposal_hit_final_miss": 86,
+    "zero_support_final_miss": 77,
+    "positive_support_sampling_miss_final_miss": 1
+  },
+  "all_tensor_files_SHA": true,
+  "all_proposal_order_and_coordinate_mapping": true,
+  "original20goals_paths_bitwise": true,
+  "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+  "original_prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab",
+  "original_25px_identities": true,
+  "CUDA_initialized": false,
+  "GPU_inference": 0,
+  "training_steps": 0,
+  "wall_seconds": 13.631209543003934
+}

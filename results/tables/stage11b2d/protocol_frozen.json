@@ -1,0 +1,28 @@
+{
+  "protocol_SHA": "081524b4c0094b334d519830a4b6c4aaa5f56015b67c2cf8e00f73ab1f8ea411",
+  "base": "7ddcd1cc88433e46a2e0c519d9ae78b1b4fe6e22",
+  "numerical_source_SHA": [
+    {
+      "path": "scripts/stage11b2d/__init__.py",
+      "sha256": "ddcebf870d93794b56b787454047348c0fda6e32f04867755d6fea2cf81f4ed3"
+    },
+    {
+      "path": "scripts/stage11b2d/analyze.py",
+      "sha256": "96795b3ccb1044fdb3e1fd0cd6fb0417f83d248e566005306d374f5250aeb381"
+    },
+    {
+      "path": "scripts/stage11b2d/common.py",
+      "sha256": "42215738ed4e0c677edd83da5990868b3f8edb63b99a8fa7fce6a50ab07c288e"
+    },
+    {
+      "path": "scripts/stage11b2d/geometry.py",
+      "sha256": "172810c2d98af02e1a3e41a1a0ece1954f79972e863829a6a24e6e8be1d752a9"
+    },
+    {
+      "path": "scripts/stage11b2d/prepare.py",
+      "sha256": "21317f6f74f975e9405df43cc2511d43fc7e405b900beab1a65a095af573bb90"
+    }
+  ],
+  "protected_list_SHA": "28a72cdf939cde569a5e942c41cc224e8e1f176534015920061e5f88cf5057a5",
+  "freeze_code_commit": "7ddcd1cc88433e46a2e0c519d9ae78b1b4fe6e22"
+}
