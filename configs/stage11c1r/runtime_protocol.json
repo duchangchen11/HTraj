@@ -1,0 +1,207 @@
+{
+  "stage": "Stage11C-1R",
+  "nature": "RESOURCE_PROFILING_ONLY",
+  "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+  "base": "29fe2036c034cd0701e672be69f448b401ee76dd",
+  "formal_training_authorized": false,
+  "diagnostic_epochs": 1,
+  "history": 8,
+  "future": 12,
+  "resize": 0.25,
+  "seed": 17,
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "batch": 4,
+  "targets": 7496,
+  "optimizer_updates": 1882,
+  "loss": "Original GoalBCE*1000+PathBCE*1000, teacher forcing train only",
+  "AMP": false,
+  "TF32": false,
+  "augmentation": false,
+  "scheduler": null,
+  "gradient_clipping": null,
+  "semantics": {
+    "bookstore_2": {
+      "scene": "bookstore_2",
+      "condition": "S0",
+      "path": "experiments/stage11c0/cache/semantic_S0_bookstore_2.pt",
+      "file_SHA": "c2ac6a43ed7e511af1de2774651bd68ead31d9ae8c51869f596563c47b79b6f8",
+      "tensor_SHA": "486a5cc4f5d0b7da43871d3bb366d2dd2fe2da0c60a8eb84f388ecd6c0232689",
+      "original_semantic_SHA": "486a5cc4f5d0b7da43871d3bb366d2dd2fe2da0c60a8eb84f388ecd6c0232689",
+      "reference_SHA": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4",
+      "shape": "[1, 6, 288, 384]",
+      "dtype": "torch.float32",
+      "valid_height": 270,
+      "valid_width": 356,
+      "canvas_height": 288,
+      "canvas_width": 384,
+      "padding": "bottom/right to multiple32; S2/S3 untouched, S1 all canvas zero",
+      "formula": "identity"
+    },
+    "deathCircle_3": {
+      "scene": "deathCircle_3",
+      "condition": "S0",
+      "path": "experiments/stage11c0/cache/semantic_S0_deathCircle_3.pt",
+      "file_SHA": "263bb2e4d59d8e68a3e6807356d9299511d0adec2f144e93dc37ba3a727dff8f",
+      "tensor_SHA": "56d262f9f082f82dd59d173ca90a6b7d7e6b61be1d828d53dc787b9be482c1b2",
+      "original_semantic_SHA": "56d262f9f082f82dd59d173ca90a6b7d7e6b61be1d828d53dc787b9be482c1b2",
+      "reference_SHA": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6",
+      "shape": "[1, 6, 480, 352]",
+      "dtype": "torch.float32",
+      "valid_height": 476,
+      "valid_width": 350,
+      "canvas_height": 480,
+      "canvas_width": 352,
+      "padding": "bottom/right to multiple32; S2/S3 untouched, S1 all canvas zero",
+      "formula": "identity"
+    },
+    "gates_7": {
+      "scene": "gates_7",
+      "condition": "S0",
+      "path": "experiments/stage11c0/cache/semantic_S0_gates_7.pt",
+      "file_SHA": "2e897361ce36cc1a0743d0dfe968aa15a7b127ed797c60e414623f811918d55b",
+      "tensor_SHA": "93f5d8fd38e0c749bd1b2d3e164396824401d661b99bcbaa3c9f8c379b2153ff",
+      "original_semantic_SHA": "93f5d8fd38e0c749bd1b2d3e164396824401d661b99bcbaa3c9f8c379b2153ff",
+      "reference_SHA": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d",
+      "shape": "[1, 6, 512, 352]",
+      "dtype": "torch.float32",
+      "valid_height": 496,
+      "valid_width": 334,
+      "canvas_height": 512,
+      "canvas_width": 352,
+      "padding": "bottom/right to multiple32; S2/S3 untouched, S1 all canvas zero",
+      "formula": "identity"
+    },
+    "hyang_7": {
+      "scene": "hyang_7",
+      "condition": "S0",
+      "path": "experiments/stage11c0/cache/semantic_S0_hyang_7.pt",
+      "file_SHA": "0a98e499ea7d4553b914045cdccd7b959b480c19342a038e8c178280e66c4cc0",
+      "tensor_SHA": "5ac159388ebb1253500c962e3d1098e231c1624b56b2d181f90f1c5bd05a34ea",
+      "original_semantic_SHA": "5ac159388ebb1253500c962e3d1098e231c1624b56b2d181f90f1c5bd05a34ea",
+      "reference_SHA": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18",
+      "shape": "[1, 6, 512, 384]",
+      "dtype": "torch.float32",
+      "valid_height": 485,
+      "valid_width": 362,
+      "canvas_height": 512,
+      "canvas_width": 384,
+      "padding": "bottom/right to multiple32; S2/S3 untouched, S1 all canvas zero",
+      "formula": "identity"
+    },
+    "nexus_4": {
+      "scene": "nexus_4",
+      "condition": "S0",
+      "path": "experiments/stage11c0/cache/semantic_S0_nexus_4.pt",
+      "file_SHA": "a7d4190140130dd0ce7c79c31f09c156579c4955e78c1a31c420dcc9def99a26",
+      "tensor_SHA": "08a6e1bad0e9312731852ad2fdfe65c40b4b4849f894a94bec166108428f1fdf",
+      "original_semantic_SHA": "08a6e1bad0e9312731852ad2fdfe65c40b4b4849f894a94bec166108428f1fdf",
+      "reference_SHA": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc",
+      "shape": "[1, 6, 448, 352]",
+      "dtype": "torch.float32",
+      "valid_height": 440,
+      "valid_width": 321,
+      "canvas_height": 448,
+      "canvas_width": 352,
+      "padding": "bottom/right to multiple32; S2/S3 untouched, S1 all canvas zero",
+      "formula": "identity"
+    }
+  },
+  "semantic_states": [
+    {
+      "name": "Semantic-epoch001",
+      "role": "Semantic",
+      "checkpoint": {
+        "path": "experiments/stage11b1c/cache/checkpoints/epoch_001.pt",
+        "sha256": "64a21cd761b9b960a1815c4fce8b7b4d4a330ef525b1506f6b62eb6d50e023c4",
+        "bytes": 226570538,
+        "save_and_hash_seconds": 0.6766543949997867,
+        "epoch": 1,
+        "role": "epoch_boundary"
+      }
+    },
+    {
+      "name": "Semantic-epoch005",
+      "role": "Semantic",
+      "checkpoint": {
+        "path": "experiments/stage11b1c/cache/checkpoints/epoch_005.pt",
+        "sha256": "6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8",
+        "bytes": 226570538,
+        "save_and_hash_seconds": 0.6789104769995902,
+        "epoch": 5,
+        "role": "epoch_boundary"
+      }
+    },
+    {
+      "name": "Semantic-epoch010",
+      "role": "Semantic",
+      "checkpoint": {
+        "path": "experiments/stage11b1c/cache/checkpoints/epoch_010.pt",
+        "sha256": "e5e17884ee21b509d35e9924c3f49ba25a01c65fd64b987408086a236a97c131",
+        "bytes": 226570538,
+        "save_and_hash_seconds": 0.7021928330032097,
+        "epoch": 10,
+        "role": "epoch_boundary"
+      }
+    },
+    {
+      "name": "Semantic-epoch030",
+      "role": "Semantic",
+      "checkpoint": {
+        "path": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+        "sha256": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+        "bytes": 226570538,
+        "save_and_hash_seconds": 0.6785813929964206,
+        "epoch": 30,
+        "role": "epoch_boundary"
+      }
+    }
+  ],
+  "phases": [
+    "diagnostic_train",
+    "profile"
+  ],
+  "profiling_states": [
+    "NoSemantic-initial",
+    "NoSemantic-epoch001",
+    "Semantic-epoch001",
+    "Semantic-epoch005",
+    "Semantic-epoch010",
+    "Semantic-epoch030"
+  ],
+  "passes": [
+    "direct",
+    "observed",
+    "direct_repeat",
+    "observed_reverse"
+  ],
+  "targets_per_state": 15,
+  "raw_KMeans_extra": "One unmonitored original call on identical proposals per state/target; compare centers bitwise",
+  "CPU_diagnostic": "Original kmeans CPU resident, unmonitored timing plus separate observed repeat, never used for paths",
+  "K": 20,
+  "proposals": 10000,
+  "centers": 19,
+  "tol": 0.001,
+  "iter_limit": 1000,
+  "sampling_seeds": "Unchanged Stage11B1R stable SHA scheme",
+  "scope": "No validation GT or metric computation; history-only cache and preserved original semantics",
+  "state_admission_seconds": {
+    "NoSemantic": 600,
+    "Semantic": 300
+  },
+  "hard_GPU_seconds": 2400,
+  "safety_GPU_seconds": 2250,
+  "original_used_seconds": 66.67494837602135,
+  "combined_hard_seconds": 18000,
+  "per_operation_exit_save_reserve": 60,
+  "diagnostic_epoch_start_estimate": 750,
+  "profile_start_estimate": 1500,
+  "no_timing_based_sample_reselection": true,
+  "budget_scenarios": {
+    "A": "Historical full30training+seven998validation observed costs, explicit startup/checkpoint/repeat/recovery reserve",
+    "B": "Actual new epoch1 training projected30times, post-epoch1 fixed15 paired per-scene timings projected to998, seven times; add10% timing margin",
+    "C": "Actual new epoch1 projected30times, slower of initial/postepoch1 per-scene P90 costs for all seven998 validations; add20% timing margin"
+  },
+  "recommendation": "Use scenarioC safe bound for sufficiency; scenarioB is unverified later-epoch extrapolation, not actual cost",
+  "sample_manifest_SHA": "5ed310b6d0f3444c8595a1c472575963265674c26ea926c94b955ce11f56a9a1"
+}

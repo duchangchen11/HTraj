@@ -1,0 +1,169 @@
+{
+  "stage": "Stage11C-1R",
+  "scope": "RESOURCE_PROFILING_ONLY",
+  "base": "29fe2036c034cd0701e672be69f448b401ee76dd",
+  "source_files": [
+    {
+      "path": "experiments/stage11b0/cache/official/ynet/utils/kmeans.py",
+      "sha256": "ef76c293d3ffd9dcebc239f1975a6b987f358966e7b3bdf8c97746f28d4abc2a"
+    },
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1c/data.py",
+      "sha256": "dfea0a8d524050599343b86a6135122282a34044ba32cc5427d968c16fb698da"
+    },
+    {
+      "path": "scripts/stage11b1c/engine.py",
+      "sha256": "8ef0df0495c61b3099d628748e961a5a8aa02d8206370c96af9e541925dffea2"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    },
+    {
+      "path": "scripts/stage11b2c/adapter.py",
+      "sha256": "00047bc9517c73e7ea11a5f968b51495b68692bf43a47456011c1cfa4bc086b4"
+    },
+    {
+      "path": "scripts/stage11c1r/__init__.py",
+      "sha256": "c473f830150213e4ac326a5bc4ddf32b9a804694d1d6d14c601551538125a357"
+    },
+    {
+      "path": "scripts/stage11c1r/common.py",
+      "sha256": "89ffadd159b49c72a731fe20ea3d94a4e8b7dca7b71913da37ed322dbe1dbcba"
+    },
+    {
+      "path": "scripts/stage11c1r/diagnostic_train.py",
+      "sha256": "a280574fbc343251edd5dda4d32789f43de9922dcda1dcba832e1be65826532c"
+    },
+    {
+      "path": "scripts/stage11c1r/freeze.py",
+      "sha256": "be1e5c032a8c6eaa392cb590f56d8fc89bf9b4869470109948f2dd5b9007d5c0"
+    },
+    {
+      "path": "scripts/stage11c1r/launch.py",
+      "sha256": "9ae20137b219ea25c252368290fa58c5d75fdc6c2fa8f1fd3efa67041c1b5b13"
+    },
+    {
+      "path": "scripts/stage11c1r/observer.py",
+      "sha256": "5e8e59721694c3da0217b3f168d35e1cbbc52def9d4abc7529919d17bdea3477"
+    },
+    {
+      "path": "scripts/stage11c1r/profile.py",
+      "sha256": "c4f96498ef7f90887ee1cb68cab302bbd07b47e51d8255f737fc5b24a197fe65"
+    },
+    {
+      "path": "scripts/stage11c1r/protect.py",
+      "sha256": "56f9192e9418dcc86d80000ee313d542aad14c29eff45716298dc3f9a893ced7"
+    },
+    {
+      "path": "scripts/stage11c1r/tests/test_runtime_observer.py",
+      "sha256": "c3a89efd5047c0c0088034f63d1ad148fb0925c09730d0264ac39354f2f91994"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "configs/stage11c1/scene_shapes.json",
+      "sha256": "f27692b4691cc30283abd7dbb2a52c63be3184899911a21cfeaaaaa47f199a77"
+    },
+    {
+      "path": "configs/stage11c1/train_control.json",
+      "sha256": "445b90031d1306961238c5816aec5d9522fcbdb224205eaeb3c374d916c60b8b"
+    },
+    {
+      "path": "configs/stage11c1r/runtime_protocol.json",
+      "sha256": "617602c061337961a5f9947c72e725566037e3209349ff6eccc0bfcf987ce4bf"
+    },
+    {
+      "path": "experiments/stage11b1/cache/train_only.pkl",
+      "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_001.pt",
+      "sha256": "64a21cd761b9b960a1815c4fce8b7b4d4a330ef525b1506f6b62eb6d50e023c4"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_005.pt",
+      "sha256": "6f17f9d659e41d241fe3dea7f7f7098f82390499706ced1dce48b399e1b013a8"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_010.pt",
+      "sha256": "e5e17884ee21b509d35e9924c3f49ba25a01c65fd64b987408086a236a97c131"
+    },
+    {
+      "path": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+      "sha256": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312"
+    },
+    {
+      "path": "experiments/stage11b2c/cache/validation_history_only.pt",
+      "sha256": "b484f5b320908e39ad56f91baf677f000afc8328984f31e72ab98f3a0e53c495"
+    },
+    {
+      "path": "experiments/stage11c0/cache/semantic_S0_bookstore_2.pt",
+      "sha256": "c2ac6a43ed7e511af1de2774651bd68ead31d9ae8c51869f596563c47b79b6f8"
+    },
+    {
+      "path": "experiments/stage11c0/cache/semantic_S0_deathCircle_3.pt",
+      "sha256": "263bb2e4d59d8e68a3e6807356d9299511d0adec2f144e93dc37ba3a727dff8f"
+    },
+    {
+      "path": "experiments/stage11c0/cache/semantic_S0_gates_7.pt",
+      "sha256": "2e897361ce36cc1a0743d0dfe968aa15a7b127ed797c60e414623f811918d55b"
+    },
+    {
+      "path": "experiments/stage11c0/cache/semantic_S0_hyang_7.pt",
+      "sha256": "0a98e499ea7d4553b914045cdccd7b959b480c19342a038e8c178280e66c4cc0"
+    },
+    {
+      "path": "experiments/stage11c0/cache/semantic_S0_nexus_4.pt",
+      "sha256": "a7d4190140130dd0ce7c79c31f09c156579c4955e78c1a31c420dcc9def99a26"
+    },
+    {
+      "path": "results/tables/stage11b1c/train_target_manifest.csv",
+      "sha256": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+    },
+    {
+      "path": "results/tables/stage11b1c/validation_target_manifest.csv",
+      "sha256": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+    },
+    {
+      "path": "results/tables/stage11c1/gpu_budget.json",
+      "sha256": "7214c080e26624d062923fd8cec18d641ff9c30c00f6c02e878ed8de20a313df"
+    },
+    {
+      "path": "results/tables/stage11c1/preflight_K20.csv",
+      "sha256": "ad5188b40320cec3f0cddbf0cb9cd52d56330dc9274b923ff94c7704e944c72f"
+    },
+    {
+      "path": "results/tables/stage11c1/preflight_results.json",
+      "sha256": "db396c83c6bc690a5959731b04af734d04d08af7164e5c6620abcb8abe2555d8"
+    },
+    {
+      "path": "results/tables/stage11c1r/diagnostic_sample_manifest.csv",
+      "sha256": "5ed310b6d0f3444c8595a1c472575963265674c26ea926c94b955ce11f56a9a1"
+    }
+  ],
+  "data_manifest_SHA": {
+    "train": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+    "validation": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "initialization_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "original_used": 66.67494837602135,
+  "new_hard": 2400,
+  "new_safe": 2250,
+  "combined_hard": 18000,
+  "test_loaded": false,
+  "GT_scoring_authorized": false,
+  "formal_training_authorized": false
+}
