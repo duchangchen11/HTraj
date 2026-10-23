@@ -1,0 +1,12 @@
+{
+  "worker": "preflight",
+  "started_commit": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+  "returncode": 0,
+  "wall_seconds": 66.67494837602135,
+  "prior_seconds": 0,
+  "cumulative_seconds": 66.67494837602135,
+  "hard_seconds": 18000,
+  "safety_seconds": 16800,
+  "timeout_includes_exit_reserve": 60,
+  "interpretation": "Whole GPU-related subprocess wall; no concurrent GPU workers"
+}

@@ -1,0 +1,121 @@
+{
+  "requested": [
+    {
+      "name": "01_matched_experiment_protocol",
+      "status": "AVAILABLE",
+      "PNG_SHA": "1bb1ae263a1f17434ff0b751b94cfe77e003d613763e99cbad966a201ea7a2c8",
+      "SVG_SHA": "333b32e4d6d63d0a3c4bb3efda9a028e47957c25698e64256f27a41c0abb22b1",
+      "source": {
+        "path": "results/figures/stage11c1/source_data/01_matched_experiment_protocol.json",
+        "sha256": "d3b8958dd49cf3271c0c89bec487338d6415ffc5536831a5aaa6a50644ecd007"
+      },
+      "claim": "Planned matched control; formal training and full validation remain unexecuted",
+      "archetype": "schematic-led composite",
+      "statistics": "No new validation metrics; engineering timings are not forecast accuracy evidence"
+    },
+    {
+      "name": "02_training_losses",
+      "title": "Actual30-epoch training losses",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "03_validation_minADE20",
+      "title": "Seven complete validation minADE20 nodes",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "04_validation_GoalCover25",
+      "title": "Seven complete validation GoalCover25 nodes",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "05_full_metric_comparison",
+      "title": "Semantic versus NoSemantic full metrics",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "06_recording_minADE20_difference",
+      "title": "All five recording minADE20 differences",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "07_recording_GoalCover25_difference",
+      "title": "All five recording GoalCover25 differences",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "08_motion_group_semantic_benefit",
+      "title": "All frozen history motion groups",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "09_original_A25_failures",
+      "title": "Original164 failures and834 successes",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "10_real_success_failure_cases",
+      "title": "Actual RGB and paired K20 predictions",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "11_K1_K20_semantic_benefit",
+      "title": "K1 versus K20 semantic benefit",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    },
+    {
+      "name": "12_fixed_epoch30_vs_best",
+      "title": "Fixed Epoch30 versus best-checkpoint comparison",
+      "status": "NOT_GENERATED_NO_FORMAL_RUN",
+      "reason": "No NoSemantic formal epoch or complete validation; comparative figure would require nonexistent observations",
+      "source": null
+    }
+  ],
+  "supplemental": [
+    {
+      "name": "S01_preflight_cost_and_budget",
+      "status": "AVAILABLE",
+      "PNG_SHA": "3b4a4751ee1c70fcff8fada4166631d836f82a21ee5485fb38bd60522f4d213c",
+      "SVG_SHA": "69a5441f74f6b257c15f7c8288bc082aad960ba6d2ea1fe57ac46022324e9c40",
+      "source": {
+        "path": "results/figures/stage11c1/source_data/S01_preflight_and_budget.json",
+        "sha256": "aa19926eb2960e576241e43a6cb2c7e197571101997c3983c2e3dd76ae9b0d3f"
+      },
+      "claim": "Actual smoke cost plus explicitly labelled uncertain full-run estimates",
+      "archetype": "quantitative grid",
+      "statistics": "No new validation metrics; engineering timings are not forecast accuracy evidence"
+    }
+  ],
+  "requested_count": 12,
+  "requested_available": 1,
+  "requested_not_generated": 11,
+  "numerical_panels_fabricated": false,
+  "prototype_schema": "Budget-rejected protocol; no comparative performance figures",
+  "backend": "Python/matplotlib Agg",
+  "export": "PNG220dpi + SVG editable text + exact source JSON",
+  "visual_QA_required": [
+    "No clipped labels",
+    "Actual versus projected times clearly labelled",
+    "No new validation metrics shown"
+  ]
+}

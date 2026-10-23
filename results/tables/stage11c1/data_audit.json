@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "source_manifest_SHA": "71d36755136cd8abf317b7077e3de9899ac03ad0f519c5a1490b0e3b36afbb12",
+  "manifests": {
+    "train": {
+      "path": "results/tables/stage11b1c/train_target_manifest.csv",
+      "sha256": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+      "artifact": {
+        "path": "experiments/stage11b1/cache/train_only.pkl",
+        "sha256": "cedfd8aaf09ee1c36dbb67161b0dbfeef8f80739b4ef5f5acab907f04045303e",
+        "targets": 7496,
+        "recordings": 25,
+        "manifest_SHA": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba"
+      }
+    },
+    "validation": {
+      "path": "results/tables/stage11b1c/validation_target_manifest.csv",
+      "sha256": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df",
+      "artifact": {
+        "path": "experiments/stage11b1/cache/validation_only.pkl",
+        "sha256": "ea1e849943b7eb6bc06087f731744f91bbad73bab6ad3d2116c8414d81763cb1",
+        "targets": 998,
+        "recordings": 5,
+        "manifest_SHA": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+      }
+    }
+  },
+  "counts": {
+    "train": 7496,
+    "validation": 998,
+    "sealed_test_not_loaded": 2829
+  },
+  "scenes": {
+    "train": [
+      "bookstore_0",
+      "bookstore_1",
+      "bookstore_3",
+      "coupa_3",
+      "deathCircle_0",
+      "deathCircle_1",
+      "deathCircle_2",
+      "deathCircle_4",
+      "gates_0",
+      "gates_1",
+      "gates_3",
+      "gates_4",
+      "gates_5",
+      "gates_6",
+      "gates_8",
+      "hyang_4",
+      "hyang_5",
+      "hyang_6",
+      "hyang_9",
+      "nexus_0",
+      "nexus_1",
+      "nexus_3",
+      "nexus_7",
+      "nexus_8",
+      "nexus_9"
+    ],
+    "validation": [
+      "bookstore_2",
+      "deathCircle_3",
+      "gates_7",
+      "hyang_7",
+      "nexus_4"
+    ]
+  },
+  "all8494_history_GT_SHA_verified": true,
+  "recording_overlap": false,
+  "target_exclusion": false,
+  "out_of_image_points_kept": [
+    {
+      "sample_id": "SDD:nexus_0:track125:frame2688",
+      "split": "train",
+      "step": 18,
+      "x": 361.5,
+      "y": 1950.5
+    },
+    {
+      "sample_id": "SDD:nexus_0:track125:frame2688",
+      "split": "train",
+      "step": 19,
+      "x": 367.5,
+      "y": 1956.5
+    }
+  ],
+  "history_only_validation_cache": {
+    "path": "experiments/stage11b2c/cache/validation_history_only.pt",
+    "sha256": "b484f5b320908e39ad56f91baf677f000afc8328984f31e72ab98f3a0e53c495",
+    "shape": [
+      998,
+      8,
+      2
+    ],
+    "keys": [
+      "history",
+      "sample_ids",
+      "scenes"
+    ],
+    "all998_history_matches_source": true,
+    "future_fields_present": false
+  },
+  "baseline_epochs_path": "results/tables/stage11b1c/epochs.csv",
+  "baseline_epochs_SHA": "6f2c8f921cfcd99719cc8a3f2e48ca6277241b28a829c7870033c25f11041631",
+  "expected_orders_path": "results/tables/stage11c1/expected_orders.csv",
+  "expected_orders_SHA": "9f2a841df2b529044f6b4c38365d2210ee0d777ebc1c2b65995ff7561bfb1b3f",
+  "all30_epoch_orders_match": true,
+  "source_train_config_SHA": "b617f37c3f2c1109b34adb5f0b258e53246486b62ddf03e6e1d40c17129feba7",
+  "independent_confirmation": false,
+  "overlapping_windows_independent_samples": false,
+  "test_loaded": false,
+  "GPU_initialized": false,
+  "limitations": [
+    "SDD numeric semantic ID/name mapping unverified",
+    "Exact segmentation checkpoint training membership unverified",
+    "Original short-pool generation manifest partial",
+    "Carved validation may have semantic pretraining exposure"
+  ],
+  "wall_seconds": 7.026015023002401
+}

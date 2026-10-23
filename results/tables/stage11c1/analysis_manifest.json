@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE_NO_NEW_PREDICTIONS",
+  "executed_commit": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+  "CPU_only": true,
+  "future_GT_loaded": false,
+  "test_loaded": false,
+  "metrics_calculated": false,
+  "all_new_comparisons_unrun": true,
+  "baseline_A25_count_verified_from_frozen_old_table": true,
+  "baseline_source": {
+    "path": "results/tables/stage11b1c/paired_epoch030.csv",
+    "sha256": "db0013fd285df6ae474267b76a20de34571bddf94e862c28751546d219051a1b"
+  },
+  "code_SHA": "acbd523ca03b73aa1b90a141e153063ed36b50fae7891f26ef6a36792cd4ee99",
+  "no_missing_metrics_imputed": true,
+  "empty_tables": [
+    "paired_comparison.csv",
+    "scene_comparison.csv",
+    "motion_group_comparison.csv",
+    "a25_failure_comparison.csv",
+    "fixed_epoch30_comparison.csv",
+    "best_checkpoint_comparison.csv",
+    "leave_one_recording_out.csv",
+    "candidate_paired_errors.csv.gz",
+    "qualitative_case_manifest.csv"
+  ],
+  "result_status": "BUDGET_NO_GO_SEMANTIC_BENEFIT_NOT_EVALUATED"
+}

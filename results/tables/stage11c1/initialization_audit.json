@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "random_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "reference_initial_predictor_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "reference_initial_checkpoint_SHA": "dc428446a5c0fafdf86b0fb6ffe405d60975a7ac8a3ba86e2c621dc6b43fab43",
+  "same_PyTorch": "2.5.1+cu124",
+  "total_parameters": 53155339,
+  "nominal_predictor_parameters": 1641381,
+  "new_Adam_state_empty": true,
+  "epoch": 0,
+  "global_step": 0,
+  "optimizer_updates": 0,
+  "trained_checkpoint_loaded": false,
+  "reference_initial_read_only_identity_comparison": true,
+  "segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83"
+}

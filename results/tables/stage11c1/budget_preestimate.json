@@ -1,0 +1,21 @@
+{
+  "already_used_GPU_seconds": 66.67494837602135,
+  "reference_full_run_seconds": 16198.880032846995,
+  "measured_epoch": false,
+  "measured_validation998": false,
+  "measured_K20_unique_targets": 2,
+  "measured_K20_calls": 6,
+  "projected_epoch_seconds": 482.65658153709956,
+  "guard_epoch_seconds": 506.78941061395454,
+  "guard_validation_seconds": 5882.462219155563,
+  "save_exit_startup_reserve_seconds": 180,
+  "conservative_all_validations_seconds": 56627.5928008836,
+  "first_validation_slow_rest_historical_high_seconds": 23919.672561840816,
+  "historical_only_optimistic_seconds": 16388.86725874403,
+  "fit_30_epochs_and7_validations": false,
+  "hard_seconds": 18000,
+  "safety_seconds": 16800,
+  "decision": "PRETRAINING_BUDGET_NO_GO",
+  "limitations": "Two training probes from a temporary early model are not a validation timing estimate or a lower bound. KMeans depends on the trained distribution; later convergence may reduce cost. Conservative admission is unsupported.",
+  "method": "Fixed 5% epoch margin; 10% target evaluation margin;180s startup/save/exit reserve. Even only first validation at smoke speed with remaining six at historical maximum exceeds hard budget."
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files": 95657,
+  "changed": [],
+  "base": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+  "inherited_files": 92464,
+  "protection_manifest_SHA": "a44557950b7b5d141123b8db84abd7fdb380177d544d951cd16f687d3b9864c1",
+  "scope": "Stage1 through Stage11C0; inherited list + base tracked files + C0 cache",
+  "sealed_artifact_bytes_hashed_only": true,
+  "test_loaded": false,
+  "wall_seconds": 149.912950316997
+}

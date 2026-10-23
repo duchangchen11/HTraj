@@ -1,0 +1,83 @@
+{
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "status": "PROTOCOL_DEVELOPMENT_ONLY",
+  "K": 20,
+  "TTST": true,
+  "TTST_proposals": 10000,
+  "temperature": 1.0,
+  "rel_threshold": 0.01,
+  "CWS": false,
+  "Ke": 20,
+  "Ka": 1,
+  "units": "original reference image pixels",
+  "sampler": "scripts/stage11b1r/sampler.py",
+  "predictor": "scripts/stage11b1r/predictor.py",
+  "sampler_protocol_SHA": "a871d04bf60638b94de4b48080ca2d9f20dbc319261bf38422331a5c6f13a932",
+  "sampler_SHA": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238",
+  "predictor_SHA": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350",
+  "operation": "Per-sample_id CPU Generator and isolated original KMeans RNG; single-process serial",
+  "GT_scoring": "Only after all998 history-only predictions and completeness gates saved",
+  "runtime_repeat": "Indices997/499/0 repeated in reverse and recreated full-canvas zero; bitwise mandatory",
+  "metrics": [
+    "ADE1",
+    "FDE1",
+    "minADE20",
+    "minFDE20",
+    "GoalFDE1",
+    "minGoalFDE20"
+  ],
+  "oracle": "Independent ADE and FDE best complete path; first candidate is softargmax goal path, not a distribution expectation",
+  "diversity": "Mean pairwise endpoint distance and mean pairwise trajectory ADE; near-duplicate endpoint fraction<=1 pixel, descriptive only",
+  "goal_coverage_threshold_pixels": [
+    10,
+    25,
+    50
+  ],
+  "qualitative_selection": {
+    "low": "minADE20 nearest order-statistic quantiles .05,.10,.15",
+    "high": "minADE20 quantiles .85,.90,.95",
+    "large_goal": "minGoalFDE20 quantiles .85,.90,.95",
+    "rounding": "floor(q*(N-1)), stable sample_id tie order",
+    "allow_overlap": true,
+    "checkpoint": "Single best complete validation checkpoint",
+    "GT_used_only": "Offline metric and drawing"
+  },
+  "baseline_comparison": "YNet ADE1/FDE1 vs frozen same998-target CV-Last2/OLS4/OLS8; K20 separate oracle budget",
+  "plotting": {
+    "backend": "python",
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "source_data_required": true,
+    "no_smoothing": true,
+    "conclusion": "Describe actually recorded learning,validation and selected error cases; no innovation claim",
+    "risk": "Single seed,overlapping windows,shared backgrounds and semantic pretraining exposure; no independent test claim"
+  },
+  "prediction_history": "Physically GT-free Stage11B2C history-only cache",
+  "primary_research_metric": "Five-recording equal macro minADE20, fixed Epoch30 vs Epoch30",
+  "secondary_comparison": "Semantic Epoch30 (old best) versus NoSemantic best COMPLETE validation",
+  "difference_signs": {
+    "ADE": "NoSemantic-Semantic",
+    "FDE": "NoSemantic-Semantic",
+    "GoalCover": "Semantic-NoSemantic"
+  },
+  "screening": {
+    "ADE_macro_relative_improvement_min": 0.02,
+    "FDE_macro_semantic_relative_degradation_max": 0.01,
+    "recordings_favor_semantic_min": 3,
+    "OTHER4_pooled_semantic_ADE_relative_degradation_max": 0.01,
+    "denominator": "NoSemantic metric for all relative differences",
+    "missing": "UNKNOWN; never passed, failed, or zero-imputed from an unrun model"
+  },
+  "case_selection": {
+    "improved": "lexicographically first sample_id with Delta_ADE>=1px",
+    "worse": "first sample_id with Delta_ADE<=-1px",
+    "close": "first abs(Delta_ADE)<1px",
+    "both_fail": "first both minGoalFDE20>25",
+    "cover_change": "first disagreeing Cover25",
+    "scene": "first matching sample_id in each of five recordings; absent cohort not invented"
+  },
+  "inference_GT": "Never used; oracle heads for offline metrics only",
+  "no_test": true
+}

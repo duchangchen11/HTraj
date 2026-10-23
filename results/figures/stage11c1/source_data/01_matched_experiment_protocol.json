@@ -1,0 +1,37 @@
+{
+  "purpose": "Freeze the planned comparison and clearly mark it unexecuted",
+  "protocol": "HTraj-YNet-SDD-Development-v1",
+  "train_recordings": 25,
+  "train_targets": 7496,
+  "validation_recordings": 5,
+  "validation_targets": 998,
+  "history": 8,
+  "future": 12,
+  "resize": 0.25,
+  "seed": 17,
+  "predictor_parameters": 1641381,
+  "total_parameters": 53155339,
+  "input_channels": {
+    "semantic": 6,
+    "history_heatmaps": 8
+  },
+  "new_semantics": "Six float32 zero channels, padding included",
+  "planned_epochs": 30,
+  "actual_formal_epochs": 0,
+  "actual_full_validations": 0,
+  "validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "K": 20,
+  "proposals": 10000,
+  "kmeans_centers": 19,
+  "stopping_reason": "Conservative cumulative GPU admission exceeds5h; formal training not started",
+  "semantic_input_zero_gradient_elements": 1728,
+  "effective_capacity_warning": "Matching nominal parameter count does not match effective input connections"
+}

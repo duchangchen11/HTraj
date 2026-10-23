@@ -1,0 +1,90 @@
+{
+  "measured": {
+    "passed": true,
+    "formal_training": false,
+    "test_loaded": false,
+    "validation_scored": false,
+    "random_predictor_state_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+    "segmentation_unchanged": true,
+    "segmentation_forward_calls": 0,
+    "all_semantic_zero": true,
+    "input_channels": 14,
+    "teacher_forcing_training_only": true,
+    "loss_finite": true,
+    "gradients_finite": true,
+    "predictor_updated": true,
+    "strict_checkpoint_restore_next_update_exact": true,
+    "future_counterfactual_bitwise": true,
+    "K20_repeat_and_reverse_bitwise": true,
+    "K": 20,
+    "TTST_proposals": 10000,
+    "KMeans_centers": 19,
+    "zero_semantic_gradient_elements": 1728,
+    "nominal_predictor_parameters": 1641381,
+    "structurally_input_active_parameter_upper_bound": 1639653,
+    "effective_capacity_not_exactly_matched": true,
+    "checkpoint": {
+      "path": "experiments/stage11c1/cache/checkpoints/preflight_temporary.pt",
+      "sha256": "e49461813e691c1852b2b3c68d582916aa924eff1db38db4641932ec5e6f5a99",
+      "bytes": 226577090,
+      "save_and_hash_seconds": 0.7213014879962429
+    },
+    "projected_epoch_seconds": 482.65658153709956,
+    "mean_K20_target_seconds": 5.2855847081712755,
+    "maximum_K20_target_seconds": 5.358409745997051,
+    "peak_allocated_bytes": 2633209856,
+    "peak_reserved_bytes": 5060427776,
+    "temporary_model_discarded_before_formal": true,
+    "formal_initialization_fresh": true,
+    "GPU_cumulative_seconds": 65.72572601801949
+  },
+  "cumulative_actual": {
+    "hard_seconds": 18000,
+    "safety_seconds": 16800,
+    "actual_GPU_related_process_wall_seconds": 66.67494837602135,
+    "processes": [
+      {
+        "worker": "preflight",
+        "started_commit": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+        "returncode": 0,
+        "wall_seconds": 66.67494837602135,
+        "prior_seconds": 0,
+        "cumulative_seconds": 66.67494837602135,
+        "hard_seconds": 18000,
+        "safety_seconds": 16800,
+        "timeout_includes_exit_reserve": 60,
+        "interpretation": "Whole GPU-related subprocess wall; no concurrent GPU workers"
+      }
+    ],
+    "formal_run_started": false,
+    "remaining_hard_seconds": 17933.32505162398,
+    "scope": "Whole GPU subprocess wall, including startup,build/load,train probes,K20,save,exit"
+  },
+  "projection": {
+    "already_used_GPU_seconds": 66.67494837602135,
+    "reference_full_run_seconds": 16198.880032846995,
+    "measured_epoch": false,
+    "measured_validation998": false,
+    "measured_K20_unique_targets": 2,
+    "measured_K20_calls": 6,
+    "projected_epoch_seconds": 482.65658153709956,
+    "guard_epoch_seconds": 506.78941061395454,
+    "guard_validation_seconds": 5882.462219155563,
+    "save_exit_startup_reserve_seconds": 180,
+    "conservative_all_validations_seconds": 56627.5928008836,
+    "first_validation_slow_rest_historical_high_seconds": 23919.672561840816,
+    "historical_only_optimistic_seconds": 16388.86725874403,
+    "fit_30_epochs_and7_validations": false,
+    "hard_seconds": 18000,
+    "safety_seconds": 16800,
+    "decision": "PRETRAINING_BUDGET_NO_GO",
+    "limitations": "Two training probes from a temporary early model are not a validation timing estimate or a lower bound. KMeans depends on the trained distribution; later convergence may reduce cost. Conservative admission is unsupported.",
+    "method": "Fixed 5% epoch margin; 10% target evaluation margin;180s startup/save/exit reserve. Even only first validation at smoke speed with remaining six at historical maximum exceeds hard budget."
+  },
+  "claim": "Small engineering probes cannot support conservative admission within the unchanged5h budget",
+  "limitations": [
+    "Projected epoch is not a measured full epoch.",
+    "KMeans timing depends on learned probability maps; two targets do not bound future validation cost.",
+    "Cost rejection is not evidence that semantic prediction benefits are absent."
+  ]
+}

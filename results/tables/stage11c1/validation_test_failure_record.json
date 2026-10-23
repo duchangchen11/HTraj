@@ -1,0 +1,47 @@
+{
+  "stage": "Stage11C-1",
+  "record_type": "CPU_unit_test_assertion_failure_and_correction",
+  "evidence_provenance": "Reconstructed from actual exec_command/write_stdin tool observations in this session. The original subprocess stdout was returned by the tool but was not redirected to a persistent log file.",
+  "original_raw_stdout_saved_on_disk": false,
+  "this_record_is_not_raw_stdout": true,
+  "GPU_used": false,
+  "formal_training_executed": false,
+  "original_command": "CUDA_VISIBLE_DEVICES='' PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 experiments/stage11ap/cache/venv/bin/python -m pytest -q scripts/stage11c1/tests/test_validation_contract.py",
+  "original_run": {
+    "passed": 4,
+    "failed": 1,
+    "exit_code": 1,
+    "pytest_seconds": 2.22,
+    "failed_test": "test_prediction_saved_before_GT_then_full_contract",
+    "failed_assertion": "assert result['recording_macro'] == result['window']",
+    "differing_metric": "FDE1",
+    "recording_macro_FDE1": 1.412796514715407,
+    "window_FDE1": 1.4127965147154071,
+    "failure_description": "A synthetic one-scene contract test incorrectly required bitwise equality between the original NumPy scene-row reduction and the original Torch window-tensor reduction. Their scalar reductions differed at floating-point machine precision."
+  },
+  "correction": {
+    "scope": "Test assertion only",
+    "test_file": "scripts/stage11c1/tests/test_validation_contract.py",
+    "replacement_assertion": "assert result['recording_macro'] == pytest.approx(result['window'], rel=1e-14, abs=1e-14)",
+    "relative_tolerance": 1e-14,
+    "absolute_tolerance": 1e-14,
+    "production_metric_arithmetic_changed": false,
+    "training_or_sampling_changed": false,
+    "bitwise_K20_repeat_requirement_relaxed": false,
+    "reason": "Allow the existing aggregation implementations' machine-precision reduction difference in this CPU-only synthetic test. Production K20 repeat/order checks still use torch.equal and exact proposal/goal/path SHA matching."
+  },
+  "corrected_run_before_extra_history_test": {
+    "passed": 5,
+    "failed": 0,
+    "exit_code": 0,
+    "pytest_seconds": 2.10
+  },
+  "corrected_run_after_adding_frozen_history_value_test": {
+    "passed": 6,
+    "failed": 0,
+    "exit_code": 0,
+    "pytest_seconds": 2.18,
+    "additional_test": "test_history_values_must_match_frozen_history_cache"
+  },
+  "interpretation": "This was a test expectation issue, not a predictor or sampler reproducibility failure. CPU mock contracts do not establish real newly trained NoSemantic validation performance. Formal training was not admitted because of the separately recorded GPU budget NO-GO."
+}

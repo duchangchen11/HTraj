@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="634.033839pt" height="280.512pt" viewBox="0 0 634.033839 280.512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T19:37:19.450486</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.512
+L 634.033839 280.512
+L 634.033839 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.802411 128.28096
+L 135.793839 128.28096
+Q 139.301268 128.28096 139.301268 124.7328
+L 139.301268 58.2048
+Q 139.301268 54.65664 135.793839 54.65664
+L 21.802411 54.65664
+Q 18.294982 54.65664 18.294982 58.2048
+L 18.294982 124.7328
+Q 18.294982 128.28096 21.802411 128.28096
+z
+" clip-path="url(#p12d0def06f)" style="fill: #e7ecef; stroke: #7a858b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 162.099554 83.92896
+L 271.706696 83.92896
+Q 275.214125 83.92896 275.214125 80.3808
+L 275.214125 36.0288
+Q 275.214125 32.48064 271.706696 32.48064
+L 162.099554 32.48064
+Q 158.592125 32.48064 158.592125 36.0288
+L 158.592125 80.3808
+Q 158.592125 83.92896 162.099554 83.92896
+z
+" clip-path="url(#p12d0def06f)" style="fill: #dde7ef; stroke: #7a858b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 162.099554 179.28576
+L 271.706696 179.28576
+Q 275.214125 179.28576 275.214125 175.7376
+L 275.214125 113.6448
+Q 275.214125 110.09664 271.706696 110.09664
+L 162.099554 110.09664
+Q 158.592125 110.09664 158.592125 113.6448
+L 158.592125 175.7376
+Q 158.592125 179.28576 162.099554 179.28576
+z
+" clip-path="url(#p12d0def06f)" style="fill: #ece2de; stroke: #7a858b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 304.588839 130.49856
+L 414.195982 130.49856
+Q 417.703411 130.49856 417.703411 126.9504
+L 417.703411 60.4224
+Q 417.703411 56.87424 414.195982 56.87424
+L 304.588839 56.87424
+Q 301.081411 56.87424 301.081411 60.4224
+L 301.081411 126.9504
+Q 301.081411 130.49856 304.588839 130.49856
+z
+" clip-path="url(#p12d0def06f)" style="fill: #e7ecef; stroke: #7a858b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 451.462411 130.49856
+L 600.528125 130.49856
+Q 604.035554 130.49856 604.035554 126.9504
+L 604.035554 60.4224
+Q 604.035554 56.87424 600.528125 56.87424
+L 451.462411 56.87424
+Q 447.954982 56.87424 447.954982 60.4224
+L 447.954982 126.9504
+Q 447.954982 130.49856 451.462411 130.49856
+z
+" clip-path="url(#p12d0def06f)" style="fill: #e7ecef; stroke: #7a858b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(28.21375 80.238925)">Frozen development pool</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(12.49375 89.197175)">25 train recordings /7496 targets</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(7.2 98.155425)">5 validation recordings /998 targets</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(19.521875 107.113675)">History8, future12; raw pixels</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(160.108125 51.45405)">Historical Semantic baseline</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(159.375 60.4123)">6 original semantic channels</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(176.475625 69.37055)">Completed Epoch30</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(160.250625 133.461325)">Planned NoSemantic control</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(169.61375 142.419575)">6 exactly zero channels</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(163.175625 151.377825)">Same random initialization</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(176.674375 160.336075)">Not formally trained</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(310.869911 82.456525)">Same Y-Net architecture</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(296.528661 91.414775)">14 inputs; same loss and Adam</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(311.466161 100.373025)">Same7496 visits /epoch</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(316.961786 109.331275)">1882 updates /epoch</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(478.655268 82.456525)">Planned K20 evaluation</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(461.026518 91.414775)">TTST10000;19 centers +1 mean</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(467.164018 100.373025)">Same seven validation nodes</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(469.547143 109.331275)">Actual new full validations:0</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 141.417628 81.031029
+Q 148.946732 71.510356 155.782327 62.866635
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+    <path d="M 152.542397 64.384151
+L 155.782327 62.866635
+L 155.052382 66.369088
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 141.109358 113.193538
+Q 148.945069 128.056113 156.259367 141.929684
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+    <path d="M 156.182341 138.352804
+L 156.259367 141.929684
+L 153.351648 139.845177
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 277.701105 61.606997
+Q 288.146584 69.291929 297.6915 76.3143
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+    <path d="M 296.062119 73.12916
+L 297.6915 76.3143
+L 294.165759 75.706721
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 277.213947 143.038828
+Q 288.146553 126.952188 298.450725 111.790248
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+    <path d="M 295.328719 113.537554
+L 298.450725 111.790248
+L 297.975367 115.336236
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 420.580545 95.904
+Q 432.828236 95.904 443.957893 95.904
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+    <path d="M 440.757893 94.304
+L 443.957893 95.904
+L 440.757893 97.504
+" style="fill: none; stroke: #6d777c; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="fill: #9f503c; font: 10px 'DejaVu Sans'; text-anchor: start" x="26.186696" y="217.872" transform="rotate(-0 26.186696 217.872)">Engineering preflight passed. Conservative budget admission failed before formal training.</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(26.186696 239.96015)">Matching nominal architecture is not exact effective-capacity control:1728 input-weight elements receive zero gradient.</text>
+    <text style="font: 8px 'DejaVu Sans'" transform="translate(26.186696 248.9184)">No semantic-benefit conclusion, no new ADE/FDE, and no fabricated missing curves.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p12d0def06f">
+   <rect x="13.033839" y="7.2" width="613.8" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

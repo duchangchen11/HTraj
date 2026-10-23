@@ -1,0 +1,66 @@
+{
+  "stage": "Stage11C1",
+  "scope": "MATCHED_TRAINING_CONTROL_ONLY",
+  "status": "BUDGET_NO_GO_SEMANTIC_BENEFIT_NOT_EVALUATED",
+  "engineering_status": "PREFLIGHT_ONLY",
+  "budget_status": "NO_GO",
+  "semantic_benefit_status": "NOT_EVALUATED",
+  "empirical_semantic_failure_claim": false,
+  "primary_comparison": "FIXED_EPOCH30",
+  "secondary_comparison": "BEST_COMPLETE_VALIDATION",
+  "primary_research_endpoint": "FIVE_RECORDING_MACRO minADE20",
+  "primary_gate": {
+    "status": "NOT_EVALUABLE",
+    "reason": "Formal NoSemantic training and full validation not started: budget admission rejected"
+  },
+  "secondary_gate": {
+    "status": "NOT_EVALUABLE",
+    "reason": "Formal NoSemantic training and full validation not started: budget admission rejected"
+  },
+  "complete_validation_epochs": [],
+  "expected_validation_epochs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "full_seven_validations_completed": false,
+  "formal_epochs_completed": 0,
+  "baseline_A25_failures": 164,
+  "baseline_A25_successes": 834,
+  "baseline_only_source": "results/tables/stage11b1c/paired_epoch030.csv",
+  "baseline_source_SHA": "db0013fd285df6ae474267b76a20de34571bddf94e862c28751546d219051a1b",
+  "comparison_status": {
+    "FIXED_EPOCH30": "NOT_RUN",
+    "BEST_COMPLETE_VALIDATION": "NOT_RUN"
+  },
+  "delta_sign": "NoSemantic minus Semantic for ADE/FDE; Semantic minus NoSemantic for coverage; positive favors Semantic",
+  "empty_result_tables": "Header-only; no NoSemantic metrics, deltas, transition counts, best epoch, or research gates imputed",
+  "limitations": [
+    "Conservative full-run estimate uses a small untrained engineering probe, not a measured full30-epoch runtime.",
+    "No formal NoSemantic training or998-target validation exists, so semantic benefit cannot be accepted or rejected empirically.",
+    "Same nominal model does not guarantee equal effective input capacity because six semantic input channels are zero.",
+    "One seed and five reused development recordings would not constitute independent confirmation.",
+    "Existing semantic reference values are frozen historical results, not results of this stage."
+  ],
+  "semantic_quality_causal_claim": "NOT_SUPPORTED",
+  "gating_module": "NOT_AUTHORIZED_OR_VALIDATED",
+  "multi_seed_recommendation": "NOT_SUPPORTED_WITHOUT_COMPLETED_MATCHED_CONTROL",
+  "automatic_additional_training": false,
+  "next_question": "Can a user-approved cumulative GPU budget accommodate the unchanged matched30-epoch run and all seven full validations?",
+  "thesis_direction_change": "No empirical basis from this unexecuted control",
+  "case_selection_rules": {
+    "semantic_better": "Delta_ADE>=1px",
+    "no_semantic_better": "Delta_ADE<=-1px",
+    "close": "abs(Delta_ADE)<1px",
+    "both_fail": "both minGoalFDE20>25px",
+    "coverage_changed": "GoalCover25 differs",
+    "deathCircle": "scene==deathCircle_3",
+    "other4": "scene!=deathCircle_3",
+    "selection": "lexicographically first sample_id within each eligible cohort and each scene"
+  },
+  "formal_training_execution_status": "STOPPED_BUDGET"
+}

@@ -1,0 +1,14 @@
+{
+  "checkpoints": [],
+  "best": null,
+  "best_epoch": null,
+  "last": null,
+  "formal_initial_checkpoint": null,
+  "temporary_preflight_checkpoint": {
+    "path": "experiments/stage11c1/cache/checkpoints/preflight_temporary.pt",
+    "sha256": "e49461813e691c1852b2b3c68d582916aa924eff1db38db4641932ec5e6f5a99",
+    "bytes": 226577090,
+    "save_and_hash_seconds": 0.7213014879962429
+  },
+  "reason": "No formal model created"
+}

@@ -1,0 +1,127 @@
+{
+  "stage": "Stage11C-1",
+  "base": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+  "train_config_SHA": "445b90031d1306961238c5816aec5d9522fcbdb224205eaeb3c374d916c60b8b",
+  "evaluation_config_SHA": "18ab8c41519af84bab34425463882e56bb03235902511a199ac52a923e1a3436",
+  "initial_predictor_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "data_manifest_SHA": {
+    "train": "b28dff349e39195c1fd6405b3588ae69cefb42b9810b0a52dbe48b347b44cbba",
+    "validation": "33d37a911e65ffddc435c0b8b2f7512b07cb7d0c957150477866121381bbf7df"
+  },
+  "zero_protocol_SHA": "f27692b4691cc30283abd7dbb2a52c63be3184899911a21cfeaaaaa47f199a77",
+  "budget": {
+    "already_used_GPU_seconds": 66.67494837602135,
+    "reference_full_run_seconds": 16198.880032846995,
+    "measured_epoch": false,
+    "measured_validation998": false,
+    "measured_K20_unique_targets": 2,
+    "measured_K20_calls": 6,
+    "projected_epoch_seconds": 482.65658153709956,
+    "guard_epoch_seconds": 506.78941061395454,
+    "guard_validation_seconds": 5882.462219155563,
+    "save_exit_startup_reserve_seconds": 180,
+    "conservative_all_validations_seconds": 56627.5928008836,
+    "first_validation_slow_rest_historical_high_seconds": 23919.672561840816,
+    "historical_only_optimistic_seconds": 16388.86725874403,
+    "fit_30_epochs_and7_validations": false,
+    "hard_seconds": 18000,
+    "safety_seconds": 16800,
+    "decision": "PRETRAINING_BUDGET_NO_GO",
+    "limitations": "Two training probes from a temporary early model are not a validation timing estimate or a lower bound. KMeans depends on the trained distribution; later convergence may reduce cost. Conservative admission is unsupported.",
+    "method": "Fixed 5% epoch margin; 10% target evaluation margin;180s startup/save/exit reserve. Even only first validation at smoke speed with remaining six at historical maximum exceeds hard budget."
+  },
+  "semantic_baseline": {
+    "checkpoint": "experiments/stage11b1c/cache/checkpoints/epoch_030.pt",
+    "checkpoint_SHA": "0f300417f1fb84a1f6e4d2504bdf37fe4b467a4295be22a644a74d06b228d312",
+    "predictions": "experiments/stage11b1c/cache/predictions/epoch030.pt",
+    "prediction_SHA": "2ddf31b50edcb8ac1a72f4c39e0b56f971d8971490559e1c829b0950ed5bc6ab"
+  },
+  "executable_files": [
+    {
+      "path": "scripts/stage11b0/runtime.py",
+      "sha256": "b2f2230211fcd2bc5d46f3bf617a1780a5a7494c7a0831661da5baebcdff062c"
+    },
+    {
+      "path": "scripts/stage11b0/training_adapter.py",
+      "sha256": "19fce1e4f377b30d578d0380fe0effee9a581f03788c9b5d49d376f617fa043f"
+    },
+    {
+      "path": "scripts/stage11b1c/data.py",
+      "sha256": "dfea0a8d524050599343b86a6135122282a34044ba32cc5427d968c16fb698da"
+    },
+    {
+      "path": "scripts/stage11b1c/engine.py",
+      "sha256": "8ef0df0495c61b3099d628748e961a5a8aa02d8206370c96af9e541925dffea2"
+    },
+    {
+      "path": "scripts/stage11b1r/predictor.py",
+      "sha256": "ef09a3442573249ac9866f48e069c06e842945523030c5520aaa32e459200350"
+    },
+    {
+      "path": "scripts/stage11b1r/sampler.py",
+      "sha256": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238"
+    },
+    {
+      "path": "scripts/stage11c1/__init__.py",
+      "sha256": "e95a0cd995fa6e575364cf3864a8718ecb2636b541cd4ae94386c98f66b8fbba"
+    },
+    {
+      "path": "scripts/stage11c1/analyze.py",
+      "sha256": "acbd523ca03b73aa1b90a141e153063ed36b50fae7891f26ef6a36792cd4ee99"
+    },
+    {
+      "path": "scripts/stage11c1/common.py",
+      "sha256": "f70e74cedbb27cb4e2e419f1d4989c462152718b9fe605b72f69cdbedf4e751f"
+    },
+    {
+      "path": "scripts/stage11c1/data_audit.py",
+      "sha256": "b6b48c1936e66be8967506191b47a47009a515d2fda24560ae3929008a2a0efa"
+    },
+    {
+      "path": "scripts/stage11c1/freeze.py",
+      "sha256": "354f366c2afbd4c8ce7aeee0891857bbc6cb2cf634218973ce39171d011ebd6f"
+    },
+    {
+      "path": "scripts/stage11c1/launch.py",
+      "sha256": "f10e98feb12aa48d2a3607d7c3be1d41d422626a6e9c4cc5f5255f9164a520f7"
+    },
+    {
+      "path": "scripts/stage11c1/plot.py",
+      "sha256": "8eb06b2f9af37e906bbc348b161e000bf8abf003c9ce07c65cab0a1fd0999c29"
+    },
+    {
+      "path": "scripts/stage11c1/preflight.py",
+      "sha256": "62f46f9eadc17e0badc209e2f2ce47da4a54c40f293e50efe1965bc75f727755"
+    },
+    {
+      "path": "scripts/stage11c1/protect.py",
+      "sha256": "a7564f43416c3b19f9be38f207c9a4152151edd5a53a95b001e0bdeca67e2dd7"
+    },
+    {
+      "path": "scripts/stage11c1/report.py",
+      "sha256": "8c71e7c67cd9b00356c4b5013f32ed0d09f7a1d805e03891d3ad31e8a6dd7d8b"
+    },
+    {
+      "path": "scripts/stage11c1/tests/test_analysis.py",
+      "sha256": "a18b1d2df0fe913c9ef24fc9757d41d947352e508416944a3f04d60c70a34dda"
+    },
+    {
+      "path": "scripts/stage11c1/tests/test_budget_and_zero.py",
+      "sha256": "9a5fb8e6025e150ae1179b155d4fb2acff53ac7af6d713347600d91355e3a611"
+    },
+    {
+      "path": "scripts/stage11c1/tests/test_validation_contract.py",
+      "sha256": "3983120940fb94e8488b749c019ea654584fb3cc71ab7f91dfd7d8068a10b66b"
+    },
+    {
+      "path": "scripts/stage11c1/train.py",
+      "sha256": "347ddec46c51b1f772cf2a56460ee193b1b11bab5f3a51da3a7f74f8b9c3154d"
+    },
+    {
+      "path": "scripts/stage11c1/validate.py",
+      "sha256": "1a56c4f9f886eb1af9fb5d5d512bb37d4f6fb063e2dce58517ee6e2147f36bb3"
+    }
+  ],
+  "numerical_execution_authorized": false,
+  "reason": "Conservative budget admission failed; freeze does not authorize training"
+}

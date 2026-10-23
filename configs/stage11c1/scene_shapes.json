@@ -1,0 +1,719 @@
+{
+  "passed": true,
+  "source": "Actual reference.jpg cv2 INTER_AREA resize .25, author right/bottom division32 padding",
+  "resize": 0.25,
+  "division_factor": 32,
+  "scene_count": 30,
+  "scenes": {
+    "bookstore_0": {
+      "scene": "bookstore_0",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/bookstore_0/reference.jpg",
+      "RGB_SHA": "fb7fe3d7253335ecab3f7678f148c675f2504e2b5f17a624c642b5252195b2fc",
+      "original_height": 1088,
+      "original_width": 1424,
+      "valid_height": 272,
+      "valid_width": 356,
+      "height": 288,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "8776f189b8b29353ce748c0a56dad2b66aa9dea50aef77deae6c0b79b150dd54",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "bookstore_1": {
+      "scene": "bookstore_1",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/bookstore_1/reference.jpg",
+      "RGB_SHA": "9624812f0841c722722318585439356e8971df31ed45af8901c8948c45fe0037",
+      "original_height": 1079,
+      "original_width": 1422,
+      "valid_height": 270,
+      "valid_width": 356,
+      "height": 288,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "8776f189b8b29353ce748c0a56dad2b66aa9dea50aef77deae6c0b79b150dd54",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "bookstore_3": {
+      "scene": "bookstore_3",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/bookstore_3/reference.jpg",
+      "RGB_SHA": "7214db92b3432942fa43e8adb495018d47c534195bebdb24c36df653d7620479",
+      "original_height": 1079,
+      "original_width": 1322,
+      "valid_height": 270,
+      "valid_width": 330,
+      "height": 288,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "f99428fc69c1e6c0863560db2e4bfbf3fa93e922bebc4dd7486607269e0c4c84",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "coupa_3": {
+      "scene": "coupa_3",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/coupa_3/reference.jpg",
+      "RGB_SHA": "10760a7b2e0ca898daa5809ba6b1c4bbf3c221c6b82cf6bc126e21dd04bf5244",
+      "original_height": 1093,
+      "original_width": 1980,
+      "valid_height": 273,
+      "valid_width": 495,
+      "height": 288,
+      "width": 512,
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        512
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "6c4b4b9234df8fdbdf3eb9a958079de54c11683e6bc0a5b06e602457ef19f582",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "deathCircle_0": {
+      "scene": "deathCircle_0",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/deathCircle_0/reference.jpg",
+      "RGB_SHA": "4ec0dcc67f7068f03d64a0ea5b9302cfe26932c15db391ab7af24d5be67fa1d2",
+      "original_height": 1948,
+      "original_width": 1630,
+      "valid_height": 487,
+      "valid_width": 408,
+      "height": 512,
+      "width": 416,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        416
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "7dde12cc15b6bf65c13cb0164b5e783a7f7b3e8f2ccfa7221f14816481e2c9c6",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "deathCircle_1": {
+      "scene": "deathCircle_1",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/deathCircle_1/reference.jpg",
+      "RGB_SHA": "d5550786c2a4f3e192e89dd8c8e5fc5cbcd5416c3fa69e806757db9460e28ab0",
+      "original_height": 1916,
+      "original_width": 1409,
+      "valid_height": 479,
+      "valid_width": 352,
+      "height": 480,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        480,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "da7495690693bbc1edfd11440eccfe6f4c16c25c9b418c895df0db11fd09755b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "deathCircle_2": {
+      "scene": "deathCircle_2",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/deathCircle_2/reference.jpg",
+      "RGB_SHA": "b3c1f81fab5552aba1fa7c0fa7b9a9c3ff738d348f02fd1550069242df02cead",
+      "original_height": 1959,
+      "original_width": 1436,
+      "valid_height": 490,
+      "valid_width": 359,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "deathCircle_4": {
+      "scene": "deathCircle_4",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/deathCircle_4/reference.jpg",
+      "RGB_SHA": "8256bef1ac3fa9edddfe089eb52b8459805f387627f65e6b490caada2c64787b",
+      "original_height": 1994,
+      "original_width": 1452,
+      "valid_height": 498,
+      "valid_width": 363,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_0": {
+      "scene": "gates_0",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_0/reference.jpg",
+      "RGB_SHA": "cce708a85d89460bfe4ea8e11702bfd1e3d78c620e085b36f585e5330a13a25d",
+      "original_height": 1973,
+      "original_width": 1325,
+      "valid_height": 493,
+      "valid_width": 331,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_1": {
+      "scene": "gates_1",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_1/reference.jpg",
+      "RGB_SHA": "0b017eeb14ff2a231ee8d9654ea5c9f49ea84d711f9293e9b68283c810be4088",
+      "original_height": 1973,
+      "original_width": 1425,
+      "valid_height": 493,
+      "valid_width": 356,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_3": {
+      "scene": "gates_3",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_3/reference.jpg",
+      "RGB_SHA": "4b655fdb440bc6f9049ab096f5c6de11c6cb97aa214fe6df979253763e401e3d",
+      "original_height": 2002,
+      "original_width": 1432,
+      "valid_height": 500,
+      "valid_width": 358,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_4": {
+      "scene": "gates_4",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_4/reference.jpg",
+      "RGB_SHA": "77ea324d920cb2abd56362cf2d065e51ea9673633268fb10fb2b2ca2dc032e82",
+      "original_height": 1982,
+      "original_width": 1434,
+      "valid_height": 496,
+      "valid_width": 358,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_5": {
+      "scene": "gates_5",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_5/reference.jpg",
+      "RGB_SHA": "29db19cd14ba8b5bc76aa1bf6facfedc182590e9bd6871eb737830000469841f",
+      "original_height": 2011,
+      "original_width": 1426,
+      "valid_height": 503,
+      "valid_width": 356,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_6": {
+      "scene": "gates_6",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_6/reference.jpg",
+      "RGB_SHA": "6f8ec46d8da20e2676d43e214e2d3a7fc07357abf34a210b5bb414ee366363cf",
+      "original_height": 2011,
+      "original_width": 1326,
+      "valid_height": 503,
+      "valid_width": 332,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "gates_8": {
+      "scene": "gates_8",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_8/reference.jpg",
+      "RGB_SHA": "b30ec2c62d22cfc2e091abb8298c31b5280789ee4e99987721bf5c500b1659c7",
+      "original_height": 1982,
+      "original_width": 1334,
+      "valid_height": 496,
+      "valid_width": 334,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "hyang_4": {
+      "scene": "hyang_4",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/hyang_4/reference.jpg",
+      "RGB_SHA": "22eb1abb075739ce26b179f8c0c917be0e2d281fa3cee5f6efbb74f7c31e21ee",
+      "original_height": 1730,
+      "original_width": 1340,
+      "valid_height": 432,
+      "valid_width": 335,
+      "height": 448,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        448,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "542e0d2d9a1f8e938545bea706d2fa3eb45fbfcd65962dd9e0af654b9d0f786f",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "hyang_5": {
+      "scene": "hyang_5",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/hyang_5/reference.jpg",
+      "RGB_SHA": "9d4cfe55f603e203a6dc45c804125c746df10936d0234663740c79b3579f1956",
+      "original_height": 1991,
+      "original_width": 1454,
+      "valid_height": 498,
+      "valid_width": 364,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "hyang_6": {
+      "scene": "hyang_6",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/hyang_6/reference.jpg",
+      "RGB_SHA": "a4dc8cedf947c9335d1a54c47e27033847809a8d0a2fbf4caf1fe2a4bfa32a22",
+      "original_height": 848,
+      "original_width": 1416,
+      "valid_height": 212,
+      "valid_width": 354,
+      "height": 224,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        224,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "a1a51fe7ecddf6c08179d821d749dc38ed08b45522dd8b03c33c9586126d5d85",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "hyang_9": {
+      "scene": "hyang_9",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/hyang_9/reference.jpg",
+      "RGB_SHA": "0612bcfc69f680ea950fc7cfbc6e6835fc11b24d9b4a9b4d081bb934c16597ed",
+      "original_height": 1940,
+      "original_width": 1350,
+      "valid_height": 485,
+      "valid_width": 338,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_0": {
+      "scene": "nexus_0",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_0/reference.jpg",
+      "RGB_SHA": "49d2e5b288d906321df0f10cce73c61c999b66f81a4de1615e35b9444137b718",
+      "original_height": 1947,
+      "original_width": 1330,
+      "valid_height": 487,
+      "valid_width": 332,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_1": {
+      "scene": "nexus_1",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_1/reference.jpg",
+      "RGB_SHA": "62c33a0a1818c673486c336d9d3281983fbe810886494d3498e905ac511486af",
+      "original_height": 1947,
+      "original_width": 1430,
+      "valid_height": 487,
+      "valid_width": 358,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_3": {
+      "scene": "nexus_3",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_3/reference.jpg",
+      "RGB_SHA": "35f2e304eaef80341eb66b3d17ea8ae8d13a217e69c84ec6c9c25f6aa29caf74",
+      "original_height": 1759,
+      "original_width": 1184,
+      "valid_height": 440,
+      "valid_width": 296,
+      "height": 448,
+      "width": 320,
+      "semantic_shape": [
+        1,
+        6,
+        448,
+        320
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "04d849b9486c84f6e977cac0a3f3dda8f5ad927012c50930508eef085f58d9a8",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_7": {
+      "scene": "nexus_7",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_7/reference.jpg",
+      "RGB_SHA": "b39c8dd2c61647ebda496b454967870627bed27d220a0e0eb4256ea9fdc95faf",
+      "original_height": 1962,
+      "original_width": 1431,
+      "valid_height": 490,
+      "valid_width": 358,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_8": {
+      "scene": "nexus_8",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_8/reference.jpg",
+      "RGB_SHA": "02029d3fd6ee83c16538d16739714fd7f8e4df8e2e5fab79afa636361197b5b8",
+      "original_height": 1962,
+      "original_width": 1331,
+      "valid_height": 490,
+      "valid_width": 333,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "nexus_9": {
+      "scene": "nexus_9",
+      "split": "train",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_9/reference.jpg",
+      "RGB_SHA": "1914cbf2b143290de7bc6c20cefd8a407d7a59a983bcd641c779e3895fd88cbc",
+      "original_height": 1980,
+      "original_width": 1411,
+      "valid_height": 495,
+      "valid_width": 353,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": null
+    },
+    "bookstore_2": {
+      "scene": "bookstore_2",
+      "split": "validation",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/bookstore_2/reference.jpg",
+      "RGB_SHA": "f617d309515f5bbb92bbbf6c49ddf88f3635906da1c32678e7113d738b5f76a4",
+      "original_height": 1079,
+      "original_width": 1422,
+      "valid_height": 270,
+      "valid_width": 356,
+      "height": 288,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        288,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "8776f189b8b29353ce748c0a56dad2b66aa9dea50aef77deae6c0b79b150dd54",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": {
+        "path": "experiments/stage11b2c/cache/semantic_bookstore_2.pt",
+        "sha256": "1743fd86f98abcd78b7018a7b69aac64ef813dd22528546a8e09af584aa00866",
+        "shape": [
+          1,
+          6,
+          288,
+          384
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "deathCircle_3": {
+      "scene": "deathCircle_3",
+      "split": "validation",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/deathCircle_3/reference.jpg",
+      "RGB_SHA": "18f73250aadf31e16c7efb6d1df3fad309ed39aa35e04467111ad0ebc97466e6",
+      "original_height": 1904,
+      "original_width": 1400,
+      "valid_height": 476,
+      "valid_width": 350,
+      "height": 480,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        480,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "da7495690693bbc1edfd11440eccfe6f4c16c25c9b418c895df0db11fd09755b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": {
+        "path": "experiments/stage11b2c/cache/semantic_deathCircle_3.pt",
+        "sha256": "a01b870ca23b6e090a74a04333533faa7b65586029fd54ac36f04bd77ab6496d",
+        "shape": [
+          1,
+          6,
+          480,
+          352
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "gates_7": {
+      "scene": "gates_7",
+      "split": "validation",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/gates_7/reference.jpg",
+      "RGB_SHA": "1281a113dce4ec07bc1405bf8cfe20bdd774ee4a9aba47265a466da50bdfa51d",
+      "original_height": 1982,
+      "original_width": 1334,
+      "valid_height": 496,
+      "valid_width": 334,
+      "height": 512,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "19198be8686bc9e4f57cd48318250aba23a584253322b275a817d3b88c509880",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": {
+        "path": "experiments/stage11b2c/cache/semantic_gates_7.pt",
+        "sha256": "fddbaf4663eb4c3d39cc28a0d53513d41c5c65c416e763e742cde93eea85f5f7",
+        "shape": [
+          1,
+          6,
+          512,
+          352
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "hyang_7": {
+      "scene": "hyang_7",
+      "split": "validation",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/hyang_7/reference.jpg",
+      "RGB_SHA": "1d7851bc7ea2de7f132ffe3ac1f582da80a01143b6eb3360b4517905bde0af18",
+      "original_height": 1940,
+      "original_width": 1450,
+      "valid_height": 485,
+      "valid_width": 362,
+      "height": 512,
+      "width": 384,
+      "semantic_shape": [
+        1,
+        6,
+        512,
+        384
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "9fac340b6f1c51cf6e5bb13393930de4db7a44838cb7cd8496fd0e0e5bd4f96b",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": {
+        "path": "experiments/stage11b2c/cache/semantic_hyang_7.pt",
+        "sha256": "b90ad3df8d5c28db6acade306a2bd194cfb07bb7d36f80e439f24ec5f49764f2",
+        "shape": [
+          1,
+          6,
+          512,
+          384
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "nexus_4": {
+      "scene": "nexus_4",
+      "split": "validation",
+      "RGB_path": "experiments/stage11ap/cache/author_resources/ynet_additional_files/data/SDD/train/nexus_4/reference.jpg",
+      "RGB_SHA": "3910c32246d1cb206d0fa64d3b6c3a1aac18c1983e91d9b35a5d616aedca59dc",
+      "original_height": 1759,
+      "original_width": 1284,
+      "valid_height": 440,
+      "valid_width": 321,
+      "height": 448,
+      "width": 352,
+      "semantic_shape": [
+        1,
+        6,
+        448,
+        352
+      ],
+      "semantic_dtype": "torch.float32",
+      "semantic_zero_SHA": "542e0d2d9a1f8e938545bea706d2fa3eb45fbfcd65962dd9e0af654b9d0f786f",
+      "all_zero_including_padding": true,
+      "original_cached_semantic": {
+        "path": "experiments/stage11b2c/cache/semantic_nexus_4.pt",
+        "sha256": "cc9c48dfe1fd51917812182f5058b77ef43f512b4cbd3afa5d9975a24c39b136",
+        "shape": [
+          1,
+          6,
+          448,
+          352
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  }
+}
