@@ -87,7 +87,7 @@
     },
     {
       "path": "scripts/stage11c1/plot.py",
-      "sha256": "8eb06b2f9af37e906bbc348b161e000bf8abf003c9ce07c65cab0a1fd0999c29"
+      "sha256": "bade5df4bf36a04dfcc093676fcec9b10041583722f5378bf42b9d976c73794b"
     },
     {
       "path": "scripts/stage11c1/preflight.py",
@@ -99,10 +99,10 @@
     },
     {
       "path": "scripts/stage11c1/report.py",
-      "sha256": "8c71e7c67cd9b00356c4b5013f32ed0d09f7a1d805e03891d3ad31e8a6dd7d8b"
+      "sha256": "801874f735490c16eefc0797ab925d46f28bcedfd45d66ab8b2f3d8b36c8eb5e"
     },
     {
-      "path": "scripts/stage11c1/tests/test_analysis.py",
+      "path": "scripts/stage11c1/tests/test_matched_control_analysis.py",
       "sha256": "a18b1d2df0fe913c9ef24fc9757d41d947352e508416944a3f04d60c70a34dda"
     },
     {
@@ -123,5 +123,25 @@
     }
   ],
   "numerical_execution_authorized": false,
-  "reason": "Conservative budget admission failed; freeze does not authorize training"
+  "reason": "Conservative budget admission failed; freeze does not authorize training",
+  "nonnumerical_postfreeze_changes": [
+    {
+      "kind": "plot_label_QA_only",
+      "path": "scripts/stage11c1/plot.py",
+      "old_SHA": "8eb06b2f9af37e906bbc348b161e000bf8abf003c9ce07c65cab0a1fd0999c29",
+      "new_SHA": "bade5df4bf36a04dfcc093676fcec9b10041583722f5378bf42b9d976c73794b"
+    },
+    {
+      "kind": "test_module_rename",
+      "reason": "Avoid pytest import collision with preserved Stage11B2A"
+    },
+    {
+      "kind": "report_EOF_whitespace_only",
+      "path": "scripts/stage11c1/report.py",
+      "old_SHA": "8c71e7c67cd9b00356c4b5013f32ed0d09f7a1d805e03891d3ad31e8a6dd7d8b",
+      "new_SHA": "801874f735490c16eefc0797ab925d46f28bcedfd45d66ab8b2f3d8b36c8eb5e"
+    }
+  ],
+  "original_freeze_commit": "1d8e0183a9d62673d56a0d0b2533c3b8e250f94c",
+  "formal_training_started": false
 }

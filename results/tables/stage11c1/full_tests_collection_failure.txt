@@ -1,0 +1,14 @@
+
+==================================== ERRORS ====================================
+__________ ERROR collecting scripts/stage11c1/tests/test_analysis.py ___________
+import file mismatch:
+imported module 'test_analysis' has this __file__ attribute:
+  /home/lrj/HTraj/scripts/stage11b2a/tests/test_analysis.py
+which is not the same as the test file we want to collect:
+  /home/lrj/HTraj/scripts/stage11c1/tests/test_analysis.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+- generated xml file: /home/lrj/HTraj/results/tables/stage11c1/full_tests.xml --
+=========================== short test summary info ============================
+ERROR scripts/stage11c1/tests/test_analysis.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 1.23s

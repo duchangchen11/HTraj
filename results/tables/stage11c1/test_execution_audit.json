@@ -1,0 +1,19 @@
+{
+  "full_regression_final": {
+    "passed": 689,
+    "skipped": 1,
+    "warnings": 25,
+    "failed": 0,
+    "seconds": 31.7
+  },
+  "full_collection_initial_failure": {
+    "log": "full_tests_collection_failure.txt",
+    "xml": "full_tests_collection_failure.xml",
+    "cause": "New test_analysis.py had same module basename as preserved Stage11B2A test",
+    "repair": "Rename only new test file to test_matched_control_analysis.py; no production numerical changes"
+  },
+  "early_unit_assertion_failure": "validation_test_failure_record.json",
+  "skip_reason": "CUDA compatibility check",
+  "CUDA_VISIBLE_DEVICES": "",
+  "GPU_used_by_full_pytest": false
+}

@@ -1,0 +1,2 @@
+reports/stage11c1/06_RESEARCH_DECISION.md:69: new blank line at EOF.
+Correction: report writer now normalizes one final newline; no metrics or numerical code changed.

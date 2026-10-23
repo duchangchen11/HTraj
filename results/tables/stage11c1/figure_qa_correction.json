@@ -1,0 +1,36 @@
+{
+  "reason": "Non-numerical QA: fit labels inside boxes and name head0 softargmax instead of mean",
+  "prior_outputs_retained": "experiments/stage11c1/cache/figure_pre_qa",
+  "prior_files": [
+    {
+      "path": "results/figures/stage11c1/01_matched_experiment_protocol.svg",
+      "sha256": "333b32e4d6d63d0a3c4bb3efda9a028e47957c25698e64256f27a41c0abb22b1"
+    },
+    {
+      "path": "results/figures/stage11c1/S01_preflight_cost_and_budget.png",
+      "sha256": "3b4a4751ee1c70fcff8fada4166631d836f82a21ee5485fb38bd60522f4d213c"
+    },
+    {
+      "path": "results/figures/stage11c1/01_matched_experiment_protocol.png",
+      "sha256": "1bb1ae263a1f17434ff0b751b94cfe77e003d613763e99cbad966a201ea7a2c8"
+    },
+    {
+      "path": "results/figures/stage11c1/S01_preflight_cost_and_budget.svg",
+      "sha256": "69a5441f74f6b257c15f7c8288bc082aad960ba6d2ea1fe57ac46022324e9c40"
+    },
+    {
+      "path": "results/figures/stage11c1/source_data/S01_preflight_and_budget.json",
+      "sha256": "aa19926eb2960e576241e43a6cb2c7e197571101997c3983c2e3dd76ae9b0d3f"
+    },
+    {
+      "path": "results/figures/stage11c1/source_data/01_matched_experiment_protocol.json",
+      "sha256": "d3b8958dd49cf3271c0c89bec487338d6415ffc5536831a5aaa6a50644ecd007"
+    },
+    {
+      "path": "results/tables/stage11c1/figure_manifest.json",
+      "sha256": "ab490f235b0eb8de42c2ec9cdef6c10affda8323e25a75f299cf6dff2e44f057"
+    }
+  ],
+  "formal_training_started": false,
+  "numeric_operations_changed": false
+}

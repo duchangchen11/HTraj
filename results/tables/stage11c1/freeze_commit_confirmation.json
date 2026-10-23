@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "freeze_commit": "1d8e0183a9d62673d56a0d0b2533c3b8e250f94c",
+  "commit_confirmed": "1d8e0183a9d62673d56a0d0b2533c3b8e250f94c",
+  "formal_started": false,
+  "preflight_source_commit": "6b81cf77222a3be1c89686a3b39abe9acc22e669",
+  "preflight_adapter_source_SHA": "62f46f9eadc17e0badc209e2f2ce47da4a54c40f293e50efe1965bc75f727755",
+  "preflight_source_sha_recorded_after_execution": true,
+  "numerical_source_changes_after_preflight": false,
+  "postfreeze_changes": [
+    {
+      "kind": "plot_label_QA_only",
+      "path": "scripts/stage11c1/plot.py",
+      "old_SHA": "8eb06b2f9af37e906bbc348b161e000bf8abf003c9ce07c65cab0a1fd0999c29",
+      "new_SHA": "bade5df4bf36a04dfcc093676fcec9b10041583722f5378bf42b9d976c73794b"
+    },
+    {
+      "kind": "test_module_rename",
+      "reason": "Avoid pytest import collision with preserved Stage11B2A"
+    },
+    {
+      "kind": "report_EOF_whitespace_only",
+      "path": "scripts/stage11c1/report.py",
+      "old_SHA": "8c71e7c67cd9b00356c4b5013f32ed0d09f7a1d805e03891d3ad31e8a6dd7d8b",
+      "new_SHA": "801874f735490c16eefc0797ab925d46f28bcedfd45d66ab8b2f3d8b36c8eb5e"
+    }
+  ],
+  "protocol_frozen_SHA": "8eeaa1e7ed0e69e8b0bd4f20d1ad4b6d793c8cd02c3b59fbb45bfbf826a9b580"
+}

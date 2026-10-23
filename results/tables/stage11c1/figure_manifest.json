@@ -3,8 +3,8 @@
     {
       "name": "01_matched_experiment_protocol",
       "status": "AVAILABLE",
-      "PNG_SHA": "1bb1ae263a1f17434ff0b751b94cfe77e003d613763e99cbad966a201ea7a2c8",
-      "SVG_SHA": "333b32e4d6d63d0a3c4bb3efda9a028e47957c25698e64256f27a41c0abb22b1",
+      "PNG_SHA": "d3f6dfbf9bb234842ffd19e5d38c519c667261f6a285fe8c77eec8377a300648",
+      "SVG_SHA": "4bf6ce9dfb93ae6169643e7aa19d7a8c3c9d5fd92f6d3f87251615075b9bf3aa",
       "source": {
         "path": "results/figures/stage11c1/source_data/01_matched_experiment_protocol.json",
         "sha256": "d3b8958dd49cf3271c0c89bec487338d6415ffc5536831a5aaa6a50644ecd007"
@@ -96,7 +96,7 @@
       "name": "S01_preflight_cost_and_budget",
       "status": "AVAILABLE",
       "PNG_SHA": "3b4a4751ee1c70fcff8fada4166631d836f82a21ee5485fb38bd60522f4d213c",
-      "SVG_SHA": "69a5441f74f6b257c15f7c8288bc082aad960ba6d2ea1fe57ac46022324e9c40",
+      "SVG_SHA": "38e5a03be39c282cc7d4aa1b12848514cc6e7747682d3cf4be79bd1b6dfac835",
       "source": {
         "path": "results/figures/stage11c1/source_data/S01_preflight_and_budget.json",
         "sha256": "aa19926eb2960e576241e43a6cb2c7e197571101997c3983c2e3dd76ae9b0d3f"

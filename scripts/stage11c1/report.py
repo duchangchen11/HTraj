@@ -89,6 +89,6 @@ Delta_ADE/FDE=NoSemantic−Semantic；Delta_Cover=Semantic−NoSemantic，正值
         'STAGE11C1_REPORT.md':f"# Stage11C-1：匹配无语义Y-Net对照——预算准入报告\n\n状态：**STOPPED_BUDGET / PRETRAINING_ADMISSION**。工程smoke通过；正式训练及验证均未启动。\n\n{budget}\n\n{costs}\n\n{caveat}\n\n{protocol}\n\n{decision}\n\n{testing}\n\n{protecting}\n\n原始测试断言失败被保留在validation_test_failure_record.json，浮点归约约2e−16差异只修正测试断言；未改变指标、K20或逐位重复性要求。\n\n{limits}\n\n{qtext}\n\n交付仅本阶段新目录；原模型、指标和冻结源码未改。大型临时checkpoint保留本地cache并被忽略。正式训练源码保留供审查，但未获资源准入，不能据此自动执行。\n"}
     directory=ROOT/'reports/stage11c1'
     for name,body in contents.items():
-        with (directory/name).open('x') as f:f.write(body)
+        with (directory/name).open('x') as f:f.write(body.rstrip()+'\n')
     print('REPORTS_WRITTEN',len(contents),flush=True)
 if __name__=='__main__':main()
