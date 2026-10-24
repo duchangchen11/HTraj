@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "unique_targets": 15,
+  "states": 6,
+  "all_360_history_tensor_SHA_checked": true,
+  "physical_history_cache_SHA": "b484f5b320908e39ad56f91baf677f000afc8328984f31e72ab98f3a0e53c495",
+  "target_manifest_SHA": "5ed310b6d0f3444c8595a1c472575963265674c26ea926c94b955ce11f56a9a1",
+  "training_targets": 7496,
+  "validation_pool": 998,
+  "profile_future_GT_loaded": false,
+  "test_loaded": false,
+  "frozen_execution_source_SHA_verified": true,
+  "formal_Stage11C1_epochs": 0,
+  "diagnostic_epochs": 1
+}

@@ -1,0 +1,16 @@
+{
+  "Python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.2",
+    "opencv-python": "4.10.0.84",
+    "segmentation-models-pytorch": "0.1.0"
+  },
+  "torch_CUDA_build": "12.4",
+  "CPU_metadata_process_CUDA_VISIBLE_DEVICES": "",
+  "CUDA_initialized": false,
+  "train_and_profile_config": "configure_torch: deterministic True,TF32False,CPUthreads1,AMPFalse"
+}

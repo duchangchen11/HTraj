@@ -1,0 +1,78 @@
+........................................................................ [ 10%]
+...................................s.................................... [ 20%]
+........................................................................ [ 31%]
+........................................................................ [ 41%]
+........................................................................ [ 51%]
+........................................................................ [ 62%]
+........................................................................ [ 72%]
+........................................................................ [ 82%]
+........................................................................ [ 93%]
+................................................                         [100%]
+=============================== warnings summary ===============================
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_original_loss_finite_and_equations
+scripts/stage11b0/tests/test_training.py::test_same_seed_initialization_and_scene_order
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+    warnings.warn(msg, SourceChangeWarning)
+
+scripts/stage11b0/tests/test_training.py::test_inference_has_no_future_dependency
+  /home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/functional.py:534: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3595.)
+    return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /home/lrj/HTraj/results/tables/stage11c1r/full_tests.xml -
+695 passed, 1 skipped, 25 warnings in 31.57s

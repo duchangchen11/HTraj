@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "initial_predictor_SHA": "0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9",
+  "new_Adam_state_empty": true,
+  "initial_RNG_SHA": "c011f71b55541d295818dc099115bfe71b982ea75a34452037690646277102b9",
+  "initial_checkpoint": {
+    "path": "experiments/stage11c1r/cache/diagnostic_initial.pt",
+    "sha256": "b5d401ce44376f8c292159facd4941f4bd0c047ca65df21662790ba24e99f5f8",
+    "bytes": 213369400,
+    "save_and_hash_seconds": 0.6530176640080754
+  },
+  "total_parameters": 53155339,
+  "predictor_parameters": 1641381,
+  "segmentation_state_SHA": "79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83",
+  "checkpoint_loaded_for_initialization": false
+}

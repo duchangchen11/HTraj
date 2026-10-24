@@ -1,0 +1,13 @@
+{
+  "GPU_process_failures": [],
+  "GPU_workers_returncodes": [
+    0,
+    0
+  ],
+  "GPU_protocol_numerical_changes": false,
+  "new_tests_failures": 0,
+  "full_pytest_failures": 0,
+  "SKIP_preserved": 1,
+  "QA_only_revisions": "QA_revision_archive.json",
+  "historical_failed_records_preserved": true
+}

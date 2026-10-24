@@ -1,0 +1,86 @@
+{
+  "observed_paths": [
+    {
+      "proposal_device": "cuda:0",
+      "initial_center_device": "cuda:0",
+      "input1_device": "cuda:0",
+      "input2_device": "cuda:0",
+      "requested_device": "cpu",
+      "output_device": "cpu",
+      "choice_cluster_device": "cpu",
+      "center_update_device": "cuda:0",
+      "dtype": "torch.float32"
+    }
+  ],
+  "original_dtype": "float32",
+  "original_unmonitored_isolated_calls": 90,
+  "CPU_unmonitored_diagnostic_calls": 90,
+  "CPU_observed_repeat_calls": 90,
+  "CPU_total_function_calls": 180,
+  "GPU_full_predictor_calls": 366,
+  "GPU_observed_predictor_calls": 180,
+  "raw_KMeans_seconds": {
+    "n": 90,
+    "mean": 0.21669776195420937,
+    "median": 0.18478396249702195,
+    "P90": 0.4107677073974629,
+    "minimum": 0.0111626230063848,
+    "maximum": 0.6214775539992843,
+    "total": 19.502798575878842
+  },
+  "raw_iterations": {
+    "n": 90,
+    "mean": 40.644444444444446,
+    "median": 35.0,
+    "P90": 76.20000000000002,
+    "minimum": 2.0,
+    "maximum": 117.0,
+    "total": 3658.0
+  },
+  "original_seconds_per_iteration": {
+    "n": 90,
+    "mean": 0.005342996820384944,
+    "median": 0.005334767194617351,
+    "P90": 0.00540253028454438,
+    "minimum": 0.0052485215671297,
+    "maximum": 0.0058172530978747,
+    "total": 0.480869713834645
+  },
+  "CPU_seconds_per_iteration": {
+    "n": 90,
+    "mean": 0.004540961466001541,
+    "median": 0.00453513199148925,
+    "P90": 0.0045812007783464295,
+    "minimum": 0.0043162050133105,
+    "maximum": 0.0047944456380029,
+    "total": 0.40868653194013865
+  },
+  "CPU_centers_bitwise_count": 1,
+  "CPU_centers_total": 90,
+  "CPU_center_max_abs_difference": 3.0517578125e-05,
+  "explicit_D2H_bytes_per_iteration": 80152,
+  "explicit_D2H_estimated_total_bytes": 293196016,
+  "explicit_transfer_bytes_are_payload_estimates_not_profiler_measurements": true,
+  "H2D_selection_mask_or_index_payload": "UNVERIFIED; backend-dependent CUDA indexing of CPU choices",
+  "transfer_time_isolated": "UNVERIFIED",
+  "fixed_fraction_transfer_claim": false,
+  "hypothetical1000_iterations_seconds": 5.334767194617351,
+  "historical5second_iteration_count": "UNVERIFIED; old per-call iteration trace not recorded",
+  "CPU_path_comparison_caveats": [
+    "Both timings unmonitored; CPU iteration counts observed in separate identical repeat.",
+    "Device transfer, kernel launch/synchronization, selection, reduction implementation all change jointly.",
+    "Even bitwise agreement on15samples cannot establish equivalence on998 or other checkpoints."
+  ],
+  "iteration_wall_Pearson_descriptive": 0.9997073793755661,
+  "p_value_computed": false,
+  "time_per_iteration_all_states": {
+    "n": 90,
+    "mean": 0.005342996820384944,
+    "median": 0.005334767194617351,
+    "P90": 0.00540253028454438,
+    "minimum": 0.0052485215671297,
+    "maximum": 0.0058172530978747,
+    "total": 0.480869713834645
+  },
+  "no_formal_algorithm_replacement": true
+}

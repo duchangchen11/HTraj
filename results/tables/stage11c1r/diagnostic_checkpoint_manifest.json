@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "role": "DIAGNOSTIC_ONLY",
+  "initial": {
+    "path": "experiments/stage11c1r/cache/diagnostic_initial.pt",
+    "sha256": "b5d401ce44376f8c292159facd4941f4bd0c047ca65df21662790ba24e99f5f8",
+    "bytes": 213369400,
+    "save_and_hash_seconds": 0.6530176640080754
+  },
+  "epoch1": {
+    "path": "experiments/stage11c1r/cache/diagnostic_epoch001.pt",
+    "sha256": "e41a48da5d46f9593dcf32a5fca9ecef58a57f93ce66de51736b60e95b58590d",
+    "bytes": 226580930,
+    "save_and_hash_seconds": 0.6787488340050913
+  },
+  "formal_Stage11C1_checkpoint": false,
+  "reuse_requires_separate_approval": true
+}

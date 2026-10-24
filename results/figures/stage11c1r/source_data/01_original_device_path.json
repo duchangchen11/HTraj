@@ -1,0 +1,41 @@
+{
+  "claim": "Original clustering mixes CPU distance/assignment and CUDA center updates",
+  "archetype": "schematic-led composite",
+  "limitations": "15fixed histories, not998targets; no GT metrics; development recordings already exposed",
+  "data": {
+    "passed": true,
+    "official_commit": "a345ada1557f53dc2acb4c07f71d340d366980da",
+    "license": "Author Y-Net MIT, inherited frozen source",
+    "original_path": "experiments/stage11b0/cache/official/ynet/utils/kmeans.py",
+    "original_SHA": "ef76c293d3ffd9dcebc239f1975a6b987f358966e7b3bdf8c97746f28d4abc2a",
+    "sampler_SHA": "6c9742031ce991fb6f35076090f0cb900df3770c31faab8d9109bb8178ab7238",
+    "evidence": [
+      {
+        "lines": "43-44,73-75,145-158",
+        "fact": "Euclidean function called with two args; defaults device=CPU, both input tensors .to(cpu), distance and argmin CPU"
+      },
+      {
+        "lines": "50-58,77-89",
+        "fact": "X and initial_state remain requestedCUDA, cloning, selected.mean and center update CUDA"
+      },
+      {
+        "lines": "79-84",
+        "fact": "CPU choice mask indexes CUDA X per cluster; actual implicit payload is backend-dependent and not measured here"
+      },
+      {
+        "lines": "16-17,81-82",
+        "fact": "np.random.choice without replacement for19initial centers; empty cluster uses torch.randint onCPU"
+      },
+      {
+        "lines": "92,102-107",
+        "fact": "One pairwise call per main iteration with default list initialization; center_shift squared<.001 tested before iteration>=1000"
+      }
+    ],
+    "float_dtype": "float32; X.float() preserves original",
+    "randomness": "Original per-sample SHA CPU Generator; scoped original NumPy/Torch KMeans seed; no Python hash",
+    "monitor": "sys.setprofile kmeans/pairwise/initialize call and return only; read tensors only after profiling exits",
+    "no_tensor_operations_inside_monitor": true,
+    "mutated_author_source": false,
+    "GT_used": false
+  }
+}

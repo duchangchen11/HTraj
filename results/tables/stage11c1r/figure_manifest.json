@@ -1,0 +1,56 @@
+{
+  "available": [
+    {
+      "name": "01_original_device_path",
+      "claim": "Original clustering mixes CPU distance/assignment and CUDA center updates",
+      "source": "results/figures/stage11c1r/source_data/01_original_device_path.json",
+      "source_SHA": "cb6f8d8adb37efc4e0d2662657f91bbe6df98c293cc6ef50004d4a43623b2220",
+      "PNG_SHA": "7505fb3ad43c0540d949905bc420710aab4314f47c2e758044f1a392ffb93a85",
+      "SVG_SHA": "1e9a7747b885b4ede54d3efb97aff90051a96fabedfa8f43c8ce166d7c85bef2"
+    },
+    {
+      "name": "02_checkpoint_iterations",
+      "claim": "Iterations are measured by pure Python call counting",
+      "source": "results/figures/stage11c1r/source_data/02_checkpoint_iterations.json",
+      "source_SHA": "8290a8f04030c8a4f14f3e8ac07c705b4f3535df1978c004b37f228d1d397f49",
+      "PNG_SHA": "5bfe8a996b2b5f7f8533089ecee47b78df13eaf347b2b0d6462179d86f844b57",
+      "SVG_SHA": "344721fdd2ece9fdd8e85f3cafa8a70985deeaafac11e6fe58f46b7a99a91871"
+    },
+    {
+      "name": "03_iterations_and_wall",
+      "claim": "Unmonitored runtime is paired with independently measured iteration counts",
+      "source": "results/figures/stage11c1r/source_data/03_iterations_and_wall.json",
+      "source_SHA": "dd95d4e8246dcbb569652fbbb2934affb4f47208c8379815e2de2e7af176648d",
+      "PNG_SHA": "dbbf22eef3dc3c5f4636d7e0d40eb95ef4066d678b5c836f5b7665dc843e5e85",
+      "SVG_SHA": "e3a7d9a8760bf09ae524c65fc09e27da7905d99406436cb491466431b8871b2a"
+    },
+    {
+      "name": "04_nosemantic_before_after",
+      "claim": "Initial and post-epoch1 runtime use identical fixed histories",
+      "source": "results/figures/stage11c1r/source_data/04_nosemantic_before_after.json",
+      "source_SHA": "47e9789fb21c4d006c6a14769d0fd9e793e31e2ddd7bd7198d2e534813aa704f",
+      "PNG_SHA": "b68ff045e59766f770c80f88c4645bd5b00951dd4030466a9fe5b2ec1953458c",
+      "SVG_SHA": "115f01d248b571eb89881101e830c57cc18792665a310075895fdf74f7e88655"
+    },
+    {
+      "name": "05_three_budget_scenarios",
+      "claim": "Measured components inform conditional full-run estimates, not completed experiments",
+      "source": "results/figures/stage11c1r/source_data/05_three_budget_scenarios.json",
+      "source_SHA": "93df6db153b1384c5ee76ce6b1a45daac3f4293ee1fc18f5fe9ec17861e73fab",
+      "PNG_SHA": "801720db7d4174557926e24e20fadb33fee663095aa30e479abd354a5cf9226d",
+      "SVG_SHA": "66ea8cfc9e3170bd13bb7a61c708a87ca620a32831e8152035f167aa4167ae51"
+    },
+    {
+      "name": "06_actual_GPU_budget",
+      "claim": "The budget ledger includes complete GPU-related processes and failures",
+      "source": "results/figures/stage11c1r/source_data/06_actual_GPU_budget.json",
+      "source_SHA": "6207c6386ce523cd8546cf66a43362f05907d3c51171a72bef95d6ba0ea01884",
+      "PNG_SHA": "c9f83935d01422cc67e745215b1b8ea794c84a377dfe3389d289951f1f6ba0f9",
+      "SVG_SHA": "ab772b72216e4f9e85835b8fd30856a68ca733164ed3ff6ee69f186406fbe20d"
+    }
+  ],
+  "backend": "Python/matplotlib Agg",
+  "export": "PNG220dpi+editableSVG",
+  "predictions_scored": false,
+  "source_data_required": true
+}

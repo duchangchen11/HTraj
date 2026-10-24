@@ -1,0 +1,47 @@
+{
+  "ENGINEERING_AUDIT": "GO",
+  "KMEANS_ROOT_CAUSE": "PARTIALLY_SUPPORTED",
+  "BUDGET_ADMISSION": "UNCERTAIN",
+  "PROTOCOL_COMPATIBILITY": "PRESERVED",
+  "FORMAL_TRAINING": "NOT_AUTHORIZED",
+  "formal_Stage11C1_epochs": 0,
+  "diagnostic_epochs": 1,
+  "measured_new_metrics": false,
+  "test_loaded": false,
+  "semantic_benefit": "NOT_EVALUATED",
+  "iterations": {
+    "n": 90,
+    "mean": 40.644444444444446,
+    "median": 35.0,
+    "P90": 76.20000000000002,
+    "minimum": 2.0,
+    "maximum": 117.0,
+    "total": 3658.0
+  },
+  "wall_seconds": {
+    "n": 90,
+    "mean": 0.21669776195420937,
+    "median": 0.18478396249702195,
+    "P90": 0.4107677073974629,
+    "minimum": 0.0111626230063848,
+    "maximum": 0.6214775539992843,
+    "total": 19.502798575878842
+  },
+  "seconds_per_iteration": {
+    "n": 90,
+    "mean": 0.005342996820384944,
+    "median": 0.005334767194617351,
+    "P90": 0.00540253028454438,
+    "minimum": 0.0052485215671297,
+    "maximum": 0.0058172530978747,
+    "total": 0.480869713834645
+  },
+  "iteration_wall_correlation": 0.9997073793755661,
+  "transfer_time_fraction": "UNVERIFIED",
+  "CPU_centers_bitwise_count": 1,
+  "CPU_comparisons": 90,
+  "full998_equivalence_not_tested": true,
+  "recommend_budget_review": true,
+  "next_unique_recommendation": "User review of unchanged full-run budget/authorization using measuredEpoch1 and conditional scenarios; no automatic training or sampler replacement",
+  "diagnostic_checkpoint_reuse": "Requires separate approval and strict continuation equivalence; not approved here"
+}

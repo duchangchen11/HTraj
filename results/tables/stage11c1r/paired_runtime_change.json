@@ -1,0 +1,30 @@
+{
+  "targets": 15,
+  "same_IDs": true,
+  "differences": {
+    "iterations": {
+      "lower": 14,
+      "equal": 0,
+      "higher": 1,
+      "mean_delta": -50.93333333333333,
+      "median_delta": -50.0
+    },
+    "wall_seconds": {
+      "lower": 14,
+      "equal": 0,
+      "higher": 1,
+      "mean_delta": -0.27038172506339225,
+      "median_delta": -0.271290331002092
+    },
+    "outer_prediction_seconds": {
+      "lower": 14,
+      "equal": 0,
+      "higher": 1,
+      "mean_delta": -0.28334787672987055,
+      "median_delta": -0.268567097504274
+    }
+  },
+  "GT_used": false,
+  "source_SHA": "4a36041a4f2f433ddb02b0665ba74239055209c5cf0688f4827f3ad67003dbc8",
+  "analysis_code_SHA": "cd6ef7cc41144c4b0e14c3e239a27c9dd9b7a500347b40cb6b24a8b332bf8061"
+}

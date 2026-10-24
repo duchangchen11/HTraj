@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE",
+  "completed_states": [
+    {
+      "state": "NoSemantic-initial",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 53.27036153298104
+    },
+    {
+      "state": "NoSemantic-epoch001",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 24.875766434997786
+    },
+    {
+      "state": "Semantic-epoch001",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 29.89605112298159
+    },
+    {
+      "state": "Semantic-epoch005",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 29.4974495920178
+    },
+    {
+      "state": "Semantic-epoch010",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 37.69279720398481
+    },
+    {
+      "state": "Semantic-epoch030",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 31.5100662340119
+    }
+  ],
+  "failures": [],
+  "GPU_cumulative_seconds": 689.280145865021,
+  "peak_allocated_bytes": 525162496,
+  "peak_reserved_bytes": 914358272
+}

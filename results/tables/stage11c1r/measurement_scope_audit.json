@@ -1,0 +1,41 @@
+{
+  "kind": "Metadata-only scope correction",
+  "finding": "6additional immutablePredictor equality rows logged expected RNG isolation as True without an individual before/after snapshot",
+  "correction": "Only these6fields are now NOT_SEPARATELY_MEASURED; all observed/direct primary pairs really asserted caller RNG unchanged",
+  "actual_passed_RNG_checks": 630,
+  "bitwise_comparisons_unchanged": 276,
+  "numerical_sources_or_outputs_changed": false,
+  "raw_files_preserved": "experiments/stage11c1r/cache/initial_analysis",
+  "corrected_rows": [
+    {
+      "state": "NoSemantic-initial",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    },
+    {
+      "state": "NoSemantic-epoch001",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    },
+    {
+      "state": "Semantic-epoch001",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    },
+    {
+      "state": "Semantic-epoch005",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    },
+    {
+      "state": "Semantic-epoch010",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    },
+    {
+      "state": "Semantic-epoch030",
+      "sample_id": "SDD:bookstore_2:track177:frame3240",
+      "mode": "immutable_original_predictor"
+    }
+  ]
+}

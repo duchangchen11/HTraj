@@ -1,0 +1,43 @@
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torchvision.models.resnet.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.linear.Identity' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/lrj/HTraj/experiments/stage4/venv/lib/python3.10/site-packages/torch/serialization.py:1469: SourceChangeWarning: source code of class 'torch.nn.modules.activation.Softmax' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+DIAGNOSTIC_STEP 100 gates_3 loss 1.945051670074463 elapsed 37.205945030000294
+DIAGNOSTIC_STEP 200 gates_8 loss 0.1734103113412857 elapsed 64.96591885501402
+DIAGNOSTIC_STEP 300 bookstore_3 loss 0.26822125911712646 elapsed 83.61403056501877
+DIAGNOSTIC_STEP 400 deathCircle_1 loss 0.12598831951618195 elapsed 106.6274841449922
+DIAGNOSTIC_STEP 500 deathCircle_1 loss 0.11760503798723221 elapsed 131.48986934899585
+DIAGNOSTIC_STEP 600 nexus_9 loss 0.10138681530952454 elapsed 159.4691208070144
+DIAGNOSTIC_STEP 700 deathCircle_0 loss 0.09176062047481537 elapsed 190.38518944801763
+DIAGNOSTIC_STEP 800 nexus_7 loss 0.10641215741634369 elapsed 220.61798214100418
+DIAGNOSTIC_STEP 900 coupa_3 loss 0.107243612408638 elapsed 246.16505020300974
+DIAGNOSTIC_STEP 1000 coupa_3 loss 0.13846367597579956 elapsed 268.2773211070162
+DIAGNOSTIC_STEP 1100 bookstore_1 loss 0.15732479095458984 elapsed 288.4028028199973
+DIAGNOSTIC_STEP 1200 hyang_5 loss 0.1001833975315094 elapsed 309.39482816899545
+DIAGNOSTIC_STEP 1300 bookstore_0 loss 0.14652027189731598 elapsed 335.16855337499874
+DIAGNOSTIC_STEP 1400 bookstore_0 loss 0.16343358159065247 elapsed 353.3012178759964
+DIAGNOSTIC_STEP 1500 nexus_0 loss 0.10905349254608154 elapsed 373.6164754810161
+DIAGNOSTIC_STEP 1600 nexus_8 loss 0.1034926176071167 elapsed 400.22326697499375
+DIAGNOSTIC_STEP 1700 gates_0 loss 0.09822972118854523 elapsed 417.6832387910108
+DIAGNOSTIC_STEP 1800 nexus_1 loss 0.08306269347667694 elapsed 446.08930425101425
+DIAGNOSTIC_FINISH {'status': 'COMPLETED_DIAGNOSTIC_EPOCH1', 'role': 'DIAGNOSTIC_ONLY', 'formal_training': False, 'formal_Stage11C1_epochs': 0, 'seed': 17, 'epoch': 1, 'global_step': 1882, 'optimizer_updates': 1882, 'test_loaded': False, 'validation_GT_loaded': False, 'trained_predictor_loaded': False, 'source_commit': 'f259323d3af3aeacd635192deae1e33fe43f133f', 'train_seconds': 462.09766270499676, 'target_visits': 7496, 'unique_targets': 7496, 'scene_order': ['gates_1', 'gates_3', 'gates_4', 'hyang_4', 'gates_5', 'gates_8', 'bookstore_3', 'deathCircle_1', 'deathCircle_4', 'nexus_9', 'deathCircle_0', 'nexus_7', 'coupa_3', 'nexus_3', 'deathCircle_2', 'hyang_9', 'bookstore_1', 'hyang_5', 'bookstore_0', 'nexus_0', 'gates_6', 'nexus_8', 'hyang_6', 'gates_0', 'nexus_1'], 'scene_order_SHA': 'cf50688fb7770090e6581f6b096372a3899e8999f87ad431018f365aefa2b8dc', 'visit_order_SHA': '829beaaf1185d096795dc28517e915d2009d75cae83d0dff2bc03273a40331df', 'training_loss': 28.301585005321954, 'goal_loss': 14.81841709434175, 'path_loss': 13.483167609814634, 'initial_predictor_SHA': '0992e8b31410e14ca141902b201ce4e061c85fd31668c74b4e1944a2656169e9', 'final_predictor_SHA': '017a05c414e1c3c74a32d27631ea7b6885b0c80c7082e159ce8a07692c635b7d', 'segmentation_state_SHA': '79bd03ee82eea39723c27cba241f961669a53d2c47e7f26d4dce3b7bc949bd83', 'segmentation_unchanged': True, 'semantic_zero_nonzero_count': 0, 'semantic_forward_calls': 0, 'strict_checkpoint_restore_model_optimizer_RNG': True, 'sampling_before_checkpoint': False, 'peak_allocated_bytes': 2631057408, 'peak_reserved_bytes': 4410310656, 'checkpoint': {'path': 'experiments/stage11c1r/cache/diagnostic_epoch001.pt', 'sha256': 'e41a48da5d46f9593dcf32a5fca9ecef58a57f93ce66de51736b60e95b58590d', 'bytes': 226580930, 'save_and_hash_seconds': 0.6787488340050913}, 'GPU_cumulative_worker_seconds': 471.2794754880015}

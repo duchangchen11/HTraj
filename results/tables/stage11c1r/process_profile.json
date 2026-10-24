@@ -1,0 +1,13 @@
+{
+  "worker": "profile",
+  "source_commit": "f259323d3af3aeacd635192deae1e33fe43f133f",
+  "returncode": 0,
+  "wall_seconds": 217.7994584760163,
+  "Stage11C1RUsed": 689.94988728303,
+  "OriginalStage11C1Used": 66.67494837602135,
+  "CombinedUsed": 756.6248356590513,
+  "hard_seconds": 2400,
+  "safety_seconds": 2250,
+  "parent_timeout_seconds": 1777.8495711929863,
+  "includes": "Startup,imports,model load,training/inference,serialization and process exit; failures included"
+}

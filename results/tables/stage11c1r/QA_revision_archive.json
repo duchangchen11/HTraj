@@ -1,0 +1,105 @@
+{
+  "reason": "Display axes/legend improvement and clearer budget recommendation; all measured data unchanged",
+  "files": [
+    {
+      "path": "results/figures/stage11c1r/02_checkpoint_iterations.png",
+      "sha256": "3d1f99b16584650e780644e71d8077fc19a5275cc5993c56256b6df59cd5c5d3"
+    },
+    {
+      "path": "results/figures/stage11c1r/04_nosemantic_before_after.svg",
+      "sha256": "15a45db0401c1b401783fa3bd66dce5c7661e09fc16930619b396ab9d1274f89"
+    },
+    {
+      "path": "results/figures/stage11c1r/06_actual_GPU_budget.svg",
+      "sha256": "1c3b812e31be35cd52433ba2c376f3e875393222e6031886b3256a18e61cdd5a"
+    },
+    {
+      "path": "results/figures/stage11c1r/01_original_device_path.png",
+      "sha256": "7505fb3ad43c0540d949905bc420710aab4314f47c2e758044f1a392ffb93a85"
+    },
+    {
+      "path": "results/figures/stage11c1r/02_checkpoint_iterations.svg",
+      "sha256": "7c0d1fb1ef05cadc6189ae37d525ad519320ebe583251b63ee9dfbef400e1049"
+    },
+    {
+      "path": "results/figures/stage11c1r/03_iterations_and_wall.png",
+      "sha256": "dbbf22eef3dc3c5f4636d7e0d40eb95ef4066d678b5c836f5b7665dc843e5e85"
+    },
+    {
+      "path": "results/figures/stage11c1r/05_three_budget_scenarios.png",
+      "sha256": "801720db7d4174557926e24e20fadb33fee663095aa30e479abd354a5cf9226d"
+    },
+    {
+      "path": "results/figures/stage11c1r/06_actual_GPU_budget.png",
+      "sha256": "95ef180e8d24b51f87df84d7960d4ec7e25e78e486ba88bb3aafe336a21d8aaa"
+    },
+    {
+      "path": "results/figures/stage11c1r/04_nosemantic_before_after.png",
+      "sha256": "b68ff045e59766f770c80f88c4645bd5b00951dd4030466a9fe5b2ec1953458c"
+    },
+    {
+      "path": "results/figures/stage11c1r/05_three_budget_scenarios.svg",
+      "sha256": "069f4f1cf3d190662291ac46111800016e82d67dd732dddc6508ba388c51f40c"
+    },
+    {
+      "path": "results/figures/stage11c1r/01_original_device_path.svg",
+      "sha256": "7a9a031ba2430a49521a55d763e4b151c98e4ee87d38e037481d94531bcf10db"
+    },
+    {
+      "path": "results/figures/stage11c1r/03_iterations_and_wall.svg",
+      "sha256": "90feeb7bf8c74e3ed94e6f381f1ffab9015524b3b23a4ec78c281dc1a7aa3307"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/02_checkpoint_iterations.json",
+      "sha256": "8290a8f04030c8a4f14f3e8ac07c705b4f3535df1978c004b37f228d1d397f49"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/03_iterations_and_wall.json",
+      "sha256": "dd95d4e8246dcbb569652fbbb2934affb4f47208c8379815e2de2e7af176648d"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/01_original_device_path.json",
+      "sha256": "cb6f8d8adb37efc4e0d2662657f91bbe6df98c293cc6ef50004d4a43623b2220"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/04_nosemantic_before_after.json",
+      "sha256": "47e9789fb21c4d006c6a14769d0fd9e793e31e2ddd7bd7198d2e534813aa704f"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/05_three_budget_scenarios.json",
+      "sha256": "93df6db153b1384c5ee76ce6b1a45daac3f4293ee1fc18f5fe9ec17861e73fab"
+    },
+    {
+      "path": "results/figures/stage11c1r/source_data/06_actual_GPU_budget.json",
+      "sha256": "6207c6386ce523cd8546cf66a43362f05907d3c51171a72bef95d6ba0ea01884"
+    },
+    {
+      "path": "reports/stage11c1r/01_KMEANS_SOURCE_AUDIT.md",
+      "sha256": "56cb8d3a9e1805c6e209a79d96a6b048525555c9193184d54bc9c0af2dc4bb16"
+    },
+    {
+      "path": "reports/stage11c1r/STAGE11C1R_REPORT.md",
+      "sha256": "87b868f75356bc054d05dd03513061e660e216a1bd5eccdcd2c1602c184c6454"
+    },
+    {
+      "path": "reports/stage11c1r/05_ENGINEERING_ACCELERATION_RISKS.md",
+      "sha256": "f5e16bf37a810de22241ec20adecf7dd55ccf0461082c2b15932642c66946d02"
+    },
+    {
+      "path": "reports/stage11c1r/03_DIAGNOSTIC_EPOCH1.md",
+      "sha256": "a5d48f1e86f76661d96df564ffec793b650de202b1455e97e1cdce7247753817"
+    },
+    {
+      "path": "reports/stage11c1r/04_FULL_TRAINING_BUDGET_ESTIMATE.md",
+      "sha256": "466f62094429008559ffbfa084493156e7b68d26fa05260a47fb466694737946"
+    },
+    {
+      "path": "reports/stage11c1r/02_RUNTIME_PROFILING.md",
+      "sha256": "b485c8bd131a5be8e28000cb3da7801093cbe67a7a784f1deac82edbff46116f"
+    },
+    {
+      "path": "reports/stage11c1r/06_FINAL_ADMISSION_DECISION.md",
+      "sha256": "158f1a6cafd005fb48ec6e0e1323d5e4dfe6f0502295fe55039023956771cbf4"
+    }
+  ]
+}

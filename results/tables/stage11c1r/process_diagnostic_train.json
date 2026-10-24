@@ -1,0 +1,13 @@
+{
+  "worker": "diagnostic_train",
+  "source_commit": "f259323d3af3aeacd635192deae1e33fe43f133f",
+  "returncode": 0,
+  "wall_seconds": 472.15042880701367,
+  "Stage11C1RUsed": 472.15042880701367,
+  "OriginalStage11C1Used": 66.67494837602135,
+  "CombinedUsed": 538.825377183035,
+  "hard_seconds": 2400,
+  "safety_seconds": 2250,
+  "parent_timeout_seconds": 2250,
+  "includes": "Startup,imports,model load,training/inference,serialization and process exit; failures included"
+}

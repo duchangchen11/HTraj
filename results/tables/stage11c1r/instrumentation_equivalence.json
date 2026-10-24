@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "complete_states": [
+    {
+      "state": "NoSemantic-initial",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 53.27036153298104
+    },
+    {
+      "state": "NoSemantic-epoch001",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 24.875766434997786
+    },
+    {
+      "state": "Semantic-epoch001",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 29.89605112298159
+    },
+    {
+      "state": "Semantic-epoch005",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 29.4974495920178
+    },
+    {
+      "state": "Semantic-epoch010",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 37.69279720398481
+    },
+    {
+      "state": "Semantic-epoch030",
+      "targets": 15,
+      "passes": 4,
+      "seconds": 31.5100662340119
+    }
+  ],
+  "expected_states": 6,
+  "expected_targets_per_state": 15,
+  "comparisons": 276,
+  "all_observed_checks_bitwise": true,
+  "random_state_unchanged": true,
+  "failures": [],
+  "formal_predictor_modified": false,
+  "test_loaded": false,
+  "GT_loaded": false,
+  "metrics_computed": false,
+  "RNG_measurement_scope": "All360primary full-prediction calls,90isolatedGPUKMeans calls,and180CPUdiagnostic calls were individually checked. The6additional immutablePredictor output checks did not separately snapshot RNG.",
+  "RNG_checked_primary_prediction_calls": 360,
+  "RNG_checked_isolated_GPUKMeans_calls": 90,
+  "RNG_checked_CPUKMeans_calls": 180,
+  "additional_immutable_predictor_RNG_status": "NOT_SEPARATELY_MEASURED"
+}
